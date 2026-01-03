@@ -1,219 +1,120 @@
 const questions4 = [
 
-/* =========================
-   EXACT TRIGONOMETRY
-========================= */
-{
-  topic: "Exact Trigonometry",
-  question: "Solve \\(\\sin x = \\tfrac{\\sqrt{3}}{2}\\) for \\(0^\\circ \\le x < 360^\\circ\\).",
-  solution: "\\(x = 60^\\circ, 120^\\circ\\)"
-},
-{
-  topic: "Exact Trigonometry",
-  question: "Solve \\(2\\cos x = 1\\) for \\(0^\\circ \\le x < 360^\\circ\\).",
-  solution: "\\(x = 60^\\circ, 300^\\circ\\)"
-},
-{
-  topic: "Exact Trigonometry",
-  question: "Solve \\(\\tan x = -1\\) for \\(0^\\circ \\le x < 360^\\circ\\).",
-  solution: "\\(x = 135^\\circ, 315^\\circ\\)"
-},
-{
-  topic: "Exact Trigonometry",
-  question: "Solve \\(\\sin x = -\\tfrac{1}{2}\\) for \\(0^\\circ \\le x < 360^\\circ\\).",
-  solution: "\\(x = 210^\\circ, 330^\\circ\\)"
-},
+  /* =====================================================
+     FOUNDATION (4 MARKS)
+     ===================================================== */
 
-/* =========================
-   PERPENDICULAR LINES & TANGENTS
-========================= */
-{
-  topic: "Perpendicular Lines & Tangents",
-  question: "The curve has equation \\(y = x^2 - 4x + 1\\). Find the equation of the tangent at the point where \\(x = 3\\).",
-  solution: "Gradient \\(= 2x - 4 = 2\\). Point \\((3, -2)\\). Tangent: \\(y = 2x - 8\\)"
-},
-{
-  topic: "Perpendicular Lines & Tangents",
-  question: "Find the equation of the line perpendicular to \\(y = -\\tfrac{1}{2}x + 7\\) that passes through \\((4,1)\\).",
-  solution: "Gradient \\(= 2\\). Equation: \\(y = 2x - 7\\)"
-},
-{
-  topic: "Perpendicular Lines & Tangents",
-  question: "The gradient of a tangent to the curve \\(y = x^2 + 2x\\) is 6. Find the coordinates of the point of contact.",
-  solution: "Solve \\(2x + 2 = 6\\). \\(x = 2\\). \\(y = 8\\). Point \\((2,8)\\)"
-},
-{
-  topic: "Perpendicular Lines & Tangents",
-  question: "Find the equation of the normal to the curve \\(y = x^2\\) at the point \\((1,1)\\).",
-  solution: "Tangent gradient = 2, normal gradient = \\(-\\tfrac{1}{2}\\). Equation: \\(y - 1 = -\\tfrac{1}{2}(x - 1)\\)"
-},
+  {
+    topic: "Trigonometry",
+    level: "Foundation",
+    question: "A right-angled triangle has one angle of 30° and a hypotenuse of 10 cm. Calculate the length of the side opposite the 30° angle.",
+    solution: "Use sine: sin 30° = opposite / hypotenuse. Opposite = 10 × 0.5 = 5 cm."
+  },
 
-/* =========================
-   QUADRATIC INEQUALITIES
-========================= */
-{
-  topic: "Quadratic Inequalities",
-  question: "Solve the inequality \\(x^2 - 5x + 6 \\le 0\\).",
-  solution: "Roots: \\(x=2,3\\). Solution: \\(2 \\le x \\le 3\\)"
-},
-{
-  topic: "Quadratic Inequalities",
-  question: "Solve \\(x^2 + 4x - 5 > 0\\).",
-  solution: "Roots: \\(x=-5,1\\). Solution: \\(x < -5\\) or \\(x > 1\\)"
-},
-{
-  topic: "Quadratic Inequalities",
-  question: "Solve \\(2x^2 - 3x - 2 < 0\\).",
-  solution: "Roots: \\(x = -\\tfrac{1}{2}, 2\\). Solution: \\(-\\tfrac{1}{2} < x < 2\\)"
-},
-{
-  topic: "Quadratic Inequalities",
-  question: "Solve \\((x-1)(x+4) \\ge 0\\).",
-  solution: "\\(x \\le -4\\) or \\(x \\ge 1\\)"
-},
+  {
+    topic: "Linear Graphs",
+    level: "Foundation",
+    question: "The line has equation \\( y = 2x + 1 \\). Write down the gradient. Find the value of y when x = 4.",
+    solution: "The gradient is 2. Substituting x = 4 gives y = 2(4) + 1 = 9."
+  },
 
-/* =========================
-   NTH TERM OF A QUADRATIC SEQUENCE
-========================= */
-{
-  topic: "Quadratic Sequences",
-  question: "The sequence is \\(2, 7, 16, 29, \\dots\\). Find an expression for the nth term.",
-  solution: "\\(n^2 + 1\\)"
-},
-{
-  topic: "Quadratic Sequences",
-  question: "The sequence is \\(1, 6, 15, 28, \\dots\\). Find the nth term.",
-  solution: "\\(n^2 + n\\)"
-},
-{
-  topic: "Quadratic Sequences",
-  question: "The sequence is \\(3, 10, 21, 36, \\dots\\). Find the nth term.",
-  solution: "\\(n^2 + 2n\\)"
-},
-{
-  topic: "Quadratic Sequences",
-  question: "The nth term of a sequence is \\(an^2 + bn + c\\). The first three terms are 4, 11, 22. Find \\(a,b,c\\).",
-  solution: "\\(a=2, b=1, c=1\\)"
-},
+  {
+    topic: "Probability",
+    level: "Foundation",
+    question: "A bag contains 3 red and 5 blue counters. One counter is chosen at random, then replaced. Find the probability of picking two red counters.",
+    solution: "Probability of red = 3/8. With replacement: (3/8)² = 9/64."
+  },
 
-/* =========================
-   QUADRATIC SIMULTANEOUS EQUATIONS
-========================= */
-{
-  topic: "Quadratic Simultaneous Equations",
-  question: "Solve the simultaneous equations \\(y = x^2 - 1\\) and \\(y = 3x - 5\\).",
-  solution: "Solve \\(x^2 - 1 = 3x - 5\\). \\(x^2 - 3x + 4 = 0\\). \\(x=1,4\\)"
-},
-{
-  topic: "Quadratic Simultaneous Equations",
-  question: "Solve \\(y = x^2\\) and \\(y = 4x - 3\\).",
-  solution: "Solve \\(x^2 = 4x - 3\\). \\(x=1,3\\)"
-},
-{
-  topic: "Quadratic Simultaneous Equations",
-  question: "Solve \\(y = x^2 + x\\) and \\(y = 6\\).",
-  solution: "Solve \\(x^2 + x - 6 = 0\\). \\(x=2,-3\\)"
-},
-{
-  topic: "Quadratic Simultaneous Equations",
-  question: "Solve \\(y = x^2 - 4x\\) and \\(y = -x\\).",
-  solution: "Solve \\(x^2 - 3x = 0\\). \\(x=0,3\\)"
-},
+  {
+    topic: "Algebra",
+    level: "Foundation",
+    question: "Solve the equation \\( 4(2x - 1) = 3x + 11 \\).",
+    solution: "Expand: 8x − 4 = 3x + 11. Subtract 3x and add 4: 5x = 15, so x = 3."
+  },
 
-/* =========================
-   INVERSE & COMPOSITE FUNCTIONS
-========================= */
-{
-  topic: "Functions",
-  question: "Given \\(f(x)=2x+5\\), find \\(f^{-1}(x)\\).",
-  solution: "\\(f^{-1}(x)=\\tfrac{x-5}{2}\\)"
-},
-{
-  topic: "Functions",
-  question: "Given \\(f(x)=x^2+1\\) for \\(x \\ge 0\\), find \\(f^{-1}(x)\\).",
-  solution: "\\(f^{-1}(x)=\\sqrt{x-1}\\)"
-},
-{
-  topic: "Functions",
-  question: "Given \\(f(x)=3x-2\\) and \\(g(x)=x^2\\), find \\(f(g(x))\\).",
-  solution: "\\(3x^2 - 2\\)"
-},
-{
-  topic: "Functions",
-  question: "Find \\(g(f(x))\\) where \\(f(x)=x+1\\) and \\(g(x)=2x\\).",
-  solution: "\\(2x + 2\\)"
-},
+  /* =====================================================
+     CROSSOVER (4 MARKS)
+     ===================================================== */
 
-/* =========================
-   REARRANGING FORMULAE (FACTORISING)
-========================= */
-{
-  topic: "Rearranging Formulae",
-  question: "Make \\(x\\) the subject of \\(y = x(x + 4)\\).",
-  solution: "\\(x^2 + 4x - y = 0\\), solve using quadratic formula"
-},
-{
-  topic: "Rearranging Formulae",
-  question: "Make \\(r\\) the subject of \\(A = \\pi r(r + h)\\).",
-  solution: "Rearrange to quadratic in \\(r\\), then solve"
-},
-{
-  topic: "Rearranging Formulae",
-  question: "Make \\(x\\) the subject of \\(y = 3x(2x - 1)\\).",
-  solution: "Quadratic in \\(x\\), solve using formula"
-},
-{
-  topic: "Rearranging Formulae",
-  question: "Make \\(t\\) the subject of \\(s = ut + at(t-1)\\).",
-  solution: "Expand, rearrange, solve quadratic"
-},
+  {
+    topic: "Quadratic Inequalities",
+    level: "Crossover",
+    question: "Solve the inequality \\( x^2 - 9 < 0 \\).",
+    solution: "Factorising gives (x − 3)(x + 3) < 0, so −3 < x < 3."
+  },
 
-/* =========================
-   PROOF
-========================= */
-{
-  topic: "Proof",
-  question: "Prove that the sum of two consecutive odd numbers is always a multiple of 4.",
-  solution: "Let numbers be \\(2n+1\\) and \\(2n+3\\). Sum = \\(4n+4 = 4(n+1)\\)"
-},
-{
-  topic: "Proof",
-  question: "Prove that \\(n^2 - n\\) is always even.",
-  solution: "\\(n(n-1)\\), one factor is even"
-},
-{
-  topic: "Proof",
-  question: "Prove that the product of two consecutive integers is always even.",
-  solution: "One must be even"
-},
-{
-  topic: "Proof",
-  question: "Prove that the square of an odd number is odd.",
-  solution: "\\((2n+1)^2 = 4n^2 + 4n + 1\\)"
-},
+  {
+    topic: "Pythagoras and Trigonometry",
+    level: "Crossover",
+    question: "A ladder leans against a wall making an angle of 70° with the ground. The ladder is 5 m long. Calculate the height the ladder reaches on the wall.",
+    solution: "Use sine: height = 5 sin 70° ≈ 4.7 m."
+  },
 
-/* =========================
-   PROBABILITY & EQUATIONS
-========================= */
-{
-  topic: "Probability",
-  question: "A bag contains red and blue counters. The probability of picking a red counter is \\(\\tfrac{2}{5}\\). There are 6 blue counters. Find the number of red counters.",
-  solution: "Let red = x. \\(\\tfrac{x}{x+6}=\\tfrac{2}{5}\\). \\(x=4\\)"
-},
-{
-  topic: "Probability",
-  question: "The probability of winning a game is \\(p\\). The probability of losing is \\(2p\\). Find \\(p\\).",
-  solution: "\\(p + 2p = 1\\). \\(p=\\tfrac{1}{3}\\)"
-},
-{
-  topic: "Probability",
-  question: "A spinner has probabilities \\(x\\), \\(2x\\) and \\(3x\\). Find the probability of the largest outcome.",
-  solution: "\\(6x=1\\). Largest = \\(\\tfrac{1}{2}\\)"
-},
-{
-  topic: "Probability",
-  question: "The probability of rain on Monday is \\(p\\). On Tuesday it is \\(p+0.2\\). The total probability is 1. Find \\(p\\).",
-  solution: "\\(2p+0.2=1\\). \\(p=0.4\\)"
-}
+  {
+    topic: "Sequences",
+    level: "Crossover",
+    question: "The first three terms of a sequence are 2, 6, 12. Show that the sequence is quadratic and find the nth term.",
+    solution: "Differences are 4, 6 → second difference is 2. nth term is n² + n."
+  },
+
+  {
+    topic: "Algebraic Fractions",
+    level: "Crossover",
+    question: "Simplify \\( \\frac{3x}{x^2 - x} \\). State any values of x for which the expression is undefined.",
+    solution: "Factor denominator: x(x − 1). Cancels to 3/(x − 1). Undefined when x = 0 or x = 1."
+  },
+
+  /* =====================================================
+     HIGHER (4 MARKS)
+     ===================================================== */
+
+  {
+    topic: "Exact Trigonometry",
+    level: "Higher",
+    question: "Show that \\( \\tan 30^\\circ = \\frac{1}{\\sqrt{3}} \\). Hence find the exact value of \\( \\tan 60^\\circ \\).",
+    solution: "Using a 30–60–90 triangle gives tan 30° = 1/√3. Therefore tan 60° = √3."
+  },
+
+  {
+    topic: "Perpendicular Lines and Tangents",
+    level: "Higher",
+    question: "The line \\( y = 3x - 4 \\) is tangent to a curve at point A. Show that the gradient of the normal at A is \\( -\\frac{1}{3} \\). Hence find the equation of the normal passing through \\( (2, 2) \\).",
+    solution: "Perpendicular gradients multiply to −1, so normal gradient is −1/3. Equation: y − 2 = −1/3(x − 2)."
+  },
+
+  {
+    topic: "Nth Term of a Quadratic Sequence",
+    level: "Higher",
+    question: "The first three terms of a sequence are 3, 8, 15. Show that the sequence is quadratic and find an expression for the nth term.",
+    solution: "First differences: 5, 7 → second difference = 2. nth term is n² + 2n."
+  },
+
+  {
+    topic: "Quadratic Simultaneous Equations",
+    level: "Higher",
+    question: "Solve the simultaneous equations \\( y = x^2 - 1 \\) and \\( y = 2x + 3 \\).",
+    solution: "Equating gives x² − 1 = 2x + 3 → x² − 2x − 4 = 0 → x = 1 ± √5."
+  },
+
+  {
+    topic: "Rearranging Formulae",
+    level: "Higher",
+    question: "Make \\( x \\) the subject of the formula \\( y = x(a + bx) \\).",
+    solution: "Rearrange to bx² + ax − y = 0. Using the quadratic formula gives x = [−a ± √(a² + 4by)] / (2b)."
+  },
+
+  {
+    topic: "Proof",
+    level: "Higher",
+    question: "Prove that the square of any odd number is also odd.",
+    solution: "Let an odd number be 2n + 1. Squaring gives 4n² + 4n + 1 = 2(2n² + 2n) + 1, which is odd."
+  },
+
+  {
+    topic: "Probability",
+    level: "Higher",
+    question: "A bag contains 4 red and 6 blue counters. Two counters are chosen at random without replacement. Show that the probability of choosing two counters of the same colour is \\( \\frac{7}{15} \\).",
+    solution: "P(two red) = 4/10 × 3/9 = 2/15. P(two blue) = 6/10 × 5/9 = 5/15. Total = 7/15."
+  }
 
 ];

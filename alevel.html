@@ -9,13 +9,15 @@
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="alevelquestions.js"></script>
-<style>body {
+
+<style>
+body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   background-color: #f0f4f8;
   color: #333;
-}</style>
-
+}
+</style>
 
 <script src="common.js"></script>
 </head>
@@ -45,6 +47,8 @@
 <div class="topic-toolbar">
   <div class="topic-wrapper"><label>Question 1 Topic</label><select id="topic1"></select></div>
   <div class="topic-wrapper"><label>Question 2 Topic</label><select id="topic2"></select></div>
+  <div class="topic-wrapper"><label>Question 3 Topic</label><select id="topic3"></select></div>
+  <div class="topic-wrapper"><label>Question 4 Topic</label><select id="topic4"></select></div>
   <div class="topic-wrapper"><button onclick="loadALevelTopicQuestions()">Load Topic Questions</button></div>
 </div>
 
@@ -60,8 +64,11 @@ function getSelectedYear() {
 // ---------------- TOPICS ----------------
 function populateTopicsALevel() {
   const year = getSelectedYear();
-  const topics = [...new Set(alevelQuestions.filter(q => q.level === year).map(q => q.topic))];
-  ["topic1", "topic2"].forEach(id => {
+  const topics = [...new Set(
+    alevelQuestions.filter(q => q.level === year).map(q => q.topic)
+  )];
+
+  ["topic1", "topic2", "topic3", "topic4"].forEach(id => {
     const sel = document.getElementById(id);
     sel.innerHTML = "";
     topics.forEach(t => {
@@ -92,22 +99,22 @@ function createBoxALevel(q, index) {
   sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
   box.appendChild(sol);
 
-  // Toggle solution on click
-  box.onclick = () => sol.style.display = sol.style.display === "none" ? "block" : "none";
+  box.onclick = () =>
+    sol.style.display = sol.style.display === "none" ? "block" : "none";
 
-  // ---------------- Refresh button ----------------
+  // Refresh button
   const r = document.createElement("div");
   r.className = "refresh-btn";
   r.innerHTML = "↻";
   r.title = "Refresh this question";
   r.onclick = e => {
-    e.stopPropagation(); // prevent toggling solution
+    e.stopPropagation();
     const year = getSelectedYear();
     const pool = alevelQuestions.filter(q => q.level === year);
     let nq;
     do {
       nq = randomFrom(pool);
-    } while (nq.question === q.question && pool.length > 1); // avoid same question
+    } while (nq.question === q.question && pool.length > 1);
     qt.innerHTML = nq.question;
     sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
     h.innerHTML = `Question ${index + 1}: ${nq.topic}`;
@@ -118,14 +125,16 @@ function createBoxALevel(q, index) {
   document.getElementById("questions").appendChild(box);
 }
 
-// ---------------- LOAD QUESTIONS ----------------
+// ---------------- LOAD RANDOM QUESTIONS ----------------
 function loadALevelQuestions() {
   document.getElementById("questions").innerHTML = "";
   const year = getSelectedYear();
   const pool = alevelQuestions.filter(q => q.level === year);
-  for (let i = 0; i < 2; i++) {
+
+  for (let i = 0; i < 4; i++) {
     createBoxALevel(randomFrom(pool), i);
   }
+
   populateTopicsALevel();
   MathJax.typeset();
 }
@@ -135,11 +144,14 @@ function loadALevelTopicQuestions() {
   document.getElementById("questions").innerHTML = "";
   const year = getSelectedYear();
 
-  ["topic1", "topic2"].forEach((id, i) => {
+  ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
     const topic = document.getElementById(id).value;
-    const filtered = alevelQuestions.filter(q => q.level === year && q.topic === topic);
+    const filtered = alevelQuestions.filter(
+      q => q.level === year && q.topic === topic
+    );
     if (filtered.length) createBoxALevel(randomFrom(filtered), i);
   });
+
   MathJax.typeset();
 }
 
@@ -158,20 +170,32 @@ function printALevelQuestions() {
       <style>
         @page { size:A4; margin:5mm; }
         body { margin:0; font-family:Inter, Arial, sans-serif; }
-        .page { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
-        .box { border:1px solid black; padding:8px; font-size:14px; min-height:200px; }
+        .page {
+          display:grid;
+          grid-template-columns:1fr 1fr;
+          gap:8px;
+        }
+        .box {
+          border:1px solid black;
+          padding:8px;
+          font-size:14px;
+          min-height:220px;
+        }
       </style>
       <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
     </head>
     <body>
       <div class="page">
-        ${questions.map(q => `<div class="box"><strong>${q.header}</strong><br>${q.question}</div>`).join("")}
+        ${questions.map(q =>
+          `<div class="box"><strong>${q.header}</strong><br>${q.question}</div>`
+        ).join("")}
       </div>
     </body>
     </html>
   `);
   win.document.close();
-  win.onload = () => win.MathJax.typesetPromise().then(() => win.print());
+  win.onload = () =>
+    win.MathJax.typesetPromise().then(() => win.print());
 }
 
 // INIT
@@ -180,9 +204,8 @@ loadALevelQuestions();
 </script>
 
 <script>
-  createNavBar();
+  createNavBar("alevel.html");
 </script>
-
 
 </body>
 </html>

@@ -1,0 +1,536 @@
+const l2FurtherQuestions = [
+
+/* ---------------- DOMAIN AND RANGE ---------------- */
+
+{
+  topic: "Domain and Range",
+  question: "Find the domain and range of \\(f(x) = \\sqrt{2x - 3}\\).",
+  solution: "For the square root to be defined: 2x − 3 ≥ 0 ⇒ x ≥ 3/2. Domain: x ≥ 3/2. Range: y ≥ 0."
+},
+{
+  topic: "Domain and Range",
+  question: "State the domain of \\(f(x) = \\frac{1}{x - 4}\\).",
+  solution: "The denominator cannot be zero, so x ≠ 4."
+},
+{
+  topic: "Domain and Range",
+  question: "Find the range of \\(f(x) = x^2 + 1\\).",
+  solution: "Since x² ≥ 0, f(x) ≥ 1. Range: y ≥ 1."
+},
+{
+  topic: "Domain and Range",
+  question: "Find the domain of \\(f(x) = \\sqrt{5 - x}\\).",
+  solution: "5 − x ≥ 0 ⇒ x ≤ 5."
+},
+{
+  topic: "Domain and Range",
+  question: "State the domain of \\(f(x) = \\frac{3}{2x + 1}\\).",
+  solution: "2x + 1 ≠ 0 ⇒ x ≠ −1/2."
+},
+{
+  topic: "Domain and Range",
+  question: "Find the range of \\(f(x) = 2x^2 - 3\\).",
+  solution: "Minimum occurs at x = 0 giving y = −3. Range: y ≥ −3."
+},
+{
+  topic: "Domain and Range",
+  question: "Find the domain of \\(f(x) = \\sqrt{x^2 - 4}\\).",
+  solution: "x² − 4 ≥ 0 ⇒ |x| ≥ 2 ⇒ x ≤ −2 or x ≥ 2."
+},
+{
+  topic: "Domain and Range",
+  question: "State the range of \\(f(x) = |x - 2|\\).",
+  solution: "Absolute values are non-negative. Range: y ≥ 0."
+},
+{
+  topic: "Domain and Range",
+  question: "Find the domain of \\(f(x) = \\frac{1}{x^2 - 9}\\).",
+  solution: "x² − 9 ≠ 0 ⇒ x ≠ ±3."
+},
+{
+  topic: "Domain and Range",
+  question: "Find the range of \\(f(x) = -x^2 + 4\\).",
+  solution: "Maximum occurs at x = 0 giving y = 4. Range: y ≤ 4."
+},
+
+/* ---------------- EQUATIONS OF CIRCLES ---------------- */
+
+{
+  topic: "Equations of Circles",
+  question: "Write down the centre and radius of the circle \\(x^2 + y^2 = 16\\).",
+  solution: "Centre (0,0), radius 4."
+},
+{
+  topic: "Equations of Circles",
+  question: "Find the equation of the circle with centre (3, −1) and radius 5.",
+  solution: "(x − 3)² + (y + 1)² = 25."
+},
+{
+  topic: "Equations of Circles",
+  question: "State the centre and radius of \\((x − 2)^2 + (y + 4)^2 = 9\\).",
+  solution: "Centre (2, −4), radius 3."
+},
+{
+  topic: "Equations of Circles",
+  question: "Does the point (6, 2) lie on the circle \\((x − 2)^2 + (y − 2)^2 = 16\\)?",
+  solution: "Substitute: (6−2)² + (2−2)² = 16. Yes, it lies on the circle."
+},
+{
+  topic: "Equations of Circles",
+  question: "Find the equation of the circle with diameter endpoints A(2,1) and B(6,1).",
+  solution: "Centre is midpoint (4,1), radius = 2. Equation: (x−4)² + (y−1)² = 4."
+},
+{
+  topic: "Equations of Circles",
+  question: "Find the radius of the circle \\(x^2 + y^2 - 4x + 6y = 3\\).",
+  solution: "Complete the square: (x−2)² + (y+3)² = 16 ⇒ radius = 4."
+},
+{
+  topic: "Equations of Circles",
+  question: "Find the equation of the circle with centre (−1,2) passing through (2,6).",
+  solution: "Radius = √[(3)² + (4)²] = 5. Equation: (x+1)² + (y−2)² = 25."
+},
+{
+  topic: "Equations of Circles",
+  question: "Show that the point (1, −2) lies inside the circle \\(x^2 + y^2 = 9\\).",
+  solution: "1² + (−2)² = 5 < 9, so the point lies inside."
+},
+{
+  topic: "Equations of Circles",
+  question: "Find the equation of the circle centred at the origin passing through (−3,4).",
+  solution: "Radius = 5. Equation: x² + y² = 25."
+},
+{
+  topic: "Equations of Circles",
+  question: "Determine whether the line y = 2x intersects the circle x² + y² = 5.",
+  solution: "Substitute y = 2x: x² + 4x² = 5 ⇒ x² = 1 ⇒ intersects."
+},
+
+/* ---------------- LIMITING VALUES OF SEQUENCES ---------------- */
+
+{
+  topic: "Limiting Values of Sequences",
+  question: "Find the limiting value of the sequence defined by \\(u_n = 5 - \\frac{2}{n}\\).",
+  solution: "As n → ∞, 2/n → 0, so the limit is 5."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Determine the limit of \\(u_n = \\frac{3n + 1}{n}\\).",
+  solution: "Divide by n: u_n = 3 + 1/n → 3."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Find the limiting value of \\(u_n = \\frac{4}{n^2}\\).",
+  solution: "As n → ∞, n² → ∞ so u_n → 0."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Find the limit of \\(u_n = 7 + \\frac{5}{n}\\).",
+  solution: "Limit is 7."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "State the limiting value of \\(u_n = \\frac{2n}{n + 1}\\).",
+  solution: "Divide by n: 2 / (1 + 1/n) → 2."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Find the limit of \\(u_n = \\frac{n^2}{n^2 + 3}\\).",
+  solution: "Divide by n²: 1 / (1 + 3/n²) → 1."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Find the limiting value of \\(u_n = 1 - \\frac{1}{2n}\\).",
+  solution: "Limit is 1."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Does the sequence \\(u_n = (-1)^n\\) have a limiting value?",
+  solution: "No, it alternates between −1 and 1."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Find the limit of \\(u_n = \\frac{5n + 4}{2n}\\).",
+  solution: "Divide by n: (5 + 4/n)/2 → 5/2."
+},
+{
+  topic: "Limiting Values of Sequences",
+  question: "Find the limit of \\(u_n = \\frac{1}{\\sqrt{n}}\\).",
+  solution: "As n → ∞, √n → ∞ so u_n → 0."
+},
+
+/* ---------------- QUADRATIC SEQUENCES ---------------- */
+
+{
+  topic: "Quadratic Sequences",
+  question: "The first three terms of a quadratic sequence are 2, 7, 16. Find the nth term.",
+  solution: "Differences: 5, 9 → second difference = 4 ⇒ a = 2. Formula: uₙ = 2n² − n + 1."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "Find the nth term of the sequence: 1, 6, 15, 28, ...",
+  solution: "Differences: 5, 9, 13 → second difference = 4 ⇒ a = 2. uₙ = 2n² − n."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "The nth term of a sequence is of the form an² + bn + c. The first three terms are 3, 10, 21. Find a, b and c.",
+  solution: "Simultaneous equations give a = 2, b = 1, c = 0 ⇒ uₙ = 2n² + n."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "Find the 10th term of the sequence with nth term uₙ = n² − 3n + 4.",
+  solution: "u₁₀ = 100 − 30 + 4 = 74."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "Show that the sequence with nth term uₙ = n(n + 1) is quadratic.",
+  solution: "Expand: uₙ = n² + n ⇒ quadratic in n."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "The first term of a quadratic sequence is 4. The second difference is 6. Find the coefficient of n².",
+  solution: "Second difference = 2a ⇒ 2a = 6 ⇒ a = 3."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "The first three terms of a sequence are −1, 4, 13. Find the nth term.",
+  solution: "Differences: 5, 9 → second difference = 4 ⇒ a = 2. uₙ = 2n² − 3."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "A quadratic sequence has nth term uₙ = 3n² − 2n. Find the first term less than 100.",
+  solution: "Solve 3n² − 2n < 100 ⇒ n = 5 gives 65, n = 6 gives 96, n = 7 gives 133. First is n = 7."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "Find the nth term of the sequence 5, 12, 23, 38, ...",
+  solution: "Differences: 7, 11, 15 → second difference = 4 ⇒ a = 2. uₙ = 2n² + 3."
+},
+{
+  topic: "Quadratic Sequences",
+  question: "Explain why the sequence uₙ = n² − n is quadratic but not linear.",
+  solution: "Contains an n² term, so second differences are constant but first differences are not."
+},
+
+/* ---------------- SOLVING THREE SIMULTANEOUS EQUATIONS ---------------- */
+
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: x + y + z = 6, x + y = 4, y + z = 5.",
+  solution: "From first two: z = 2. From y + z = 5 ⇒ y = 3, x = 1."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: x + y + z = 9, x + y − z = 3, x − y + z = 5.",
+  solution: "Add first two: 2x + 2y = 12 ⇒ x + y = 6. Solve to get x = 4, y = 2, z = 3."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: 2x + y + z = 7, x + y + z = 6, x + y = 4.",
+  solution: "Subtract equations: x = 1. Then y = 3, z = 2."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: x + y + z = 5, x − y = 1, y + z = 4.",
+  solution: "From x − y = 1 ⇒ x = y + 1. Substitute to get y = 2, z = 2, x = 3."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: x + y + z = 10, x + z = 7, y + z = 8.",
+  solution: "Subtract equations to get y = 3, x = 2, z = 5."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: 2x + y + z = 11, x + y + z = 8, x + y = 5.",
+  solution: "Subtract first two: x = 3. Then y = 2, z = 3."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: x + y + z = 12, x + y = 7, x + z = 8.",
+  solution: "Subtract to get z = 5, y = 4, x = 3."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: x + y + z = 6, y + z = 4, x + z = 5.",
+  solution: "Subtract equations to get x = 2, y = 1, z = 3."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: x + y + z = 15, x − y = 1, y − z = 2.",
+  solution: "From equations: x = 6, y = 5, z = 3."
+},
+{
+  topic: "Solving Three Simultaneous Equations",
+  question: "Solve: 3x + y + z = 14, x + y + z = 10, x + y = 6.",
+  solution: "Subtract equations: 2x = 4 ⇒ x = 2. Then y = 4, z = 4."
+},
+
+/* ---------------- MATRIX MULTIPLICATION ---------------- */
+
+{
+  topic: "Matrix Multiplication",
+  question: "Calculate \\(\\begin{pmatrix}1 & 2\\\\3 & 4\\end{pmatrix}\\begin{pmatrix}2 & 1\\\\1 & 0\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}4 & 1\\\\10 & 3\\end{pmatrix}\\)"
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Find AB given A = \\(\\begin{pmatrix}1 & 0\\\\2 & 1\\end{pmatrix}\\), B = \\(\\begin{pmatrix}3 & 1\\\\4 & 2\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}3 & 1\\\\10 & 4\\end{pmatrix}\\)"
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Show that matrix multiplication is not commutative for A = \\(\\begin{pmatrix}1 & 2\\\\0 & 1\\end{pmatrix}\\) and B = \\(\\begin{pmatrix}2 & 0\\\\1 & 1\\end{pmatrix}\\).",
+  solution: "AB ≠ BA, so multiplication is not commutative."
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Evaluate \\(\\begin{pmatrix}2 & 1\\\\1 & 3\\end{pmatrix}^2\\).",
+  solution: "\\(\\begin{pmatrix}5 & 5\\\\5 & 10\\end{pmatrix}\\)"
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Find k such that \\(\\begin{pmatrix}1 & k\\\\0 & 1\\end{pmatrix}\\begin{pmatrix}2 & 1\\\\1 & 1\\end{pmatrix}\\) has top-right entry equal to 5.",
+  solution: "1·1 + k·1 = 5 ⇒ k = 4."
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Multiply \\(\\begin{pmatrix}1 & 2 & 3\\end{pmatrix}\\begin{pmatrix}1\\\\0\\\\2\\end{pmatrix}\\).",
+  solution: "1 + 0 + 6 = 7."
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Calculate \\(\\begin{pmatrix}1 & 1\\\\2 & 0\\end{pmatrix}\\begin{pmatrix}3\\\\4\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}7\\\\6\\end{pmatrix}\\)"
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Given AB = I, what can you say about A and B?",
+  solution: "They are inverses of each other."
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Explain why \\(\\begin{pmatrix}1 & 2\\\\3 & 4\\end{pmatrix}\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}\\) is undefined.",
+  solution: "Inner dimensions do not match (2×2 and 3×1)."
+},
+{
+  topic: "Matrix Multiplication",
+  question: "Find AB where A = \\(\\begin{pmatrix}2 & 0\\\\1 & 1\\end{pmatrix}\\), B = \\(\\begin{pmatrix}1 & 3\\\\2 & 4\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}2 & 6\\\\3 & 7\\end{pmatrix}\\)"
+},
+
+/* ---------------- SURDS: RATIONALISING THE DENOMINATOR ---------------- */
+
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Simplify \\(\\frac{3}{\\sqrt{5}}\\).",
+  solution: "\\(\\frac{3\\sqrt{5}}{5}\\)"
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Simplify \\(\\frac{2}{3\\sqrt{2}}\\).",
+  solution: "\\(\\frac{\\sqrt{2}}{3}\\)"
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Rationalise \\(\\frac{5}{\\sqrt{7}}\\).",
+  solution: "\\(\\frac{5\\sqrt{7}}{7}\\)"
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Simplify \\(\\frac{1}{\\sqrt{3}+1}\\).",
+  solution: "Multiply by conjugate: (√3−1)/2."
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Rationalise \\(\\frac{4}{2\\sqrt{5}}\\).",
+  solution: "\\(\\frac{2\\sqrt{5}}{5}\\)"
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Simplify \\(\\frac{3}{\\sqrt{2}-1}\\).",
+  solution: "Multiply by conjugate: 3(√2+1)."
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Simplify \\(\\frac{2}{\\sqrt{7}+3}\\).",
+  solution: "Multiply by conjugate: (√7−3)/1."
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Rationalise \\(\\frac{5}{\\sqrt{8}}\\).",
+  solution: "\\(\\frac{5\\sqrt{2}}{4}\\)"
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Simplify \\(\\frac{1}{2\\sqrt{3}+1}\\).",
+  solution: "Multiply by conjugate: (2√3−1)/11."
+},
+{
+  topic: "Surds – Rationalising the Denominator",
+  question: "Explain why the conjugate is used when rationalising.",
+  solution: "It removes surds from the denominator by forming a difference of squares."
+},
+
+/* ---------------- EQUATIONS OF TANGENTS AND NORMALS ---------------- */
+
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the tangent to y = x² at x = 2.",
+  solution: "Gradient = 2x = 4. Point (2,4). Equation: y − 4 = 4(x − 2)."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the normal to y = x² at x = 1.",
+  solution: "Gradient of tangent = 2, normal = −1/2. Point (1,1)."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the tangent to y = 3x² at x = 1.",
+  solution: "Gradient = 6x = 6. Point (1,3)."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the normal to y = x² − 4x at x = 3.",
+  solution: "dy/dx = 2x − 4 = 2. Normal gradient = −1/2."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the tangent to y = x² − 1 at x = −1.",
+  solution: "Gradient = −2. Point (−1,0)."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the normal to y = 2x² at x = 2.",
+  solution: "dy/dx = 4x = 8, normal = −1/8."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the tangent to y = x² + 3 at x = 0.",
+  solution: "Gradient = 0. Horizontal line y = 3."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the normal to y = x² + x at x = 1.",
+  solution: "dy/dx = 2x + 1 = 3. Normal = −1/3."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Find the equation of the tangent to y = 4x² at x = −1.",
+  solution: "Gradient = −8. Point (−1,4)."
+},
+{
+  topic: "Equations of Tangents and Normals",
+  question: "Explain the relationship between the gradients of a tangent and its normal.",
+  solution: "They are negative reciprocals of each other."
+},
+/* ---------------- EQUATIONS WITH INDICES ---------------- */
+
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(2^{x+1} = 16\\).",
+  solution: "16 = 2⁴ ⇒ x + 1 = 4 ⇒ x = 3."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(3^{2x} = 27\\).",
+  solution: "27 = 3³ ⇒ 2x = 3 ⇒ x = \\tfrac{3}{2}."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(5^{x} = \\frac{1}{25}\\).",
+  solution: "\\(\\frac{1}{25} = 5^{-2}\\) ⇒ x = −2."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(4^{x} = 8\\).",
+  solution: "Rewrite as powers of 2: \\(2^{2x} = 2^{3}\\) ⇒ x = \\tfrac{3}{2}."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(9^{x} = 3^{2x+1}\\).",
+  solution: "Rewrite: \\(3^{2x} = 3^{2x+1}\\) ⇒ no solution."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(2^{x} + 2^{x+1} = 48\\).",
+  solution: "Factorise: \\(2^{x}(1+2)=48\\) ⇒ \\(2^{x}=16\\) ⇒ x = 4."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(3^{x} = 81\\).",
+  solution: "81 = 3⁴ ⇒ x = 4."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(16^{x} = 4^{x+1}\\).",
+  solution: "\\(2^{4x} = 2^{2x+2}\\) ⇒ 4x = 2x + 2 ⇒ x = 1."
+},
+{
+  topic: "Equations with Indices",
+  question: "Solve \\(2^{2x} - 8 = 0\\).",
+  solution: "2^{2x} = 8 = 2³ ⇒ 2x = 3 ⇒ x = \\tfrac{3}{2}."
+},
+{
+  topic: "Equations with Indices",
+  question: "Explain why the equation \\(2^{x} = -4\\) has no solution.",
+  solution: "Powers of 2 are always positive, so cannot equal −4."
+},
+
+
+
+/* ---------------- DIFFERENTIATION: FINDING STATIONARY POINTS ---------------- */
+
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the stationary point of \\(y = x^2 - 4x + 1\\).",
+  solution: "dy/dx = 2x − 4 = 0 ⇒ x = 2. y = −3."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the coordinates of the stationary point of \\(y = x^2 + 6x\\).",
+  solution: "dy/dx = 2x + 6 = 0 ⇒ x = −3. y = −9."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the stationary point of \\(y = 3x^2 - 12x + 5\\).",
+  solution: "dy/dx = 6x − 12 = 0 ⇒ x = 2. y = −7."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the stationary point of \\(y = x^2 + 2x + 4\\).",
+  solution: "dy/dx = 2x + 2 = 0 ⇒ x = −1. y = 3."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the stationary point of \\(y = 2x^2 - 8x\\).",
+  solution: "dy/dx = 4x − 8 = 0 ⇒ x = 2. y = −8."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the stationary point of \\(y = -x^2 + 6x + 1\\).",
+  solution: "dy/dx = −2x + 6 = 0 ⇒ x = 3. y = 10."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Determine whether the stationary point of \\(y = x^2 - 2x\\) is a maximum or minimum.",
+  solution: "Coefficient of x² is positive ⇒ minimum."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the stationary point of \\(y = 4x^2 + 4x + 1\\).",
+  solution: "dy/dx = 8x + 4 = 0 ⇒ x = −\\tfrac{1}{2}. y = 0."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Find the stationary point of \\(y = x^2\\) and describe it.",
+  solution: "dy/dx = 2x = 0 ⇒ (0,0), minimum."
+},
+{
+  topic: "Differentiation – Finding Stationary Points",
+  question: "Explain what is meant by a stationary point.",
+  solution: "A point where the gradient of the curve is zero."
+}
+
+
+];
+

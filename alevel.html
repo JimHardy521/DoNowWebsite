@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>A Level Maths – Do Now</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="alevelquestions.js"></script>
+
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background-color: #f0f4f8;
+  color: #333;
+}
+</style>
+
+<script src="common.js"></script>
+</head>
+
+<body>
+
+<h1>A Level Maths – Do Now</h1>
+
+<div class="button-bar">
+  <select id="yearSelect">
+    <option value="Year 12" selected>Year 12</option>
+    <option value="Year 13">Year 13</option>
+  </select>
+
+  <button onclick="loadALevelQuestions()">New Questions</button>
+  <button onclick="printALevelQuestions()">Print Questions</button>
+</div>
+
+<div id="questions"></div>
+
+<hr>
+
+<p style="text-align:center;font-weight:700;">
+  … or create a Do Now using specific topics:
+</p>
+
+<div class="topic-toolbar">
+  <div class="topic-wrapper"><label>Question 1 Topic</label><select id="topic1"></select></div>
+  <div class="topic-wrapper"><label>Question 2 Topic</label><select id="topic2"></select></div>
+  <div class="topic-wrapper"><label>Question 3 Topic</label><select id="topic3"></select></div>
+  <div class="topic-wrapper"><label>Question 4 Topic</label><select id="topic4"></select></div>
+  <div class="topic-wrapper"><button onclick="loadALevelTopicQuestions()">Load Topic Questions</button></div>
+</div>
+
+<script>
+function randomFrom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function getSelectedYear() {
+  return document.getElementById("yearSelect").value;
+}
+
+// ---------------- TOPICS ----------------
+function populateTopicsALevel() {
+  const year = getSelectedYear();
+  const topics = [...new Set(
+    alevelQuestions.filter(q => q.level === year).map(q => q.topic)
+  )];
+
+  ["topic1", "topic2", "topic3", "topic4"].forEach(id => {
+    const sel = document.getElementById(id);
+    sel.innerHTML = "";
+    topics.forEach(t => {
+      const o = document.createElement("option");
+      o.value = t;
+      
+      o.textContent = t;
+      sel.appendChild(o);
+    });
+  });
+}
+
+// ---------------- QUESTION BOX ----------------
+function createBoxALevel(q, index) {
+  const box = document.createElement("div");
+  box.className = "question-box";
+
+  const h = document.createElement("div");
+  h.className = "question-header";
+  h.innerHTML = `Question ${index + 1}: ${q.topic}`;
+  box.appendChild(h);
+
+  const qt = document.createElement("div");
+  qt.innerHTML = q.question;
+  box.appendChild(qt);
+
+  const sol = document.createElement("div");
+  sol.className = "solution";
+  sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
+  box.appendChild(sol);
+
+  box.onclick = () =>
+    sol.style.display = sol.style.display === "none" ? "block" : "none";
+
+  // Refresh button
+  const r = document.createElement("div");
+  r.className = "refresh-btn";
+  r.innerHTML = "↻";
+  r.title = "Refresh this question";
+  r.onclick = e => {
+    e.stopPropagation();
+    const year = getSelectedYear();
+    const pool = alevelQuestions.filter(q => q.level === year);
+    let nq;
+    do {
+      nq = randomFrom(pool);
+    } while (nq.question === q.question && pool.length > 1);
+    qt.innerHTML = nq.question;
+    sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
+    h.innerHTML = `Question ${index + 1}: ${nq.topic}`;
+    MathJax.typeset();
+  };
+  box.appendChild(r);
+
+  document.getElementById("questions").appendChild(box);
+}
+
+// ---------------- LOAD RANDOM QUESTIONS ----------------
+function loadALevelQuestions() {
+  document.getElementById("questions").innerHTML = "";
+  const year = getSelectedYear();
+  const pool = alevelQuestions.filter(q => q.level === year);
+
+  for (let i = 0; i < 4; i++) {
+    createBoxALevel(randomFrom(pool), i);
+  }
+
+  populateTopicsALevel();
+  MathJax.typeset();
+}
+
+// ---------------- LOAD TOPIC QUESTIONS ----------------
+function loadALevelTopicQuestions() {
+  document.getElementById("questions").innerHTML = "";
+  const year = getSelectedYear();
+
+  ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
+    const topic = document.getElementById(id).value;
+    const filtered = alevelQuestions.filter(
+      q => q.level === year && q.topic === topic
+    );
+    if (filtered.length) createBoxALevel(randomFrom(filtered), i);
+  });
+
+  MathJax.typeset();
+}
+
+// ---------------- PRINT ----------------
+function printALevelQuestions() {
+  const boxes = document.querySelectorAll(".question-box");
+  const questions = [...boxes].map(b => ({
+    header: b.querySelector(".question-header").innerHTML,
+    question: b.children[1].innerHTML
+  }));
+
+  const win = window.open("", "_blank");
+  win.document.write(`
+    <html>
+    <head>
+      <style>
+        @page { size:A4; margin:5mm; }
+        body { margin:0; font-family:Inter, Arial, sans-serif; }
+        .page {
+          display:grid;
+          grid-template-columns:1fr 1fr;
+          gap:8px;
+        }
+        .box {
+          border:1px solid black;
+          padding:8px;
+          font-size:14px;
+          min-height:220px;
+        }
+      </style>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
+    </head>
+    <body>
+      <div class="page">
+        ${questions.map(q =>
+          `<div class="box"><strong>${q.header}</strong><br>${q.question}</div>`
+        ).join("")}
+      </div>
+    </body>
+    </html>
+  `);
+  win.document.close();
+  win.onload = () =>
+    win.MathJax.typesetPromise().then(() => win.print());
+}
+
+// INIT
+populateTopicsALevel();
+loadALevelQuestions();
+</script>
+
+<script>
+  createNavBar("alevel.html");
+</script>
+
+</body>
+</html>

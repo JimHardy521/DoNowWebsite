@@ -529,7 +529,70 @@ const l2FurtherQuestions = [
   topic: "Differentiation – Finding Stationary Points",
   question: "Explain what is meant by a stationary point.",
   solution: "A point where the gradient of the curve is zero."
-}
+},
+
+/* ---------------- Tangents to a circle ---------------- */
+
+ {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\((x-2)^2 + (y+1)^2 = 25\\) at the point \\((5,4)\\).",
+    solution: "Center: (2,−1). Gradient of radius: m_r = (4 - (−1)) / (5 - 2) = 5/3. Tangent gradient: m_t = -3/5. Equation: y - 4 = -3/5(x - 5) ⇒ y = -3/5 x + 31/5."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 4x + 6y - 12 = 0\\) at the point \\((6,-1)\\).",
+    solution: "Complete the square: (x-2)^2 + (y+3)^2 = 25, center: (2,−3). Gradient of radius: m_r = (-1 + 3)/(6 - 2) = 2/4 = 1/2. Tangent gradient: m_t = -2. Equation: y + 1 = -2(x - 6) ⇒ y = -2x + 11."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\((x+3)^2 + (y-2)^2 = 49\\) at the point \\((0,5)\\).",
+    solution: "Center: (−3,2). Gradient of radius: m_r = (5-2)/(0+3) = 3/3 = 1. Tangent gradient: m_t = -1. Equation: y - 5 = -1(x - 0) ⇒ y = -x + 5."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 2x - 4y - 11 = 0\\) at the point \\((3,4)\\).",
+    solution: "Complete the square: (x+1)^2 + (y-2)^2 = 16, center: (−1,2). Gradient of radius: m_r = (4-2)/(3+1) = 2/4 = 1/2. Tangent gradient: m_t = -2. Equation: y - 4 = -2(x - 3) ⇒ y = -2x + 10."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\((x-1)^2 + (y+5)^2 = 36\\) at the point \\((7,-5)\\).",
+    solution: "Center: (1,−5). Gradient of radius: m_r = (-5 + 5)/(7 - 1) = 0. Tangent is vertical: x = 7. Cannot write in y = mx + c form."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 6x + 8y + 9 = 0\\) at the point \\((3,0)\\).",
+    solution: "Complete the square: (x-3)^2 + (y+4)^2 = 16, center: (3,−4). Gradient of radius: m_r = (0 + 4)/(3 - 3) = ∞. Tangent is horizontal: y = 0."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\((x+4)^2 + (y+3)^2 = 16\\) at the point \\((-4,-7)\\).",
+    solution: "Center: (−4,−3). Gradient of radius: m_r = (-7 + 3)/(-4 + 4) = -4/0 = ∞. Tangent is horizontal: y = -7."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 10x - 4y + 9 = 0\\) at the point \\((-1,2)\\).",
+    solution: "Complete the square: (x+5)^2 + (y-2)^2 = 20, center: (−5,2). Gradient of radius: m_r = (2-2)/(-1+5) = 0. Tangent is vertical: x = -1."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\((x-5)^2 + (y-1)^2 = 20\\) at the point \\((7,3)\\).",
+    solution: "Center: (5,1). Gradient of radius: m_r = (3-1)/(7-5) = 2/2 = 1. Tangent gradient: m_t = -1. Equation: y - 3 = -1(x - 7) ⇒ y = -x + 10."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 8x - 6y + 24 = 0\\) at the point \\((6,4)\\).",
+    solution: "Complete the square: (x-4)^2 + (y-3)^2 = 1, center: (4,3). Gradient of radius: m_r = (4-3)/(6-4) = 1/2. Tangent gradient: m_t = -2. Equation: y - 4 = -2(x - 6) ⇒ y = -2x + 16."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\((x+2)^2 + (y-6)^2 = 25\\) at the point \\((0,9)\\).",
+    solution: "Center: (−2,6). Gradient of radius: m_r = (9-6)/(0+2) = 3/2. Tangent gradient: m_t = -2/3. Equation: y - 9 = -2/3(x - 0) ⇒ y = -2/3 x + 9."
+  },
+  {
+    topic: "Tangents to a Circle",
+    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 12x + 4y + 27 = 0\\) at the point \\((3,-4)\\).",
+    solution: "Complete the square: (x-6)^2 + (y+2)^2 = 13, center: (6,−2). Gradient of radius: m_r = (-4 + 2)/(3 - 6) = -2/-3 = 2/3. Tangent gradient: m_t = -3/2. Equation: y + 4 = -3/2(x - 3) ⇒ y = -3/2 x + 1/2."
+  }
 
 
 ];

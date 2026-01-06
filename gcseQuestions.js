@@ -1237,7 +1237,84 @@ const gcseQuestions = [
   level: "Higher",
   question: "Complete the square to find the turning point of \\(y = x^2 - 4x - 1\\).",
   solution: "\\(y = (x - 2)^2 - 5\\), so the turning point is \\((2, -5)\\)."
+},
+// =======================
+// Algebraic Expressions - Simplifying
+// =======================
+
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 + 5x + 6}{x^2 + 2x}\\).",
+  solution: "Factorising gives \\(\\frac{(x+2)(x+3)}{x(x+2)} = \\frac{x+3}{x}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 - 9}{x^2 + 3x}\\).",
+  solution: "Factorising gives \\(\\frac{(x-3)(x+3)}{x(x+3)} = \\frac{x-3}{x}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 - x - 6}{x^2 - 9}\\).",
+  solution: "Factorising gives \\(\\frac{(x-3)(x+2)}{(x-3)(x+3)} = \\frac{x+2}{x+3}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 + 7x + 10}{x^2 + 5x}\\).",
+  solution: "Factorising gives \\(\\frac{(x+5)(x+2)}{x(x+5)} = \\frac{x+2}{x}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 - 4x - 12}{x^2 - 9}\\).",
+  solution: "Factorising gives \\(\\frac{(x-6)(x+2)}{(x-3)(x+3)}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 + 3x - 10}{x^2 - 25}\\).",
+  solution: "Factorising gives \\(\\frac{(x+5)(x-2)}{(x-5)(x+5)} = \\frac{x-2}{x-5}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 - 16}{x^2 + 4x}\\).",
+  solution: "Factorising gives \\(\\frac{(x-4)(x+4)}{x(x+4)} = \\frac{x-4}{x}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 - 2x - 15}{x^2 - x - 6}\\).",
+  solution: "Factorising gives \\(\\frac{(x-5)(x+3)}{(x-3)(x+2)}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 + x - 12}{x^2 - 4}\\).",
+  solution: "Factorising gives \\(\\frac{(x+4)(x-3)}{(x-2)(x+2)}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 - 5x + 6}{x^2 - 4x + 4}\\).",
+  solution: "Factorising gives \\(\\frac{(x-2)(x-3)}{(x-2)^2} = \\frac{x-3}{x-2}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 + 6x + 8}{x^2 + 2x}\\).",
+  solution: "Factorising gives \\(\\frac{(x+2)(x+4)}{x(x+2)} = \\frac{x+4}{x}\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\frac{x^2 - x - 12}{x^2 - 16}\\).",
+  solution: "Factorising gives \\(\\frac{(x-4)(x+3)}{(x-4)(x+4)} = \\frac{x+3}{x+4}\\)."
 }
+
 
 
 

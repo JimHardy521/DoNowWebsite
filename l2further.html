@@ -33,6 +33,17 @@ body {
 
 <div id="questions"></div>
 
+<div style="text-align:center; margin:12px 0; font-size:14px;">
+  <label style="cursor:pointer;">
+    Click on each question to reveal the solution, or tick here to reveal all
+    <input
+      type="checkbox"
+      id="revealAll"
+      onchange="toggleAllSolutions(this.checked)"
+      style="margin-right:6px;"
+    >
+    </label>
+</div>
 <hr>
 
 <p style="text-align:center;font-weight:700;">
@@ -58,6 +69,7 @@ body {
   </div>
   <div class="topic-wrapper">
     <button onclick="loadL2FurtherTopicQuestions()">Load Topic Questions</button>
+    <button onclick="copyTopicURL()">Copy Topic Link</button>
   </div>
 </div>
 
@@ -68,7 +80,8 @@ function randomFrom(arr) {
 
 // ---------------- TOPICS ----------------
 function populateTopicsL2Further() {
-  const topics = [...new Set(l2FurtherQuestions.map(q => q.topic))];
+  const topics = [...new Set(l2FurtherQuestions.map(q => q.topic))]
+  .sort((a, b) => a.localeCompare(b));
 
   ["topic1", "topic2", "topic3", "topic4"].forEach(id => {
     const sel = document.getElementById(id);
@@ -132,7 +145,7 @@ function loadL2FurtherQuestions() {
   for (let i = 0; i < 4; i++) {
     createBoxL2Further(randomFrom(l2FurtherQuestions), i);
   }
-
+  document.getElementById("revealAll").checked = false;
   populateTopicsL2Further();
   MathJax.typeset();
 }
@@ -146,7 +159,7 @@ function loadL2FurtherTopicQuestions() {
     const filtered = l2FurtherQuestions.filter(q => q.topic === topic);
     if (filtered.length) createBoxL2Further(randomFrom(filtered), i);
   });
-
+  document.getElementById("revealAll").checked = false;
   MathJax.typeset();
 }
 
@@ -193,9 +206,50 @@ function printL2FurtherQuestions() {
     win.MathJax.typesetPromise().then(() => win.print());
 }
 
+function toggleAllSolutions(show) {
+  document.querySelectorAll(".solution").forEach(sol => {
+    sol.style.display = show ? "block" : "none";
+  });
+}
+
+function copyTopicURL() {
+  const params = new URLSearchParams({
+    t1: document.getElementById("topic1").value,
+    t2: document.getElementById("topic2").value,
+    t3: document.getElementById("topic3").value,
+    t4: document.getElementById("topic4").value
+  });
+
+  const url =
+    window.location.origin +
+    window.location.pathname +
+    "?" +
+    params.toString();
+
+  navigator.clipboard.writeText(url).then(() => {
+    alert("Topic link copied to clipboard");
+  });
+}
+
+function loadFromURLIfPresent() {
+  const params = new URLSearchParams(window.location.search);
+
+  if (!params.has("t1")) return;
+
+  ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
+    const val = params.get(`t${i + 1}`);
+    if (val) document.getElementById(id).value = val;
+  });
+
+  loadL2FurtherTopicQuestions();
+}
+
+
 // INIT
 populateTopicsL2Further();
 loadL2FurtherQuestions();
+if (!window.location.search) loadL2FurtherQuestions();
+
 </script>
 
 <script>

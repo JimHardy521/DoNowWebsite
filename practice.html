@@ -17,6 +17,12 @@ body {
   color: #333;
   margin: 20px;
 }
+
+h1 {
+  text-align:center;
+  margin-bottom: 20px;
+}
+
 .question-box {
   border:1px solid #ccc;
   padding:10px;
@@ -24,10 +30,17 @@ body {
   cursor:pointer;
   border-radius:6px;
   background:#fff;
+  transition: background 0.2s;
 }
+
+.question-box:hover {
+  background:#e0e7ff;
+}
+
 .solution {
   display:none;
   margin-top:8px;
+  font-weight:500;
 }
 </style>
 </head>
@@ -36,53 +49,81 @@ body {
 <h1 id="title">Practice Topic</h1>
 <div id="questions"></div>
 
-<script src="practicequestions.js"></script> <!-- We’ll create this per page type -->
-
 <script>
-// Get topic and source from URL
+// ---------------- GET URL PARAMETERS ----------------
 const params = new URLSearchParams(window.location.search);
 const topic = params.get("topic");
-const source = params.get("source"); // e.g., 'l2further'
+const source = params.get("source"); // e.g., l2further, gcse, alevel
 
-// Map source to the correct question array
-let questionsArray;
-switch (source) {
-  case "l2further":
-    questionsArray = l2FurtherQuestions;
-    break;
-  // case "gcse": questionsArray = gcseQuestions; break;
-  // case "alevel": questionsArray = aLevelQuestions; break;
-  default:
-    questionsArray = [];
+if (!topic || !source) {
+  document.getElementById("title").textContent = "Error: Missing topic or source!";
+  throw new Error("Missing topic or source in URL");
 }
 
-document.getElementById("title").textContent = `Practice: ${topic}`;
+// ---------------- DYNAMICALLY LOAD CORRECT JS ----------------
+let questionsArray;
 
-// Filter questions for this topic
-const filtered = questionsArray.filter(q => q.topic === topic);
+function loadQuestionsJS(callback) {
+  let src;
+  switch (source) {
+    case "l2further": src = "l2furtherquestions.js"; break;
+    case "gcse": src = "gcsequestions.js"; break;
+    case "alevel": src = "alevelquestions.js"; break;
+    default: src = null;
+  }
+  if (!src) {
+    document.getElementById("title").textContent = "Error: Unknown source!";
+    return;
+  }
 
-// Create question boxes
-filtered.forEach((q, i) => {
-  const box = document.createElement("div");
-  box.className = "question-box";
+  const script = document.createElement("script");
+  script.src = src;
+  script.onload = callback;
+  document.head.appendChild(script);
+}
 
-  const qt = document.createElement("div");
-  qt.innerHTML = q.question;
-  box.appendChild(qt);
+// ---------------- BUILD PAGE ----------------
+function buildPracticePage() {
+  switch (source) {
+    case "l2further": questionsArray = l2FurtherQuestions; break;
+    case "gcse": questionsArray = gcseQuestions; break;
+    case "alevel": questionsArray = aLevelQuestions; break;
+  }
 
-  const sol = document.createElement("div");
-  sol.className = "solution";
-  sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
-  box.appendChild(sol);
+  const filtered = questionsArray.filter(q => q.topic === topic);
+  if (!filtered.length) {
+    document.getElementById("title").textContent = `No questions found for topic: ${topic}`;
+    return;
+  }
 
-  box.onclick = () => {
-    sol.style.display = sol.style.display === "none" ? "block" : "none";
-  };
+  document.getElementById("title").textContent = `Practice: ${topic}`;
+  const container = document.getElementById("questions");
 
-  document.getElementById("questions").appendChild(box);
-});
+  filtered.forEach((q, i) => {
+    const box = document.createElement("div");
+    box.className = "question-box";
 
-MathJax.typeset();
+    const qt = document.createElement("div");
+    qt.innerHTML = q.question;
+    box.appendChild(qt);
+
+    const sol = document.createElement("div");
+    sol.className = "solution";
+    sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
+    box.appendChild(sol);
+
+    box.onclick = () => {
+      sol.style.display = sol.style.display === "none" ? "block" : "none";
+    };
+
+    container.appendChild(box);
+  });
+
+  MathJax.typeset();
+}
+
+// ---------------- INITIALISE ----------------
+loadQuestionsJS(buildPracticePage);
 </script>
 
 <script>

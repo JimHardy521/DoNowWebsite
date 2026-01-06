@@ -1102,7 +1102,84 @@ const gcseQuestions = [
   level: "Higher",
   question: "Solve for n: \\(5^{-n} = 0.04\\).",
   solution: "\\(0.04 = \\frac{1}{25} = 5^{-2}\\), so \\(n = 2\\)."
+},
+// =======================
+// CTS - Finding Turning Point
+// =======================
+
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Complete the square to find the turning point of \\(y = x^2 + 6x + 5\\).",
+  solution: "\\(y = (x + 3)^2 - 4\\), so the turning point is \\((-3, -4)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Complete the square to find the turning point of \\(y = x^2 - 8x + 3\\).",
+  solution: "\\(y = (x - 4)^2 - 13\\), so the turning point is \\((4, -13)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Find the turning point of \\(y = x^2 + 4x - 1\\) by completing the square.",
+  solution: "\\(y = (x + 2)^2 - 5\\), so the turning point is \\((-2, -5)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Complete the square to find the turning point of \\(y = x^2 - 2x + 7\\).",
+  solution: "\\(y = (x - 1)^2 + 6\\), so the turning point is \\((1, 6)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Find the turning point of \\(y = x^2 + 10x + 21\\) using completing the square.",
+  solution: "\\(y = (x + 5)^2 - 4\\), so the turning point is \\((-5, -4)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Complete the square to find the turning point of \\(y = x^2 - 12x + 20\\).",
+  solution: "\\(y = (x - 6)^2 - 16\\), so the turning point is \\((6, -16)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Find the turning point of \\(y = x^2 + 2x - 8\\) by completing the square.",
+  solution: "\\(y = (x + 1)^2 - 9\\), so the turning point is \\((-1, -9)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Complete the square to find the turning point of \\(y = x^2 - 14x + 40\\).",
+  solution: "\\(y = (x - 7)^2 - 9\\), so the turning point is \\((7, -9)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Find the turning point of \\(y = x^2 + 8x + 9\\) by completing the square.",
+  solution: "\\(y = (x + 4)^2 - 7\\), so the turning point is \\((-4, -7)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Complete the square to find the turning point of \\(y = x^2 - 6x + 2\\).",
+  solution: "\\(y = (x - 3)^2 - 7\\), so the turning point is \\((3, -7)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Find the turning point of \\(y = x^2 + 12x + 31\\) using completing the square.",
+  solution: "\\(y = (x + 6)^2 - 5\\), so the turning point is \\((-6, -5)\\)."
+},
+{
+  topic: "CTS - Finding Turning Point",
+  level: "Higher",
+  question: "Complete the square to find the turning point of \\(y = x^2 - 4x - 1\\).",
+  solution: "\\(y = (x - 2)^2 - 5\\), so the turning point is \\((2, -5)\\)."
 }
+
 
 
     ];

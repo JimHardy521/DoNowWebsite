@@ -1026,7 +1026,84 @@ const gcseQuestions = [
   level: "Higher",
   question: "Rationalise \\(\\frac{7}{\\sqrt{5}}\\).",
   solution: "\\(\\frac{7\\sqrt{5}}{5}\\)."
+},
+// =======================
+// Indices - Fractional and Negative
+// =======================
+
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Simplify \\(16^{\\frac{3}{4}}\\).",
+  solution: "\\(\\left(\\sqrt[4]{16}\\right)^3 = 2^3 = 8\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Write \\(\\frac{1}{8^{\\frac{2}{3}}}\\) as a single power of 2.",
+  solution: "\\(8^{\\frac{2}{3}} = (2^3)^{\\frac{2}{3}} = 2^2 = 4\\), so \\(\\frac{1}{8^{\\frac{2}{3}}} = \\frac{1}{4} = 2^{-2}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Simplify \\(81^{-\\frac{1}{2}}\\).",
+  solution: "\\(81^{\\frac{1}{2}} = 9\\), so \\(81^{-\\frac{1}{2}} = \\frac{1}{9}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Simplify \\((27^{\\frac{2}{3}})^{-1}\\).",
+  solution: "\\(27^{\\frac{2}{3}} = (\\sqrt[3]{27})^2 = 3^2 = 9\\), so the result is \\(\\frac{1}{9}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Evaluate \\(49^{-\\frac{3}{2}}\\).",
+  solution: "\\(49^{\\frac{1}{2}} = 7\\) so \\(49^{-\\frac{3}{2}} = \\frac{1}{7^3} = \\frac{1}{343}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Express \\(x^{-\\frac{2}{3}}\\) as a root expression.",
+  solution: "\\(x^{-\\frac{2}{3}} = \\frac{1}{(\\sqrt[3]{x})^2}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Simplify \\(4^{\\frac{3}{2}} \\times 4^{-1}\\).",
+  solution: "\\(4^{\\frac{3}{2}} = 8\\), so \\(8 \\times 4^{-1} = 8 \\times \\frac{1}{4} = 2\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Simplify \\(\\frac{5^{-\\frac{1}{2}}}{5^{\\frac{1}{2}}}\\).",
+  solution: "Use index law: \\(5^{-\\frac{1}{2}-\\frac{1}{2}} = 5^{-1} = \\frac{1}{5}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Simplify \\((8^{\\frac{1}{3}})^{-3}\\).",
+  solution: "\\(8^{\\frac{1}{3}} = 2\\) so \\(2^{-3} = \\frac{1}{8}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Express \\(\\frac{1}{x^{\\frac{5}{4}}}\\) using a negative index.",
+  solution: "\\(x^{-\\frac{5}{4}}\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Simplify \\(32^{\\frac{3}{5}}\\).",
+  solution: "Write 32 as \\(2^5\\), then \\((2^5)^{\\frac{3}{5}} = 2^3 = 8\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
+  question: "Solve for n: \\(5^{-n} = 0.04\\).",
+  solution: "\\(0.04 = \\frac{1}{25} = 5^{-2}\\), so \\(n = 2\\)."
 }
+
 
     ];
     

@@ -297,30 +297,201 @@ const gcseQuestions = [
       question: "Simplify \\(\\sqrt{50}\\).",
       solution: "\\(\\sqrt{25 \\times 2} = 5\\sqrt{2}\\)."
     },
-    {
-      topic: "Surds",
-      level: "Higher",
-      question: "Rationalise the denominator: \\(\\frac{3}{\\sqrt{5}}\\).",
-      solution: "\\(\\frac{3\\sqrt{5}}{5}\\)."
-    },
-    {
-      topic: "Surds",
-      level: "Higher",
-      question: "Simplify \\(\\sqrt{12} + \\sqrt{27}\\).",
-      solution: "\\(2\\sqrt{3} + 3\\sqrt{3} = 5\\sqrt{3}\\)."
-    },
-    {
-      topic: "Surds",
-      level: "Higher",
-      question: "Simplify \\(\\sqrt{8} \\times \\sqrt{2}\\).",
-      solution: "\\(\\sqrt{16} = 4\\)."
-    },
-    {
-      topic: "Surds",
-      level: "Higher",
-      question: "Simplify \\((\\sqrt{3})^2\\).",
-      solution: "\\(3\\)."
-    },
+   // =======================
+// Surds – Simplifying
+// =======================
+
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{50}\\).",
+  solution: "\\(\\sqrt{25 \\times 2} = 5\\sqrt{2}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{72}\\).",
+  solution: "\\(\\sqrt{36 \\times 2} = 6\\sqrt{2}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{18} + \\sqrt{8}\\).",
+  solution: "\\(3\\sqrt{2} + 2\\sqrt{2} = 5\\sqrt{2}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(2\\sqrt{12}\\).",
+  solution: "\\(2 \\times 2\\sqrt{3} = 4\\sqrt{3}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{45} - \\sqrt{5}\\).",
+  solution: "\\(3\\sqrt{5} - \\sqrt{5} = 2\\sqrt{5}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{20} + \\sqrt{80}\\).",
+  solution: "\\(2\\sqrt{5} + 4\\sqrt{5} = 6\\sqrt{5}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{32}\\).",
+  solution: "\\(\\sqrt{16 \\times 2} = 4\\sqrt{2}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(3\\sqrt{27}\\).",
+  solution: "\\(3 \\times 3\\sqrt{3} = 9\\sqrt{3}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{98}\\).",
+  solution: "\\(\\sqrt{49 \\times 2} = 7\\sqrt{2}\\)."
+},
+{
+  topic: "Surds - Simplifying",
+  level: "Higher",
+  question: "Simplify \\(\\sqrt{75} - \\sqrt{3}\\).",
+  solution: "\\(5\\sqrt{3} - \\sqrt{3} = 4\\sqrt{3}\\)."
+},
+
+// =======================
+// Surds – Rationalise the Denominator
+// =======================
+
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{5}{\\sqrt{3}}\\).",
+  solution: "\\(\\frac{5\\sqrt{3}}{3}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{2}{\\sqrt{7}}\\).",
+  solution: "\\(\\frac{2\\sqrt{7}}{7}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{4}{\\sqrt{5}}\\).",
+  solution: "\\(\\frac{4\\sqrt{5}}{5}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{7}{\\sqrt{2}}\\).",
+  solution: "\\(\\frac{7\\sqrt{2}}{2}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{3}{2\\sqrt{5}}\\).",
+  solution: "\\(\\frac{3\\sqrt{5}}{10}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{6}{\\sqrt{3}}\\).",
+  solution: "\\(\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{1}{\\sqrt{8}}\\).",
+  solution: "\\(\\frac{\\sqrt{8}}{8} = \\frac{\\sqrt{2}}{4}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{5}{3\\sqrt{2}}\\).",
+  solution: "\\(\\frac{5\\sqrt{2}}{6}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{9}{\\sqrt{6}}\\).",
+  solution: "\\(\\frac{9\\sqrt{6}}{6} = \\frac{3\\sqrt{6}}{2}\\)."
+},
+{
+  topic: "Surds - Rationalise the Denominator",
+  level: "Higher",
+  question: "Rationalise the denominator: \\(\\frac{2}{5\\sqrt{3}}\\).",
+  solution: "\\(\\frac{2\\sqrt{3}}{15}\\)."
+},
+
+// =======================
+// Surds – Expanding Brackets
+// =======================
+
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((\\sqrt{5} + 2)(\\sqrt{5} - 2)\\).",
+  solution: "\\(5 - 4 = 1\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((\\sqrt{3} + 1)^2\\).",
+  solution: "\\(3 + 2\\sqrt{3} + 1 = 4 + 2\\sqrt{3}\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((\\sqrt{7} - 3)^2\\).",
+  solution: "\\(7 - 6\\sqrt{7} + 9 = 16 - 6\\sqrt{7}\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((2 + \\sqrt{5})(3 + \\sqrt{5})\\).",
+  solution: "\\(6 + 2\\sqrt{5} + 3\\sqrt{5} + 5 = 11 + 5\\sqrt{5}\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((\\sqrt{2} + 4)(\\sqrt{2} - 1)\\).",
+  solution: "\\(2 - \\sqrt{2} + 4\\sqrt{2} - 4 = 3\\sqrt{2} - 2\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((\\sqrt{3} + 2)(\\sqrt{3} + 5)\\).",
+  solution: "\\(3 + 5\\sqrt{3} + 2\\sqrt{3} + 10 = 13 + 7\\sqrt{3}\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((\\sqrt{6} - 2)(\\sqrt{6} + 3)\\).",
+  solution: "\\(6 + 3\\sqrt{6} - 2\\sqrt{6} - 6 = \\sqrt{6}\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((1 + \\sqrt{2})^2\\).",
+  solution: "\\(1 + 2\\sqrt{2} + 2 = 3 + 2\\sqrt{2}\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((\\sqrt{5} - 1)(\\sqrt{5} + 4)\\).",
+  solution: "\\(5 + 4\\sqrt{5} - \\sqrt{5} - 4 = 1 + 3\\sqrt{5}\\)."
+},
+{
+  topic: "Surds - Expanding Brackets",
+  level: "Higher",
+  question: "Expand and simplify: \\((2\\sqrt{3} + 1)(\\sqrt{3} - 2)\\).",
+  solution: "\\(6 - 4\\sqrt{3} + \\sqrt{3} - 2 = 4 - 3\\sqrt{3}\\)."
+}
+,
     
     {
       topic: "Solving Quadratics",

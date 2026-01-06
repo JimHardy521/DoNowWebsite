@@ -83,25 +83,47 @@ button:hover {
   font-weight: 700;
 }
 
-.refresh-btn {
+/* Base style for both refresh buttons */
+.refresh-btn,
+.refresh-same {
   position: absolute;
-  top: 10px;
-  right: 10px;
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #e0e7ff;
-  color: #1f3c88;
   font-size: 16px;
   line-height: 28px;
   text-align: center;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Top button - random question */
+.refresh-btn {
+  top: 10px;
+  right: 10px;
+  background: #e0e7ff;
+  color: #1f3c88;
 }
 
 .refresh-btn:hover {
   background: #1f3c88;
   color: white;
 }
+
+/* Bottom button - same topic */
+.refresh-same {
+  top: 50px; /* lower than top button */
+  right: 10px;
+  background: #d0f0ff; /* different colour for distinction */
+  color: #0077aa;
+}
+
+.refresh-same:hover {
+  background: #0077aa;
+  color: white;
+}
+
+
 
 hr {
   margin: 40px auto 20px;
@@ -195,6 +217,17 @@ nav a.active {
   background-color: #3757b2;
 }
 
+.practice-topic {
+  top: 90px; /* below the same-topic refresh */
+  right: 10px;
+  background: #ffe0b2; /* soft orange */
+  color: #b35f00;
+}
+
+.practice-topic:hover {
+  background: #b35f00;
+  color: white;
+}
 
 
 

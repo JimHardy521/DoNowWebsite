@@ -9,6 +9,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="l2furtherquestions.js"></script>
+<script src="common.js"></script>
 
 <style>
 body {
@@ -18,8 +19,6 @@ body {
   color: #333;
 }
 </style>
-
-<script src="common.js"></script>
 </head>
 
 <body>
@@ -40,10 +39,11 @@ body {
       type="checkbox"
       id="revealAll"
       onchange="toggleAllSolutions(this.checked)"
-      style="margin-right:6px;"
+      style="margin-left:6px;"
     >
-    </label>
+  </label>
 </div>
+
 <hr>
 
 <p style="text-align:center;font-weight:700;">
@@ -74,14 +74,15 @@ body {
 </div>
 
 <script>
+// ---------- UTIL ----------
 function randomFrom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-// ---------------- TOPICS ----------------
+// ---------- TOPICS ----------
 function populateTopicsL2Further() {
   const topics = [...new Set(l2FurtherQuestions.map(q => q.topic))]
-  .sort((a, b) => a.localeCompare(b));
+    .sort((a, b) => a.localeCompare(b));
 
   ["topic1", "topic2", "topic3", "topic4"].forEach(id => {
     const sel = document.getElementById(id);
@@ -95,10 +96,11 @@ function populateTopicsL2Further() {
   });
 }
 
-// ---------------- QUESTION BOX ----------------
+// ---------- QUESTION BOX ----------
 function createBoxL2Further(q, index) {
   const box = document.createElement("div");
   box.className = "question-box";
+  box.dataset.topic = q.topic;
 
   const h = document.createElement("div");
   h.className = "question-header";
@@ -111,59 +113,158 @@ function createBoxL2Further(q, index) {
 
   const sol = document.createElement("div");
   sol.className = "solution";
+  sol.style.display = "none";
   sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
   box.appendChild(sol);
 
-  box.onclick = () =>
+  box.onclick = () => {
     sol.style.display = sol.style.display === "none" ? "block" : "none";
+  };
 
-  // Refresh button
-  const r = document.createElement("div");
-  r.className = "refresh-btn";
-  r.innerHTML = "↻";
-  r.title = "Refresh this question";
-  r.onclick = e => {
+  // 🔀 Any-topic refresh
+  const rAny = document.createElement("div");
+  rAny.className = "refresh-btn";
+  rAny.innerHTML = "↻";
+  rAny.title = "New random question";
+  rAny.onclick = e => {
     e.stopPropagation();
     let nq;
     do {
       nq = randomFrom(l2FurtherQuestions);
-    } while (nq.question === q.question && l2FurtherQuestions.length > 1);
+    } while (nq.question === qt.innerHTML && l2FurtherQuestions.length > 1);
+
     qt.innerHTML = nq.question;
     sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
     h.innerHTML = `Question ${index + 1}: ${nq.topic}`;
+    box.dataset.topic = nq.topic;
+
     MathJax.typeset();
   };
-  box.appendChild(r);
+  box.appendChild(rAny);
+
+  // 🔁 Same-topic refresh
+  const rSame = document.createElement("div");
+  rSame.className = "refresh-btn refresh-same";
+  rSame.innerHTML = "↺";
+  rSame.title = "New question from same topic";
+  rSame.onclick = e => {
+    e.stopPropagation();
+
+    const topic = box.dataset.topic;
+    const pool = l2FurtherQuestions.filter(q => q.topic === topic);
+    if (pool.length < 2) return;
+
+    let nq;
+    do {
+      nq = randomFrom(pool);
+    } while (nq.question === qt.innerHTML);
+
+    qt.innerHTML = nq.question;
+    sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
+    h.innerHTML = `Question ${index + 1}: ${nq.topic}`;
+    box.dataset.topic = nq.topic;
+
+    MathJax.typeset();
+  };
+  box.appendChild(rSame);
 
   document.getElementById("questions").appendChild(box);
+
+  // Practice topic button
+  const practiceBtn = document.createElement("div");
+  practiceBtn.className = "refresh-btn practice-topic";
+  practiceBtn.innerHTML = "➤";
+  practiceBtn.title = "Practice this topic further";
+
+  practiceBtn.onclick = e => {
+    e.stopPropagation();
+
+    const topic = box.dataset.topic;
+
+    // Open a new window with the topic parameter
+    const url = `practice.html?topic=${encodeURIComponent(topic)}&source=l2further`;
+    window.open(url, "_blank");
+  };
+
+  box.appendChild(practiceBtn);
+
+
 }
 
-// ---------------- LOAD RANDOM QUESTIONS ----------------
+// ---------- LOAD RANDOM ----------
 function loadL2FurtherQuestions() {
   document.getElementById("questions").innerHTML = "";
+  document.getElementById("revealAll").checked = false;
 
   for (let i = 0; i < 4; i++) {
     createBoxL2Further(randomFrom(l2FurtherQuestions), i);
   }
-  document.getElementById("revealAll").checked = false;
-  populateTopicsL2Further();
+
   MathJax.typeset();
 }
 
-// ---------------- LOAD TOPIC QUESTIONS ----------------
+// ---------- LOAD BY TOPIC ----------
 function loadL2FurtherTopicQuestions() {
   document.getElementById("questions").innerHTML = "";
+  document.getElementById("revealAll").checked = false;
 
   ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
     const topic = document.getElementById(id).value;
     const filtered = l2FurtherQuestions.filter(q => q.topic === topic);
-    if (filtered.length) createBoxL2Further(randomFrom(filtered), i);
+    if (filtered.length) {
+      createBoxL2Further(randomFrom(filtered), i);
+    }
   });
-  document.getElementById("revealAll").checked = false;
+
   MathJax.typeset();
 }
 
-// ---------------- PRINT ----------------
+// ---------- REVEAL ALL ----------
+function toggleAllSolutions(show) {
+  document.querySelectorAll(".solution").forEach(sol => {
+    sol.style.display = show ? "block" : "none";
+  });
+}
+
+// ---------- COPY TOPIC LINK ----------
+function copyTopicURL() {
+  const params = new URLSearchParams({
+    t1: topic1.value,
+    t2: topic2.value,
+    t3: topic3.value,
+    t4: topic4.value
+  });
+
+  const url =
+    window.location.origin +
+    window.location.pathname +
+    "?" +
+    params.toString();
+
+  navigator.clipboard.writeText(url).then(() => {
+    alert("Topic link copied to clipboard");
+  });
+}
+
+// ---------- LOAD FROM URL ----------
+function loadFromURLIfPresent() {
+  const params = new URLSearchParams(window.location.search);
+  let used = false;
+
+  ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
+    const val = params.get(`t${i + 1}`);
+    const sel = document.getElementById(id);
+
+    if (val && [...sel.options].some(o => o.value === val)) {
+      sel.value = val;
+      used = true;
+    }
+  });
+
+  if (used) loadL2FurtherTopicQuestions();
+}
+
+// ---------- PRINT ----------
 function printL2FurtherQuestions() {
   const boxes = document.querySelectorAll(".question-box");
   const questions = [...boxes].map(b => ({
@@ -206,51 +307,7 @@ function printL2FurtherQuestions() {
     win.MathJax.typesetPromise().then(() => win.print());
 }
 
-function toggleAllSolutions(show) {
-  document.querySelectorAll(".solution").forEach(sol => {
-    sol.style.display = show ? "block" : "none";
-  });
-}
-
-function copyTopicURL() {
-  const params = new URLSearchParams({
-    t1: document.getElementById("topic1").value,
-    t2: document.getElementById("topic2").value,
-    t3: document.getElementById("topic3").value,
-    t4: document.getElementById("topic4").value
-  });
-
-  const url =
-    window.location.origin +
-    window.location.pathname +
-    "?" +
-    params.toString();
-
-  navigator.clipboard.writeText(url).then(() => {
-    alert("Topic link copied to clipboard");
-  });
-}
-
-function loadFromURLIfPresent() {
-  const params = new URLSearchParams(window.location.search);
-
-  let used = false;
-
-  ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
-    const val = params.get(`t${i + 1}`);
-    const sel = document.getElementById(id);
-
-    if (val && [...sel.options].some(o => o.value === val)) {
-      sel.value = val;
-      used = true;
-    }
-  });
-
-  if (used) loadL2FurtherTopicQuestions();
-}
-
-
-// INIT
+// ---------- INIT ----------
 populateTopicsL2Further();
 
 if (window.location.search) {
@@ -258,8 +315,6 @@ if (window.location.search) {
 } else {
   loadL2FurtherQuestions();
 }
-
-
 </script>
 
 <script>

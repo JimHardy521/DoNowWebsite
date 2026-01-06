@@ -61,6 +61,68 @@ const l2FurtherQuestions = [
     solution: "\\(\\frac{(x-3)(x+2)}{(x-2)(x+2)} \\times \\frac{x-2}{x+3} = \\frac{x-3}{1} = x-3\\)"
   },
 
+/* ---BINOMIAL EXPANSION*/
+ {
+    topic: "Binomial Expansion",
+    question: "Expand and simplify \\((3 + x)^4\\).",
+    solution: "Using the binomial theorem: \\(= 81 + 108x + 54x^2 + 12x^3 + x^4\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Expand and simplify \\((1 - 2x)^5\\) up to and including the \\(x^3\\) term.",
+    solution: "\\(= 1 - 10x + 40x^2 - 80x^3 + \\dots\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Find the first four terms, in ascending powers of \\(x\\), in the expansion of \\((1 + 2x)^6\\).",
+    solution: "\\(= 1 + 12x + 60x^2 + 160x^3 + \\dots\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Find the coefficient of \\(x^3\\) in the expansion of \\((2 - x)^7\\).",
+    solution: "The general term gives coefficient \\( -140 \\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Given the expansion \\((1 + ax)^{10} = 1 + 10ax + 45a^2x^2 + \\dots\\), find the value of \\(a\\) if the coefficient of \\(x^2\\) is 90.",
+    solution: "Coefficient equation: \\(45a^2 = 90\\) ⇒ \\(a^2 = 2\\) ⇒ \\(a = \\pm \\sqrt{2}\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Find the first three terms in ascending powers of \\(x\\) of \\((1 - 3x)^8\\).",
+    solution: "\\(= 1 - 24x + 252x^2 - \\dots\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Find the coefficient of \\(x^4\\) in the expansion of \\((5x + 1)^9\\).",
+    solution: "Coefficient: \\( \\binom{9}{4} 1^{5}(5x)^4 = 126 \\times 625 = 78750\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Use the binomial expansion of \\((1 + x)^5\\) to estimate \\((1.02)^5\\) to 3 decimal places.",
+    solution: "Expansion: \\(1 + 5x + 10x^2 + 10x^3 + \\dots\\). With \\(x = 0.02\\): \\(≈ 1 + 0.1 + 0.004 + 0.000008 = 1.104\\) (3 s.f.)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Find the first four terms, in ascending powers of \\(x\\), of the expansion of \\((1 - \\tfrac{1}{2}x)^{7}\\).",
+    solution: "\\(= 1 - \\tfrac{7}{2}x + \\tfrac{105}{8}x^2 - \\tfrac{35}{1}x^3 + \\dots\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "In the expansion of \\((1 + kx)^8\\), the coefficient of \\(x^2\\) is 28. Find \\(k\\).",
+    solution: "Coefficient: \\(\\binom{8}{2}k^2 = 28 ⇒ 28k^2 = 28 ⇒ k^2 = 1 ⇒ k = ±1\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Find the coefficient of \\(x^3\\) in the expansion of \\((4 + 3x)^{6}\\).",
+    solution: "Use general term: \\(\\binom{6}{3}4^{3}(3x)^3 = 20 × 64 × 27 = 34560\\)."
+  },
+  {
+    topic: "Binomial Expansion",
+    question: "Expand \\((2 - x)^5\\) and find the sum of coefficients.",
+    solution: "Expansion: \\(32 - 80x + 80x^2 - 40x^3 + 10x^4 - x^5\\). Sum of coefficients = \\(32 - 80 + 80 - 40 + 10 - 1 = 1\\)."
+  },
+
 
   
 /* ---------------- DOMAIN AND RANGE ---------------- */

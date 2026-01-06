@@ -550,36 +550,95 @@ const gcseQuestions = [
       solution: "\\((x - 3)^2 + 1\\), minimum value is 1."
     },
     
-    {
-      topic: "Parallel and Perpendicular Lines",
-      level: "Higher",
-      question: "Find the gradient of a line perpendicular to \\(y = 2x + 5\\).",
-      solution: "The perpendicular gradient is \\(-\\frac{1}{2}\\)."
-    },
-    {
-      topic: "Parallel and Perpendicular Lines",
-      level: "Higher",
-      question: "Find the equation of a line parallel to \\(y = -3x + 1\\) through \\((2,4)\\).",
-      solution: "\\(y = -3x + 10\\)."
-    },
-    {
-      topic: "Parallel and Perpendicular Lines",
-      level: "Higher",
-      question: "Find the equation of the line perpendicular to \\(y = 4x - 7\\) through \\((1,3)\\).",
-      solution: "Gradient is \\(-\\frac{1}{4}\\), equation is \\(y = -\\frac{1}{4}x + \\frac{13}{4}\\)."
-    },
-    {
-      topic: "Parallel and Perpendicular Lines",
-      level: "Higher",
-      question: "Are the lines \\(y = 2x + 1\\) and \\(2y = 4x - 3\\) parallel?",
-      solution: "Both have gradient 2, so yes they are parallel."
-    },
-    {
-      topic: "Parallel and Perpendicular Lines",
-      level: "Higher",
-      question: "Find the gradient of the line joining \\((2,5)\\) and \\((6,13)\\).",
-      solution: "\\(\\frac{13 - 5}{6 - 2} = 2\\)."
-    }
+   // =======================
+// Lines - Parallel and Perpendicular
+// =======================
+
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line parallel to \\(3y = 6x - 9\\) that passes through \\((2, 1)\\).",
+  solution: "Rearranging gives \\(y = 2x - 3\\). Using gradient 2: \\(y - 1 = 2(x - 2)\\), so \\(y = 2x - 3\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line perpendicular to \\(y = -4x + 7\\) through \\((3, -2)\\).",
+  solution: "Perpendicular gradient is \\(\\frac{1}{4}\\). Using \\((3,-2)\\): \\(y + 2 = \\frac{1}{4}(x - 3)\\), so \\(y = \\frac{1}{4}x - \\frac{11}{4}\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line parallel to \\(5x - 2y = 8\\) passing through \\((-1, 4)\\).",
+  solution: "Rearranging gives \\(y = \\frac{5}{2}x - 4\\). Using gradient \\(\\frac{5}{2}\\): \\(y - 4 = \\frac{5}{2}(x + 1)\\), so \\(y = \\frac{5}{2}x + \\frac{13}{2}\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line perpendicular to \\(2y = x + 6\\) that passes through \\((4, 5)\\).",
+  solution: "Rearranging gives \\(y = \\frac{1}{2}x + 3\\). Perpendicular gradient is \\(-2\\). Using \\((4,5)\\): \\(y - 5 = -2(x - 4)\\), so \\(y = -2x + 13\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line parallel to \\(y - 3 = -\\frac{1}{2}(x + 4)\\) through \\((0, 1)\\).",
+  solution: "Gradient is \\(-\\frac{1}{2}\\). Using \\((0,1)\\): \\(y - 1 = -\\frac{1}{2}x\\), so \\(y = -\\frac{1}{2}x + 1\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line perpendicular to \\(y = \\frac{3}{5}x - 2\\) passing through \\((10, -1)\\).",
+  solution: "Perpendicular gradient is \\(-\\frac{5}{3}\\). Using \\((10,-1)\\): \\(y + 1 = -\\frac{5}{3}(x - 10)\\), so \\(y = -\\frac{5}{3}x + \\frac{47}{3}\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line parallel to \\(4x + y = 9\\) through \\((2, -3)\\).",
+  solution: "Rearranging gives \\(y = -4x + 9\\). Using gradient \\(-4\\): \\(y + 3 = -4(x - 2)\\), so \\(y = -4x + 5\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line perpendicular to \\(x - 3y = 6\\) passing through \\((-3, 2)\\).",
+  solution: "Rearranging gives \\(y = \\frac{1}{3}x - 2\\). Perpendicular gradient is \\(-3\\). Using \\((-3,2)\\): \\(y - 2 = -3(x + 3)\\), so \\(y = -3x - 7\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line parallel to \\(y = -\\frac{4}{3}x + 1\\) that passes through \\((6, -5)\\).",
+  solution: "Using gradient \\(-\\frac{4}{3}\\): \\(y + 5 = -\\frac{4}{3}(x - 6)\\), so \\(y = -\\frac{4}{3}x + 3\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line perpendicular to \\(6y = -2x + 12\\) through \\((1, 4)\\).",
+  solution: "Rearranging gives \\(y = -\\frac{1}{3}x + 2\\). Perpendicular gradient is 3. Using \\((1,4)\\): \\(y - 4 = 3(x - 1)\\), so \\(y = 3x + 1\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line parallel to \\(y = 7 - 2x\\) passing through \\((-2, 6)\\).",
+  solution: "Rewriting gives \\(y = -2x + 7\\). Using gradient \\(-2\\): \\(y - 6 = -2(x + 2)\\), so \\(y = -2x + 2\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line perpendicular to \\(y = 5x\\) through \\((4, -3)\\).",
+  solution: "Perpendicular gradient is \\(-\\frac{1}{5}\\). Using \\((4,-3)\\): \\(y + 3 = -\\frac{1}{5}(x - 4)\\), so \\(y = -\\frac{1}{5}x - \\frac{11}{5}\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line parallel to \\(2(x - 1) + y = 5\\) through \\((3, -1)\\).",
+  solution: "Rearranging gives \\(y = -2x + 7\\). Using gradient \\(-2\\): \\(y + 1 = -2(x - 3)\\), so \\(y = -2x + 5\\)."
+},
+{
+  topic: "Lines - Parallel and Perpendicular",
+  level: "Higher",
+  question: "Find the equation of the line perpendicular to \\(y = -\\frac{2}{7}x + 4\\) passing through \\((7, 0)\\).",
+  solution: "Perpendicular gradient is \\(\\frac{7}{2}\\). Using \\((7,0)\\): \\(y = \\frac{7}{2}(x - 7)\\), so \\(y = \\frac{7}{2}x - \\frac{49}{2}\\)."
+}
+
   ,
   
   /* =========================

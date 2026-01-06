@@ -1313,7 +1313,78 @@ const gcseQuestions = [
   level: "Higher",
   question: "Simplify \\(\\frac{x^2 - x - 12}{x^2 - 16}\\).",
   solution: "Factorising gives \\(\\frac{(x-4)(x+3)}{(x-4)(x+4)} = \\frac{x+3}{x+4}\\)."
+},
+// =======================
+// Solving Quadratics - Using the Formulae
+// =======================
+
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\((x + 3)(x - 5) = 14\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(x^2 - 2x - 29 = 0\\). Exact solutions: \\(x = 1 \\pm \\sqrt{30}\\). Approximate solutions: \\(x \\approx 6.48\\) or \\(x \\approx -4.48\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\(2x(x - 4) = 3\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(2x^2 - 8x - 3 = 0\\). Exact solutions: \\(x = \\frac{8 \\pm \\sqrt{88}}{4}\\). Approximate solutions: \\(x \\approx 4.35\\) or \\(x \\approx -0.35\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\((x - 2)^2 = 7x\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(x^2 - 11x + 4 = 0\\). Exact solutions: \\(x = \\frac{11 \\pm \\sqrt{105}}{2}\\). Approximate solutions: \\(x \\approx 10.62\\) or \\(x \\approx 0.38\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\(x(3x + 1) = 10\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(3x^2 + x - 10 = 0\\). Exact solutions: \\(x = \\frac{-1 \\pm 11}{6}\\). Approximate solutions: \\(x \\approx 1.67\\) or \\(x = -2.00\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\((2x - 1)(x + 4) = 5\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(2x^2 + 7x - 9 = 0\\). Exact solutions: \\(x = \\frac{-7 \\pm 11}{4}\\). Approximate solutions: \\(x = 1.00\\) or \\(x = -4.50\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\(x^2 + 3 = 4x\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(x^2 - 4x + 3 = 0\\). Exact solutions: \\(x = 1\\) or \\(x = 3\\). Approximate solutions: \\(x = 1.00\\) or \\(x = 3.00\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\((x + 1)(x + 6) = 2x\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(x^2 + 5x + 6 = 0\\). Exact solutions: \\(x = -2\\) or \\(x = -3\\). Approximate solutions: \\(x = -2.00\\) or \\(x = -3.00\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\((x - 4)(x + 2) = 6\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(x^2 - 2x - 14 = 0\\). Exact solutions: \\(x = 1 \\pm \\sqrt{15}\\). Approximate solutions: \\(x \\approx 4.87\\) or \\(x \\approx -2.87\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\(3(x - 1)^2 = 2x\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(3x^2 - 8x + 3 = 0\\). Exact solutions: \\(x = \\frac{8 \\pm \\sqrt{28}}{6}\\). Approximate solutions: \\(x \\approx 2.22\\) or \\(x \\approx 0.45\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\((x + 5)^2 = x + 11\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(x^2 + 9x + 14 = 0\\). Exact solutions: \\(x = -2\\) or \\(x = -7\\). Approximate solutions: \\(x = -2.00\\) or \\(x = -7.00\\)."
+},
+{
+  topic: "Solving Quadratics - Using the Formulae",
+  level: "Higher",
+  question: "Solve \\(2(x + 3)(x - 1) = x\\) using the quadratic formula.",
+  solution: "Rearranging gives \\(2x^2 + 3x - 6 = 0\\). Exact solutions: \\(x = \\frac{-3 \\pm \\sqrt{57}}{4}\\). Approximate solutions: \\(x \\approx 1.14\\) or \\(x \\approx -2.64\\)."
 }
+
 
 
 

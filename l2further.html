@@ -234,21 +234,31 @@ function copyTopicURL() {
 function loadFromURLIfPresent() {
   const params = new URLSearchParams(window.location.search);
 
-  if (!params.has("t1")) return;
+  let used = false;
 
   ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
     const val = params.get(`t${i + 1}`);
-    if (val) document.getElementById(id).value = val;
+    const sel = document.getElementById(id);
+
+    if (val && [...sel.options].some(o => o.value === val)) {
+      sel.value = val;
+      used = true;
+    }
   });
 
-  loadL2FurtherTopicQuestions();
+  if (used) loadL2FurtherTopicQuestions();
 }
 
 
 // INIT
 populateTopicsL2Further();
-loadL2FurtherQuestions();
-if (!window.location.search) loadL2FurtherQuestions();
+
+if (window.location.search) {
+  loadFromURLIfPresent();
+} else {
+  loadL2FurtherQuestions();
+}
+
 
 </script>
 

@@ -291,12 +291,7 @@ const gcseQuestions = [
        HIGHER
        ========================= */
     
-    {
-      topic: "Surds",
-      level: "Higher",
-      question: "Simplify \\(\\sqrt{50}\\).",
-      solution: "\\(\\sqrt{25 \\times 2} = 5\\sqrt{2}\\)."
-    },
+
    // =======================
 // Surds – Simplifying
 // =======================

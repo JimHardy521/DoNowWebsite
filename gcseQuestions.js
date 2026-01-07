@@ -1455,7 +1455,82 @@ const gcseQuestions = [
   level: "Higher",
   question: "If \\(A = 3^4 \\times 7\\) and \\(B = 3^2 \\times 7^3\\), find the HCF of \\(A\\) and \\(B\\).",
   solution: "The HCF is \\(3^2 \\times 7 = 63\\)."
+},
+
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 2x + 3\\) and \\(g(x) = \\frac{1}{x}\\), find an expression for \\(g(f^{-1}(x))\\).",
+  solution: "First find \\(f^{-1}(x) = \\frac{x - 3}{2}\\). Substituting gives \\(g(f^{-1}(x)) = \\frac{2}{x - 3}\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 3x - 4\\) and \\(g(x) = x^2\\), find an expression for \\(g(f(x))\\) in terms of \\(x\\).",
+  solution: "\\(g(f(x)) = (3x - 4)^2 = 9x^2 - 24x + 16\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = \\frac{x - 5}{2}\\). Find an expression for \\(f^{-1}(x)\\).",
+  solution: "Rearranging \\(x = \\frac{y - 5}{2}\\) gives \\(f^{-1}(x) = 2x + 5\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 4x + 1\\) and \\(g(x) = x - 6\\), find an expression for \\(f(g(x))\\).",
+  solution: "\\(f(g(x)) = 4(x - 6) + 1 = 4x - 23\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = 5 - x\\). Find an expression for \\(f^{-1}(x)\\).",
+  solution: "Rearranging gives \\(f^{-1}(x) = 5 - x\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = x^2 + 2\\) and \\(g(x) = 3x\\), find an expression for \\(f(g(x))\\) in terms of \\(x\\).",
+  solution: "\\(f(g(x)) = (3x)^2 + 2 = 9x^2 + 2\\)."
+},
+
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 2x + 1\\) and \\(g(x) = x - 4\\), find the value of \\(g(f(3))\\).",
+  solution: "\\(f(3) = 7\\). Then \\(g(7) = 3\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = 3x - 2\\). Find the value of \\(f^{-1}(7)\\).",
+  solution: "\\(f^{-1}(x) = \\frac{x + 2}{3}\\), so \\(f^{-1}(7) = 3\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = x + 5\\) and \\(g(x) = 2x\\), find the value of \\(g^{-1}(f(4))\\).",
+  solution: "\\(f(4) = 9\\). Since \\(g^{-1}(x) = \\frac{x}{2}\\), the value is \\(\\frac{9}{2}\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 4x\\) and \\(g(x) = x - 1\\), find the value of \\(f^{-1}(g(9))\\).",
+  solution: "\\(g(9) = 8\\). Since \\(f^{-1}(x) = \\frac{x}{4}\\), the value is 2."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 2x - 3\\) and \\(g(x) = \\frac{1}{x}\\), find the value of \\(g(f(5))\\).",
+  solution: "\\(f(5) = 7\\). Then \\(g(7) = \\frac{1}{7}\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = x - 6\\). Find the value of \\(f^{-1}(f(10))\\).",
+  solution: "\\(f(10) = 4\\). Then \\(f^{-1}(4) = 10\\)."
 }
+
 
 
 

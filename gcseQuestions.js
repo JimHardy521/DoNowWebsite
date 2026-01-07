@@ -818,7 +818,308 @@ const gcseQuestions = [
   level: "Higher",
   question: "Solve \\(2(x + 3)(x - 1) = x\\) using the quadratic formula.",
   solution: "Rearranging gives \\(2x^2 + 3x - 6 = 0\\). Exact solutions: \\(x = \\frac{-3 \\pm \\sqrt{57}}{4}\\). Approximate solutions: \\(x \\approx 1.14\\) or \\(x \\approx -2.64\\)."
+},
+
+
+
+
+
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 2^3 \\times 3^2 \\times 5\\) and \\(B = 2^2 \\times 3 \\times 5^2\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF uses the smallest powers of common primes: \\(2^2 \\times 3 \\times 5 = 60\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 3^2 \\times 5 \\times 7^2\\) and \\(B = 3 \\times 5^2 \\times 7\\), find the HCF of \\(A\\) and \\(B^2\\).",
+  solution: "\\(B^2 = 3^2 \\times 5^4 \\times 7^2\\). The HCF is \\(3^2 \\times 5 \\times 7^2 = 2205\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Given \\(A = 2^4 \\times 3 \\times 7\\) and \\(B = 2^2 \\times 3^3 \\times 7\\), find the LCM of \\(A\\) and \\(B\\).",
+  solution: "The LCM uses the largest powers of each prime: \\(2^4 \\times 3^3 \\times 7 = 3024\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 5^2 \\times 11\\) and \\(B = 5 \\times 11^2\\), find the HCF of \\(A^2\\) and \\(B\\).",
+  solution: "\\(A^2 = 5^4 \\times 11^2\\). The HCF is \\(5 \\times 11^2 = 605\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Numbers \\(A\\) and \\(B\\) have prime factorisations \\(A = 2^3 \\times 3^2\\) and \\(B = 2 \\times 3^4\\). Find the LCM of \\(A\\) and \\(B\\).",
+  solution: "The LCM is \\(2^3 \\times 3^4 = 648\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 2^5 \\times 7\\) and \\(B = 2^3 \\times 7^2\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF is \\(2^3 \\times 7 = 56\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 3^3 \\times 5\\) and \\(B = 3 \\times 5^2\\), find the LCM of \\(A^2\\) and \\(B\\).",
+  solution: "\\(A^2 = 3^6 \\times 5^2\\). The LCM is \\(3^6 \\times 5^2 = 18225\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Two numbers have HCF \\(= 12\\) and LCM \\(= 360\\). One number is 60. Find the other number.",
+  solution: "Using \\(A \\times B = \\text{HCF} \\times \\text{LCM}\\): the other number is \\((12 \\times 360) \\div 60 = 72\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 2^2 \\times 3 \\times 11\\) and \\(B = 2^3 \\times 3^2\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF is \\(2^2 \\times 3 = 12\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Given \\(A = 2^3 \\times 5^2\\) and \\(B = 2 \\times 5^3\\), find the LCM of \\(A\\) and \\(B^2\\).",
+  solution: "\\(B^2 = 2^2 \\times 5^6\\). The LCM is \\(2^3 \\times 5^6 = 125000\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "The HCF of two numbers is \\(18\\) and the LCM is \\(540\\). Write the two numbers in the form \\(18a\\) and \\(18b\\), where \\(a\\) and \\(b\\) are coprime.",
+  solution: "Since \\(18ab = 540\\), we have \\(ab = 30\\). A valid pair is \\(a = 5\\), \\(b = 6\\), giving numbers 90 and 108."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 3^4 \\times 7\\) and \\(B = 3^2 \\times 7^3\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF is \\(3^2 \\times 7 = 63\\)."
+},
+
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 2x + 3\\) and \\(g(x) = \\frac{1}{x}\\), find an expression for \\(g(f^{-1}(x))\\).",
+  solution: "First find \\(f^{-1}(x) = \\frac{x - 3}{2}\\). Substituting gives \\(g(f^{-1}(x)) = \\frac{2}{x - 3}\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 3x - 4\\) and \\(g(x) = x^2\\), find an expression for \\(g(f(x))\\) in terms of \\(x\\).",
+  solution: "\\(g(f(x)) = (3x - 4)^2 = 9x^2 - 24x + 16\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = \\frac{x - 5}{2}\\). Find an expression for \\(f^{-1}(x)\\).",
+  solution: "Rearranging \\(x = \\frac{y - 5}{2}\\) gives \\(f^{-1}(x) = 2x + 5\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 4x + 1\\) and \\(g(x) = x - 6\\), find an expression for \\(f(g(x))\\).",
+  solution: "\\(f(g(x)) = 4(x - 6) + 1 = 4x - 23\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = 5 - x\\). Find an expression for \\(f^{-1}(x)\\).",
+  solution: "Rearranging gives \\(f^{-1}(x) = 5 - x\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = x^2 + 2\\) and \\(g(x) = 3x\\), find an expression for \\(f(g(x))\\) in terms of \\(x\\).",
+  solution: "\\(f(g(x)) = (3x)^2 + 2 = 9x^2 + 2\\)."
+},
+
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 2x + 1\\) and \\(g(x) = x - 4\\), find the value of \\(g(f(3))\\).",
+  solution: "\\(f(3) = 7\\). Then \\(g(7) = 3\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = 3x - 2\\). Find the value of \\(f^{-1}(7)\\).",
+  solution: "\\(f^{-1}(x) = \\frac{x + 2}{3}\\), so \\(f^{-1}(7) = 3\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = x + 5\\) and \\(g(x) = 2x\\), find the value of \\(g^{-1}(f(4))\\).",
+  solution: "\\(f(4) = 9\\). Since \\(g^{-1}(x) = \\frac{x}{2}\\), the value is \\(\\frac{9}{2}\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 4x\\) and \\(g(x) = x - 1\\), find the value of \\(f^{-1}(g(9))\\).",
+  solution: "\\(g(9) = 8\\). Since \\(f^{-1}(x) = \\frac{x}{4}\\), the value is 2."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "Given that \\(f(x) = 2x - 3\\) and \\(g(x) = \\frac{1}{x}\\), find the value of \\(g(f(5))\\).",
+  solution: "\\(f(5) = 7\\). Then \\(g(7) = \\frac{1}{7}\\)."
+},
+{
+  topic: "Functions - Composite and Inverse",
+  level: "Higher",
+  question: "The function \\(f\\) is defined by \\(f(x) = x - 6\\). Find the value of \\(f^{-1}(f(10))\\).",
+  solution: "\\(f(10) = 4\\). Then \\(f^{-1}(4) = 10\\)."
+},
+
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£2448 is invested in an account. After one year the value of the investment is £2496.96. Assuming the same compound interest rate each year, how much will there be in the account after 4 years?",
+  solution: "The annual multiplier is \\(2496.96 \\div 2448 = 1.02\\). After 4 years: \\(2448 \\times 1.02^4 = £2650.43\\) (to the nearest penny)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "A car is worth £18,000. It depreciates by 12% each year. Calculate the value of the car after 3 years.",
+  solution: "The annual multiplier is \\(0.88\\). After 3 years: \\(18000 \\times 0.88^3 = £12270.34\\) (to the nearest penny)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£5000 is invested at a compound interest rate of 3% per year. After how many years will the investment first be worth more than £6000?",
+  solution: "Solve \\(5000 \\times 1.03^n > 6000\\). This gives \\(n > 6.2\\), so the investment is first worth more than £6000 after 7 years."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "The value of a laptop depreciates by 20% each year. After 2 years it is worth £512. Find the value of the laptop when it was new.",
+  solution: "The multiplier over 2 years is \\(0.8^2 = 0.64\\). Original value is \\(512 \\div 0.64 = £800\\)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "An investment increases in value from £10,000 to £11,576 in 3 years. Assuming compound interest at a constant rate, calculate the annual percentage rate.",
+  solution: "Solve \\(10000 \\times r^3 = 11576\\). This gives \\(r = 1.05\\), so the interest rate is 5% per year."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "A machine is bought for £25,000. It depreciates by 15% each year. After how many complete years will its value first fall below £10,000?",
+  solution: "Solve \\(25000 \\times 0.85^n < 10000\\). This gives \\(n > 5.6\\), so the value first falls below £10,000 after 6 years."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£3600 is invested at compound interest. After 2 years the investment is worth £3889.44. Calculate the annual rate of interest.",
+  solution: "The multiplier over 2 years is \\(3889.44 \\div 3600 = 1.0804\\). The annual multiplier is \\(\\sqrt{1.0804} = 1.04\\), so the rate is 4%."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "The population of a town decreases by 6% each year. If the population is 47,000 now, calculate the population after 5 years.",
+  solution: "The annual multiplier is \\(0.94\\). After 5 years: \\(47000 \\times 0.94^5 = 34,748\\) (to the nearest whole number)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "An investment of £8000 grows to £9261.64 after 4 years at a constant compound interest rate. Calculate the annual percentage rate of interest.",
+  solution: "Solve \\(8000 \\times r^4 = 9261.64\\). This gives \\(r = 1.037\\), so the rate is 3.7% per year (to 1 decimal place)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "A car is worth £14,500. It depreciates by 18% in the first year and by 10% each year after that. Calculate the value of the car after 3 years.",
+  solution: "After 1 year: \\(14500 \\times 0.82 = 11890\\). After 3 years: \\(11890 \\times 0.9^2 = £9636.90\\)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£2000 is invested at compound interest. After 5 years the investment is worth £2552.56. Calculate the annual rate of interest.",
+  solution: "Solve \\(2000 \\times r^5 = 2552.56\\). This gives \\(r = 1.05\\), so the rate is 5% per year."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "The value of a phone depreciates by 25% each year. After how many years will its value be less than 20% of its original value?",
+  solution: "Solve \\(0.75^n < 0.2\\). This gives \\(n > 5.6\\), so after 6 years the value is less than 20% of the original."
+},
+
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A has coordinates \\((-4, 3)\\) and point B has coordinates \\((2, 0)\\). The points A, B and C lie on a straight line. If \\(AB : BC = 3 : 4\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((6, -3)\\). One part is \\((2, -1)\\). From B, move 4 parts: \\((2, 0) + (8, -4) = (10, -4)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((1, -5)\\) and point B is \\((7, 1)\\). The points A, B and C are collinear. If \\(AC : CB = 2 : 3\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((6, 6)\\). One part is \\((2, 2)\\). From A, move 2 parts: \\((1, -5) + (4, 4) = (5, -1)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((-6, 4)\\) and \\((3, -2)\\) respectively. Point C lies on the line AB such that \\(AC : CB = 5 : 1\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((9, -6)\\). One part is \\((1.5, -1)\\). From A, move 5 parts: \\((-6, 4) + (7.5, -5) = (1.5, -1)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((2, 7)\\) and point B is \\((10, -1)\\). The points A, B and C lie on a straight line. If \\(AB : BC = 1 : 3\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((8, -8)\\). One part is \\((4, -4)\\). From B, move 3 parts: \\((10, -1) + (12, -12) = (22, -13)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((-3, -3)\\) and \\((5, 9)\\). Point C lies on the line AB such that \\(AC : CB = 3 : 5\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((8, 12)\\). One part is \\((1, 1.5)\\). From A, move 3 parts: \\((-3, -3) + (3, 4.5) = (0, 1.5)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((4, -2)\\) and point B is \\((-8, 4)\\). The points A, B and C are collinear. If \\(AC : CB = 2 : 1\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((-12, 6)\\). One part is \\((-4, 2)\\). From A, move 2 parts: \\((4, -2) + (-8, 4) = (-4, 2)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A has coordinates \\((-10, 6)\\) and point B has coordinates \\((2, -3)\\). Point C lies on the line AB such that \\(AB : BC = 2 : 5\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((12, -9)\\). One part is \\((6, -4.5)\\). From B, move 5 parts: \\((2, -3) + (30, -22.5) = (32, -25.5)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B are \\((0, -4)\\) and \\((6, 8)\\). The points A, B and C lie on a straight line. If \\(AC : CB = 1 : 2\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((6, 12)\\). One part is \\((2, 4)\\). From A, move 1 part: \\((0, -4) + (2, 4) = (2, 0)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((9, -3)\\) and point B is \\((-3, 9)\\). Point C lies on the line AB such that \\(AC : CB = 4 : 2\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((-12, 12)\\). One part is \\((-3, 3)\\). From A, move 4 parts: \\((9, -3) + (-12, 12) = (-3, 9)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((2, 5)\\) and \\((14, 11)\\). Point C lies on the line AB such that \\(AB : BC = 3 : 2\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((12, 6)\\). One part is \\((4, 2)\\). From B, move 2 parts: \\((14, 11) + (8, 4) = (22, 15)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((-1, 8)\\) and point B is \\((7, 0)\\). The points A, B and C are collinear. If \\(AC : CB = 3 : 1\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((8, -8)\\). One part is \\((2, -2)\\). From A, move 3 parts: \\((-1, 8) + (6, -6) = (5, 2)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((-8, -2)\\) and \\((4, 10)\\). Point C lies on the line AB such that \\(AC : CB = 2 : 3\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((12, 12)\\). One part is \\((2.4, 2.4)\\). From A, move 2 parts: \\((-8, -2) + (4.8, 4.8) = (-3.2, 2.8)\\)."
 }
+
+
+
+
 
 
 

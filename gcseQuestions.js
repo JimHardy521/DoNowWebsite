@@ -1383,7 +1383,80 @@ const gcseQuestions = [
   level: "Higher",
   question: "Solve \\(2(x + 3)(x - 1) = x\\) using the quadratic formula.",
   solution: "Rearranging gives \\(2x^2 + 3x - 6 = 0\\). Exact solutions: \\(x = \\frac{-3 \\pm \\sqrt{57}}{4}\\). Approximate solutions: \\(x \\approx 1.14\\) or \\(x \\approx -2.64\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 2^3 \\times 3^2 \\times 5\\) and \\(B = 2^2 \\times 3 \\times 5^2\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF uses the smallest powers of common primes: \\(2^2 \\times 3 \\times 5 = 60\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 3^2 \\times 5 \\times 7^2\\) and \\(B = 3 \\times 5^2 \\times 7\\), find the HCF of \\(A\\) and \\(B^2\\).",
+  solution: "\\(B^2 = 3^2 \\times 5^4 \\times 7^2\\). The HCF is \\(3^2 \\times 5 \\times 7^2 = 2205\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Given \\(A = 2^4 \\times 3 \\times 7\\) and \\(B = 2^2 \\times 3^3 \\times 7\\), find the LCM of \\(A\\) and \\(B\\).",
+  solution: "The LCM uses the largest powers of each prime: \\(2^4 \\times 3^3 \\times 7 = 3024\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 5^2 \\times 11\\) and \\(B = 5 \\times 11^2\\), find the HCF of \\(A^2\\) and \\(B\\).",
+  solution: "\\(A^2 = 5^4 \\times 11^2\\). The HCF is \\(5 \\times 11^2 = 605\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Numbers \\(A\\) and \\(B\\) have prime factorisations \\(A = 2^3 \\times 3^2\\) and \\(B = 2 \\times 3^4\\). Find the LCM of \\(A\\) and \\(B\\).",
+  solution: "The LCM is \\(2^3 \\times 3^4 = 648\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 2^5 \\times 7\\) and \\(B = 2^3 \\times 7^2\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF is \\(2^3 \\times 7 = 56\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 3^3 \\times 5\\) and \\(B = 3 \\times 5^2\\), find the LCM of \\(A^2\\) and \\(B\\).",
+  solution: "\\(A^2 = 3^6 \\times 5^2\\). The LCM is \\(3^6 \\times 5^2 = 18225\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Two numbers have HCF \\(= 12\\) and LCM \\(= 360\\). One number is 60. Find the other number.",
+  solution: "Using \\(A \\times B = \\text{HCF} \\times \\text{LCM}\\): the other number is \\((12 \\times 360) \\div 60 = 72\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 2^2 \\times 3 \\times 11\\) and \\(B = 2^3 \\times 3^2\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF is \\(2^2 \\times 3 = 12\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "Given \\(A = 2^3 \\times 5^2\\) and \\(B = 2 \\times 5^3\\), find the LCM of \\(A\\) and \\(B^2\\).",
+  solution: "\\(B^2 = 2^2 \\times 5^6\\). The LCM is \\(2^3 \\times 5^6 = 125000\\)."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "The HCF of two numbers is \\(18\\) and the LCM is \\(540\\). Write the two numbers in the form \\(18a\\) and \\(18b\\), where \\(a\\) and \\(b\\) are coprime.",
+  solution: "Since \\(18ab = 540\\), we have \\(ab = 30\\). A valid pair is \\(a = 5\\), \\(b = 6\\), giving numbers 90 and 108."
+},
+{
+  topic: "HCF and LCM",
+  level: "Higher",
+  question: "If \\(A = 3^4 \\times 7\\) and \\(B = 3^2 \\times 7^3\\), find the HCF of \\(A\\) and \\(B\\).",
+  solution: "The HCF is \\(3^2 \\times 7 = 63\\)."
 }
+
 
 
 

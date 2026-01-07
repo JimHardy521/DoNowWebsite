@@ -717,7 +717,80 @@ const l2FurtherQuestions = [
     topic: "Tangents to a Circle",
     question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 12x + 4y + 27 = 0\\) at the point \\((3,-4)\\).",
     solution: "Complete the square: (x-6)^2 + (y+2)^2 = 13, center: (6,−2). Gradient of radius: m_r = (-4 + 2)/(3 - 6) = -2/-3 = 2/3. Tangent gradient: m_t = -3/2. Equation: y + 4 = -3/2(x - 3) ⇒ y = -3/2 x + 1/2."
-  }
+  },
+  /* ---------------- DESCRIBING MATRIX TRANSFORMATIONS ---------------- */
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\).",
+  solution: "A rotation of 90° anticlockwise about the origin."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\).",
+  solution: "A rotation of 90° clockwise about the origin."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\).",
+  solution: "A rotation of 180° about the origin."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\).",
+  solution: "A reflection in the x-axis."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\).",
+  solution: "A reflection in the y-axis."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}\\).",
+  solution: "A reflection in the line \\(y = x\\)."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 2 & 0 \\\\ 0 & 2 \\end{pmatrix}\\).",
+  solution: "An enlargement with scale factor 2 about the origin."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} \\frac{1}{2} & 0 \\\\ 0 & \\frac{1}{2} \\end{pmatrix}\\).",
+  solution: "An enlargement with scale factor \\(\\frac{1}{2}\\) about the origin."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 3 & 0 \\\\ 0 & 3 \\end{pmatrix}\\).",
+  solution: "An enlargement with scale factor 3 about the origin."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} -2 & 0 \\\\ 0 & -2 \\end{pmatrix}\\).",
+  solution: "An enlargement with scale factor 2 combined with a rotation of 180° about the origin."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 3 & 0 \\\\ 0 & 1 \\end{pmatrix}\\).",
+  solution: "A stretch parallel to the x-axis with scale factor 3."
+},
+{
+  topic: "Describing Matrix Transformations",
+  level: "L2 Further",
+  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & 4 \\end{pmatrix}\\).",
+  solution: "A stretch parallel to the y-axis with scale factor 4."
+}
 
 
 ];

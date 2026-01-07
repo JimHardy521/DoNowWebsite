@@ -1602,7 +1602,81 @@ const gcseQuestions = [
   level: "Higher",
   question: "The value of a phone depreciates by 25% each year. After how many years will its value be less than 20% of its original value?",
   solution: "Solve \\(0.75^n < 0.2\\). This gives \\(n > 5.6\\), so after 6 years the value is less than 20% of the original."
+},
+
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A has coordinates \\((-4, 3)\\) and point B has coordinates \\((2, 0)\\). The points A, B and C lie on a straight line. If \\(AB : BC = 3 : 4\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((6, -3)\\). One part is \\((2, -1)\\). From B, move 4 parts: \\((2, 0) + (8, -4) = (10, -4)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((1, -5)\\) and point B is \\((7, 1)\\). The points A, B and C are collinear. If \\(AC : CB = 2 : 3\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((6, 6)\\). One part is \\((2, 2)\\). From A, move 2 parts: \\((1, -5) + (4, 4) = (5, -1)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((-6, 4)\\) and \\((3, -2)\\) respectively. Point C lies on the line AB such that \\(AC : CB = 5 : 1\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((9, -6)\\). One part is \\((1.5, -1)\\). From A, move 5 parts: \\((-6, 4) + (7.5, -5) = (1.5, -1)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((2, 7)\\) and point B is \\((10, -1)\\). The points A, B and C lie on a straight line. If \\(AB : BC = 1 : 3\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((8, -8)\\). One part is \\((4, -4)\\). From B, move 3 parts: \\((10, -1) + (12, -12) = (22, -13)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((-3, -3)\\) and \\((5, 9)\\). Point C lies on the line AB such that \\(AC : CB = 3 : 5\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((8, 12)\\). One part is \\((1, 1.5)\\). From A, move 3 parts: \\((-3, -3) + (3, 4.5) = (0, 1.5)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((4, -2)\\) and point B is \\((-8, 4)\\). The points A, B and C are collinear. If \\(AC : CB = 2 : 1\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((-12, 6)\\). One part is \\((-4, 2)\\). From A, move 2 parts: \\((4, -2) + (-8, 4) = (-4, 2)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A has coordinates \\((-10, 6)\\) and point B has coordinates \\((2, -3)\\). Point C lies on the line AB such that \\(AB : BC = 2 : 5\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((12, -9)\\). One part is \\((6, -4.5)\\). From B, move 5 parts: \\((2, -3) + (30, -22.5) = (32, -25.5)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B are \\((0, -4)\\) and \\((6, 8)\\). The points A, B and C lie on a straight line. If \\(AC : CB = 1 : 2\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((6, 12)\\). One part is \\((2, 4)\\). From A, move 1 part: \\((0, -4) + (2, 4) = (2, 0)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((9, -3)\\) and point B is \\((-3, 9)\\). Point C lies on the line AB such that \\(AC : CB = 4 : 2\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((-12, 12)\\). One part is \\((-3, 3)\\). From A, move 4 parts: \\((9, -3) + (-12, 12) = (-3, 9)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((2, 5)\\) and \\((14, 11)\\). Point C lies on the line AB such that \\(AB : BC = 3 : 2\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((12, 6)\\). One part is \\((4, 2)\\). From B, move 2 parts: \\((14, 11) + (8, 4) = (22, 15)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Point A is \\((-1, 8)\\) and point B is \\((7, 0)\\). The points A, B and C are collinear. If \\(AC : CB = 3 : 1\\), find the coordinates of point C.",
+  solution: "The vector from A to B is \\((8, -8)\\). One part is \\((2, -2)\\). From A, move 3 parts: \\((-1, 8) + (6, -6) = (5, 2)\\)."
+},
+{
+  topic: "Finding Coordinates From Ratios",
+  level: "Higher",
+  question: "Points A and B have coordinates \\((-8, -2)\\) and \\((4, 10)\\). Point C lies on the line AB such that \\(AC : CB = 2 : 3\\). Find the coordinates of C.",
+  solution: "The vector from A to B is \\((12, 12)\\). One part is \\((2.4, 2.4)\\). From A, move 2 parts: \\((-8, -2) + (4.8, 4.8) = (-3.2, 2.8)\\)."
 }
+
 
 
 

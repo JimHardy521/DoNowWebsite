@@ -19,44 +19,81 @@ body {
 }
 
 h1 {
-  text-align:center;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Instruction text */
+.instructions {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.instructions label {
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.instructions input {
+  margin-right: 4px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* 🔒 Scoped ONLY to practice page */
+.practice-page #questions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
 }
 
 .question-box {
-  border:1px solid #ccc;
-  padding:10px;
-  margin-bottom:10px;
-  cursor:pointer;
-  border-radius:6px;
-  background:#fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  background: #fff;
   transition: background 0.2s;
 }
 
 .question-box:hover {
-  background:#e0e7ff;
+  background: #e0e7ff;
 }
 
 .solution {
-  display:none;
-  margin-top:8px;
-  font-weight:500;
+  display: none;
+  margin-top: 8px;
+  font-weight: 500;
 }
 </style>
 </head>
-<body>
+
+<body class="practice-page">
 
 <h1 id="title">Practice Topic</h1>
+
+<div class="instructions">
+  Click on each question to reveal the solution, or
+  <label>
+    <input type="checkbox" id="toggleAll">
+    <span id="toggleText">Reveal all solutions</span>
+  </label>
+</div>
+
 <div id="questions"></div>
 
 <script>
 // ---------------- GET URL PARAMETERS ----------------
 const params = new URLSearchParams(window.location.search);
 const topic = params.get("topic");
-const source = params.get("source"); // e.g., l2further, gcse, alevel
+const source = params.get("source"); // l2further, gcse, alevel
 
 if (!topic || !source) {
-  document.getElementById("title").textContent = "Error: Missing topic or source!";
+  document.getElementById("title").textContent =
+    "Error: Missing topic or source!";
   throw new Error("Missing topic or source in URL");
 }
 
@@ -71,8 +108,10 @@ function loadQuestionsJS(callback) {
     case "alevel": src = "alevelquestions.js"; break;
     default: src = null;
   }
+
   if (!src) {
-    document.getElementById("title").textContent = "Error: Unknown source!";
+    document.getElementById("title").textContent =
+      "Error: Unknown source!";
     return;
   }
 
@@ -91,15 +130,21 @@ function buildPracticePage() {
   }
 
   const filtered = questionsArray.filter(q => q.topic === topic);
+
   if (!filtered.length) {
-    document.getElementById("title").textContent = `No questions found for topic: ${topic}`;
+    document.getElementById("title").textContent =
+      `No questions found for topic: ${topic}`;
     return;
   }
 
-  document.getElementById("title").textContent = `Practice: ${topic}`;
-  const container = document.getElementById("questions");
+  document.getElementById("title").textContent =
+    `Practice: ${topic}`;
 
-  filtered.forEach((q, i) => {
+  const container = document.getElementById("questions");
+  const toggleAll = document.getElementById("toggleAll");
+  const toggleText = document.getElementById("toggleText");
+
+  filtered.forEach(q => {
     const box = document.createElement("div");
     box.className = "question-box";
 
@@ -113,11 +158,28 @@ function buildPracticePage() {
     box.appendChild(sol);
 
     box.onclick = () => {
-      sol.style.display = sol.style.display === "none" ? "block" : "none";
+      sol.style.display =
+        sol.style.display === "none" ? "block" : "none";
     };
 
     container.appendChild(box);
   });
+
+  // ---- Toggle all solutions ----
+  toggleAll.onchange = () => {
+    const allSolutions =
+      document.querySelectorAll(".solution");
+
+    allSolutions.forEach(sol => {
+      sol.style.display =
+        toggleAll.checked ? "block" : "none";
+    });
+
+    toggleText.textContent =
+      toggleAll.checked
+        ? "Hide all solutions"
+        : "Reveal all solutions";
+  };
 
   MathJax.typeset();
 }

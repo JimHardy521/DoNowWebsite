@@ -1529,7 +1529,81 @@ const gcseQuestions = [
   level: "Higher",
   question: "The function \\(f\\) is defined by \\(f(x) = x - 6\\). Find the value of \\(f^{-1}(f(10))\\).",
   solution: "\\(f(10) = 4\\). Then \\(f^{-1}(4) = 10\\)."
+},
+
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£2448 is invested in an account. After one year the value of the investment is £2496.96. Assuming the same compound interest rate each year, how much will there be in the account after 4 years?",
+  solution: "The annual multiplier is \\(2496.96 \\div 2448 = 1.02\\). After 4 years: \\(2448 \\times 1.02^4 = £2650.43\\) (to the nearest penny)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "A car is worth £18,000. It depreciates by 12% each year. Calculate the value of the car after 3 years.",
+  solution: "The annual multiplier is \\(0.88\\). After 3 years: \\(18000 \\times 0.88^3 = £12270.34\\) (to the nearest penny)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£5000 is invested at a compound interest rate of 3% per year. After how many years will the investment first be worth more than £6000?",
+  solution: "Solve \\(5000 \\times 1.03^n > 6000\\). This gives \\(n > 6.2\\), so the investment is first worth more than £6000 after 7 years."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "The value of a laptop depreciates by 20% each year. After 2 years it is worth £512. Find the value of the laptop when it was new.",
+  solution: "The multiplier over 2 years is \\(0.8^2 = 0.64\\). Original value is \\(512 \\div 0.64 = £800\\)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "An investment increases in value from £10,000 to £11,576 in 3 years. Assuming compound interest at a constant rate, calculate the annual percentage rate.",
+  solution: "Solve \\(10000 \\times r^3 = 11576\\). This gives \\(r = 1.05\\), so the interest rate is 5% per year."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "A machine is bought for £25,000. It depreciates by 15% each year. After how many complete years will its value first fall below £10,000?",
+  solution: "Solve \\(25000 \\times 0.85^n < 10000\\). This gives \\(n > 5.6\\), so the value first falls below £10,000 after 6 years."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£3600 is invested at compound interest. After 2 years the investment is worth £3889.44. Calculate the annual rate of interest.",
+  solution: "The multiplier over 2 years is \\(3889.44 \\div 3600 = 1.0804\\). The annual multiplier is \\(\\sqrt{1.0804} = 1.04\\), so the rate is 4%."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "The population of a town decreases by 6% each year. If the population is 47,000 now, calculate the population after 5 years.",
+  solution: "The annual multiplier is \\(0.94\\). After 5 years: \\(47000 \\times 0.94^5 = 34,748\\) (to the nearest whole number)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "An investment of £8000 grows to £9261.64 after 4 years at a constant compound interest rate. Calculate the annual percentage rate of interest.",
+  solution: "Solve \\(8000 \\times r^4 = 9261.64\\). This gives \\(r = 1.037\\), so the rate is 3.7% per year (to 1 decimal place)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "A car is worth £14,500. It depreciates by 18% in the first year and by 10% each year after that. Calculate the value of the car after 3 years.",
+  solution: "After 1 year: \\(14500 \\times 0.82 = 11890\\). After 3 years: \\(11890 \\times 0.9^2 = £9636.90\\)."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "£2000 is invested at compound interest. After 5 years the investment is worth £2552.56. Calculate the annual rate of interest.",
+  solution: "Solve \\(2000 \\times r^5 = 2552.56\\). This gives \\(r = 1.05\\), so the rate is 5% per year."
+},
+{
+  topic: "Percentages - Compound Interest & Depreciation",
+  level: "Higher",
+  question: "The value of a phone depreciates by 25% each year. After how many years will its value be less than 20% of its original value?",
+  solution: "Solve \\(0.75^n < 0.2\\). This gives \\(n > 5.6\\), so after 6 years the value is less than 20% of the original."
 }
+
 
 
 

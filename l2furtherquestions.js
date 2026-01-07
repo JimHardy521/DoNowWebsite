@@ -790,7 +790,82 @@ const l2FurtherQuestions = [
   level: "L2 Further",
   question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & 4 \\end{pmatrix}\\).",
   solution: "A stretch parallel to the y-axis with scale factor 4."
+},
+/* ---------------- EXPANDING AND SIMPLIFYING ---------------- */
+
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((2x^3 - 9)(3x^2 + 4) + x(x - 4)^2\\).",
+  solution: "Expanding gives \\(6x^5 + 8x^3 - 27x^2 - 36 + x(x^2 - 8x + 16) = 6x^5 + 9x^3 - 8x^2 - 36\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((x^2 + 3)(4x^3 - 5x) - 2x(x - 1)^2\\).",
+  solution: "Expanding gives \\(4x^5 + 12x^3 - 5x^3 - 15x - 2x(x^2 - 2x + 1) = 4x^5 + 5x^3 - 2x^3 + 4x^2 - 2x - 15x = 4x^5 + 3x^3 + 4x^2 - 17x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((3x^4 - 2x)(x^2 - 5) + 4x^3(x - 1)\\).",
+  solution: "Expanding gives \\(3x^6 - 15x^4 - 2x^3 + 10x + 4x^4 - 4x^3 = 3x^6 - 11x^4 - 6x^3 + 10x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((5x^2 + 4x)(2x^3 - x + 1) - x^2(x + 3)^2\\).",
+  solution: "Expanding gives \\(10x^5 - 5x^3 + 5x^2 + 8x^4 - 4x^2 + 4x - x^2(x^2 + 6x + 9) = 10x^5 + 8x^4 - 5x^3 + x^2 + 4x - x^4 - 6x^3 - 9x^2 = 10x^5 + 7x^4 - 11x^3 - 8x^2 + 4x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((2x^3 + x^2)(x^2 - 4x + 3) + 3x(x^2 - 1)\\).",
+  solution: "Expanding gives \\(2x^5 - 8x^4 + 6x^3 + x^4 - 4x^3 + 3x^2 + 3x^3 - 3x = 2x^5 - 7x^4 + 5x^3 + 3x^2 - 3x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((4x^4 - 3)(x^2 + 2x) - x^2(2x - 5)^2\\).",
+  solution: "Expanding gives \\(4x^6 + 8x^5 - 3x^2 - 6x - x^2(4x^2 - 20x + 25) = 4x^6 + 8x^5 - 3x^2 - 6x - 4x^4 + 20x^3 - 25x^2 = 4x^6 + 8x^5 - 4x^4 + 20x^3 - 28x^2 - 6x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((x^3 - 2x)(x^3 + x + 1) + 5x^2(x - 2)\\).",
+  solution: "Expanding gives \\(x^6 + x^4 + x^3 - 2x^4 - 2x^2 - 2x + 5x^3 - 10x^2 = x^6 - x^4 + 6x^3 - 12x^2 - 2x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((3x^2 - x + 4)(x^3 - 2x) - 2x^2(x - 1)^2\\).",
+  solution: "Expanding gives \\(3x^5 - 6x^3 - x^4 + 2x^2 + 4x^3 - 8x - 2x^2(x^2 - 2x + 1) = 3x^5 - x^4 - 2x^3 + 2x^2 - 8x - 2x^4 + 4x^3 - 2x^2 = 3x^5 - 3x^4 + 2x^3 - 8x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((2x^4 + 3x)(x^2 - x - 5) + x^2(3x - 2)^2\\).",
+  solution: "Expanding gives \\(2x^6 - 2x^5 - 10x^4 + 3x^3 - 3x^2 - 15x + x^2(9x^2 - 12x + 4) = 2x^6 - 2x^5 - x^4 - 9x^3 + x^2 - 15x\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((x^2 - 3)^2(2x + 1) - x(x^2 - 4)\\).",
+  solution: "Expanding gives \\((x^4 - 6x^2 + 9)(2x + 1) - (x^3 - 4x) = 2x^5 + x^4 - 12x^3 - 6x^2 + 18x + 9 - x^3 + 4x = 2x^5 + x^4 - 13x^3 - 6x^2 + 22x + 9\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((5x^3 - 2x + 1)(x^2 + 4) - 3x(x - 2)^2\\).",
+  solution: "Expanding gives \\(5x^5 + 20x^3 - 2x^3 - 8x + x^2 + 4 - 3x(x^2 - 4x + 4) = 5x^5 + 18x^3 + x^2 - 8x + 4 - 3x^3 + 12x^2 - 12x = 5x^5 + 15x^3 + 13x^2 - 20x + 4\\)."
+},
+{
+  topic: "Expand and Simplifying Expressions",
+  level: "L2 Further",
+  question: "Expand and simplify fully \\((3x^4 + x^2 - 6)(2x - 1) + 2x^2(x + 3)\\).",
+  solution: "Expanding gives \\(6x^5 - 3x^4 + 2x^3 - x^2 - 12x + 6 + 2x^3 + 6x^2 = 6x^5 - 3x^4 + 4x^3 + 5x^2 - 12x + 6\\)."
 }
+
 
 
 ];

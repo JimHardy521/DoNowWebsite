@@ -43,20 +43,22 @@ h1 {
   cursor: pointer;
 }
 
-/* 🔒 Scoped ONLY to practice page */
+/* ✅ Best classroom layout: CSS columns */
 .practice-page #questions {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  column-count: 2;
+  column-gap: 12px;
 }
 
+/* Prevent boxes breaking across columns */
 .question-box {
+  break-inside: avoid;
   border: 1px solid #ccc;
   padding: 10px;
   cursor: pointer;
   border-radius: 6px;
   background: #fff;
   transition: background 0.2s;
+  margin-bottom: 12px;
 }
 
 .question-box:hover {
@@ -65,7 +67,7 @@ h1 {
 
 .solution {
   display: none;
-  margin-top: 8px;
+  margin-top: 6px;
   font-weight: 500;
 }
 </style>

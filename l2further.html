@@ -18,6 +18,26 @@ body {
   background-color: #f0f4f8;
   color: #333;
 }
+
+/* Instructions under heading */
+.instructions {
+  text-align: center;
+  margin: 10px 0 14px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.instructions label {
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.instructions input {
+  margin-right: 4px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
 </style>
 </head>
 
@@ -25,24 +45,20 @@ body {
 
 <h1>Level 2 Further Maths – Do Now</h1>
 
+<div class="instructions">
+  Click on each question to reveal the solution, or
+  <label>
+    <input type="checkbox" id="revealAll">
+    <span id="toggleText">Reveal all solutions</span>
+  </label>
+</div>
+
 <div class="button-bar">
   <button onclick="loadL2FurtherQuestions()">New Questions</button>
   <button onclick="printL2FurtherQuestions()">Print Questions</button>
 </div>
 
 <div id="questions"></div>
-
-<div style="text-align:center; margin:12px 0; font-size:14px;">
-  <label style="cursor:pointer;">
-    Click on each question to reveal the solution, or tick here to reveal all
-    <input
-      type="checkbox"
-      id="revealAll"
-      onchange="toggleAllSolutions(this.checked)"
-      style="margin-left:6px;"
-    >
-  </label>
-</div>
 
 <hr>
 
@@ -178,23 +194,19 @@ function createBoxL2Further(q, index) {
 
   practiceBtn.onclick = e => {
     e.stopPropagation();
-
     const topic = box.dataset.topic;
-
-    // Open a new window with the topic parameter
     const url = `practice.html?topic=${encodeURIComponent(topic)}&source=l2further`;
     window.open(url, "_blank");
   };
 
   box.appendChild(practiceBtn);
-
-
 }
 
 // ---------- LOAD RANDOM ----------
 function loadL2FurtherQuestions() {
   document.getElementById("questions").innerHTML = "";
   document.getElementById("revealAll").checked = false;
+  toggleAllSolutions(false);
 
   for (let i = 0; i < 4; i++) {
     createBoxL2Further(randomFrom(l2FurtherQuestions), i);
@@ -207,6 +219,7 @@ function loadL2FurtherQuestions() {
 function loadL2FurtherTopicQuestions() {
   document.getElementById("questions").innerHTML = "";
   document.getElementById("revealAll").checked = false;
+  toggleAllSolutions(false);
 
   ["topic1", "topic2", "topic3", "topic4"].forEach((id, i) => {
     const topic = document.getElementById(id).value;
@@ -219,11 +232,14 @@ function loadL2FurtherTopicQuestions() {
   MathJax.typeset();
 }
 
-// ---------- REVEAL ALL ----------
+// ---------- REVEAL / HIDE ALL ----------
 function toggleAllSolutions(show) {
   document.querySelectorAll(".solution").forEach(sol => {
     sol.style.display = show ? "block" : "none";
   });
+
+  document.getElementById("toggleText").textContent =
+    show ? "Hide all solutions" : "Reveal all solutions";
 }
 
 // ---------- COPY TOPIC LINK ----------
@@ -242,7 +258,9 @@ function copyTopicURL() {
     params.toString();
 
   navigator.clipboard.writeText(url).then(() => {
-    alert("Topic link copied to clipboard. Paste this into a new window to get these same topics to practice");
+    alert(
+      "Topic link copied to clipboard. Paste this into a new window to get these same topics to practice"
+    );
   });
 }
 
@@ -276,7 +294,6 @@ function printL2FurtherQuestions() {
     });
   });
 
-  // duplicate for cut-and-fold
   questions = questions.concat(questions);
 
   const win = window.open("", "_blank");
@@ -323,6 +340,11 @@ function printL2FurtherQuestions() {
 // ---------- INIT ----------
 populateTopicsL2Further();
 
+document.addEventListener("DOMContentLoaded", () => {
+  const cb = document.getElementById("revealAll");
+  cb.onchange = () => toggleAllSolutions(cb.checked);
+});
+
 if (window.location.search) {
   loadFromURLIfPresent();
 } else {
@@ -331,7 +353,7 @@ if (window.location.search) {
 </script>
 
 <script>
-  createNavBar("l2further.html");
+createNavBar("l2further.html");
 </script>
 
 </body>

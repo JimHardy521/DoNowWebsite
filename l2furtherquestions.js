@@ -1,65 +1,67 @@
 const l2FurtherQuestions = [
-  /* ---------------- ALGEBRAIC MANIPULATION ---------------- */
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{x^2 - 9}{x + 3} + \\frac{2x + 6}{x + 3}\\)",
-    solution: "\\(\\frac{(x-3)(x+3) + 2(x+3)}{x+3} = \\frac{(x+3)(x-3+2)}{x+3} = x - 1\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{2x^2}{x} - \\frac{3x}{x}\\)",
-    solution: "\\(\\frac{2x^2 - 3x}{x} = \\frac{x(2x - 3)}{x} = 2x - 3\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{x^2 - 4}{x - 2} \\times \\frac{x + 2}{x}\\)",
-    solution: "\\(\\frac{(x-2)(x+2)}{x-2} \\times \\frac{x+2}{x} = (x+2) \\times \\frac{x+2}{x} = \\frac{(x+2)^2}{x}\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{3x}{x^2 - 9} + \\frac{2}{x + 3}\\)",
-    solution: "\\(\\frac{3x}{(x-3)(x+3)} + \\frac{2}{x+3} = \\frac{3x + 2(x-3)}{(x-3)(x+3)} = \\frac{5x - 6}{(x-3)(x+3)}\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{x^2 + 5x + 6}{x^2 + 2x} - \\frac{3}{x}\\)",
-    solution: "\\(\\frac{(x+2)(x+3)}{x(x+2)} - \\frac{3}{x} = \\frac{x+3}{x} - \\frac{3}{x} = 1\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{2x^2 - 8}{4} \\div \\frac{x - 2}{2}\\)",
-    solution: "\\(\\frac{2(x^2 - 4)}{4} \\div \\frac{x-2}{2} = \\frac{2(x-2)(x+2)}{4} \\times \\frac{2}{x-2} = x + 2\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{4x^2 - 16}{2x} \\times \\frac{x}{x-2}\\)",
-    solution: "\\(\\frac{4(x^2-4)}{2x} \\times \\frac{x}{x-2} = \\frac{4(x-2)(x+2)}{2x} \\times \\frac{x}{x-2} = 2(x+2)\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{x^2 - 6x + 8}{x-2} - \\frac{x-4}{x-2}\\)",
-    solution: "\\(\\frac{(x-2)(x-4)}{x-2} - \\frac{x-4}{x-2} = x-4 - 1 = x - 5\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{3x^2 + 6x}{3x} + \\frac{2x^2 + 4x}{2x}\\)",
-    solution: "\\(\\frac{3x(x+2)}{3x} + \\frac{2x(x+2)}{2x} = x + 2 + x + 2 = 2x + 4\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{x^2 - 9}{x^2 - 6x + 9}\\)",
-    solution: "\\(\\frac{(x-3)(x+3)}{(x-3)^2} = \\frac{x+3}{x-3}\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{2x^2 + x - 3}{x + 3}\\)",
-    solution: "\\(\\frac{(2x-3)(x+1)}{x+3} \\text{ cannot simplify further: } (2x-3)(x+1)/(x+3)\\)"
-  },
-  {
-    topic: "Algebraic Manipulation",
-    question: "Simplify: \\(\\frac{x^2 - x - 6}{x^2 - 4} \\times \\frac{x-2}{x+3}\\)",
-    solution: "\\(\\frac{(x-3)(x+2)}{(x-2)(x+2)} \\times \\frac{x-2}{x+3} = \\frac{x-3}{1} = x-3\\)"
-  },
+ /* ---------------- ALGEBRAIC MANIPULATION ---------------- */
+
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{x^2 - 9}{x + 3} + \\frac{2x + 6}{x + 3}\\)",
+  solution: "\\(x - 1\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{2x^2}{x} - \\frac{3x}{x}\\)",
+  solution: "\\(2x - 3\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{x^2 - 4}{x - 2} \\times \\frac{x + 2}{x}\\)",
+  solution: "\\(\\frac{(x+2)^2}{x}\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{3x}{x^2 - 9} + \\frac{2}{x + 3}\\)",
+  solution: "\\(\\frac{5x - 6}{(x-3)(x+3)}\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{x^2 + 5x + 6}{x^2 + 2x} - \\frac{3}{x}\\)",
+  solution: "\\(1\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{2x^2 - 8}{4} \\div \\frac{x - 2}{2}\\)",
+  solution: "\\(x + 2\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{4x^2 - 16}{2x} \\times \\frac{x}{x-2}\\)",
+  solution: "\\(2(x + 2)\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{x^2 - 6x + 8}{x-2} - \\frac{x-4}{x-2}\\)",
+  solution: "\\(x - 5\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{3x^2 + 6x}{3x} + \\frac{2x^2 + 4x}{2x}\\)",
+  solution: "\\(2x + 4\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{x^2 - 9}{x^2 - 6x + 9}\\)",
+  solution: "\\(\\frac{x+3}{x-3}\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{2x^2 + 7x + 3}{x + 3}\\)",
+  solution: "\\(2x + 1\\)"
+},
+{
+  topic: "Algebraic Manipulation",
+  question: "Simplify: \\(\\frac{x^2 - x - 6}{x^2 - 4} \\times \\frac{x-2}{x+3}\\)",
+  solution: "\\(x - 3\\)"
+}
+,
 
 /* ---BINOMIAL EXPANSION*/
  {

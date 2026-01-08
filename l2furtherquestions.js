@@ -507,53 +507,61 @@ const l2FurtherQuestions = [
   solution: "It removes surds from the denominator by forming a difference of squares."
 },
 
-/* ---------------- EQUATIONS OF TANGENTS AND NORMALS ---------------- */
+/* ---------------- Differentiation - Finding Tangents and Normals ---------------- */
 
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the tangent to y = x² at x = 2.",
-  solution: "Gradient = 2x = 4. Point (2,4). Equation: y − 4 = 4(x − 2)."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find the equation of the tangent to the curve \\(y = x^2 - 4x + 1\\) at \\(x = 3\\).",
+  solution: "\\(y = 2x - 5\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the normal to y = x² at x = 1.",
-  solution: "Gradient of tangent = 2, normal = −1/2. Point (1,1)."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find the equation of the normal to the curve \\(y = x^2 + 2x - 3\\) at \\(x = 1\\).",
+  solution: "\\(y = -\\tfrac{1}{4}x + \\tfrac{7}{4}\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the tangent to y = 3x² at x = 1.",
-  solution: "Gradient = 6x = 6. Point (1,3)."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find both the tangent and the normal to the curve \\(y = 3x^2 - x + 5\\) at \\(x = 2\\).",
+  solution: "Tangent: \\(y = 11x - 17\\); Normal: \\(y = -\\tfrac{1}{11}x + \\tfrac{15}{11}\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the normal to y = x² − 4x at x = 3.",
-  solution: "dy/dx = 2x − 4 = 2. Normal gradient = −1/2."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find the equation of the tangent to the curve \\(y = x^3 - 3x^2 + 4\\) at \\(x = 1\\).",
+  solution: "\\(y = x + 2\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the tangent to y = x² − 1 at x = −1.",
-  solution: "Gradient = −2. Point (−1,0)."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find the equation of the normal to the curve \\(y = x^3 - 6x + 1\\) at \\(x = 2\\).",
+  solution: "\\(y = -\\tfrac{1}{6}x + \\tfrac{7}{3}\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the normal to y = 2x² at x = 2.",
-  solution: "dy/dx = 4x = 8, normal = −1/8."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find the equation of the tangent to the curve \\(y = \\sqrt{x}\\) at \\(x = 4\\).",
+  solution: "\\(y = \\tfrac{1}{4}x + 1\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the tangent to y = x² + 3 at x = 0.",
-  solution: "Gradient = 0. Horizontal line y = 3."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find both the tangent and the normal to the curve \\(y = 2x^2 + 3x - 1\\) at \\(x = -1\\).",
+  solution: "Tangent: \\(y = -x - 2\\); Normal: \\(y = x - 4\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the normal to y = x² + x at x = 1.",
-  solution: "dy/dx = 2x + 1 = 3. Normal = −1/3."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find the equation of the tangent to the curve \\(y = 4x^3 - 2x\\) at \\(x = 1\\).",
+  solution: "\\(y = 10x - 8\\)"
 },
 {
-  topic: "Equations of Tangents and Normals",
-  question: "Find the equation of the tangent to y = 4x² at x = −1.",
-  solution: "Gradient = −8. Point (−1,4)."
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find the equation of the normal to the curve \\(y = 5x^2 + 4x + 3\\) at \\(x = -2\\).",
+  solution: "\\(y = -\\tfrac{1}{6}x + \\tfrac{19}{6}\\)"
 },
+{
+  topic: "Differentiation - Finding Tangents and Normals",
+  question: "Find both the tangent and the normal to the curve \\(y = 3x^2 + x\\) at \\(x = 1\\).",
+  solution: "Tangent: \\(y = 7x - 3\\); Normal: \\(y = -\\tfrac{1}{7}x + \\tfrac{10}{7}\\)"
+}
+
+ 
+,
 
 /* ---------------- EQUATIONS WITH INDICES ---------------- */
 

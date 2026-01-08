@@ -656,68 +656,72 @@ const l2FurtherQuestions = [
   solution: "A point where the gradient of the curve is zero."
 },
 
-/* ---------------- Tangents to a circle ---------------- */
 
- {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\((x-2)^2 + (y+1)^2 = 25\\) at the point \\((5,4)\\).",
-    solution: "Center: (2,−1). Gradient of radius: m_r = (4 - (−1)) / (5 - 2) = 5/3. Tangent gradient: m_t = -3/5. Equation: y - 4 = -3/5(x - 5) ⇒ y = -3/5 x + 31/5."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 4x + 6y - 12 = 0\\) at the point \\((6,-1)\\).",
-    solution: "Complete the square: (x-2)^2 + (y+3)^2 = 25, center: (2,−3). Gradient of radius: m_r = (-1 + 3)/(6 - 2) = 2/4 = 1/2. Tangent gradient: m_t = -2. Equation: y + 1 = -2(x - 6) ⇒ y = -2x + 11."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\((x+3)^2 + (y-2)^2 = 49\\) at the point \\((0,5)\\).",
-    solution: "Center: (−3,2). Gradient of radius: m_r = (5-2)/(0+3) = 3/3 = 1. Tangent gradient: m_t = -1. Equation: y - 5 = -1(x - 0) ⇒ y = -x + 5."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 2x - 4y - 11 = 0\\) at the point \\((3,4)\\).",
-    solution: "Complete the square: (x+1)^2 + (y-2)^2 = 16, center: (−1,2). Gradient of radius: m_r = (4-2)/(3+1) = 2/4 = 1/2. Tangent gradient: m_t = -2. Equation: y - 4 = -2(x - 3) ⇒ y = -2x + 10."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\((x-1)^2 + (y+5)^2 = 36\\) at the point \\((7,-5)\\).",
-    solution: "Center: (1,−5). Gradient of radius: m_r = (-5 + 5)/(7 - 1) = 0. Tangent is vertical: x = 7. Cannot write in y = mx + c form."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 6x + 8y + 9 = 0\\) at the point \\((3,0)\\).",
-    solution: "Complete the square: (x-3)^2 + (y+4)^2 = 16, center: (3,−4). Gradient of radius: m_r = (0 + 4)/(3 - 3) = ∞. Tangent is horizontal: y = 0."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\((x+4)^2 + (y+3)^2 = 16\\) at the point \\((-4,-7)\\).",
-    solution: "Center: (−4,−3). Gradient of radius: m_r = (-7 + 3)/(-4 + 4) = -4/0 = ∞. Tangent is horizontal: y = -7."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 10x - 4y + 9 = 0\\) at the point \\((-1,2)\\).",
-    solution: "Complete the square: (x+5)^2 + (y-2)^2 = 20, center: (−5,2). Gradient of radius: m_r = (2-2)/(-1+5) = 0. Tangent is vertical: x = -1."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\((x-5)^2 + (y-1)^2 = 20\\) at the point \\((7,3)\\).",
-    solution: "Center: (5,1). Gradient of radius: m_r = (3-1)/(7-5) = 2/2 = 1. Tangent gradient: m_t = -1. Equation: y - 3 = -1(x - 7) ⇒ y = -x + 10."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 8x - 6y + 24 = 0\\) at the point \\((6,4)\\).",
-    solution: "Complete the square: (x-4)^2 + (y-3)^2 = 1, center: (4,3). Gradient of radius: m_r = (4-3)/(6-4) = 1/2. Tangent gradient: m_t = -2. Equation: y - 4 = -2(x - 6) ⇒ y = -2x + 16."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\((x+2)^2 + (y-6)^2 = 25\\) at the point \\((0,9)\\).",
-    solution: "Center: (−2,6). Gradient of radius: m_r = (9-6)/(0+2) = 3/2. Tangent gradient: m_t = -2/3. Equation: y - 9 = -2/3(x - 0) ⇒ y = -2/3 x + 9."
-  },
-  {
-    topic: "Tangents to a Circle",
-    question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 12x + 4y + 27 = 0\\) at the point \\((3,-4)\\).",
-    solution: "Complete the square: (x-6)^2 + (y+2)^2 = 13, center: (6,−2). Gradient of radius: m_r = (-4 + 2)/(3 - 6) = -2/-3 = 2/3. Tangent gradient: m_t = -3/2. Equation: y + 4 = -3/2(x - 3) ⇒ y = -3/2 x + 1/2."
-  },
+/* ---------------- Tangents to a Circle ---------------- */
+
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\((x-1)^2 + (y-2)^2 = 20\\) at the point \\((5,4)\\).",
+  solution: "\\(y - 4 = -2(x - 5)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\((x+2)^2 + (y-1)^2 = 13\\) at the point \\((1,3)\\).",
+  solution: "\\(y - 3 = -\\tfrac{3}{2}(x - 1)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 6x + 2y - 3 = 0\\) at the point \\((5,2)\\).",
+  solution: "\\(y - 2 = -2(x - 5)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\((x-4)^2 + (y+1)^2 = 25\\) at the point \\((7,3)\\).",
+  solution: "\\(y - 3 = -\\tfrac{3}{1}(x - 7)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 4x - 10y + 13 = 0\\) at the point \\((1,3)\\).",
+  solution: "\\(y - 3 = \\tfrac{1}{2}(x - 1)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\((x+3)^2 + (y-4)^2 = 10\\) at the point \\((-1,5)\\).",
+  solution: "\\(y - 5 = -2(x + 1)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 2x - 8y + 13 = 0\\) at the point \\((3,5)\\).",
+  solution: "\\(y - 5 = -\\tfrac{1}{2}(x - 3)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\((x-2)^2 + (y-5)^2 = 29\\) at the point \\((6,3)\\).",
+  solution: "\\(y - 3 = \\tfrac{2}{1}(x - 6)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 6x - 4y + 4 = 0\\) at the point \\((-1,1)\\).",
+  solution: "\\(y - 1 = -\\tfrac{5}{1}(x + 1)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\((x+1)^2 + (y+2)^2 = 17\\) at the point \\((3,1)\\).",
+  solution: "\\(y - 1 = -\\tfrac{4}{3}(x - 3)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 10x - 2y + 25 = 0\\) at the point \\((5,4)\\).",
+  solution: "\\(y - 4 = \\tfrac{1}{2}(x - 5)\\)"
+},
+{
+  topic: "Tangents to a Circle",
+  question: "Find the equation of the tangent to the circle \\((x-3)^2 + (y+2)^2 = 13\\) at the point \\((1,1)\\).",
+  solution: "\\(y - 1 = -\\tfrac{3}{2}(x - 1)\\)"
+}
+
+  
+  ,
   /* ---------------- DESCRIBING MATRIX TRANSFORMATIONS ---------------- */
 {
   topic: "Describing Matrix Transformations",
@@ -797,73 +801,73 @@ const l2FurtherQuestions = [
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((2x^3 - 9)(3x^2 + 4) + x(x - 4)^2\\).",
-  solution: "Expanding gives \\(6x^5 + 8x^3 - 27x^2 - 36 + x(x^2 - 8x + 16) = 6x^5 + 9x^3 - 8x^2 - 36\\)."
+  solution: "\\(6x^5 + 9x^3 - 8x^2 - 36\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((x^2 + 3)(4x^3 - 5x) - 2x(x - 1)^2\\).",
-  solution: "Expanding gives \\(4x^5 + 12x^3 - 5x^3 - 15x - 2x(x^2 - 2x + 1) = 4x^5 + 5x^3 - 2x^3 + 4x^2 - 2x - 15x = 4x^5 + 3x^3 + 4x^2 - 17x\\)."
+  solution: "\\(4x^5 + 3x^3 + 4x^2 - 17x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((3x^4 - 2x)(x^2 - 5) + 4x^3(x - 1)\\).",
-  solution: "Expanding gives \\(3x^6 - 15x^4 - 2x^3 + 10x + 4x^4 - 4x^3 = 3x^6 - 11x^4 - 6x^3 + 10x\\)."
+  solution: "\\(3x^6 - 11x^4 - 6x^3 + 10x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((5x^2 + 4x)(2x^3 - x + 1) - x^2(x + 3)^2\\).",
-  solution: "Expanding gives \\(10x^5 - 5x^3 + 5x^2 + 8x^4 - 4x^2 + 4x - x^2(x^2 + 6x + 9) = 10x^5 + 8x^4 - 5x^3 + x^2 + 4x - x^4 - 6x^3 - 9x^2 = 10x^5 + 7x^4 - 11x^3 - 8x^2 + 4x\\)."
+  solution: "\\(10x^5 + 7x^4 - 11x^3 - 8x^2 + 4x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((2x^3 + x^2)(x^2 - 4x + 3) + 3x(x^2 - 1)\\).",
-  solution: "Expanding gives \\(2x^5 - 8x^4 + 6x^3 + x^4 - 4x^3 + 3x^2 + 3x^3 - 3x = 2x^5 - 7x^4 + 5x^3 + 3x^2 - 3x\\)."
+  solution: "\\(2x^5 - 7x^4 + 5x^3 + 3x^2 - 3x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((4x^4 - 3)(x^2 + 2x) - x^2(2x - 5)^2\\).",
-  solution: "Expanding gives \\(4x^6 + 8x^5 - 3x^2 - 6x - x^2(4x^2 - 20x + 25) = 4x^6 + 8x^5 - 3x^2 - 6x - 4x^4 + 20x^3 - 25x^2 = 4x^6 + 8x^5 - 4x^4 + 20x^3 - 28x^2 - 6x\\)."
+  solution: "\\(4x^6 + 8x^5 - 4x^4 + 20x^3 - 28x^2 - 6x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((x^3 - 2x)(x^3 + x + 1) + 5x^2(x - 2)\\).",
-  solution: "Expanding gives \\(x^6 + x^4 + x^3 - 2x^4 - 2x^2 - 2x + 5x^3 - 10x^2 = x^6 - x^4 + 6x^3 - 12x^2 - 2x\\)."
+  solution: "\\(x^6 - x^4 + 6x^3 - 12x^2 - 2x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((3x^2 - x + 4)(x^3 - 2x) - 2x^2(x - 1)^2\\).",
-  solution: "Expanding gives \\(3x^5 - 6x^3 - x^4 + 2x^2 + 4x^3 - 8x - 2x^2(x^2 - 2x + 1) = 3x^5 - x^4 - 2x^3 + 2x^2 - 8x - 2x^4 + 4x^3 - 2x^2 = 3x^5 - 3x^4 + 2x^3 - 8x\\)."
+  solution: "\\(3x^5 - 3x^4 + 2x^3 - 8x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((2x^4 + 3x)(x^2 - x - 5) + x^2(3x - 2)^2\\).",
-  solution: "Expanding gives \\(2x^6 - 2x^5 - 10x^4 + 3x^3 - 3x^2 - 15x + x^2(9x^2 - 12x + 4) = 2x^6 - 2x^5 - x^4 - 9x^3 + x^2 - 15x\\)."
+  solution: "\\(2x^6 - 2x^5 - x^4 - 9x^3 + x^2 - 15x\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((x^2 - 3)^2(2x + 1) - x(x^2 - 4)\\).",
-  solution: "Expanding gives \\((x^4 - 6x^2 + 9)(2x + 1) - (x^3 - 4x) = 2x^5 + x^4 - 12x^3 - 6x^2 + 18x + 9 - x^3 + 4x = 2x^5 + x^4 - 13x^3 - 6x^2 + 22x + 9\\)."
+  solution: "\\(2x^5 + x^4 - 13x^3 - 6x^2 + 22x + 9\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((5x^3 - 2x + 1)(x^2 + 4) - 3x(x - 2)^2\\).",
-  solution: "Expanding gives \\(5x^5 + 20x^3 - 2x^3 - 8x + x^2 + 4 - 3x(x^2 - 4x + 4) = 5x^5 + 18x^3 + x^2 - 8x + 4 - 3x^3 + 12x^2 - 12x = 5x^5 + 15x^3 + 13x^2 - 20x + 4\\)."
+  solution: "\\(5x^5 + 15x^3 + 13x^2 - 20x + 4\\)"
 },
 {
   topic: "Expand and Simplifying Expressions",
   level: "L2 Further",
   question: "Expand and simplify fully \\((3x^4 + x^2 - 6)(2x - 1) + 2x^2(x + 3)\\).",
-  solution: "Expanding gives \\(6x^5 - 3x^4 + 2x^3 - x^2 - 12x + 6 + 2x^3 + 6x^2 = 6x^5 - 3x^4 + 4x^3 + 5x^2 - 12x + 6\\)."
+  solution: "\\(6x^5 - 3x^4 + 4x^3 + 5x^2 - 12x + 6\\)"
 }
 
 

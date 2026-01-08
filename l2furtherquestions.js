@@ -408,49 +408,51 @@ const l2FurtherQuestions = [
 },
 {
   topic: "Matrix Multiplication",
-  question: "Find AB given A = \\(\\begin{pmatrix}1 & 0\\\\2 & 1\\end{pmatrix}\\), B = \\(\\begin{pmatrix}3 & 1\\\\4 & 2\\end{pmatrix}\\).",
+  question: "Calculate \\(\\begin{pmatrix}1 & 0\\\\2 & 1\\end{pmatrix}\\begin{pmatrix}3 & 1\\\\4 & 2\\end{pmatrix}\\).",
   solution: "\\(\\begin{pmatrix}3 & 1\\\\10 & 4\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Show that matrix multiplication is not commutative for A = \\(\\begin{pmatrix}1 & 2\\\\0 & 1\\end{pmatrix}\\) and B = \\(\\begin{pmatrix}2 & 0\\\\1 & 1\\end{pmatrix}\\).",
-  solution: "AB ≠ BA, so multiplication is not commutative."
+  question: "Calculate \\(\\begin{pmatrix}1 & 2\\\\0 & 1\\end{pmatrix}\\begin{pmatrix}2 & 0\\\\1 & 1\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}4 & 2\\\\1 & 1\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Evaluate \\(\\begin{pmatrix}2 & 1\\\\1 & 3\\end{pmatrix}^2\\).",
+  question: "Calculate \\(\\begin{pmatrix}2 & 1\\\\1 & 3\\end{pmatrix}\\begin{pmatrix}2 & 1\\\\1 & 3\\end{pmatrix}\\).",
   solution: "\\(\\begin{pmatrix}5 & 5\\\\5 & 10\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Find k such that \\(\\begin{pmatrix}1 & k\\\\0 & 1\\end{pmatrix}\\begin{pmatrix}2 & 1\\\\1 & 1\\end{pmatrix}\\) has top-right entry equal to 5.",
-  solution: "1·1 + k·1 = 5 ⇒ k = 4."
+  question: "Calculate \\(\\begin{pmatrix}1 & 4\\\\0 & 1\\end{pmatrix}\\begin{pmatrix}2 & 1\\\\1 & 1\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}6 & 5\\\\1 & 1\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Multiply \\(\\begin{pmatrix}1 & 2 & 3\\end{pmatrix}\\begin{pmatrix}1\\\\0\\\\2\\end{pmatrix}\\).",
-  solution: "1 + 0 + 6 = 7."
+  question: "Calculate \\(\\begin{pmatrix}3 & -1\\\\2 & 0\\end{pmatrix}\\begin{pmatrix}1 & 4\\\\-2 & 3\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}5 & 9\\\\2 & 8\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Calculate \\(\\begin{pmatrix}1 & 1\\\\2 & 0\\end{pmatrix}\\begin{pmatrix}3\\\\4\\end{pmatrix}\\).",
-  solution: "\\(\\begin{pmatrix}7\\\\6\\end{pmatrix}\\)"
+  question: "Calculate \\(\\begin{pmatrix}0 & 2\\\\1 & 3\\end{pmatrix}\\begin{pmatrix}4 & 1\\\\-1 & 2\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}-2 & 4\\\\1 & 7\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Given AB = I, what can you say about A and B?",
-  solution: "They are inverses of each other."
+  question: "Calculate \\(\\begin{pmatrix}2 & 3\\\\1 & -1\\end{pmatrix}\\begin{pmatrix}1 & 0\\\\4 & 2\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}14 & 6\\\\-3 & -2\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Explain why \\(\\begin{pmatrix}1 & 2\\\\3 & 4\\end{pmatrix}\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}\\) is undefined.",
-  solution: "Inner dimensions do not match (2×2 and 3×1)."
+  question: "Calculate \\(\\begin{pmatrix}-1 & 2\\\\3 & 1\\end{pmatrix}\\begin{pmatrix}2 & -1\\\\1 & 4\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}0 & 9\\\\7 & 1\\end{pmatrix}\\)"
 },
 {
   topic: "Matrix Multiplication",
-  question: "Find AB where A = \\(\\begin{pmatrix}2 & 0\\\\1 & 1\\end{pmatrix}\\), B = \\(\\begin{pmatrix}1 & 3\\\\2 & 4\\end{pmatrix}\\).",
-  solution: "\\(\\begin{pmatrix}2 & 6\\\\3 & 7\\end{pmatrix}\\)"
-},
+  question: "Calculate \\(\\begin{pmatrix}4 & 0\\\\-2 & 1\\end{pmatrix}\\begin{pmatrix}1 & 3\\\\5 & -1\\end{pmatrix}\\).",
+  solution: "\\(\\begin{pmatrix}4 & 12\\\\3 & -7\\end{pmatrix}\\)"
+}
+
+ ,
 
 /* ---------------- SURDS: RATIONALISING THE DENOMINATOR ---------------- */
 
@@ -552,11 +554,7 @@ const l2FurtherQuestions = [
   question: "Find the equation of the tangent to y = 4x² at x = −1.",
   solution: "Gradient = −8. Point (−1,4)."
 },
-{
-  topic: "Equations of Tangents and Normals",
-  question: "Explain the relationship between the gradients of a tangent and its normal.",
-  solution: "They are negative reciprocals of each other."
-},
+
 /* ---------------- EQUATIONS WITH INDICES ---------------- */
 
 {
@@ -644,11 +642,7 @@ const l2FurtherQuestions = [
   question: "Find the stationary point of \\(y = -x^2 + 6x + 1\\).",
   solution: "dy/dx = −2x + 6 = 0 ⇒ x = 3. y = 10."
 },
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Determine whether the stationary point of \\(y = x^2 - 2x\\) is a maximum or minimum.",
-  solution: "Coefficient of x² is positive ⇒ minimum."
-},
+
 {
   topic: "Differentiation – Finding Stationary Points",
   question: "Find the stationary point of \\(y = 4x^2 + 4x + 1\\).",
@@ -658,11 +652,6 @@ const l2FurtherQuestions = [
   topic: "Differentiation – Finding Stationary Points",
   question: "Find the stationary point of \\(y = x^2\\) and describe it.",
   solution: "dy/dx = 2x = 0 ⇒ (0,0), minimum."
-},
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Explain what is meant by a stationary point.",
-  solution: "A point where the gradient of the curve is zero."
 },
 
 
@@ -786,12 +775,7 @@ const l2FurtherQuestions = [
   question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} 3 & 0 \\\\ 0 & 3 \\end{pmatrix}\\).",
   solution: "An enlargement with scale factor 3 about the origin."
 },
-{
-  topic: "Describing Matrix Transformations",
-  level: "L2 Further",
-  question: "Describe geometrically the single transformation represented by the matrix \\(\\begin{pmatrix} -2 & 0 \\\\ 0 & -2 \\end{pmatrix}\\).",
-  solution: "An enlargement with scale factor 2 combined with a rotation of 180° about the origin."
-},
+
 {
   topic: "Describing Matrix Transformations",
   level: "L2 Further",

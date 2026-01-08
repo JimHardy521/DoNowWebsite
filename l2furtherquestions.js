@@ -861,7 +861,137 @@ const l2FurtherQuestions = [
   level: "L2 Further",
   question: "Expand and simplify fully \\((3x^4 + x^2 - 6)(2x - 1) + 2x^2(x + 3)\\).",
   solution: "\\(6x^5 - 3x^4 + 4x^3 + 5x^2 - 12x + 6\\)"
+},
+
+/* ---------------- QUADRATIC INEQUALITIES ---------------- */
+
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(3x^2 + 2x - 7 > 0\\).",
+  solution: "\\(x < -\\frac{7}{3}\\) or \\(x > 1\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(x^2 - 5x + 6 \\le 0\\).",
+  solution: "\\(2 \\le x \\le 3\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(2x^2 - 3x - 2 < 0\\).",
+  solution: "\\(-\\frac{1}{2} < x < 2\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(x^2 + 4x + 1 > 0\\).",
+  solution: "\\(x < -2 - \\sqrt{3}\\) or \\(x > -2 + \\sqrt{3}\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(x^2 - 9 \\ge 0\\).",
+  solution: "\\(x \\le -3\\) or \\(x \\ge 3\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(4x^2 - 1 < 0\\).",
+  solution: "\\(-\\frac{1}{2} < x < \\frac{1}{2}\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(x^2 - 2x - 8 \\le 0\\).",
+  solution: "\\(-2 \\le x \\le 4\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(5x^2 + 5x + 1 > 0\\).",
+  solution: "\\(x < \\frac{-5 - \\sqrt{5}}{10}\\) or \\(x > \\frac{-5 + \\sqrt{5}}{10}\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(x(x - 7) < 0\\).",
+  solution: "\\(0 < x < 7\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\((x - 3)(x + 1) \\ge 0\\).",
+  solution: "\\(x \\le -1\\) or \\(x \\ge 3\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(2x^2 + x - 3 < 0\\).",
+  solution: "\\(-\\frac{3}{2} < x < 1\\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  question: "Solve \\(x^2 + x \\ge 6\\).",
+  solution: "\\(x \\le -3\\) or \\(x \\ge 2\\)"
 }
+
+,
+
+/* ---------------- PRODUCT RULE FOR COUNTING (Advanced) ---------------- */
+
+{
+  topic: "Product Rule for Counting",
+  question: "A passcode is a 5-digit number. The passcode must be even and greater than 40,000. How many possible codes are there?",
+  solution: "30000"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A 6-character password uses letters A–Z and digits 0–9. The first character must be a letter, the last must be a digit. How many passwords are possible?",
+  solution: "456976000"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A 4-digit locker code uses digits 0–9. Digits cannot repeat, and the first digit cannot be 0. How many codes are possible?",
+  solution: "4536"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A badge has 3 letters followed by 3 digits. Letters cannot repeat, digits can. How many badges are possible?",
+  solution: "156000"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "You roll two 6-sided dice. How many outcomes have a sum greater than 8?",
+  solution: "15"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A passcode is a 5-digit number. The first digit must be 4, 5, or 6, the last digit must be even. How many passcodes are possible?",
+  solution: "1500"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A 3-letter code uses letters A–Z. Letters cannot repeat. How many codes contain exactly one vowel?",
+  solution: "4200"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A password has 2 letters followed by 2 digits. The letters must be different and the digits must be even. How many passwords are possible?",
+  solution: "1560"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "You select 1 starter, 1 main, and 1 dessert from 5 starters, 7 mains, and 4 desserts. If you cannot choose the same dish twice (no repeats in course), how many meal combinations are possible?",
+  solution: "140"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A code has 4 characters: letters A–Z or digits 0–9. Characters cannot repeat. How many codes contain exactly 2 digits?",
+  solution: "40560"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A 6-digit number must be divisible by 5 and have all digits different. How many numbers are possible?",
+  solution: "129600"
+},
+{
+  topic: "Product Rule for Counting",
+  question: "A passcode has 4 digits. The digits must sum to an even number. How many passcodes are possible?",
+  solution: "5000"
+}
+
+
 
 
 

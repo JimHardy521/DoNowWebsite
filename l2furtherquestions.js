@@ -240,107 +240,111 @@ const l2FurtherQuestions = [
 
 {
   topic: "Limiting Values of Sequences",
-  question: "Find the limiting value of the sequence defined by \\(u_n = 5 - \\frac{2}{n}\\).",
-  solution: "As n → ∞, 2/n → 0, so the limit is 5."
+  question: "The nth term of a sequence is given by \\(u_n = \\frac{3n + 4}{n}\\). Find the limiting value as \\(n \\to \\infty\\).",
+  solution: "\\(3\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Determine the limit of \\(u_n = \\frac{3n + 1}{n}\\).",
-  solution: "Divide by n: u_n = 3 + 1/n → 3."
+  question: "As \\(n \\to \\infty\\), find the limiting value of \\(u_n = \\frac{32n}{3n - 7}\\).",
+  solution: "\\(\\tfrac{32}{3}\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Find the limiting value of \\(u_n = \\frac{4}{n^2}\\).",
-  solution: "As n → ∞, n² → ∞ so u_n → 0."
+  question: "Find the limiting value of the sequence defined by \\(u_n = \\frac{5n^2 + 1}{2n^2 - 3n}\\).",
+  solution: "\\(\\tfrac{5}{2}\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Find the limit of \\(u_n = 7 + \\frac{5}{n}\\).",
-  solution: "Limit is 7."
+  question: "The nth term of a sequence is \\(u_n = \\frac{7n - 4}{\\sqrt{n^2 + 3}}\\). Find the limiting value as \\(n \\to \\infty\\).",
+  solution: "\\(7\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "State the limiting value of \\(u_n = \\frac{2n}{n + 1}\\).",
-  solution: "Divide by n: 2 / (1 + 1/n) → 2."
+  question: "As \\(n \\to \\infty\\), determine the limiting value of \\(u_n = \\frac{4n^3 - n}{2n^3 + 5}\\).",
+  solution: "\\(2\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Find the limit of \\(u_n = \\frac{n^2}{n^2 + 3}\\).",
-  solution: "Divide by n²: 1 / (1 + 3/n²) → 1."
+  question: "Find the limiting value of \\(u_n = 6 - \\frac{5}{\\sqrt{n}}\\) as \\(n \\to \\infty\\).",
+  solution: "\\(6\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Find the limiting value of \\(u_n = 1 - \\frac{1}{2n}\\).",
-  solution: "Limit is 1."
+  question: "The sequence is defined by \\(u_n = \\frac{n}{n + \\sqrt{n}}\\). Find the limiting value as \\(n \\to \\infty\\).",
+  solution: "\\(1\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Does the sequence \\(u_n = (-1)^n\\) have a limiting value?",
-  solution: "No, it alternates between −1 and 1."
+  question: "Does the sequence defined by \\(u_n = (-1)^n + \\frac{1}{n}\\) have a limiting value?",
+  solution: "\\(\\text{No limiting value}\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Find the limit of \\(u_n = \\frac{5n + 4}{2n}\\).",
-  solution: "Divide by n: (5 + 4/n)/2 → 5/2."
+  question: "Find the limiting value of \\(u_n = \\frac{5n^2 + 4n}{2n^2 + 7}\\) as \\(n \\to \\infty\\).",
+  solution: "\\(\\tfrac{5}{2}\\)"
 },
 {
   topic: "Limiting Values of Sequences",
-  question: "Find the limit of \\(u_n = \\frac{1}{\\sqrt{n}}\\).",
-  solution: "As n → ∞, √n → ∞ so u_n → 0."
-},
+  question: "As \\(n \\to \\infty\\), find the limiting value of \\(u_n = \\frac{1}{\\sqrt{2n + 1}}\\).",
+  solution: "\\(0\\)"
+}
+
+ ,
 
 /* ---------------- QUADRATIC SEQUENCES ---------------- */
 
 {
   topic: "Quadratic Sequences",
-  question: "The first three terms of a quadratic sequence are 2, 7, 16. Find the nth term.",
-  solution: "Differences: 5, 9 → second difference = 4 ⇒ a = 2. Formula: uₙ = 2n² − n + 1."
+  question: "The first three terms of a sequence are 2, 7, 16. Find the nth term of the sequence.",
+  solution: "\\(u_n = 2n^2 - n + 1\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "Find the nth term of the sequence: 1, 6, 15, 28, ...",
-  solution: "Differences: 5, 9, 13 → second difference = 4 ⇒ a = 2. uₙ = 2n² − n."
+  question: "The first four terms of a sequence are 1, 6, 15, 28. Find the nth term of the sequence.",
+  solution: "\\(u_n = 2n^2 - n\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "The nth term of a sequence is of the form an² + bn + c. The first three terms are 3, 10, 21. Find a, b and c.",
-  solution: "Simultaneous equations give a = 2, b = 1, c = 0 ⇒ uₙ = 2n² + n."
+  question: "The first three terms of a sequence are 3, 10, 21. Find the nth term of the sequence.",
+  solution: "\\(u_n = 2n^2 + n\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "Find the 10th term of the sequence with nth term uₙ = n² − 3n + 4.",
-  solution: "u₁₀ = 100 − 30 + 4 = 74."
+  question: "The first four terms of a sequence are −1, 4, 13, 26. Find the nth term of the sequence.",
+  solution: "\\(u_n = 2n^2 - 3\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "Show that the sequence with nth term uₙ = n(n + 1) is quadratic.",
-  solution: "Expand: uₙ = n² + n ⇒ quadratic in n."
+  question: "The first four terms of a sequence are 5, 12, 23, 38. Find the nth term of the sequence.",
+  solution: "\\(u_n = 2n^2 + 3\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "The first term of a quadratic sequence is 4. The second difference is 6. Find the coefficient of n².",
-  solution: "Second difference = 2a ⇒ 2a = 6 ⇒ a = 3."
+  question: "The first three terms of a sequence are 4, 11, 24. Find the nth term of the sequence.",
+  solution: "\\(u_n = 3n^2 - n + 2\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "The first three terms of a sequence are −1, 4, 13. Find the nth term.",
-  solution: "Differences: 5, 9 → second difference = 4 ⇒ a = 2. uₙ = 2n² − 3."
+  question: "The nth term of a sequence is given by \\(u_n = 2n^2 - n + 1\\). Find the first term of the sequence that is greater than 100.",
+  solution: "\\(u_8 = 121\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "A quadratic sequence has nth term uₙ = 3n² − 2n. Find the first term less than 100.",
-  solution: "Solve 3n² − 2n < 100 ⇒ n = 5 gives 65, n = 6 gives 96, n = 7 gives 133. First is n = 7."
+  question: "The nth term of a sequence is \\(u_n = n^2 + 3n\\). Find the first term that exceeds 200.",
+  solution: "\\(u_{13} = 208\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "Find the nth term of the sequence 5, 12, 23, 38, ...",
-  solution: "Differences: 7, 11, 15 → second difference = 4 ⇒ a = 2. uₙ = 2n² + 3."
+  question: "The nth term of a sequence is \\(u_n = 3n^2 - 2n\\). Find the first term greater than 150.",
+  solution: "\\(u_8 = 176\\)"
 },
 {
   topic: "Quadratic Sequences",
-  question: "Explain why the sequence uₙ = n² − n is quadratic but not linear.",
-  solution: "Contains an n² term, so second differences are constant but first differences are not."
-},
+  question: "The nth term of a sequence is \\(u_n = n^2 - 4n + 6\\). Find the first term of the sequence that is greater than 50.",
+  solution: "\\(u_{10} = 66\\)"
+}
+
+,
 
 /* ---------------- SOLVING THREE SIMULTANEOUS EQUATIONS ---------------- */
 

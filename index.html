@@ -2,28 +2,55 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>GCSE Maths - Do Now</title>
+<title>GCSE Maths – Do Now</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-<style>body {
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="gcseQuestions.js"></script>
+<script src="common.js"></script>
+
+<style>
+body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   background-color: #f0f4f8;
   color: #333;
-}</style>
+}
 
-<link rel="stylesheet" href="style.css">
+.instructions {
+  text-align: center;
+  margin: 10px 0 14px;
+  font-size: 0.95rem;
+  color: #444;
+}
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+.instructions label {
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 6px;
+}
 
-<script src="gcseQuestions.js"></script>
-
+.instructions input {
+  margin-right: 4px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+</style>
 </head>
 
 <body>
 
 <h1>GCSE Maths – Do Now</h1>
+
+<div class="instructions">
+  Click on each question to reveal the solution, or
+  <label>
+    <input type="checkbox" id="revealAll">
+    <span id="toggleText">Reveal all solutions</span>
+  </label>
+</div>
 
 <div class="button-bar">
   <select id="levelSelect">
@@ -41,190 +68,277 @@
 <hr>
 
 <p style="text-align:center;font-weight:700;">
-  … or create a Do Now using specific topics:
+  Create a Do Now Using Specific Topics:
 </p>
 
 <div class="topic-toolbar">
-  <div class="topic-wrapper"><label>Question 1 Topic</label><select id="topic1"></select></div>
-  <div class="topic-wrapper"><label>Question 2 Topic</label><select id="topic2"></select></div>
-  <div class="topic-wrapper"><label>Question 3 Topic</label><select id="topic3"></select></div>
-  <div class="topic-wrapper"><label>Question 4 Topic</label><select id="topic4"></select></div>
-  <div class="topic-wrapper"><button onclick="loadTopicQuestions()">Load Topic Questions</button></div>
+  <div class="topic-wrapper">
+    <label>Question 1 Topic</label>
+    <select id="topic1"></select>
+  </div>
+  <div class="topic-wrapper">
+    <label>Question 2 Topic</label>
+    <select id="topic2"></select>
+  </div>
+  <div class="topic-wrapper">
+    <label>Question 3 Topic</label>
+    <select id="topic3"></select>
+  </div>
+  <div class="topic-wrapper">
+    <label>Question 4 Topic</label>
+    <select id="topic4"></select>
+  </div>
+  <div class="topic-wrapper">
+    <button onclick="loadTopicQuestions()">Load Topic Questions</button>
+    <button onclick="copyTopicURL()">Copy Topic Link</button>
+  </div>
 </div>
 
 <script>
-  function randomFrom(arr) {
-    return arr[Math.floor(Math.random() * arr.length)];
-  }
-  
-  function getSelectedLevel() {
-    return document.getElementById("levelSelect").value;
-  }
-  
-  // ---------------- TOPICS ----------------
-  
-  function populateAllTopics() {
-    const level = getSelectedLevel();
-    const topics = [...new Set(
-      gcseQuestions.filter(q => q.level === level).map(q => q.topic)
-    )];
-  
-    ["topic1","topic2","topic3","topic4"].forEach(id => {
-      const sel = document.getElementById(id);
-      sel.innerHTML = "";
-      topics.forEach(t => {
-        const o = document.createElement("option");
-        o.value = t;
-        o.textContent = t;
-        sel.appendChild(o);
-      });
+// ---------- UTIL ----------
+function randomFrom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function getLevel() {
+  return document.getElementById("levelSelect").value;
+}
+
+// ---------- TOPICS ----------
+function populateTopics() {
+  const level = getLevel();
+  const topics = [...new Set(
+    gcseQuestions.filter(q => q.level === level).map(q => q.topic)
+  )].sort((a,b) => a.localeCompare(b));
+
+  ["topic1","topic2","topic3","topic4"].forEach(id => {
+    const sel = document.getElementById(id);
+    sel.innerHTML = "";
+    topics.forEach(t => {
+      const o = document.createElement("option");
+      o.value = t;
+      o.textContent = t;
+      sel.appendChild(o);
     });
-  }
-  
-  document.getElementById("levelSelect").addEventListener("change", () => {
-    populateAllTopics();
-    loadQuestions();
   });
-  
-  // ---------------- QUESTION BOX ----------------
-  
-  function createBox(q, index) {
-    const box = document.createElement("div");
-    box.className = "question-box";
-  
-    const h = document.createElement("div");
-    h.className = "question-header";
-    h.innerHTML = `Question ${index + 1}: ${q.topic}`;
-    box.appendChild(h);
-  
-    const qt = document.createElement("div");
-    qt.innerHTML = q.question;
-    box.appendChild(qt);
-  
-    const sol = document.createElement("div");
-    sol.className = "solution";
-    sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
-    box.appendChild(sol);
-  
-    box.onclick = () =>
-      sol.style.display = sol.style.display === "none" ? "block" : "none";
-  
-    const r = document.createElement("div");
-    r.className = "refresh-btn";
-    r.innerHTML = "↻";
-    r.onclick = e => {
-      e.stopPropagation();
-      const pool = gcseQuestions.filter(q => q.level === getSelectedLevel());
-      let nq;
-      do { nq = randomFrom(pool); } while (nq.question === q.question);
-      qt.innerHTML = nq.question;
-      sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
-      h.innerHTML = `Question ${index + 1}: ${nq.topic}`;
-      MathJax.typeset();
-    };
-    box.appendChild(r);
-  
-    document.getElementById("questions").appendChild(box);
+}
+
+document.getElementById("levelSelect").addEventListener("change", () => {
+  populateTopics();
+  loadQuestions();
+});
+
+// ---------- QUESTION BOX ----------
+function createBox(q, index) {
+  const box = document.createElement("div");
+  box.className = "question-box";
+  box.dataset.topic = q.topic;
+
+  const h = document.createElement("div");
+  h.className = "question-header";
+  h.innerHTML = `Question ${index + 1}: ${q.topic}`;
+  box.appendChild(h);
+
+  const qt = document.createElement("div");
+  qt.innerHTML = q.question;
+  box.appendChild(qt);
+
+  const sol = document.createElement("div");
+  sol.className = "solution";
+  sol.style.display = "none";
+  sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
+  box.appendChild(sol);
+
+  box.onclick = () => {
+    sol.style.display = sol.style.display === "none" ? "block" : "none";
+  };
+
+  // ↻ Any-topic refresh
+  const rAny = document.createElement("div");
+  rAny.className = "refresh-btn";
+  rAny.innerHTML = "↻";
+  rAny.title = "New random question";
+  rAny.onclick = e => {
+    e.stopPropagation();
+    const pool = gcseQuestions.filter(q => q.level === getLevel());
+    let nq;
+    do {
+      nq = randomFrom(pool);
+    } while (nq.question === qt.innerHTML && pool.length > 1);
+
+    qt.innerHTML = nq.question;
+    sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
+    h.innerHTML = `Question ${index + 1}: ${nq.topic}`;
+    box.dataset.topic = nq.topic;
+    MathJax.typeset();
+  };
+  box.appendChild(rAny);
+
+  // ↺ Same-topic refresh
+  const rSame = document.createElement("div");
+  rSame.className = "refresh-btn refresh-same";
+  rSame.innerHTML = "↺";
+  rSame.title = "New question from same topic";
+  rSame.onclick = e => {
+    e.stopPropagation();
+    const pool = gcseQuestions.filter(
+      x => x.level === getLevel() && x.topic === box.dataset.topic
+    );
+    if (pool.length < 2) return;
+
+    let nq;
+    do {
+      nq = randomFrom(pool);
+    } while (nq.question === qt.innerHTML);
+
+    qt.innerHTML = nq.question;
+    sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
+    MathJax.typeset();
+  };
+  box.appendChild(rSame);
+
+  // ➤ Practice topic
+  const practice = document.createElement("div");
+  practice.className = "refresh-btn practice-topic";
+  practice.innerHTML = "➤";
+  practice.title = "Practice this topic further";
+  practice.onclick = e => {
+    e.stopPropagation();
+    const url = `practice.html?topic=${encodeURIComponent(box.dataset.topic)}&source=gcse`;
+    window.open(url, "_blank");
+  };
+  box.appendChild(practice);
+
+  document.getElementById("questions").appendChild(box);
+}
+
+// ---------- LOAD RANDOM ----------
+function loadQuestions() {
+  document.getElementById("questions").innerHTML = "";
+  document.getElementById("revealAll").checked = false;
+  toggleAllSolutions(false);
+
+  const pool = gcseQuestions.filter(q => q.level === getLevel());
+  for (let i = 0; i < 4; i++) {
+    createBox(randomFrom(pool), i);
   }
-  
-  // ---------------- LOAD QUESTIONS ----------------
-  
-  function loadQuestions() {
-    document.getElementById("questions").innerHTML = "";
-    const pool = gcseQuestions.filter(q => q.level === getSelectedLevel());
-  
-    for (let i = 0; i < 4; i++) {
-      createBox(randomFrom(pool), i);
+  MathJax.typeset();
+}
+
+// ---------- LOAD BY TOPIC ----------
+function loadTopicQuestions() {
+  document.getElementById("questions").innerHTML = "";
+  document.getElementById("revealAll").checked = false;
+  toggleAllSolutions(false);
+
+  ["topic1","topic2","topic3","topic4"].forEach((id, i) => {
+    const topic = document.getElementById(id).value;
+    const pool = gcseQuestions.filter(
+      q => q.level === getLevel() && q.topic === topic
+    );
+    if (pool.length) createBox(randomFrom(pool), i);
+  });
+  MathJax.typeset();
+}
+
+// ---------- REVEAL ALL ----------
+function toggleAllSolutions(show) {
+  document.querySelectorAll(".solution").forEach(s => {
+    s.style.display = show ? "block" : "none";
+  });
+  document.getElementById("toggleText").textContent =
+    show ? "Hide all solutions" : "Reveal all solutions";
+}
+
+document.getElementById("revealAll").onchange = e =>
+  toggleAllSolutions(e.target.checked);
+
+// ---------- COPY TOPIC LINK ----------
+function copyTopicURL() {
+  const params = new URLSearchParams({
+    level: getLevel(),
+    t1: topic1.value,
+    t2: topic2.value,
+    t3: topic3.value,
+    t4: topic4.value
+  });
+
+  const url = window.location.origin + window.location.pathname + "?" + params;
+  navigator.clipboard.writeText(url).then(() =>
+    alert("Link copied. Open it to load the same topics.")
+  );
+}
+
+// ---------- LOAD FROM URL ----------
+function loadFromURLIfPresent() {
+  const params = new URLSearchParams(window.location.search);
+  let used = false;
+
+  if (params.get("level")) {
+    levelSelect.value = params.get("level");
+  }
+
+  populateTopics();
+
+  ["topic1","topic2","topic3","topic4"].forEach((id,i) => {
+    const val = params.get(`t${i+1}`);
+    const sel = document.getElementById(id);
+    if (val && [...sel.options].some(o => o.value === val)) {
+      sel.value = val;
+      used = true;
     }
-  
-    MathJax.typeset();
-  }
-  
-  // ---------------- LOAD TOPIC QUESTIONS ----------------
-  
-  function loadTopicQuestions() {
-    document.getElementById("questions").innerHTML = "";
-    const level = getSelectedLevel();
-  
-    ["topic1","topic2","topic3","topic4"].forEach((id, i) => {
-      const topic = document.getElementById(id).value;
-      const filtered = gcseQuestions.filter(
-        q => q.level === level && q.topic === topic
-      );
-      if (filtered.length) {
-        createBox(randomFrom(filtered), i);
-      }
-    });
-  
-    MathJax.typeset();
-  }
+  });
 
-  // ---------------- PRINT ----------------
+  if (used) loadTopicQuestions();
+}
 
+// ---------- PRINT ----------
 function printQuestions() {
   const boxes = document.querySelectorAll(".question-box");
-  let questions = [];
+  let qs = [];
 
   boxes.forEach(b => {
-    questions.push({
+    qs.push({
       header: b.querySelector(".question-header").innerHTML,
       question: b.children[1].innerHTML
     });
   });
 
-  // duplicate for cut-and-fold
-  questions = questions.concat(questions);
+  qs = qs.concat(qs);
 
   const win = window.open("", "_blank");
   win.document.write(`
-  <html>
-  <head>
-    <style>
-      @page { size: A4; margin: 5mm; }
-      body { font-family: Inter, Arial, sans-serif; margin: 0; }
-      .page {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 8px;
-      }
-      .box {
-        border: 1px solid black;
-        padding: 8px;
-        font-size: 14px;
-        min-height: 190px;
-      }
-      .cut { border-top: 2px dashed black; margin: 10px 0; }
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
-  </head>
-  <body>
-    <div class="page">
-      ${questions.slice(0,4).map(q =>
-        `<div class="box"><strong>${q.header}</strong><br>${q.question}</div>`
-      ).join("")}
-    </div>
-    <div class="cut"></div>
-    <div class="page">
-      ${questions.slice(4,8).map(q =>
-        `<div class="box"><strong>${q.header}</strong><br>${q.question}</div>`
-      ).join("")}
-    </div>
-  </body>
-  </html>
+  <html><head>
+  <style>
+    @page { size: A4; margin: 5mm; }
+    body { font-family: Inter, Arial; }
+    .page { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .box { border:1px solid black; padding:8px; min-height:190px; }
+    .cut { border-top:2px dashed black; margin:10px 0; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
+  </head><body>
+  <div class="page">
+    ${qs.slice(0,4).map(q=>`<div class="box"><strong>${q.header}</strong><br>${q.question}</div>`).join("")}
+  </div>
+  <div class="cut"></div>
+  <div class="page">
+    ${qs.slice(4,8).map(q=>`<div class="box"><strong>${q.header}</strong><br>${q.question}</div>`).join("")}
+  </div>
+  </body></html>
   `);
   win.document.close();
-  win.onload = () => win.MathJax.typesetPromise().then(() => win.print());
+  win.onload = () => win.MathJax.typesetPromise().then(()=>win.print());
 }
-  
-  // INIT
-  populateAllTopics();
-  loadQuestions();
-  </script>
 
-<script src="common.js"></script>
+// ---------- INIT ----------
+populateTopics();
+if (window.location.search) loadFromURLIfPresent();
+else loadQuestions();
+</script>
 
 <script>
-  createNavBar();
+createNavBar();
 </script>
 
 </body>

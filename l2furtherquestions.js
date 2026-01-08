@@ -932,7 +932,71 @@ const l2FurtherQuestions = [
   topic: "Quadratic Inequalities",
   question: "Solve \\(x^2 + x \\ge 6\\).",
   solution: "\\(x \\le -3\\) or \\(x \\ge 2\\)"
+},
+
+/* ---------------- DIFFERENTIATION: INCREASING AND DECREASING FUNCTIONS ---------------- */
+
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 - 3x^2 + 2\\), find the interval where the function is decreasing.",
+  solution: "\\(0 < x < 2\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 - 6x^2 + 9x\\), find the interval where the function is increasing.",
+  solution: "\\(x < 1\\) or \\(x > 3\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = 2x^3 - 3x^2 - 12x\\), find the interval where the function is decreasing.",
+  solution: "\\(-1 < x < 2\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 + 3x^2 + 1\\), find the interval where the function is increasing.",
+  solution: "\\(x < -2\\) or \\(x > 0\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 - 12x + 4\\), find the interval where the function is decreasing.",
+  solution: "\\(-2 < x < 2\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 - 3x\\), find the interval where the function is increasing.",
+  solution: "\\(x < -1\\) or \\(x > 1\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = 2x^3 + 6x^2\\), find the interval where the function is decreasing.",
+  solution: "\\(-2 < x < 0\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 - 9x^2 + 24x\\), find the interval where the function is increasing.",
+  solution: "\\(x < 2\\) or \\(x > 4\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 + 6x^2 + 9x\\), find the interval where the function is decreasing.",
+  solution: "\\(-3 < x < -1\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 - 4x^2 + x\\), find the interval where the function is increasing.",
+  solution: "\\(x < \\tfrac{1}{3}\\) or \\(x > 1\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = 3x^3 - 6x^2\\), find the interval where the function is decreasing.",
+  solution: "\\(0 < x < \\tfrac{2}{3}\\)"
+},
+{
+  topic: "Differentiation – Increasing and Decreasing Functions",
+  question: "For the function \\(y = x^3 + x^2 - 2x\\), find the interval where the function is increasing.",
+  solution: "\\(x < -1\\) or \\(x > \\tfrac{2}{3}\\)"
 }
+
 
 
 

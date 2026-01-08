@@ -1115,7 +1115,221 @@ const gcseQuestions = [
   level: "Higher",
   question: "Points A and B have coordinates \\((-8, -2)\\) and \\((4, 10)\\). Point C lies on the line AB such that \\(AC : CB = 2 : 3\\). Find the coordinates of C.",
   solution: "The vector from A to B is \\((12, 12)\\). One part is \\((2.4, 2.4)\\). From A, move 2 parts: \\((-8, -2) + (4.8, 4.8) = (-3.2, 2.8)\\)."
+},
+
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = 3x + 1, g(x) = x². Find g(f(x)).",
+  solution: "g(f(x)) = (3x + 1)² = 9x² + 6x + 1"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = 2x − 5, g(x) = x². Find f(g(x)).",
+  solution: "f(g(x)) = 2x² − 5"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = x + 4, g(x) = 5x. Find g(f(x)).",
+  solution: "g(f(x)) = 5(x + 4) = 5x + 20"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = 4x − 1, g(x) = x². Solve g(f(x)) = 9.",
+  solution: "(4x − 1)² = 9 → x = 1 or x = −\\(\\frac{1}{2}\\)"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = x − 3, g(x) = x². Solve g(f(x)) = 16.",
+  solution: "(x − 3)² = 16 → x = 7 or x = −1"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = 2x + 1, g(x) = x². Find g(f(2)).",
+  solution: "f(2) = 5, g(5) = 25"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = 3x, g(x) = x² − 4. Find g(f(x)).",
+  solution: "g(f(x)) = 9x² − 4"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = x + 2, g(x) = x² − 1. Solve g(f(x)) = 8.",
+  solution: "(x + 2)² − 1 = 8 → x = 1 or x = −5"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = 5 − x, g(x) = x². Find g(f(x)).",
+  solution: "g(f(x)) = (5 − x)² = x² − 10x + 25"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = 2x − 3, g(x) = x² + 1. Find g(f(x)).",
+  solution: "g(f(x)) = (2x − 3)² + 1 = 4x² − 12x + 10"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = x − 1, g(x) = 3x². Solve g(f(x)) = 27.",
+  solution: "3(x − 1)² = 27 → x = 4 or x = −2"
+},
+{
+  topic: "Functions - Composite Functions",
+  level: "Higher",
+  question: "f(x) = x + 1, g(x) = x² − 5. Find g(f(3)).",
+  solution: "f(3) = 4, g(4) = 11"
+},
+
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 3x + 5. Find f⁻¹(x).",
+  solution: "f⁻¹(x) = \\(\\frac{x − 5}{3}\\)"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 7 − 2x. Find f⁻¹(x).",
+  solution: "f⁻¹(x) = \\(\\frac{7 − x}{2}\\)"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 4x − 1. Find f⁻¹(7).",
+  solution: "f⁻¹(7) = 2"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 5x + 3. Find f⁻¹(x) and hence f⁻¹(13).",
+  solution: "f⁻¹(x) = \\(\\frac{x − 3}{5}\\), so f⁻¹(13) = 2"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = \\(\\frac{x}{2} + 4\\). Find f⁻¹(x).",
+  solution: "f⁻¹(x) = 2(x − 4)"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 2x + 1, g(x) = f⁻¹(x). Find g(x).",
+  solution: "g(x) = \\(\\frac{x − 1}{2}\\)"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 4x − 7. Solve f⁻¹(x) = 5.",
+  solution: "x = 13"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 3x + 2, g(x) = f⁻¹(x). Find g(f(x)).",
+  solution: "g(f(x)) = x"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = \\(\\frac{x − 1}{3}\\). Find f⁻¹(x).",
+  solution: "f⁻¹(x) = 3x + 1"
+},
+{
+  topic: "Functions - Inverse Functions",
+  level: "Higher",
+  question: "f(x) = 2x − 9. Find f⁻¹(−1).",
+  solution: "f⁻¹(−1) = 4"
+},
+
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "Let f(x) = 2x + 3 and g(x) = x − 5. Solve f(g(x)) = f⁻¹(x).",
+  solution: "x = 7"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "Let f(x) = 3x − 1 and g(x) = 2x + 4. Solve g(f(x)) = f⁻¹(x).",
+  solution: "x = −\\(\\frac{5}{17}\\)"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = x + 2 and g(x) = 4x. Solve f(g(x)) = x.",
+  solution: "x = −\\(\\frac{2}{3}\\)"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = 5x − 2 and g(x) = 3x + 1. Solve f(f⁻¹(g(x))) = 8.",
+  solution: "x = 1"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = 2x − 7 and g(x) = x + 4. Solve f⁻¹(f(g(x))) = 6.",
+  solution: "x = 2"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = x − 1 and g(x) = 2x + 3. Solve g(f⁻¹(x)) = 7.",
+  solution: "x = 1"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = 4x + 1 and g(x) = x − 6. Solve f⁻¹(g(f(x))) = 3.",
+  solution: "x = 2"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = 2x + 5 and g(x) = 3x. Solve f(g(x)) = 11.",
+  solution: "x = 1"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = x + 3 and g(x) = 5x − 2. Solve f(g⁻¹(x)) = 8.",
+  solution: "x = 23"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = 3x − 4 and g(x) = 4x + 1. Solve f⁻¹(g(x)) = 5.",
+  solution: "x = 5"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = 6x − 1 and g(x) = x + 7. Solve f(g(x)) = 29.",
+  solution: "x = −1"
+},
+{
+  topic: "Functions - Solving",
+  level: "Higher",
+  question: "f(x) = 2x + 1. Solve f⁻¹(f(x + 3)) = 11.",
+  solution: "x = 8"
 }
+
+
+
+
+
+
+
 
 
 

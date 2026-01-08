@@ -568,99 +568,99 @@ const l2FurtherQuestions = [
 {
   topic: "Equations with Indices",
   question: "Solve \\(2^{x+1} = 16\\).",
-  solution: "16 = 2⁴ ⇒ x + 1 = 4 ⇒ x = 3."
+  solution: "\\(x = 3\\)"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(3^{2x} = 27\\).",
-  solution: "27 = 3³ ⇒ 2x = 3 ⇒ x = \\tfrac{3}{2}."
+  solution: "\\(x = \\tfrac{3}{2}\\)"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(5^{x} = \\frac{1}{25}\\).",
-  solution: "\\(\\frac{1}{25} = 5^{-2}\\) ⇒ x = −2."
+  solution: "\\(x = -2\\)"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(4^{x} = 8\\).",
-  solution: "Rewrite as powers of 2: \\(2^{2x} = 2^{3}\\) ⇒ x = \\tfrac{3}{2}."
+  solution: "\\(x = \\tfrac{3}{2}\\)"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(9^{x} = 3^{2x+1}\\).",
-  solution: "Rewrite: \\(3^{2x} = 3^{2x+1}\\) ⇒ no solution."
+  solution: "No solution"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(2^{x} + 2^{x+1} = 48\\).",
-  solution: "Factorise: \\(2^{x}(1+2)=48\\) ⇒ \\(2^{x}=16\\) ⇒ x = 4."
+  solution: "\\(x = 4\\)"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(3^{x} = 81\\).",
-  solution: "81 = 3⁴ ⇒ x = 4."
+  solution: "\\(x = 4\\)"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(16^{x} = 4^{x+1}\\).",
-  solution: "\\(2^{4x} = 2^{2x+2}\\) ⇒ 4x = 2x + 2 ⇒ x = 1."
+  solution: "\\(x = 1\\)"
 },
 {
   topic: "Equations with Indices",
   question: "Solve \\(2^{2x} - 8 = 0\\).",
-  solution: "2^{2x} = 8 = 2³ ⇒ 2x = 3 ⇒ x = \\tfrac{3}{2}."
+  solution: "\\(x = \\tfrac{3}{2}\\)"
 },
 {
   topic: "Equations with Indices",
-  question: "Explain why the equation \\(2^{x} = -4\\) has no solution.",
-  solution: "Powers of 2 are always positive, so cannot equal −4."
-},
+  question: "Solve \\(2^{x} = -4\\).",
+  solution: "No solution"
+}
 
+ ,
 
-
-/* ---------------- DIFFERENTIATION: FINDING STATIONARY POINTS ---------------- */
-
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the stationary point of \\(y = x^2 - 4x + 1\\).",
-  solution: "dy/dx = 2x − 4 = 0 ⇒ x = 2. y = −3."
-},
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the coordinates of the stationary point of \\(y = x^2 + 6x\\).",
-  solution: "dy/dx = 2x + 6 = 0 ⇒ x = −3. y = −9."
-},
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the stationary point of \\(y = 3x^2 - 12x + 5\\).",
-  solution: "dy/dx = 6x − 12 = 0 ⇒ x = 2. y = −7."
-},
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the stationary point of \\(y = x^2 + 2x + 4\\).",
-  solution: "dy/dx = 2x + 2 = 0 ⇒ x = −1. y = 3."
-},
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the stationary point of \\(y = 2x^2 - 8x\\).",
-  solution: "dy/dx = 4x − 8 = 0 ⇒ x = 2. y = −8."
-},
-{
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the stationary point of \\(y = -x^2 + 6x + 1\\).",
-  solution: "dy/dx = −2x + 6 = 0 ⇒ x = 3. y = 10."
-},
+/* ---------------- DIFFERENTIATION: FINDING TURNING POINTS ---------------- */
 
 {
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the stationary point of \\(y = 4x^2 + 4x + 1\\).",
-  solution: "dy/dx = 8x + 4 = 0 ⇒ x = −\\tfrac{1}{2}. y = 0."
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 3x^2 + 2\\).",
+  solution: "Turning points at \\((0,2)\\), maximum and \\((2,-2)\\), minimum"
 },
 {
-  topic: "Differentiation – Finding Stationary Points",
-  question: "Find the stationary point of \\(y = x^2\\) and describe it.",
-  solution: "dy/dx = 2x = 0 ⇒ (0,0), minimum."
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 6x^2 + 9x\\).",
+  solution: "Turning points at \\((1,4)\\), maximum and \\((3,0)\\), minimum"
 },
+{
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = 2x^3 - 3x^2 - 12x\\).",
+  solution: "Turning points at \\((-1,7)\\), maximum and \\((2,-20)\\), minimum"
+},
+{
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = x^3 + 3x^2 + 1\\).",
+  solution: "Turning points at \\((-2,5)\\), maximum and \\((0,1)\\), minimum"
+},
+{
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 12x + 4\\).",
+  solution: "Turning points at \\((-2,20)\\), maximum and \\((2,-12)\\), minimum"
+},
+{
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 3x\\).",
+  solution: "Turning points at \\((-1,2)\\), maximum and \\((1,-2)\\), minimum"
+},
+{
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = 2x^3 + 6x^2\\).",
+  solution: "Turning points at \\((-2,8)\\), maximum and \\((0,0)\\), minimum"
+},
+{
+  topic: "Differentiation – Finding Turning Points",
+  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 9x^2 + 24x\\).",
+  solution: "Turning points at \\((2,20)\\), maximum and \\((4,16)\\), minimum"
+}
+,
 
 
 /* ---------------- Tangents to a Circle ---------------- */

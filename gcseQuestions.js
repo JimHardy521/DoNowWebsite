@@ -43,8 +43,8 @@ const gcseQuestions = [
 {
   topic: "FDP - Improper Fraction to Decimal",
   level: "Foundation",
-  question: "Convert \\(\\frac{19}{6}\\) to a decimal.",
-  solution: "3.1667"
+  question: "Convert \\(\\frac{19}{4}\\) to a decimal.",
+  solution: "4.75"
 },
 {
   topic: "FDP - Improper Fraction to Decimal",
@@ -67,14 +67,14 @@ const gcseQuestions = [
 {
   topic: "FDP - Improper Fraction to Decimal",
   level: "Foundation",
-  question: "Convert \\(\\frac{14}{3}\\) to a decimal.",
-  solution: "4.6667"
+  question: "Convert \\(\\frac{14}{5}\\) to a decimal.",
+  solution: "2.8"
 },
 {
   topic: "FDP - Improper Fraction to Decimal",
   level: "Foundation",
-  question: "Convert \\(\\frac{25}{6}\\) to a decimal.",
-  solution: "4.1667"
+  question: "Convert \\(\\frac{25}{8}\\) to a decimal.",
+  solution: "3.125"
 },
 {
   topic: "FDP - Improper Fraction to Decimal",

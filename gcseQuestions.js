@@ -2202,7 +2202,7 @@ const gcseQuestions = [
   topic: "Exact Trigonometry Values",
   level: "Higher",
   question: "Find \\(\\sin 45^\\circ + \\cos 30^\\circ - \\frac{1}{2}\\).",
-  solution: "\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{3}}{2} - \\frac{1}{2}"
+  solution: "\\(\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{3}}{2} - \\frac{1}{2}\\)"
 },
 {
   topic: "Exact Trigonometry Values",
@@ -2214,13 +2214,13 @@ const gcseQuestions = [
   topic: "Exact Trigonometry Values",
   level: "Higher",
   question: "Evaluate \\(\\frac{\\cos 60^\\circ + \\sin 60^\\circ}{2}\\).",
-  solution: "\\frac{\\frac{1}{2} + \\frac{\\sqrt{3}}{2}}{2} = \\frac{1 + \\sqrt{3}}{4}"
+  solution: "\\(\\frac{1 + \\sqrt{3}}{4}\\)"
 },
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",
   question: "Find \\(3\\cos 45^\\circ - 2\\sin 30^\\circ\\).",
-  solution: "\\frac{3\\sqrt{2}}{2} - 1"
+  solution: "\\(\\frac{3\\sqrt{2}}{2} - 1\\)"
 },
 {
   topic: "Exact Trigonometry Values",
@@ -2238,7 +2238,7 @@ const gcseQuestions = [
   topic: "Exact Trigonometry Values",
   level: "Higher",
   question: "Find \\(\\frac{\\sin 45^\\circ \\times \\cos 45^\\circ}{\\tan 45^\\circ}\\).",
-  solution: "\\frac{1}{2}"
+  solution: "\\(\\frac{1}{2}\\)"
 },
 {
   topic: "Exact Trigonometry Values",
@@ -2256,13 +2256,13 @@ const gcseQuestions = [
   topic: "Exact Trigonometry Values",
   level: "Higher",
   question: "Find \\(\\frac{\\cos 0^\\circ + \\cos 60^\\circ}{\\sin 45^\\circ}\\).",
-  solution: "\\frac{3/2}{\\frac{\\sqrt{2}}{2}} = \\frac{3}{\\sqrt{2}}"
+  solution: "\\(\\frac{3}{\\sqrt{2}}\\)"
 },
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",
   question: "Evaluate \\(2\\sin 45^\\circ + \\cos 60^\\circ - \\tan 45^\\circ\\).",
-  solution: "\\sqrt{2} - \\frac{1}{2}"
+  solution: "\\(\\sqrt{2} - \\frac{1}{2}\\)"
 },
 
 {
@@ -2286,7 +2286,7 @@ const gcseQuestions = [
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\dot{4}5\\) as a fraction.",
+  question: "Write \\(0.\\ddot{45}\\) as a fraction.",
   solution: "\\(\\frac{5}{11}\\)."
 },
 {
@@ -2322,8 +2322,8 @@ const gcseQuestions = [
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\dot{3}6\\) as a fraction.",
-  solution: "\\(\\frac{12}{33} = \\frac{4}{11}\\)."
+  question: "Write \\(0.\\ddot{36}\\) as a fraction.",
+  solution: "\\(\\frac{4}{11}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
@@ -2334,9 +2334,11 @@ const gcseQuestions = [
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\dot{7}2\\) as a fraction.",
-  solution: "\\(\\frac{13}{18}\\)."
-},
+  question: "Write \\(0.\\ddot{72}\\) as a fraction.",
+  solution: "\\(\\frac{8}{11}\\)."
+}
+
+,
 
 {
   topic: "Expanding Triple Brackets",

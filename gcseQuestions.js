@@ -11,6 +11,80 @@ const gcseQuestions = [
        FOUNDATION
        ========================= */
 {
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(5 \\times 2h\\)",
+  solution: "\\(10h\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(2m \\div m\\)",
+  solution: "\\(2\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(y \\times y \\times y\\)",
+  solution: "\\(y^{3}\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(4a \\times 3\\)",
+  solution: "\\(12a\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(6x \\div 3\\)",
+  solution: "\\(2x\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(7p \\times p\\)",
+  solution: "\\(7p^{2}\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(10k \\div 5\\)",
+  solution: "\\(2k\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(3a \\times 4b\\)",
+  solution: "\\(12ab\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(8y \\div y\\)",
+  solution: "\\(8\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(2x \\times 5x\\)",
+  solution: "\\(10x^{2}\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(9m \\div 3m\\)",
+  solution: "\\(3\\)"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully: \\(a \\times a \\times 4\\)",
+  solution: "\\(4a^{2}\\)"
+},
+
+    
+{
   topic: "Solving Equations",
   level: "Foundation",
   question: "Solve: \\(2x + 3 = 27\\)",
@@ -1170,78 +1244,6 @@ const gcseQuestions = [
   level: "Foundation",
   question: "Write \\(\\frac{3}{10}\\) as a percentage.",
   solution: "30%"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 5 × 2h.",
-  solution: "10h"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 2m ÷ m.",
-  solution: "2"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully y × y × y.",
-  solution: "y^3"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 4a × 3.",
-  solution: "12a"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 6x ÷ 3.",
-  solution: "2x"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 7p × p.",
-  solution: "7p^2"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 10k ÷ 5.",
-  solution: "2k"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 3a × 4b.",
-  solution: "12ab"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 8y ÷ y.",
-  solution: "8"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 2x × 5x.",
-  solution: "10x^2"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully 9m ÷ 3m.",
-  solution: "3"
-},
-{
-  topic: "Algebra - Simplifying",
-  level: "Foundation",
-  question: "Simplify fully a × a × 4.",
-  solution: "4a^2"
 },
 {
   topic: "Proportion - Prices",

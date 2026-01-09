@@ -11,6 +11,8 @@
 <script src="common.js"></script>
 
 <style>
+/* ================= SCREEN STYLES ================= */
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f0f4f8;
@@ -23,52 +25,84 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Instruction text */
 .instructions {
   text-align: center;
   margin-bottom: 18px;
   font-size: 0.95rem;
-  color: #444;
 }
 
-.instructions label {
-  cursor: pointer;
-  font-weight: 600;
+.instructions button {
   margin-left: 6px;
+  padding: 4px 10px;
 }
 
-.instructions input {
-  margin-right: 4px;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-/* ✅ Best classroom layout: CSS columns */
 .practice-page #questions {
   column-count: 2;
   column-gap: 12px;
 }
 
-/* Prevent boxes breaking across columns */
 .question-box {
   break-inside: avoid;
   border: 1px solid #ccc;
   padding: 10px;
-  cursor: pointer;
   border-radius: 6px;
   background: #fff;
-  transition: background 0.2s;
   margin-bottom: 12px;
-}
-
-.question-box:hover {
-  background: #e0e7ff;
+  cursor: pointer;
 }
 
 .solution {
   display: none;
   margin-top: 6px;
   font-weight: 500;
+}
+
+/* ================= PRINT STYLES ================= */
+
+.print-only {
+  display: none;
+}
+
+@media print {
+
+  body {
+    background: #fff;
+    margin: 12mm;          /* narrow but safe */
+    font-size: 11pt;
+    line-height: 1.45;     /* critical for MathJax spacing */
+  }
+
+  /* Hide screen-only content */
+  h1,
+  .instructions,
+  #questions,
+  nav {
+    display: none;
+  }
+
+  /* Show print layout */
+  .print-only {
+    display: block;
+  }
+
+  .print-page {
+    text-align: justify;
+  }
+
+  .print-title {
+    font-size: 14pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+
+  .print-list > div {
+    margin-bottom: 12px;   /* FIXES overlapping */
+  }
+
+  .print-answers {
+    page-break-before: always;
+  }
 }
 </style>
 </head>
@@ -78,115 +112,109 @@ h1 {
 <h1 id="title">Practice Topic</h1>
 
 <div class="instructions">
-  Click on each question to reveal the solution, or
+  Click a question to reveal the solution, or
   <label>
     <input type="checkbox" id="toggleAll">
     <span id="toggleText">Reveal all solutions</span>
   </label>
+  |
+  <button id="printBtn">Print Worksheet</button>
 </div>
 
 <div id="questions"></div>
 
 <script>
-// ---------------- GET URL PARAMETERS ----------------
+// ---------------- URL PARAMETERS ----------------
 const params = new URLSearchParams(window.location.search);
 const topic = params.get("topic");
-const source = params.get("source"); // l2further, gcse, alevel
+const source = params.get("source");
 
-if (!topic || !source) {
-  document.getElementById("title").textContent =
-    "Error: Missing topic or source!";
-  throw new Error("Missing topic or source in URL");
-}
-
-// ---------------- DYNAMICALLY LOAD CORRECT JS ----------------
 let questionsArray;
 
+// ---------------- LOAD QUESTION FILE ----------------
 function loadQuestionsJS(callback) {
-  let src;
-  switch (source) {
-    case "l2further": src = "l2furtherquestions.js"; break;
-   case "gcse": src = "gcseQuestions.js"; break;
-    case "alevel": src = "alevelquestions.js"; break;
-    default: src = null;
-  }
-
-  if (!src) {
-    document.getElementById("title").textContent =
-      "Error: Unknown source!";
-    return;
-  }
-
+  const map = {
+    l2further: "l2furtherquestions.js",
+    gcse: "gcseQuestions.js",
+    alevel: "alevelquestions.js"
+  };
   const script = document.createElement("script");
-  script.src = src;
+  script.src = map[source];
   script.onload = callback;
   document.head.appendChild(script);
 }
 
 // ---------------- BUILD PAGE ----------------
 function buildPracticePage() {
-  switch (source) {
-    case "l2further": questionsArray = l2FurtherQuestions; break;
-    case "gcse": questionsArray = gcseQuestions; break;
-    case "alevel": questionsArray = aLevelQuestions; break;
-  }
+  questionsArray =
+    source === "l2further" ? l2FurtherQuestions :
+    source === "gcse" ? gcseQuestions :
+    aLevelQuestions;
 
   const filtered = questionsArray.filter(q => q.topic === topic);
-
-  if (!filtered.length) {
-    document.getElementById("title").textContent =
-      `No questions found for topic: ${topic}`;
-    return;
-  }
-
-  document.getElementById("title").textContent =
-    `Practice: ${topic}`;
-
   const container = document.getElementById("questions");
-  const toggleAll = document.getElementById("toggleAll");
-  const toggleText = document.getElementById("toggleText");
 
-  filtered.forEach(q => {
+  const pageTitle = `Practice: ${topic}`;
+  document.getElementById("title").textContent = pageTitle;
+
+  filtered.forEach((q, i) => {
     const box = document.createElement("div");
     box.className = "question-box";
-
-    const qt = document.createElement("div");
-    qt.innerHTML = q.question;
-    box.appendChild(qt);
-
-    const sol = document.createElement("div");
-    sol.className = "solution";
-    sol.innerHTML = `<strong>Solution:</strong> ${q.solution}`;
-    box.appendChild(sol);
-
+    box.innerHTML = `
+      <div><strong>Q${i + 1}.</strong> ${q.question}</div>
+      <div class="solution"><strong>Solution:</strong> ${q.solution}</div>
+    `;
     box.onclick = () => {
-      sol.style.display =
-        sol.style.display === "none" ? "block" : "none";
+      const sol = box.querySelector(".solution");
+      sol.style.display = sol.style.display === "none" ? "block" : "none";
     };
-
     container.appendChild(box);
   });
 
-  // ---- Toggle all solutions ----
-  toggleAll.onchange = () => {
-    const allSolutions =
-      document.querySelectorAll(".solution");
-
-    allSolutions.forEach(sol => {
-      sol.style.display =
-        toggleAll.checked ? "block" : "none";
+  document.getElementById("toggleAll").onchange = e => {
+    document.querySelectorAll(".solution").forEach(sol => {
+      sol.style.display = e.target.checked ? "block" : "none";
     });
+    document.getElementById("toggleText").textContent =
+      e.target.checked ? "Hide all solutions" : "Reveal all solutions";
+  };
 
-    toggleText.textContent =
-      toggleAll.checked
-        ? "Hide all solutions"
-        : "Reveal all solutions";
+  // ---------------- PRINT WORKSHEET ----------------
+  document.getElementById("printBtn").onclick = () => {
+
+    const printWrapper = document.createElement("div");
+    printWrapper.className = "print-only";
+
+    printWrapper.innerHTML = `
+      <div class="print-page">
+        <div class="print-title">${pageTitle}</div>
+        <div class="print-list">
+          ${filtered.map((q, i) =>
+            `<div><strong>${i + 1}.</strong> ${q.question}</div>`
+          ).join("")}
+        </div>
+      </div>
+
+      <div class="print-page print-answers">
+        <div class="print-title">${pageTitle} – Answers</div>
+        <div class="print-list">
+          ${filtered.map((q, i) =>
+            `<div><strong>${i + 1}.</strong> ${q.solution}</div>`
+          ).join("")}
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(printWrapper);
+    MathJax.typeset();
+    window.print();
+    printWrapper.remove();
   };
 
   MathJax.typeset();
 }
 
-// ---------------- INITIALISE ----------------
+// ---------------- INIT ----------------
 loadQuestionsJS(buildPracticePage);
 </script>
 

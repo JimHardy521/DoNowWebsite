@@ -377,11 +377,84 @@ const gcseQuestions = [
   level: "Foundation",
   question: "Without a calculator, work out \\((2^3 + \\sqrt{36}) \\div 2\\).",
   solution: "7"
-}
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 10. The 1st term + 2nd term = 39. Work out the 5th term.",
+  solution: "86"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 4. The 2nd term is 9. Work out the 6th term.",
+  solution: "29"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 7. The 3rd term is 15. Work out the 8th term.",
+  solution: "32"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 5. The 1st term + 3rd term = 19. Work out the 7th term.",
+  solution: "29"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 2nd term = 11 and 3rd term = 15. Work out the 10th term.",
+  solution: "43"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 20. The 4th term is 11. Work out the 9th term.",
+  solution: "-4"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 3. The 5th term is 19. Work out the 12th term.",
+  solution: "47"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 12. The difference between terms is 4. Work out the 15th term.",
+  solution: "68"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 2nd term = 8 and 5th term = 17. Work out the 9th term.",
+  solution: "27"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = -2. The 3rd term is 6. Work out the 10th term.",
+  solution: "22"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 1st term = 25. The 2nd term is 21. Work out the 8th term.",
+  solution: "-3"
+},
+{
+  topic: "Linear Sequences - Problems",
+  level: "Foundation",
+  question: "A linear sequence has 3rd term = 14 and 6th term = 23. Work out the 12th term.",
+  solution: "41"
+},
+
 
 
     
-,
+
    // =======================
 // HIGHER
 // =======================

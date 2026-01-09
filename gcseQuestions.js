@@ -375,79 +375,75 @@ const gcseQuestions = [
   question: "A card is chosen at random from the letters A, B, C, D and E. What is the probability of choosing a vowel?",
   solution: "2/5"
 },
+{
+  topic: "Substitution",
+  level: "Foundation",
+  question: "P = 2a + 3b. Find the value of P when a = 4 and b = -3.",
+  solution: "-1"
+},
 
 {
   topic: "Substitution",
   level: "Foundation",
-  question: "P = 2a + 3b. Find the value of P when a = 4 and b = 3.",
-  solution: "17"
+  question: "C = 4x + 2y. Find the value of C when x = 3 and y = -5.",
+  solution: "-4"
 },
 {
   topic: "Substitution",
   level: "Foundation",
-  question: "y = 5x - 4. Find the value of y when x = 6.",
-  solution: "26"
+  question: "n = 7a - 3b. Find the value of n when a = 4 and b = -2.",
+  solution: "34"
 },
 {
   topic: "Substitution",
   level: "Foundation",
-  question: "C = 4x + 2y. Find the value of C when x = 3 and y = 5.",
-  solution: "22"
+  question: "F = 6p + q. Find the value of F when p = -2 and q = 5.",
+  solution: "-7"
 },
 {
   topic: "Substitution",
   level: "Foundation",
-  question: "n = 7a - 3. Find the value of n when a = 4.",
-  solution: "25"
+  question: "m = 8x - 3y. Find the value of m when x = -1 and y = 2.",
+  solution: "-14"
 },
 {
   topic: "Substitution",
   level: "Foundation",
-  question: "F = 6p + q. Find the value of F when p = 2 and q = 5.",
-  solution: "17"
-},
-{
-  topic: "Substitution",
-  level: "Foundation",
-  question: "m = 8x - 3y. Find the value of m when x = 4 and y = 2.",
-  solution: "26"
-},
-{
-  topic: "Substitution",
-  level: "Foundation",
-  question: "T = 3a + 5b. Find the value of T when a = 2 and b = 6.",
-  solution: "36"
-},
-{
-  topic: "Substitution",
-  level: "Foundation",
-  question: "k = 9x - 4. Find the value of k when x = 3.",
-  solution: "23"
-},
-{
-  topic: "Substitution",
-  level: "Foundation",
-  question: "H = 2x + 7y. Find the value of H when x = 1 and y = 4.",
-  solution: "30"
-},
-{
-  topic: "Substitution",
-  level: "Foundation",
-  question: "A = 5m - 2n. Find the value of A when m = 6 and n = 4.",
-  solution: "22"
-},
-{
-  topic: "Substitution",
-  level: "Foundation",
-  question: "R = 4x + 9. Find the value of R when x = 5.",
-  solution: "29"
-},
-{
-  topic: "Substitution",
-  level: "Foundation",
-  question: "S = 6a - 2b. Find the value of S when a = 5 and b = 3.",
+  question: "T = 3a + 5b. Find the value of T when a = -2 and b = 6.",
   solution: "24"
 },
+{
+  topic: "Substitution",
+  level: "Foundation",
+  question: "k = 9x - 4y. Find the value of k when x = 3 and y = -1.",
+  solution: "31"
+},
+{
+  topic: "Substitution",
+  level: "Foundation",
+  question: "H = 2x + 7y. Find the value of H when x = -1 and y = 4.",
+  solution: "26"
+},
+{
+  topic: "Substitution",
+  level: "Foundation",
+  question: "A = 5m - 2n. Find the value of A when m = -6 and n = 4.",
+  solution: "-38"
+},
+{
+  topic: "Substitution",
+  level: "Foundation",
+  question: "R = 4x + 9y. Find the value of R when x = 5 and y = -2.",
+  solution: "8"
+},
+{
+  topic: "Substitution",
+  level: "Foundation",
+  question: "S = 6a - 2b. Find the value of S when a = -5 and b = 3.",
+  solution: "-36"
+},
+
+
 {
   topic: "Ratio",
   level: "Foundation",

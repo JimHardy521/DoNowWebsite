@@ -231,75 +231,77 @@ const gcseQuestions = [
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 3/4 ☐ 0.7",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{3}{4}\\) ☐ 0.7",
   solution: ">"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 0.45 ☐ 2/5",
+  question: "Put the correct inequality (< or >) between the two values: 0.45 ☐ \\(\\frac{2}{5}\\)",
   solution: ">"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 7/10 ☐ 0.75",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{7}{10}\\) ☐ 0.75",
   solution: "<"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 0.3 ☐ 1/3",
+  question: "Put the correct inequality (< or >) between the two values: 0.3 ☐ \\(\\frac{1}{3}\\)",
   solution: "<"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 2/5 ☐ 0.42",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{2}{5}\\) ☐ 0.42",
   solution: ">"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 5/8 ☐ 0.625",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{5}{8}\\) ☐ 0.625",
   solution: ">"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 0.2 ☐ 1/6",
+  question: "Put the correct inequality (< or >) between the two values: 0.2 ☐ \\(\\frac{1}{6}\\)",
   solution: ">"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 3/7 ☐ 0.43",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{3}{7}\\) ☐ 0.43",
   solution: "<"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 4/9 ☐ 0.45",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{4}{9}\\) ☐ 0.45",
   solution: "<"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 11/20 ☐ 0.55",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{11}{20}\\) ☐ 0.55",
   solution: ">"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 0.8 ☐ 4/5",
+  question: "Put the correct inequality (< or >) between the two values: 0.8 ☐ \\(\\frac{4}{5}\\)",
   solution: "="
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Complete the statement by using a < or > symbol: 7/10 ☐ 0.69",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{7}{10}\\) ☐ 0.69",
   solution: ">"
-},
+}
+
+,
     
 {
   topic: "Probability",

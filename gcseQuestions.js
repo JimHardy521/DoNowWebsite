@@ -2300,25 +2300,25 @@ const gcseQuestions = [
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\dot{1}6\\) as a fraction.",
+  question: "Write \\(0.\\1dot{6}\\) as a fraction.",
   solution: "\\(\\frac{1}{6}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\dot{8}3\\) as a fraction.",
+  question: "Write \\(0.\\8dot{3}\\) as a fraction.",
   solution: "\\(\\frac{5}{6}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.0\\dot{7}\\) as a fraction.",
-  solution: "\\(\\frac{1}{13}\\)."
+  question: "Write \\(0.41\\dot{6}\\) as a fraction.",
+  solution: "\\(\\frac{5}{12}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(1.\\dot{2}7\\) as a fraction.",
+  question: "Write \\(1.\\ddot{27}\\) as a fraction.",
   solution: "\\(\\frac{14}{11}\\)."
 },
 {
@@ -2330,8 +2330,8 @@ const gcseQuestions = [
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.1\\dot{6}\\) as a fraction.",
-  solution: "\\(\\frac{1}{6}\\)."
+  question: "Write \\(0.0\\dot{5}\\) as a fraction.",
+  solution: "\\(\\frac{1}{18}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",

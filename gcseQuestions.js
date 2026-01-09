@@ -4,7 +4,79 @@ const gcseQuestions = [
        PLACEHOLDER
        ========================= */
     
- 
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "Ollie starts the race at 9.15 am. He takes \\(3\\frac{3}{4}\\) hours to finish the race. At what time does he finish?",
+  solution: "12:45 pm"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "Emma starts work at 8.30 am. She works for \\(6\\frac{1}{2}\\) hours. At what time does she finish?",
+  solution: "3:00 pm"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "A train leaves at 14:20. The journey takes \\(2\\frac{3}{4}\\) hours. At what time does the train arrive?",
+  solution: "17:05"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "Tom starts his homework at 16:10. He spends \\(1\\frac{2}{3}\\) hours on it. At what time does he finish?",
+  solution: "17:50"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "A meeting starts at 10:45 am and lasts \\(2\\frac{1}{2}\\) hours. At what time does it end?",
+  solution: "1:15 pm"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "Lucy starts watching a movie at 13:30. The movie lasts \\(2\\frac{1}{4}\\) hours. When does it finish?",
+  solution: "15:45"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "A flight departs at 06:50. It lasts \\(4\\frac{1}{2}\\) hours. At what time does it land?",
+  solution: "11:20"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "Sam starts his shift at 17:15. He works for \\(3\\frac{1}{4}\\) hours. At what time does he finish?",
+  solution: "20:30"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "A workshop starts at 09:40 and lasts \\(1\\frac{3}{4}\\) hours. At what time does it end?",
+  solution: "11:25"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "The train leaves at 12:05. The journey takes \\(5\\frac{1}{2}\\) hours. When does it arrive?",
+  solution: "17:35"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "A football match starts at 15:20 and lasts \\(1\\frac{1}{2}\\) hours. At what time does it finish?",
+  solution: "16:50"
+},
+{
+  topic: "Time",
+  level: "Foundation",
+  question: "A concert starts at 19:10 and lasts \\(2\\frac{2}{3}\\) hours. At what time does it end?",
+  solution: "21:50"
+},
+
     {
       topic: "Placeholders - Crossover",
       level: "Crossover",

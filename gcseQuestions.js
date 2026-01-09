@@ -10,6 +10,78 @@ const gcseQuestions = [
  /* =========================
        FOUNDATION
        ========================= */
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 2x + 3 = 27",
+  solution: "x = 12"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 5x - 7 = 18",
+  solution: "x = 5"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 3x + 4 = 19",
+  solution: "x = 5"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve x/4 + 6 = 10",
+  solution: "x = 16"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 7 + 2x = 21",
+  solution: "x = 7"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 5x = 35",
+  solution: "x = 7"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 3x - 5 = 16",
+  solution: "x = 7"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve x/3 + 5 = 9",
+  solution: "x = 12"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 6x - 4 = 14",
+  solution: "x = 3"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 8 + 3x = 20",
+  solution: "x = 4"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve x/5 - 2 = 3",
+  solution: "x = 25"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve 4x + 7 = 23",
+  solution: "x = 4"
+},
     
 {
   topic: "Time",

@@ -11,6 +11,79 @@ const gcseQuestions = [
        FOUNDATION
        ========================= */
 {
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "28 is increased by 25%<br>40 is decreased by 15%<br>Which answer is bigger?",
+  solution: "28 increased by 25%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "50 is increased by 10%<br>60 is decreased by 5%<br>Which answer is bigger?",
+  solution: "60 decreased by 5%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "120 is increased by 20%<br>150 is decreased by 10%<br>Which answer is bigger?",
+  solution: "120 increased by 20%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "80 is increased by 15%<br>90 is decreased by 10%<br>Which answer is bigger?",
+  solution: "80 increased by 15%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "35 is increased by 40%<br>50 is decreased by 20%<br>Which answer is bigger?",
+  solution: "35 increased by 40%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "200 is increased by 5%<br>180 is decreased by 5%<br>Which answer is bigger?",
+  solution: "200 increased by 5%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "60 is increased by 30%<br>80 is decreased by 10%<br>Which answer is bigger?",
+  solution: "60 increased by 30%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "90 is increased by 25%<br>120 is decreased by 20%<br>Which answer is bigger?",
+  solution: "90 increased by 25%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "15 is increased by 50%<br>30 is decreased by 10%<br>Which answer is bigger?",
+  solution: "30 decreased by 10%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "250 is increased by 12%<br>300 is decreased by 10%<br>Which answer is bigger?",
+  solution: "250 increased by 12%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "18 is increased by 35%<br>25 is decreased by 20%<br>Which answer is bigger?",
+  solution: "18 increased by 35%"
+},
+{
+  topic: "Percentage - Comparing Increases and Decreases",
+  level: "Foundation",
+  question: "70 is increased by 15%<br>80 is decreased by 5%<br>Which answer is bigger?",
+  solution: "70 increased by 15%"
+},
+
+{
   topic: "Comparing Prices",
   level: "Foundation",
   question: "Two shops sell bottles of apple juice.<br>Shop X: Pack of 4 bottles, was £2.50, now 10% off<br>Shop Y: Pack of 12 bottles, £7<br>At which shop is it cheaper to buy 24 bottles?",
@@ -81,79 +154,6 @@ const gcseQuestions = [
   level: "Foundation",
   question: "Two shops sell packs of juice boxes.<br>Shop X: Pack of 10, £6, now 20% off<br>Shop Y: Pack of 12, £7.50<br>At which shop is it cheaper to buy 60 juice boxes?",
   solution: "Shop X: £28.80<br>Shop Y: £37.50<br>Cheaper: Shop X"
-},
-
-    {
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "28 is increased by 25%\n40 is decreased by 15%\nWhich answer is bigger?",
-  solution: "28 increased by 25%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "50 is increased by 10%\n60 is decreased by 5%\nWhich answer is bigger?",
-  solution: "60 decreased by 5%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "120 is increased by 20%\n150 is decreased by 10%\nWhich answer is bigger?",
-  solution: "120 increased by 20%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "80 is increased by 15%\n90 is decreased by 10%\nWhich answer is bigger?",
-  solution: "80 increased by 15%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "35 is increased by 40%\n50 is decreased by 20%\nWhich answer is bigger?",
-  solution: "35 increased by 40%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "200 is increased by 5%\n180 is decreased by 5%\nWhich answer is bigger?",
-  solution: "200 increased by 5%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "60 is increased by 30%\n80 is decreased by 10%\nWhich answer is bigger?",
-  solution: "60 increased by 30%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "90 is increased by 25%\n120 is decreased by 20%\nWhich answer is bigger?",
-  solution: "90 increased by 25%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "15 is increased by 50%\n30 is decreased by 10%\nWhich answer is bigger?",
-  solution: "30 decreased by 10%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "250 is increased by 12%\n300 is decreased by 10%\nWhich answer is bigger?",
-  solution: "250 increased by 12%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "18 is increased by 35%\n25 is decreased by 20%\nWhich answer is bigger?",
-  solution: "18 increased by 35%"
-},
-{
-  topic: "Percentage - Comparing Increases and Decreases",
-  level: "Foundation",
-  question: "70 is increased by 15%\n80 is decreased by 5%\nWhich answer is bigger?",
-  solution: "70 increased by 15%"
 },
 
 {

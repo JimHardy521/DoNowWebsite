@@ -278,13 +278,13 @@ const gcseQuestions = [
 {
   topic: "Approximations",
   level: "Foundation",
-  question: "Use approximations to estimate the value of (6.1 × 52) ÷ 3.9.",
-  solution: "80"
+  question: "Use approximations to estimate the value of (6.1 × 52) ÷ 4.9.",
+  solution: "60"
 },
 {
   topic: "Approximations",
   level: "Foundation",
-  question: "Use approximations to estimate the value of (74 × 11) ÷ 2.1.",
+  question: "Use approximations to estimate the value of (79 × 11) ÷ 2.1.",
   solution: "400"
 },
 {
@@ -302,7 +302,7 @@ const gcseQuestions = [
 {
   topic: "Approximations",
   level: "Foundation",
-  question: "Use approximations to estimate the value of (402 − 158) ÷ 6.1.",
+  question: "Use approximations to estimate the value of (402 − 178) ÷ 5.1.",
   solution: "40"
 }
 

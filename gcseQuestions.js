@@ -11,6 +11,78 @@ const gcseQuestions = [
        FOUNDATION
        ========================= */
 {
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 3(2a + 4) - 2(a - 3)",
+  solution: "4a + 18"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 2(x + 5) + 3(x - 2)",
+  solution: "5x + 4"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 4(a - 3) - 2(a + 5)",
+  solution: "2a - 22"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 5(2x + 1) - 3(x - 4)",
+  solution: "7x + 17"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 3(3a - 2) + 4(a + 1)",
+  solution: "13a - 2"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 2(4x + 3) - 5(x - 2)",
+  solution: "3x + 16"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 6(a + 2) - 3(2a - 5)",
+  solution: "6a + 27"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 4(x - 3) + 2(3x + 1)",
+  solution: "10x - 10"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 3(2y + 5) - 4(y - 1)",
+  solution: "2y + 19"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 5(x - 2) + 3(2x + 1)",
+  solution: "11x - 7"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 2(3a + 4) - 3(a - 5)",
+  solution: "3a + 13"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify: 4(x + 3) - 2(2x - 1)",
+  solution: "2x + 14"
+},
+{
   topic: "Percentage - Comparing Increases and Decreases",
   level: "Foundation",
   question: "28 is increased by 25%\n40 is decreased by 15%\nWhich answer is bigger?",

@@ -11,6 +11,79 @@ const gcseQuestions = [
        FOUNDATION
        ========================= */
 {
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell bottles of apple juice.<br>Shop X: Pack of 4 bottles, was £2.50, now 10% off<br>Shop Y: Pack of 12 bottles, £7<br>At which shop is it cheaper to buy 24 bottles?",
+  solution: "Shop X: £13.50<br>Shop Y: £14<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell chocolate bars.<br>Shop X: Pack of 5 bars, £3, now 20% off<br>Shop Y: Pack of 8 bars, £5<br>At which shop is it cheaper to buy 40 bars?",
+  solution: "Shop X: £19.20<br>Shop Y: £25<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell bags of rice.<br>Shop X: 2 kg bag, £4, now 15% off<br>Shop Y: 5 kg bag, £9<br>At which shop is it cheaper to buy 20 kg?",
+  solution: "Shop X: £34<br>Shop Y: £36<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell cartons of milk.<br>Shop X: 6 cartons, £7, now 10% off<br>Shop Y: 12 cartons, £14<br>At which shop is it cheaper to buy 24 cartons?",
+  solution: "Shop X: £25.20<br>Shop Y: £28<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell bottles of orange juice.<br>Shop X: Pack of 3 bottles, £2.10, now 5% off<br>Shop Y: Pack of 6 bottles, £4.50<br>At which shop is it cheaper to buy 18 bottles?",
+  solution: "Shop X: £12<br>Shop Y: £13.50<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell boxes of cereal.<br>Shop X: Box of 2, £3.20, now 25% off<br>Shop Y: Box of 5, £7<br>At which shop is it cheaper to buy 20 boxes?",
+  solution: "Shop X: £24<br>Shop Y: £28<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell packs of water bottles.<br>Shop X: Pack of 6, £4, now 10% off<br>Shop Y: Pack of 12, £7.80<br>At which shop is it cheaper to buy 24 bottles?",
+  solution: "Shop X: £14.40<br>Shop Y: £15.60<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell packs of biscuits.<br>Shop X: Pack of 4, £2.40, now 15% off<br>Shop Y: Pack of 8, £4.50<br>At which shop is it cheaper to buy 32 biscuits?",
+  solution: "Shop X: £16.32<br>Shop Y: £18<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell packs of soft drinks.<br>Shop X: Pack of 6, £5, now 20% off<br>Shop Y: Pack of 12, £9.60<br>At which shop is it cheaper to buy 24 drinks?",
+  solution: "Shop X: £16<br>Shop Y: £19.20<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell bags of flour.<br>Shop X: 3 kg bag, £3, now 10% off<br>Shop Y: 5 kg bag, £4.80<br>At which shop is it cheaper to buy 30 kg?",
+  solution: "Shop X: £27<br>Shop Y: £28.80<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell packs of eggs.<br>Shop X: 6 eggs, £1.80, now 5% off<br>Shop Y: 12 eggs, £3.50<br>At which shop is it cheaper to buy 24 eggs?",
+  solution: "Shop X: £6.84<br>Shop Y: £7<br>Cheaper: Shop X"
+},
+{
+  topic: "Comparing Prices",
+  level: "Foundation",
+  question: "Two shops sell packs of juice boxes.<br>Shop X: Pack of 10, £6, now 20% off<br>Shop Y: Pack of 12, £7.50<br>At which shop is it cheaper to buy 60 juice boxes?",
+  solution: "Shop X: £28.80<br>Shop Y: £37.50<br>Cheaper: Shop X"
+},
+
+    {
   topic: "Percentage - Comparing Increases and Decreases",
   level: "Foundation",
   question: "28 is increased by 25%\n40 is decreased by 15%\nWhich answer is bigger?",

@@ -11,6 +11,78 @@ const gcseQuestions = [
        FOUNDATION
        ========================= */
 {
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{13}{4}\\) to a decimal.",
+  solution: "3.25"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{7}{2}\\) to a decimal.",
+  solution: "3.5"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{9}{4}\\) to a decimal.",
+  solution: "2.25"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{11}{5}\\) to a decimal.",
+  solution: "2.2"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{15}{8}\\) to a decimal.",
+  solution: "1.875"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{19}{6}\\) to a decimal.",
+  solution: "3.1667"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{23}{10}\\) to a decimal.",
+  solution: "2.3"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{17}{4}\\) to a decimal.",
+  solution: "4.25"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{21}{8}\\) to a decimal.",
+  solution: "2.625"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{14}{3}\\) to a decimal.",
+  solution: "4.6667"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{25}{6}\\) to a decimal.",
+  solution: "4.1667"
+},
+{
+  topic: "FDP - Improper Fraction to Decimal",
+  level: "Foundation",
+  question: "Convert \\(\\frac{18}{5}\\) to a decimal.",
+  solution: "3.6"
+},
+{
   topic: "Solving Equations",
   level: "Foundation",
   question: "Solve 2x + 3 = 27",

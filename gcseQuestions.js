@@ -11,6 +11,78 @@ const gcseQuestions = [
        FOUNDATION
        ========================= */
 {
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 12a + 15b",
+  solution: "3(4a + 5b)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 18x + 24y",
+  solution: "6(3x + 4y)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 20p + 30q",
+  solution: "10(2p + 3q)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 14a + 21b",
+  solution: "7(2a + 3b)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 36x + 48y",
+  solution: "12(3x + 4y)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 28m + 35n",
+  solution: "7(4m + 5n)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 40a + 50b",
+  solution: "10(4a + 5b)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 32x + 48y",
+  solution: "16(2x + 3y)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 15p + 25q",
+  solution: "5(3p + 5q)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 24a + 36b",
+  solution: "12(2a + 3b)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 42x + 56y",
+  solution: "14(3x + 4y)"
+},
+{
+  topic: "Algebra - Factorising",
+  level: "Foundation",
+  question: "Fully factorise: 30m + 45n",
+  solution: "15(2m + 3n)"
+},
+{
   topic: "Algebra - Expanding",
   level: "Foundation",
   question: "Expand and simplify: 3(2a + 4) - 2(a - 3)",

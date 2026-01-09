@@ -2119,79 +2119,81 @@ const gcseQuestions = [
   question: "Find the equation of the line perpendicular to \\(y = -\\frac{2}{7}x + 4\\) passing through \\((7, 0)\\).",
   solution: "Perpendicular gradient is \\(\\frac{7}{2}\\). Using \\((7,0)\\): \\(y = \\frac{7}{2}(x - 7)\\), so \\(y = \\frac{7}{2}x - \\frac{49}{2}\\)."
 },
+
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is directly proportional to x. When x = 4, y = 10. Find y when x = 7.",
-  solution: "y = kx, \\; k = 2.5, \\; y = 17.5"
+  solution: "y = 17.5"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to x. When x = 5, y = 8. Find y when x = 20.",
-  solution: "y = \\frac{k}{x}, \\; k = 40, \\; y = 2"
+  solution: "y = 2"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is directly proportional to x^2. When x = 3, y = 18. Find y when x = 5.",
-  solution: "y = kx^2, \\; k = 2, \\; y = 50"
+  solution: "y = 50"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to x^2. When x = 2, y = 12. Find y when x = 6.",
-  solution: "y = \\frac{k}{x^2}, \\; k = 48, \\; y = \\frac{4}{3}"
+  solution: "y = \\frac{4}{3}"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The time taken to complete a job is inversely proportional to the number of workers. 6 workers take 10 days. How long will 15 workers take?",
-  solution: "Total work = 60 \\text{ worker-days}, \\; Time = 4 \\text{ days}"
+  solution: "Time = 4 \\text{ days}"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is directly proportional to x^3. When x = 2, y = 16. Find y when x = 4.",
-  solution: "y = kx^3, \\; k = 2, \\; y = 128"
+  solution: "y = 128"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to x^3. When x = 1, y = 9. Find y when x = 3.",
-  solution: "y = \\frac{k}{x^3}, \\; k = 9, \\; y = 1"
+  solution: "y = 1"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The speed of a car is directly proportional to the distance travelled in a fixed time. If 40 mph covers 60 miles, how far will 50 mph cover in the same time?",
-  solution: "Distance = k \\cdot speed, \\; k = 1.5, \\; Distance = 75 \\text{ miles}"
+  solution: "Distance = 75 \\text{ miles}"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The pressure of a gas is inversely proportional to its volume. A volume of 8 L gives a pressure of 3 atm. Find the pressure if the volume is 12 L.",
-  solution: "P = \\frac{k}{V}, \\; k = 24, \\; P = 2 \\text{ atm}"
+  solution: "P = 2 \\text{ atm}"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is directly proportional to \\(\\sqrt{x}\\). When x = 25, y = 15. Find y when x = 64.",
-  solution: "y = k\\sqrt{x}, \\; k = 3, \\; y = 24"
+  solution: "y = 24"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to \\(\\sqrt{x}\\). When x = 16, y = 8. Find y when x = 4.",
-  solution: "y = \\frac{k}{\\sqrt{x}}, \\; k = 32, \\; y = 16"
+  solution: "y = 16"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The time taken to fill a tank is inversely proportional to the number of taps. 3 taps fill it in 12 hours. How long with 6 taps?",
-  solution: "Total work = 36 \\text{ tap-hours}, \\; Time = 6 \\text{ hours}"
+  solution: "Time = 6 \\text{ hours}"
 },
 
+    
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",

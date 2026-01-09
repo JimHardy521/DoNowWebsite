@@ -2142,13 +2142,13 @@ const gcseQuestions = [
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to x^2. When x = 2, y = 12. Find y when x = 6.",
-  solution: "y = \\frac{4}{3}"
+  solution: "y = 4/3}"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The time taken to complete a job is inversely proportional to the number of workers. 6 workers take 10 days. How long will 15 workers take?",
-  solution: "Time = 4 \\text{ days}"
+  solution: "Time = 4 days"
 },
 {
   topic: "Direct and Inverse Proportion",
@@ -2165,14 +2165,8 @@ const gcseQuestions = [
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "The speed of a car is directly proportional to the distance travelled in a fixed time. If 40 mph covers 60 miles, how far will 50 mph cover in the same time?",
-  solution: "Distance = 75 \\text{ miles}"
-},
-{
-  topic: "Direct and Inverse Proportion",
-  level: "Higher",
-  question: "The pressure of a gas is inversely proportional to its volume. A volume of 8 L gives a pressure of 3 atm. Find the pressure if the volume is 12 L.",
-  solution: "P = 2 \\text{ atm}"
+  question: "The pressure of a gas is inversely proportional to its volume. A volume of 8 litres gives a pressure of 3 atm. Find the pressure if the volume is 12 litres.",
+  solution: "P = 2 "
 },
 {
   topic: "Direct and Inverse Proportion",
@@ -2190,7 +2184,7 @@ const gcseQuestions = [
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The time taken to fill a tank is inversely proportional to the number of taps. 3 taps fill it in 12 hours. How long with 6 taps?",
-  solution: "Time = 6 \\text{ hours}"
+  solution: "Time = 6 hours"
 },
 
     

@@ -11,6 +11,154 @@ const gcseQuestions = [
        FOUNDATION
        ========================= */
 {
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(2x + 3 = 27\\)",
+  solution: "x = 12"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(5x - 7 = 18\\)",
+  solution: "x = 5"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(3x + 4 = 19\\)",
+  solution: "x = 5"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(\\frac{x}{4} + 6 = 10\\)",
+  solution: "x = 16"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(7 + 2x = 21\\)",
+  solution: "x = 7"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(5x = 35\\)",
+  solution: "x = 7"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(3x - 5 = 16\\)",
+  solution: "x = 7"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(\\frac{x}{3} + 5 = 9\\)",
+  solution: "x = 12"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(6x - 4 = 14\\)",
+  solution: "x = 3"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(8 + 3x = 20\\)",
+  solution: "x = 4"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(\\frac{x}{5} - 2 = 3\\)",
+  solution: "x = 25"
+},
+{
+  topic: "Solving Equations",
+  level: "Foundation",
+  question: "Solve: \\(4x + 7 = 23\\)",
+  solution: "x = 4"
+},
+
+
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>3(2a + 4) - 2(a - 3)",
+  solution: "4a + 18"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>2(x + 5) + 3(x - 2)",
+  solution: "5x + 4"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>4(a - 3) - 2(a + 5)",
+  solution: "2a - 22"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>5(2x + 1) - 3(x - 4)",
+  solution: "7x + 17"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>3(3a - 2) + 4(a + 1)",
+  solution: "13a - 2"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>2(4x + 3) - 5(x - 2)",
+  solution: "3x + 16"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>6(a + 2) - 3(2a - 5)",
+  solution: "6a + 27"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>4(x - 3) + 2(3x + 1)",
+  solution: "10x - 10"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>3(2y + 5) - 4(y - 1)",
+  solution: "2y + 19"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>5(x - 2) + 3(2x + 1)",
+  solution: "11x - 7"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>2(3a + 4) - 3(a - 5)",
+  solution: "3a + 13"
+},
+{
+  topic: "Algebra - Expanding",
+  level: "Foundation",
+  question: "Expand and simplify:<br>4(x + 3) - 2(2x - 1)",
+  solution: "2x + 14"
+},
+
+    
+{
   topic: "Percentage - Comparing Increases and Decreases",
   level: "Foundation",
   question: "28 is increased by 25%<br>40 is decreased by 15%<br>Which answer is bigger?",
@@ -229,78 +377,6 @@ const gcseQuestions = [
   solution: "15(2m + 3n)"
 },
 {
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 3(2a + 4) - 2(a - 3)",
-  solution: "4a + 18"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 2(x + 5) + 3(x - 2)",
-  solution: "5x + 4"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 4(a - 3) - 2(a + 5)",
-  solution: "2a - 22"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 5(2x + 1) - 3(x - 4)",
-  solution: "7x + 17"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 3(3a - 2) + 4(a + 1)",
-  solution: "13a - 2"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 2(4x + 3) - 5(x - 2)",
-  solution: "3x + 16"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 6(a + 2) - 3(2a - 5)",
-  solution: "6a + 27"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 4(x - 3) + 2(3x + 1)",
-  solution: "10x - 10"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 3(2y + 5) - 4(y - 1)",
-  solution: "2y + 19"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 5(x - 2) + 3(2x + 1)",
-  solution: "11x - 7"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 2(3a + 4) - 3(a - 5)",
-  solution: "3a + 13"
-},
-{
-  topic: "Algebra - Expanding",
-  level: "Foundation",
-  question: "Expand and simplify: 4(x + 3) - 2(2x - 1)",
-  solution: "2x + 14"
-},
-{
   topic: "FDP - Improper Fraction to Decimal",
   level: "Foundation",
   question: "Convert \\(\\frac{13}{4}\\) to a decimal.",
@@ -371,78 +447,6 @@ const gcseQuestions = [
   level: "Foundation",
   question: "Convert \\(\\frac{18}{5}\\) to a decimal.",
   solution: "3.6"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 2x + 3 = 27",
-  solution: "x = 12"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 5x - 7 = 18",
-  solution: "x = 5"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 3x + 4 = 19",
-  solution: "x = 5"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve x/4 + 6 = 10",
-  solution: "x = 16"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 7 + 2x = 21",
-  solution: "x = 7"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 5x = 35",
-  solution: "x = 7"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 3x - 5 = 16",
-  solution: "x = 7"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve x/3 + 5 = 9",
-  solution: "x = 12"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 6x - 4 = 14",
-  solution: "x = 3"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 8 + 3x = 20",
-  solution: "x = 4"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve x/5 - 2 = 3",
-  solution: "x = 25"
-},
-{
-  topic: "Solving Equations",
-  level: "Foundation",
-  question: "Solve 4x + 7 = 23",
-  solution: "x = 4"
 },
     
 {

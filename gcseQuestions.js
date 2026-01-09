@@ -450,6 +450,662 @@ const gcseQuestions = [
   question: "A linear sequence has 3rd term = 14 and 6th term = 23. Work out the 12th term.",
   solution: "41"
 },
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "The vector \\(\\begin{pmatrix}3 \\\\ -7\\end{pmatrix}\\) translates shape A to shape B. Find the vector that translates shape B to shape A.",
+  solution: "\\(\\begin{pmatrix}-3 \\\\ 7\\end{pmatrix}\\)"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "The vector \\(\\begin{pmatrix}-5 \\\\ 2\\end{pmatrix}\\) translates shape P to shape Q. Find the vector that translates shape Q to shape P.",
+  solution: "\\(\\begin{pmatrix}5 \\\\ -2\\end{pmatrix}\\)"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is reflected in the y-axis to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Reflection in the y-axis"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape X is reflected in the line x = 2 to give shape Y. Describe the transformation that maps shape Y back to shape X.",
+  solution: "Reflection in the line x = 2"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is rotated 90° clockwise about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Rotation 90° anticlockwise about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape P is rotated 180° about the origin to give shape Q. Describe the transformation that maps shape Q back to shape P.",
+  solution: "Rotation 180° about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is enlarged by scale factor 2 about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Enlargement with scale factor 0.5 about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape M is enlarged by scale factor 3 about the origin to give shape N. Describe the transformation that maps shape N back to shape M.",
+  solution: "Enlargement with scale factor 1/3 about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "The vector \\(\\begin{pmatrix}4 \\\\ 6\\end{pmatrix}\\) translates shape C to shape D. Find the vector that translates shape D to shape C.",
+  solution: "\\(\\begin{pmatrix}-4 \\\\ -6\\end{pmatrix}\\)"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is reflected in the x-axis to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Reflection in the x-axis"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape R is rotated 90° anticlockwise about the origin to give shape S. Describe the transformation that maps shape S back to shape R.",
+  solution: "Rotation 90° clockwise about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is enlarged by scale factor 4 about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Enlargement with scale factor 1/4 about the origin"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write 0.24 as a fraction in its simplest form.",
+  solution: "6/25"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write \\(\\frac{2}{5}\\) as a percentage.",
+  solution: "40%"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write 35% as a decimal.",
+  solution: "0.35"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write 0.6 as a percentage.",
+  solution: "60%"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write \\(\\frac{3}{4}\\) as a decimal.",
+  solution: "0.75"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write 0.2 as a fraction in its simplest form.",
+  solution: "1/5"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write 45% as a fraction in its simplest form.",
+  solution: "9/20"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write \\(\\frac{1}{8}\\) as a decimal.",
+  solution: "0.125"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write 0.75 as a fraction in its simplest form.",
+  solution: "3/4"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write \\(\\frac{5}{20}\\) as a decimal.",
+  solution: "0.25"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write 12% as a decimal.",
+  solution: "0.12"
+},
+{
+  topic: "FDP - Conversions",
+  level: "Foundation",
+  question: "Write \\(\\frac{3}{10}\\) as a percentage.",
+  solution: "30%"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 5 × 2h.",
+  solution: "10h"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 2m ÷ m.",
+  solution: "2"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully y × y × y.",
+  solution: "y^3"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 4a × 3.",
+  solution: "12a"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 6x ÷ 3.",
+  solution: "2x"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 7p × p.",
+  solution: "7p^2"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 10k ÷ 5.",
+  solution: "2k"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 3a × 4b.",
+  solution: "12ab"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 8y ÷ y.",
+  solution: "8"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 2x × 5x.",
+  solution: "10x^2"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully 9m ÷ 3m.",
+  solution: "3"
+},
+{
+  topic: "Algebra - Simplifying",
+  level: "Foundation",
+  question: "Simplify fully a × a × 4.",
+  solution: "4a^2"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Five cucumbers cost £6.40 in total. How much do two of these cucumbers cost?",
+  solution: "£2.56"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Three notebooks cost £4.50. How much do eight notebooks cost?",
+  solution: "£12.00"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Four apples cost £1.20. How much do ten apples cost?",
+  solution: "£3.00"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Six bottles of water cost £3.90. How much do four bottles of water cost?",
+  solution: "£2.60"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Seven pens cost £5.60. How much do three pens cost?",
+  solution: "£2.40"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Two kilograms of rice cost £3.80. How much do five kilograms cost?",
+  solution: "£9.50"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Eight magazines cost £12.00. How much do five magazines cost?",
+  solution: "£7.50"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Nine oranges cost £4.50. How much do six oranges cost?",
+  solution: "£3.00"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Four cinema tickets cost £26. How much do seven cinema tickets cost?",
+  solution: "£45.50"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Five litres of paint cost £18.75. How much do two litres cost?",
+  solution: "£7.50"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Three sandwiches cost £6.90. How much do ten sandwiches cost?",
+  solution: "£23.00"
+},
+{
+  topic: "Proportion - Prices",
+  level: "Foundation",
+  question: "Six packets of seeds cost £9.00. How much do four packets cost?",
+  solution: "£6.00"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 56 cubes in a box. The cubes are green, red, blue or white. 17 cubes are green. There are an equal number of red, blue and white cubes. How many red cubes are in the box?",
+  solution: "13"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 48 counters in a bag. The counters are yellow, pink or black. 18 counters are yellow. There are an equal number of pink and black counters. How many pink counters are there?",
+  solution: "15"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 90 sweets in a jar. 30 of the sweets are strawberry. The rest are lemon, orange or apple, with equal numbers of each. How many lemon sweets are there?",
+  solution: "20"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 64 marbles in a box. 28 marbles are blue. The rest are red and green, with equal numbers of each. How many red marbles are there?",
+  solution: "18"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 75 books on a shelf. 27 of the books are maths books. The rest are English, science or history books, with equal numbers of each. How many English books are there?",
+  solution: "16"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 84 tiles in a box. 36 tiles are square. The rest are triangular or hexagonal, with equal numbers of each. How many triangular tiles are there?",
+  solution: "24"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 60 students in a year group. 18 students study French. The rest study Spanish or German, with equal numbers of each. How many students study Spanish?",
+  solution: "21"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 72 balls in a sports cupboard. 24 balls are footballs. The rest are basketballs, netballs or tennis balls, with equal numbers of each. How many basketballs are there?",
+  solution: "16"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 96 cards in a pack. 36 cards are red. The rest are blue or green, with equal numbers of each. How many blue cards are there?",
+  solution: "30"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 54 pencils in a box. 18 pencils are black. The rest are red, blue or green, with equal numbers of each. How many blue pencils are there?",
+  solution: "12"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 80 biscuits in a tin. 20 biscuits are chocolate. The rest are vanilla or strawberry, with equal numbers of each. How many vanilla biscuits are there?",
+  solution: "30"
+},
+{
+  topic: "Ratio - Equal Groups",
+  level: "Foundation",
+  question: "There are 100 beads in a bag. 40 beads are white. The rest are red, blue, yellow or green, with equal numbers of each. How many red beads are there?",
+  solution: "15"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "An electric car uses 1 unit of electricity to travel 3 miles. 1 unit of electricity costs 50 pence. Work out the cost of electricity, in pounds, to travel 270 miles.",
+  solution: "£45"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A car travels 5 miles for every litre of fuel used. Fuel costs £1.40 per litre. Work out the cost of fuel to travel 100 miles.",
+  solution: "£28"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A printer uses 2 ink cartridges to print 400 pages. Each cartridge costs £12. Work out the cost of ink to print 1000 pages.",
+  solution: "£60"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A train uses 4 units of electricity to travel 20 km. Each unit costs 75 pence. Work out the cost of electricity to travel 120 km.",
+  solution: "£18"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A delivery van travels 8 miles per litre of fuel. Fuel costs £1.60 per litre. Work out the cost of fuel to travel 64 miles.",
+  solution: "£12.80"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A washing machine uses 3 units of electricity per wash. Each unit costs 28 pence. Work out the cost, in pounds, of running the machine 25 times.",
+  solution: "£21"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A bus uses 10 litres of fuel to travel 50 miles. Fuel costs £1.50 per litre. Work out the cost of fuel to travel 150 miles.",
+  solution: "£45"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A factory uses 6 units of electricity to make 24 items. Each unit costs 40 pence. Work out the cost of electricity to make 120 items.",
+  solution: "£12"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A bike repair shop uses 2 litres of oil to service 10 bikes. Oil costs £5 per litre. Work out the cost of oil to service 25 bikes.",
+  solution: "£25"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A car travels 12 km for every litre of fuel used. Fuel costs £1.44 per litre. Work out the cost of fuel to travel 180 km.",
+  solution: "£21.60"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A heater uses 4 units of electricity per hour. Each unit costs 32 pence. Work out the cost, in pounds, of running the heater for 7 hours.",
+  solution: "£8.96"
+},
+{
+  topic: "Proportion - Unit Rates",
+  level: "Foundation",
+  question: "A water pump uses 5 units of electricity to pump 200 litres of water. Each unit costs 20 pence. Work out the cost of electricity to pump 800 litres.",
+  solution: "£4"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "Jack buys 2 metres of linen at £8.50 per metre. He also buys 5 metres of cotton. The total cost is £38. What is the cost of one metre of cotton?",
+  solution: "£4.20"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A shop sells apples at £0.60 each. Sarah buys 4 apples and 6 oranges. The total cost is £6.60. What is the cost of one orange?",
+  solution: "£0.70"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "Tom buys 3 notebooks at £2.40 each. He also buys 5 pens. The total cost is £13.20. What is the cost of one pen?",
+  solution: "£1.20"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A builder buys 5 bags of cement at £6.80 each. He also buys 4 bags of sand. The total cost is £54. What is the cost of one bag of sand?",
+  solution: "£5.50"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "Ella buys 2 tickets at £9.50 each. She also buys 4 programmes. The total cost is £26. What is the cost of one programme?",
+  solution: "£1.75"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A café sells sandwiches for £3.80 each. Ben buys 3 sandwiches and 5 drinks. The total cost is £24.90. What is the cost of one drink?",
+  solution: "£2.70"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A gardener buys 6 plants at £4.50 each. He also buys 8 bags of compost. The total cost is £54. What is the cost of one bag of compost?",
+  solution: "£3.75"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A student buys 4 textbooks at £7.25 each. She also buys 6 exercise books. The total cost is £43. What is the cost of one exercise book?",
+  solution: "£2.50"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A mechanic buys 2 tyres at £68 each. He also buys 4 bottles of oil. The total cost is £160. What is the cost of one bottle of oil?",
+  solution: "£6"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A baker buys 3 bags of flour at £9.60 each. He also buys 5 bags of sugar. The total cost is £48. What is the cost of one bag of sugar?",
+  solution: "£3.84"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "A school buys 10 rulers at £1.40 each. It also buys 6 calculators. The total cost is £44. What is the cost of one calculator?",
+  solution: "£5"
+},
+{
+  topic: "Proportion - Mixed Costs",
+  level: "Foundation",
+  question: "Lucy buys 5 metres of ribbon at £1.80 per metre. She also buys 4 metres of lace. The total cost is £17. What is the cost of one metre of lace?",
+  solution: "£2"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Four numbers have a mean of 10. Three of the numbers are 5, 8, 9. Work out the other number.",
+  solution: "18"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Five numbers have a mean of 12. Four of the numbers are 10, 15, 12, 8. Work out the other number.",
+  solution: "15"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Six numbers have a mean of 9. Five of the numbers are 6, 10, 8, 12, 9. Work out the other number.",
+  solution: "9"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Three numbers have a mean of 14. Two of the numbers are 12, 17. Work out the other number.",
+  solution: "13"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Four numbers have a mean of 7. Three of the numbers are 5, 8, 6. Work out the other number.",
+  solution: "9"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Five numbers have a mean of 20. Four of the numbers are 18, 24, 16, 21. Work out the other number.",
+  solution: "21"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Six numbers have a mean of 15. Five of the numbers are 12, 18, 14, 16, 15. Work out the other number.",
+  solution: "15"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Three numbers have a mean of 11. Two of the numbers are 9, 12. Work out the other number.",
+  solution: "12"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Four numbers have a mean of 13. Three of the numbers are 10, 15, 14. Work out the other number.",
+  solution: "13"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Five numbers have a mean of 18. Four of the numbers are 20, 16, 19, 17. Work out the other number.",
+  solution: "18"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Six numbers have a mean of 10. Five of the numbers are 8, 12, 9, 11, 10. Work out the other number.",
+  solution: "10"
+},
+{
+  topic: "Averages - Finding Missing Number",
+  level: "Foundation",
+  question: "Three numbers have a mean of 8. Two of the numbers are 5, 9. Work out the other number.",
+  solution: "10"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 3, 6, 9, 12",
+  solution: "3n"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 2, 5, 8, 11",
+  solution: "3n - 1"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 5, 8, 11, 14",
+  solution: "3n + 2"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 7, 10, 13, 16",
+  solution: "3n + 4"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 4, 7, 10, 13",
+  solution: "3n + 1"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 1, 3, 5, 7",
+  solution: "2n - 1"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 0, 4, 8, 12",
+  solution: "4n"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 6, 9, 12, 15",
+  solution: "3n + 3"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 10, 13, 16, 19",
+  solution: "3n + 7"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 2, 6, 10, 14",
+  solution: "4n - 2"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 5, 10, 15, 20",
+  solution: "5n"
+},
+{
+  topic: "Linear Sequences",
+  level: "Foundation",
+  question: "Find the nth term of the sequence: 3, 7, 11, 15",
+  solution: "4n - 1"
+},
+
+
+
+
+   
+
+
+
 
 
 

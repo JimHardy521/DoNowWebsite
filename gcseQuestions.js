@@ -1958,36 +1958,78 @@ const gcseQuestions = [
   solution: "\\((2x - 4)(2x + 2) = 0, \\; x = 2, -1\\)"
 },
    
-    {
-      topic: "Completing the Square",
-      level: "Higher",
-      question: "Complete the square for \\(x^2 + 6x + 5\\).",
-      solution: "\\((x + 3)^2 - 4\\)."
-    },
-    {
-      topic: "Completing the Square",
-      level: "Higher",
-      question: "Complete the square for \\(x^2 - 4x + 1\\).",
-      solution: "\\((x - 2)^2 - 3\\)."
-    },
-    {
-      topic: "Completing the Square",
-      level: "Higher",
-      question: "Solve \\(x^2 + 6x + 5 = 0\\) by completing the square.",
-      solution: "\\((x + 3)^2 = 4\\), so \\(x = -1, -5\\)."
-    },
-    {
-      topic: "Completing the Square",
-      level: "Higher",
-      question: "Write \\(x^2 + 8x + 7\\) in completed square form.",
-      solution: "\\((x + 4)^2 - 9\\)."
-    },
-    {
-      topic: "Completing the Square",
-      level: "Higher",
-      question: "Find the minimum value of \\(x^2 - 6x + 10\\).",
-      solution: "\\((x - 3)^2 + 1\\), minimum value is 1."
-    },
+  {
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Complete the square for \\(x^2 + 6x + 5\\).",
+  solution: "\\((x + 3)^2 - 4\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Complete the square for \\(x^2 - 4x + 1\\).",
+  solution: "\\((x - 2)^2 - 3\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Solve \\(x^2 + 6x + 5 = 0\\) by completing the square.",
+  solution: "\\((x + 3)^2 = 4, \\; x = -1, -5\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Write \\(x^2 + 8x + 7\\) in completed square form.",
+  solution: "\\((x + 4)^2 - 9\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Find the minimum value of \\(x^2 - 6x + 10\\).",
+  solution: "\\((x - 3)^2 + 1, \\; \\text{minimum value } 1\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Complete the square for \\(x^2 + 10x + 21\\).",
+  solution: "\\((x + 5)^2 - 4\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Solve \\(x^2 - 4x - 5 = 0\\) by completing the square.",
+  solution: "\\((x - 2)^2 = 9, \\; x = 5, -1\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Write \\(x^2 - 12x + 20\\) in completed square form.",
+  solution: "\\((x - 6)^2 - 16\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Find the maximum value of \\(-x^2 + 6x - 5\\).",
+  solution: "\\(-(x - 3)^2 + 4, \\; \\text{maximum value } 4\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Complete the square for \\(2x^2 + 8x + 5\\).",
+  solution: "\\(2(x + 2)^2 - 3\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Solve \\(x^2 + 4x - 5 = 0\\) by completing the square.",
+  solution: "\\((x + 2)^2 = 9, \\; x = 1, -5\\)"
+},
+{
+  topic: "Completing the Square",
+  level: "Higher",
+  question: "Write \\(x^2 - 14x + 45\\) in completed square form.",
+  solution: "\\((x - 7)^2 - 4\\)"
+},
     
    // =======================
 // Lines - Parallel and Perpendicular
@@ -2077,99 +2119,223 @@ const gcseQuestions = [
   question: "Find the equation of the line perpendicular to \\(y = -\\frac{2}{7}x + 4\\) passing through \\((7, 0)\\).",
   solution: "Perpendicular gradient is \\(\\frac{7}{2}\\). Using \\((7,0)\\): \\(y = \\frac{7}{2}(x - 7)\\), so \\(y = \\frac{7}{2}x - \\frac{49}{2}\\)."
 },
-
-
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is directly proportional to x. When x = 4, y = 10. Find y when x = 7.",
-  solution: "y = kx, so k = 2.5. When x = 7, y = 17.5."
+  solution: "y = kx, \\; k = 2.5, \\; y = 17.5"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to x. When x = 5, y = 8. Find y when x = 20.",
-  solution: "y = \\frac{k}{x}, so k = 40. y = 2."
+  solution: "y = \\frac{k}{x}, \\; k = 40, \\; y = 2"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is directly proportional to x². When x = 3, y = 18. Find y when x = 5.",
-  solution: "y = kx², so k = 2. y = 50."
+  question: "y is directly proportional to x^2. When x = 3, y = 18. Find y when x = 5.",
+  solution: "y = kx^2, \\; k = 2, \\; y = 50"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is inversely proportional to x². When x = 2, y = 12. Find y when x = 6.",
-  solution: "k = 48, so y = \\frac{48}{36} = \\frac{4}{3}."
+  question: "y is inversely proportional to x^2. When x = 2, y = 12. Find y when x = 6.",
+  solution: "y = \\frac{k}{x^2}, \\; k = 48, \\; y = \\frac{4}{3}"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The time taken to complete a job is inversely proportional to the number of workers. 6 workers take 10 days. How long will 15 workers take?",
-  solution: "Total work = 60 worker-days. Time = 4 days."
+  solution: "Total work = 60 \\text{ worker-days}, \\; Time = 4 \\text{ days}"
+},
+{
+  topic: "Direct and Inverse Proportion",
+  level: "Higher",
+  question: "y is directly proportional to x^3. When x = 2, y = 16. Find y when x = 4.",
+  solution: "y = kx^3, \\; k = 2, \\; y = 128"
+},
+{
+  topic: "Direct and Inverse Proportion",
+  level: "Higher",
+  question: "y is inversely proportional to x^3. When x = 1, y = 9. Find y when x = 3.",
+  solution: "y = \\frac{k}{x^3}, \\; k = 9, \\; y = 1"
+},
+{
+  topic: "Direct and Inverse Proportion",
+  level: "Higher",
+  question: "The speed of a car is directly proportional to the distance travelled in a fixed time. If 40 mph covers 60 miles, how far will 50 mph cover in the same time?",
+  solution: "Distance = k \\cdot speed, \\; k = 1.5, \\; Distance = 75 \\text{ miles}"
+},
+{
+  topic: "Direct and Inverse Proportion",
+  level: "Higher",
+  question: "The pressure of a gas is inversely proportional to its volume. A volume of 8 L gives a pressure of 3 atm. Find the pressure if the volume is 12 L.",
+  solution: "P = \\frac{k}{V}, \\; k = 24, \\; P = 2 \\text{ atm}"
+},
+{
+  topic: "Direct and Inverse Proportion",
+  level: "Higher",
+  question: "y is directly proportional to \\(\\sqrt{x}\\). When x = 25, y = 15. Find y when x = 64.",
+  solution: "y = k\\sqrt{x}, \\; k = 3, \\; y = 24"
+},
+{
+  topic: "Direct and Inverse Proportion",
+  level: "Higher",
+  question: "y is inversely proportional to \\(\\sqrt{x}\\). When x = 16, y = 8. Find y when x = 4.",
+  solution: "y = \\frac{k}{\\sqrt{x}}, \\; k = 32, \\; y = 16"
+},
+{
+  topic: "Direct and Inverse Proportion",
+  level: "Higher",
+  question: "The time taken to fill a tank is inversely proportional to the number of taps. 3 taps fill it in 12 hours. How long with 6 taps?",
+  solution: "Total work = 36 \\text{ tap-hours}, \\; Time = 6 \\text{ hours}"
 },
 
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",
-  question: "Find the exact value of \\(\\sin 30^\\circ + \\cos 60^\\circ\\).",
-  solution: "\\(\\frac{1}{2} + \\frac{1}{2} = 1\\)."
+  question: "Evaluate \\(\\frac{2\\cos 60^\\circ - \\sin 30^\\circ}{3\\tan 45^\\circ}\\).",
+  solution: "\\(\\frac{1}{3}\\)"
 },
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",
-  question: "Find the exact value of \\(\\tan 45^\\circ + \\sin 60^\\circ\\).",
-  solution: "\\(1 + \\frac{\\sqrt{3}}{2}\\)."
+  question: "Find \\(\\sin 45^\\circ + \\cos 30^\\circ - \\frac{1}{2}\\).",
+  solution: "\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{3}}{2} - \\frac{1}{2}"
 },
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",
-  question: "Find the exact value of \\(2\\sin 30^\\circ - \\cos 0^\\circ\\).",
-  solution: "\\(1 - 1 = 0\\)."
+  question: "Calculate \\(2\\sin 30^\\circ \\times \\tan 45^\\circ\\).",
+  solution: "1"
 },
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",
-  question: "Evaluate \\(\\frac{\\sin 60^\\circ}{\\cos 30^\\circ}\\).",
-  solution: "Both equal \\(\\frac{\\sqrt{3}}{2}\\), so the answer is 1."
+  question: "Evaluate \\(\\frac{\\cos 60^\\circ + \\sin 60^\\circ}{2}\\).",
+  solution: "\\frac{\\frac{1}{2} + \\frac{\\sqrt{3}}{2}}{2} = \\frac{1 + \\sqrt{3}}{4}"
 },
 {
   topic: "Exact Trigonometry Values",
   level: "Higher",
-  question: "Find the exact value of \\(\\sin 45^\\circ \\times \\cos 45^\\circ\\).",
-  solution: "\\(\\frac{1}{2}\\)."
+  question: "Find \\(3\\cos 45^\\circ - 2\\sin 30^\\circ\\).",
+  solution: "\\frac{3\\sqrt{2}}{2} - 1"
+},
+{
+  topic: "Exact Trigonometry Values",
+  level: "Higher",
+  question: "Evaluate \\(\\frac{\\sin 60^\\circ}{\\cos 30^\\circ} + \\tan 45^\\circ\\).",
+  solution: "2"
+},
+{
+  topic: "Exact Trigonometry Values",
+  level: "Higher",
+  question: "Calculate \\(2\\sin 30^\\circ + 4\\cos 0^\\circ - \\tan 45^\\circ\\).",
+  solution: "4"
+},
+{
+  topic: "Exact Trigonometry Values",
+  level: "Higher",
+  question: "Find \\(\\frac{\\sin 45^\\circ \\times \\cos 45^\\circ}{\\tan 45^\\circ}\\).",
+  solution: "\\frac{1}{2}"
+},
+{
+  topic: "Exact Trigonometry Values",
+  level: "Higher",
+  question: "Evaluate \\(\\frac{2\\cos 30^\\circ - \\sin 60^\\circ}{\\sin 30^\\circ}\\).",
+  solution: "1"
+},
+{
+  topic: "Exact Trigonometry Values",
+  level: "Higher",
+  question: "Calculate \\(3\\tan 45^\\circ - 2\\sin 30^\\circ + 1\\).",
+  solution: "3"
+},
+{
+  topic: "Exact Trigonometry Values",
+  level: "Higher",
+  question: "Find \\(\\frac{\\cos 0^\\circ + \\cos 60^\\circ}{\\sin 45^\\circ}\\).",
+  solution: "\\frac{3/2}{\\frac{\\sqrt{2}}{2}} = \\frac{3}{\\sqrt{2}}"
+},
+{
+  topic: "Exact Trigonometry Values",
+  level: "Higher",
+  question: "Evaluate \\(2\\sin 45^\\circ + \\cos 60^\\circ - \\tan 45^\\circ\\).",
+  solution: "\\sqrt{2} - \\frac{1}{2}"
 },
 
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\overline{3}\\) as a fraction.",
+  question: "Write \\(0.\\dot{3}\\) as a fraction.",
   solution: "\\(\\frac{1}{3}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\overline{6}\\) as a fraction.",
+  question: "Write \\(0.\\dot{6}\\) as a fraction.",
   solution: "\\(\\frac{2}{3}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.1\\overline{2}\\) as a fraction.",
+  question: "Write \\(0.1\\dot{2}\\) as a fraction.",
   solution: "\\(\\frac{11}{90}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\overline{45}\\) as a fraction.",
-  solution: "\\(\\frac{45}{99} = \\frac{5}{11}\\)."
+  question: "Write \\(0.\\dot{4}5\\) as a fraction.",
+  solution: "\\(\\frac{5}{11}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.2\\overline{7}\\) as a fraction.",
+  question: "Write \\(0.2\\dot{7}\\) as a fraction.",
   solution: "\\(\\frac{25}{90} = \\frac{5}{18}\\)."
+},
+{
+  topic: "Recurring Decimals to Fractions",
+  level: "Higher",
+  question: "Write \\(0.\\dot{1}6\\) as a fraction.",
+  solution: "\\(\\frac{1}{6}\\)."
+},
+{
+  topic: "Recurring Decimals to Fractions",
+  level: "Higher",
+  question: "Write \\(0.\\dot{8}3\\) as a fraction.",
+  solution: "\\(\\frac{5}{6}\\)."
+},
+{
+  topic: "Recurring Decimals to Fractions",
+  level: "Higher",
+  question: "Write \\(0.0\\dot{7}\\) as a fraction.",
+  solution: "\\(\\frac{1}{13}\\)."
+},
+{
+  topic: "Recurring Decimals to Fractions",
+  level: "Higher",
+  question: "Write \\(1.\\dot{2}7\\) as a fraction.",
+  solution: "\\(\\frac{14}{11}\\)."
+},
+{
+  topic: "Recurring Decimals to Fractions",
+  level: "Higher",
+  question: "Write \\(0.\\dot{3}6\\) as a fraction.",
+  solution: "\\(\\frac{12}{33} = \\frac{4}{11}\\)."
+},
+{
+  topic: "Recurring Decimals to Fractions",
+  level: "Higher",
+  question: "Write \\(0.1\\dot{6}\\) as a fraction.",
+  solution: "\\(\\frac{1}{6}\\)."
+},
+{
+  topic: "Recurring Decimals to Fractions",
+  level: "Higher",
+  question: "Write \\(0.\\dot{7}2\\) as a fraction.",
+  solution: "\\(\\frac{13}{18}\\)."
 },
 
 {
@@ -2203,36 +2369,6 @@ const gcseQuestions = [
   solution: "\\(x^3 + 5x^2 + 3x - 9\\)."
 },
 
-{
-  topic: "Rationalising the Denominator of Surds",
-  level: "Higher",
-  question: "Rationalise \\(\\frac{5}{\\sqrt{3}}\\).",
-  solution: "\\(\\frac{5\\sqrt{3}}{3}\\)."
-},
-{
-  topic: "Rationalising the Denominator of Surds",
-  level: "Higher",
-  question: "Rationalise \\(\\frac{4}{2\\sqrt{5}}\\).",
-  solution: "\\(\\frac{2\\sqrt{5}}{5}\\)."
-},
-{
-  topic: "Rationalising the Denominator of Surds",
-  level: "Higher",
-  question: "Rationalise \\(\\frac{3}{\\sqrt{7}}\\).",
-  solution: "\\(\\frac{3\\sqrt{7}}{7}\\)."
-},
-{
-  topic: "Rationalising the Denominator of Surds",
-  level: "Higher",
-  question: "Rationalise \\(\\frac{6}{\\sqrt{2}}\\).",
-  solution: "\\(3\\sqrt{2}\\)."
-},
-{
-  topic: "Rationalising the Denominator of Surds",
-  level: "Higher",
-  question: "Rationalise \\(\\frac{7}{\\sqrt{5}}\\).",
-  solution: "\\(\\frac{7\\sqrt{5}}{5}\\)."
-},
 // =======================
 // Indices - Fractional and Negative
 // =======================

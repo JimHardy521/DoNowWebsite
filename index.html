@@ -42,7 +42,7 @@ body {
 
 <body>
 
-<h1>GCSE Maths – Do Now</h1>
+<h1>GCSE Maths</h1>
 
 <div class="instructions">
   Click on each question to reveal the solution, or
@@ -59,8 +59,8 @@ body {
     <option value="Higher" selected>Higher</option>
   </select>
 
-  <button onclick="loadQuestions()">New Questions</button>
-  <button onclick="printQuestions()">Print Questions</button>
+  <button onclick="loadQuestions()">New Do Now</button>
+  <button onclick="printQuestions()">Print Do Now</button>
 </div>
 
 <div id="questions"></div>
@@ -89,7 +89,7 @@ body {
     <select id="topic4"></select>
   </div>
   <div class="topic-wrapper">
-    <button onclick="loadTopicQuestions()">Load Topic Questions</button>
+    <button onclick="loadTopicQuestions()">Load Do Now</button>
     <button onclick="copyTopicURL()">Copy Topic Link</button>
   </div>
 </div>
@@ -265,7 +265,7 @@ function copyTopicURL() {
 
   const url = window.location.origin + window.location.pathname + "?" + params;
   navigator.clipboard.writeText(url).then(() =>
-    alert( "This website address has been copied to your clipboard. Paste this into a new window to get these same topics to practice")
+    alert( "This website address has been copied to your clipboard. Paste this into a new window to pracice the same Do Now Topics")
   );
 }
 

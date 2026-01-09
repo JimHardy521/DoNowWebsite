@@ -305,6 +305,79 @@ const gcseQuestions = [
   question: "Use approximations to estimate the value of (402 − 178) ÷ 5.1.",
   solution: "40"
 }
+,
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((2^3 + \\sqrt{25}) \\times 3\\).",
+  solution: "39"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((3^2 + \\sqrt{36}) \\div 3\\).",
+  solution: "5"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\(6 + 3^2 \\times 2\\).",
+  solution: "24"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((3^3 - 9) \\div 3\\).",
+  solution: "6"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((10 - \\sqrt{49}) \\times 3\\).",
+  solution: "3"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\(3^3 \\div \\sqrt{9}\\).",
+  solution: "9"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((\\sqrt{81} + 3^2) \\div 3\\).",
+  solution: "6"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\(20 - 3^2 \\times 2\\).",
+  solution: "2"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((4^2 + 3^2) \\div \\sqrt{25}\\).",
+  solution: "5"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\(3 \\times (\\sqrt{36} - 3^2)\\).",
+  solution: "-9"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((\\sqrt{64} + 3^3) \\div 5\\).",
+  solution: "7"
+},
+{
+  topic: "Arithmetic",
+  level: "Foundation",
+  question: "Without a calculator, work out \\((2^3 + \\sqrt{36}) \\div 2\\).",
+  solution: "7"
+}
 
 
     

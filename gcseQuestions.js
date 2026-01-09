@@ -1885,38 +1885,79 @@ const gcseQuestions = [
   solution: "\\(6 - 4\\sqrt{3} + \\sqrt{3} - 2 = 4 - 3\\sqrt{3}\\)."
 }
 ,
-    
-    {
-      topic: "Solving Quadratics",
-      level: "Higher",
-      question: "Solve \\(x^2 + 3x - 10 = 0\\).",
-      solution: "\\((x + 5)(x - 2) = 0\\), so \\(x = -5, 2\\)."
-    },
-    {
-      topic: "Solving Quadratics",
-      level: "Higher",
-      question: "Solve \\(x^2 - 7x + 10 = 0\\).",
-      solution: "\\((x - 5)(x - 2) = 0\\), so \\(x = 5, 2\\)."
-    },
-    {
-      topic: "Solving Quadratics",
-      level: "Higher",
-      question: "Solve \\(2x^2 - 5x - 3 = 0\\).",
-      solution: "Factorise to \\((2x + 1)(x - 3) = 0\\)."
-    },
-    {
-      topic: "Solving Quadratics",
-      level: "Higher",
-      question: "Solve \\(x^2 = 7x\\).",
-      solution: "\\(x(x - 7) = 0\\), so \\(x = 0, 7\\)."
-    },
-    {
-      topic: "Solving Quadratics",
-      level: "Higher",
-      question: "Solve \\(x^2 - 16 = 0\\).",
-      solution: "\\(x = \\pm4\\)."
-    },
-    
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 + 5x = 6\\).",
+  solution: "\\((x + 6)(x - 1) = 0, \\; x = -6, 1\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 = 3x + 10\\).",
+  solution: "\\((x - 5)(x + 2) = 0, \\; x = 5, -2\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(2x^2 + 3x = 5\\).",
+  solution: "\\((2x - 2)(x + 5/2) = 0, \\; x = 1, -5/2\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 + 7 = 2x + 10\\).",
+  solution: "\\((x - 3)(x + 1) = 0, \\; x = 3, -1\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 + 4x - 5 = 2x + 7\\).",
+  solution: "\\((x - 2)(x + 6) = 0, \\; x = 2, -6\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(3x^2 = x + 10\\).",
+  solution: "\\((3x + 5)(x - 2) = 0, \\; x = -5/3, 2\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 + 6x = 7\\).",
+  solution: "\\((x + 7)(x - 1) = 0, \\; x = -7, 1\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(2x^2 + x = 3\\).",
+  solution: "\\((2x - 3)(x + 1) = 0, \\; x = 3/2, -1\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 + 5 = x + 9\\).",
+  solution: "\\((x - 2)(x + 2) = 0, \\; x = 2, -2\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 - 4 = 3x\\).",
+  solution: "\\((x - 4)(x + 1) = 0, \\; x = 4, -1\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(x^2 + 8x + 7 = 3x + 10\\).",
+  solution: "\\((x + 6)(x - 1/6) = 0, \\; x = -6, 1/6\\)"
+},
+{
+  topic: "Solving Quadratics - Factorising",
+  level: "Higher",
+  question: "Solve: \\(4x^2 + 5 = 2x + 13\\).",
+  solution: "\\((2x - 4)(2x + 2) = 0, \\; x = 2, -1\\)"
+},
+   
     {
       topic: "Completing the Square",
       level: "Higher",

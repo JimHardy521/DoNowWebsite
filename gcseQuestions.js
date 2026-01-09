@@ -15,6 +15,78 @@ const gcseQuestions = [
  /* =========================
        FOUNDATION
        ========================= */
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 3/4 ☐ 0.7",
+  solution: ">"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 0.45 ☐ 2/5",
+  solution: ">"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 7/10 ☐ 0.75",
+  solution: "<"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 0.3 ☐ 1/3",
+  solution: "<"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 2/5 ☐ 0.42",
+  solution: ">"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 5/8 ☐ 0.625",
+  solution: ">"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 0.2 ☐ 1/6",
+  solution: ">"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 3/7 ☐ 0.43",
+  solution: "<"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 4/9 ☐ 0.45",
+  solution: "<"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 11/20 ☐ 0.55",
+  solution: ">"
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 0.8 ☐ 4/5",
+  solution: "="
+},
+{
+  topic: "FDP - Comparing",
+  level: "Foundation",
+  question: "Complete the statement by using a < or > symbol: 7/10 ☐ 0.69",
+  solution: ">"
+},
     
 {
   topic: "Probability",

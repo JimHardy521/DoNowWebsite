@@ -2294,13 +2294,13 @@ const gcseQuestions = [
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\1dot{6}\\) as a fraction.",
+  question: "Write \\(0.1\\dot{6}\\) as a fraction.",
   solution: "\\(\\frac{1}{6}\\)."
 },
 {
   topic: "Recurring Decimals to Fractions",
   level: "Higher",
-  question: "Write \\(0.\\8dot{3}\\) as a fraction.",
+  question: "Write \\(0.8\\dot{3}\\) as a fraction.",
   solution: "\\(\\frac{5}{6}\\)."
 },
 {

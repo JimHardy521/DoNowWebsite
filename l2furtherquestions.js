@@ -655,75 +655,72 @@ const l2FurtherQuestions = [
   topic: "Differentiation – Finding Turning Points",
   question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 9x^2 + 24x\\).",
   solution: "Turning points at \\((2,20)\\), maximum and \\((4,16)\\), minimum"
-}
-,
-
-
+},
 /* ---------------- Tangents to a Circle ---------------- */
 
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\((x-1)^2 + (y-2)^2 = 20\\) at the point \\((5,4)\\).",
-  solution: "\\(y - 4 = -2(x - 5)\\)"
+  solution: "\\(y = -2x + 14\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\((x+2)^2 + (y-1)^2 = 13\\) at the point \\((1,3)\\).",
-  solution: "\\(y - 3 = -\\tfrac{3}{2}(x - 1)\\)"
+  solution: "\\(y = -\\tfrac{3}{2}x + \\tfrac{9}{2}\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 6x + 2y - 3 = 0\\) at the point \\((5,2)\\).",
-  solution: "\\(y - 2 = -2(x - 5)\\)"
+  solution: "\\(y = -2x + 12\\)"
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle \\((x-4)^2 + (y+1)^2 = 25\\) at the point \\((7,3)\\).",
-  solution: "\\(y - 3 = -\\tfrac{3}{1}(x - 7)\\)"
+  question: "Find the equation of the tangent to the circle \\((x-4)^2 + (y+1)^2 = 25\\) at the point \\((4,4)\\).",
+  solution: "\\(y = 4\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 4x - 10y + 13 = 0\\) at the point \\((1,3)\\).",
-  solution: "\\(y - 3 = \\tfrac{1}{2}(x - 1)\\)"
+  solution: "\\(y = \\tfrac{1}{2}x + \\tfrac{5}{2}\\)"
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle \\((x+3)^2 + (y-4)^2 = 10\\) at the point \\((-1,5)\\).",
-  solution: "\\(y - 5 = -2(x + 1)\\)"
+  question: "Find the equation of the tangent to the circle \\((x+3)^2 + (y-4)^2 = 10\\) at the point \\((-2,6)\\).",
+  solution: "\\(y = \\tfrac{1}{2}x + 7\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 2x - 8y + 13 = 0\\) at the point \\((3,5)\\).",
-  solution: "\\(y - 5 = -\\tfrac{1}{2}(x - 3)\\)"
+  solution: "\\(y = -\\tfrac{1}{2}x + \\tfrac{13}{2}\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\((x-2)^2 + (y-5)^2 = 29\\) at the point \\((6,3)\\).",
-  solution: "\\(y - 3 = \\tfrac{2}{1}(x - 6)\\)"
+  solution: "\\(y = 2x - 9\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\(x^2 + y^2 + 6x - 4y + 4 = 0\\) at the point \\((-1,1)\\).",
-  solution: "\\(y - 1 = -\\tfrac{5}{1}(x + 1)\\)"
+  solution: "\\(y = -5x - 4\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\((x+1)^2 + (y+2)^2 = 17\\) at the point \\((3,1)\\).",
-  solution: "\\(y - 1 = -\\tfrac{4}{3}(x - 3)\\)"
+  solution: "\\(y = -\\tfrac{4}{3}x + 5\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\(x^2 + y^2 - 10x - 2y + 25 = 0\\) at the point \\((5,4)\\).",
-  solution: "\\(y - 4 = \\tfrac{1}{2}(x - 5)\\)"
+  solution: "\\(y = \\tfrac{1}{2}x + \\tfrac{3}{2}\\)"
 },
 {
   topic: "Tangents to a Circle",
   question: "Find the equation of the tangent to the circle \\((x-3)^2 + (y+2)^2 = 13\\) at the point \\((1,1)\\).",
-  solution: "\\(y - 1 = -\\tfrac{3}{2}(x - 1)\\)"
-}
+  solution: "\\(y = -\\tfrac{3}{2}x + \\tfrac{5}{2}\\)"
+},
 
-  
-  ,
+
+ 
   /* ---------------- DESCRIBING MATRIX TRANSFORMATIONS ---------------- */
 {
   topic: "Describing Matrix Transformations",

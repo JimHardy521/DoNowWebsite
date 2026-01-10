@@ -347,7 +347,7 @@ const l2FurtherQuestions = [
 
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 6<br>x + y = 4<br>y + z = 5",
+  question: "Solve<br>x + y + z = 6<br>2x + y − z= 3<br>x + 3y + 2z = 14",
   solution: "x = 1, y = 3, z = 2"
 },
 {
@@ -362,37 +362,37 @@ const l2FurtherQuestions = [
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 5<br>x − y = 1<br>y + z = 4",
+  question: "Solve<br>x + y + z = 7<br>x − y = 1<br>y + z = 4",
   solution: "x = 3, y = 2, z = 2"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 10<br>x + z = 7<br>y + z = 8",
+  question: "Solve<br>x + y + z = 10<br>x + 2y + z = 13<br>x − y + z = 4",
   solution: "x = 2, y = 3, z = 5"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>2x + y + z = 11<br>x + y + z = 8<br>x + y = 5",
+  question: "Solve<br>2x + y + z = 11<br>x + y + z = 8<br>3x + y − 2z = 5",
   solution: "x = 3, y = 2, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 12<br>x + y = 7<br>x + z = 8",
+  question: "Solve<br>x + y + z = 12<br>x + y − z = 2<br>3x − 2y + z = 6",
   solution: "x = 3, y = 4, z = 5"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 6<br>y + z = 4<br>x + z = 5",
+  question: "Solve<br>x + y + z = 6<br>3x − y + 2z = 11<br>x + 2y − z = 1",
   solution: "x = 2, y = 1, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 15<br>x − y = 1<br>y − z = 2",
+  question: "Solve<br>x + y + z = 14<br>x − y = 1<br>y − z = 2",
   solution: "x = 6, y = 5, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>3x + y + z = 14<br>x + y + z = 10<br>x + y = 6",
+  question: "Solve<br>3x + y + z = 14<br>x + y + z = 10<br>5x − y − z= 2",
   solution: "x = 2, y = 4, z = 4"
 },
 

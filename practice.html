@@ -136,7 +136,7 @@ function loadQuestionsJS(callback) {
   const map = {
     l2further: "l2furtherquestions.js",
     gcse: "gcseQuestions.js",
-    alevel: "alevelquestions.js"
+    alevel: "alevelquestions.js"   // <-- fixed import here
   };
   const script = document.createElement("script");
   script.src = map[source];
@@ -149,7 +149,7 @@ function buildPracticePage() {
   questionsArray =
     source === "l2further" ? l2FurtherQuestions :
     source === "gcse" ? gcseQuestions :
-    aLevelQuestions;
+    alevelQuestions;   // <-- fixed variable name
 
   const filtered = questionsArray.filter(q => q.topic === topic);
   const container = document.getElementById("questions");

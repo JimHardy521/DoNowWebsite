@@ -557,10 +557,7 @@ const l2FurtherQuestions = [
   topic: "Differentiation - Finding Tangents and Normals",
   question: "Find both the tangent and the normal to the curve \\(y = 3x^2 + x\\) at \\(x = 1\\).",
   solution: "Tangent: \\(y = 7x - 3\\); Normal: \\(y = -\\tfrac{1}{7}x + \\tfrac{10}{7}\\)"
-}
-
- 
-,
+},
 
 /* ---------------- EQUATIONS WITH INDICES ---------------- */
 
@@ -586,8 +583,8 @@ const l2FurtherQuestions = [
 },
 {
   topic: "Equations with Indices",
-  question: "Solve \\(9^{x} = 3^{2x+1}\\).",
-  solution: "No solution"
+  question: "Solve \\(9^{x} = 3^{x+2}\\).",
+  solution: "\\(x = 2\\)"
 },
 {
   topic: "Equations with Indices",
@@ -611,11 +608,11 @@ const l2FurtherQuestions = [
 },
 {
   topic: "Equations with Indices",
-  question: "Solve \\(2^{x} = -4\\).",
-  solution: "No solution"
-}
+  question: "Solve \\(2^{x} = \\tfrac{1}{8}\\).",
+  solution: "\\(x = -3\\)"
+},
 
- ,
+ 
 
 /* ---------------- DIFFERENTIATION: FINDING TURNING POINTS ---------------- */
 

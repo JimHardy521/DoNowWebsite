@@ -185,16 +185,16 @@ function createBox(q, index) {
   box.appendChild(rSame);
 
   // ➤ Practice this topic
-  const practice = document.createElement("div");
-  practice.className = "refresh-btn practice-topic";
-  practice.innerHTML = "➤";
-  practice.title = "Practice this topic further";
-  practice.onclick = e => {
-    e.stopPropagation();
-    const url = `practice.html?topic=${encodeURIComponent(box.dataset.topic)}&source=alevel`;
-    window.open(url, "_blank");
-  };
-  box.appendChild(practice);
+const practice = document.createElement("div");
+practice.className = "refresh-btn practice-topic";
+practice.innerHTML = "➤";
+practice.title = "Practice this topic further";
+practice.onclick = e => {
+  e.stopPropagation();
+  const url = `practice.html?topic=${encodeURIComponent(box.dataset.topic)}&source=alevel&year=${encodeURIComponent(getYear())}`;
+  window.open(url, "_blank");
+};
+box.appendChild(practice);
 
   document.getElementById("questions").appendChild(box);
 }

@@ -11,8 +11,6 @@
 <script src="common.js"></script>
 
 <style>
-/* ================= SCREEN STYLES ================= */
-
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f0f4f8;
@@ -57,52 +55,18 @@ h1 {
   font-weight: 500;
 }
 
-/* ================= PRINT STYLES ================= */
-
 .print-only {
   display: none;
 }
 
 @media print {
-
-  body {
-    background: #fff;
-    margin: 12mm;          /* narrow but safe */
-    font-size: 11pt;
-    line-height: 1.45;     /* critical for MathJax spacing */
-  }
-
-  /* Hide screen-only content */
-  h1,
-  .instructions,
-  #questions,
-  nav {
-    display: none;
-  }
-
-  /* Show print layout */
-  .print-only {
-    display: block;
-  }
-
-  .print-page {
-    text-align: justify;
-  }
-
-  .print-title {
-    font-size: 14pt;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 14px;
-  }
-
-  .print-list > div {
-    margin-bottom: 12px;   /* FIXES overlapping */
-  }
-
-  .print-answers {
-    page-break-before: always;
-  }
+  body { background: #fff; margin: 12mm; font-size: 11pt; line-height: 1.45; }
+  h1, .instructions, #questions, nav { display: none; }
+  .print-only { display: block; }
+  .print-page { text-align: justify; }
+  .print-title { font-size: 14pt; font-weight: 700; text-align: center; margin-bottom: 14px; }
+  .print-list > div { margin-bottom: 12px; }
+  .print-answers { page-break-before: always; }
 }
 </style>
 </head>
@@ -128,6 +92,7 @@ h1 {
 const params = new URLSearchParams(window.location.search);
 const topic = params.get("topic");
 const source = params.get("source");
+const year = params.get("year");  // for Year 12/13 in A Level Further Maths
 
 let questionsArray;
 
@@ -136,7 +101,8 @@ function loadQuestionsJS(callback) {
   const map = {
     l2further: "l2furtherquestions.js",
     gcse: "gcseQuestions.js",
-    alevel: "alevelquestions.js"   // <-- fixed import here
+    alevel: "alevelquestions.js",
+    alevelfurther: "alevelfurther.js"
   };
   const script = document.createElement("script");
   script.src = map[source];
@@ -146,17 +112,27 @@ function loadQuestionsJS(callback) {
 
 // ---------------- BUILD PAGE ----------------
 function buildPracticePage() {
+  // Select correct variable based on source
   questionsArray =
     source === "l2further" ? l2FurtherQuestions :
     source === "gcse" ? gcseQuestions :
-    alevelQuestions;   // <-- fixed variable name
+    source === "alevel" ? alevelQuestions :
+    source === "alevelfurther" ? alevelfurther :
+    [];
 
-  const filtered = questionsArray.filter(q => q.topic === topic);
+  // Filter by topic
+  let filtered = questionsArray.filter(q => q.topic === topic);
+
+  // Filter by year if parameter exists
+  if (year && (source === "alevel" || source === "alevelfurther")) {
+    filtered = filtered.filter(q => q.level === year);
+  }
+
   const container = document.getElementById("questions");
-
-  const pageTitle = `Practice: ${topic}`;
+  const pageTitle = `Practice: ${topic}` + (year ? ` (${year})` : "");
   document.getElementById("title").textContent = pageTitle;
 
+  // Create question boxes
   filtered.forEach((q, i) => {
     const box = document.createElement("div");
     box.className = "question-box";
@@ -171,6 +147,7 @@ function buildPracticePage() {
     container.appendChild(box);
   });
 
+  // Reveal all toggle
   document.getElementById("toggleAll").onchange = e => {
     document.querySelectorAll(".solution").forEach(sol => {
       sol.style.display = e.target.checked ? "block" : "none";
@@ -181,16 +158,18 @@ function buildPracticePage() {
 
   // ---------------- PRINT WORKSHEET ----------------
   document.getElementById("printBtn").onclick = () => {
-
     const printWrapper = document.createElement("div");
     printWrapper.className = "print-only";
+
+    // Duplicate filtered array for two copies
+    const printQuestionsArray = filtered.concat(filtered);
 
     printWrapper.innerHTML = `
       <div class="print-page">
         <div class="print-title">${pageTitle}</div>
         <div class="print-list">
-          ${filtered.map((q, i) =>
-            `<div><strong>${i + 1}.</strong> ${q.question}</div>`
+          ${printQuestionsArray.slice(0, filtered.length).map((q,i)=>
+            `<div><strong>${i+1}.</strong> ${q.question}</div>`
           ).join("")}
         </div>
       </div>
@@ -198,8 +177,8 @@ function buildPracticePage() {
       <div class="print-page print-answers">
         <div class="print-title">${pageTitle} – Answers</div>
         <div class="print-list">
-          ${filtered.map((q, i) =>
-            `<div><strong>${i + 1}.</strong> ${q.solution}</div>`
+          ${printQuestionsArray.slice(0, filtered.length).map((q,i)=>
+            `<div><strong>${i+1}.</strong> ${q.solution}</div>`
           ).join("")}
         </div>
       </div>

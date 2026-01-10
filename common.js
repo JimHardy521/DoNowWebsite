@@ -6,6 +6,7 @@ function createNavBar(currentPage) {
       <li><a href="l2further.html" ${currentPage==="l2further.html"?"class='active'":""}>Level 2 Further Maths</a></li>
       <li><a href="alevel.html" ${currentPage==="alevel.html"?"class='active'":""}>A-Level Maths</a></li>
       <li><a href="alevelfurther.html" ${currentPage==="alevelfurther.html"?"class='active'":""}>A-Level Further Maths</a></li>
+      <li><a href="about.html" ${currentPage==="about.html"?"class='active'":""}>About</a></li>
     </ul>
   `;
   document.body.prepend(nav);

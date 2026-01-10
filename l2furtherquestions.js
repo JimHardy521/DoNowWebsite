@@ -342,62 +342,61 @@ const l2FurtherQuestions = [
   topic: "Quadratic Sequences",
   question: "The nth term of a sequence is \\(u_n = n^2 - 4n + 6\\). Find the first term of the sequence that is greater than 50.",
   solution: "\\(u_{10} = 66\\)"
-}
-
-,
-
+},
 /* ---------------- SOLVING THREE SIMULTANEOUS EQUATIONS ---------------- */
 
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: x + y + z = 6, x + y = 4, y + z = 5.",
-  solution: "From first two: z = 2. From y + z = 5 ⇒ y = 3, x = 1."
+  question: "Solve<br>x + y + z = 6<br>x + y = 4<br>y + z = 5",
+  solution: "x = 1, y = 3, z = 2"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: x + y + z = 9, x + y − z = 3, x − y + z = 5.",
-  solution: "Add first two: 2x + 2y = 12 ⇒ x + y = 6. Solve to get x = 4, y = 2, z = 3."
+  question: "Solve<br>x + y + z = 9<br>x + y − z = 3<br>x − y + z = 5",
+  solution: "x = 4, y = 2, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: 2x + y + z = 7, x + y + z = 6, x + y = 4.",
-  solution: "Subtract equations: x = 1. Then y = 3, z = 2."
+  question: "Solve<br>2x + y + z = 7<br>x + y + z = 6<br>x + y = 4",
+  solution: "x = 1, y = 3, z = 2"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: x + y + z = 5, x − y = 1, y + z = 4.",
-  solution: "From x − y = 1 ⇒ x = y + 1. Substitute to get y = 2, z = 2, x = 3."
+  question: "Solve<br>x + y + z = 5<br>x − y = 1<br>y + z = 4",
+  solution: "x = 3, y = 2, z = 2"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: x + y + z = 10, x + z = 7, y + z = 8.",
-  solution: "Subtract equations to get y = 3, x = 2, z = 5."
+  question: "Solve<br>x + y + z = 10<br>x + z = 7<br>y + z = 8",
+  solution: "x = 2, y = 3, z = 5"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: 2x + y + z = 11, x + y + z = 8, x + y = 5.",
-  solution: "Subtract first two: x = 3. Then y = 2, z = 3."
+  question: "Solve<br>2x + y + z = 11<br>x + y + z = 8<br>x + y = 5",
+  solution: "x = 3, y = 2, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: x + y + z = 12, x + y = 7, x + z = 8.",
-  solution: "Subtract to get z = 5, y = 4, x = 3."
+  question: "Solve<br>x + y + z = 12<br>x + y = 7<br>x + z = 8",
+  solution: "x = 3, y = 4, z = 5"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: x + y + z = 6, y + z = 4, x + z = 5.",
-  solution: "Subtract equations to get x = 2, y = 1, z = 3."
+  question: "Solve<br>x + y + z = 6<br>y + z = 4<br>x + z = 5",
+  solution: "x = 2, y = 1, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: x + y + z = 15, x − y = 1, y − z = 2.",
-  solution: "From equations: x = 6, y = 5, z = 3."
+  question: "Solve<br>x + y + z = 15<br>x − y = 1<br>y − z = 2",
+  solution: "x = 6, y = 5, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve: 3x + y + z = 14, x + y + z = 10, x + y = 6.",
-  solution: "Subtract equations: 2x = 4 ⇒ x = 2. Then y = 4, z = 4."
+  question: "Solve<br>3x + y + z = 14<br>x + y + z = 10<br>x + y = 6",
+  solution: "x = 2, y = 4, z = 4"
 },
+
+
 
 /* ---------------- MATRIX MULTIPLICATION ---------------- */
 

@@ -73,6 +73,8 @@ body {
 
   <button onclick="loadQuestions()">New Do Now</button>
   <button onclick="printQuestions()">Print Do Now</button>
+  <button onclick="openRevisionBuilder()">Create Revision Worksheet</button>
+
 </div>
 
 <div id="questions"></div>
@@ -351,6 +353,14 @@ else loadQuestions();
 
 <script>
 createNavBar();
+</script>
+
+<script>
+function openRevisionBuilder() {
+  const level = document.getElementById("levelSelect").value;
+  const url = `revision.html?level=${encodeURIComponent(level)}`;
+  window.open(url, "_blank");
+}
 </script>
 
 </body>

@@ -67,6 +67,7 @@ body {
 <div class="button-bar">
   <button onclick="loadL2FurtherQuestions()">New Do Now</button>
   <button onclick="printL2FurtherQuestions()">Print Do Now</button>
+  <button onclick="openRevisionWorksheet()">Create Revision Worksheet</button>
 </div>
 
 <div id="questions"></div>
@@ -121,6 +122,12 @@ function populateTopicsL2Further() {
       sel.appendChild(o);
     });
   });
+}
+
+// ---------- OPEN REVISION WORKSHEET ----------
+function openRevisionWorksheet() {
+  const url = `revision.html?level=${encodeURIComponent("L2 Further")}&source=l2further`;
+  window.open(url, "_blank");
 }
 
 // ---------- QUESTION BOX ----------

@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(2,\\ 6,\\ 18\\)",
+  solution: "\\(54\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(81,\\ 27,\\ 9\\)",
+  solution: "\\(3\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(5,\\ 10,\\ 20\\)",
+  solution: "\\(40\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(64,\\ 32,\\ 16\\)",
+  solution: "\\(8\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(\\dfrac{2}{3},\\ \\dfrac{4}{9},\\ \\dfrac{8}{27}\\)",
+  solution: "\\(\\dfrac{16}{81}\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(1,\\ \\dfrac{1}{2},\\ \\dfrac{1}{4}\\)",
+  solution: "\\(\\dfrac{1}{8}\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(3,\\ \\dfrac{3}{2},\\ \\dfrac{3}{4}\\)",
+  solution: "\\(\\dfrac{3}{8}\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(7,\\ 14,\\ 28\\)",
+  solution: "\\(56\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(100,\\ 50,\\ 25\\)",
+  solution: "\\(12.5\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(\\dfrac{9}{4},\\ \\dfrac{3}{2},\\ 1\\)",
+  solution: "\\(\\dfrac{2}{3}\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(4,\\ -8,\\ 16\\)",
+  solution: "\\(-32\\)"
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Crossover",
+  question: "Find the next term in the geometric sequence:<br>\\(\\dfrac{5}{6},\\ \\dfrac{5}{12},\\ \\dfrac{5}{24}\\)",
+  solution: "\\(\\dfrac{5}{48}\\)"
+},
+
+ {
   topic: "Solving Inequalities",
   level: "Crossover",
   question: "Solve the inequality \\(5x + 6 > 3x + 15\\).",

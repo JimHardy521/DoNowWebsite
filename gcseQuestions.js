@@ -4,6 +4,225 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = 4x + 12\\).",
+  solution: "(-3,0), (0,12)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = -2x + 8\\).",
+  solution: "(4,0), (0,8)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = 0.5x - 3\\).",
+  solution: "(6,0), (0,-3)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = -3x + 9\\).",
+  solution: "(3,0), (0,9)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = 5x - 10\\).",
+  solution: "(2,0), (0,-10)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = -0.25x + 4\\).",
+  solution: "(16,0), (0,4)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = 2x + 6\\).",
+  solution: "(-3,0), (0,6)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = -x + 5\\).",
+  solution: "(5,0), (0,5)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = 3x - 9\\).",
+  solution: "(3,0), (0,-9)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = -4x + 16\\).",
+  solution: "(4,0), (0,16)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = 0.75x + 3\\).",
+  solution: "(-4,0), (0,3)"
+},
+{
+  topic: "Straight Lines - Intercepts",
+  level: "Crossover",
+  question: "Find the coordinates of the x and y intercepts of \\(y = -1.5x - 6\\).",
+  solution: "(-4,0), (0,-6)"
+},
+
+ {
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A coat was reduced by 10% and now costs £40.50.<br>Find the original price of the coat.",
+  solution: "£45"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "An antique vase increased in price over the year by 15% and now is worth £48.30.<br>How much was it worth one year ago?",
+  solution: "£42"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A laptop was discounted by 20% and now costs £560.<br>Find the original price.",
+  solution: "£700"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "The value of a painting increased by 25% to £750.<br>What was its original value?",
+  solution: "£600"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A TV was reduced by 15% and now costs £340.<br>Find the original price.",
+  solution: "£400"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A car increased in value by 10% and is now worth £13,200.<br>What was its value before the increase?",
+  solution: "£12,000"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A pair of shoes was reduced by 30% to £35.<br>Find the original price.",
+  solution: "£50"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A table increased in price by 12% and now costs £168.<br>What was the original price?",
+  solution: "£150"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A smartphone was reduced by 25% and now costs £300.<br>Find the original price.",
+  solution: "£400"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A painting increased in value by 18% to £177.<br>What was its original price?",
+  solution: "£150"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A jacket was reduced by 20% and now costs £64.<br>Find the original price.",
+  solution: "£80"
+},
+{
+  topic: "Percentages - Reverse",
+  level: "Crossover",
+  question: "A sculpture increased in value by 30% and now is worth £390.<br>What was its value one year ago?",
+  solution: "£300"
+},
+ 
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(2(x + 3) - 4 = x + 5\\).",
+  solution: "3"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(3(2x - 1) = 5x + 4\\).",
+  solution: "7"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(4(x + 2) - 3x = 7\\).",
+  solution: "-1"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(5(x - 1) + 2 = 3x + 7\\).",
+  solution: "5"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(6 - 2(x + 3) = x - 4\\).",
+  solution: "4/3"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(7x + 5 = 3(2x + 1)\\).",
+  solution: "-2"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(2(3x - 4) + 5 = 4x + 1\\).",
+  solution: "2"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(3(x + 2) - 2x = 5\\).",
+  solution: "-1"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(5 - (x - 3) = 2x + 1\\).",
+  solution: "7/3"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(4(2x + 1) - 3x = 9\\).",
+  solution: "1"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(6x - 5 = 2(x + 4)\\).",
+  solution: "13/4"
+},
+{
+  topic: "Linear Equations",
+  level: "Crossover",
+  question: "Solve \\(3(x - 1) + 2 = 2x + 4\\).",
+  solution: "5"
+},
+
+ {
   topic: "Inverse Proportion",
   level: "Crossover",
   question: "It takes 5 hosepipes 24 hours to fill a swimming pool.<br>How long would it take if only 3 hosepipes were used?",

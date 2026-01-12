@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(g = 3h - 1\\) to make \\(h\\) the subject.",
+  solution: "\\(h = \\dfrac{g + 1}{3}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(p = 5q + 4\\) to make \\(q\\) the subject.",
+  solution: "\\(q = \\dfrac{p - 4}{5}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(y = 2x - 6\\) to make \\(x\\) the subject.",
+  solution: "\\(x = \\dfrac{y + 6}{2}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(a = 4b + 7\\) to make \\(b\\) the subject.",
+  solution: "\\(b = \\dfrac{a - 7}{4}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(m = 6n - 2\\) to make \\(n\\) the subject.",
+  solution: "\\(n = \\dfrac{m + 2}{6}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(k = 3j + 9\\) to make \\(j\\) the subject.",
+  solution: "\\(j = \\dfrac{k - 9}{3}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(t = 7u - 14\\) to make \\(u\\) the subject.",
+  solution: "\\(u = \\dfrac{t + 14}{7}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(r = 8s + 1\\) to make \\(s\\) the subject.",
+  solution: "\\(s = \\dfrac{r - 1}{8}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(v = 9w - 3\\) to make \\(w\\) the subject.",
+  solution: "\\(w = \\dfrac{v + 3}{9}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(d = 4e - 12\\) to make \\(e\\) the subject.",
+  solution: "\\(e = \\dfrac{d + 12}{4}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(f = 10g + 5\\) to make \\(g\\) the subject.",
+  solution: "\\(g = \\dfrac{f - 5}{10}\\)"
+},
+{
+  topic: "Rearranging Formulae",
+  level: "Crossover",
+  question: "Rearrange \\(x = 2y + 8\\) to make \\(y\\) the subject.",
+  solution: "\\(y = \\dfrac{x - 8}{2}\\)"
+},
+
+ {
   topic: "Equations of Lines",
   level: "Crossover",
   question: "A straight line has gradient \\(6\\) and passes through the point \\((3, 19)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",

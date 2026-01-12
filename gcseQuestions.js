@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>2a + b = 4<br>3a - b = 11",
+  solution: "a = 3, b = -2"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>x + y = 6<br>2x - y = 6",
+  solution: "x = 4, y = 2"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>p + 2q = 7<br>3p - q = 14",
+  solution: "p = 5, q = 1"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>2x + y = 8<br>x + 2y = 7",
+  solution: "x = 3, y = 2"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>m + n = 5<br>m - n = -1",
+  solution: "m = 2, n = 3"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>x + y = 4<br>x - y = -2",
+  solution: "x = 1, y = 3"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>a + b = 3<br>2a - b = 3",
+  solution: "a = 2, b = 1"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>3x - y = 15<br>x + y = 5",
+  solution: "x = 5, y = 0"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>x + y = 5<br>x - y = -1",
+  solution: "x = 2, y = 3"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>p + q = 3<br>2p - q = 0",
+  solution: "p = 1, q = 2"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>2x + y = 9<br>x - y = 3",
+  solution: "x = 4, y = 1"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Crossover",
+  question: "Solve these simultaneous equations:<br>a + 2b = 1<br>3a - b = 8",
+  solution: "a = 3, b = -1"
+},
+
+ {
   topic: "Straight Lines - Intercepts",
   level: "Crossover",
   question: "Find the coordinates of the x and y intercepts of \\(y = 4x + 12\\).",

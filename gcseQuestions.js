@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(6\\) and passes through the point \\((3, 19)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = 6x + 1\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(4\\) and passes through the point \\((2, 11)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = 4x + 3\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(-3\\) and passes through the point \\((1, -1)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = -3x + 2\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(5\\) and passes through the point \\((4, 7)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = 5x - 13\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(-2\\) and passes through the point \\((3, -4)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = -2x + 2\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(7\\) and passes through the point \\((1, 10)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = 7x + 3\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(-4\\) and passes through the point \\((2, -5)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = -4x + 3\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(3\\) and passes through the point \\((5, 4)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = 3x - 11\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(-6\\) and passes through the point \\((1, -8)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = -6x - 2\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(2\\) and passes through the point \\((6, 5)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = 2x - 7\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(-5\\) and passes through the point \\((4, -3)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = -5x + 17\\)"
+},
+{
+  topic: "Equations of Lines",
+  level: "Crossover",
+  question: "A straight line has gradient \\(8\\) and passes through the point \\((2, 5)\\).<br>Work out the equation of the line.<br>Give your answer in the form \\(y = mx + c\\).",
+  solution: "\\(y = 8x - 11\\)"
+},
+
+{
   topic: "Factorising Quadratics",
   level: "Crossover",
   question: "Factorise \\(x^2 + 3x - 10\\)",

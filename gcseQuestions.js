@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "The density of a metal is \\(8\\text{ g/cm}^3\\).<br>Find the mass of a piece of metal with volume \\(20\\text{ cm}^3\\).",
+  solution: "\\(160\\text{ g}\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "A block has a mass of \\(450\\text{ g}\\) and a volume of \\(50\\text{ cm}^3\\).<br>Find the density of the block.",
+  solution: "\\(9\\text{ g/cm}^3\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "The density of a liquid is \\(1.2\\text{ g/cm}^3\\).<br>Find the volume of \\(300\\text{ g}\\) of this liquid.",
+  solution: "\\(250\\text{ cm}^3\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "A stone has a volume of \\(80\\text{ cm}^3\\) and a density of \\(2.5\\text{ g/cm}^3\\).<br>Find its mass.",
+  solution: "\\(200\\text{ g}\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "A solid has a mass of \\(3.6\\text{ kg}\\) and a volume of \\(0.002\\text{ m}^3\\).<br>Find its density.",
+  solution: "\\(1800\\text{ kg/m}^3\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "The density of a plastic is \\(0.9\\text{ g/cm}^3\\).<br>Find the mass of \\(150\\text{ cm}^3\\) of the plastic.",
+  solution: "\\(135\\text{ g}\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "An object has a mass of \\(2.4\\text{ kg}\\) and a density of \\(800\\text{ kg/m}^3\\).<br>Find its volume.",
+  solution: "\\(0.003\\text{ m}^3\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "A piece of wood has a volume of \\(400\\text{ cm}^3\\) and a mass of \\(280\\text{ g}\\).<br>Find its density.",
+  solution: "\\(0.7\\text{ g/cm}^3\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "The density of iron is \\(7.8\\text{ g/cm}^3\\).<br>Find the mass of a piece of iron with volume \\(50\\text{ cm}^3\\).",
+  solution: "\\(390\\text{ g}\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "A liquid has a mass of \\(600\\text{ g}\\) and a density of \\(1.5\\text{ g/cm}^3\\).<br>Find its volume.",
+  solution: "\\(400\\text{ cm}^3\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "A metal block has a volume of \\(0.004\\text{ m}^3\\) and a density of \\(2500\\text{ kg/m}^3\\).<br>Find its mass.",
+  solution: "\\(10\\text{ kg}\\)"
+},
+{
+  topic: "Compound Measures - Density",
+  level: "Crossover",
+  question: "An object has a mass of \\(900\\text{ g}\\) and a volume of \\(120\\text{ cm}^3\\).<br>Find its density.",
+  solution: "\\(7.5\\text{ g/cm}^3\\)"
+},
+ 
+{
   topic: "Compound Measures - Speed",
   level: "Crossover",
   question: "Liz travels 18 miles in 20 minutes.<br>Work out her average speed in miles per hour.",
@@ -588,78 +661,6 @@ const gcseQuestions = [
   solution: "6 hours"
 },
 
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "The density of a metal is \\(8\\text{ g/cm}^3\\).<br>Find the mass of a piece of metal with volume \\(20\\text{ cm}^3\\).",
-    solution: "\\(160\\text{ g}\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "A block has a mass of \\(450\\text{ g}\\) and a volume of \\(50\\text{ cm}^3\\).<br>Find the density of the block.",
-    solution: "\\(9\\text{ g/cm}^3\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "The density of a liquid is \\(1.2\\text{ g/cm}^3\\).<br>Find the volume of \\(300\\text{ g}\\) of this liquid.",
-    solution: "\\(250\\text{ cm}^3\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "A stone has a volume of \\(80\\text{ cm}^3\\) and a density of \\(2.5\\text{ g/cm}^3\\).<br>Find its mass.",
-    solution: "\\(200\\text{ g}\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "A solid has a mass of \\(3.6\\text{ kg}\\) and a volume of \\(0.002\\text{ m}^3\\).<br>Find its density.",
-    solution: "\\(1800\\text{ kg/m}^3\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "The density of a plastic is \\(0.9\\text{ g/cm}^3\\).<br>Find the mass of \\(150\\text{ cm}^3\\) of the plastic.",
-    solution: "\\(135\\text{ g}\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "An object has a mass of \\(2.4\\text{ kg}\\) and a density of \\(800\\text{ kg/m}^3\\).<br>Find its volume.",
-    solution: "\\(0.003\\text{ m}^3\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "A piece of wood has a volume of \\(400\\text{ cm}^3\\) and a mass of \\(280\\text{ g}\\).<br>Find its density.",
-    solution: "\\(0.7\\text{ g/cm}^3\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "The density of iron is \\(7.8\\text{ g/cm}^3\\).<br>Find the mass of a piece of iron with volume \\(50\\text{ cm}^3\\).",
-    solution: "\\(390\\text{ g}\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "A liquid has a mass of \\(600\\text{ g}\\) and a density of \\(1.5\\text{ g/cm}^3\\).<br>Find its volume.",
-    solution: "\\(400\\text{ cm}^3\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "A metal block has a volume of \\(0.004\\text{ m}^3\\) and a density of \\(2500\\text{ kg/m}^3\\).<br>Find its mass.",
-    solution: "\\(10\\text{ kg}\\)"
-  },
-  {
-    topic: "Density-Mass-Volume",
-    level: "Crossover",
-    question: "An object has a mass of \\(900\\text{ g}\\) and a volume of \\(120\\text{ cm}^3\\).<br>Find its density.",
-    solution: "\\(7.5\\text{ g/cm}^3\\)"
-  },
 {
   topic: "Fraction Arithmetic - Range",
   level: "Crossover",

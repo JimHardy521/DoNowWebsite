@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(5x + 6 > 3x + 15\\).",
+  solution: "\\(x > 4.5\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(7x - 4 \\le 3x + 12\\).",
+  solution: "\\(x \\le 4\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(4x + 9 < 6x - 3\\).",
+  solution: "\\(x > 6\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(10 - 2x \\ge 4x - 8\\).",
+  solution: "\\(x \\le 3\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(3(x + 2) > x + 10\\).",
+  solution: "\\(x > 2\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(5(x - 1) \\le 3x + 7\\).",
+  solution: "\\(x \\le 6\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(2x - 5 < x + 4\\).",
+  solution: "\\(x < 9\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(6x + 1 \\ge 2x + 13\\).",
+  solution: "\\(x \\ge 7\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(4(x - 3) < 2x + 6\\).",
+  solution: "\\(x < 9\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(9 + x > 5x - 7\\).",
+  solution: "\\(x < 4\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(8 - 3x \\le 2 - x\\).",
+  solution: "\\(x \\ge 3\\)"
+},
+{
+  topic: "Solving Inequalities",
+  level: "Crossover",
+  question: "Solve the inequality \\(7x + 5 > 9x - 11\\).",
+  solution: "\\(x < 8\\)"
+},
+
+ {
   topic: "Rearranging Formulae",
   level: "Crossover",
   question: "Rearrange \\(g = 3h - 1\\) to make \\(h\\) the subject.",

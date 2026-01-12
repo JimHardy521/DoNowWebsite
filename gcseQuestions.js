@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 + 3x - 10\\)",
+  solution: "\\((x + 5)(x - 2)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 + 7x + 10\\)",
+  solution: "\\((x + 5)(x + 2)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 - x - 12\\)",
+  solution: "\\((x - 4)(x + 3)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 + 2x - 15\\)",
+  solution: "\\((x + 5)(x - 3)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 - 9x + 20\\)",
+  solution: "\\((x - 5)(x - 4)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 + x - 20\\)",
+  solution: "\\((x + 5)(x - 4)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 - 4x - 12\\)",
+  solution: "\\((x - 6)(x + 2)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 + 8x + 15\\)",
+  solution: "\\((x + 5)(x + 3)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 - 2x - 24\\)",
+  solution: "\\((x - 6)(x + 4)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 + 11x + 24\\)",
+  solution: "\\((x + 6)(x + 4)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 - 7x + 10\\)",
+  solution: "\\((x - 5)(x - 2)\\)"
+},
+{
+  topic: "Factorising Quadratics",
+  level: "Crossover",
+  question: "Factorise \\(x^2 + 4x - 21\\)",
+  solution: "\\((x + 7)(x - 3)\\)"
+},
+
+{
   topic: "Prime Factors",
   level: "Crossover",
   question: "Find the product of prime factors of 312",

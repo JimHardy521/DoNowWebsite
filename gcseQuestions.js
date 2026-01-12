@@ -4,6 +4,80 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2^a \\times 3^2 = 36\\)",
+  solution: "a = 2"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(3^a \\times 2^2 = 108\\)",
+  solution: "a = 3"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2^a \\times 5^2 = 400\\)",
+  solution: "a = 4"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2 \\times 3^a \\times 5 = 90\\)",
+  solution: "a = 2"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(3^a \\times 2^2 \\times 5 = 540\\)",
+  solution: "a = 3"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2^a \\times 7^2 = 196\\)",
+  solution: "a = 2"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(3 \\times 5 \\times 2^a = 60\\)",
+  solution: "a = 2"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(3 \\times 2^a \\times 5 = 120\\)",
+  solution: "a = 3"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2^a \\times 11 = 176\\)",
+  solution: "a = 4"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2 \\times 3^a \\times 5 = 810\\)",
+  solution: "a = 4"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2^a \\times 7 \\times 3 = 168\\)",
+  solution: "a = 3"
+},
+{
+  topic: "Prime Factors - Problem Solving",
+  level: "Crossover",
+  question: "Find a when \\(2^a \\times 5 \\times 5 = 200\\)",
+  solution: "a = 3"
+},
+
+ 
+ {
   topic: "Simultaneous Equations",
   level: "Crossover",
   question: "Solve these simultaneous equations:<br>2a + b = 4<br>3a - b = 11",

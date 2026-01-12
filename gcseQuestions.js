@@ -3,6 +3,78 @@ const gcseQuestions = [
  /* =========================
        Crossover
        ========================= */
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "It takes 5 hosepipes 24 hours to fill a swimming pool.<br>How long would it take if only 3 hosepipes were used?",
+  solution: "40 hours"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "6 workers can complete a job in 15 days.<br>How many days would it take 10 workers to complete the same job?",
+  solution: "9 days"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "A car takes 8 hours to drive 480 km at a certain speed.<br>If the speed is increased so the car travels 1.5 times faster, how long would the journey take?",
+  solution: "5 hours 20 minutes"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "4 painters can paint a wall in 12 hours.<br>How long would it take 6 painters to paint the same wall?",
+  solution: "8 hours"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "It takes 3 machines 18 hours to produce 540 items.<br>How long would it take 6 machines to produce the same number of items?",
+  solution: "9 hours"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "A tanker is emptied by 5 pumps in 10 hours.<br>How long would it take if 8 pumps were used?",
+  solution: "6 hours 15 minutes"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "A group of 7 students can complete a project in 14 days.<br>How long would it take 4 students to do the same project?",
+  solution: "24.5 days"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "It takes 9 workers 20 days to build a fence.<br>How many days would it take 12 workers?",
+  solution: "15 days"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "5 identical taps can fill a tank in 30 minutes.<br>How long would 2 taps take to fill it?",
+  solution: "75 minutes"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "It takes 8 printers 10 hours to print a batch of books.<br>How long would it take 4 printers?",
+  solution: "20 hours"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "A team of 6 chefs can prepare 180 meals in 3 hours.<br>How long would it take 9 chefs to prepare the same number of meals?",
+  solution: "2 hours"
+},
+{
+  topic: "Inverse Proportion",
+  level: "Crossover",
+  question: "It takes 2 pumps 15 hours to empty a water tank.<br>How long would it take 5 pumps?",
+  solution: "6 hours"
+},
 
   {
     topic: "Density-Mass-Volume",

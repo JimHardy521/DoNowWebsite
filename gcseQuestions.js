@@ -4,6 +4,80 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 312",
+  solution: "\\(2^3 \\times 3 \\times 13\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 180",
+  solution: "\\(2^2 \\times 3^2 \\times 5\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 210",
+  solution: "\\(2 \\times 3 \\times 5 \\times 7\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 360",
+  solution: "\\(2^3 \\times 3^2 \\times 5\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 225",
+  solution: "\\(3^2 \\times 5^2\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 504",
+  solution: "\\(2^3 \\times 3^2 \\times 7\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 126",
+  solution: "\\(2 \\times 3^2 \\times 7\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 98",
+  solution: "\\(2 \\times 7^2\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 150",
+  solution: "\\(2 \\times 3 \\times 5^2\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 196",
+  solution: "\\(2^2 \\times 7^2\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 84",
+  solution: "\\(2^2 \\times 3 \\times 7\\)"
+},
+{
+  topic: "Prime Factors",
+  level: "Crossover",
+  question: "Find the product of prime factors of 132",
+  solution: "\\(2^2 \\times 3 \\times 11\\)"
+},
+
+ 
+ {
   topic: "Compound Measures - Density",
   level: "Crossover",
   question: "The density of a metal is \\(8\\text{ g/cm}^3\\).<br>Find the mass of a piece of metal with volume \\(20\\text{ cm}^3\\).",

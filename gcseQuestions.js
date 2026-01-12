@@ -4,6 +4,152 @@ const gcseQuestions = [
        Crossover
        ========================= */
 {
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "Liz travels 18 miles in 20 minutes.<br>Work out her average speed in miles per hour.",
+  solution: "54 mph"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A car travels 75 km in 50 minutes.<br>Work out its average speed in km/h.",
+  solution: "90 km/h"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A cyclist travels 30 km in 40 minutes.<br>Work out their average speed in km/h.",
+  solution: "45 km/h"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A train travels 120 miles in 1 hour 30 minutes.<br>Work out its average speed in mph.",
+  solution: "80 mph"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A jogger runs 7.5 km in 25 minutes.<br>Work out their average speed in km/h.",
+  solution: "18 km/h"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A car travels 144 km in 1 hour 36 minutes.<br>Work out its average speed in km/h.",
+  solution: "90 km/h"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A runner completes 432 metres in 54 seconds.<br>Work out their average speed in m/s.",
+  solution: "8 m/s"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A boat travels 36 miles in 1 hour 30 minutes.<br>Work out its average speed in mph.",
+  solution: "24 mph"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A cyclist covers 15 km in 20 minutes.<br>Work out their average speed in km/h.",
+  solution: "45 km/h"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A car drives 90 miles in 1 hour 30 minutes.<br>Work out its average speed in mph.",
+  solution: "60 mph"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A train travels 120 km in 2 hours 24 minutes.<br>Work out its average speed in km/h.",
+  solution: "50 km/h"
+},
+{
+  topic: "Compound Measures - Speed",
+  level: "Crossover",
+  question: "A cyclist rides 18 km in 24 minutes.<br>Work out their average speed in km/h.",
+  solution: "45 km/h"
+},
+
+ {
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(5(3x + 4) - 2(x - 1)\\)",
+  solution: "13x + 22"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(3(2x - 5) + 4(x + 1)\\)",
+  solution: "10x - 11"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(2(x + 3) - 5(x - 2)\\)",
+  solution: "-3x + 16"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(4(3x - 2) + 3(2x + 5)\\)",
+  solution: "18x + 7"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(6(x - 1) - 2(3x - 4)\\)",
+  solution: "0x + 2"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(5(2x + 3) + 3(x - 4)\\)",
+  solution: "13x + 7"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(2(3x + 5) - 4(x + 1)\\)",
+  solution: "2x + 6"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(3(x - 2) + 5(2x + 1)\\)",
+  solution: "13x - 1"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(4(2x - 3) - 3(x + 2)\\)",
+  solution: "5x - 18"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(6(x + 2) - 2(2x - 5)\\)",
+  solution: "2x + 17"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(5(x - 1) + 4(2x + 3)\\)",
+  solution: "13x + 7"
+},
+{
+  topic: "Expand and Simplify",
+  level: "Crossover",
+  question: "Expand and simplify fully \\(2(5x + 1) - 3(x - 2)\\)",
+  solution: "7x + 8"
+},
+
+ {
   topic: "Prime Factors - Problem Solving",
   level: "Crossover",
   question: "Find a when \\(2^a \\times 3^2 = 36\\)",

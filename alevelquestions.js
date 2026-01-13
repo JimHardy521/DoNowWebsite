@@ -1,6 +1,82 @@
 const alevelQuestions = [
 
 {
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\cos^2(x) - 3\\sin(x) = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x \\approx 18°, 162°\\]"
+},
+
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[2\\tan^2(x) - 5\\tan(x) + 2 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x \\approx 27°, 63°, 207°, 243°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\sin^2(x) + 3\\cos(x) - 1 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x = 90°, 270°\\]"
+},
+
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\sin^2(x) - 4\\sin(x) + 3 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x = 90°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\tan^2(x) + 3\\tan(x) - 4 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x \\approx 45°, 104°, 225°, 284°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[1 - \\cos^2(x) - 2\\sin(x) + 1 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x = 90°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\tan^2(x) - 3\\tan(x) + 2 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x \\approx 45°, 63°, 225°, 243°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\cos^2(x) - 0.5\\cos(x) - 0.5 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x = 120°, 240°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\sin^2(x) - \\cos(x) - 1 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x = 90°, 180°, 270°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[2\\sin^2(x) - 5\\sin(x) + 2 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x = 30°, 150°\\]"
+},
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\tan^2(x) - 4\\tan(x) + 3 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x \\approx 45°, 72°, 225°, 252°\\]"
+},
+
+{
+  topic: "Trig Equations",
+  level: "Year 12",
+  question: "Find all solutions of:<br>\\[\\sin^2(x) + 3\\sin(x) - 4 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
+  solution: "\\[x = 90°\\]"
+},
+
+{
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
   question: "Find the exact distance between \\[(0, 6)\\] and the midpoint of<br>\\[(-2, 2)\\] and \\[(4, 10)\\]",

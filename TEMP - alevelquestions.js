@@ -1,5 +1,79 @@
 const alevelQuestions = [
 {
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the first three terms in the expansion of:<br><br>\\[(1 + 2x)^5\\]",
+  solution: "1 + 10x + 40x^2"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^3\\) in the expansion of:<br><br>\\[(2 - 3x)^6\\]",
+  solution: "-540"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the first four terms in the expansion of:<br><br>\\[(1 - x)^7\\]",
+  solution: "1 - 7x + 21x^2 - 35x^3"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^4\\) in the expansion of:<br><br>\\[(3 + x)^6\\]",
+  solution: "405"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Expand fully:<br><br>\\[(1 + x)^4\\]",
+  solution: "1 + 4x + 6x^2 + 4x^3 + x^4"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the first three terms in the expansion of:<br><br>\\[(2 + x)^5\\]",
+  solution: "32 + 80x + 80x^2"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^2\\) in the expansion of:<br><br>\\[(1 - 2x)^5\\]",
+  solution: "40"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Expand fully:<br><br>\\[(2 + x)^3\\]",
+  solution: "8 + 12x + 6x^2 + x^3"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^3\\) in the expansion of:<br><br>\\[(1 + 3x)^5\\]",
+  solution: "405"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the first four terms in the expansion of:<br><br>\\[(1 + 2x)^4\\]",
+  solution: "1 + 8x + 24x^2 + 32x^3"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Expand fully:<br><br>\\[(x + 1)^5\\]",
+  solution: "x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1"
+},
+{
+  topic: "Binomial Expansion",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^2\\) in the expansion of:<br><br>\\[(3 - x)^4\\]",
+  solution: "54"
+},
+
+  
+{
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
   question: "Rationalise the denominator:<br><br>\\[\\frac{3}{1 + \\sqrt{2}}\\]",

@@ -1,6 +1,79 @@
 const alevelQuestions = [
 
 {
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{81} 27 \\times \\log_{16} 4\\]",
+  solution: "3/8"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{8} 4 + \\log_{9} 3\\]",
+  solution: "7/6"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{27} 9 - \\log_{16} 2\\]",
+  solution: "5/12"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{32} 4 \\times \\log_{4} 8\\]",
+  solution: "3/5"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{125} 5 + \\log_{25} 5\\]",
+  solution: "5/6"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{16} 8 - \\log_{4} 2\\]",
+  solution: "1/4"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{64} 16 \\times \\log_{8} 2\\]",
+  solution: "2/9"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{49} 7 + \\log_{81} 9\\]",
+  solution: "1"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{9} 27 \\div \\log_{3} 9\\]",
+  solution: "3/4"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{4} 32 - \\log_{2} 4\\]",
+  solution: "1/2"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{16} 2 \\times \\log_{8} 4\\]",
+  solution: "1/6"
+},
+{
+  topic: "Logs - Introduction",
+  level: "Year 12",
+  question: "Without using a calculator, evaluate:<br>\\[\\log_{27} 3 + \\log_{32} 2\\]",
+  solution: "8/15"
+},
+
+{
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
   question: "Rationalise the denominator:<br>\\[\\frac{3}{1 + \\sqrt{2}}\\]",

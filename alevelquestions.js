@@ -1,4 +1,78 @@
 const alevelQuestions = [
+
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{3}{1 + \\sqrt{2}}\\]",
+  solution: "\\[-3 + 3\\sqrt{2}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{5}{2 - \\sqrt{3}}\\]",
+  solution: "\\[10 + 5\\sqrt{3}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{7}{\\sqrt{3} + \\sqrt{2}}\\]",
+  solution: "\\[7\\sqrt{3} - 7\\sqrt{2}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{4}{1 - \\sqrt{5}}\\]",
+  solution: "\\[-1 - \\sqrt{5}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{6}{\\sqrt{6} + \\sqrt{2}}\\]",
+  solution: "\\[\\frac{3\\sqrt{6}}{2} - \\frac{3\\sqrt{2}}{2}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{2}{3 + \\sqrt{7}}\\]",
+  solution: "\\[3 - \\sqrt{7}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{5}{\\sqrt{5} - \\sqrt{3}}\\]",
+  solution: "\\[\\frac{5\\sqrt{5}}{2} + \\frac{5\\sqrt{3}}{2}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{3}{1 + \\sqrt{3}}\\]",
+  solution: "\\[-\\frac{3}{2} + \\frac{3\\sqrt{3}}{2}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{8}{2 - \\sqrt{2}}\\]",
+  solution: "\\[8 + 4\\sqrt{2}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{7}{\\sqrt{2} + \\sqrt{5}}\\]",
+  solution: "\\[-\\frac{7\\sqrt{2}}{3} + \\frac{7\\sqrt{5}}{3}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{9}{1 - \\sqrt{6}}\\]",
+  solution: "\\[-\\frac{9}{5} - \\frac{9\\sqrt{6}}{5}\\]"
+},
+{
+  topic: "Surds - Rationalising the Denominator",
+  level: "Year 12",
+  question: "Rationalise the denominator:<br><br>\\[\\frac{4}{\\sqrt{3} + \\sqrt{6}}\\]",
+  solution: "\\[-\\frac{4\\sqrt{3}}{3} + \\frac{4\\sqrt{6}}{3}\\]"
+},
+  
 {
   topic: "Graph Sketching",
   level: "Year 12",
@@ -144,80 +218,6 @@ const alevelQuestions = [
   level: "Year 12",
   question: "Find the coefficient of \\(x^2\\) in the expansion of:<br><br>\\[(3 - x)^4\\]",
   solution: "54"
-},
-
-  
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{3}{1 + \\sqrt{2}}\\]",
-  solution: "\\frac{3 - 3\\sqrt{2}}{-1} = -3 + 3\\sqrt{2}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{5}{2 - \\sqrt{3}}\\]",
-  solution: "\\frac{5(2 + \\sqrt{3})}{4 - 3} = 10 + 5\\sqrt{3}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{7}{\\sqrt{3} + \\sqrt{2}}\\]",
-  solution: "\\frac{7(\\sqrt{3} - \\sqrt{2})}{3 - 2} = 7\\sqrt{3} - 7\\sqrt{2}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{4}{1 - \\sqrt{5}}\\]",
-  solution: "\\frac{4(1 + \\sqrt{5})}{1 - 5} = \\frac{4 + 4\\sqrt{5}}{-4} = -1 - \\sqrt{5}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{6}{\\sqrt{6} + \\sqrt{2}}\\]",
-  solution: "\\frac{6(\\sqrt{6} - \\sqrt{2})}{6 - 2} = \\frac{6\\sqrt{6} - 6\\sqrt{2}}{4} = \\frac{3\\sqrt{6}}{2} - \\frac{3\\sqrt{2}}{2}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{2}{3 + \\sqrt{7}}\\]",
-  solution: "\\frac{2(3 - \\sqrt{7})}{9 - 7} = \\frac{6 - 2\\sqrt{7}}{2} = 3 - \\sqrt{7}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{5}{\\sqrt{5} - \\sqrt{3}}\\]",
-  solution: "\\frac{5(\\sqrt{5} + \\sqrt{3})}{5 - 3} = \\frac{5\\sqrt{5} + 5\\sqrt{3}}{2} = \\frac{5\\sqrt{5}}{2} + \\frac{5\\sqrt{3}}{2}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{3}{1 + \\sqrt{3}}\\]",
-  solution: "\\frac{3(1 - \\sqrt{3})}{1 - 3} = \\frac{3 - 3\\sqrt{3}}{-2} = -\\frac{3}{2} + \\frac{3\\sqrt{3}}{2}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{8}{2 - \\sqrt{2}}\\]",
-  solution: "\\frac{8(2 + \\sqrt{2})}{4 - 2} = \\frac{16 + 8\\sqrt{2}}{2} = 8 + 4\\sqrt{2}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{7}{\\sqrt{2} + \\sqrt{5}}\\]",
-  solution: "\\frac{7(\\sqrt{2} - \\sqrt{5})}{2 - 5} = \\frac{7\\sqrt{2} - 7\\sqrt{5}}{-3} = -\\frac{7\\sqrt{2}}{3} + \\frac{7\\sqrt{5}}{3}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{9}{1 - \\sqrt{6}}\\]",
-  solution: "\\frac{9(1 + \\sqrt{6})}{1 - 6} = \\frac{9 + 9\\sqrt{6}}{-5} = -\\frac{9}{5} - \\frac{9\\sqrt{6}}{5}"
-},
-{
-  topic: "Surds - Rationalising the Denominator",
-  level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{4}{\\sqrt{3} + \\sqrt{6}}\\]",
-  solution: "\\frac{4(\\sqrt{3} - \\sqrt{6})}{3 - 6} = \\frac{4\\sqrt{3} - 4\\sqrt{6}}{-3} = -\\frac{4\\sqrt{3}}{3} + \\frac{4\\sqrt{6}}{3}"
 },
 
 {

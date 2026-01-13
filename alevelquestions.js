@@ -1,4 +1,76 @@
 const alevelQuestions = [
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_2(x - 2) - \\log_2\\left(\\frac{1}{x}\\right) = 3\\]",
+  solution: "x = 4"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_3(x) + \\log_3(x - 2) = 2\\]",
+  solution: "x = 1 + \\sqrt{10}"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_3(x - 8) = 2 - \\log_3(x)\\]",
+  solution: "x = 9"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_4(x + 3) - \\log_4(x) = 1\\]",
+  solution: "x = 1"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_2(3x - 1) + \\log_2(x) = 3\\]",
+  solution: "x = \\frac{1 + \\sqrt{97}}{6}"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_7(x - 1) = \\log_7(2x - 5)\\]",
+  solution: "x = 4"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_3(x + 1) - \\log_3(x - 1) = 1\\]",
+  solution: "x = 2"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_2(x^2 - 1) = 3\\]",
+  solution: "x = \\pm 3"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_5(x) + \\log_5(x - 4) = 1\\]",
+  solution: "x = 5"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_4(x) - \\log_4(x - 3) = 2\\]",
+  solution: "x = \\frac{16}{5}"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_2(x + 1) + \\log_2(x - 1) = 4\\]",
+  solution: "x = \\sqrt{17}"
+},
+{
+  topic: "Logs - Solving",
+  level: "Year 12",
+  question: "Solve for x:<br>\\[\\log_3(2x) - \\log_3(x - 1) = 1\\]",
+  solution: "x = 3"
+},
 
 {
   topic: "Logs - Introduction",

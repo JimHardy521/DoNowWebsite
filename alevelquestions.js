@@ -1,5 +1,78 @@
 const alevelQuestions = [
 {
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 2x^2 + 8x + 3\\]",
+  solution: "\\[y = 2(x + 2)^2 - 5\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 2x^2 - 12x + 7\\]",
+  solution: "\\[y = 2(x - 3)^2 - 11\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 3x^2 + 6x - 4\\]",
+  solution: "\\[y = 3(x + 1)^2 - 7\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 3x^2 - 18x + 5\\]",
+  solution: "\\[y = 3(x - 3)^2 - 22\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 2x^2 + 4x - 9\\]",
+  solution: "\\[y = 2(x + 1)^2 - 11\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 3x^2 + 12x + 1\\]",
+  solution: "\\[y = 3(x + 2)^2 - 11\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 2x^2 - 6x - 4\\]",
+  solution: "\\[y = 2\\left(x - \\frac{3}{2}\\right)^2 - \\frac{17}{2}\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 3x^2 - 4x + 6\\]",
+  solution: "\\[y = 3\\left(x - \\frac{2}{3}\\right)^2 + \\frac{14}{3}\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 2x^2 + 10x + 1\\]",
+  solution: "\\[y = 2\\left(x + \\frac{5}{2}\\right)^2 - \\frac{23}{2}\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 3x^2 + 2x - 1\\]",
+  solution: "\\[y = 3\\left(x + \\frac{1}{3}\\right)^2 - \\frac{4}{3}\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 2x^2 - 2x + 5\\]",
+  solution: "\\[y = 2\\left(x - \\frac{1}{2}\\right)^2 + \\frac{9}{2}\\]"
+},
+{
+  topic: "Quadratics - Completing the Square",
+  level: "Year 12",
+  question: "Complete the square for:<br>\\[y = 3x^2 - 10x + 2\\]",
+  solution: "\\[y = 3\\left(x - \\frac{5}{3}\\right)^2 - \\frac{19}{3}\\]"
+},
+
+{
   topic: "Solving Exponentials",
   level: "Year 12",
   question: "Solve to 2 d.p.:<br>\\[2^{x+3} = 5^{x-1}\\]",

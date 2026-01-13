@@ -1,5 +1,78 @@
 const alevelQuestions = [
 {
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[2^{x+3} = 5^{x-1}\\]",
+  solution: "\\(x = 4.03\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[3^{x} = 7^{2x-1}\\]",
+  solution: "\\(x = 0.71\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[5^{x+1} = 2^{3x}\\]",
+  solution: "\\(x = 1.44\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[4^{x} = 10^{x-2}\\]",
+  solution: "\\(x = 3.09\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[7^{x+2} = 3^{2x}\\]",
+  solution: "\\(x = 2.68\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[9^{x-1} = 2^{x+3}\\]",
+  solution: "\\(x = 3.38\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[6^{2x} = 5^{x+1}\\]",
+  solution: "\\(x = 1.11\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[8^{x} = 3^{x+2}\\]",
+  solution: "\\(x = 2.10\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[10^{x-1} = 4^{x+1}\\]",
+  solution: "\\(x = 2.56\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[5^{2x-1} = 7^{x}\\]",
+  solution: "\\(x = 1.84\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[3^{x+2} = 11^{x}\\]",
+  solution: "\\(x = 1.29\\)"
+},
+{
+  topic: "Log - Exponentials",
+  level: "Year 12",
+  question: "Solve to 2 d.p.:<br>\\[4^{x-2} = 9^{x}\\]",
+  solution: "\\(x = 0.62\\)"
+},
+
+{
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
   question: "Find the exact distance between:<br>\\[(-4, 5)\\]<br>and the midpoint of \\[(1, 4)\\] and \\[(7, 8)\\]",

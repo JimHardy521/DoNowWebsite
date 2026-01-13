@@ -1,5 +1,78 @@
 const alevelQuestions = [
 {
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = x^2 - 2x + 3 \\quad \\text{and} \\quad x + y = 5\\]",
+  solution: "\\[(-1.00, 6.00) \\text{ and } (2.00, 3.00)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = 2x^2 - 3x + 1 \\quad \\text{and} \\quad y = x + 2\\]",
+  solution: "\\[(-0.22, 1.78) \\text{ and } (2.22, 4.22)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = x^2 + x - 2 \\quad \\text{and} \\quad y = 2x + 1\\]",
+  solution: "\\[(-1.30, -1.61) \\text{ and } (2.30, 5.61)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = -x^2 + 4x - 1 \\quad \\text{and} \\quad y = x + 1\\]",
+  solution: "\\[(1.00, 2.00) \\text{ and } (2.00, 3.00)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = x^2 + 3x + 2 \\quad \\text{and} \\quad y = 2x + 3\\]",
+  solution: "\\[(0.62, 4.24) \\text{ and } (-1.62, -0.24)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = 3x^2 - 2x + 1 \\quad \\text{and} \\quad y = x + 5\\]",
+  solution: "\\[(-0.76, 4.24) \\text{ and } (1.76, 6.76)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[x^2 + y^2 = 25 \\quad \\text{and} \\quad y = x + 1\\]",
+  solution: "\\[(4.42, 5.42) \\text{ and } (-5.42, -4.42)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[x^2 + y^2 = 20 \\quad \\text{and} \\quad y = 2x - 2\\]",
+  solution: "\\[(3.80, 5.59) \\text{ and } (-5.80, -13.59)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[x^2 + y^2 = 10 \\quad \\text{and} \\quad y = x - 1\\]",
+  solution: "\\[(2.85, 1.85) \\text{ and } (-3.85, -4.85)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = -x^2 + 6 \\quad \\text{and} \\quad y = 2x + 1\\]",
+  solution: "\\[(1.45, 3.90) \\text{ and } (-3.45, -5.90)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[y = x^2 - 4x + 3 \\quad \\text{and} \\quad y = 2\\]",
+  solution: "\\[(0.27, 2.00) \\text{ and } (3.73, 2.00)\\]"
+},
+{
+  topic: "Simultaneous Equations",
+  level: "Year 12",
+  question: "Find the coordinates of intersection:<br>\\[x^2 + y^2 = 13 \\quad \\text{and} \\quad y = x - 1\\]",
+  solution: "\\[(3.27, 2.27) \\text{ and } (-4.27, -5.27)\\]"
+},
+
+{
   topic: "Quadratics - Completing the Square",
   level: "Year 12",
   question: "Complete the square for:<br>\\[y = 2x^2 + 8x + 3\\]",

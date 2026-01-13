@@ -75,65 +75,64 @@ const alevelQuestions = [
   question: "Find all solutions of:<br>\\[\\sin^2(x) + 3\\sin(x) - 4 = 0\\]<br>for \\(0 < x < 360\\)°, giving your answers to the nearest degree.",
   solution: "\\[x = 90°\\]"
 },
-
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(0, 6)\\] and the midpoint of<br>\\[(-2, 2)\\] and \\[(4, 10)\\]",
+  question: "Find the exact distance between (0, 6) and the midpoint of (-2, 2) and (4, 10).",
   solution: "Midpoint: (1, 6)<br>Exact distance: 1"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(6, 3)\\] and the midpoint of<br>\\[(1, -2)\\] and \\[(9, 6)\\]",
-  solution: "Midpoint: (5, 2)<br>Exact distance: \\(\\sqrt{2}\\)"
+  question: "Find the exact distance between (6, 3) and the midpoint of (1, -2) and (9, 6).",
+  solution: "Midpoint: (5, 2)<br>Exact distance: √2"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(-3, -4)\\] and the midpoint of<br>\\[(1, 0)\\] and \\[(7, 6)\\]",
-  solution: "Midpoint: (4, 3)<br>Exact distance: \\(7\\sqrt{2}\\)"
+  question: "Find the exact distance between (-3, -4) and the midpoint of (1, 0) and (7, 6).",
+  solution: "Midpoint: (4, 3)<br>Exact distance: 7√2"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(4, -1)\\] and the midpoint of<br>\\[(2, -6)\\] and \\[(10, 2)\\]",
-  solution: "Midpoint: (6, -2)<br>Exact distance: \\(\\sqrt{5}\\)"
+  question: "Find the exact distance between (4, -1) and the midpoint of (2, -6) and (10, 2).",
+  solution: "Midpoint: (6, -2)<br>Exact distance: √5"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(3, 5)\\] and the midpoint of<br>\\[(-3, 3)\\] and \\[(5, 11)\\]",
-  solution: "Midpoint: (1, 7)<br>Exact distance: \\(2\\sqrt{2}\\)"
+  question: "Find the exact distance between (3, 5) and the midpoint of (-3, 3) and (5, 11).",
+  solution: "Midpoint: (1, 7)<br>Exact distance: 2√2"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(-2, 1)\\] and the midpoint of<br>\\[(4, -3)\\] and \\[(8, 5)\\]",
+  question: "Find the exact distance between (-2, 1) and the midpoint of (4, -3) and (8, 5).",
   solution: "Midpoint: (6, 1)<br>Exact distance: 8"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(3, -5)\\] and the midpoint of<br>\\[(-1, -1)\\] and \\[(7, 3)\\]",
+  question: "Find the exact distance between (3, -5) and the midpoint of (-1, -1) and (7, 3).",
   solution: "Midpoint: (3, 1)<br>Exact distance: 6"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(0, 0)\\] and the midpoint of<br>\\[(6, 2)\\] and \\[(10, 6)\\]",
-  solution: "Midpoint: (8, 4)<br>Exact distance: \\(4\\sqrt{5}\\)"
+  question: "Find the exact distance between (0, 0) and the midpoint of (6, 2) and (10, 6).",
+  solution: "Midpoint: (8, 4)<br>Exact distance: 4√5"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(-5, 4)\\] and the midpoint of<br>\\[(-1, 0)\\] and \\[(7, 8)\\]",
+  question: "Find the exact distance between (-5, 4) and the midpoint of (-1, 0) and (7, 8).",
   solution: "Midpoint: (3, 4)<br>Exact distance: 8"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between \\[(4, 1)\\] and the midpoint of<br>\\[(-2, -3)\\] and \\[(6, 5)\\]",
+  question: "Find the exact distance between (4, 1) and the midpoint of (-2, -3) and (6, 5).",
   solution: "Midpoint: (2, 1)<br>Exact distance: 2"
 },
   

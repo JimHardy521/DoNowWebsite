@@ -1,4 +1,76 @@
 const alevelQuestions = [
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(-4, 5) \\text{ and the midpoint of } (1, 4) \\text{ and } (7, 8)\\]",
+  solution: "Midpoint: (4, 6)<br>Exact distance: \\(\\sqrt{65}\\)"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(2, -1) \\text{ and the midpoint of } (4, 3) \\text{ and } (8, 7)\\]",
+  solution: "Midpoint: (6, 5)<br>Exact distance: \\(2\\sqrt{13}\\)"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(0, 6) \\text{ and the midpoint of } (-2, 2) \\text{ and } (4, 10)\\]",
+  solution: "Midpoint: (1, 6)<br>Exact distance: 1"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(6, 3) \\text{ and the midpoint of } (1, -2) \\text{ and } (9, 6)\\]",
+  solution: "Midpoint: (5, 2)<br>Exact distance: \\(\\sqrt{2}\\)"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(-3, -4) \\text{ and the midpoint of } (1, 0) \\text{ and } (7, 6)\\]",
+  solution: "Midpoint: (4, 3)<br>Exact distance: \\(7\\sqrt{2}\\)"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(4, -1) \\text{ and the midpoint of } (2, -6) \\text{ and } (10, 2)\\]",
+  solution: "Midpoint: (6, -2)<br>Exact distance: \\(\\sqrt{5}\\)"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(3, 5) \\text{ and the midpoint of } (-3, 3) \\text{ and } (5, 11)\\]",
+  solution: "Midpoint: (1, 7)<br>Exact distance: \\(2\\sqrt{2}\\)"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(-2, 1) \\text{ and the midpoint of } (4, -3) \\text{ and } (8, 5)\\]",
+  solution: "Midpoint: (6, 1)<br>Exact distance: 8"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(3, -5) \\text{ and the midpoint of } (-1, -1) \\text{ and } (7, 3)\\]",
+  solution: "Midpoint: (3, 1)<br>Exact distance: 6"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(0, 0) \\text{ and the midpoint of } (6, 2) \\text{ and } (10, 6)\\]",
+  solution: "Midpoint: (8, 4)<br>Exact distance: \\(4\\sqrt{5}\\)"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(-5, 4) \\text{ and the midpoint of } (-1, 0) \\text{ and } (7, 8)\\]",
+  solution: "Midpoint: (3, 4)<br>Exact distance: 8"
+},
+{
+  topic: "Geometry - Distances Two Coords",
+  level: "Year 12",
+  question: "Find the exact distance between:<br><br>\\[(4, 1) \\text{ and the midpoint of } (-2, -3) \\text{ and } (6, 5)\\]",
+  solution: "Midpoint: (2, 1)<br>Exact distance: 2"
+},
 
 {
   topic: "Geometry - Perpendicular Bisectors",

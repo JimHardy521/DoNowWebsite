@@ -1,5 +1,79 @@
 const alevelQuestions = [
 {
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 2(x + 3)(x - 2)^2\\]",
+  solution: "Cubic graph with roots x = -3, x = 2 (Turning Point), y-intercept = 24"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = (x - 1)(x + 2)(x - 3)\\]",
+  solution: "Cubic graph with roots x = 1, x = -2, x = 3, y-intercept = 6"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = (x - 2)^2(x + 1)\\]",
+  solution: "Cubic graph with roots x = 2 (Turning Point), x = -1, y-intercept = 4"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 2(x + 1)(x - 3)^2\\]",
+  solution: "Cubic graph with roots x = -1, x = 3, y-intercept = 18"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = (x - 1)(x + 2)(x - 2)(x + 1)\\]",
+  solution: "Quartic graph with roots x = 1, x = -2, x = 2, x = -1, y-intercept = 4"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = (x - 3)^2(x + 2)^2\\]",
+  solution: "Quartic graph with roots x = 3 (Turning Point), x = -2 (Turning Point), y-intercept = 36"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 3(x + 1)^2(x - 2)\\]",
+  solution: "Cubic graph with roots x = -1 (Turning Point), x = 2, y-intercept = -6"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 5(3x - 2)(x + 1)^2\\]",
+  solution: "Cubic graph with roots x = 2/3, x = -1 (Turning Point), y-intercept = -10"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 2(x - 4)(x + 1)(x - 1)\\]",
+  solution: "Cubic graph with roots x = 4, x = -1, x = 1, y-intercept = 8"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 5(x + 2)^2(x - 3)\\]",
+  solution: "Cubic graph with roots x = -2 (Turning Point), x = 3, y-intercept = -60"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 3(x + 1)^2(x - 2)^2\\]",
+  solution: "Quartic graph with roots x = -1 (Turning Point), x = 2 (Turning Point), y-intercept = 12"
+},
+{
+  topic: "Graph Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of:<br><br>\\[y = 5(x - 1)^2(x + 3)\\]",
+  solution: "Cubic graph with roots x = 1 (Turning Point), x = -3, y-intercept = 15"
+},
+
+  
+{
   topic: "Binomial Expansion",
   level: "Year 12",
   question: "Find the first three terms in the expansion of:<br><br>\\[(1 + 2x)^5\\]",

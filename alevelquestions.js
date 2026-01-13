@@ -3,146 +3,146 @@ const alevelQuestions = [
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{3}{1 + \\sqrt{2}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{3}{1 + \\sqrt{2}}\\]",
   solution: "\\[-3 + 3\\sqrt{2}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{5}{2 - \\sqrt{3}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{5}{2 - \\sqrt{3}}\\]",
   solution: "\\[10 + 5\\sqrt{3}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{7}{\\sqrt{3} + \\sqrt{2}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{7}{\\sqrt{3} + \\sqrt{2}}\\]",
   solution: "\\[7\\sqrt{3} - 7\\sqrt{2}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{4}{1 - \\sqrt{5}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{4}{1 - \\sqrt{5}}\\]",
   solution: "\\[-1 - \\sqrt{5}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{6}{\\sqrt{6} + \\sqrt{2}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{6}{\\sqrt{6} + \\sqrt{2}}\\]",
   solution: "\\[\\frac{3\\sqrt{6}}{2} - \\frac{3\\sqrt{2}}{2}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{2}{3 + \\sqrt{7}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{2}{3 + \\sqrt{7}}\\]",
   solution: "\\[3 - \\sqrt{7}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{5}{\\sqrt{5} - \\sqrt{3}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{5}{\\sqrt{5} - \\sqrt{3}}\\]",
   solution: "\\[\\frac{5\\sqrt{5}}{2} + \\frac{5\\sqrt{3}}{2}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{3}{1 + \\sqrt{3}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{3}{1 + \\sqrt{3}}\\]",
   solution: "\\[-\\frac{3}{2} + \\frac{3\\sqrt{3}}{2}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{8}{2 - \\sqrt{2}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{8}{2 - \\sqrt{2}}\\]",
   solution: "\\[8 + 4\\sqrt{2}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{7}{\\sqrt{2} + \\sqrt{5}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{7}{\\sqrt{2} + \\sqrt{5}}\\]",
   solution: "\\[-\\frac{7\\sqrt{2}}{3} + \\frac{7\\sqrt{5}}{3}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{9}{1 - \\sqrt{6}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{9}{1 - \\sqrt{6}}\\]",
   solution: "\\[-\\frac{9}{5} - \\frac{9\\sqrt{6}}{5}\\]"
 },
 {
   topic: "Surds - Rationalising the Denominator",
   level: "Year 12",
-  question: "Rationalise the denominator:<br><br>\\[\\frac{4}{\\sqrt{3} + \\sqrt{6}}\\]",
+  question: "Rationalise the denominator:<br>\\[\\frac{4}{\\sqrt{3} + \\sqrt{6}}\\]",
   solution: "\\[-\\frac{4\\sqrt{3}}{3} + \\frac{4\\sqrt{6}}{3}\\]"
 },
   
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 2(x + 3)(x - 2)^2\\]",
+  question: "Sketch the graph of:<br>\\[y = 2(x + 3)(x - 2)^2\\]",
   solution: "Cubic graph with roots x = -3, x = 2 (Turning Point), y-intercept = 24"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = (x - 1)(x + 2)(x - 3)\\]",
+  question: "Sketch the graph of:<br>\\[y = (x - 1)(x + 2)(x - 3)\\]",
   solution: "Cubic graph with roots x = 1, x = -2, x = 3, y-intercept = 6"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = (x - 2)^2(x + 1)\\]",
+  question: "Sketch the graph of:<br>\\[y = (x - 2)^2(x + 1)\\]",
   solution: "Cubic graph with roots x = 2 (Turning Point), x = -1, y-intercept = 4"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 2(x + 1)(x - 3)^2\\]",
+  question: "Sketch the graph of:<br>\\[y = 2(x + 1)(x - 3)^2\\]",
   solution: "Cubic graph with roots x = -1, x = 3, y-intercept = 18"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = (x - 1)(x + 2)(x - 2)(x + 1)\\]",
+  question: "Sketch the graph of:<br>\\[y = (x - 1)(x + 2)(x - 2)(x + 1)\\]",
   solution: "Quartic graph with roots x = 1, x = -2, x = 2, x = -1, y-intercept = 4"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = (x - 3)^2(x + 2)^2\\]",
+  question: "Sketch the graph of:<br>\\[y = (x - 3)^2(x + 2)^2\\]",
   solution: "Quartic graph with roots x = 3 (Turning Point), x = -2 (Turning Point), y-intercept = 36"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 3(x + 1)^2(x - 2)\\]",
+  question: "Sketch the graph of:<br>\\[y = 3(x + 1)^2(x - 2)\\]",
   solution: "Cubic graph with roots x = -1 (Turning Point), x = 2, y-intercept = -6"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 5(3x - 2)(x + 1)^2\\]",
+  question: "Sketch the graph of:<br>\\[y = 5(3x - 2)(x + 1)^2\\]",
   solution: "Cubic graph with roots x = 2/3, x = -1 (Turning Point), y-intercept = -10"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 2(x - 4)(x + 1)(x - 1)\\]",
+  question: "Sketch the graph of:<br>\\[y = 2(x - 4)(x + 1)(x - 1)\\]",
   solution: "Cubic graph with roots x = 4, x = -1, x = 1, y-intercept = 8"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 5(x + 2)^2(x - 3)\\]",
+  question: "Sketch the graph of:<br>\\[y = 5(x + 2)^2(x - 3)\\]",
   solution: "Cubic graph with roots x = -2 (Turning Point), x = 3, y-intercept = -60"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 3(x + 1)^2(x - 2)^2\\]",
+  question: "Sketch the graph of:<br>\\[y = 3(x + 1)^2(x - 2)^2\\]",
   solution: "Quartic graph with roots x = -1 (Turning Point), x = 2 (Turning Point), y-intercept = 12"
 },
 {
   topic: "Graph Sketching",
   level: "Year 12",
-  question: "Sketch the graph of:<br><br>\\[y = 5(x - 1)^2(x + 3)\\]",
+  question: "Sketch the graph of:<br>\\[y = 5(x - 1)^2(x + 3)\\]",
   solution: "Cubic graph with roots x = 1 (Turning Point), x = -3, y-intercept = 15"
 },
 
@@ -150,146 +150,146 @@ const alevelQuestions = [
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br><br>\\[(1 + 2x)^5\\]",
+  question: "Find the first three terms in the expansion of:<br>\\[(1 + 2x)^5\\]",
   solution: "1 + 10x + 40x^2"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the coefficient of \\(x^3\\) in the expansion of:<br><br>\\[(2 - 3x)^6\\]",
+  question: "Find the coefficient of \\(x^3\\) in the expansion of:<br>\\[(2 - 3x)^6\\]",
   solution: "-540"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the first four terms in the expansion of:<br><br>\\[(1 - x)^7\\]",
+  question: "Find the first four terms in the expansion of:<br>\\[(1 - x)^7\\]",
   solution: "1 - 7x + 21x^2 - 35x^3"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the coefficient of \\(x^4\\) in the expansion of:<br><br>\\[(3 + x)^6\\]",
+  question: "Find the coefficient of \\(x^4\\) in the expansion of:<br>\\[(3 + x)^6\\]",
   solution: "405"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Expand fully:<br><br>\\[(1 + x)^4\\]",
+  question: "Expand fully:<br>\\[(1 + x)^4\\]",
   solution: "1 + 4x + 6x^2 + 4x^3 + x^4"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br><br>\\[(2 + x)^5\\]",
+  question: "Find the first three terms in the expansion of:<br>\\[(2 + x)^5\\]",
   solution: "32 + 80x + 80x^2"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the coefficient of \\(x^2\\) in the expansion of:<br><br>\\[(1 - 2x)^5\\]",
+  question: "Find the coefficient of \\(x^2\\) in the expansion of:<br>\\[(1 - 2x)^5\\]",
   solution: "40"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Expand fully:<br><br>\\[(2 + x)^3\\]",
+  question: "Expand fully:<br>\\[(2 + x)^3\\]",
   solution: "8 + 12x + 6x^2 + x^3"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the coefficient of \\(x^3\\) in the expansion of:<br><br>\\[(1 + 3x)^5\\]",
+  question: "Find the coefficient of \\(x^3\\) in the expansion of:<br>\\[(1 + 3x)^5\\]",
   solution: "405"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the first four terms in the expansion of:<br><br>\\[(1 + 2x)^4\\]",
+  question: "Find the first four terms in the expansion of:<br>\\[(1 + 2x)^4\\]",
   solution: "1 + 8x + 24x^2 + 32x^3"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Expand fully:<br><br>\\[(x + 1)^5\\]",
+  question: "Expand fully:<br>\\[(x + 1)^5\\]",
   solution: "x^5 + 5x^4 + 10x^3 + 10x^2 + 5x + 1"
 },
 {
   topic: "Binomial Expansion",
   level: "Year 12",
-  question: "Find the coefficient of \\(x^2\\) in the expansion of:<br><br>\\[(3 - x)^4\\]",
+  question: "Find the coefficient of \\(x^2\\) in the expansion of:<br>\\[(3 - x)^4\\]",
   solution: "54"
 },
 
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(-4, 5) \\text{ and the midpoint of } (1, 4) \\text{ and } (7, 8)\\]",
+  question: "Find the exact distance between:<br>\\[(-4, 5) \\text{ and the midpoint of } (1, 4) \\text{ and } (7, 8)\\]",
   solution: "Midpoint: (4, 6)<br>Exact distance: \\(\\sqrt{65}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(2, -1) \\text{ and the midpoint of } (4, 3) \\text{ and } (8, 7)\\]",
+  question: "Find the exact distance between:<br>\\[(2, -1) \\text{ and the midpoint of } (4, 3) \\text{ and } (8, 7)\\]",
   solution: "Midpoint: (6, 5)<br>Exact distance: \\(2\\sqrt{13}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(0, 6) \\text{ and the midpoint of } (-2, 2) \\text{ and } (4, 10)\\]",
+  question: "Find the exact distance between:<br>\\[(0, 6) \\text{ and the midpoint of } (-2, 2) \\text{ and } (4, 10)\\]",
   solution: "Midpoint: (1, 6)<br>Exact distance: 1"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(6, 3) \\text{ and the midpoint of } (1, -2) \\text{ and } (9, 6)\\]",
+  question: "Find the exact distance between:<br>\\[(6, 3) \\text{ and the midpoint of } (1, -2) \\text{ and } (9, 6)\\]",
   solution: "Midpoint: (5, 2)<br>Exact distance: \\(\\sqrt{2}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(-3, -4) \\text{ and the midpoint of } (1, 0) \\text{ and } (7, 6)\\]",
+  question: "Find the exact distance between:<br>\\[(-3, -4) \\text{ and the midpoint of } (1, 0) \\text{ and } (7, 6)\\]",
   solution: "Midpoint: (4, 3)<br>Exact distance: \\(7\\sqrt{2}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(4, -1) \\text{ and the midpoint of } (2, -6) \\text{ and } (10, 2)\\]",
+  question: "Find the exact distance between:<br>\\[(4, -1) \\text{ and the midpoint of } (2, -6) \\text{ and } (10, 2)\\]",
   solution: "Midpoint: (6, -2)<br>Exact distance: \\(\\sqrt{5}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(3, 5) \\text{ and the midpoint of } (-3, 3) \\text{ and } (5, 11)\\]",
+  question: "Find the exact distance between:<br>\\[(3, 5) \\text{ and the midpoint of } (-3, 3) \\text{ and } (5, 11)\\]",
   solution: "Midpoint: (1, 7)<br>Exact distance: \\(2\\sqrt{2}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(-2, 1) \\text{ and the midpoint of } (4, -3) \\text{ and } (8, 5)\\]",
+  question: "Find the exact distance between:<br>\\[(-2, 1) \\text{ and the midpoint of } (4, -3) \\text{ and } (8, 5)\\]",
   solution: "Midpoint: (6, 1)<br>Exact distance: 8"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(3, -5) \\text{ and the midpoint of } (-1, -1) \\text{ and } (7, 3)\\]",
+  question: "Find the exact distance between:<br>\\[(3, -5) \\text{ and the midpoint of } (-1, -1) \\text{ and } (7, 3)\\]",
   solution: "Midpoint: (3, 1)<br>Exact distance: 6"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(0, 0) \\text{ and the midpoint of } (6, 2) \\text{ and } (10, 6)\\]",
+  question: "Find the exact distance between:<br>\\[(0, 0) \\text{ and the midpoint of } (6, 2) \\text{ and } (10, 6)\\]",
   solution: "Midpoint: (8, 4)<br>Exact distance: \\(4\\sqrt{5}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(-5, 4) \\text{ and the midpoint of } (-1, 0) \\text{ and } (7, 8)\\]",
+  question: "Find the exact distance between:<br>\\[(-5, 4) \\text{ and the midpoint of } (-1, 0) \\text{ and } (7, 8)\\]",
   solution: "Midpoint: (3, 4)<br>Exact distance: 8"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br><br>\\[(4, 1) \\text{ and the midpoint of } (-2, -3) \\text{ and } (6, 5)\\]",
+  question: "Find the exact distance between:<br>\\[(4, 1) \\text{ and the midpoint of } (-2, -3) \\text{ and } (6, 5)\\]",
   solution: "Midpoint: (2, 1)<br>Exact distance: 2"
 },
 

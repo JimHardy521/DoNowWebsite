@@ -1173,7 +1173,7 @@ const alevelQuestions = [
 {
   topic: "Quadratic Inequalities",
   level: "Year 12",
-  question: "Solve the inequality:\n\n\\[3x^2 + 2x - 8 \ge 0\\]",
+  question: "Solve the inequality:\n\n\\[3x^2 + 2x - 8 \\ge 0\\]",
   solution: "\\[x \\le -2 \\text{ or } x \\ge \\frac{4}{3}\\]"
 },
 

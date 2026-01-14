@@ -2,73 +2,73 @@ const alevelQuestions = [
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 - 3x)^4\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.994)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 3x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.994)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 12x + 54x^2\\)<br>Using \\(x = 0.002\\)<br>Approximation: \\(0.9763\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 + 2x)^5\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.02)^5\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 2x)^5\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.02)^5\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 10x + 40x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.1041\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 - 4x)^3\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.992)^3\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 4x)^3\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.992)^3\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 12x + 48x^2\\)<br>Using \\(x = 0.002\\)<br>Approximation: \\(0.9762\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 + 5x)^4\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.015)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 5x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.015)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 20x + 150x^2\\)<br>Using \\(x = 0.003\\)<br>Approximation: \\(1.0614\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 - 2x)^6\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.996)^6\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 2x)^6\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.996)^6\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 12x + 60x^2\\)<br>Using \\(x = 0.002\\)<br>Approximation: \\(0.9761\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 + 3x)^5\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.03)^5\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 3x)^5\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.03)^5\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 15x + 90x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.1593\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 - x)^8\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.99)^8\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - x)^8\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.99)^8\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 8x + 28x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(0.9227\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 + 4x)^3\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.04)^3\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 4x)^3\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.04)^3\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 12x + 48x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.1248\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 - 5x)^4\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.975)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 5x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.975)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 20x + 150x^2\\)<br>Using \\(x = 0.005\\)<br>Approximation: \\(0.9037\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 + x)^6\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.01)^6\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + x)^6\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.01)^6\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 6x + 15x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.0615\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 - 3x)^5\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.985)^5\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 3x)^5\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.985)^5\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 15x + 90x^2\\)<br>Using \\(x = 0.005\\)<br>Approximation: \\(0.9276\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of:<br>\\[(1 + 2x)^4\\]<br>in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.02)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 2x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.02)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 8x + 24x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.0824\\)"
 },
 

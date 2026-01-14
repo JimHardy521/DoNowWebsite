@@ -14,9 +14,7 @@ body {
   padding:20px;
 }
 
-h1 {
-  text-align:center;
-}
+h1 { text-align:center; }
 
 table {
   width:100%;
@@ -79,14 +77,11 @@ button:disabled {
 
 <div class="actions">
   <label style="font-weight:600; margin-right:6px;">Title:</label>
-  <input type="text" id="worksheetTitle" style="width:280px;">
+  <input type="text" id="worksheetTitle" style="width:300px;">
 
   <br><br>
 
-  <label style="font-weight:600; margin-right:6px;">
-    Number of questions:
-  </label>
-
+  <label style="font-weight:600; margin-right:6px;">Number of questions:</label>
   <select id="questionCount">
     <option value="8">8</option>
     <option value="12">12</option>
@@ -104,61 +99,64 @@ button:disabled {
 </div>
 
 <script>
-// ---------------- UTIL ----------------
-function getLevelFromURL() {
+// ---------- URL HELPERS ----------
+function getParam(name, fallback) {
   const params = new URLSearchParams(window.location.search);
-  return params.get("level") || "Higher";
+  return params.get(name) || fallback;
 }
 
-function getSourceFromURL() {
-  const params = new URLSearchParams(window.location.search);
-  return params.get("source") || "gcse";
+const source = getParam("source", "gcse");
+const level  = getParam("level", "Higher");
+
+// ---------- GLOBAL DATA ----------
+let questionsData = [];
+
+// ---------- LOAD QUESTION BANK ----------
+const script = document.createElement("script");
+
+if (source === "alevel") {
+  script.src = "alevelquestions.js";
+  script.onload = () => {
+    questionsData = alevelQuestions;
+    buildTopicTable();
+  };
 }
-
-function shuffle(arr) {
-  return arr.sort(() => Math.random() - 0.5);
-}
-
-// ---------------- GLOBAL QUESTIONS ----------------
-let questionsData;
-
-// Dynamically load the correct JS file if needed
-const source = getSourceFromURL();
-if (source === "l2further") {
-  const script = document.createElement("script");
+else if (source === "l2further") {
   script.src = "l2furtherquestions.js";
   script.onload = () => {
     questionsData = l2FurtherQuestions;
     buildTopicTable();
   };
-  document.head.appendChild(script);
-} else {
-  const script = document.createElement("script");
+}
+else {
   script.src = "gcseQuestions.js";
   script.onload = () => {
     questionsData = gcseQuestions;
     buildTopicTable();
   };
-  document.head.appendChild(script);
 }
 
-// ---------------- BUILD TABLE ----------------
-function buildTopicTable() {
-  if (!questionsData) return;
+document.head.appendChild(script);
 
-  const level = getLevelFromURL();
+// ---------- BUILD TOPIC TABLE ----------
+function buildTopicTable() {
+
   document.getElementById("levelHeading").textContent =
+    source === "alevel" ? `Level: ${level}` :
+    source === "l2further" ? "Level 2 Further Maths" :
     `Level: ${level}`;
 
   document.getElementById("worksheetTitle").value =
-    source === "l2further" ? "Level 2 Further Maths – Revision Worksheet"
-                            : "GCSE Maths – Revision Worksheet";
+    source === "alevel" ? `A Level Maths – ${level} Revision Worksheet` :
+    source === "l2further" ? "Level 2 Further Maths – Revision Worksheet" :
+    "GCSE Maths – Revision Worksheet";
 
-  const topics = [...new Set(
-    questionsData
-      .filter(q => q.level === level || source === "l2further") // l2further may not have level field
-      .map(q => q.topic)
-  )].sort((a,b)=>a.localeCompare(b));
+  const filtered = questionsData.filter(q =>
+    source === "l2further" || q.level === level
+  );
+
+  const topics = [...new Set(filtered.map(q => q.topic))]
+    .sort((a,b)=>a.localeCompare(b));
 
   const tbody = document.getElementById("topicTable");
   tbody.innerHTML = "";
@@ -182,71 +180,78 @@ function buildTopicTable() {
     tbody.appendChild(row);
   });
 
-  document.getElementById("toggleAll").onchange = toggleAllTopics;
+  toggleAll.onchange = toggleAllTopics;
   updateState();
 }
 
-// ---------------- TOGGLE ALL ----------------
+// ---------- TOGGLES ----------
 function toggleAllTopics() {
-  const state = document.getElementById("toggleAll").checked;
-  document.querySelectorAll("#topicTable input[type='checkbox']")
+  const state = toggleAll.checked;
+  document
+    .querySelectorAll("#topicTable input[type='checkbox']")
     .forEach(cb => cb.checked = state);
   updateState();
 }
 
-// ---------------- STATE UPDATE ----------------
 function updateState() {
-  const boxes = document.querySelectorAll("#topicTable input[type='checkbox']");
-  const checked = [...boxes].filter(cb => cb.checked);
-
-  document.getElementById("toggleAll").checked =
-    checked.length === boxes.length;
-
-  document.getElementById("generateBtn").disabled =
-    checked.length === 0;
+  const boxes = [...document.querySelectorAll("#topicTable input[type='checkbox']")];
+  const checked = boxes.filter(cb => cb.checked);
+  toggleAll.checked = checked.length === boxes.length;
+  generateBtn.disabled = checked.length === 0;
 }
 
-// ---------------- GENERATE ----------------
+// ---------- UTIL ----------
+function shuffle(arr) {
+  return arr.sort(() => Math.random() - 0.5);
+}
+
+function matchesLevel(q) {
+  return source === "l2further" || q.level === level;
+}
+
+// ---------- GENERATE WORKSHEET ----------
 function generateWorksheet() {
-  const level = getLevelFromURL();
-  const total = parseInt(document.getElementById("questionCount").value);
-  const title =
-    document.getElementById("worksheetTitle").value.trim() ||
-    (source === "l2further" ? "Level 2 Further Maths – Revision Worksheet" 
-                             : "GCSE Maths – Revision Worksheet");
 
-  const topics = [...document.querySelectorAll(
-    "#topicTable input[type='checkbox']:checked"
-  )].map(cb => cb.dataset.topic);
+  const total = parseInt(questionCount.value);
+  const title = worksheetTitle.value.trim();
 
-  if (topics.length === 0) return;
+  const selectedTopics =
+    [...document.querySelectorAll("#topicTable input:checked")]
+      .map(cb => cb.dataset.topic);
+
+  if (selectedTopics.length === 0) return;
 
   const pools = {};
-  topics.forEach(t => {
-    pools[t] = shuffle(
-      questionsData.filter(q => q.topic === t)
+  selectedTopics.forEach(topic => {
+    pools[topic] = shuffle(
+      questionsData.filter(q =>
+        q.topic === topic && matchesLevel(q)
+      )
     );
   });
 
-  const base = Math.floor(total / topics.length);
+  const base = Math.floor(total / selectedTopics.length);
   let selected = [];
 
-  topics.forEach(t => {
-    selected = selected.concat(pools[t].splice(0, base));
+  // Fair share
+  selectedTopics.forEach(topic => {
+    selected = selected.concat(pools[topic].splice(0, base));
   });
 
+  // Top up evenly
   let safety = 0;
   while (selected.length < total && safety < 1000) {
     safety++;
-    for (const t of topics) {
+    for (const topic of selectedTopics) {
       if (selected.length >= total) break;
-      if (pools[t].length) selected.push(pools[t].shift());
+      if (pools[topic].length) {
+        selected.push(pools[topic].shift());
+      }
     }
   }
 
   if (selected.length < total) {
     alert(`Only ${selected.length} questions available.`);
-    return;
   }
 
   const win = window.open("", "_blank");
@@ -256,17 +261,11 @@ function generateWorksheet() {
   <head>
     <title>${title}</title>
     <style>
-      @page { size: A4; margin: 15mm; }
-      body { font-family: Inter, Arial; }
-      .header { display:flex; justify-content:flex-start; align-items:center; margin-bottom:10px; }
+      @page { size:A4; margin:15mm; }
+      body { font-family:Inter, Arial; }
       .header span { font-size:9pt; color:#bbb; }
-      h1 { text-align:center; font-size:18pt; margin:0; }
-      .meta {
-         margin-top: 14px;
-        text-align:center;
-        margin-bottom:18px;
-        font-size:11pt;
-      }
+      h1 { text-align:center; margin:0; }
+      .meta { margin-top:24px; text-align:center; margin-bottom:24px; }
       .q { margin-bottom:16px; }
       .answer { margin-bottom:14px; }
       .page-break { page-break-before: always; }
@@ -275,9 +274,7 @@ function generateWorksheet() {
   </head>
   <body>
 
-    <div class="header">
-      <span>mrhardymaths.co.uk</span>
-    </div>
+    <div class="header"><span>mrhardymaths.co.uk</span></div>
 
     <h1>${title}</h1>
 
@@ -313,8 +310,6 @@ function generateWorksheet() {
   win.onload = () =>
     win.MathJax.typesetPromise().then(() => win.print());
 }
-
-// ---------------- INIT ----------------
 </script>
 
 </body>

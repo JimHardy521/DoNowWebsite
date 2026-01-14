@@ -1,5 +1,78 @@
 const alevelQuestions = [
 {
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(x-3)(x+4)}{\\sqrt{x}}\\]",
+  solution: "\\[f(x) = x^{3/2} + x^{1/2} - 12x^{-1/2}\\]<br>\\[f'(x) = \\tfrac{3}{2}x^{1/2} + \\tfrac{1}{2}x^{-1/2} + 6x^{-3/2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(2x+1)(x-5)}{x}\\]",
+  solution: "\\[f(x) = 2x - 9 - 5x^{-1}\\]<br>\\[f'(x) = 2 + 5x^{-2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(x+2)^2}{\\sqrt{x}}\\]",
+  solution: "\\[f(x) = x^{3/2} + 4x^{1/2} + 4x^{-1/2}\\]<br>\\[f'(x) = \\tfrac{3}{2}x^{1/2} + 2x^{-1/2} - 2x^{-3/2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(x-1)(x-2)}{x}\\]",
+  solution: "\\[f(x) = x - 3 + 2x^{-1}\\]<br>\\[f'(x) = 1 - 2x^{-2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(3x-1)(x+2)}{\\sqrt{x}}\\]",
+  solution: "\\[f(x) = 3x^{3/2} + 5x^{1/2} - 2x^{-1/2}\\]<br>\\[f'(x) = \\tfrac{9}{2}x^{1/2} + \\tfrac{5}{2}x^{-1/2} + x^{-3/2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{x(x-4)}{x^2}\\]",
+  solution: "\\[f(x) = 1 - 4x^{-1}\\]<br>\\[f'(x) = 4x^{-2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{x^2 + 5x}{\\sqrt{x}}\\]",
+  solution: "\\[f(x) = x^{3/2} + 5x^{1/2}\\]<br>\\[f'(x) = \\tfrac{3}{2}x^{1/2} + \\tfrac{5}{2}x^{-1/2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{2x^2 - 3x + 6}{x}\\]",
+  solution: "\\[f(x) = 2x - 3 + 6x^{-1}\\]<br>\\[f'(x) = 2 - 6x^{-2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(x+5)(x-1)}{\\sqrt{x}}\\]",
+  solution: "\\[f(x) = x^{3/2} + 4x^{1/2} - 5x^{-1/2}\\]<br>\\[f'(x) = \\tfrac{3}{2}x^{1/2} + 2x^{-1/2} + \\tfrac{5}{2}x^{-3/2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(2x-3)^2}{x}\\]",
+  solution: "\\[f(x) = 4x - 12 + 9x^{-1}\\]<br>\\[f'(x) = 4 - 9x^{-2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{x^2 - 9}{\\sqrt{x}}\\]",
+  solution: "\\[f(x) = x^{3/2} - 9x^{-1/2}\\]<br>\\[f'(x) = \\tfrac{3}{2}x^{1/2} + \\tfrac{9}{2}x^{-3/2}\\]"
+},
+{
+  topic: "Differentiation - 1",
+  level: "Year 12",
+  question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(x+1)(x+3)}{x}\\]",
+  solution: "\\[f(x) = x + 4 + 3x^{-1}\\]<br>\\[f'(x) = 1 - 3x^{-2}\\]"
+},
+
+{
   topic: "Binomial Expansion - 2",
   level: "Year 12",
   question: "Find the first three terms in the expansion of: \\[(1 - 3x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.994)^4\\) to 4 decimal places.",

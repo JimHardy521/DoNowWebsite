@@ -1,5 +1,79 @@
 const alevelQuestions = [
 {
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 4x^2 + x\\]",
+  solution: "\\[\\frac{dy}{dx} = 8x + 1\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 3x^2 - 5x\\]",
+  solution: "\\[\\frac{dy}{dx} = 6x - 5\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 2x^2 + 7x\\]",
+  solution: "\\[\\frac{dy}{dx} = 4x + 7\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = x^2 - 4x\\]",
+  solution: "\\[\\frac{dy}{dx} = 2x - 4\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 5x^2 - x\\]",
+  solution: "\\[\\frac{dy}{dx} = 10x - 1\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 7x^2 + 3x\\]",
+  solution: "\\[\\frac{dy}{dx} = 14x + 3\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = x^2 + 9x\\]",
+  solution: "\\[\\frac{dy}{dx} = 2x + 9\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 6x^2 - 3x\\]",
+  solution: "\\[\\frac{dy}{dx} = 12x - 3\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 2x^2 + 5x\\]",
+  solution: "\\[\\frac{dy}{dx} = 4x + 5\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 9x^2 - 2x\\]",
+  solution: "\\[\\frac{dy}{dx} = 18x - 2\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = x^2 - x\\]",
+  solution: "\\[\\frac{dy}{dx} = 2x - 1\\]"
+},
+{
+  topic: "Differentiation - First Principles",
+  level: "Year 12",
+  question: "Differentiate, from first principles:<br>\\[y = 4x^2 - 6x\\]",
+  solution: "\\[\\frac{dy}{dx} = 8x - 6\\]"
+},
+
+  
+{
   topic: "Differentiation - 1",
   level: "Year 12",
   question: "Find \\(f'(x)\\) when:<br>\\[f(x) = \\frac{(x-3)(x+4)}{\\sqrt{x}}\\]",

@@ -1,5 +1,78 @@
 const alevelQuestions = [
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = 2x^3 + 5x^2 + ax - a\\]<br>If \\(x - 5\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = -75\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = x^3 - 4x^2 + ax + 6\\]<br>If \\(x + 2\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = -9\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = 3x^3 + ax^2 - 7x - 6\\]<br>If \\(x - 1\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 10\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = x^3 + ax^2 - 9x + 5\\]<br>If \\(x + 1\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 3\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = 2x^3 - ax^2 + 4x - 8\\]<br>If \\(x - 2\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 4\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = x^3 - 5x^2 + ax + 4\\]<br>If \\(x - 4\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = -4\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = 4x^3 + x^2 - ax - 6\\]<br>If \\(x + 1\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 9\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = x^3 + 2x^2 + ax - 4\\]<br>If \\(x - 2\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = -6\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = 3x^3 - 2x^2 + ax - 1\\]<br>If \\(x + 1\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 6\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = 2x^3 + ax^2 - 3x - 4\\]<br>If \\(x - 1\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 5\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = x^3 - ax^2 + 6x - 8\\]<br>If \\(x - 2\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 4\\)"
+},
+{
+  topic: "Factor Theorem",
+  level: "Year 12",
+  question: "The function \\(f(x)\\) is defined by:<br>\\[f(x) = 5x^3 + x^2 + ax - 7\\]<br>If \\(x + 1\\) is a factor of \\(f(x)\\), find \\(a\\).",
+  solution: "\\(a = 11\\)"
+},
 
+  
 {
   topic: "Trig Equations",
   level: "Year 12",

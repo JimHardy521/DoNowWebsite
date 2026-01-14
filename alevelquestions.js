@@ -75,73 +75,73 @@ const alevelQuestions = [
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x + 2)\\) are factors of:<br>\\[f(x) = x^3 + px^2 - 5x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x + 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 5x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x - 1)(x + 2)(x - 3)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 1)\\) and \\((x - 4)\\) are factors of:<br>\\[f(x) = 2x^3 + px^2 + x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 1)\\) and \\((x - 4)\\) are factors of: \\[f(x) = 2x^3 + px^2 + x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(2x - 3)(x + 1)(x - 4)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 3)\\) and \\((x - 2)\\) are factors of:<br>\\[f(x) = x^3 + px^2 - 11x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 3)\\) and \\((x - 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 11x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x + 3)(x - 2)(x - 5)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 2)\\) and \\((x + 4)\\) are factors of:<br>\\[f(x) = 3x^3 + px^2 - 22x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 2)\\) and \\((x + 4)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 22x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(3x + 1)(x - 2)(x + 4)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 4)\\) and \\((x + 1)\\) are factors of:<br>\\[f(x) = x^3 + px^2 - 22x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 4)\\) and \\((x + 1)\\) are factors of: \\[f(x) = x^3 + px^2 - 22x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x - 4)(x + 1)(x + 6)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x - 3)\\) are factors of:<br>\\[f(x) = 2x^3 + px^2 - 14x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x - 3)\\) are factors of: \\[f(x) = 2x^3 + px^2 - 14x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(2x + 5)(x - 1)(x - 3)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 2)\\) and \\((x + 3)\\) are factors of:<br>\\[f(x) = x^3 + px^2 - 14x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 2)\\) and \\((x + 3)\\) are factors of: \\[f(x) = x^3 + px^2 - 14x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x + 2)(x + 3)(x - 4)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 1)\\) and \\((x - 5)\\) are factors of:<br>\\[f(x) = 3x^3 + px^2 - 7x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 1)\\) and \\((x - 5)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 7x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(3x - 2)(x + 1)(x - 5)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 2)\\) and \\((x - 3)\\) are factors of:<br>\\[f(x) = x^3 + px^2 + qx + 30\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 2)\\) and \\((x - 3)\\) are factors of: \\[f(x) = x^3 + px^2 + qx + 30\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x - 2)(x - 3)(x + 5)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 2)\\) and \\((x - 3)\\) are factors of:<br>\\[f(x) = 2x^3 + px^2 + qx - 6\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 2)\\) and \\((x - 3)\\) are factors of: \\[f(x) = 2x^3 + px^2 + qx - 6\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(2x + 1)(x + 2)(x - 3)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x - 2)\\) are factors of:<br>\\[f(x) = x^3 + px^2 - 10x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x - 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 10x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x + 4)(x - 1)(x - 2)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x + 3)\\) are factors of:<br>\\[f(x) = 3x^3 + px^2 - 5x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x + 3)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 5x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(3x + 2)(x - 1)(x + 3)"
 },
 

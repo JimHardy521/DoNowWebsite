@@ -1,4 +1,13 @@
 const alevelQuestions = [
+/* - Year 13 content */
+
+     {
+      topic: "Placeholders - Year 13",
+      level: "Year 13",
+      question: "I'm currently building the Year 13 set of questions - come back soon",
+      solution: "Thanks!"
+    },  
+  
 {
   topic: "Differentiation - First Principles",
   level: "Year 12",
@@ -1469,17 +1478,7 @@ const alevelQuestions = [
     level: "Year 12",
     question: "Expand and simplify:\n\n\\[(3x + 1)(x + 2)(x - 1)\\]",
     solution: "\\[3x^3 + 4x^2 - x - 2\\]"
-  },
-
-
-/* - Year 13 content */
-
-     {
-      topic: "Placeholders - Year 13",
-      level: "Year 13",
-      question: "I'm currently building the Year 13 set of questions - come back soon",
-      solution: "Thanks!"
-    }  
+  }
   
   ];
   

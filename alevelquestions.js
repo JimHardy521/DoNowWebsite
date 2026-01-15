@@ -1,19 +1,361 @@
 const alevelQuestions = [
-/* - Year 13 content */
 
-     {
-      topic: "Placeholders - Year 13",
-      level: "Year 13",
-      question: "I'm currently building the Year 13 set of questions - come back soon",
-      solution: "Thanks!"
-    },  
-  
 {
-  topic: "Differentiation - First Principles",
-  level: "Year 12",
-  question: "Differentiate, from first principles:<br>\\[y = 4x^2 + x\\]",
-  solution: "\\[\\frac{dy}{dx} = 8x + 1\\]"
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{\\pi/2} x\\sin(4x)\\,dx = -\\tfrac{\\pi}{8} \\].",
+  solution: "Let \\(u = x\\), \\(dv = \\sin(4x)dx\\).<br>\\[ = \\left[-\\tfrac{1}{4}x\\cos(4x)\\right]_0^{\\pi/2} + \\tfrac{1}{4}\\int_0^{\\pi/2}\\cos(4x)\\,dx \\]<br>\\[ = \\left[-\\tfrac{1}{4}x\\cos(4x) + \\tfrac{1}{16}\\sin(4x)\\right]_0^{\\pi/2} \\]"
 },
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{\\pi} x\\cos x\\,dx = -2 \\].",
+  solution: "Let \\(u = x\\), \\(dv = \\cos x\\,dx\\).<br>\\[ = \\left[x\\sin x\\right]_0^{\\pi} - \\int_0^{\\pi}\\sin x\\,dx \\]<br>\\[ = \\left[x\\sin x + \\cos x\\right]_0^{\\pi} \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{\\pi} x\\sin x\\,dx = \\pi \\].",
+  solution: "Let \\(u = x\\), \\(dv = \\sin x\\,dx\\).<br>\\[ = \\left[-x\\cos x\\right]_0^{\\pi} + \\int_0^{\\pi}\\cos x\\,dx \\]<br>\\[ = \\left[-x\\cos x + \\sin x\\right]_0^{\\pi} \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{1} x e^x\\,dx = 1 \\].",
+  solution: "Let \\(u = x\\), \\(dv = e^x dx\\).<br>\\[ = \\left[xe^x\\right]_0^1 - \\int_0^1 e^x\\,dx \\]<br>\\[ = \\left[xe^x - e^x\\right]_0^1 \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{1} x e^{2x}\\,dx = \\tfrac{1}{2} \\].",
+  solution: "Let \\(u = x\\), \\(dv = e^{2x}dx\\).<br>\\[ = \\left[\\tfrac{1}{2}xe^{2x}\\right]_0^1 - \\tfrac{1}{2}\\int_0^1 e^{2x}\\,dx \\]<br>\\[ = \\left[\\tfrac{1}{2}xe^{2x} - \\tfrac{1}{4}e^{2x}\\right]_0^1 \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_1^{e} \\ln x\\,dx = 1 \\].",
+  solution: "Let \\(u = \\ln x\\), \\(dv = dx\\).<br>\\[ = \\left[x\\ln x\\right]_1^e - \\int_1^e 1\\,dx \\]<br>\\[ = \\left[x\\ln x - x\\right]_1^e \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{1} x\\ln x\\,dx = -\\tfrac{1}{4} \\].",
+  solution: "Let \\(u = \\ln x\\), \\(dv = xdx\\).<br>\\[ = \\left[\\tfrac{1}{2}x^2\\ln x\\right]_0^1 - \\tfrac{1}{2}\\int_0^1 x\\,dx \\]<br>\\[ = \\left[\\tfrac{1}{2}x^2\\ln x - \\tfrac{1}{4}x^2\\right]_0^1 \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{\\pi} x\\sin(2x)\\,dx = -\\tfrac{\\pi}{2} \\].",
+  solution: "Let \\(u = x\\), \\(dv = \\sin(2x)dx\\).<br>\\[ = \\left[-\\tfrac{1}{2}x\\cos(2x)\\right]_0^{\\pi} + \\tfrac{1}{2}\\int_0^{\\pi}\\cos(2x)\\,dx \\]<br>\\[ = \\left[-\\tfrac{1}{2}x\\cos(2x) + \\tfrac{1}{4}\\sin(2x)\\right]_0^{\\pi} \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{\\pi} x\\cos(2x)\\,dx = 0 \\].",
+  solution: "Let \\(u = x\\), \\(dv = \\cos(2x)dx\\).<br>\\[ = \\left[\\tfrac{1}{2}x\\sin(2x)\\right]_0^{\\pi} - \\tfrac{1}{2}\\int_0^{\\pi}\\sin(2x)\\,dx \\]<br>\\[ = \\left[\\tfrac{1}{2}x\\sin(2x) + \\tfrac{1}{4}\\cos(2x)\\right]_0^{\\pi} \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{\\pi/2} x\\cos(3x)\\,dx = -\\tfrac{\\pi}{6} \\].",
+  solution: "Let \\(u = x\\), \\(dv = \\cos(3x)dx\\).<br>\\[ = \\left[\\tfrac{1}{3}x\\sin(3x)\\right]_0^{\\pi/2} - \\tfrac{1}{3}\\int_0^{\\pi/2}\\sin(3x)\\,dx \\]<br>\\[ = \\left[\\tfrac{1}{3}x\\sin(3x) + \\tfrac{1}{9}\\cos(3x)\\right]_0^{\\pi/2} \\]"
+},
+{
+  topic: "Integration - By Parts",
+  level: "Year 13",
+  question: "Show that<br>\\[ \\int_0^{1} x^2 e^x\\,dx = e - 2 \\].",
+  solution: "Let \\(u = x^2\\), \\(dv = e^x dx\\).<br>\\[ = \\left[x^2 e^x\\right]_0^1 - \\int_0^1 2x e^x\\,dx \\]<br>\\[ = \\left[x^2 e^x - 2(x - 1)e^x\\right]_0^1 \\]"
+},
+
+ 
+ {
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(4\\theta) + 2\\sin(3\\theta) - \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\]<br>where \\( A \\), \\( B \\) and \\( C \\) are constants to be found.",
+  solution: "\\[ \\approx 1 + 4\\theta - 8\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) + \\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{1}{2}\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 3\\tan(\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(\\theta) + \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 3\\theta \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(3\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 - \\theta - \\tfrac{9}{2}\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\cos(\\theta) + \\tan(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 2 + 3\\theta - \\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(3\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(\\theta) + \\cos(4\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 + \\theta - 8\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) - 2\\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx -2 + 2\\theta + \\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(\\theta) + \\tan(\\theta) - 1 \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx \\theta - \\tfrac{1}{2}\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\sin(\\theta) + \\cos(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{9}{2}\\theta^2 \\]"
+},
+{
+  topic: "Small Angle Approximations",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(2\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx \\theta \\]"
+},
+
+  {
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (x^3 + 5x)^7 \\]",
+  solution: "Let \\( u = x^3 + 5x \\).<br>\\( \\dfrac{dy}{du} = 7u^6 \\)<br>\\( \\dfrac{du}{dx} = 3x^2 + 5 \\)<br>\\[ \\dfrac{dy}{dx} = 7(x^3 + 5x)^6(3x^2 + 5) \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (2x - 1)^5 \\]",
+  solution: "Let \\( u = 2x - 1 \\).<br>\\( \\dfrac{dy}{du} = 5u^4 \\)<br>\\( \\dfrac{du}{dx} = 2 \\)<br>\\[ \\dfrac{dy}{dx} = 10(2x - 1)^4 \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (x^2 + 4)^9 \\]",
+  solution: "Let \\( u = x^2 + 4 \\).<br>\\( \\dfrac{dy}{du} = 9u^8 \\)<br>\\( \\dfrac{du}{dx} = 2x \\)<br>\\[ \\dfrac{dy}{dx} = 18x(x^2 + 4)^8 \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\sqrt{3x^2 - x + 1} \\]",
+  solution: "Rewrite as \\( y = (3x^2 - x + 1)^{1/2} \\).<br>Let \\( u = 3x^2 - x + 1 \\).<br>\\( \\dfrac{dy}{du} = \\tfrac{1}{2}u^{-1/2} \\)<br>\\( \\dfrac{du}{dx} = 6x - 1 \\)<br>\\[ \\dfrac{dy}{dx} = \\dfrac{6x - 1}{2\\sqrt{3x^2 - x + 1}} \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (5 - x^4)^6 \\]",
+  solution: "Let \\( u = 5 - x^4 \\).<br>\\( \\dfrac{dy}{du} = 6u^5 \\)<br>\\( \\dfrac{du}{dx} = -4x^3 \\)<br>\\[ \\dfrac{dy}{dx} = -24x^3(5 - x^4)^5 \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (x^2 - 3x + 1)^{-4} \\]",
+  solution: "Let \\( u = x^2 - 3x + 1 \\).<br>\\( \\dfrac{dy}{du} = -4u^{-5} \\)<br>\\( \\dfrac{du}{dx} = 2x - 3 \\)<br>\\[ \\dfrac{dy}{dx} = -4(2x - 3)(x^2 - 3x + 1)^{-5} \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = e^{4x^2 - 7} \\]",
+  solution: "Let \\( u = 4x^2 - 7 \\).<br>\\( \\dfrac{dy}{du} = e^u \\)<br>\\( \\dfrac{du}{dx} = 8x \\)<br>\\[ \\dfrac{dy}{dx} = 8xe^{4x^2 - 7} \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\ln(3x^2 + 2x + 1) \\]",
+  solution: "Let \\( u = 3x^2 + 2x + 1 \\).<br>\\( \\dfrac{dy}{du} = \\dfrac{1}{u} \\)<br>\\( \\dfrac{du}{dx} = 6x + 2 \\)<br>\\[ \\dfrac{dy}{dx} = \\dfrac{6x + 2}{3x^2 + 2x + 1} \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (\\sin x)^5 \\]",
+  solution: "Let \\( u = \\sin x \\).<br>\\( \\dfrac{dy}{du} = 5u^4 \\)<br>\\( \\dfrac{du}{dx} = \\cos x \\)<br>\\[ \\dfrac{dy}{dx} = 5(\\sin x)^4\\cos x \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\cos(2x^3) \\]",
+  solution: "Let \\( u = 2x^3 \\).<br>\\( \\dfrac{dy}{du} = -\\sin u \\)<br>\\( \\dfrac{du}{dx} = 6x^2 \\)<br>\\[ \\dfrac{dy}{dx} = -6x^2\\sin(2x^3) \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (1 + e^x)^4 \\]",
+  solution: "Let \\( u = 1 + e^x \\).<br>\\( \\dfrac{dy}{du} = 4u^3 \\)<br>\\( \\dfrac{du}{dx} = e^x \\)<br>\\[ \\dfrac{dy}{dx} = 4e^x(1 + e^x)^3 \\]"
+},
+{
+  topic: "Differentiation - Chain Rule",
+  level: "Year 13",
+  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\sqrt{1 - \\cos x} \\]",
+  solution: "Rewrite as \\( y = (1 - \\cos x)^{1/2} \\).<br>Let \\( u = 1 - \\cos x \\).<br>\\( \\dfrac{dy}{du} = \\tfrac{1}{2}u^{-1/2} \\)<br>\\( \\dfrac{du}{dx} = \\sin x \\)<br>\\[ \\dfrac{dy}{dx} = \\dfrac{\\sin x}{2\\sqrt{1 - \\cos x}} \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\). Simplify your answer.<br>\\[ y = e^{-x}(\\sin x + \\cos x) \\]",
+  solution: "Let \\( u = e^{-x} \\), \\( v = \\sin x + \\cos x \\).<br>\\[ \\dfrac{dy}{dx} = -2e^{-x}\\sin x \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Given that<br>\\[ y = x^4\\tan(2x) \\]<br>find \\( \\dfrac{dy}{dx} \\).",
+  solution: "Let \\( u = x^4 \\), \\( v = \\tan(2x) \\).<br>\\[ \\dfrac{dy}{dx} = 4x^3\\tan(2x) + 2x^4\\sec^2(2x) \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^2 e^{3x} \\]",
+  solution: "Let \\( u = x^2 \\), \\( v = e^{3x} \\).<br>\\[ \\dfrac{dy}{dx} = 2xe^{3x} + 3x^2e^{3x} \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x\\ln x \\]",
+  solution: "Let \\( u = x \\), \\( v = \\ln x \\).<br>\\[ \\dfrac{dy}{dx} = \\ln x + 1 \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^3\\sin x \\]",
+  solution: "Let \\( u = x^3 \\), \\( v = \\sin x \\).<br>\\[ \\dfrac{dy}{dx} = 3x^2\\sin x + x^3\\cos x \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = (2x - 1)e^x \\]",
+  solution: "Let \\( u = 2x - 1 \\), \\( v = e^x \\).<br>\\[ \\dfrac{dy}{dx} = (2x + 1)e^x \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^2\\ln(3x) \\]",
+  solution: "Let \\( u = x^2 \\), \\( v = \\ln(3x) \\).<br>\\[ \\dfrac{dy}{dx} = 2x\\ln(3x) + x \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x\\cos(2x) \\]",
+  solution: "Let \\( u = x \\), \\( v = \\cos(2x) \\).<br>\\[ \\dfrac{dy}{dx} = \\cos(2x) - 2x\\sin(2x) \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = (x^2 + 1)\\ln x \\]",
+  solution: "Let \\( u = x^2 + 1 \\), \\( v = \\ln x \\).<br>\\[ \\dfrac{dy}{dx} = 2x\\ln x + x + \\dfrac{1}{x} \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = xe^{-2x} \\]",
+  solution: "Let \\( u = x \\), \\( v = e^{-2x} \\).<br>\\[ \\dfrac{dy}{dx} = e^{-2x}(1 - 2x) \\]"
+},
+{
+  topic: "Differentiation - Product Rule",
+  level: "Year 13",
+  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^2\\sin^2 x \\]",
+  solution: "Let \\( u = x^2 \\), \\( v = \\sin^2 x \\).<br>\\[ \\dfrac{dy}{dx} = 2x\\sin^2 x + 2x^2\\sin x\\cos x \\]"
+},
+
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Given that<br>\\[ y = \\dfrac{x^3}{\\sin x} \\]<br>find \\( \\dfrac{dy}{dx} \\).",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{3x^2\\sin x - x^3\\cos x}{\\sin^2 x} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Given that<br>\\[ y = \\cosec x \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = -\\cosec x\\cot x \\).",
+  solution: "\\[ \\dfrac{dy}{dx} = -\\cosec x\\cot x \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Given that<br>\\[ y = \\dfrac{x}{\\sqrt{2x - 2}} \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = \\dfrac{x - 2}{(2x - 2)^{3/2}} \\).",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x - 2}{(2x - 2)^{3/2}} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{e^x}{x^2} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{xe^x - 2e^x}{x^3} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\ln x}{x} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{1 - \\ln x}{x^2} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{x^2 + 1}{x - 1} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x^2 - 2x - 1}{(x - 1)^2} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\sin x}{x} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x\\cos x - \\sin x}{x^2} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{x}{e^{2x}} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{1 - 2x}{e^{2x}} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\cos x}{x^2} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{-x\\sin x - 2\\cos x}{x^3} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{x^2}{\\ln x} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x(2\\ln x - 1)}{(\\ln x)^2} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\tan x}{x} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x\\sec^2 x - \\tan x}{x^2} \\]"
+},
+{
+  topic: "Differentiation - Quotient Rule",
+  level: "Year 13",
+  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{1}{x\\sin x} \\]",
+  solution: "\\[ \\dfrac{dy}{dx} = -\\dfrac{\\sin x + x\\cos x}{x^2\\sin^2 x} \\]"
+},
+
+
+  
+
 {
   topic: "Differentiation - First Principles",
   level: "Year 12",

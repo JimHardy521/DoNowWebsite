@@ -1,4 +1,77 @@
 const alevelQuestions = [
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, using the substitution \\( u = x^5 + 2 \\),<br>\\[ \\int_0^1 \\frac{x^9}{(x^5 + 2)^3}\\,dx = \\tfrac{1}{180} \\].",
+  solution: "Let \\(u = x^5 + 2\\), so \\(du = 5x^4 dx\\).<br>\\[ = \\tfrac{1}{5}\\int_2^3 \\frac{u-2}{u^3}\\,du \\]<br>\\[ = \\tfrac{1}{5}\\int_2^3 (u^{-2} - 2u^{-3})\\,du \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, letting \\( u = 2^x \\),<br>\\[ \\int_0^1 (3 + 2^x)^{1/2}\\,2^x\\ln 2\\,dx = 2(\\sqrt{5} - 2) \\].",
+  solution: "Let \\(u = 2^x\\), so \\(du = 2^x\\ln2\\,dx\\).<br>\\[ = \\int_1^2 (3+u)^{1/2}\\,du \\]<br>\\[ = \\left[ \\tfrac{2}{3}(3+u)^{3/2} \\right]_1^2 \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, using the substitution \\( u = x^2 + 1 \\),<br>\\[ \\int_0^1 \\frac{x}{(x^2 + 1)^2}\\,dx = \\tfrac{1}{4} \\].",
+  solution: "Let \\(u = x^2 + 1\\), so \\(du = 2x dx\\).<br>\\[ = \\tfrac{1}{2}\\int_1^2 u^{-2}\\,du \\] \\[ = \\tfrac{1}{2}\\left[-u^{-1}\\right]_1^2 \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, letting \\( u = e^x \\),<br>\\[ \\int_0^1 \\frac{e^x}{2 + e^x}\\,dx = \\ln\\left(\\tfrac{3}{2}\\right) \\].",
+  solution: "Let \\(u = e^x\\), so \\(du = e^x dx\\).<br>\\[ = \\int_1^e \\frac{1}{2+u}\\,du \\]<br>\\[ = \\left[ \\ln(2+u) \\right]_1^e \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, using the substitution \\( u = \\sqrt{x} \\),<br>\\[ \\int_0^1 \\sqrt{x}(1 + \\sqrt{x})^2\\,dx = \\tfrac{7}{15} \\].",
+  solution: "Let \\(u = \\sqrt{x}\\), so \\(x = u^2\\) and \\(dx = 2u\\,du\\).<br>\\[ = 2\\int_0^1 u^2(1+u)^2\\,du \\]<br>\\[ = 2\\int_0^1 (u^2 + 2u^3 + u^4)\\,du \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, letting \\( u = 1 - x^2 \\),<br>\\[ \\int_0^1 \\frac{x}{\\sqrt{1 - x^2}}\\,dx = 1 \\].",
+  solution: "Let \\(u = 1 - x^2\\), so \\(du = -2x dx\\).<br>\\[ = -\\tfrac{1}{2}\\int_1^0 u^{-1/2}\\,du \\]<br>\\[ = \\tfrac{1}{2}\\int_0^1 u^{-1/2}\\,du \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, using the substitution \\( u = 2x - 1 \\),<br>\\[ \\int_1^2 x\\sqrt{2x - 1}\\,dx = \\tfrac{19}{15} \\].",
+  solution: "Let \\(u = 2x - 1\\), so \\(dx = \\tfrac{1}{2}du\\).<br>\\[ = \\tfrac{1}{4}\\int_1^3 (u+1)u^{1/2}\\,du \\]<br>\\[ = \\tfrac{1}{4}\\int_1^3 (u^{3/2} + u^{1/2})\\,du \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, letting \\( u = \\ln x \\),<br>\\[ \\int_1^e \\frac{\\ln x}{x}\\,dx = \\tfrac{1}{2} \\].",
+  solution: "Let \\(u = \\ln x\\), so \\(du = \\tfrac{1}{x}dx\\).<br>\\[ = \\int_0^1 u\\,du \\]<br>\\[ = \\left[ \\tfrac{1}{2}u^2 \\right]_0^1 \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, using the substitution \\( u = x^3 \\),<br>\\[ \\int_0^1 x^2\\sqrt{1 + x^3}\\,dx = \\tfrac{2}{9}(2\\sqrt{2} - 1) \\].",
+  solution: "Let \\(u = x^3\\), so \\(du = 3x^2 dx\\).<br>\\[ = \\tfrac{1}{3}\\int_0^1 \\sqrt{1+u}\\,du \\]<br>\\[ = \\tfrac{1}{3}\\int_1^2 t^{1/2}\\,dt \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, letting \\( u = 5 - 2x \\),<br>\\[ \\int_1^2 \\frac{1}{\\sqrt{5 - 2x}}\\,dx = \\sqrt{3} - 1 \\].",
+  solution: "Let \\(u = 5 - 2x\\), so \\(dx = -\\tfrac{1}{2}du\\).<br>\\[ = -\\tfrac{1}{2}\\int_3^1 u^{-1/2}\\,du \\]<br>\\[ = \\tfrac{1}{2}\\int_1^3 u^{-1/2}\\,du \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, using the substitution \\( u = x^2 + x \\),<br>\\[ \\int_0^1 (2x + 1)\\sqrt{x^2 + x}\\,dx = \\tfrac{2}{3} \\].",
+  solution: "Let \\(u = x^2 + x\\), so \\(du = (2x+1)dx\\).<br>\\[ = \\int_0^2 u^{1/2}\\,du \\]<br>\\[ = \\left[ \\tfrac{2}{3}u^{3/2} \\right]_0^2 \\]"
+},
+{
+  topic: "Integration - By Substitution",
+  level: "Year 13",
+  question: "Show that, using the substitution \\( u = 3x + 1 \\),<br>\\[ \\int_0^1 x(3x + 1)^4\\,dx = \\tfrac{7}{6} \\].",
+  solution: "Let \\(u = 3x + 1\\), so \\(x = \\tfrac{u-1}{3}\\) and \\(dx = \\tfrac{1}{3}du\\).<br>\\[ = \\tfrac{1}{9}\\int_1^4 (u-1)u^4\\,du \\]<br>\\[ = \\tfrac{1}{9}\\int_1^4 (u^5 - u^4)\\,du \\]"
+},
+
 
 {
   topic: "Integration - By Parts",
@@ -27,7 +100,7 @@ const alevelQuestions = [
 {
   topic: "Integration - By Parts",
   level: "Year 13",
-  question: "Show that<br>\\[ \\int_0^{1} x e^{2x}\\,dx = \\tfrac{1}{2} \\].",
+  question: "Show that<br>\\[ \\int_0^{1} x e^{2x}\\,dx = \\tfrac{1}{4}(e^2 - 1) \\].",
   solution: "Let \\(u = x\\), \\(dv = e^{2x}dx\\).<br>\\[ = \\left[\\tfrac{1}{2}xe^{2x}\\right]_0^1 - \\tfrac{1}{2}\\int_0^1 e^{2x}\\,dx \\]<br>\\[ = \\left[\\tfrac{1}{2}xe^{2x} - \\tfrac{1}{4}e^{2x}\\right]_0^1 \\]"
 },
 {
@@ -64,8 +137,10 @@ const alevelQuestions = [
   topic: "Integration - By Parts",
   level: "Year 13",
   question: "Show that<br>\\[ \\int_0^{1} x^2 e^x\\,dx = e - 2 \\].",
-  solution: "Let \\(u = x^2\\), \\(dv = e^x dx\\).<br>\\[ = \\left[x^2 e^x\\right]_0^1 - \\int_0^1 2x e^x\\,dx \\]<br>\\[ = \\left[x^2 e^x - 2(x - 1)e^x\\right]_0^1 \\]"
+  solution: "Let \\(u = x^2\\), \\(dv = e^x dx\\).<br>\\[ = \\left[x^2 e^x\\right]_0^1 - \\int_0^1 2x e^x\\,dx \\]<br>\\[ = e - 2 \\]"
 },
+
+
 
  
  {
@@ -283,19 +358,19 @@ const alevelQuestions = [
 {
   topic: "Differentiation - Quotient Rule",
   level: "Year 13",
-  question: "Given that<br>\\[ y = \\dfrac{x^3}{\\sin x} \\]<br>find \\( \\dfrac{dy}{dx} \\).",
+  question: "Given that \\[ y = \\dfrac{x^3}{\\sin x} \\]<br>find \\( \\dfrac{dy}{dx} \\).",
   solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{3x^2\\sin x - x^3\\cos x}{\\sin^2 x} \\]"
 },
 {
   topic: "Differentiation - Quotient Rule",
   level: "Year 13",
-  question: "Given that<br>\\[ y = \\cosec x \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = -\\cosec x\\cot x \\).",
-  solution: "\\[ \\dfrac{dy}{dx} = -\\cosec x\\cot x \\]"
+  question: "Given that \\[ y = \\text{cosec }x \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = -\\text{cosec }x\\cot x \\).",
+  solution: "\\[ \\dfrac{dy}{dx} = -\\text{cosec }x\\cot x \\]"
 },
 {
   topic: "Differentiation - Quotient Rule",
   level: "Year 13",
-  question: "Given that<br>\\[ y = \\dfrac{x}{\\sqrt{2x - 2}} \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = \\dfrac{x - 2}{(2x - 2)^{3/2}} \\).",
+  question: "Given that \\[ y = \\dfrac{x}{\\sqrt{2x - 2}} \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = \\dfrac{x - 2}{(2x - 2)^{3/2}} \\).",
   solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x - 2}{(2x - 2)^{3/2}} \\]"
 },
 {

@@ -575,146 +575,146 @@ const alevelQuestions = [
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 - 3x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.994)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 3x)^4\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((0.994)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 12x + 54x^2\\)<br>Using \\(x = 0.002\\)<br>Approximation: \\(0.9763\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 + 2x)^5\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.02)^5\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 2x)^5\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((1.02)^5\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 10x + 40x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.1041\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 - 4x)^3\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.992)^3\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 4x)^3\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((0.992)^3\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 12x + 48x^2\\)<br>Using \\(x = 0.002\\)<br>Approximation: \\(0.9762\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 + 5x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.015)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 5x)^4\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((1.015)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 20x + 150x^2\\)<br>Using \\(x = 0.003\\)<br>Approximation: \\(1.0614\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 - 2x)^6\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.996)^6\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 2x)^6\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((0.996)^6\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 12x + 60x^2\\)<br>Using \\(x = 0.002\\)<br>Approximation: \\(0.9761\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 + 3x)^5\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.03)^5\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 3x)^5\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((1.03)^5\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 15x + 90x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.1593\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 - x)^8\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.99)^8\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - x)^8\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((0.99)^8\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 8x + 28x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(0.9227\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 + 4x)^3\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.04)^3\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 4x)^3\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((1.04)^3\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 12x + 48x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.1248\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 - 5x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.975)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 5x)^4\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((0.975)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 20x + 150x^2\\)<br>Using \\(x = 0.005\\)<br>Approximation: \\(0.9037\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 + x)^6\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.01)^6\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + x)^6\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((1.01)^6\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 6x + 15x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.0615\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 - 3x)^5\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((0.985)^5\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 - 3x)^5\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((0.985)^5\\) to 4 decimal places.",
   solution: "Expansion: \\(1 - 15x + 90x^2\\)<br>Using \\(x = 0.005\\)<br>Approximation: \\(0.9276\\)"
 },
 {
   topic: "Binomial Expansion - 2",
   level: "Year 12",
-  question: "Find the first three terms in the expansion of: \\[(1 + 2x)^4\\] in ascending powers of \\(x\\).<br>Use your expansion to approximate \\((1.02)^4\\) to 4 decimal places.",
+  question: "Find the first three terms in the expansion of: \\[(1 + 2x)^4\\] in ascending powers of \\(x\\).Use your expansion to approximate \\((1.02)^4\\) to 4 decimal places.",
   solution: "Expansion: \\(1 + 8x + 24x^2\\)<br>Using \\(x = 0.01\\)<br>Approximation: \\(1.0824\\)"
 },
 
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x + 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 5x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x + 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 5x + q\\]<Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x - 1)(x + 2)(x - 3)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 1)\\) and \\((x - 4)\\) are factors of: \\[f(x) = 2x^3 + px^2 + x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 1)\\) and \\((x - 4)\\) are factors of: \\[f(x) = 2x^3 + px^2 + x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(2x - 3)(x + 1)(x - 4)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 3)\\) and \\((x - 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 11x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 3)\\) and \\((x - 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 11x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x + 3)(x - 2)(x - 5)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 2)\\) and \\((x + 4)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 22x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 2)\\) and \\((x + 4)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 22x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(3x + 1)(x - 2)(x + 4)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 4)\\) and \\((x + 1)\\) are factors of: \\[f(x) = x^3 + px^2 - 22x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 4)\\) and \\((x + 1)\\) are factors of: \\[f(x) = x^3 + px^2 - 22x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x - 4)(x + 1)(x + 6)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x - 3)\\) are factors of: \\[f(x) = 2x^3 + px^2 - 14x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x - 3)\\) are factors of: \\[f(x) = 2x^3 + px^2 - 14x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(2x + 5)(x - 1)(x - 3)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 2)\\) and \\((x + 3)\\) are factors of: \\[f(x) = x^3 + px^2 - 14x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 2)\\) and \\((x + 3)\\) are factors of: \\[f(x) = x^3 + px^2 - 14x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x + 2)(x + 3)(x - 4)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 1)\\) and \\((x - 5)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 7x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 1)\\) and \\((x - 5)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 7x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(3x - 2)(x + 1)(x - 5)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 2)\\) and \\((x - 3)\\) are factors of: \\[f(x) = x^3 + px^2 + qx + 30\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 2)\\) and \\((x - 3)\\) are factors of: \\[f(x) = x^3 + px^2 + qx + 30\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x - 2)(x - 3)(x + 5)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x + 2)\\) and \\((x - 3)\\) are factors of: \\[f(x) = 2x^3 + px^2 + qx - 6\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x + 2)\\) and \\((x - 3)\\) are factors of: \\[f(x) = 2x^3 + px^2 + qx - 6\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(2x + 1)(x + 2)(x - 3)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x - 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 10x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x - 2)\\) are factors of: \\[f(x) = x^3 + px^2 - 10x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(x + 4)(x - 1)(x - 2)"
 },
 {
   topic: "Factor Theorem - 2",
   level: "Year 12",
-  question: "Knowing that \\((x - 1)\\) and \\((x + 3)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 5x + q\\]<br>Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
+  question: "Knowing that \\((x - 1)\\) and \\((x + 3)\\) are factors of: \\[f(x) = 3x^3 + px^2 - 5x + q\\]Find the values of \\(p\\) and \\(q\\), and fully factorise \\(f(x)\\).",
   solution: "(3x + 2)(x - 1)(x + 3)"
 },
 
@@ -1895,6 +1895,73 @@ const alevelQuestions = [
     level: "Year 12",
     question: "Expand and simplify:\n\n\\[(3x + 1)(x + 2)(x - 1)\\]",
     solution: "\\[3x^3 + 4x^2 - x - 2\\]"
+  },
+
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ 4y - 3x = -7 \\]Point P is \\( (10,0) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y = -\\tfrac{4}{3}(x - 10) \\)<br>Shortest distance: \\( \\tfrac{13}{5} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ 2x + y = 5 \\]Point P is \\( (1,4) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y - 4 = \\tfrac{1}{2}(x - 1) \\)<br>Shortest distance: \\( \\tfrac{1}{\\sqrt{5}} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ 3x - 4y + 12 = 0 \\]Point P is \\( (-2,1) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y - 1 = -\\tfrac{4}{3}(x + 2) \\)<br>Shortest distance: \\( \\tfrac{14}{5} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ x - 2y + 6 = 0 \\]Point P is \\( (4,1) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y - 1 = -2(x - 4) \\)<br>Shortest distance: \\( \\tfrac{4}{\\sqrt{5}} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ 5x + 12y - 1 = 0 \\]Point P is \\( (1,-2) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y + 2 = \\tfrac{12}{5}(x - 1) \\)<br>Shortest distance: \\( \\tfrac{28}{13} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ y = 3x - 4 \\]Point P is \\( (2,5) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y - 5 = -\\tfrac{1}{3}(x - 2) \\)<br>Shortest distance: \\( \\tfrac{2}{\\sqrt{10}} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ y = -2x + 1 \\]Point P is \\( (3,-1) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y + 1 = \\tfrac{1}{2}(x - 3) \\)<br>Shortest distance: \\( \\tfrac{4}{\\sqrt{5}} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ 7x - y + 2 = 0 \\]Point P is \\( (0,3) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y - 3 = -\\tfrac{1}{7}x \\)<br>Shortest distance: \\( \\tfrac{5}{\\sqrt{50}} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ x + y - 8 = 0 \\]Point P is \\( (6,1) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y - 1 = x - 6 \\)<br>Shortest distance: \\( \\tfrac{1}{\\sqrt{2}} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ 4x + 3y = 12 \\]Point P is \\( (0,0) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y = \\tfrac{3}{4}x \\)<br>Shortest distance: \\( \\tfrac{12}{5} \\)"
+  },
+  {
+    topic: "Geometry - Shortest Distances",
+    level: "Year 12",
+    question: "Line L has equation<br>\\[ 6x - 8y + 15 = 0 \\]Point P is \\( (1,2) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
+    solution: "Perpendicular line: \\( y - 2 = -\\tfrac{4}{3}(x - 1) \\)<br>Shortest distance: \\( \\tfrac{7}{5} \\)"
   }
   
   ];

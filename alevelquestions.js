@@ -1,65 +1,65 @@
 const alevelQuestions = [
-
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = |x| \\]<br>to the graph of<br>\\[ y = |2x - 5| \\].",
-    solution: "A stretch parallel to the x-axis by SF= \\( \\tfrac{1}{2} \\), then a translation \\([\\tfrac{5}{2},0]\\)."
-  },
-  {
-    topic: "Graph Transformations",
-    level: "Year 13",
-    question: "Given that \\( f(x) = x^2 \\), describe the transformations which map \\( f(x) \\) to<br>\\[ g(x) = 4x^2 + 8x + 4 \\].",
-    solution: "A translation \\([-1,0]\\), then a stretch parallel to the y-axis by scale factor 4."
+    question: "Describe a sequence of transformations mapping \\(y = |x|\\) to \\(y = |2x - 5|\\).",
+    solution: "A stretch parallel to the x-axis by SF= \\(1/2\\), then a translation \\(\\begin{bmatrix} 5/2 \\\\ 0 \\end{bmatrix}\\)."
   },
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = \\sin x \\]<br>to the graph of<br>\\[ y = 2\\sin(x - \\pi) \\].",
-    solution: "A translation \\([\\pi,0]\\), then a stretch parallel to the y-axis by scale factor 2."
+    question: "Describe a sequence of transformations mapping \\(f(x) = x^2\\) to \\(g(x) = 4x^2 + 8x + 4\\).",
+    solution: "A translation \\(\\begin{bmatrix} -1 \\\\ 0 \\end{bmatrix}\\), then a stretch parallel to the y-axis by SF = 4."
   },
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = x^3 \\]<br>to the graph of<br>\\[ y = -(x - 2)^3 \\].",
-    solution: "A translation \\([2,0]\\), then a reflection in the x-axis."
+    question: "Describe a sequence of transformations mapping \\(y = \\sin x\\) to \\(y = 2\\sin(x - \\pi)\\).",
+    solution: "A translation \\(\\begin{bmatrix} \\pi \\\\ 0 \\end{bmatrix}\\), then a stretch parallel to the y-axis by SF = 2."
   },
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = e^x \\]<br>to the graph of<br>\\[ y = e^{2x} - 3 \\].",
-    solution: "A stretch parallel to the x-axis by scale factor \\( \\tfrac{1}{2} \\), then a translation \\([0,-3]\\)."
+    question: "Describe a sequence of transformations mapping \\(y = x^3\\) to \\(y = -(x - 2)^3\\).",
+    solution: "A translation \\(\\begin{bmatrix} 2 \\\\ 0 \\end{bmatrix}\\), then a reflection in the x-axis."
   },
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = \\ln x \\]<br>to the graph of<br>\\[ y = \\ln(3x) + 1 \\].",
-    solution: "A stretch parallel to the x-axis by scale factor \\( \\tfrac{1}{3} \\), then a translation \\([0,1]\\)."
+    question: "Describe a sequence of transformations mapping \\(y = e^x\\) to \\(y = e^{2x} - 3\\).",
+    solution: "A stretch parallel to the x-axis by SF = 1/2, then a translation \\(\\begin{bmatrix} 0 \\\\ -3 \\end{bmatrix}\\)."
   },
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = \\cos x \\]<br>to the graph of<br>\\[ y = -\\cos(x + \\tfrac{\\pi}{2}) \\].",
-    solution: "A translation \\([-\\tfrac{\\pi}{2},0]\\), then a reflection in the x-axis."
+    question: "Describe a sequence of transformations mapping \\(y = \\ln x\\) to \\(y = \\ln(3x) + 1\\).",
+    solution: "A stretch parallel to the x-axis by SF = 1/3, then a translation \\(\\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}\\)."
   },
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = \\sqrt{x} \\]<br>to the graph of<br>\\[ y = \\sqrt{(-x) - 4} + 2 \\].",
-    solution: "A translation \\([4,2]\\), then a translation \\([0,2]\\), then a reflection in the y-axis."
-  },
-    {
-    topic: "Graph Transformations",
-    level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = x^2 \\]<br>to the graph of<br>\\[ y = (0.5x + 3)^2 - 5 \\].",
-    solution: "A translation \\([-3,-5]\\), then a stretch parallel to the x-axis by SF = 2"
+    question: "Describe a sequence of transformations mapping \\(y = \\cos x\\) to \\(y = -\\cos(x + \\pi/2)\\).",
+    solution: "A translation \\(\\begin{bmatrix} -\\pi/2 \\\\ 0 \\end{bmatrix}\\), then a reflection in the x-axis."
   },
   {
     topic: "Graph Transformations",
     level: "Year 13",
-    question: "Describe a sequence of transformations which maps the graph of<br>\\[ y = \\frac{1}{x} \\]<br>to the graph of<br>\\[ y = -\\frac{1}{x - 2} \\].",
-    solution: "A translation \\([2,0]\\), then a reflection in the x-axis."
+    question: "Describe a sequence of transformations mapping \\(y = \\sqrt{x}\\) to \\(y = \\sqrt{-x - 4} + 2\\).",
+    solution: "A reflection in the y-axis, then a translation \\(\\begin{bmatrix} -4 \\\\ 2 \\end{bmatrix}\\)."
   },
+  {
+    topic: "Graph Transformations",
+    level: "Year 13",
+    question: "Describe a sequence of transformations mapping \\(y = x^2\\) to \\(y = (0.5x + 3)^2 - 5\\).",
+    solution: "A translation \\(\\begin{bmatrix} -3 \\\\ -5 \\end{bmatrix}\\), then a stretch parallel to the x-axis by SF = 2."
+  },
+  {
+    topic: "Graph Transformations",
+    level: "Year 13",
+    question: "Describe a sequence of transformations mapping \\(y = 1/x\\) to \\(y = -1/(x - 2)\\).",
+    solution: "A translation \\(\\begin{bmatrix} 2 \\\\ 0 \\end{bmatrix}\\), then a reflection in the x-axis."
+  },
+ 
 
   {
     topic: "Trig - Harmonic Identities",

@@ -1,5 +1,79 @@
 const alevelQuestions = [
   {
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(4\\theta) + 2\\sin(3\\theta) - \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\]<br>where \\( A \\), \\( B \\) and \\( C \\) are constants to be found.",
+  solution: "\\[ \\approx 1 + 4\\theta - 8\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) + \\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{1}{2}\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 3\\tan(\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(\\theta) + \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 3\\theta \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(3\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 - \\theta - \\tfrac{9}{2}\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\cos(\\theta) + \\tan(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 2 + 3\\theta - \\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(3\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(\\theta) + \\cos(4\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 + \\theta - 8\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) - 2\\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx -2 + 2\\theta + \\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(\\theta) + \\tan(\\theta) - 1 \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx \\theta - \\tfrac{1}{2}\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\sin(\\theta) + \\cos(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{9}{2}\\theta^2 \\]"
+},
+{
+  topic: "Trig - Small Angle Approx.",
+  level: "Year 13",
+  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(2\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
+  solution: "\\[ \\approx \\theta \\]"
+},
+
+  
+  {
     topic: "Graph Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = |x|\\) to \\(y = |2x - 5|\\).",
@@ -275,83 +349,6 @@ const alevelQuestions = [
   question: "Show that<br>\\[ \\int_0^{1} x^2 e^x\\,dx = e - 2 \\].",
   solution: "Let \\(u = x^2\\), \\(dv = e^x dx\\).<br>\\[ = \\left[x^2 e^x\\right]_0^1 - \\int_0^1 2x e^x\\,dx \\]<br>\\[ = e - 2 \\]"
 },
-
-
-
- 
- {
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(4\\theta) + 2\\sin(3\\theta) - \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\]<br>where \\( A \\), \\( B \\) and \\( C \\) are constants to be found.",
-  solution: "\\[ \\approx 1 + 4\\theta - 8\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) + \\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{1}{2}\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 3\\tan(\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(\\theta) + \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 3\\theta \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(3\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 - \\theta - \\tfrac{9}{2}\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\cos(\\theta) + \\tan(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 2 + 3\\theta - \\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(3\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(\\theta) + \\cos(4\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 + \\theta - 8\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) - 2\\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx -2 + 2\\theta + \\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(\\theta) + \\tan(\\theta) - 1 \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx \\theta - \\tfrac{1}{2}\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\sin(\\theta) + \\cos(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{9}{2}\\theta^2 \\]"
-},
-{
-  topic: "Small Angle Approximations",
-  level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(2\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx \\theta \\]"
-},
-
   {
   topic: "Differentiation - Chain Rule",
   level: "Year 13",

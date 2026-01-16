@@ -1,4 +1,78 @@
 const alevelQuestions = [
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 5\\sin x + 12\\cos x \\]<br>in the form \\( R\\sin(x + \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( 13\\sin(x + 67.4^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 5\\cos x + \\sin x \\]<br>in the form \\( R\\cos(x - \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( \\sqrt{26}\\cos(x - 11.3^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 3\\sin x - 4\\cos x \\]<br>in the form \\( R\\sin(x - \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( 5\\sin(x - 53.1^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 7\\cos x - 2\\sin x \\]<br>in the form \\( R\\cos(x + \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( \\sqrt{53}\\cos(x + 15.9^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 6\\sin x + 8\\cos x \\]<br>in the form \\( R\\sin(x + \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( 10\\sin(x + 53.1^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 9\\cos x + 12\\sin x \\]<br>in the form \\( R\\cos(x - \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( 15\\cos(x - 53.1^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 4\\sin x - 3\\cos x \\]<br>in the form \\( R\\sin(x - \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( 5\\sin(x - 36.9^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 8\\cos x + 15\\sin x \\]<br>in the form \\( R\\sin(x + \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( 17\\sin(x + 28.1^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 10\\sin x + 3\\cos x \\]<br>in the form \\( R\\sin(x + \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( \\sqrt{109}\\sin(x + 16.7^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 11\\cos x - 5\\sin x \\]<br>in the form \\( R\\cos(x + \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( \\sqrt{146}\\cos(x + 24.4^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 2\\sin x + 7\\cos x \\]<br>in the form \\( R\\cos(x - \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( \\sqrt{53}\\cos(x - 15.9^\\circ) \\)"
+  },
+  {
+    topic: "Trig - Harmonic Identities",
+    level: "Year 13",
+    question: "Write<br>\\[ 13\\sin x - 12\\cos x \\]<br>in the form \\( R\\sin(x - \\alpha) \\), where \\( R>0 \\) and \\( 0<\\alpha<90 \\).",
+    solution: "\\( \\sqrt{313}\\sin(x - 42.5^\\circ) \\)"
+  },
+
+  
 {
   topic: "Integration - By Substitution",
   level: "Year 13",

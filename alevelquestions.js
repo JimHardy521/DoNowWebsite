@@ -1,4 +1,77 @@
 const alevelQuestions = [
+ {
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 5\\sin\\left(3x + \\tfrac{\\pi}{6}\\right) \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{9}, 5\\right)\\), min at \\(\\left(\\tfrac{4\\pi}{9}, -5\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 4\\cos\\left(2x - \\tfrac{\\pi}{3}\\right) + 1 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{6}, 5\\right)\\), min at \\(\\left(\\tfrac{2\\pi}{3}, -3\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 3\\sin\\left(4x + \\tfrac{\\pi}{2}\\right) - 2 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(0, 1\\right)\\), min at \\(\\left(\\tfrac{\\pi}{4}, -5\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 6\\cos\\left(3x + \\tfrac{\\pi}{4}\\right) - 1 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{12}, 5\\right)\\), min at \\(\\left(\\tfrac{5\\pi}{12}, -7\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 2\\sin\\left(5x - \\tfrac{\\pi}{2}\\right) + 3 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{5}, 5\\right)\\), min at \\(\\left(\\tfrac{3\\pi}{5}, 1\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 7\\cos\\left(2x + \\tfrac{\\pi}{2}\\right) \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{3\\pi}{4}, 7\\right)\\), min at \\(\\left(\\tfrac{\\pi}{4}, -7\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 5\\sin(2x - \\pi) + 4 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{3\\pi}{4}, 9\\right)\\), min at \\(\\left(\\tfrac{\\pi}{4}, -1\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 4\\cos\\left(5x - \\tfrac{\\pi}{2}\\right) - 2 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{5}, 2\\right)\\), min at \\(\\left(\\tfrac{3\\pi}{5}, -6\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 3\\sin\\left(6x + \\tfrac{\\pi}{6}\\right) + 1 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{9}, 4\\right)\\), min at \\(\\left(\\tfrac{4\\pi}{9}, -2\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 8\\cos\\left(4x - \\tfrac{\\pi}{2}\\right) \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{2}, 8\\right)\\), min at \\(\\left(\\tfrac{\\pi}{4}, -8\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 6\\sin\\left(3x - \\tfrac{\\pi}{2}\\right) - 2 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{\\pi}{3}, 4\\right)\\), min at \\(\\left(0, -8\\right)\\)."
+},
+{
+  topic: "Trig - Harmonic Identities - Max and Min",
+  level: "Year 13",
+  question: "Find the maximum and minimum values of<br>\\[ y = 5\\cos\\left(6x + \\tfrac{\\pi}{3}\\right) + 2 \\]<br>and the first value of \\(x>0\\) at which each occurs.",
+  solution: "Max at \\(\\left(\\tfrac{5\\pi}{18}, 7\\right)\\), min at \\(\\left(\\tfrac{2\\pi}{9}, -3\\right)\\)."
+},
+  
   {
   topic: "Trig - Small Angle Approx.",
   level: "Year 13",

@@ -1,5 +1,82 @@
 const alevelQuestions = [
+
 {
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+  question: "On the same axes, sketch \\(y = |2x - 3|\\) and \\(y = |x|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |2x - 3| \\le |x| \\).",
+  solution: "Intersections at \\((1,1)\\) and \\((3,3)\\).<br>Solution:\\( x \\in [1,3] \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+  question: "Sketch \\(y = |x + 2|\\) and \\(y = |3x - 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 2| \\ge |3x - 1| \\).",
+  solution: "Intersections at \\(\\left(-\\tfrac14, \\tfrac74\\right)\\) and \\(\\left(\\tfrac32, \\tfrac{11}2\\right)\\).<br>Solution:\\( x \\le -\\tfrac14 \\text{ or } x \\ge \\tfrac32 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x - 1|\\) and \\(y = |2x + 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 1| < |2x + 1| \\).",
+  solution: "Intersections at \\((-2,3)\\) and \\((0,1)\\).<br>Solution:\\( x < -2 \\text{ or } x > 0 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x|\\) and \\(y = |x - 4|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x| \\ge |x - 4| \\).",
+  solution: "Intersection at \\((2,2)\\).<br>Solution:\\( x \\ge 2 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x + 3|\\) and \\(y = |2x - 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 3| \\le |2x - 1| \\).",
+  solution: "Intersections at \\(\\left(-\\tfrac23, \\tfrac73\\right)\\) and \\((4,7)\\).<br>Solution:\\( x \\le -\\tfrac23 \\text{ or } x \\ge 4 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x - 2|\\) and \\(y = |x + 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 2| < |x + 1| \\).",
+  solution: "Intersection at \\(\\left(\\tfrac12, \\tfrac32\\right)\\).<br>Solution:\\( x > \\tfrac12 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |3x - 4|\\) and \\(y = |x + 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |3x - 4| \\ge |x + 2| \\).",
+  solution: "Intersections at \\((1,1)\\) and \\(\\left(\\tfrac32, \\tfrac72\\right)\\).<br>Solution:\\( x \\le \\tfrac12 \\text{ or } x \\ge 3 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x + 1|\\) and \\(y = |x - 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 1| \\le |x - 2| \\).",
+  solution: "Intersection at \\(\\left(\\tfrac12, \\tfrac32\\right)\\).<br>Solution:\\( x \\le \\tfrac12 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+  question: "Sketch \\(y = |2x + 1|\\) and \\(y = |x - 3|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |2x + 1| < |x - 3| \\).",
+  solution: "Intersections at \\((-4,7)\\) and \\(\\left(\\tfrac23, \\tfrac73\\right)\\).<br>Solution:\\( -4 < x < \\tfrac23 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x - 3|\\) and \\(y = |x + 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 3| \\ge |x + 2| \\).",
+  solution: "Intersection at \\(\\left(\\tfrac12, \\tfrac52\\right)\\).<br>Solution:\\( x \\le \\tfrac12 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x + 4|\\) and \\(y = |2x - 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 4| \\le |2x - 1| \\).",
+  solution: "Intersections at \\((-1,3)\\) and \\((5,9)\\).<br>Solution:\\( x \\le -1 \\text{ or } x \\ge 5 \\)."
+},
+{
+  topic: "Graphs - Mod. Inequalities",
+  level: "Year 13",
+ question: "On the same axes, sketch \\(y = |x - 1|\\) and \\(y = |3x + 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 1| < |3x + 2| \\).",
+  solution: "Intersections at \\(\\left(-\\tfrac34, \\tfrac74\\right)\\) and \\(\\left(-\\tfrac12, \\tfrac32\\right)\\).<br>Solution:\\( x < -\\tfrac32 \\text{ or } x > -\\tfrac14 \\)."
+},
+
+
+
+
+  {
   topic: "Trig - Harmonic Identities - Max and Min",
   level: "Year 13",
   question: "Find the maximum and minimum values of<br>\\[ y = 5\\sin\\left(3x + \\tfrac{\\pi}{6}\\right) \\]<br>and the first value of \\(x>0\\) at which each occurs.",
@@ -147,61 +224,61 @@ const alevelQuestions = [
 
   
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = |x|\\) to \\(y = |2x - 5|\\).",
     solution: "A stretch parallel to the x-axis by SF= \\(1/2\\), then a translation \\(\\begin{bmatrix} 5/2 \\\\ 0 \\end{bmatrix}\\)."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(f(x) = x^2\\) to \\(g(x) = 4x^2 + 8x + 4\\).",
     solution: "A translation \\(\\begin{bmatrix} -1 \\\\ 0 \\end{bmatrix}\\), then a stretch parallel to the y-axis by SF = 4."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = \\sin x\\) to \\(y = 2\\sin(x - \\pi)\\).",
     solution: "A translation \\(\\begin{bmatrix} \\pi \\\\ 0 \\end{bmatrix}\\), then a stretch parallel to the y-axis by SF = 2."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = x^3\\) to \\(y = -(x - 2)^3\\).",
     solution: "A translation \\(\\begin{bmatrix} 2 \\\\ 0 \\end{bmatrix}\\), then a reflection in the x-axis."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = e^x\\) to \\(y = e^{2x} - 3\\).",
     solution: "A stretch parallel to the x-axis by SF = 1/2, then a translation \\(\\begin{bmatrix} 0 \\\\ -3 \\end{bmatrix}\\)."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = \\ln x\\) to \\(y = \\ln(3x) + 1\\).",
     solution: "A stretch parallel to the x-axis by SF = 1/3, then a translation \\(\\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}\\)."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = \\cos x\\) to \\(y = -\\cos(x + \\pi/2)\\).",
     solution: "A translation \\(\\begin{bmatrix} -\\pi/2 \\\\ 0 \\end{bmatrix}\\), then a reflection in the x-axis."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = \\sqrt{x}\\) to \\(y = \\sqrt{-x - 4} + 2\\).",
     solution: "A reflection in the y-axis, then a translation \\(\\begin{bmatrix} -4 \\\\ 2 \\end{bmatrix}\\)."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = x^2\\) to \\(y = (0.5x + 3)^2 - 5\\).",
     solution: "A translation \\(\\begin{bmatrix} -3 \\\\ -5 \\end{bmatrix}\\), then a stretch parallel to the x-axis by SF = 2."
   },
   {
-    topic: "Graph Transformations",
+    topic: "Graphs - Transformations",
     level: "Year 13",
     question: "Describe a sequence of transformations mapping \\(y = 1/x\\) to \\(y = -1/(x - 2)\\).",
     solution: "A translation \\(\\begin{bmatrix} 2 \\\\ 0 \\end{bmatrix}\\), then a reflection in the x-axis."

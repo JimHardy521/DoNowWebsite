@@ -1,76 +1,149 @@
 const alevelQuestions = [
 
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms, in ascending powers of x, of the binomial expansion of<br>\\[ \\frac{1}{\\sqrt{9+x}} \\]",
+    solution: "\\[ \\frac{1}{\\sqrt{9+x}} = \\frac{1}{3}\\left(1+\\frac{x}{9}\\right)^{-\\frac12} = \\frac{1}{3} - \\frac{x}{54} + \\frac{x^2}{324} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ (4-2x)^{\\frac12} \\]",
+    solution: "\\[ (4-2x)^{\\frac12} = 2\\left(1-\\frac{x}{2}\\right)^{\\frac12} = 2 - \\frac{x}{2} - \\frac{x^2}{16} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ \\frac{1}{(1-3x)^{\\frac12}} \\]",
+    solution: "\\[ (1-3x)^{-\\frac12} = 1 + \\frac{3}{2}x + \\frac{27}{8}x^2 \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ (5+2x)^{-1} \\]",
+    solution: "\\[ (5+2x)^{-1} = \\frac{1}{5}\\left(1+\\frac{2x}{5}\\right)^{-1} = \\frac{1}{5} - \\frac{2x}{25} + \\frac{4x^2}{125} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ \\sqrt{8-4x} \\]",
+    solution: "\\[ \\sqrt{8-4x} = 2\\sqrt2\\left(1-\\frac{x}{2}\\right)^{\\frac12} = 2\\sqrt2 - \\sqrt2 x - \\frac{\\sqrt2}{4}x^2 \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ \\frac{1}{\\sqrt{16-2x}} \\]",
+    solution: "\\[ \\frac{1}{\\sqrt{16-2x}} = \\frac14\\left(1-\\frac{x}{8}\\right)^{-\\frac12} = \\frac14 + \\frac{x}{64} + \\frac{3x^2}{1024} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ (6+x)^{\\frac12} \\]",
+    solution: "\\[ (6+x)^{\\frac12} = \\sqrt6\\left(1+\\frac{x}{6}\\right)^{\\frac12} = \\sqrt6 + \\frac{x}{2\\sqrt6} - \\frac{x^2}{24\\sqrt6} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ \\frac{1}{(9-3x)^2} \\]",
+    solution: "\\[ (9-3x)^{-2} = \\frac{1}{81}\\left(1-\\frac{x}{3}\\right)^{-2} = \\frac{1}{81} + \\frac{2x}{243} + \\frac{x^2}{81} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ \\sqrt{2x+10} \\]",
+    solution: "\\[ \\sqrt{2x+10} = \\sqrt{10}\\left(1+\\frac{x}{5}\\right)^{\\frac12} = \\sqrt{10} + \\frac{x}{\\sqrt{10}} - \\frac{x^2}{20\\sqrt{10}} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ \\frac{1}{\\sqrt{25+x}} \\]",
+    solution: "\\[ \\frac{1}{\\sqrt{25+x}} = \\frac15\\left(1+\\frac{x}{25}\\right)^{-\\frac12} = \\frac15 - \\frac{x}{250} + \\frac{3x^2}{12500} \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ (12-3x)^{\\frac12} \\]",
+    solution: "\\[ (12-3x)^{\\frac12} = 2\\sqrt3\\left(1-\\frac{x}{4}\\right)^{\\frac12} = 2\\sqrt3 - \\frac{\\sqrt3}{4}x - \\frac{\\sqrt3}{64}x^2 \\]"
+  },
+  {
+    topic: "General Binomial Expansion",
+    level: "Year 13",
+    question: "Find the first three terms of the binomial expansion of<br>\\[ \\frac{1}{(7+x)^{\\frac12}} \\]",
+    solution: "\\[ \\frac{1}{(7+x)^{\\frac12}} = \\frac{1}{\\sqrt7}\\left(1+\\frac{x}{7}\\right)^{-\\frac12} = \\frac{1}{\\sqrt7} - \\frac{x}{14\\sqrt7} + \\frac{3x^2}{196\\sqrt7} \\]"
+  },
+
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
-  question: "On the same axes, sketch \\(y = |2x - 3|\\) and \\(y = |x|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |2x - 3| \\le |x| \\).",
-  solution: "Intersections at \\((1,1)\\) and \\((3,3)\\).<br>Solution:\\( x \\in [1,3] \\)."
+  question: "On the same axes, sketch the graphs of:<br> \\(y = |2x - 3|\\) and \\(y = |x|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |2x - 3| \\le |x| \\).",
+  solution: "\\( x \\in [1,3] \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
-  question: "Sketch \\(y = |x + 2|\\) and \\(y = |3x - 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 2| \\ge |3x - 1| \\).",
-  solution: "Intersections at \\(\\left(-\\tfrac14, \\tfrac74\\right)\\) and \\(\\left(\\tfrac32, \\tfrac{11}2\\right)\\).<br>Solution:\\( x \\le -\\tfrac14 \\text{ or } x \\ge \\tfrac32 \\)."
+  question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 2|\\) and \\(y = |3x - 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 2| \\ge |3x - 1| \\).",
+  solution: "\\( x \\le -\\tfrac14 \\text{ or } x \\ge \\tfrac32 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x - 1|\\) and \\(y = |2x + 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 1| < |2x + 1| \\).",
-  solution: "Intersections at \\((-2,3)\\) and \\((0,1)\\).<br>Solution:\\( x < -2 \\text{ or } x > 0 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 1|\\) and \\(y = |2x + 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 1| < |2x + 1| \\).",
+  solution: "\\( x < -2 \\text{ or } x > 0 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x|\\) and \\(y = |x - 4|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x| \\ge |x - 4| \\).",
-  solution: "Intersection at \\((2,2)\\).<br>Solution:\\( x \\ge 2 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x|\\) and \\(y = |x - 4|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x| \\ge |x - 4| \\).",
+  solution: "\\( x \\ge 2 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x + 3|\\) and \\(y = |2x - 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 3| \\le |2x - 1| \\).",
-  solution: "Intersections at \\(\\left(-\\tfrac23, \\tfrac73\\right)\\) and \\((4,7)\\).<br>Solution:\\( x \\le -\\tfrac23 \\text{ or } x \\ge 4 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 3|\\) and \\(y = |2x - 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 3| \\le |2x - 1| \\).",
+  solution: "\\( x \\le -\\tfrac23 \\text{ or } x \\ge 4 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x - 2|\\) and \\(y = |x + 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 2| < |x + 1| \\).",
-  solution: "Intersection at \\(\\left(\\tfrac12, \\tfrac32\\right)\\).<br>Solution:\\( x > \\tfrac12 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 2|\\) and \\(y = |x + 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 2| < |x + 1| \\).",
+  solution: "\\( x > \\tfrac12 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |3x - 4|\\) and \\(y = |x + 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |3x - 4| \\ge |x + 2| \\).",
-  solution: "Intersections at \\((1,1)\\) and \\(\\left(\\tfrac32, \\tfrac72\\right)\\).<br>Solution:\\( x \\le \\tfrac12 \\text{ or } x \\ge 3 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |3x - 4|\\) and \\(y = |x + 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |3x - 4| \\ge |x + 2| \\).",
+  solution: "\\( x \\le \\tfrac12 \\text{ or } x \\ge 3 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x + 1|\\) and \\(y = |x - 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 1| \\le |x - 2| \\).",
-  solution: "Intersection at \\(\\left(\\tfrac12, \\tfrac32\\right)\\).<br>Solution:\\( x \\le \\tfrac12 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 1|\\) and \\(y = |x - 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 1| \\le |x - 2| \\).",
+  solution: "\\( x \\le \\tfrac12 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
-  question: "Sketch \\(y = |2x + 1|\\) and \\(y = |x - 3|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |2x + 1| < |x - 3| \\).",
-  solution: "Intersections at \\((-4,7)\\) and \\(\\left(\\tfrac23, \\tfrac73\\right)\\).<br>Solution:\\( -4 < x < \\tfrac23 \\)."
+  question: "On the same axes, sketch the graphs of:<br> \\(y = |2x + 1|\\) and \\(y = |x - 3|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |2x + 1| < |x - 3| \\).",
+  solution: "\\( -4 < x < \\tfrac23 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x - 3|\\) and \\(y = |x + 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 3| \\ge |x + 2| \\).",
-  solution: "Intersection at \\(\\left(\\tfrac12, \\tfrac52\\right)\\).<br>Solution:\\( x \\le \\tfrac12 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 3|\\) and \\(y = |x + 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 3| \\ge |x + 2| \\).",
+  solution: "\\( x \\le \\tfrac12 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x + 4|\\) and \\(y = |2x - 1|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x + 4| \\le |2x - 1| \\).",
-  solution: "Intersections at \\((-1,3)\\) and \\((5,9)\\).<br>Solution:\\( x \\le -1 \\text{ or } x \\ge 5 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 4|\\) and \\(y = |2x - 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 4| \\le |2x - 1| \\).",
+  solution: "\\( x \\le -1 \\text{ or } x \\ge 5 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch \\(y = |x - 1|\\) and \\(y = |3x + 2|\\).<br>Find the coordinates of intersections.<br>Hence, solve:\\( |x - 1| < |3x + 2| \\).",
-  solution: "Intersections at \\(\\left(-\\tfrac34, \\tfrac74\\right)\\) and \\(\\left(-\\tfrac12, \\tfrac32\\right)\\).<br>Solution:\\( x < -\\tfrac32 \\text{ or } x > -\\tfrac14 \\)."
+ question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 1|\\) and \\(y = |3x + 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 1| < |3x + 2| \\).",
+  solution: "\\( x < -\\tfrac32 \\text{ or } x > -\\tfrac14 \\)."
 },
 
 

@@ -101,7 +101,7 @@ button:disabled {
       <label><strong>Layout:</strong></label>
       <select id="layoutMode">
         <option value="linear">Linear</option>
-        <option value="grid">Grid (4 × 3)</option>
+        <option selected value="grid">Grid (4 × 3)</option>
       </select>
     </div>
   </div>
@@ -299,8 +299,34 @@ ${
 }
 
 <h1 style="page-break-before:always;">${title} – Answers</h1>
-${selected.map((q,i)=>`
-<p><strong>Question ${i+1}</strong><br>${q.solution}</p>`).join("")}
+
+${
+layout === "grid"
+? Array.from({length: Math.ceil(selected.length/12)}, (_,p)=>`
+<div class="page">
+<table class="question-grid">
+${
+[0,1,2].map(r=>`
+<tr>
+${
+[0,1,2,3].map(c=>{
+  const i = p*12+r*4+c;
+  const q = selected[i];
+  return q?`
+<td>
+  <div class="cell">
+    <div class="qnum">Q${i+1}</div>
+    <div class="qtext">${q.solution}</div>
+  </div>
+</td>`:`<td></td>`;
+}).join("")}
+</tr>`).join("")
+}
+</table>
+</div>`).join("")
+: selected.map((q,i)=>`
+<p><strong>Question ${i+1}</strong><br>${q.solution}</p>`).join("")
+}
 
 </body>
 </html>

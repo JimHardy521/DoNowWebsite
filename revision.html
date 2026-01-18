@@ -34,9 +34,20 @@ th {
   text-align:left;
 }
 
+/* ===== CONTROLS ===== */
 .actions {
-  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:18px;
   margin-top:25px;
+}
+
+.actions-row,
+.bottom-row {
+  display:flex;
+  align-items:center;
+  gap:20px;
 }
 
 select, input[type="text"] {
@@ -46,7 +57,7 @@ select, input[type="text"] {
 }
 
 button {
-  padding:8px 14px;
+  padding:8px 16px;
   font-size:1rem;
 }
 
@@ -65,10 +76,7 @@ button:disabled {
 <table>
   <thead>
     <tr>
-      <th>
-        <input type="checkbox" id="toggleAll" checked>
-        Include
-      </th>
+      <th><input type="checkbox" id="toggleAll" checked> Include</th>
       <th>Topic</th>
     </tr>
   </thead>
@@ -76,173 +84,136 @@ button:disabled {
 </table>
 
 <div class="actions">
-  <label style="font-weight:600; margin-right:6px;">Title:</label>
-  <input type="text" id="worksheetTitle" style="width:300px;">
 
-  <br><br>
+  <div class="actions-row">
+    <div>
+      <label><strong>Number of questions:</strong></label>
+      <select id="questionCount">
+        <option>8</option>
+        <option>12</option>
+        <option>16</option>
+        <option selected>20</option>
+        <option>24</option>
+      </select>
+    </div>
 
-  <label style="font-weight:600; margin-right:6px;">Number of questions:</label>
-  <select id="questionCount">
-    <option value="8">8</option>
-    <option value="12">12</option>
-    <option value="16">16</option>
-    <option value="20" selected>20</option>
-    <option value="24">24</option>
-    <option value="28">28</option>
-  </select>
+    <div>
+      <label><strong>Layout:</strong></label>
+      <select id="layoutMode">
+        <option value="linear">Linear</option>
+        <option value="grid">Grid (4 × 3)</option>
+      </select>
+    </div>
+  </div>
 
-  <br><br>
+  <div class="bottom-row">
+    <label><strong>Title:</strong></label>
+    <input type="text" id="worksheetTitle" style="width:360px;">
+    <button id="generateBtn" onclick="generateWorksheet()">Generate Worksheet</button>
+  </div>
 
-  <button id="generateBtn" onclick="generateWorksheet()">
-    Generate Worksheet
-  </button>
 </div>
 
 <script>
 // ---------- URL HELPERS ----------
 function getParam(name, fallback) {
-  const params = new URLSearchParams(window.location.search);
-  return params.get(name) || fallback;
+  return new URLSearchParams(location.search).get(name) || fallback;
 }
 
 const source = getParam("source", "gcse");
 const level  = getParam("level", "Higher");
 
-// ---------- GLOBAL DATA ----------
 let questionsData = [];
 
-// ---------- LOAD QUESTION BANK ----------
+// ---------- LOAD QUESTIONS ----------
 const script = document.createElement("script");
+script.src =
+  source === "alevel" ? "alevelquestions.js" :
+  source === "l2further" ? "l2furtherquestions.js" :
+  "gcseQuestions.js";
 
-if (source === "alevel") {
-  script.src = "alevelquestions.js";
-  script.onload = () => {
-    questionsData = alevelQuestions;
-    buildTopicTable();
-  };
-}
-else if (source === "l2further") {
-  script.src = "l2furtherquestions.js";
-  script.onload = () => {
-    questionsData = l2FurtherQuestions;
-    buildTopicTable();
-  };
-}
-else {
-  script.src = "gcseQuestions.js";
-  script.onload = () => {
-    questionsData = gcseQuestions;
-    buildTopicTable();
-  };
-}
-
+script.onload = () => {
+  questionsData =
+    source === "alevel" ? alevelQuestions :
+    source === "l2further" ? l2FurtherQuestions :
+    gcseQuestions;
+  buildTopicTable();
+};
 document.head.appendChild(script);
 
-// ---------- BUILD TOPIC TABLE ----------
+// ---------- BUILD TABLE ----------
 function buildTopicTable() {
+  levelHeading.textContent =
+    source === "l2further" ? "Level 2 Further Maths" : `Level: ${level}`;
 
-  document.getElementById("levelHeading").textContent =
-    source === "alevel" ? `Level: ${level}` :
-    source === "l2further" ? "Level 2 Further Maths" :
-    `Level: ${level}`;
-
-  document.getElementById("worksheetTitle").value =
+  worksheetTitle.value =
     source === "alevel" ? `A Level Maths – ${level} Revision Worksheet` :
     source === "l2further" ? "Level 2 Further Maths – Revision Worksheet" :
     "GCSE Maths – Revision Worksheet";
 
-  const filtered = questionsData.filter(q =>
-    source === "l2further" || q.level === level
-  );
+  const topics = [...new Set(
+    questionsData.filter(q => source === "l2further" || q.level === level)
+      .map(q => q.topic)
+  )].sort();
 
-  const topics = [...new Set(filtered.map(q => q.topic))]
-    .sort((a,b)=>a.localeCompare(b));
-
-  const tbody = document.getElementById("topicTable");
-  tbody.innerHTML = "";
-
-  topics.forEach(topic => {
-    const row = document.createElement("tr");
-
-    const cbCell = document.createElement("td");
-    const cb = document.createElement("input");
-    cb.type = "checkbox";
-    cb.checked = true;
-    cb.dataset.topic = topic;
-    cb.onchange = updateState;
-    cbCell.appendChild(cb);
-
-    const topicCell = document.createElement("td");
-    topicCell.textContent = topic;
-
-    row.appendChild(cbCell);
-    row.appendChild(topicCell);
-    tbody.appendChild(row);
+  topicTable.innerHTML = "";
+  topics.forEach(t => {
+    topicTable.insertAdjacentHTML("beforeend", `
+      <tr>
+        <td><input type="checkbox" checked data-topic="${t}" onchange="updateState()"></td>
+        <td>${t}</td>
+      </tr>
+    `);
   });
 
-  toggleAll.onchange = toggleAllTopics;
-  updateState();
-}
+  toggleAll.onchange = () => {
+    document.querySelectorAll("#topicTable input")
+      .forEach(cb => cb.checked = toggleAll.checked);
+    updateState();
+  };
 
-// ---------- TOGGLES ----------
-function toggleAllTopics() {
-  const state = toggleAll.checked;
-  document
-    .querySelectorAll("#topicTable input[type='checkbox']")
-    .forEach(cb => cb.checked = state);
   updateState();
 }
 
 function updateState() {
-  const boxes = [...document.querySelectorAll("#topicTable input[type='checkbox']")];
-  const checked = boxes.filter(cb => cb.checked);
-  toggleAll.checked = checked.length === boxes.length;
-  generateBtn.disabled = checked.length === 0;
+  const boxes = [...document.querySelectorAll("#topicTable input")];
+  generateBtn.disabled = !boxes.some(cb => cb.checked);
+  toggleAll.checked = boxes.every(cb => cb.checked);
 }
 
-// ---------- UTIL ----------
-function shuffle(arr) {
-  return arr.sort(() => Math.random() - 0.5);
-}
-
-function matchesLevel(q) {
-  return source === "l2further" || q.level === level;
-}
+function shuffle(a){ return a.sort(()=>Math.random()-0.5); }
 
 // ---------- GENERATE WORKSHEET ----------
 function generateWorksheet() {
 
-  const total = parseInt(questionCount.value);
-  const title = worksheetTitle.value.trim();
+  const total  = +questionCount.value;
+  const title  = worksheetTitle.value.trim();
+  const layout = layoutMode.value;
 
-  const selectedTopics =
-    [...document.querySelectorAll("#topicTable input:checked")]
-      .map(cb => cb.dataset.topic);
+  const topics = [...document.querySelectorAll("#topicTable input:checked")]
+    .map(cb => cb.dataset.topic);
 
-  if (selectedTopics.length === 0) return;
-
+  // ---------- FAIR RANDOM SELECTION ----------
   const pools = {};
-  selectedTopics.forEach(topic => {
+  topics.forEach(topic => {
     pools[topic] = shuffle(
       questionsData.filter(q =>
-        q.topic === topic && matchesLevel(q)
+        q.topic === topic &&
+        (source === "l2further" || q.level === level)
       )
     );
   });
 
-  const base = Math.floor(total / selectedTopics.length);
+  const base = Math.floor(total / topics.length);
   let selected = [];
 
-  // Fair share
-  selectedTopics.forEach(topic => {
+  topics.forEach(topic => {
     selected = selected.concat(pools[topic].splice(0, base));
   });
 
-  // Top up evenly
   let safety = 0;
-  while (selected.length < total && safety < 1000) {
-    safety++;
-    for (const topic of selectedTopics) {
+  while (selected.length < total && safety++ < 1000) {
+    for (const topic of topics) {
       if (selected.length >= total) break;
       if (pools[topic].length) {
         selected.push(pools[topic].shift());
@@ -250,65 +221,93 @@ function generateWorksheet() {
     }
   }
 
-  if (selected.length < total) {
-    alert(`Only ${selected.length} questions available.`);
-  }
-
   const win = window.open("", "_blank");
 
   win.document.write(`
-  <html>
-  <head>
-    <title>${title}</title>
-    <style>
-      @page { size:A4; margin:15mm; }
-      body { font-family:Inter, Arial; }
-      .header span { font-size:9pt; color:#bbb; }
-      h1 { text-align:center; margin:0; }
-      .meta { margin-top:24px; text-align:center; margin-bottom:24px; }
-      .q { margin-bottom:16px; }
-      .answer { margin-bottom:14px; }
-      .page-break { page-break-before: always; }
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
-  </head>
-  <body>
+<html>
+<head>
+<title>${title}</title>
+<style>
+@page { size: A4 ${layout==="grid"?"landscape":"portrait"}; margin:12mm; }
 
-    <div class="header"><span>mrhardymaths.co.uk</span></div>
+body { font-family:Inter,Arial; font-size:11pt; }
 
-    <h1>${title}</h1>
+.page { page-break-after: always; }
+.page:last-child { page-break-after: auto; }
 
-    <div class="meta">
-      Name: _____________________________
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Date: __________
-    </div>
+h1 { text-align:center; margin:0 0 6mm; }
 
-    ${selected.map((q,i)=>`
-      <div class="q">
-        <strong>Question ${i+1}</strong><br>
-        ${q.question}
-      </div>
-    `).join("")}
+.meta { text-align:center; margin-bottom:6mm; }
 
-    <div class="page-break"></div>
+/* ===== FIXED GRID ===== */
+.question-grid {
+  width:100%;
+  height:170mm;               /* FIXED physical height */
+  border-collapse:collapse;
+  table-layout:fixed;
+}
 
-    <h1>${title} – Answers</h1>
+.question-grid tr { height: calc(170mm / 3); }
 
-    ${selected.map((q,i)=>`
-      <div class="answer">
-        <strong>Question ${i+1}</strong><br>
-        ${q.solution}
-      </div>
-    `).join("")}
+.question-grid td {
+  border:2px solid #000;      /* thicker borders */
+  padding:6px;
+  vertical-align:top;
+  overflow:hidden;
+}
 
-  </body>
-  </html>
+.cell { height:100%; overflow:hidden; }
+
+.qnum { font-weight:600; font-size:10pt; margin-bottom:3px; }
+
+.qtext { font-size:12pt; line-height:1.25; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
+</head>
+
+<body>
+
+<h1>${title}</h1>
+<div class="meta">Name: _____________________________ &nbsp;&nbsp; Date: __________</div>
+
+${
+layout==="grid"
+? Array.from({length: Math.ceil(selected.length/12)}, (_,p)=>`
+<div class="page">
+<table class="question-grid">
+${
+[0,1,2].map(r=>`
+<tr>
+${
+[0,1,2,3].map(c=>{
+  const i = p*12+r*4+c;
+  const q = selected[i];
+  return q?`
+<td>
+  <div class="cell">
+    <div class="qnum">Q${i+1}</div>
+    <div class="qtext">${q.question}</div>
+  </div>
+</td>`:`<td></td>`;
+}).join("")}
+</tr>`).join("")
+}
+</table>
+</div>`).join("")
+: selected.map((q,i)=>`
+<p><strong>Question ${i+1}</strong><br>${q.question}</p>`).join("")
+}
+
+<h1 style="page-break-before:always;">${title} – Answers</h1>
+${selected.map((q,i)=>`
+<p><strong>Question ${i+1}</strong><br>${q.solution}</p>`).join("")}
+
+</body>
+</html>
   `);
 
   win.document.close();
-  win.onload = () =>
-    win.MathJax.typesetPromise().then(() => win.print());
+  win.onload = () => win.MathJax.typesetPromise().then(()=>win.print());
 }
 </script>
 

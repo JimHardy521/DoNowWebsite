@@ -1,6 +1,81 @@
 const alevelQuestions = [
 
  {
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A chord AB intersects a circle of radius 5 cm at points A and B. The angle AOB is \\( \\frac{\\pi}{3} \\) radians. Find the area of the minor segment formed.",
+  solution: "2.3 cm²"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "Points A and B lie on the circumference of a circle of radius 8 cm. The angle AOB is \\( \\frac{\\pi}{4} \\) radians. Find the perimeter of the minor sector AOB.",
+  solution: "22.3 cm"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A circle has radius 6 cm. The angle subtended at the centre by arc AB is \\( \\frac{2\\pi}{3} \\) radians. Find the area of the major sector.",
+  solution: "75.4 cm²"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A chord PQ of a circle of radius 7 cm subtends an angle of \\( \\frac{\\pi}{2} \\) radians at the centre. Find the area of the minor segment.",
+  solution: "14.0 cm²"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A circle has radius 10 cm. The angle subtended by arc AB at the centre is \\( \\frac{3\\pi}{5} \\) radians. Find the perimeter of the sector.",
+  solution: "38.8 cm"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A sector of a circle has radius 9 cm and angle \\( \\frac{5\\pi}{6} \\) radians. Find the area of the sector.",
+  solution: "106.0 cm²"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A chord AB divides a circle of radius 4 cm into a minor and a major segment. The angle AOB is \\( \\frac{2\\pi}{5} \\) radians. Find the area of the major segment.",
+  solution: "47.8 cm²"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A circle has centre O and radius 12 cm. Points A and B lie on the circumference such that the angle AOB is \\( \\frac{\\pi}{6} \\) radians. Find the perimeter of the minor segment.",
+  solution: "12.5 cm"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A sector of a circle has radius 5 cm and angle θ radians. The area of the sector is 20 cm². Find the value of θ.",
+  solution: "1.6 radians"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A circle has radius 8 cm. A chord subtends an angle of \\( \\frac{3\\pi}{4} \\) radians at the centre. Find the area of the minor segment.",
+  solution: "52.8 cm²"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "The perimeter of a sector of a circle is 26 cm. The radius of the circle is 7 cm. Find the angle of the sector in radians.",
+  solution: "1.7 radians"
+},
+{
+  topic: "Radians – Circle Geometry",
+  level: "Year 13",
+  question: "A circle of radius 6 cm is divided by a chord into a minor and a major segment. The angle subtended by the chord at the centre is \\( \\frac{4\\pi}{3} \\) radians. Find the area of the minor segment.",
+  solution: "22.1 cm²"
+},
+
+
+
+ {
   topic: "Partial Fractions",
   level: "Year 13",
   question: "Express<br>$$\\frac{3x^2+7x-1}{(x-1)(x+2)^2}$$<br>in partial fractions.",
@@ -151,73 +226,73 @@ const alevelQuestions = [
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
-  question: "On the same axes, sketch the graphs of:<br> \\(y = |2x - 3|\\) and \\(y = |x|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |2x - 3| \\le |x| \\).",
+  question: "On the same axes, sketch the graphs of:<br><br> \\(y = |2x - 3|\\) and \\(y = |x|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |2x - 3| \\le |x| \\).",
   solution: "\\( x \\in [1,3] \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
-  question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 2|\\) and \\(y = |3x - 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 2| \\ge |3x - 1| \\).",
+  question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x + 2|\\) and \\(y = |3x - 1|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x + 2| \\ge |3x - 1| \\).",
   solution: "\\( x \\le -\\tfrac14 \\text{ or } x \\ge \\tfrac32 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 1|\\) and \\(y = |2x + 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 1| < |2x + 1| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x - 1|\\) and \\(y = |2x + 1|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x - 1| < |2x + 1| \\).",
   solution: "\\( x < -2 \\text{ or } x > 0 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x|\\) and \\(y = |x - 4|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x| \\ge |x - 4| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x|\\) and \\(y = |x - 4|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x| \\ge |x - 4| \\).",
   solution: "\\( x \\ge 2 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 3|\\) and \\(y = |2x - 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 3| \\le |2x - 1| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x + 3|\\) and \\(y = |2x - 1|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x + 3| \\le |2x - 1| \\).",
   solution: "\\( x \\le -\\tfrac23 \\text{ or } x \\ge 4 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 2|\\) and \\(y = |x + 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 2| < |x + 1| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x - 2|\\) and \\(y = |x + 1|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x - 2| < |x + 1| \\).",
   solution: "\\( x > \\tfrac12 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |3x - 4|\\) and \\(y = |x + 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |3x - 4| \\ge |x + 2| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |3x - 4|\\) and \\(y = |x + 2|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |3x - 4| \\ge |x + 2| \\).",
   solution: "\\( x \\le \\tfrac12 \\text{ or } x \\ge 3 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 1|\\) and \\(y = |x - 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 1| \\le |x - 2| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x + 1|\\) and \\(y = |x - 2|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x + 1| \\le |x - 2| \\).",
   solution: "\\( x \\le \\tfrac12 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
-  question: "On the same axes, sketch the graphs of:<br> \\(y = |2x + 1|\\) and \\(y = |x - 3|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |2x + 1| < |x - 3| \\).",
+  question: "On the same axes, sketch the graphs of:<br><br> \\(y = |2x + 1|\\) and \\(y = |x - 3|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |2x + 1| < |x - 3| \\).",
   solution: "\\( -4 < x < \\tfrac23 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 3|\\) and \\(y = |x + 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 3| \\ge |x + 2| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x - 3|\\) and \\(y = |x + 2|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x - 3| \\ge |x + 2| \\).",
   solution: "\\( x \\le \\tfrac12 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x + 4|\\) and \\(y = |2x - 1|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x + 4| \\le |2x - 1| \\).",
+ question: "On the same axes, sketch the graphs of:<br><br> \\(y = |x + 4|\\) and \\(y = |2x - 1|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x + 4| \\le |2x - 1| \\).",
   solution: "\\( x \\le -1 \\text{ or } x \\ge 5 \\)."
 },
 {
   topic: "Graphs - Mod. Inequalities",
   level: "Year 13",
- question: "On the same axes, sketch the graphs of:<br> \\(y = |x - 1|\\) and \\(y = |3x + 2|\\).<br>Find the x-ordinates of intersection.<br>Hence, solve:\\( |x - 1| < |3x + 2| \\).",
+ question: "On the same axes, sketch the graphs of:<br> <br>\\(y = |x - 1|\\) and \\(y = |3x + 2|\\).<br><br>Find the x-ordinates of intersection.<br><br>Hence, solve:\\( |x - 1| < |3x + 2| \\).",
   solution: "\\( x < -\\tfrac32 \\text{ or } x > -\\tfrac14 \\)."
 },
 

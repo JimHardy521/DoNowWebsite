@@ -1,5 +1,80 @@
 const alevelQuestions = [
 
+ {
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{3x^2+7x-1}{(x-1)(x+2)^2}$$<br>in partial fractions.",
+  solution: "$$\\frac{1}{x-1}+\\frac{2}{x+2}+\\frac{1}{(x+2)^2}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{2x^2+9x-1}{(x-2)(x+3)^2}$$<br>in partial fractions.",
+  solution: "$$\\frac{1}{x-2}+\\frac{1}{x+3}+\\frac{2}{(x+3)^2}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{6x+5}{(x+1)^2}$$<br>in partial fractions.",
+  solution: "$$\\frac{6}{x+1}-\\frac{1}{(x+1)^2}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{3x^2+5x+4}{(x-1)(x^2+3)}$$<br>in partial fractions.",
+  solution: "$$\\frac{3}{x-1}+\\frac{5}{x^2+3}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{2x^2+6x+9}{(x+4)(x^2+1)}$$<br>in partial fractions.",
+  solution: "$$\\frac{1}{x+4}+\\frac{x+2}{x^2+1}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{2x^2-4x+10}{(x+1)(x-3)^2}$$<br>in partial fractions.",
+  solution: "$$\\frac{1}{x+1}+\\frac{1}{x-3}+\\frac{4}{(x-3)^2}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{2x^2+4x+9}{(x+2)(x^2+5)}$$<br>in partial fractions.",
+  solution: "$$\\frac{1}{x+2}+\\frac{x+2}{x^2+5}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{x^2+16x+4}{(2x-1)(x+3)^2}$$<br>in partial fractions.",
+  solution: "$$\\frac{1}{2x-1}+\\frac{5}{(x+3)^2}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{6x^2+3x+21}{(x-1)(x^2+4)}$$<br>in partial fractions.",
+  solution: "$$\\frac{6}{x-1}+\\frac{3}{x^2+4}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{9x+4}{(x+5)^2}$$<br>in partial fractions.",
+  solution: "$$\\frac{9}{x+5}-\\frac{41}{(x+5)^2}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{2x^2+7x-12}{(x-2)(x^2+1)}$$<br>in partial fractions.",
+  solution: "$$\\frac{2}{x-2}+\\frac{7}{x^2+1}$$"
+},
+{
+  topic: "Partial Fractions",
+  level: "Year 13",
+  question: "Express<br>$$\\frac{x^3+5x^2+4x+9}{(x^2+2)(x+1)^2}$$<br>in partial fractions.",
+  solution: "$$\\frac{1}{x^2+2}+\\frac{1}{x+1}+\\frac{3}{(x+1)^2}$$"
+},
+
+
+  
   {
     topic: "General Binomial Expansion",
     level: "Year 13",

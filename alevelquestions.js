@@ -1,5 +1,78 @@
 const alevelQuestions = [
 {
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "The first three terms of a geometric sequence are 5, 15 and 45. Write down the common ratio and find the 6th term.",
+  solution: "The common ratio is \\(r = 3\\).\\\\\nThe 6th term is \\(u_6 = 5 \\times 3^5 = 1215\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "A geometric sequence has first term 12 and common ratio \\(\\frac{1}{3}\\). Find the 10th term.",
+  solution: "\\(u_{10} = 12\\left(\\frac{1}{3}\\right)^9 = \\frac{12}{19683}\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "The second term of a geometric sequence is 18 and the fifth term is 486. Find the first term and the common ratio.",
+  solution: "\\(ar = 18,\\ ar^4 = 486\\).\\\\\n\\(r^3 = 27 \\Rightarrow r = 3\\), so \\(a = 6\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "Find the sum of the first 8 terms of the geometric series with first term 4 and ratio 3.",
+  solution: "\\(S_8 = 4\\frac{3^8 - 1}{3 - 1} = 13120\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "In a geometric sequence \\(u_n\\), the first term is \\(7\\) and the fourth term is \\(56\\). Find the common ratio and the 8th term.",
+  solution: "\\(7r^3 = 56 \\Rightarrow r = 2\\).\\\\\n\\(u_8 = 7 \\times 2^7 = 896\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "Find the sum to infinity of the geometric series 9 + 6 + 4 + …",
+  solution: "\\(r = \\frac{2}{3}\\).\\\\\n\\(S_\\infty = \\frac{9}{1 - \\frac{2}{3}} = 27\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "In a geometric sequence, the first term is 5 and the third term is 20. Find the common ratio and the 7th term.",
+  solution: "\\(5r^2 = 20 \\Rightarrow r = 2\\).\\\\\n\\(u_7 = 5 \\times 2^6 = 320\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "The sum of the first 5 terms of a geometric sequence is 121 and the sum to infinity is 242. Find the first term and the common ratio.",
+  solution: "\\(\\frac{S_5}{S_\\infty} = \\frac{1 - r^5}{1} = \\frac{1}{2}\\).\\\\\n\\(r = \\frac{1}{2},\\ a = 121\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "Given a geometric sequence with first term 3 and common ratio 2, find the sum of the first 12 terms.",
+  solution: "\\(S_{12} = 3\\frac{2^{12} - 1}{2 - 1} = 12285\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "The third term of a geometric sequence is 16 and the sixth term is 128. Find the first term and the common ratio.",
+  solution: "\\(ar^2 = 16,\\ ar^5 = 128\\).\\\\\n\\(r^3 = 8 \\Rightarrow r = 2\\), so \\(a = 4\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "A geometric series has sum to infinity 54 and first term 27. Find the common ratio and the sum of the first 6 terms.",
+  solution: "\\(\\frac{27}{1 - r} = 54 \\Rightarrow r = \\frac{1}{2}\\).\\\\\n\\(S_6 = 27\\frac{1 - (\\frac{1}{2})^6}{1 - \\frac{1}{2}} = 52.3125\\)."
+},
+{
+  topic: "Sequences - Geometric",
+  level: "Year 13",
+  question: "The sum of the first 4 terms of a geometric sequence is 30 and the common ratio is 2. Find the first term.",
+  solution: "\\(30 = a\\frac{1 - 2^4}{1 - 2} = 15a\\), so \\(a = 2\\)."
+},
+
+{
   topic: "Sequences – Arithmetic",
   level: "Year 13",
   question: "The first three terms of an arithmetic sequence are 7, 11 and 15. Find the 20th term.",

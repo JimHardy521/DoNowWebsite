@@ -1,5 +1,79 @@
 const alevelQuestions = [
 {
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve the differential equation \\(\\frac{dy}{dx} = \\frac{1}{y} \\sin(2x)\\), given that \\(y = 2\\) when \\(x = \\pi/6\\).",
+  solution: "Separate: \\(y \\, dy = \\sin(2x) \\, dx\\)<br>Integrate: \\(\\frac{y^2}{2} = -\\frac{1}{2} \\cos(2x) + C\\)<br>Use \\(y=2, x=\\pi/6\\): \\(y = \\sqrt{-\\cos(2x) + 9/2}\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = y \\cos(x)\\) given that \\(y = 3\\) when \\(x = 0\\).",
+  solution: "Separate: \\((1/y) \\, dy = \\cos(x) \\, dx\\)<br>Integrate: \\(\\ln|y| = \\sin(x) + C\\)<br>Solution: \\(y = 3 e^{\\sin(x)}\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = 2x y^2\\) given that \\(y = 1\\) when \\(x = 0\\).",
+  solution: "Separate: \\((1/y^2) \\, dy = 2x \\, dx\\)<br>Integrate: \\(-1/y = x^2 + C\\)<br>Solution: \\(y = -1/(x^2 -1)\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = e^{2x} / y\\) given that \\(y = 1\\) when \\(x = 0\\).",
+  solution: "Separate: \\(y \\, dy = e^{2x} \\, dx\\)<br>Integrate: \\(y^2/2 = e^{2x}/2 + C\\)<br>Solution: \\(y = e^x\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = (2x + 1) y\\) given that \\(y = 4\\) when \\(x = 0\\).",
+  solution: "Separate: \\((1/y) \\, dy = (2x+1) \\, dx\\)<br>Integrate: \\(\\ln|y| = x^2 + x + C\\)<br>Solution: \\(y = 4 e^{x^2 + x}\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = 3y/x\\) for \\(x > 0\\), given that \\(y = 2\\) when \\(x = 1\\).",
+  solution: "Separate: \\((1/y) \\, dy = 3/x \\, dx\\)<br>Integrate: \\(\\ln|y| = 3 \\ln x + C\\)<br>Solution: \\(y = 2 x^3\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = y^2 \\cos(x)\\) given that \\(y = 1\\) when \\(x = 0\\).",
+  solution: "Separate: \\((1/y^2) \\, dy = \\cos(x) \\, dx\\)<br>Integrate: \\(-1/y = sin(x) + C\\)<br>Solution: \\(y = 1/(1 - sin(x))\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = (x^2 + 1)/y^2\\) given that \\(y = 2\\) when \\(x = 0\\).",
+  solution: "Separate: \\(y^2 \\, dy = (x^2+1) \\, dx\\)<br>Integrate: \\(y^3/3 = x^3/3 + x + C\\)<br>Solution: \\(y = (x^3 + 3x + 8)^{1/3}\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = (y+1)^2\\) given that \\(y = 0\\) when \\(x = 0\\).",
+  solution: "Separate: \\((1/(y+1)^2) \\, dy = dx\\)<br>Integrate: \\(-1/(y+1) = x + C\\)<br>Solution: \\(y = -1/(x-1) -1\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = y^2 + 1\\) given that \\(y = 0\\) when \\(x = 0\\).",
+  solution: "Separate: \\(1/(1+y^2) \\, dy = dx\\)<br>Integrate: arctan(y) = x + C<br>Solution: \\(y = tan(x)\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = 1/y^2 (x + 1)\\) given that \\(y = 1\\) when \\(x = 0\\).",
+  solution: "Separate: \\(y^2 \\, dy = (x+1) \\, dx\\)<br>Integrate: y^3/3 = x^2/2 + x + C<br>Solution: \\(y = (3(x^2/2 + x) +1)^{1/3}\\)"
+},
+{
+  topic: "Differential Equations",
+  level: "Year 13",
+  question: "Solve \\(\\frac{dy}{dx} = sin(2x)/y\\) given that \\(y = 1\\) when \\(x = 0\\).",
+  solution: "Separate: \\(y \\, dy = sin(2x) \\, dx\\)<br>Integrate: y^2/2 = -cos(2x)/2 + C<br>Solution: \\(y = sqrt(-cos(2x) + 3/2)\\)"
+},
+
+  
+{
   topic: "Sequences - Geometric",
   level: "Year 13",
   question: "The first three terms of a geometric sequence are 5, 15 and 45. Write down the common ratio and find the 6th term.",

@@ -1,4 +1,76 @@
 const alevelQuestions = [
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "The first three terms of an arithmetic sequence are 7, 11 and 15. Find the 20th term.",
+  solution: "\\(83\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "An arithmetic sequence has first term 12 and common difference \\(-3\\). Find the 15th term.",
+  solution: "\\(-30\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "In an arithmetic sequence, the 5th term is 23 and the 10th term is 48. Find the first term and the common difference.",
+  solution: "\\(a = 3,\\ d = 5\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "The nth term of an arithmetic sequence is given by \\(u_n = 5n - 8\\). Find the sum of the first 30 terms.",
+  solution: "\\(2085\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "In an arithmetic sequence, the 2nd term is 14 and the 5th term is 32. Find the 40th term.",
+  solution: "\\(242\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "The first term of an arithmetic sequence is 7 and the sum of the first 20 terms is 710. Find the common difference.",
+  solution: "\\(3\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "The first term of an arithmetic sequence is 8 and the sum of the first 15 terms is 285. Find the common difference.",
+  solution: "\\(\\frac{11}{7}\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "In an arithmetic sequence, the 3rd term is 18 and the 8th term is 33. Find the sum of the first 25 terms.",
+  solution: "\\(1200\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "In an arithmetic sequence, the 7th term is 49 and the 12th term is 79. Find the first term and the common difference.",
+  solution: "\\(a = 13,\\ d = 6\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "The nth term of an arithmetic sequence is \\(u_n = 3n + 14\\). Find the sum of the first 35 terms.",
+  solution: "\\(2380\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "The sum of the first 10 terms of an arithmetic sequence is \\(-15\\) and the sum of the first 20 terms is 70. Find the first term and the common difference.",
+  solution: "\\(a = -6,\\ d = 1\\)"
+},
+{
+  topic: "Sequences – Arithmetic",
+  level: "Year 13",
+  question: "In an arithmetic sequence, the 4th term is 21 and the 10th term is 39. Find the 60th term.",
+  solution: "\\(189\\)"
+},
 
  {
   topic: "Radians – Circle Geometry",

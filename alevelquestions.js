@@ -1,5 +1,78 @@
 const alevelQuestions = [
 {
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = 3\\arcsin(2x) + 1\\).",
+  solution: "Domain: \\(\\{x : -\\tfrac12 \\le x \\le \\tfrac12\\}\\).<br> Range: \\(\\{y : -\\tfrac{3\\pi}{2}+1 \\le y \\le \\tfrac{3\\pi}{2}+1\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = 2\\arccos(x-1)\\).",
+  solution: "Domain: \\(\\{x : 0 \\le x \\le 2\\}\\).<br> Range: \\(\\{y : 0 \\le y \\le 2\\pi\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = \\arctan(3x) - 2\\).",
+  solution: "Domain: \\(\\mathbb{R}\\).<br> Range: \\(\\{y : -\\tfrac{\\pi}{2}-2 < y < \\tfrac{\\pi}{2}-2\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = -\\arcsin(x+2)\\).",
+  solution: "Domain: \\(\\{x : -3 \\le x \\le -1\\}\\).<br> Range: \\(\\{y : -\\tfrac{\\pi}{2} \\le y \\le \\tfrac{\\pi}{2}\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = 4\\arccos(2x) + \\pi\\).",
+  solution: "Domain: \\(\\{x : -\\tfrac12 \\le x \\le \\tfrac12\\}\\).<br> Range: \\(\\{y : \\pi \\le y \\le 5\\pi\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = \\tfrac12\\arcsin(4x)\\).",
+  solution: "Domain: \\(\\{x : -\\tfrac14 \\le x \\le \\tfrac14\\}\\).<br> Range: \\(\\{y : -\\tfrac{\\pi}{4} \\le y \\le \\tfrac{\\pi}{4}\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = 5 - \\arccos(x)\\).",
+  solution: "Domain: \\(\\{x : -1 \\le x \\le 1\\}\\).<br>Range: \\(\\{y : 5-\\pi \\le y \\le 5\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = 2\\arctan(x-3)\\).",
+  solution: "Domain: \\(\\mathbb{R}\\).<br> Range: \\(\\{y : -\\pi < y < \\pi\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = -3\\arcsin(x/2) + 4\\).",
+  solution: "Domain: \\(\\{x : -2 \\le x \\le 2\\}\\).<br> Range: \\(\\{y : 4-\\tfrac{3\\pi}{2} \\le y \\le 4+\\tfrac{3\\pi}{2}\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = \\arccos(3x-1) - 1\\).",
+  solution: "Domain: \\(\\{x : 0 \\le x \\le \\tfrac23\\}\\).<br> Range: \\(\\{y : -1 \\le y \\le \\pi-1\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = 6\\arctan(2x) + \\tfrac{\\pi}{2}\\).",
+  solution: "Domain: \\(\\mathbb{R}\\).<br> Range: \\(\\{y : -3\\pi+\\tfrac{\\pi}{2} < y < 3\\pi+\\tfrac{\\pi}{2}\\}\\)."
+},
+{
+  topic: "Functions - Inverse Trig - Domain and Range",
+  level: "Year 13",
+  question: "Find the domain and range of \\(y = \\tfrac13\\arcsin(6x) - 2\\).",
+  solution: "Domain: \\(\\{x : -\\tfrac16 \\le x \\le \\tfrac16\\}\\).<br> Range: \\(\\{y : -\\tfrac{\\pi}{6}-2 \\le y \\le \\tfrac{\\pi}{6}-2\\}\\)."
+},
+
+  {
   topic: "Differential Equations",
   level: "Year 13",
   question: "Solve the differential equation \\(\\frac{dy}{dx} = \\frac{1}{y} \\sin(2x)\\), given that \\(y = 2\\) when \\(x = \\pi/6\\).",

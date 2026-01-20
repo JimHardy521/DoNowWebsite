@@ -152,14 +152,14 @@ const alevelfurther = [
   topic: "Vectors - Perpendicular",
   level: "Year 12",
   question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}2\\\\ a\\\\ -1\\end{pmatrix}\\) and \\(\\begin{pmatrix}3\\\\ 4\\\\ 5\\end{pmatrix}\\) are perpendicular.",
-  solution: "\\(a = -\\tfrac{1}{2}\\)"
+  solution: "\\(a = -\\tfrac{1}{4}\\)"
 },
 
 {
   topic: "Vectors - Perpendicular",
   level: "Year 12",
   question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}a\\\\ 1\\\\ 2\\end{pmatrix}\\) and \\(\\begin{pmatrix}4\\\\ -3\\\\ 2\\end{pmatrix}\\) are perpendicular.",
-  solution: "\\(a = -\\tfrac{1}{2}\\)"
+  solution: "\\(a = -\\tfrac{1}{4}\\)"
 },
 
 {
@@ -193,7 +193,7 @@ const alevelfurther = [
 {
   topic: "Vectors - Perpendicular",
   level: "Year 12",
-  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}a\\\\ -4\\\\ 2\\end{pmatrix}\\) and \\(\\begin{pmatrix}3\\\\ 1\\\\ -5\\end{pmatrix}\\) are perpendicular.",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}a\\\\ -4\\\\ 2\\end{pmatrix}\\) and \\(\\begin{pmatrix}3\\\\ 1\\\\ 5\\end{pmatrix}\\) are perpendicular.",
   solution: "\\(a = -2\\)"
 },
 
@@ -222,7 +222,7 @@ const alevelfurther = [
   topic: "Vectors - Perpendicular",
   level: "Year 12",
   question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}1\\\\ a\\\\ 5\\end{pmatrix}\\) and \\(\\begin{pmatrix}4\\\\ -2\\\\ 3\\end{pmatrix}\\) are perpendicular.",
-  solution: "\\(a = -\\tfrac{19}{2}\\)"
+  solution: "\\(a = \\tfrac{19}{2}\\)"
 },
 
   

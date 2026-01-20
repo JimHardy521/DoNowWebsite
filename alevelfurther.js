@@ -1,5 +1,78 @@
 const alevelfurther = [
 {
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 3 + 2\\cos\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(5\\), minimum value is \\(1\\). The curve is a limacon symmetric about the initial line."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 4 - \\cos\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(5\\), minimum value is \\(3\\). The curve is a limacon symmetric about the initial line."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 2\\cos\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(2\\), minimum value is \\(-2\\). The curve is a circle passing through the pole, symmetric about the initial line."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 3\\cos(2\\theta)\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(3\\), minimum value is \\(-3\\). The curve is a rose curve with 4 petals, symmetric about the coordinate axes."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 4\\sin(2\\theta)\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(4\\), minimum value is \\(-4\\). The curve is a rose curve with 4 petals, symmetric about the lines \\(\\theta = \\tfrac{\\pi}{4}\\) and \\(\\theta = \\tfrac{3\\pi}{4}\\)."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 5\\cos(3\\theta)\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(5\\), minimum value is \\(-5\\). The curve is a rose curve with 3 petals, symmetric about the initial line."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 3\\sin(3\\theta)\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(3\\), minimum value is \\(-3\\). The curve is a rose curve with 3 petals, symmetric about the line \\(\\theta = \\tfrac{\\pi}{6}\\)."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 1 + 2\\cos\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(3\\), minimum value is \\(-1\\). The curve is a limacon with an inner loop, symmetric about the initial line."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 6 - 2\\sin\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(8\\), minimum value is \\(4\\). The curve is a limacon symmetric about the line \\(\\theta = \\tfrac{\\pi}{2}\\)."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 2 + \\cos\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(3\\), minimum value is \\(1\\). The curve is a limacon symmetric about the initial line."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 4 + 3\\sin\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(7\\), minimum value is \\(1\\). The curve is a limacon symmetric about the line \\(\\theta = \\tfrac{\\pi}{2}\\)."
+},
+{
+  topic: "Polar Coordinates",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 3 + \\sin\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",
+  solution: "Maximum value of \\(r\\) is \\(4\\), minimum value is \\(2\\). The curve is a limacon symmetric about the line \\(\\theta = \\tfrac{\\pi}{2}\\)."
+},
+
+{
   topic: "Matrices - 3D Transformations",
   level: "Year 12",
   question: "The matrix \\(M = \\begin{pmatrix}1&0&0\\\\0&-1&0\\\\0&0&-1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",

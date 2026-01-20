@@ -1,5 +1,73 @@
 const alevelfurther = [
 {
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(|z - 2i| = 2\\).",
+  solution: "A circle with centre \\((0,2)\\) and radius \\(2\\)."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(|z - 3| = 1\\).",
+  solution: "A circle with centre \\((3,0)\\) and radius \\(1\\)."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(|z + 1 + 2i| = 3\\).",
+  solution: "A circle with centre \\((-1,-2)\\) and radius \\(3\\)."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(|z - i| = 4\\).",
+  solution: "A circle with centre \\((0,1)\\) and radius \\(4\\)."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(|z + 5| = 2\\).",
+  solution: "A circle with centre \\((-5,0)\\) and radius \\(2\\)."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(|z - (4 - i)| = 3\\).",
+  solution: "A circle with centre \\((4,-1)\\) and radius \\(3\\)."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(\\arg(z + 2i) = \\frac{\\pi}{2}\\).",
+  solution: "A vertical half-line starting at \\((0,-2)\\) extending upwards."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(\\arg(z - 3 - i) = \\frac{5\\pi}{6}\\).",
+  solution: "A half-line starting at \\((3,1)\\) making an angle of \\(\\frac{5\\pi}{6}\\) with the positive real axis."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(\\arg(z + 4) = \\pi\\).",
+  solution: "A horizontal half-line starting at \\((-4,0)\\) extending to the left."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(\\arg(z - 2 + 3i) = -\\frac{\\pi}{4}\\).",
+  solution: "A half-line starting at \\((2,-3)\\) making an angle of \\(-\\frac{\\pi}{4}\\) with the positive real axis."
+},
+{
+  topic: "Complex Number - Argand Diagrams",
+  level: "Year 12",
+  question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(\\arg(z - 5) = \\frac{\\pi}{2}\\).",
+  solution: "A vertical half-line starting at \\((5,0)\\) extending upwards."
+},
+
+  
+{
   topic: "Integration - Mean Value",
   level: "Year 12",
   question: "A function is defined by \\(f(x) = x^2\\) for \\(1 \\le x \\le 3\\). Find the mean value of the function over this interval.",

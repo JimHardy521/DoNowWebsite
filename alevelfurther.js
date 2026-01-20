@@ -1,5 +1,78 @@
 const alevelfurther = [
 {
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}1&0&0\\\\0&-1&0\\\\0&0&-1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A rotation of \\(180^\\circ\\) about the x-axis."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}-1&0&0\\\\0&1&0\\\\0&0&-1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A rotation of \\(180^\\circ\\) about the y-axis."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}-1&0&0\\\\0&-1&0\\\\0&0&1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A rotation of \\(180^\\circ\\) about the z-axis."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}1&0&0\\\\0&-1&0\\\\0&0&1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A reflection in the xz-plane."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}-1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A reflection in the yz-plane."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&-1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A reflection in the xy-plane."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}2&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "An enlargement by scale factor 2 in the x-direction."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}1&0&0\\\\0&3&0\\\\0&0&1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "An enlargement by scale factor 3 in the y-direction."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&\\tfrac{1}{2}\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "An enlargement by scale factor \\(\\tfrac{1}{2}\\) in the z-direction."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}-1&0&0\\\\0&-1&0\\\\0&0&-1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "An enlargement with scale factor \\(-1\\), equivalent to a reflection in the origin."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}1&0&0\\\\0&0&-1\\\\0&1&0\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A rotation of \\(90^\\circ\\) about the x-axis in an anticlockwise direction."
+},
+{
+  topic: "Matrices - 3D Transformations",
+  level: "Year 12",
+  question: "The matrix \\(M = \\begin{pmatrix}0&-1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}\\) represents a transformation in 3D space. Describe this transformation.",
+  solution: "A rotation of \\(90^\\circ\\) about the z-axis in an anticlockwise direction."
+},
+
+{
   topic: "Integration - Volumes of Revolution",
   level: "Year 12",
   question: "The region bounded by the curve \\(y = x\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 3\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",

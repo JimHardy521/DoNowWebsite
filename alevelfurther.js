@@ -1,5 +1,78 @@
 const alevelfurther = [
 {
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = x\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 3\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(9\\pi\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 2x\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 2\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(\\frac{32\\pi}{3}\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = \\sqrt{x}\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 4\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(8\\pi\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 3\\), the x-axis, and the lines \\(x = 1\\) and \\(x = 4\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(27\\pi\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = x + 1\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 2\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(\\frac{26\\pi}{3}\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 4 - x\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 4\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(\\frac{64\\pi}{3}\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = x^2\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 2\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(\\frac{32\\pi}{5}\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 2\\sqrt{x}\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 1\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(2\\pi\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 5\\), the x-axis, and the lines \\(x = 2\\) and \\(x = 6\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(100\\pi\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 3x\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 1\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(3\\pi\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 1 + \\sqrt{x}\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 1\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(\\frac{17\\pi}{6}\\)"
+},
+{
+  topic: "Integration - Volumes of Revolution",
+  level: "Year 12",
+  question: "The region bounded by the curve \\(y = 2\\), the x-axis, and the lines \\(x = 0\\) and \\(x = 5\\) is rotated through \\(2\\pi\\) radians about the x-axis. Find the volume generated.",
+  solution: "\\(20\\pi\\)"
+},
+
+{
   topic: "Complex Number - Argand Diagrams",
   level: "Year 12",
   question: "Sketch on an Argand diagram the locus of points satisfying the equation \\(|z - 2i| = 2\\).",

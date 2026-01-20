@@ -1,5 +1,79 @@
 const alevelfurther = [
 {
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = x^2\\) for \\(1 \\le x \\le 3\\). Find the mean value of the function over this interval.",
+  solution: "\\(\\frac{13}{3}\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = x\\) for \\(2 \\le x \\le 6\\). Find the mean value of the function over this interval.",
+  solution: "\\(4\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = x^3\\) for \\(0 \\le x \\le 2\\). Find the mean value of the function over this interval.",
+  solution: "\\(4\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = x^{1/2}\\) for \\(0 \\le x \\le 4\\). Find the mean value of the function over this interval.",
+  solution: "\\(\\frac{4}{3}\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = \\frac{1}{x}\\) for \\(1 \\le x \\le e\\). Find the mean value of the function over this interval.",
+  solution: "\\(\\frac{1}{e - 1}\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = x^{-2}\\) for \\(1 \\le x \\le 2\\). Find the mean value of the function over this interval.",
+  solution: "\\(\\frac{1}{2}\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = 3x\\) for \\(0 \\le x \\le 5\\). Find the mean value of the function over this interval.",
+  solution: "\\(\\frac{15}{2}\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = 2x^2\\) for \\(1 \\le x \\le 4\\). Find the mean value of the function over this interval.",
+  solution: "\\(14\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = x^{3/2}\\) for \\(0 \\le x \\le 4\\). Find the mean value of the function over this interval.",
+  solution: "\\(\\frac{64}{5}\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = 5\\) for \\(2 \\le x \\le 9\\). Find the mean value of the function over this interval.",
+  solution: "\\(5\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = x^{-1/2}\\) for \\(1 \\le x \\le 9\\). Find the mean value of the function over this interval.",
+  solution: "\\(\\frac{1}{2}\\)"
+},
+{
+  topic: "Integration - Mean Value",
+  level: "Year 12",
+  question: "A function is defined by \\(f(x) = 4x^3\\) for \\(0 \\le x \\le 1\\). Find the mean value of the function over this interval.",
+  solution: "\\(1\\)"
+},
+
+  
+{
   topic: "Vectors - Perpendicular",
   level: "Year 12",
   question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}1\\\\ -3\\\\ a\\end{pmatrix}\\) and \\(\\begin{pmatrix}7\\\\ 4\\\\ 1\\end{pmatrix}\\) are perpendicular.",

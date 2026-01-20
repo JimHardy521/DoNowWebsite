@@ -618,42 +618,42 @@ const l2FurtherQuestions = [
 
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 3x^2 + 2\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = x^3 - 3x^2 + 2\\).",
   solution: "Turning points at \\((0,2)\\), maximum and \\((2,-2)\\), minimum"
 },
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 6x^2 + 9x\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = x^3 - 6x^2 + 9x\\).",
   solution: "Turning points at \\((1,4)\\), maximum and \\((3,0)\\), minimum"
 },
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = 2x^3 - 3x^2 - 12x\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = 2x^3 - 3x^2 - 12x\\).",
   solution: "Turning points at \\((-1,7)\\), maximum and \\((2,-20)\\), minimum"
 },
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = x^3 + 3x^2 + 1\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = x^3 + 3x^2 + 1\\).",
   solution: "Turning points at \\((-2,5)\\), maximum and \\((0,1)\\), minimum"
 },
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 12x + 4\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = x^3 - 12x + 4\\).",
   solution: "Turning points at \\((-2,20)\\), maximum and \\((2,-12)\\), minimum"
 },
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 3x\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = x^3 - 3x\\).",
   solution: "Turning points at \\((-1,2)\\), maximum and \\((1,-2)\\), minimum"
 },
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = 2x^3 + 6x^2\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = 2x^3 + 6x^2\\).",
   solution: "Turning points at \\((-2,8)\\), maximum and \\((0,0)\\), minimum"
 },
 {
   topic: "Differentiation – Finding Turning Points",
-  question: "Find the turning points of the following function and determine their name: \\(y = x^3 - 9x^2 + 24x\\).",
+  question: "Find the turning points of the following function and determine their nature: \\(y = x^3 - 9x^2 + 24x\\).",
   solution: "Turning points at \\((2,20)\\), maximum and \\((4,16)\\), minimum"
 },
 /* ---------------- Tangents to a Circle ---------------- */

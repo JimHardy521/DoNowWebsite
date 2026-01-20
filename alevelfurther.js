@@ -1,5 +1,90 @@
 const alevelfurther = [
 {
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}1\\\\ -3\\\\ a\\end{pmatrix}\\) and \\(\\begin{pmatrix}7\\\\ 4\\\\ 1\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = 5\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}2\\\\ a\\\\ -1\\end{pmatrix}\\) and \\(\\begin{pmatrix}3\\\\ 4\\\\ 5\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -\\tfrac{1}{2}\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}a\\\\ 1\\\\ 2\\end{pmatrix}\\) and \\(\\begin{pmatrix}4\\\\ -3\\\\ 2\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -\\tfrac{1}{2}\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}3\\\\ -2\\\\ a\\end{pmatrix}\\) and \\(\\begin{pmatrix}5\\\\ 1\\\\ 4\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -\\tfrac{13}{4}\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}a\\\\ 2\\\\ -3\\end{pmatrix}\\) and \\(\\begin{pmatrix}1\\\\ -4\\\\ 2\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = 14\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}4\\\\ a\\\\ 1\\end{pmatrix}\\) and \\(\\begin{pmatrix}-2\\\\ 3\\\\ 6\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -\\tfrac{2}{3}\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}-1\\\\ 5\\\\ a\\end{pmatrix}\\) and \\(\\begin{pmatrix}2\\\\ 1\\\\ 3\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -1\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}a\\\\ -4\\\\ 2\\end{pmatrix}\\) and \\(\\begin{pmatrix}3\\\\ 1\\\\ -5\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -2\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}6\\\\ 1\\\\ a\\end{pmatrix}\\) and \\(\\begin{pmatrix}-1\\\\ 2\\\\ 4\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = 1\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}2\\\\ 3\\\\ a\\end{pmatrix}\\) and \\(\\begin{pmatrix}5\\\\ -1\\\\ 4\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -\\tfrac{7}{4}\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}a\\\\ -1\\\\ 4\\end{pmatrix}\\) and \\(\\begin{pmatrix}2\\\\ 6\\\\ -3\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = 9\\)"
+},
+
+{
+  topic: "Vectors - Perpendicular",
+  level: "Year 12",
+  question: "Find the value of \\(a\\) such that the vectors<br>\\(\\begin{pmatrix}1\\\\ a\\\\ 5\\end{pmatrix}\\) and \\(\\begin{pmatrix}4\\\\ -2\\\\ 3\\end{pmatrix}\\) are perpendicular.",
+  solution: "\\(a = -\\tfrac{19}{2}\\)"
+},
+
+  
+  {
   topic: "Matrices - Finding Original Coordinate",
   level: "Year 12",
   question: "The transformation matrix<br>\\(M = \\begin{pmatrix}1 & 4\\\\ 3 & 2\\end{pmatrix}\\)<br>is applied to \\(A\\) to give the new coordinate\\(B = \\begin{pmatrix}13\\\\ 9\\end{pmatrix}\\).<br>Find \\(A\\).",

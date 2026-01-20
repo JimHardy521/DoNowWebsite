@@ -302,7 +302,7 @@ const alevelfurther = [
   topic: "Integration - Mean Value",
   level: "Year 12",
   question: "A function is defined by \\(f(x) = x^3\\) for \\(0 \\le x \\le 2\\). Find the mean value of the function over this interval.",
-  solution: "\\(4\\)"
+  solution: "\\(2\\)"
 },
 {
   topic: "Integration - Mean Value",
@@ -338,7 +338,7 @@ const alevelfurther = [
   topic: "Integration - Mean Value",
   level: "Year 12",
   question: "A function is defined by \\(f(x) = x^{3/2}\\) for \\(0 \\le x \\le 4\\). Find the mean value of the function over this interval.",
-  solution: "\\(\\frac{64}{5}\\)"
+  solution: "\\(\\frac{16}{5}\\)"
 },
 {
   topic: "Integration - Mean Value",

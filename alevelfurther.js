@@ -1,5 +1,90 @@
 const alevelfurther = [
 {
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}1 & 4\\\\ 3 & 2\\end{pmatrix}\\)<br>is applied to \\(A\\) to give the new coordinate<br>\\(B = \\begin{pmatrix}13\\\\ 9\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}1\\\\ 3\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}2 & -1\\\\ 5 & 3\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}7\\\\ 23\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}4\\\\ 1\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}-1 & 3\\\\ 2 & 4\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}-5\\\\ 0\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}2\\\\ -1\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}4 & 0\\\\ -2 & 1\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}-12\\\\ 11\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}-3\\\\ 5\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}1 & -2\\\\ 3 & 1\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}8\\\\ 17\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}6\\\\ -1\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}0 & 5\\\\ 1 & -3\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}20\\\\ -10\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}2\\\\ 4\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}3 & 1\\\\ -4 & 2\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}1\\\\ -8\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}1\\\\ -2\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}-2 & 3\\\\ 5 & -1\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}-2\\\\ 18\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}4\\\\ 2\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}1 & 1\\\\ 1 & -1\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}10\\\\ 4\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}7\\\\ 3\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}6 & -2\\\\ 1 & 3\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}2\\\\ 17\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}2\\\\ 5\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}-3 & 4\\\\ 2 & 1\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}-15\\\\ -1\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}1\\\\ -3\\end{pmatrix}\\)"
+},
+
+{
+  topic: "Matrices - Finding Original Coordinate",
+  level: "Year 12",
+  question: "The transformation matrix<br>\\(M = \\begin{pmatrix}2 & 5\\\\ -1 & 4\\end{pmatrix}\\)<br>is applied to \\(A\\) to give<br>\\(B = \\begin{pmatrix}11\\\\ 14\\end{pmatrix}\\).<br>Find \\(A\\).",
+  solution: "\\(A = \\begin{pmatrix}-2\\\\ 3\\end{pmatrix}\\)"
+},
+
+  
+{
   topic: "Matrices - Multiplication",
   level: "Year 12",
   question: "Let \\(A=\\begin{pmatrix}3 i & -2\\\\4 & - i\\end{pmatrix}\\), \\(B=\\begin{pmatrix}4 & 5\\\\- 2 i & -1\\end{pmatrix}\\).<br><br>Find \\((AB)\\).",

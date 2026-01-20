@@ -1,5 +1,79 @@
 const alevelfurther = [
 {
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(4w - 3 = 3w^* + 28i\\)<br>Find w.",
+  solution: "w = 3 + 4i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(2w - 15 = 5w^* + 14i\\)<br>Find w.",
+  solution: "w = -5 + 2i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(3w + 7 = 4w^* - 42i\\)<br>Find w.",
+  solution: "w = 7 - 6i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(2w - 4 = 3w^* - 45i\\)<br>Find w.",
+  solution: "w = -4 - 9i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(5w - 24 = 2w^* + 7i\\)<br>Find w.",
+  solution: "w = 8 + i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(4w + 2 = 3w^* + 49i\\)<br>Find w.",
+  solution: "w = -2 + 7i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(5w - 18 = 2w^* - 21i\\)<br>Find w.",
+  solution: "w = 6 - 3i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(2w - 27 = 5w^* + 35i\\)<br>Find w.",
+  solution: "w = -9 + 5i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(3w + 1 = 4w^* - 56i\\)<br>Find w.",
+  solution: "w = 1 - 8i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(5w + 18 = 2w^* + 28i\\)<br>Find w.",
+  solution: "w = -6 + 4i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(4w - 9 = 3w^* - 14i\\)<br>Find w.",
+  solution: "w = 9 - 2i"
+},
+{
+  topic: "Complex Numbers - Conjugates",
+  level: "Year 12",
+  question: "The complex number w satisfies:<br>\\(6w + 21 = 3w^* - 9i\\)<br>Find w.",
+  solution: "w = -7 - i"
+},
+
+  
+{
   topic: "Polar Coordinates",
   level: "Year 12",
   question: "A curve has polar equation \\(r = 3 + 2\\cos\\theta\\), where \\(0 \\le \\theta \\le 2\\pi\\). State the maximum and minimum values of \\(r\\), and sketch the curve.",

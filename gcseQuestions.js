@@ -3729,25 +3729,25 @@ const gcseQuestions = [
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is directly proportional to x. When x = 4, y = 10. Find y when x = 7.",
+  question: "y is directly proportional to x.<br>When x = 4, y = 10.<br>Find y when x = 7.",
   solution: "y = 17.5"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is inversely proportional to x. When x = 5, y = 8. Find y when x = 20.",
+  question: "y is inversely proportional to x.<br>When x = 5, y = 8.<br>Find y when x = 20.",
   solution: "y = 2"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is directly proportional to x^2. When x = 3, y = 18. Find y when x = 5.",
+  question: "y is directly proportional to x^2.<br>When x = 3, y = 18.<br>Find y when x = 5.",
   solution: "y = 50"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is inversely proportional to x^2. When x = 2, y = 12. Find y when x = 6.",
+  question: "y is inversely proportional to x^2.<br>When x = 2, y = 12.<br>Find y when x = 6.",
   solution: "y = 4/3}"
 },
 {
@@ -3759,13 +3759,13 @@ const gcseQuestions = [
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is directly proportional to x^3. When x = 2, y = 16. Find y when x = 4.",
+  question: "y is directly proportional to x^3.<br>When x = 2, y = 16.<br>Find y when x = 4.",
   solution: "y = 128"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is inversely proportional to x^3. When x = 1, y = 9. Find y when x = 3.",
+  question: "y is inversely proportional to x^3.<br>When x = 1, y = 9.<br>Find y when x = 3.",
   solution: "y = 1"
 },
 {

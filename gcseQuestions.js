@@ -4627,7 +4627,81 @@ const gcseQuestions = [
   level: "Higher",
   question: "Express \\\\( \\sqrt{x^{16} \\times x^{4}} \\\\) in the form \\\\( x^a \\\\).",
   solution: "Inside the root: \\\\(x^{20}\\\\). Then \\\\(\\sqrt{x^{20}}=x^{10}\\\\)."
+},
+
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 101.4^{\\tfrac12} + 6.43^{0} \\times 7.99^{-\\tfrac23} \\\\)",
+  solution: "Round to \\\\(100, 6, 8\\\\). Then \\\\(10 + 1 \\times \\tfrac14 = 10.25\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 49.6^{\\tfrac12} + 3.02^{-1} \\times 26.1^{\\tfrac13} \\\\)",
+  solution: "Round to \\\\(49, 3, 27\\\\). Then \\\\(7 + \\tfrac13 \\times 3 = 8\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 121.8^{\\tfrac12} - 9.7^{-2} \\div 4.08^{0} \\\\)",
+  solution: "Round to \\\\(121, 10, 4\\\\). Then \\\\(11 - \\tfrac{1}{100} \\approx 11\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 15.9^{-2} \\times 64.2^{\\tfrac13} + 5.01^{0} \\\\)",
+  solution: "Round to \\\\(16, 64, 5\\\\). Then \\\\(\\tfrac{1}{256} \\times 4 + 1 \\approx 1\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 7.92^{\\tfrac32} \\div 16.4^{-\\tfrac12} + 2.98^{0} \\\\)",
+  solution: "Round to \\\\(9, 16, 3\\\\). Then \\\\(27 \\div \\tfrac14 + 1 = 109\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 81.3^{-\\tfrac12} + 12.1^{\\tfrac23} \\times 6.05^{0} \\\\)",
+  solution: "Round to \\\\(81, 8, 6\\\\). Then \\\\(\\tfrac19 + 4 \\approx 4\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 32.7^{-\\tfrac45} + 25.2^{\\tfrac12} \\div 5.9^{0} \\\\)",
+  solution: "Round to \\\\(32, 25, 6\\\\). Then \\\\(\\tfrac{1}{16} + 5 \\approx 5\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 9.85^{-\\tfrac32} + 7.02^{0} \\times 4.12^{\\tfrac12} \\\\)",
+  solution: "Round to \\\\(9, 7, 4\\\\). Then \\\\(\\tfrac{1}{27} + 2 \\approx 2\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 125.6^{-\\tfrac13} \\times 3.99^{0} + 50.4^{\\tfrac12} \\\\)",
+  solution: "Round to \\\\(125, 4, 49\\\\). Then \\\\(\\tfrac15 + 7 \\approx 7\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 6.18^{2} \\div 36.5^{-\\tfrac12} + 8.01^{0} \\\\)",
+  solution: "Round to \\\\(6, 36, 8\\\\). Then \\\\(36 \\div \\tfrac16 + 1 = 217\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 64.9^{-\\tfrac23} - 15.8^{\\tfrac12} \\times 9.2^{0} \\\\)",
+  solution: "Round to \\\\(64, 16, 9\\\\). Then \\\\(\\tfrac{1}{16} - 4 \\approx -4\\\\)."
+},
+{
+  topic: "Indices - Estimating",
+  level: "Higher",
+  question: "Estimate the value of:<br>\\\\( 27.4^{\\tfrac43} \\times 81.2^{-\\tfrac12} + 2.06^{0} \\\\)",
+  solution: "Round to \\\\(27, 81, 2\\\\). Then \\\\(81 \\times \\tfrac19 + 1 = 10\\\\)."
 }
+
 
 
 

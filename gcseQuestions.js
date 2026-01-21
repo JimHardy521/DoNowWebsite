@@ -4554,7 +4554,80 @@ const gcseQuestions = [
   level: "Higher",
   question: "f(x) = 2x − 9. Find f⁻¹(−1).",
   solution: "f⁻¹(−1) = 4"
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt{x^5 \\times x^9} \\\\)",
+  solution: "Inside the root: \\\\(x^{5+9}=x^{14}\\\\). Then \\\\(\\sqrt{x^{14}}=x^7\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt{x^{12} \\div x^4} \\\\)",
+  solution: "Inside the root: \\\\(x^{12-4}=x^8\\\\). Then \\\\(\\sqrt{x^8}=x^4\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt[3]{x^6 \\times x^9} \\\\)",
+  solution: "Inside the root: \\\\(x^{6+9}=x^{15}\\\\). Then \\\\(\\sqrt[3]{x^{15}}=x^5\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt{x^{10} \\times x^2} \\\\)",
+  solution: "Inside the root: \\\\(x^{12}\\\\). Then \\\\(\\sqrt{x^{12}}=x^6\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt[3]{x^{14} \\div x^5} \\\\)",
+  solution: "Inside the root: \\\\(x^{14-5}=x^9\\\\). Then \\\\(\\sqrt[3]{x^9}=x^3\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt{x^7 \\times x^3} \\\\)",
+  solution: "Inside the root: \\\\(x^{10}\\\\). Then \\\\(\\sqrt{x^{10}}=x^5\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt[3]{x^8 \\times x^4} \\\\)",
+  solution: "Inside the root: \\\\(x^{12}\\\\). Then \\\\(\\sqrt[3]{x^{12}}=x^4\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt{x^{15} \\div x^3} \\\\)",
+  solution: "Inside the root: \\\\(x^{12}\\\\). Then \\\\(\\sqrt{x^{12}}=x^6\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt[3]{x^{11} \\times x^7} \\\\)",
+  solution: "Inside the root: \\\\(x^{18}\\\\). Then \\\\(\\sqrt[3]{x^{18}}=x^6\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt{x^{18} \\div x^6} \\\\)",
+  solution: "Inside the root: \\\\(x^{12}\\\\). Then \\\\(\\sqrt{x^{12}}=x^6\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt[3]{x^5 \\times x^{13}} \\\\)",
+  solution: "Inside the root: \\\\(x^{18}\\\\). Then \\\\(\\sqrt[3]{x^{18}}=x^6\\\\)."
+},
+{
+  topic: "Algebraic Expressions - Simplifying Indices",
+  level: "Higher",
+  question: "Express the following in the form <br>\\\\( x^a \\\\):<br>\\\\( \\sqrt{x^{16} \\times x^4} \\\\)",
+  solution: "Inside the root: \\\\(x^{20}\\\\). Then \\\\(\\sqrt{x^{20}}=x^{10}\\\\)."
 }
+
 
 
 

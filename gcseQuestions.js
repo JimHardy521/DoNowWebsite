@@ -4647,13 +4647,13 @@ const gcseQuestions = [
   topic: "Indices - Estimating",
   level: "Higher",
   question: "Estimate the following:<br>\\( 121.8^{\\tfrac12} - 9.7^{-2} \\div 4.08^{0} \\)",
-  solution: "Round to \\(121, 10, 4\\). Then \\(11 - \\tfrac{1}{100} \\approx 11\\)."
+  solution: "Round to \\(121, 10, 4\\). Then \\(11 - \\tfrac{1}{100} \\ = 10.99\\)."
 },
 {
   topic: "Indices - Estimating",
   level: "Higher",
-  question: "Estimate the following:<br>\\( 15.9^{-2} \\times 64.2^{\\tfrac13} + 5.01^{0} \\)",
-  solution: "Round to \\(16, 64, 5\\). Then \\(\\tfrac{1}{256} \\times 4 + 1 \\approx 1\\)."
+  question: "Estimate the following:<br>\\( 2.1^{-2} \\times 64.2^{\\tfrac13} + 5.01^{0} \\)",
+  solution: "Round to \\(2, 64, 5\\). Then \\(\\tfrac{1}{4} \\times 4 + 1 \\ = 2\\)."
 },
 {
   topic: "Indices - Estimating",
@@ -4664,26 +4664,26 @@ const gcseQuestions = [
 {
   topic: "Indices - Estimating",
   level: "Higher",
-  question: "Estimate the following:<br>\\( 81.3^{-\\tfrac12} + 12.1^{\\tfrac23} \\times 6.05^{0} \\)",
-  solution: "Round to \\(81, 8, 6\\). Then \\(\\tfrac19 + 4 \\approx 4\\)."
+  question: "Estimate the following:<br>\\( 16.3^{-\\tfrac12} + 12.1^{\\tfrac23} \\times 6.05^{0} \\)",
+  solution: "Round to \\(16, 8, 6\\). Then \\(\\tfrac14 + 4 \\ = 4.25\\)."
 },
 {
   topic: "Indices - Estimating",
   level: "Higher",
   question: "Estimate the following:<br>\\( 32.7^{-\\tfrac45} + 25.2^{\\tfrac12} \\div 5.9^{0} \\)",
-  solution: "Round to \\(32, 25, 6\\). Then \\(\\tfrac{1}{16} + 5 \\approx 5\\)."
+  solution: "Round to \\(32, 25, 6\\). Then \\(\\tfrac{1}{16} + 5 \\ = 5.0625\\)."
 },
 {
   topic: "Indices - Estimating",
   level: "Higher",
   question: "Estimate the following:<br>\\( 9.85^{-\\tfrac32} + 7.02^{0} \\times 4.12^{\\tfrac12} \\)",
-  solution: "Round to \\(9, 7, 4\\). Then \\(\\tfrac{1}{27} + 2 \\approx 2\\)."
+  solution: "Round to \\(9, 7, 4\\). Then \\(\\tfrac{1}{27} + 2 \\ = 55/27\\)."
 },
 {
   topic: "Indices - Estimating",
   level: "Higher",
   question: "Estimate the following:<br>\\( 125.6^{-\\tfrac13} \\times 3.99^{0} + 50.4^{\\tfrac12} \\)",
-  solution: "Round to \\(125, 4, 49\\). Then \\(\\tfrac15 + 7 \\approx 7\\)."
+  solution: "Round to \\(125, 4, 49\\). Then \\(\\tfrac15 + 7 \\= 7.2\\)."
 },
 {
   topic: "Indices - Estimating",
@@ -4695,7 +4695,7 @@ const gcseQuestions = [
   topic: "Indices - Estimating",
   level: "Higher",
   question: "Estimate the following:<br>\\( 64.9^{-\\tfrac23} - 15.8^{\\tfrac12} \\times 9.2^{0} \\)",
-  solution: "Round to \\(64, 16, 9\\). Then \\(\\tfrac{1}{16} - 4 \\approx -4\\)."
+  solution: "Round to \\(64, 16, 9\\). Then \\(\\tfrac{1}{16} - 4 \\ = -63/16\\)."
 },
 {
   topic: "Indices - Estimating",

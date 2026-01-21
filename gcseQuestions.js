@@ -2487,8 +2487,82 @@ const gcseQuestions = [
   level: "Foundation",
   question: "Use approximations to estimate the value of (402 − 178) ÷ 5.1.",
   solution: "40"
-}
-,
+},
+
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Find the sum of the number of vertices on a cube and the number of faces on a square-based pyramid.",
+  solution: "A cube has 8 vertices and a square-based pyramid has 5 faces.<br>8 + 5 = 13"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "The vertices on a triangular prism added to the number of vertices on a cube.",
+  solution: "A triangular prism has 6 vertices and a cube has 8 vertices.<br>6 + 8 = 14"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Subtract the number of edges on a square-based pyramid from the number of faces on a cube.",
+  solution: "A cube has 6 faces and a square-based pyramid has 8 edges.<br>6 - 8 = -2"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Double the number of vertices on a triangular prism and add the number of faces on a cube.",
+  solution: "Triangular prism vertices: 6, double = 12<br>Cube faces: 6<br>12 + 6 = 18"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Find the total of edges on a cube and edges on a square-based pyramid.",
+  solution: "Cube edges: 12, Square-based pyramid edges: 8<br>12 + 8 = 20"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "The number of vertices on a cube, minus the number of faces on a triangular prism.",
+  solution: "8 - 5 = 3"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Multiply the number of faces on a cube by the number of vertices on a square-based pyramid.",
+  solution: "Cube faces: 6, Square-based pyramid vertices: 5<br>6 × 5 = 30"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Add the vertices of a cube to the vertices of a triangular prism.",
+  solution: "Cube vertices: 8, Triangular prism vertices: 6<br>8 + 6 = 14"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "The vertices on a square-based pyramid, added to the number of faces on a triangular prism.",
+  solution: "8 x 5 = 40"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Subtract the edges of a triangular prism from the edges of a cube.",
+  solution: "Cube edges: 12, Triangular prism edges: 9<br>12 - 9 = 3"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "Add the number of faces on a cube to the vertices of a cube and then subtract the edges of a square-based pyramid.",
+  solution: "Cube faces: 6, Cube vertices: 8, Pyramid edges: 8<br>6 + 8 - 8 = 6"
+},
+{
+  topic: "Faces - Edges - Vertices", 
+  level: "Foundation",
+  question: "If you take the number of edges of a cube and divide by the number of faces of a triangular prism, what do you get?",
+  solution: "Cube edges: 12, Triangular prism faces: 5<br>12 ÷ 5 = 2.4"
+},
+
+ 
 {
   topic: "Arithmetic",
   level: "Foundation",

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Results</title>
+
+  <!-- Main site CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Nav bar -->
+  <script src="common.js"></script>
+
+  <!-- Question banks -->
+  <script src="gcseQuestions.js"></script>
+  <script src="l2furtherquestions.js"></script>
+  <script src="alevelquestions.js"></script>
+  <script src="alevelfurther.js"></script>
+  <!-- Styling -->
+  <style>
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.instructions {
+  text-align: center;
+  margin: 10px 0 14px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.instructions label {
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.instructions input {
+  margin-right: 4px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+main.content {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+#searchSummary {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#resultsList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#resultsList li {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+#resultsList li a {
+  text-decoration: none;
+  color: #007acc;
+  display: block;
+}
+
+#resultsList li:hover {
+  background-color: #e6f0fa;
+}
+
+@media (max-width: 600px) {
+  #resultsList li {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navigation bar will be added automatically by common.js -->
+  <main class="content">
+    <h1>Search Results</h1>
+    <p id="searchSummary"></p>
+
+    <ul id="resultsList"></ul>
+  </main>
+
+  <!-- Run searchResults.js after the question banks are loaded -->
+  <script src="searchResults.js"></script>
+</body>
+</html>

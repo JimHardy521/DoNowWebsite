@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover_abc
        ========================= */
 {
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(12 \\le 4x < 25\\).",
+  solution: "Divide by 4:<br>\\(3 \\le x < 6.25\\).<br>Integer values: \\(x = 3, 4, 5, 6\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(-6 < 3x \\le 9\\).",
+  solution: "Divide by 3:<br>\\(-2 < x \\le 3\\).<br>Integer values: \\(x = -1, 0, 1, 2, 3\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(10 \\le 2x + 4 < 20\\).",
+  solution: "Subtract 4:<br>\\(6 \\le 2x < 16\\).<br>Divide by 2:<br>\\(3 \\le x < 8\\).<br>Integer values: \\(x = 3, 4, 5, 6, 7\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(-5 \\le 5x - 10 < 15\\).",
+  solution: "Add 10:<br>\\(5 \\le 5x < 25\\).<br>Divide by 5:<br>\\(1 \\le x < 5\\).<br>Integer values: \\(x = 1, 2, 3, 4\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(7 < x + 2 \\le 12\\).",
+  solution: "Subtract 2:<br>\\(5 < x \\le 10\\).<br>Integer values: \\(x = 6, 7, 8, 9, 10\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(-18 \\le 6x < -6\\).",
+  solution: "Divide by 6:<br>\\(-3 \\le x < -1\\).<br>Integer values: \\(x = -3, -2\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(4 \\le 3x + 1 < 13\\).",
+  solution: "Subtract 1:<br>\\(3 \\le 3x < 12\\).<br>Divide by 3:<br>\\(1 \\le x < 4\\).<br>Integer values: \\(x = 1, 2, 3\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(-1 < 2x - 5 \\le 7\\).",
+  solution: "Add 5:<br>\\(4 < 2x \\le 12\\).<br>Divide by 2:<br>\\(2 < x \\le 6\\).<br>Integer values: \\(x = 3, 4, 5, 6\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(15 \\le 5(x + 1) < 40\\).",
+  solution: "Divide by 5:<br>\\(3 \\le x + 1 < 8\\).<br>Subtract 1:<br>\\(2 \\le x < 7\\).<br>Integer values: \\(x = 2, 3, 4, 5, 6\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(-20 < 4(x - 2) \\le 12\\).",
+  solution: "Divide by 4:<br>\\(-5 < x - 2 \\le 3\\).<br>Add 2:<br>\\(-3 < x \\le 5\\).<br>Integer values: \\(x = -2, -1, 0, 1, 2, 3, 4, 5\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(9 \\le 3(2x - 1) < 27\\).",
+  solution: "Divide by 3:<br>\\(3 \\le 2x - 1 < 9\\).<br>Add 1:<br>\\(4 \\le 2x < 10\\).<br>Divide by 2:<br>\\(2 \\le x < 5\\).<br>Integer values: \\(x = 2, 3, 4\\)."
+},
+{
+  topic: "Inequalities - Integer Values",
+  level: "Crossover",
+  question: "Work out all the integer values of \\(x\\) for which<br>\\(-14 \\le 7x + 7 < 21\\).",
+  solution: "Subtract 7:<br>\\(-21 \\le 7x < 14\\).<br>Divide by 7:<br>\\(-3 \\le x < 2\\).<br>Integer values: \\(x = -3, -2, -1, 0, 1\\)."
+},
+
+{
   topic: "Circles - Area and Perimeter 2",
   level: "Crossover",
   question: "A semicircle has radius 7 cm.<br>Find the area of the semicircle.<br>Give your answer to 1 decimal place.",

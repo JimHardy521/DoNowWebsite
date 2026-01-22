@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover_abc
        ========================= */
 {
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A semicircle has radius 7 cm.<br>Find the area of the semicircle.<br>Give your answer to 1 decimal place.",
+  solution: "Area = \\(\\frac{1}{2} \\pi r^2 = \\frac{1}{2} \\pi \\times 7^2 = 76.97\\text{ cm}^2\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A quarter circle has radius 10 cm.<br>Find its perimeter.<br>Give your answer to 2 decimal places.",
+  solution: "Perimeter = \\(\\frac{1}{4}(2\\pi r) + 2r = 15.71 + 20 = 35.71\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A semicircle has diameter 12 cm.<br>Find its perimeter.<br>Give your answer to 1 decimal place.",
+  solution: "Radius = 6 cm.<br>Perimeter = \\(\\pi r + 2r = 18.85 + 12 = 30.8\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A quarter circle has area 39.27 cm².<br>Find the radius of the circle.<br>Give your answer to 1 decimal place.",
+  solution: "\\(\\frac{1}{4} \\pi r^2 = 39.27\\Rightarrow r^2 = 50\\Rightarrow r = 7.1\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A semicircle has area 78.54 cm².<br>Find the radius of the circle.",
+  solution: "\\(\\frac{1}{2} \\pi r^2 = 78.54\\Rightarrow r^2 = 50\\Rightarrow r = 7.1\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A quarter circle has radius 6 cm.<br>Find its area.<br>Give your answer to 2 decimal places.",
+  solution: "Area = \\(\\frac{1}{4} \\pi \\times 6^2 = 28.27\\text{ cm}^2\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A semicircle has perimeter 31.4 cm.<br>Find the radius of the circle.<br>Give your answer to 1 decimal place.",
+  solution: "\\(\\pi r + 2r = 31.4\\Rightarrow r(\\pi + 2) = 31.4\\Rightarrow r = 6.1\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A quarter circle has perimeter 25.7 cm.<br>Find the radius of the circle.<br>Give your answer to 1 decimal place.",
+  solution: "\\(\\frac{1}{2} \\pi r + 2r = 25.7\\Rightarrow r = 5.0\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A semicircle has radius 9 cm.<br>Find its area and perimeter.<br>Give answers to 1 decimal place.",
+  solution: "Area = \\(127.2\\text{ cm}^2\\).<br>Perimeter = \\(46.3\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A quarter circle has area 50.27 cm².<br>Find the radius and hence find its perimeter.<br>Give answers to 1 decimal place.",
+  solution: "Radius = 8.0 cm.<br>Perimeter = \\(28.6\\text{ cm}\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A semicircle has diameter 15 cm.<br>Find its area.<br>Give your answer to 2 decimal places.",
+  solution: "Radius = 7.5 cm.<br>Area = \\(88.36\\text{ cm}^2\\)."
+},
+{
+  topic: "Circles - Area and Perimeter 2",
+  level: "Crossover",
+  question: "A quarter circle has radius 12 cm.<br>Find its perimeter.<br>Give your answer to 1 decimal place.",
+  solution: "Perimeter = \\(18.8 + 24 = 42.8\\text{ cm}\\)."
+},
+
+ {
   topic: "Fractions - Money",
   level: "Crossover",
   question: "Ali has £80.<br>He gives \\(\\frac{9}{10}\\) of his money to Joe.<br>Joe spends \\(\\frac{2}{3}\\) of this money.<br>He gives the rest back to Ali.<br>What fraction of the £80 does Ali have now?<br>Give your answer in its simplest form.",

@@ -2927,6 +2927,79 @@ const gcseQuestions = [
   solution: "41"
 },
 {
+  topic: "Time 2",
+  level: "Foundation",
+  question: "Rachel has a target time of 4 hours 10 minutes to run a marathon.<br>She has been running for 186 minutes.<br>To meet her target, how many minutes does she have left to finish the race?",
+  solution: "Target time = \\(4 \\times 60 + 10 = 250\\) minutes.<br>Time left = \\(250 - 186 = 64\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "Tom plans to revise for 2 hours 45 minutes.<br>He has already revised for 98 minutes.<br>How many minutes does he still need to revise?",
+  solution: "Total time = \\(2 \\times 60 + 45 = 165\\) minutes.<br>Time left = \\(165 - 98 = 67\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "A film lasts 3 hours 20 minutes.<br>Jamie has watched 145 minutes so far.<br>How many minutes of the film are left?",
+  solution: "Total time = \\(3 \\times 60 + 20 = 200\\) minutes.<br>Time left = \\(200 - 145 = 55\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "A train journey is expected to take 1 hour 50 minutes.<br>The train has already been travelling for 65 minutes.<br>How many minutes are left in the journey?",
+  solution: "Total time = \\(1 \\times 60 + 50 = 110\\) minutes.<br>Time left = \\(110 - 65 = 45\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "Sophie wants to walk for 2 hours 30 minutes.<br>She has already walked for 84 minutes.<br>How many minutes does she have left to walk?",
+  solution: "Total time = \\(2 \\times 60 + 30 = 150\\) minutes.<br>Time left = \\(150 - 84 = 66\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "A football match lasts 1 hour 30 minutes.<br>90 minutes have already passed.<br>How many minutes are left in the match?",
+  solution: "Total time = \\(1 \\times 60 + 30 = 90\\) minutes.<br>Time left = \\(90 - 90 = 0\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "Liam plans to do homework for 1 hour 15 minutes.<br>He has worked for 52 minutes.<br>How many minutes does he still need to work?",
+  solution: "Total time = \\(1 \\times 60 + 15 = 75\\) minutes.<br>Time left = \\(75 - 52 = 23\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "A coach journey should take 5 hours.<br>The coach has been travelling for 242 minutes.<br>How many minutes are left in the journey?",
+  solution: "Total time = \\(5 \\times 60 = 300\\) minutes.<br>Time left = \\(300 - 242 = 58\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "Ella plans to swim for 1 hour 40 minutes.<br>She has already swum for 73 minutes.<br>How many minutes does she have left?",
+  solution: "Total time = \\(1 \\times 60 + 40 = 100\\) minutes.<br>Time left = \\(100 - 73 = 27\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "A TV programme lasts 2 hours 5 minutes.<br>Ben has watched 89 minutes so far.<br>How many minutes are left?",
+  solution: "Total time = \\(2 \\times 60 + 5 = 125\\) minutes.<br>Time left = \\(125 - 89 = 36\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "Maya wants to practise piano for 45 minutes.<br>She has already practised for 18 minutes.<br>How many minutes does she have left?",
+  solution: "Time left = \\(45 - 18 = 27\\) minutes."
+},
+{
+  topic: "Time 2",
+  level: "Foundation",
+  question: "A lesson lasts 1 hour.<br>38 minutes have already passed.<br>How many minutes are left in the lesson?",
+  solution: "Total time = \\(60\\) minutes.<br>Time left = \\(60 - 38 = 22\\) minutes."
+},
+
+{
   topic: "Transformations - Reverse",
   level: "Foundation",
   question: "The vector \\(\\begin{pmatrix}3 \\\\ -7\\end{pmatrix}\\) translates shape A to shape B. Find the vector that translates shape B to shape A.",

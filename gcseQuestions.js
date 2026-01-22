@@ -4168,67 +4168,67 @@ const gcseQuestions = [
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is directly proportional to x.<br>When x = 4, y = 10.<br>Find y when x = 7.",
-  solution: "y = 17.5"
+  solution: "\\(y = 17.5\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to x.<br>When x = 5, y = 8.<br>Find y when x = 20.",
-  solution: "y = 2"
+  solution: "\\(y = 2\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is directly proportional to x^2.<br>When x = 3, y = 18.<br>Find y when x = 5.",
-  solution: "y = 50"
+  question: "y is directly proportional to \\(x^2\\).<br>When x = 3, y = 18.<br>Find y when x = 5.",
+  solution: "\\(y = 50\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is inversely proportional to x^2.<br>When x = 2, y = 12.<br>Find y when x = 6.",
-  solution: "y = 4/3}"
+  question: "y is inversely proportional to \\(x^2\\).<br>When x = 2, y = 12.<br>Find y when x = 6.",
+  solution: "\\(y = \\frac{4}{3}\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The time taken to complete a job is inversely proportional to the number of workers. 6 workers take 10 days. How long will 15 workers take?",
-  solution: "Time = 4 days"
+  solution: "\\(\\text{Time} = 4 \\text{ days}\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is directly proportional to x^3.<br>When x = 2, y = 16.<br>Find y when x = 4.",
-  solution: "y = 128"
+  question: "y is directly proportional to \\(x^3\\).<br>When x = 2, y = 16.<br>Find y when x = 4.",
+  solution: "\\(y = 128\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
-  question: "y is inversely proportional to x^3.<br>When x = 1, y = 9.<br>Find y when x = 3.",
-  solution: "y = 1"
+  question: "y is inversely proportional to \\(x^3\\).<br>When x = 1, y = 9.<br>Find y when x = 3.",
+  solution: "\\(y = 1\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The pressure of a gas is inversely proportional to its volume. A volume of 8 litres gives a pressure of 3 atm. Find the pressure if the volume is 12 litres.",
-  solution: "P = 2 "
+  solution: "\\(P = 2\\ \\text{atm}\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is directly proportional to \\(\\sqrt{x}\\). When x = 25, y = 15. Find y when x = 64.",
-  solution: "y = 24"
+  solution: "\\(y = 24\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "y is inversely proportional to \\(\\sqrt{x}\\). When x = 16, y = 8. Find y when x = 4.",
-  solution: "y = 16"
+  solution: "\\(y = 16\\)"
 },
 {
   topic: "Direct and Inverse Proportion",
   level: "Higher",
   question: "The time taken to fill a tank is inversely proportional to the number of taps. 3 taps fill it in 12 hours. How long with 6 taps?",
-  solution: "Time = 6 hours"
+  solution: "\\(\\text{Time} = 6\\ \\text{hours}\\)"
 },
 
     
@@ -5072,75 +5072,76 @@ const gcseQuestions = [
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt{x^5 \\times x^9} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt{x^5 \\cdot x^9}\\)",
   solution: "Inside the root: \\(x^{5+9}=x^{14}\\). Then \\(\\sqrt{x^{14}}=x^7\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt{x^{12} \\div x^4} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt{x^{12} \\div x^4}\\)",
   solution: "Inside the root: \\(x^{12-4}=x^8\\). Then \\(\\sqrt{x^8}=x^4\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt[3]{x^6 \\times x^9} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt[3]{x^6 \\cdot x^9}\\)",
   solution: "Inside the root: \\(x^{6+9}=x^{15}\\). Then \\(\\sqrt[3]{x^{15}}=x^5\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt{x^{10} \\times x^2} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt{x^{10} \\cdot x^2}\\)",
   solution: "Inside the root: \\(x^{12}\\). Then \\(\\sqrt{x^{12}}=x^6\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt[3]{x^{14} \\div x^5} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt[3]{x^{14} \\div x^5}\\)",
   solution: "Inside the root: \\(x^{14-5}=x^9\\). Then \\(\\sqrt[3]{x^9}=x^3\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt{x^7 \\times x^3} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt{x^7 \\cdot x^3}\\)",
   solution: "Inside the root: \\(x^{10}\\). Then \\(\\sqrt{x^{10}}=x^5\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt[3]{x^8 \\times x^4} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt[3]{x^8 \\cdot x^4}\\)",
   solution: "Inside the root: \\(x^{12}\\). Then \\(\\sqrt[3]{x^{12}}=x^4\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt{x^{15} \\div x^3} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt{x^{15} \\div x^3}\\)",
   solution: "Inside the root: \\(x^{12}\\). Then \\(\\sqrt{x^{12}}=x^6\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt[3]{x^{11} \\times x^7} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt[3]{x^{11} \\cdot x^7}\\)",
   solution: "Inside the root: \\(x^{18}\\). Then \\(\\sqrt[3]{x^{18}}=x^6\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt{x^{18} \\div x^6} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt{x^{18} \\div x^6}\\)",
   solution: "Inside the root: \\(x^{12}\\). Then \\(\\sqrt{x^{12}}=x^6\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt[3]{x^5 \\times x^{13}} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt[3]{x^5 \\cdot x^{13}}\\)",
   solution: "Inside the root: \\(x^{18}\\). Then \\(\\sqrt[3]{x^{18}}=x^6\\)."
 },
 {
   topic: "Algebraic Expressions - Simplifying Indices",
   level: "Higher",
-  question: "Express the following in the form x^a:<br>\\( \\sqrt{x^{16} \\times x^4} \\)",
+  question: "Express the following in the form \\(x^a\\):<br>\\(\\sqrt{x^{16} \\cdot x^4}\\)",
   solution: "Inside the root: \\(x^{20}\\). Then \\(\\sqrt{x^{20}}=x^{10}\\)."
 },
+
 
 // Indices - Estimating
 {

@@ -4445,12 +4445,7 @@ const gcseQuestions = [
   question: "Evaluate \\(49^{-\\frac{3}{2}}\\).",
   solution: "\\(49^{\\frac{1}{2}} = 7\\) so \\(49^{-\\frac{3}{2}} = \\frac{1}{7^3} = \\frac{1}{343}\\)."
 },
-{
-  topic: "Indices - Fractional and Negative",
-  level: "Higher",
-  question: "Express \\(x^{-\\frac{2}{3}}\\) as a root expression.",
-  solution: "\\(x^{-\\frac{2}{3}} = \\frac{1}{(\\sqrt[3]{x})^2}\\)."
-},
+
 {
   topic: "Indices - Fractional and Negative",
   level: "Higher",

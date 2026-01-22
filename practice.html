@@ -65,8 +65,8 @@ h1 {
   body {
     background: #fff;
     margin: 12mm;
-    font-size: 11pt;
-    line-height: 1.5;
+    font-size: 12pt;
+    line-height: 1.6;
   }
 
   h1, .instructions, #questions, nav {
@@ -77,28 +77,27 @@ h1 {
     display: block;
   }
 
-.print-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #000;
-  padding-bottom: 6mm;
-  margin-bottom: 2mm;
-}
+  .print-page {
+    page-break-after: always;
+  }
 
+  .print-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 6px;
+  }
 
   .print-brand {
+    font-size: 14pt;
     font-weight: 700;
-    font-size: 12pt;
   }
 
   .print-meta {
     font-size: 10pt;
-    text-align: left;
-  }
-
-  .print-meta div {
-    margin-bottom: 4px;
+    text-align: right;
   }
 
   .print-meta span {
@@ -112,22 +111,22 @@ h1 {
     font-size: 14pt;
     font-weight: 700;
     text-align: center;
-    margin: 6mm 0 8mm;
+    margin: 18px 0;
   }
 
-  .print-list table {
+  .print-table {
     width: 100%;
     border-collapse: collapse;
   }
 
-  .print-list td {
+  .print-table td {
     vertical-align: top;
-    padding-bottom: 10mm;
+    padding: 6px 4px;
   }
 
-  .q-num {
+  .print-qnum {
     width: 28px;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .print-answers {

@@ -1884,7 +1884,7 @@ const alevelQuestions = [
   topic: "Solving Exponentials",
   level: "Year 12",
   question: "Solve to 2 d.p.:<br>\\[3^{x} = 7^{2x-1}\\]",
-  solution: "\\(x = 0.71\\)"
+  solution: "\\(x = 0.69\\)"
 },
 {
   topic: "Solving Exponentials",

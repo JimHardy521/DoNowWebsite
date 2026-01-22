@@ -500,11 +500,6 @@ const l2FurtherQuestions = [
   question: "Simplify \\(\\frac{1}{2\\sqrt{3}+1}\\).",
   solution: "Multiply by conjugate: (2√3−1)/11."
 },
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Explain why the conjugate is used when rationalising.",
-  solution: "It removes surds from the denominator by forming a difference of squares."
-},
 
 /* ---------------- Differentiation - Finding Tangents and Normals ---------------- */
 

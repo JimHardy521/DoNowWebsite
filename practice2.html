@@ -11,11 +11,12 @@
 <script src="common.js"></script>
 
 <style>
+/* ---------- SCREEN STYLES ---------- */
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f0f4f8;
   color: #333;
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
@@ -55,18 +56,82 @@ h1 {
   font-weight: 500;
 }
 
+/* ---------- PRINT STYLES ---------- */
 .print-only {
   display: none;
 }
 
 @media print {
-  body { background: #fff; margin: 12mm; font-size: 12pt; line-height: 1.6; }
-  h1, .instructions, #questions, nav { display: none; }
-  .print-only { display: block; }
-  .print-page { text-align: justify; }
-  .print-title { font-size: 14pt; font-weight: 700; text-align: center; margin-bottom: 14px; }
-  .print-list > div { margin-bottom: 16px; }
-  .print-answers { page-break-before: always; }
+  body {
+    background: #fff;
+    margin: 12mm;
+    font-size: 12pt;
+    line-height: 1.6;
+  }
+
+  h1, .instructions, #questions, nav {
+    display: none;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  .print-page {
+    page-break-after: always;
+  }
+
+  .print-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 6px;
+  }
+
+  .print-brand {
+    font-size: 14pt;
+    font-weight: 700;
+  }
+
+  .print-meta {
+    font-size: 10pt;
+    text-align: right;
+  }
+
+  .print-meta span {
+    display: inline-block;
+    min-width: 160px;
+    border-bottom: 1px solid #000;
+    margin-left: 6px;
+  }
+
+  .print-title {
+    font-size: 14pt;
+    font-weight: 700;
+    text-align: center;
+    margin: 18px 0;
+  }
+
+  .print-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .print-table td {
+    vertical-align: top;
+    padding: 6px 4px;
+  }
+
+  .print-qnum {
+    width: 28px;
+    font-weight: 700;
+  }
+
+  .print-answers {
+    page-break-before: always;
+  }
 }
 </style>
 </head>
@@ -82,7 +147,7 @@ h1 {
     <span id="toggleText">Reveal all solutions</span>
   </label>
   |
-  <button id="printBtn">Print Worksheet</button>
+  <button id="printBtn">Print</button>
 </div>
 
 <div id="questions"></div>
@@ -92,7 +157,7 @@ h1 {
 const params = new URLSearchParams(window.location.search);
 const topic = params.get("topic");
 const source = params.get("source");
-const year = params.get("year");  // for Year 12/13 in A Level Further Maths
+const year = params.get("year");
 
 let questionsArray;
 
@@ -112,7 +177,7 @@ function loadQuestionsJS(callback) {
 
 // ---------------- BUILD PAGE ----------------
 function buildPracticePage() {
-  // Select correct variable based on source
+
   questionsArray =
     source === "l2further" ? l2FurtherQuestions :
     source === "gcse" ? gcseQuestions :
@@ -120,10 +185,8 @@ function buildPracticePage() {
     source === "alevelfurther" ? alevelfurther :
     [];
 
-  // Filter by topic
   let filtered = questionsArray.filter(q => q.topic === topic);
 
-  // Filter by year if parameter exists
   if (year && (source === "alevel" || source === "alevelfurther")) {
     filtered = filtered.filter(q => q.level === year);
   }
@@ -132,7 +195,6 @@ function buildPracticePage() {
   const pageTitle = `Practice: ${topic}` + (year ? ` (${year})` : "");
   document.getElementById("title").textContent = pageTitle;
 
-  // Create question boxes
   filtered.forEach((q, i) => {
     const box = document.createElement("div");
     box.className = "question-box";
@@ -147,7 +209,6 @@ function buildPracticePage() {
     container.appendChild(box);
   });
 
-  // Reveal all toggle
   document.getElementById("toggleAll").onchange = e => {
     document.querySelectorAll(".solution").forEach(sol => {
       sol.style.display = e.target.checked ? "block" : "none";
@@ -156,31 +217,51 @@ function buildPracticePage() {
       e.target.checked ? "Hide all solutions" : "Reveal all solutions";
   };
 
-  // ---------------- PRINT WORKSHEET ----------------
+  // ---------------- PRINT ----------------
   document.getElementById("printBtn").onclick = () => {
+
+    document.title = pageTitle + " – mrhardymaths";
+
     const printWrapper = document.createElement("div");
     printWrapper.className = "print-only";
 
-    // Duplicate filtered array for two copies
-    const printQuestionsArray = filtered.concat(filtered);
-
     printWrapper.innerHTML = `
       <div class="print-page">
-        <div class="print-title">${pageTitle}</div>
-        <div class="print-list">
-          ${printQuestionsArray.slice(0, filtered.length).map((q,i)=>
-            `<div><strong>${i+1}.</strong> ${q.question}</div>`
-          ).join("")}
+
+        <div class="print-header">
+          <div class="print-brand">mrhardymaths</div>
+          <div class="print-meta">
+            Name: <span></span><br>
+            Date: <span></span>
+          </div>
         </div>
+
+        <div class="print-title">${pageTitle}</div>
+
+        <table class="print-table">
+          ${filtered.map((q, i) => `
+            <tr>
+              <td class="print-qnum">${i + 1}.</td>
+              <td>${q.question}</td>
+            </tr>
+          `).join("")}
+        </table>
+
       </div>
 
       <div class="print-page print-answers">
+
         <div class="print-title">${pageTitle} – Answers</div>
-        <div class="print-list">
-          ${printQuestionsArray.slice(0, filtered.length).map((q,i)=>
-            `<div><strong>${i+1}.</strong> ${q.solution}</div>`
-          ).join("")}
-        </div>
+
+        <table class="print-table">
+          ${filtered.map((q, i) => `
+            <tr>
+              <td class="print-qnum">${i + 1}.</td>
+              <td>${q.solution}</td>
+            </tr>
+          `).join("")}
+        </table>
+
       </div>
     `;
 
@@ -199,11 +280,8 @@ loadQuestionsJS(buildPracticePage);
 
 <script>
 createNavBar("practice.html");
+console.log("practice2 loaded");
 </script>
 
-<script>
-  console.log("practice2 loaded");
-</script>
 </body>
 </html>
-

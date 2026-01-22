@@ -4935,78 +4935,80 @@ const gcseQuestions = [
   solution: "The vector from A to B is \\((12, 12)\\). One part is \\((2.4, 2.4)\\). From A, move 2 parts: \\((-8, -2) + (4.8, 4.8) = (-3.2, 2.8)\\)."
 },
 
+// Functions - Composite Functions
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = 3x + 1, g(x) = x².<br><br>Find g(f(x)).",
-  solution: "g(f(x)) = (3x + 1)² = 9x² + 6x + 1"
+  question: "f(x) = 3x + 1, g(x) = \\(x^2\\).<br><br>Find \\(g(f(x))\\).",
+  solution: "\\(g(f(x)) = (3x + 1)^2 = 9x^2 + 6x + 1\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = 2x − 5, g(x) = x².<br><br>Find f(g(x)).",
-  solution: "f(g(x)) = 2x² − 5"
+  question: "f(x) = 2x - 5, g(x) = \\(x^2\\).<br><br>Find \\(f(g(x))\\).",
+  solution: "\\(f(g(x)) = 2x^2 - 5\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = x + 4, g(x) = 5x.<br><br>Find g(f(x)).",
-  solution: "g(f(x)) = 5(x + 4) = 5x + 20"
+  question: "f(x) = x + 4, g(x) = 5x.<br><br>Find \\(g(f(x))\\).",
+  solution: "\\(g(f(x)) = 5(x + 4) = 5x + 20\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = 4x − 1, g(x) = x².<br><br>Solve g(f(x)) = 9.",
-  solution: "(4x − 1)² = 9 → x = 1 or x = −\\(\\frac{1}{2}\\)"
+  question: "f(x) = 4x - 1, g(x) = \\(x^2\\).<br><br>Solve \\(g(f(x)) = 9\\).",
+  solution: "\\((4x - 1)^2 = 9 \\implies x = 1 \\text{ or } x = -\\frac{1}{2}\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = x − 3, g(x) = x².<br><br>Solve g(f(x)) = 16.",
-  solution: "(x − 3)² = 16 → x = 7 or x = −1"
+  question: "f(x) = x - 3, g(x) = \\(x^2\\).<br><br>Solve \\(g(f(x)) = 16\\).",
+  solution: "\\((x - 3)^2 = 16 \\implies x = 7 \\text{ or } x = -1\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = 2x + 1, g(x) = x².<br><br>Find g(f(2)).",
-  solution: "f(2) = 5, g(5) = 25"
+  question: "f(x) = 2x + 1, g(x) = \\(x^2\\).<br><br>Find \\(g(f(2))\\).",
+  solution: "\\(f(2) = 5, \\ g(5) = 25\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = 3x, g(x) = x² − 4.<br><br>Find g(f(x)).",
-  solution: "g(f(x)) = 9x² − 4"
+  question: "f(x) = 3x, g(x) = \\(x^2 - 4\\).<br><br>Find \\(g(f(x))\\).",
+  solution: "\\(g(f(x)) = (3x)^2 - 4 = 9x^2 - 4\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = x + 2, g(x) = x² − 1.<br><br>Solve g(f(x)) = 8.",
-  solution: "(x + 2)² − 1 = 8 → x = 1 or x = −5"
+  question: "f(x) = x + 2, g(x) = \\(x^2 - 1\\).<br><br>Solve \\(g(f(x)) = 8\\).",
+  solution: "\\((x + 2)^2 - 1 = 8 \\implies x = 1 \\text{ or } x = -5\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = 5 − x, g(x) = x².<br><br>Find g(f(x)).",
-  solution: "g(f(x)) = (5 − x)² = x² − 10x + 25"
+  question: "f(x) = 5 - x, g(x) = \\(x^2\\).<br><br>Find \\(g(f(x))\\).",
+  solution: "\\(g(f(x)) = (5 - x)^2 = x^2 - 10x + 25\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = 2x − 3, g(x) = x² + 1.<br><br>Find g(f(x)).",
-  solution: "g(f(x)) = (2x − 3)² + 1 = 4x² − 12x + 10"
+  question: "f(x) = 2x - 3, g(x) = \\(x^2 + 1\\).<br><br>Find \\(g(f(x))\\).",
+  solution: "\\(g(f(x)) = (2x - 3)^2 + 1 = 4x^2 - 12x + 10\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = x − 1, g(x) = 3x².<br><br>Solve g(f(x)) = 27.",
-  solution: "3(x − 1)² = 27 → x = 4 or x = −2"
+  question: "f(x) = x - 1, g(x) = 3x^2.<br><br>Solve \\(g(f(x)) = 27\\).",
+  solution: "\\(3(x - 1)^2 = 27 \\implies x = 4 \\text{ or } x = -2\\)"
 },
 {
   topic: "Functions - Composite Functions",
   level: "Higher",
-  question: "f(x) = x + 1, g(x) = x² − 5.<br><br>Find g(f(3)).",
-  solution: "f(3) = 4, g(4) = 11"
+  question: "f(x) = x + 1, g(x) = \\(x^2 - 5\\).<br><br>Find \\(g(f(3))\\).",
+  solution: "\\(f(3) = 4, \\ g(4) = 4^2 - 5 = 11\\)"
 },
+
 
 {
   topic: "Functions - Inverse Functions",

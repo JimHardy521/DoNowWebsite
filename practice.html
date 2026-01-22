@@ -59,6 +59,27 @@ h1 {
   display: none;
 }
 
+/* ===== NEW: Question table for top-aligned numbers ===== */
+.question-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.question-table td {
+  vertical-align: top;
+  padding: 2px 4px;
+}
+
+.question-table .qnum {
+  width: 34px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.question-table .qtext {
+  width: auto;
+}
+
 /* ================= PRINT STYLES ================= */
 
 @media print {
@@ -117,8 +138,6 @@ h1 {
   .print-table {
     width: 100%;
     border-collapse: collapse;
-
-}
   }
 
   .print-table td {
@@ -200,10 +219,25 @@ function buildPracticePage() {
   filtered.forEach((q, i) => {
     const box = document.createElement("div");
     box.className = "question-box";
+
+    // ===== Updated to use table for top-aligned question numbers =====
     box.innerHTML = `
-      <div><strong>Q${i + 1}.</strong> ${q.question}</div>
-      <div class="solution"><strong>Solution:</strong> ${q.solution}</div>
+      <table class="question-table">
+        <tr>
+          <td class="qnum">Q${i + 1}.</td>
+          <td class="qtext">${q.question}</td>
+        </tr>
+      </table>
+      <div class="solution">
+        <table class="question-table">
+          <tr>
+            <td class="qnum"><strong>Sol.</strong></td>
+            <td class="qtext">${q.solution}</td>
+          </tr>
+        </table>
+      </div>
     `;
+
     box.onclick = () => {
       const sol = box.querySelector(".solution");
       sol.style.display = sol.style.display === "none" ? "block" : "none";
@@ -236,30 +270,26 @@ function buildPracticePage() {
 
         <div class="print-title">${pageTitle}</div>
 
-        <div class="print-list">
-          <table>
-            ${filtered.map((q,i)=>`
-              <tr>
-                <td class="q-num">${i+1}.</td>
-                <td>${q.question}</td>
-              </tr>
-            `).join("")}
-          </table>
-        </div>
+        <table class="print-table">
+          ${filtered.map((q,i)=>`
+            <tr>
+              <td class="print-qnum">${i+1}.</td>
+              <td>${q.question}</td>
+            </tr>
+          `).join("")}
+        </table>
       </div>
 
       <div class="print-page print-answers">
         <div class="print-title">${pageTitle} – Answers</div>
-        <div class="print-list">
-          <table>
-            ${filtered.map((q,i)=>`
-              <tr>
-                <td class="q-num">${i+1}.</td>
-                <td>${q.solution}</td>
-              </tr>
-            `).join("")}
-          </table>
-        </div>
+        <table class="print-table">
+          ${filtered.map((q,i)=>`
+            <tr>
+              <td class="print-qnum">${i+1}.</td>
+              <td>${q.solution}</td>
+            </tr>
+          `).join("")}
+        </table>
       </div>
     `;
 

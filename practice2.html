@@ -56,6 +56,27 @@ h1 {
   font-weight: 500;
 }
 
+/* ===== NEW: Question table for top-aligned numbers ===== */
+.question-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.question-table td {
+  vertical-align: top;
+  padding: 2px 4px;
+}
+
+.question-table .qnum {
+  width: 34px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.question-table .qtext {
+  width: auto;
+}
+
 /* ---------- PRINT STYLES ---------- */
 .print-only {
   display: none;
@@ -198,10 +219,25 @@ function buildPracticePage() {
   filtered.forEach((q, i) => {
     const box = document.createElement("div");
     box.className = "question-box";
+
+    // ===== Updated to use table for top-aligned question numbers =====
     box.innerHTML = `
-      <div><strong>Q${i + 1}.</strong> ${q.question}</div>
-      <div class="solution"><strong>Solution:</strong> ${q.solution}</div>
+      <table class="question-table">
+        <tr>
+          <td class="qnum">Q${i + 1}.</td>
+          <td class="qtext">${q.question}</td>
+        </tr>
+      </table>
+      <div class="solution">
+        <table class="question-table">
+          <tr>
+            <td class="qnum"><strong>Sol.</strong></td>
+            <td class="qtext">${q.solution}</td>
+          </tr>
+        </table>
+      </div>
     `;
+
     box.onclick = () => {
       const sol = box.querySelector(".solution");
       sol.style.display = sol.style.display === "none" ? "block" : "none";
@@ -219,20 +255,17 @@ function buildPracticePage() {
 
   // ---------------- PRINT ----------------
   document.getElementById("printBtn").onclick = () => {
+    const wrapper = document.createElement("div");
+    wrapper.className = "print-only";
 
-    document.title = pageTitle + " – mrhardymaths";
-
-    const printWrapper = document.createElement("div");
-    printWrapper.className = "print-only";
-
-    printWrapper.innerHTML = `
+    wrapper.innerHTML = `
       <div class="print-page">
 
         <div class="print-header">
           <div class="print-brand">mrhardymaths</div>
           <div class="print-meta">
-            Name: <span></span><br>
-            Date: <span></span>
+            <div>Name:<span></span></div>
+            <div>Date:<span></span></div>
           </div>
         </div>
 
@@ -265,10 +298,10 @@ function buildPracticePage() {
       </div>
     `;
 
-    document.body.appendChild(printWrapper);
+    document.body.appendChild(wrapper);
     MathJax.typeset();
     window.print();
-    printWrapper.remove();
+    wrapper.remove();
   };
 
   MathJax.typeset();

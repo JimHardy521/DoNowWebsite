@@ -2760,7 +2760,91 @@ const alevelQuestions = [
     level: "Year 12",
     question: "Line L has equation<br>\\[ 6x - 8y + 15 = 0 \\]Point P is \\( (1,2) \\).<br>Find the equation of the line perpendicular to L through P, and hence find the shortest distance from P to L.",
     solution: "Perpendicular line: \\( y - 2 = -\\tfrac{4}{3}(x - 1) \\)<br>Shortest distance: \\( \\tfrac{7}{5} \\)"
-  }
+  },
+  {
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A population of bacteria is modelled by \\(N = Ae^{kt}\\), where \\(t\\) is measured in hours. At \\(t=0\\), the population is 500. The population is increasing at a rate of 75 bacteria per hour when \\(t=0\\). Find the values of \\(A\\) and \\(k\\).",
+  solution: "At \\(t=0\\), \\(A=500\\).<br>\\(\\frac{dN}{dt} = kAe^{kt}\\).<br>So \\(75 = 500k\\), giving \\(k=0.15\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "The mass of a radioactive substance is modelled by \\(M = Ae^{kt}\\), where \\(t\\) is in years. Initially the mass is 80g. After 5 years, the mass is 60g. Find the value of \\(k\\).",
+  solution: "At \\(t=0\\), \\(A=80\\).<br>\\(60 = 80e^{5k}\\).<br>So \\(e^{5k}=0.75\\), hence \\(k=\\frac{\\ln(0.75)}{5}\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A population is modelled by \\(P = Ae^{kt}\\). When \\(t=0\\), \\(P=1200\\). When \\(t=4\\), \\(P=1800\\). Find the value of \\(k\\).",
+  solution: "Here \\(A=1200\\).<br>\\(1800 = 1200e^{4k}\\).<br>So \\(e^{4k}=1.5\\) and \\(k=\\frac{\\ln(1.5)}{4}\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A quantity grows exponentially according to \\(Q = Ae^{kt}\\). Initially \\(Q=300\\). The rate of increase at \\(t=0\\) is 45 per unit time. Find \\(k\\).",
+  solution: "At \\(t=0\\), \\(A=300\\).<br>\\(\\frac{dQ}{dt}=kAe^{kt}\\).<br>So \\(45=300k\\), giving \\(k=0.15\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A population is modelled by \\(N = Ae^{kt}\\). At \\(t=0\\), \\(N=2000\\). The population doubles after 6 years. Find the value of \\(k\\).",
+  solution: "Here \\(A=2000\\).<br>\\(4000 = 2000e^{6k}\\).<br>So \\(e^{6k}=2\\) and \\(k=\\frac{\\ln 2}{6}\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "The number of users of an app is modelled by \\(U = Ae^{kt}\\). Initially there are 1500 users. After 3 months there are 2100 users. Find \\(k\\).",
+  solution: "At \\(t=0\\), \\(A=1500\\).<br>\\(2100 = 1500e^{3k}\\).<br>So \\(e^{3k}=1.4\\) and \\(k=\\frac{\\ln(1.4)}{3}\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A quantity is modelled by \\(Q = Ae^{kt}\\). At \\(t=0\\), \\(Q=90\\). The rate of change at \\(t=0\\) is 9 units per hour. Find the value of \\(k\\).",
+  solution: "Here \\(A=90\\).<br>\\(\\frac{dQ}{dt}=kAe^{kt}\\).<br>So \\(9=90k\\), giving \\(k=0.1\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "The value of a car is modelled by \\(V = Ae^{kt}\\), where \\(t\\) is in years. Initially the car is worth £18,000. After 4 years it is worth £12,000. Find \\(k\\).",
+  solution: "At \\(t=0\\), \\(A=18000\\).<br>\\(12000 = 18000e^{4k}\\).<br>So \\(e^{4k}=\\frac{2}{3}\\) and \\(k=\\frac{\\ln(2/3)}{4}\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A culture grows according to \\(N = Ae^{kt}\\). When \\(t=0\\), \\(N=400\\). When \\(t=2\\), \\(N=500\\). Find the value of \\(k\\).",
+  solution: "Here \\(A=400\\).<br>\\(500 = 400e^{2k}\\).<br>So \\(e^{2k}=1.25\\) and \\(k=\\frac{\\ln(1.25)}{2}\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A population follows the model \\(P = Ae^{kt}\\). At \\(t=0\\), the population is 1000 and the rate of increase is 120 per year. Find \\(k\\).",
+  solution: "At \\(t=0\\), \\(A=1000\\).<br>\\(\\frac{dP}{dt}=kAe^{kt}\\).<br>So \\(120=1000k\\), giving \\(k=0.12\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "The number of bacteria is modelled by \\(N = Ae^{kt}\\). Initially there are 800 bacteria. After 10 hours there are 1000 bacteria. Find the value of \\(k\\).",
+  solution: "Here \\(A=800\\).<br>\\(1000 = 800e^{10k}\\).<br>So \\(e^{10k}=1.25\\) and \\(k=\\frac{\\ln(1.25)}{10}\\)."
+},
+
+{
+  topic: "Exponential Models",
+  level: "Year 12",
+  question: "A quantity is modelled by \\(Q = Ae^{kt}\\). At \\(t=0\\), \\(Q=250\\). The quantity is increasing at a rate of 50 units per hour at \\(t=0\\). Find \\(k\\).",
+  solution: "At \\(t=0\\), \\(A=250\\).<br>\\(\\frac{dQ}{dt}=kAe^{kt}\\).<br>So \\(50=250k\\), giving \\(k=0.2\\)."
+}
+
   
   ];
   

@@ -18,7 +18,7 @@ h1 { text-align:center; }
 
 table {
   width:100%;
-  max-width:720px;
+  max-width:760px;
   margin:20px auto;
   border-collapse:collapse;
   background:white;
@@ -32,6 +32,36 @@ th, td {
 th {
   background:#e9eef3;
   text-align:left;
+}
+
+/* ===== PREVIEW ICON ===== */
+.preview-cell {
+  text-align:center;
+  position:relative;
+}
+
+.preview-icon {
+  cursor:pointer;
+  font-size:1.1rem;
+}
+
+.tooltip {
+  display:none;
+  position:absolute;
+  top:50%;
+  left:110%;
+  transform:translateY(-50%);
+  width:300px;
+  background:#fff;
+  border:1px solid #ccc;
+  padding:10px;
+  font-size:0.9rem;
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+  z-index:10;
+}
+
+.preview-cell:hover .tooltip {
+  display:block;
 }
 
 /* ===== CONTROLS ===== */
@@ -78,32 +108,22 @@ button:disabled {
     <tr>
       <th><input type="checkbox" id="toggleAll" checked> Include</th>
       <th>Topic</th>
+      <th>Preview</th>
     </tr>
   </thead>
   <tbody id="topicTable"></tbody>
 </table>
 
 <div class="actions">
-
   <div class="actions-row">
-    <div>
-      <label><strong>Number of questions:</strong></label>
-      <select id="questionCount">
-        <option>8</option>
-        <option>12</option>
-        <option>16</option>
-        <option selected>20</option>
-        <option>24</option>
-      </select>
-    </div>
-
-    <div>
-      <label><strong>Layout:</strong></label>
-      <select id="layoutMode">
-        <option value="linear">Linear</option>
-        <option selected value="grid">Grid (4 × 3)</option>
-      </select>
-    </div>
+    <label><strong>Number of questions:</strong></label>
+    <select id="questionCount">
+      <option>8</option>
+      <option>12</option>
+      <option>16</option>
+      <option selected>20</option>
+      <option>24</option>
+    </select>
   </div>
 
   <div class="bottom-row">
@@ -111,11 +131,11 @@ button:disabled {
     <input type="text" id="worksheetTitle" style="width:360px;">
     <button id="generateBtn" onclick="generateWorksheet()">Generate Worksheet</button>
   </div>
-
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <script>
-// ---------- URL HELPERS ----------
 function getParam(name, fallback) {
   return new URLSearchParams(location.search).get(name) || fallback;
 }
@@ -125,7 +145,6 @@ const level  = getParam("level", "Higher");
 
 let questionsData = [];
 
-// ---------- LOAD QUESTIONS ----------
 const script = document.createElement("script");
 script.src =
   source === "alevel" ? "alevelquestions.js" :
@@ -141,7 +160,6 @@ script.onload = () => {
 };
 document.head.appendChild(script);
 
-// ---------- BUILD TABLE ----------
 function buildTopicTable() {
   levelHeading.textContent =
     source === "l2further" ? "Level 2 Further Maths" : `Level: ${level}`;
@@ -158,10 +176,16 @@ function buildTopicTable() {
 
   topicTable.innerHTML = "";
   topics.forEach(t => {
+    const example = questionsData.find(q => q.topic === t)?.question || "";
+
     topicTable.insertAdjacentHTML("beforeend", `
       <tr>
         <td><input type="checkbox" checked data-topic="${t}" onchange="updateState()"></td>
         <td>${t}</td>
+        <td class="preview-cell">
+          <span class="preview-icon">👁️</span>
+          <div class="tooltip">${example}</div>
+        </td>
       </tr>
     `);
   });
@@ -173,7 +197,13 @@ function buildTopicTable() {
   };
 
   updateState();
+
+  // ✅ THIS IS THE FIX
+  if (window.MathJax) {
+    MathJax.typesetPromise();
+  }
 }
+
 
 function updateState() {
   const boxes = [...document.querySelectorAll("#topicTable input")];
@@ -186,14 +216,12 @@ function shuffle(a){ return a.sort(()=>Math.random()-0.5); }
 // ---------- GENERATE WORKSHEET ----------
 function generateWorksheet() {
 
-  const total  = +questionCount.value;
-  const title  = worksheetTitle.value.trim();
-  const layout = layoutMode.value;
+  const total = +questionCount.value;
+  const title = worksheetTitle.value.trim();
 
   const topics = [...document.querySelectorAll("#topicTable input:checked")]
     .map(cb => cb.dataset.topic);
 
-  // ---------- FAIR RANDOM SELECTION ----------
   const pools = {};
   topics.forEach(topic => {
     pools[topic] = shuffle(
@@ -211,13 +239,10 @@ function generateWorksheet() {
     selected = selected.concat(pools[topic].splice(0, base));
   });
 
-  let safety = 0;
-  while (selected.length < total && safety++ < 1000) {
+  while (selected.length < total) {
     for (const topic of topics) {
       if (selected.length >= total) break;
-      if (pools[topic].length) {
-        selected.push(pools[topic].shift());
-      }
+      if (pools[topic].length) selected.push(pools[topic].shift());
     }
   }
 
@@ -228,105 +253,101 @@ function generateWorksheet() {
 <head>
 <title>${title}</title>
 <style>
-@page { size: A4 ${layout==="grid"?"landscape":"portrait"}; margin:12mm; }
+@page { size:A4; margin:12mm; }
 
-body { font-family:Inter,Arial; font-size:11pt; }
+body {
+  font-family: Inter, Arial;
+  font-size: 12pt;
+  line-height: 1.6;
+}
 
-.page { page-break-after: always; }
-.page:last-child { page-break-after: auto; }
+.print-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  margin-bottom:16px;
+  border-bottom:2px solid #000;
+  padding-bottom:6px;
+}
 
-h1 { text-align:center; margin:0 0 6mm; }
+.print-brand {
+  font-size:14pt;
+  font-weight:700;
+}
 
-.meta { text-align:center; margin-bottom:6mm; }
+.print-meta {
+  font-size:10pt;
+  text-align:right;
+}
 
-/* ===== FIXED GRID ===== */
-.question-grid {
+.print-meta span {
+  display:inline-block;
+  min-width:160px;
+  border-bottom:1px solid #000;
+  margin-left:6px;
+}
+
+.print-title {
+  font-size:14pt;
+  font-weight:700;
+  text-align:center;
+  margin:18px 0;
+}
+
+.print-table {
   width:100%;
-  height:170mm;               /* FIXED physical height */
   border-collapse:collapse;
-  table-layout:fixed;
 }
 
-.question-grid tr { height: calc(170mm / 3); }
-
-.question-grid td {
-  border:2px solid #000;      /* thicker borders */
-  padding:6px;
+.print-table td {
   vertical-align:top;
-  overflow:hidden;
+  padding:6px 4px;
 }
 
-.cell { height:100%; overflow:hidden; }
+.print-qnum {
+  width:28px;
+  font-weight:700;
+}
 
-.qnum { font-weight:600; font-size:10pt; margin-bottom:3px; }
-
-.qtext { font-size:12pt; line-height:1.25; }
+.print-answers {
+  page-break-before:always;
+}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
 </head>
 
 <body>
 
-<h1>${title}</h1>
-<div class="meta">Name: _____________________________ &nbsp;&nbsp; Date: __________</div>
-
-${
-layout==="grid"
-? Array.from({length: Math.ceil(selected.length/12)}, (_,p)=>`
-<div class="page">
-<table class="question-grid">
-${
-[0,1,2].map(r=>`
-<tr>
-${
-[0,1,2,3].map(c=>{
-  const i = p*12+r*4+c;
-  const q = selected[i];
-  return q?`
-<td>
-  <div class="cell">
-    <div class="qnum">Q${i+1}</div>
-    <div class="qtext">${q.question}</div>
+<div class="print-header">
+  <div class="print-brand">mrhardymaths</div>
+  <div class="print-meta">
+    <div>Name:<span></span></div>
+    <div>Date:<span></span></div>
   </div>
-</td>`:`<td></td>`;
-}).join("")}
-</tr>`).join("")
-}
-</table>
-</div>`).join("")
-: selected.map((q,i)=>`
-<p><strong>Question ${i+1}</strong><br>${q.question}</p>`).join("")
-}
+</div>
 
-<h1 style="page-break-before:always;">${title} – Answers</h1>
+<div class="print-title">${title}</div>
 
-${
-layout === "grid"
-? Array.from({length: Math.ceil(selected.length/12)}, (_,p)=>`
-<div class="page">
-<table class="question-grid">
-${
-[0,1,2].map(r=>`
+<table class="print-table">
+${selected.map((q,i)=>`
 <tr>
-${
-[0,1,2,3].map(c=>{
-  const i = p*12+r*4+c;
-  const q = selected[i];
-  return q?`
-<td>
-  <div class="cell">
-    <div class="qnum">Q${i+1}</div>
-    <div class="qtext">${q.solution}</div>
-  </div>
-</td>`:`<td></td>`;
-}).join("")}
-</tr>`).join("")
-}
+  <td class="print-qnum">${i+1}.</td>
+  <td>${q.question}</td>
+</tr>
+`).join("")}
 </table>
-</div>`).join("")
-: selected.map((q,i)=>`
-<p><strong>Question ${i+1}</strong><br>${q.solution}</p>`).join("")
-}
+
+<div class="print-answers">
+  <div class="print-title">${title} – Answers</div>
+  <table class="print-table">
+  ${selected.map((q,i)=>`
+    <tr>
+      <td class="print-qnum">${i+1}.</td>
+      <td>${q.solution}</td>
+    </tr>
+  `).join("")}
+  </table>
+</div>
 
 </body>
 </html>

@@ -5214,7 +5214,79 @@ const gcseQuestions = [
   level: "Higher",
   question: "Estimate the following:<br>\\( 27.4^{\\tfrac43} \\times 81.2^{-\\tfrac12} + 2.06^{0} \\)",
   solution: "Round to \\(27, 81, 2\\). Then \\(81 \\times \\tfrac19 + 1 = 10\\)."
-}
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A man walks 13 km on a bearing of 200°.<br>Convert this movement into a column vector.",
+  solution: "\\(x = 13\\sin 200^\\circ = -4.45\\), \\(y = 13\\cos 200^\\circ = -12.2\\).<br>Column vector: \\(\\begin{pmatrix}-4.45 \\\\ -12.2\\end{pmatrix}\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A boat travels 25 km on a bearing of 060°.<br>Write this movement as a column vector.",
+  solution: "\\(x = 25\\sin 60^\\circ = 21.65\\), \\(y = 25\\cos 60^\\circ = 12.5\\).<br>Column vector: \\(\\begin{pmatrix}21.65 \\\\ 12.5\\end{pmatrix}\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A hiker walks 18 km on a bearing of 135°.<br>Convert this to a column vector.",
+  solution: "\\(x = 18\\sin 135^\\circ = 12.73\\), \\(y = 18\\cos 135^\\circ = -12.73\\).<br>Column vector: \\(\\begin{pmatrix}12.73 \\\\ -12.73\\end{pmatrix}\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A cyclist rides 40 km on a bearing of 300°.<br>Write this as a column vector.",
+  solution: "\\(x = 40\\sin 300^\\circ = -34.64\\), \\(y = 40\\cos 300^\\circ = 20.0\\).<br>Column vector: \\(\\begin{pmatrix}-34.64 \\\\ 20.0\\end{pmatrix}\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A displacement is given by the column vector<br>\\(\\begin{pmatrix}6 \\\\ 8\\end{pmatrix}\\).<br>Find the magnitude and bearing of this displacement.",
+  solution: "Magnitude: \\(\\sqrt{6^2 + 8^2} = 10\\).<br>Bearing: \\(\\tan^{-1}(6/8) = 36.9^\\circ\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A movement is represented by the column vector<br>\\(\\begin{pmatrix}-5 \\\\ 12\\end{pmatrix}\\).<br>Find the magnitude and bearing.",
+  solution: "Magnitude: \\(\\sqrt{(-5)^2 + 12^2} = 13\\).<br>Angle from North: \\(\\tan^{-1}(5/12) = 22.6^\\circ\\).<br>Bearing: \\(360 - 22.6 = 337.4^\\circ\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A ship’s displacement is<br>\\(\\begin{pmatrix}9 \\\\ -12\\end{pmatrix}\\).<br>Calculate the magnitude and bearing.",
+  solution: "Magnitude: \\(\\sqrt{9^2 + (-12)^2} = 15\\).<br>Angle from South: \\(\\tan^{-1}(9/12) = 36.9^\\circ\\).<br>Bearing: \\(180 + 36.9 = 216.9^\\circ\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A drone flies 50 km on a bearing of 025°.<br>Convert this to a column vector.",
+  solution: "\\(x = 50\\sin 25^\\circ = 21.13\\), \\(y = 50\\cos 25^\\circ = 45.32\\).<br>Column vector: \\(\\begin{pmatrix}21.13 \\\\ 45.32\\end{pmatrix}\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A displacement is given by<br>\\(\\begin{pmatrix}-10 \\\\ -10\\end{pmatrix}\\).<br>Find the magnitude and bearing.",
+  solution: "Magnitude: \\(\\sqrt{(-10)^2 + (-10)^2} = 14.1\\).<br>Angle from South: \\(45^\\circ\\).<br>Bearing: \\(180 + 45 = 225^\\circ\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A runner travels 7 km on a bearing of 110°.<br>Write this as a column vector.",
+  solution: "\\(x = 7\\sin 110^\\circ = 6.58\\), \\(y = 7\\cos 110^\\circ = -2.39\\).<br>Column vector: \\(\\begin{pmatrix}6.58 \\\\ -2.39\\end{pmatrix}\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A displacement is<br>\\(\\begin{pmatrix}15 \\\\ -8\\end{pmatrix}\\).<br>Find its magnitude and bearing.",
+  solution: "Magnitude: \\(\\sqrt{15^2 + (-8)^2} = 17.0\\).<br>Angle from East: \\(\\tan^{-1}(8/15) = 28.1^\\circ\\).<br>Bearing: \\(90 + 28.1 = 118.1^\\circ\\)."
+},
+{
+  topic: "Trig. and Bearings",
+  level: "Higher",
+  question: "A helicopter flies 32 km on a bearing of 250°.<br>Convert this to a column vector.",
+  solution: "\\(x = 32\\sin 250^\\circ = -30.06\\), \\(y = 32\\cos 250^\\circ = -10.94\\).<br>Column vector: \\(\\begin{pmatrix}-30.06 \\\\ -10.94\\end{pmatrix}\\)."
+},
 
 
     ];

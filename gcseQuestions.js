@@ -4479,6 +4479,12 @@ const gcseQuestions = [
 {
   topic: "Indices - Fractional and Negative",
   level: "Higher",
+  question: "Solve for x: \\(2^{-x} = 0.125\\).",
+  solution: "\\(0.125 = \\frac{1}{8} = 2^{-3}\\), so \\(x = 3\\)."
+},
+{
+  topic: "Indices - Fractional and Negative",
+  level: "Higher",
   question: "Solve for n: \\(5^{-n} = 0.04\\).",
   solution: "\\(0.04 = \\frac{1}{25} = 5^{-2}\\), so \\(n = 2\\)."
 },

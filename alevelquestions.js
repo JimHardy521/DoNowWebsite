@@ -1890,7 +1890,7 @@ const alevelQuestions = [
   topic: "Solving Exponentials",
   level: "Year 12",
   question: "Solve to 2 d.p.:<br>\\[5^{x+1} = 2^{3x}\\]",
-  solution: "\\(x = 1.44\\)"
+  solution: "\\(x = 3.42\\)"
 },
 {
   topic: "Solving Exponentials",

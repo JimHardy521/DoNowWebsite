@@ -3105,8 +3105,8 @@ const gcseQuestions = [
 {
   topic: "Time 2",
   level: "Foundation",
-  question: "A football match lasts 1 hour 30 minutes.<br>90 minutes have already passed.<br>How many minutes are left in the match?",
-  solution: "Total time = \\(1 \\times 60 + 30 = 90\\) minutes.<br>Time left = \\(90 - 90 = 0\\) minutes."
+  question: "A football match lasts 1 hour 30 minutes.<br>29 minutes have already passed.<br>How many minutes are left in the match?",
+  solution: "Total time = \\(1 \\times 60 + 30 = 90\\) minutes.<br>Time left = \\(90 - 29 = 61\\) minutes."
 },
 {
   topic: "Time 2",

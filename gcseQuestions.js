@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover_abc
        ========================= */
 {
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{7}{10} - \\frac{4}{15}\\right) \\div \\frac{2}{3}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{7}{10} - \\frac{4}{15} = \\frac{21 - 8}{30} = \\frac{13}{30}\\).<br>\\(\\frac{13}{30} \\div \\frac{2}{3} = \\frac{13}{30} \\times \\frac{3}{2} = \\frac{13}{20}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{5}{6} + \\frac{1}{4}\\right) \\div \\frac{3}{2}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{5}{6} + \\frac{1}{4} = \\frac{10 + 3}{12} = \\frac{13}{12}\\).<br>\\(\\frac{13}{12} \\div \\frac{3}{2} = \\frac{13}{12} \\times \\frac{2}{3} = \\frac{13}{18}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{9}{10} - \\frac{1}{5}\\right) \\div \\frac{4}{5}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{9}{10} - \\frac{1}{5} = \\frac{9 - 2}{10} = \\frac{7}{10}\\).<br>\\(\\frac{7}{10} \\div \\frac{4}{5} = \\frac{7}{10} \\times \\frac{5}{4} = \\frac{7}{8}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{3}{4} + \\frac{5}{12}\\right) \\div \\frac{2}{3}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{3}{4} + \\frac{5}{12} = \\frac{9 + 5}{12} = \\frac{14}{12} = \\frac{7}{6}\\).<br>\\(\\frac{7}{6} \\div \\frac{2}{3} = \\frac{7}{6} \\times \\frac{3}{2} = \\frac{7}{4}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{8}{9} - \\frac{2}{3}\\right) \\div \\frac{4}{9}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{8}{9} - \\frac{2}{3} = \\frac{8 - 6}{9} = \\frac{2}{9}\\).<br>\\(\\frac{2}{9} \\div \\frac{4}{9} = \\frac{2}{9} \\times \\frac{9}{4} = \\frac{1}{2}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{7}{8} + \\frac{1}{2}\\right) \\div \\frac{3}{4}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{7}{8} + \\frac{1}{2} = \\frac{7 + 4}{8} = \\frac{11}{8}\\).<br>\\(\\frac{11}{8} \\div \\frac{3}{4} = \\frac{11}{8} \\times \\frac{4}{3} = \\frac{11}{6}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{5}{12} + \\frac{1}{3}\\right) \\div \\frac{2}{5}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{5}{12} + \\frac{1}{3} = \\frac{5 + 4}{12} = \\frac{9}{12} = \\frac{3}{4}\\).<br>\\(\\frac{3}{4} \\div \\frac{2}{5} = \\frac{3}{4} \\times \\frac{5}{2} = \\frac{15}{8}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{6}{7} - \\frac{2}{7}\\right) \\div \\frac{4}{7}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{6}{7} - \\frac{2}{7} = \\frac{4}{7}\\).<br>\\(\\frac{4}{7} \\div \\frac{4}{7} = 1\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{9}{10} + \\frac{1}{5}\\right) \\div \\frac{11}{10}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{9}{10} + \\frac{1}{5} = \\frac{9 + 2}{10} = \\frac{11}{10}\\).<br>\\(\\frac{11}{10} \\div \\frac{11}{10} = 1\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{4}{5} - \\frac{1}{10}\\right) \\div \\frac{3}{5}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{4}{5} - \\frac{1}{10} = \\frac{8 - 1}{10} = \\frac{7}{10}\\).<br>\\(\\frac{7}{10} \\div \\frac{3}{5} = \\frac{7}{10} \\times \\frac{5}{3} = \\frac{7}{6}\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{2}{3} + \\frac{5}{6}\\right) \\div \\frac{3}{4}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{2}{3} + \\frac{5}{6} = \\frac{4 + 5}{6} = \\frac{9}{6} = \\frac{3}{2}\\).<br>\\(\\frac{3}{2} \\div \\frac{3}{4} = \\frac{3}{2} \\times \\frac{4}{3} = 2\\)."
+},
+{
+  topic: "Fraction Arithmetic - 2",
+  level: "Crossover",
+  question: "Work out<br>\\(\\left(\\frac{7}{12} - \\frac{1}{4}\\right) \\div \\frac{2}{3}\\).<br>Give your answer as a fraction.",
+  solution: "\\(\\frac{7}{12} - \\frac{1}{4} = \\frac{7 - 3}{12} = \\frac{4}{12} = \\frac{1}{3}\\).<br>\\(\\frac{1}{3} \\div \\frac{2}{3} = \\frac{1}{3} \\times \\frac{3}{2} = \\frac{1}{2}\\)."
+},
+
+{
   topic: "Inequalities - Integer Values",
   level: "Crossover",
   question: "Work out all the integer values of \\(x\\) for which<br>\\(12 \\le 4x < 25\\).",

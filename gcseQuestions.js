@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover_abc
        ========================= */
 {
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Ali has £80.<br>He gives \\(\\frac{9}{10}\\) of his money to Joe.<br>Joe spends \\(\\frac{2}{3}\\) of this money.<br>He gives the rest back to Ali.<br>What fraction of the £80 does Ali have now?<br>Give your answer in its simplest form.",
+  solution: "Ali keeps \\(\\frac{1}{10}\\).<br>Joe returns \\(\\frac{1}{3} \\times \\frac{9}{10} = \\frac{3}{10}\\).<br>Total: \\(\\frac{1}{10} + \\frac{3}{10} = \\frac{2}{5}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Ben has £60.<br>He gives \\(\\frac{1}{4}\\) of his money to Sam.<br>Sam spends \\(\\frac{1}{2}\\) of this money and returns the rest.<br>What fraction of the £60 does Ben have now?",
+  solution: "Ben keeps \\(\\frac{3}{4}\\).<br>Returned: \\(\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}\\).<br>Total: \\(\\frac{7}{8}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Chloe has £90.<br>She spends \\(\\frac{2}{5}\\) of her money.<br>She then gives \\(\\frac{1}{3}\\) of what is left to her sister.<br>What fraction of the original £90 does Chloe have left?",
+  solution: "Left after spending: \\(\\frac{3}{5}\\).<br>Given away: \\(\\frac{1}{3} \\times \\frac{3}{5} = \\frac{1}{5}\\).<br>Remaining: \\(\\frac{2}{5}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Dan has £100.<br>He gives \\(\\frac{3}{5}\\) of his money to Emma.<br>Emma returns \\(\\frac{1}{4}\\) of what she received.<br>What fraction of the £100 does Dan have now?",
+  solution: "Dan keeps \\(\\frac{2}{5}\\).<br>Returned: \\(\\frac{1}{4} \\times \\frac{3}{5} = \\frac{3}{20}\\).<br>Total: \\(\\frac{11}{20}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Ella has £72.<br>She spends \\(\\frac{5}{12}\\) of her money.<br>She then gives \\(\\frac{1}{3}\\) of the remaining money to charity.<br>What fraction of the original £72 does she keep?",
+  solution: "After spending: \\(\\frac{7}{12}\\).<br>Given: \\(\\frac{1}{3} \\times \\frac{7}{12} = \\frac{7}{36}\\).<br>Kept: \\(\\frac{7}{18}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Farah has £50.<br>She gives \\(\\frac{2}{5}\\) of her money to her brother.<br>Her brother spends \\(\\frac{3}{4}\\) of this money.<br>What fraction of the £50 does Farah have at the end?",
+  solution: "Farah keeps \\(\\frac{3}{5}\\).<br>Returned: \\(\\frac{1}{4} \\times \\frac{2}{5} = \\frac{1}{10}\\).<br>Total: \\(\\frac{7}{10}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "George has £84.<br>He spends \\(\\frac{3}{7}\\) of his money.<br>He then gives \\(\\frac{2}{3}\\) of the remainder to his mum.<br>What fraction of the £84 does George keep?",
+  solution: "After spending: \\(\\frac{4}{7}\\).<br>Given: \\(\\frac{2}{3} \\times \\frac{4}{7} = \\frac{8}{21}\\).<br>Kept: \\(\\frac{4}{21}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Holly has £40.<br>She gives \\(\\frac{3}{8}\\) of her money to a friend.<br>The friend spends \\(\\frac{2}{5}\\) of this money.<br>What fraction of the £40 does Holly have now?",
+  solution: "Holly keeps \\(\\frac{5}{8}\\).<br>Returned: \\(\\frac{3}{5} \\times \\frac{3}{8} = \\frac{9}{40}\\).<br>Total: \\(\\frac{17}{20}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Imran has £120.<br>He spends \\(\\frac{1}{6}\\) of his money.<br>He then gives \\(\\frac{1}{4}\\) of what remains to his sister.<br>What fraction of the £120 does Imran have left?",
+  solution: "After spending: \\(\\frac{5}{6}\\).<br>Given: \\(\\frac{1}{4} \\times \\frac{5}{6} = \\frac{5}{24}\\).<br>Left: \\(\\frac{5}{8}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Jack has £75.<br>He gives \\(\\frac{4}{5}\\) of his money to Lucy.<br>Lucy returns \\(\\frac{3}{8}\\) of what she received.<br>What fraction of the £75 does Jack have now?",
+  solution: "Jack keeps \\(\\frac{1}{5}\\).<br>Returned: \\(\\frac{3}{8} \\times \\frac{4}{5} = \\frac{3}{10}\\).<br>Total: \\(\\frac{1}{2}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Katie has £96.<br>She spends \\(\\frac{5}{8}\\) of her money.<br>She then saves \\(\\frac{1}{2}\\) of what is left.<br>What fraction of the original £96 does Katie save?",
+  solution: "Left: \\(\\frac{3}{8}\\).<br>Saved: \\(\\frac{1}{2} \\times \\frac{3}{8} = \\frac{3}{16}\\)."
+},
+{
+  topic: "Fractions - Money",
+  level: "Crossover",
+  question: "Leo has £64.<br>He gives \\(\\frac{3}{4}\\) of his money to Nina.<br>Nina spends \\(\\frac{5}{6}\\) of this money and returns the rest.<br>What fraction of the £64 does Leo have at the end?",
+  solution: "Leo keeps \\(\\frac{1}{4}\\).<br>Returned: \\(\\frac{1}{6} \\times \\frac{3}{4} = \\frac{1}{8}\\).<br>Total: \\(\\frac{3}{8}\\)."
+},
+
+{
   topic: "Trig - Exact Values",
   level: "Crossover",
   question: "Write down the exact value of:<br>\\(\\sin 30^\\circ\\)",

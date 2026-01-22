@@ -4,6 +4,79 @@ const gcseQuestions = [
        Crossover_abc
        ========================= */
 {
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\sin 30^\\circ\\)",
+  solution: "\\(\\sin 30^\\circ = \\frac{1}{2}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\cos 60^\\circ\\)",
+  solution: "\\(\\cos 60^\\circ = \\frac{1}{2}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\sin 45^\\circ\\)",
+  solution: "\\(\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\cos 45^\\circ\\)",
+  solution: "\\(\\cos 45^\\circ = \\frac{\\sqrt{2}}{2}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\tan 45^\\circ\\)",
+  solution: "\\(\\tan 45^\\circ = 1\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\sin 60^\\circ\\)",
+  solution: "\\(\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\cos 30^\\circ\\)",
+  solution: "\\(\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\tan 30^\\circ\\)",
+  solution: "\\(\\tan 30^\\circ = \\frac{1}{\\sqrt{3}}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\tan 60^\\circ\\)",
+  solution: "\\(\\tan 60^\\circ = \\sqrt{3}\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\sin 0^\\circ\\)",
+  solution: "\\(\\sin 0^\\circ = 0\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\cos 0^\\circ\\)",
+  solution: "\\(\\cos 0^\\circ = 1\\)"
+},
+{
+  topic: "Trig - Exact Values",
+  level: "Crossover",
+  question: "Write down the exact value of:<br>\\(\\sin 90^\\circ\\)",
+  solution: "\\(\\sin 90^\\circ = 1\\)"
+},
+
+ {
   topic: "Sequences - Geometric",
   level: "Crossover",
   question: "Find the next term in the geometric sequence:<br>\\(2,\\ 6,\\ 18\\)",

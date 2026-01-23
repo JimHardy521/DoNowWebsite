@@ -1,4 +1,264 @@
 const l2FurtherQuestions = [
+
+{
+  topic: "Proof",
+  question: "Show that \\((2n + 3)^3 + n^3\\) is divisible by 9 for all integers \\(n\\).",
+  solution: "\\((2n + 3)^3 + n^3 = 8n^3 + 36n^2 + 54n + 27 + n^3\\)<br>\\(= 9n^3 + 36n^2 + 54n + 27\\)<br>\\(= 9(n^3 + 4n^2 + 6n + 3)\\)"
+},
+{
+  topic: "Proof",
+  question: "Show that \\(n^3 - n\\) is divisible by 6 for all integers \\(n\\).",
+  solution: "\\(n^3 - n = n(n^2 - 1)\\)<br>\\(= n(n - 1)(n + 1)\\)<br>Product of three consecutive integers → divisible by 6."
+},
+{
+  topic: "Proof",
+  question: "Show that \\(5^{2n} - 1\\) is divisible by 8 for all integers \\(n\\).",
+  solution: "\\(5^{2n} - 1 = (5^n - 1)(5^n + 1)\\)<br>Both factors are even.<br>One factor divisible by 4 → divisible by 8."
+},
+{
+  topic: "Proof",
+  question: "Show that \\((n + 1)^2 - n^2\\) is odd for all integers \\(n\\).",
+  solution: "\\((n + 1)^2 - n^2 = n^2 + 2n + 1 - n^2\\)<br>\\(= 2n + 1\\)<br>Always odd."
+},
+{
+  topic: "Proof",
+  question: "Show that \\(n^5 - n\\) is divisible by 6 for all integers \\(n\\).",
+  solution: "\\(n^5 - n = n(n^4 - 1)\\)<br>\\(= n(n - 1)(n + 1)(n^2 + 1)\\)<br>Divisible by 2 and 3 → divisible by 6."
+},
+{
+  topic: "Proof",
+  question: "Show that \\((n + 2)^2 - n^2\\) is divisible by 4 for all integers \\(n\\).",
+  solution: "\\((n + 2)^2 - n^2 = n^2 + 4n + 4 - n^2\\)<br>\\(= 4(n + 1)\\)<br>Divisible by 4."
+},
+{
+  topic: "Proof",
+  question: "Show that \\(n^2 + n\\) is even for all integers \\(n\\).",
+  solution: "\\(n^2 + n = n(n + 1)\\)<br>Product of two consecutive integers → always even."
+},
+{
+  topic: "Proof",
+  question: "Show that \\((3n + 2)^2 - (3n - 1)^2\\) is divisible by 3 for all integers \\(n\\).",
+  solution: "\\((3n + 2)^2 - (3n - 1)^2 = \\)<br>\\(9n^2 + 12n + 4 - (9n^2 - 6n + 1)\\)<br>\\(= 18n + 3\\)<br>\\(= 3(6n + 1)\\) → divisible by 3."
+},
+{
+  topic: "Proof",
+  question: "Show that \\((4n + 5)^2 - (4n - 5)^2\\) is divisible by 40 for all integers \\(n\\).",
+  solution: "\\((4n + 5)^2 - (4n - 5)^2 = \\)<br>\\(16n^2 + 40n + 25 - (16n^2 - 40n + 25)\\)<br>\\(= 80n\\)<br>\\(= 40(2n)\\) → divisible by 40."
+},
+{
+  topic: "Proof",
+  question: "Show that \\((5n + 1)^2 - (5n - 1)^2\\) is divisible by 20 for all integers \\(n\\).",
+  solution: "\\((5n + 1)^2 - (5n - 1)^2 = \\)<br>\\(25n^2 + 10n + 1 - (25n^2 - 10n + 1)\\)<br>\\(= 20n\\)<br>\\(= 20(n)\\) → divisible by 20."
+},
+
+
+
+
+
+
+
+
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = x^3 - x^2 - 2x + 8\\).<br><br>Use the Factor Theorem to show that \\((x - 2)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(2) = 8 - 4 - 4 + 8 = 0\\) → \\((x - 2)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = x^3 - x^2 - 5x - 3\\).<br><br>Use the Factor Theorem to show that \\((x + 1)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(-1) = -1 - 1 + 5 - 3 = 0\\) → \\((x + 1)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = 2x^3 - x^2 - x - 3\\).<br><br>Use the Factor Theorem to show that \\((2x - 3)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(2x - 3 = 0 → x = \\frac{3}{2}\\), \\(f(\\frac{3}{2}) = 0\\) → \\((2x - 3)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = x^3 + x^2 + x - 3\\).<br><br>Use the Factor Theorem to show that \\((x - 1)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(1) = 1 + 1 + 1 - 3 = 0\\) → \\((x - 1)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = x^3 + x^2 - 5x - 6\\).<br><br>Use the Factor Theorem to show that \\((x + 2)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(-2) = -8 + 4 + 10 - 6 = 0\\) → \\((x + 2)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = x^3 - 2x^2 - x - 6\\).<br><br>Use the Factor Theorem to show that \\((x - 3)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(3) = 27 - 18 - 3 - 6 = 0\\) → \\((x - 3)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = 2x^3 + x^2 + 2x + 3\\).<br><br>Use the Factor Theorem to show that \\((x + 1)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(-1) = -2 + 1 - 2 + 3 = 0\\) → \\((x + 1)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = x^3 + 2x^2 - 3x - 10\\).<br><br>Use the Factor Theorem to show that \\((x - 2)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(2) = 8 + 8 - 6 - 10 = 0\\) → \\((x - 2)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = x^3 + 2x^2 - 2x + 3\\).<br><br>Use the Factor Theorem to show that \\((x + 3)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(-3) = -27 + 18 + 6 + 3 = 0\\) → \\((x + 3)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = 2x^3 + x^2 + x - 1\\).<br><br>Use the Factor Theorem to show that \\((2x - 1)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(2x - 1 = 0 → x = \\frac{1}{2}\\), \\(f(\\frac{1}{2}) = 0\\) → \\((2x - 1)\\) is a factor."
+},
+{
+  topic: "Factor Theorem",
+
+  question: "\\(f(x) = 3x^3 - x^2 + 2x - 4\\).<br><br>Use the Factor Theorem to show that \\((x - 1)\\) is a factor of \\(f(x)\\).",
+  solution: "\\(f(1) = 3 - 1 + 2 - 4 = 0\\) → \\((x - 1)\\) is a factor."
+},
+
+ {
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{6x^9 + x^8}{2x^4}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 0.5\\).",
+  solution: "\\(y = 3x^5 + \\tfrac12 x^4\\)<br>\\(\\dfrac{d^2y}{dx^2} = 60x^3 + 6x^2\\)<br>At \\(x=0.5\\), value = \\(9\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{4x^7 - 2x^5}{x^3}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 1\\).",
+  solution: "\\(y = 4x^4 - 2x^2\\)<br>\\(\\dfrac{d^2y}{dx^2} = 48x^2 - 4\\)<br>At \\(x=1\\), value = \\(44\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{10x^6 + 5x^4}{5x^2}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 2\\).",
+  solution: "\\(y = 2x^4 + x^2\\)<br>\\(\\dfrac{d^2y}{dx^2} = 24x^2 + 2\\)<br>At \\(x=2\\), value = \\(98\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{3x^8 - x^6}{x^4}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = -1\\).",
+  solution: "\\(y = 3x^4 - x^2\\)<br>\\(\\dfrac{d^2y}{dx^2} = 36x^2 - 2\\)<br>At \\(x=-1\\), value = \\(34\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{8x^7 + 4x^5}{4x^3}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 1\\).",
+  solution: "\\(y = 2x^4 + x^2\\)<br>\\(\\dfrac{d^2y}{dx^2} = 24x^2 + 2\\)<br>At \\(x=1\\), value = \\(26\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{12x^6 - 6x^4}{3x^2}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 0\\).",
+  solution: "\\(y = 4x^4 - 2x^2\\)<br>\\(\\dfrac{d^2y}{dx^2} = 48x^2 - 4\\)<br>At \\(x=0\\), value = \\(-4\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{5x^9 + 5x^7}{5x^3}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 1\\).",
+  solution: "\\(y = x^6 + x^4\\)<br>\\(\\dfrac{d^2y}{dx^2} = 30x^4 + 12x^2\\)<br>At \\(x=1\\), value = \\(42\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{9x^8 - 3x^6}{3x^2}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 2\\).",
+  solution: "\\(y = 3x^6 - x^4\\)<br>\\(\\dfrac{d^2y}{dx^2} = 90x^4 - 12x^2\\)<br>At \\(x=2\\), value = \\(1392\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{2x^7 + x^5}{x^3}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = -1\\).",
+  solution: "\\(y = 2x^4 + x^2\\)<br>\\(\\dfrac{d^2y}{dx^2} = 24x^2 + 2\\)<br>At \\(x=-1\\), value = \\(26\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{7x^6 - 7x^4}{7x^2}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 1\\).",
+  solution: "\\(y = x^4 - x^2\\)<br>\\(\\dfrac{d^2y}{dx^2} = 12x^2 - 2\\)<br>At \\(x=1\\), value = \\(10\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{6x^8 + 3x^6}{3x^2}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 0.5\\).",
+  solution: "\\(y = 2x^6 + x^4\\)<br>\\(\\dfrac{d^2y}{dx^2} = 60x^4 + 12x^2\\)<br>At \\(x=0.5\\), value = \\(6\\)."
+},
+{
+  topic: "Differentiation - 2nd Derivative",
+
+  question: "Given \\(y = \\dfrac{4x^9 - 2x^7}{2x^3}\\).<br><br>Find \\(\\dfrac{d^2y}{dx^2}\\) when \\(x = 1\\).",
+  solution: "\\(y = 2x^6 - x^4\\)<br>\\(\\dfrac{d^2y}{dx^2} = 60x^4 - 12x^2\\)<br>At \\(x=1\\), value = \\(48\\)."
+},
+ 
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((3,4)\\) and circumference \\(20\\pi\\).<br>Find the equation of the circle.",
+  solution: "Circumference \\(=2\\pi r=20\\pi\\) so \\(r=10\\).<br>Equation: \\((x-3)^2+(y-4)^2=100\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((-2,5)\\) and area \\(49\\pi\\).<br>Find the equation of the circle.",
+  solution: "Area \\(=\\pi r^2=49\\pi\\) so \\(r=7\\).<br>Equation: \\((x+2)^2+(y-5)^2=49\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((0,-3)\\) and circumference \\(16\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(2\\pi r=16\\pi\\Rightarrow r=8\\).<br>Equation: \\(x^2+(y+3)^2=64\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((6,1)\\) and area \\(9\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(\\pi r^2=9\\pi\\Rightarrow r=3\\).<br>Equation: \\((x-6)^2+(y-1)^2=9\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((-4,-2)\\) and circumference \\(12\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(2\\pi r=12\\pi\\Rightarrow r=6\\).<br>Equation: \\((x+4)^2+(y+2)^2=36\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((1,7)\\) and area \\(25\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(\\pi r^2=25\\pi\\Rightarrow r=5\\).<br>Equation: \\((x-1)^2+(y-7)^2=25\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((0,0)\\) and circumference \\(18\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(2\\pi r=18\\pi\\Rightarrow r=9\\).<br>Equation: \\(x^2+y^2=81\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((-1,3)\\) and area \\(16\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(\\pi r^2=16\\pi\\Rightarrow r=4\\).<br>Equation: \\((x+1)^2+(y-3)^2=16\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((5,-4)\\) and circumference \\(10\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(2\\pi r=10\\pi\\Rightarrow r=5\\).<br>Equation: \\((x-5)^2+(y+4)^2=25\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((-6,2)\\) and area \\(36\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(\\pi r^2=36\\pi\\Rightarrow r=6\\).<br>Equation: \\((x+6)^2+(y-2)^2=36\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((2,-1)\\) and circumference \\(14\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(2\\pi r=14\\pi\\Rightarrow r=7\\).<br>Equation: \\((x-2)^2+(y+1)^2=49\\)."
+},
+{
+  topic: "Equations of Circles - 2",
+  question: "A circle has centre \\((-3,-5)\\) and area \\(4\\pi\\).<br>Find the equation of the circle.",
+  solution: "\\(\\pi r^2=4\\pi\\Rightarrow r=2\\).<br>Equation: \\((x+3)^2+(y+5)^2=4\\)."
+},
+
  /* ---------------- ALGEBRAIC MANIPULATION ---------------- */
 
 {

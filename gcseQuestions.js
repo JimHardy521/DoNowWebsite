@@ -3721,6 +3721,80 @@ const gcseQuestions = [
   question: "A water pump uses 5 units of electricity to pump 200 litres of water. Each unit costs 20 pence. Work out the cost of electricity to pump 800 litres.",
   solution: "£4"
 },
+// Multiples and Factors – Foundation
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Work out two numbers that are both multiples of 9 and have a difference of 54.",
+  solution: "Examples: 9 and 63, 18 and 72, 27 and 81"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Find two numbers that are both multiples of 12 and have a difference of 36.",
+  solution: "Examples: 12 and 48, 24 and 60, 36 and 72"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Find two numbers that are both multiples of 5 and have a difference of 20.",
+  solution: "Examples: 5 and 25, 10 and 30, 15 and 35"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Work out two numbers that are both multiples of 7 and have a difference of 28.",
+  solution: "Examples: 7 and 35, 14 and 42, 21 and 49"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Find two numbers that are both multiples of 8 and have a difference of 32.",
+  solution: "Examples: 8 and 40, 16 and 48, 24 and 56"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Work out two numbers that are both multiples of 6 and have a difference of 18.",
+  solution: "Examples: 6 and 24, 12 and 30, 18 and 36"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Find two numbers that are both multiples of 4 and have a difference of 12.",
+  solution: "Examples: 4 and 16, 8 and 20, 12 and 24"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Work out two numbers that are both multiples of 10 and have a difference of 50.",
+  solution: "Examples: 10 and 60, 20 and 70, 30 and 80"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Find two numbers that are both multiples of 3 and have a difference of 15.",
+  solution: "Examples: 3 and 18, 6 and 21, 9 and 24"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Work out two numbers that are both multiples of 11 and have a difference of 44.",
+  solution: "Examples: 11 and 55, 22 and 66, 33 and 77"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Find two numbers that are both multiples of 2 and have a difference of 14.",
+  solution: "Examples: 2 and 16, 4 and 18, 6 and 20"
+},
+{
+  topic: "Multiples and Factors",
+  level: "Foundation",
+  question: "Work out two numbers that are both multiples of 15 and have a difference of 45.",
+  solution: "Examples: 15 and 60, 30 and 75, 45 and 90"
+},
+
 {
   topic: "Proportion - Mixed Costs",
   level: "Foundation",

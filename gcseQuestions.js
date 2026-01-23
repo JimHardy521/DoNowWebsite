@@ -4775,6 +4775,49 @@ const gcseQuestions = [
   question: "Expand \\((x + 3)^2(x - 1)\\).",
   solution: "\\(x^3 + 5x^2 + 3x - 9\\)."
 },
+{
+  topic: "Expanding Triple Brackets",
+  level: "Higher",
+  question: "Expand \\((x - 3)(x + 2)(x + 5)\\).",
+  solution: "\\(x^3 + 4x^2 - 11x - 30\\)."
+},
+{
+  topic: "Expanding Triple Brackets",
+  level: "Higher",
+  question: "Expand \\((x + 4)(x - 1)(x - 2)\\).",
+  solution: "\\(x^3 + x^2 - 10x + 8\\)."
+},
+{
+  topic: "Expanding Triple Brackets",
+  level: "Higher",
+  question: "Expand \\((2x - 1)(x + 3)(x - 2)\\).",
+  solution: "\\(2x^3 + 3x^2 - 13x + 6\\)."
+},
+{
+  topic: "Expanding Triple Brackets",
+  level: "Higher",
+  question: "Expand \\((x - 4)^2(x + 1)\\).",
+  solution: "\\(x^3 - 7x^2 + 8x + 16\\)."
+},
+{
+  topic: "Expanding Triple Brackets",
+  level: "Higher",
+  question: "Expand \\((x + 2)^2(x - 3)\\).",
+  solution: "\\(x^3 + x^2 - 8x - 12\\)."
+},
+{
+  topic: "Expanding Triple Brackets",
+  level: "Higher",
+  question: "Expand \\((3x + 1)(x - 1)(x + 2)\\).",
+  solution: "\\(3x^3 + 4x^2 - 5x - 2\\)."
+},
+{
+  topic: "Expanding Triple Brackets",
+  level: "Higher",
+  question: "Expand \\((x - 5)(x + 1)(x + 3)\\).",
+  solution: "\\(x^3 - x^2 - 17x - 15\\)."
+},
+ 
 
 // =======================
 // Indices - Fractional and Negative

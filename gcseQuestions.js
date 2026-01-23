@@ -5727,7 +5727,80 @@ const gcseQuestions = [
   level: "Higher",
   question: "The graph of \\(y = f(x)\\) has a maximum at \\((4,11)\\) and a minimum at \\((10,5)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = -f(x+3) + 1\\).",
   solution: "Translation by \\(\\begin{pmatrix}-3 \\\\ 1\\end{pmatrix}\\) and reflection in the x-axis.<br>Maximum: \\((7,-4)\\).<br>Minimum: \\((1,-10)\\)."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = 2\\sin x + 1\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Vertical stretch by factor 2 and translation up 1.<br>Amplitude = 2, midline is \\(y = 1\\), period = 360°.<br>Maximum value is 3 and minimum value is -1."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = \\cos(2x) - 3\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Stretch parallel to the x-axis by scale factor \\(\\frac{1}{2}\\) and translation down 3.<br>Period = 180°, midline is \\(y = -3\\).<br>Maximum is -2 and minimum is -4."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = -3\\sin x + 2\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Vertical stretch by factor 3, reflection in the x-axis, and translation up 2.<br>Amplitude = 3, midline is \\(y = 2\\).<br>Maximum is 5 and minimum is -1."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = \\cos(0.5x) + 1\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Stretch parallel to the x-axis by scale factor 2 and translation up 1.<br>Period = 720°, so only half a cycle is shown.<br>Midline is \\(y = 1\\)."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = 4\\sin(2x)\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Vertical stretch by factor 4 and stretch parallel to the x-axis by scale factor \\(\\frac{1}{2}\\).<br>Amplitude = 4 and period = 180°.<br>Graph completes two full cycles."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = \\cos x - 2\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Translation down 2.<br>Midline is \\(y = -2\\), amplitude remains 1.<br>Maximum is -1 and minimum is -3."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = 1.5\\sin(0.5x)\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Vertical stretch by factor 1.5 and stretch parallel to the x-axis by scale factor 2.<br>Amplitude = 1.5, period = 720°.<br>Only half a sine wave is visible."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = -\\cos(2x) + 1\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Stretch parallel to the x-axis by scale factor \\(\\frac{1}{2}\\), reflection in the x-axis, and translation up 1.<br>Period = 180°, midline is \\(y = 1\\)."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = 2\\cos x - 4\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Vertical stretch by factor 2 and translation down 4.<br>Midline is \\(y = -4\\).<br>Maximum is -2 and minimum is -6."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = \\sin(3x) + 2\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Stretch parallel to the x-axis by scale factor \\(\\frac{1}{3}\\) and translation up 2.<br>Period = 120°, so three full cycles are shown.<br>Midline is \\(y = 2\\)."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = -2\\cos(0.5x) - 1\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Vertical stretch by factor 2, reflection in the x-axis, stretch parallel to the x-axis by scale factor 2, and translation down 1.<br>Amplitude = 2, midline is \\(y = -1\\)."
+},
+{
+  topic: "Graph Transformations - Trig Graphs",
+  level: "Higher",
+  question: "Sketch the graph of<br>\\(y = 0.5\\sin(2x) + 3\\)<br>for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "Vertical stretch by factor 0.5 and stretch parallel to the x-axis by scale factor \\(\\frac{1}{2}\\), then translation up 3.<br>Amplitude = 0.5, period = 180°.<br>Midline is \\(y = 3\\)."
 }
+
 
 
 

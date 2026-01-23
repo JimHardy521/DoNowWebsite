@@ -2342,6 +2342,79 @@ const gcseQuestions = [
   question: "Two shops sell packs of juice boxes.<br>Shop X: Pack of 10, £6, now 20% off<br>Shop Y: Pack of 12, £7.50<br>At which shop is it cheaper to buy 60 juice boxes?",
   solution: "Shop X: £28.80<br>Shop Y: £37.50<br>Cheaper: Shop X"
 },
+// Saving for a Goal – Foundation
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Greg wants to buy a games console that costs £267.50. He already has £125. He will save £7.50 each week. After how many weeks will he have saved enough?",
+  solution: "Amount needed = 267.50 − 125 = 142.50.<br>Weeks needed = 142.50 ÷ 7.50 = 19 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Hannah wants a new bike costing £320. She already has £80 and saves £15 per week. How many weeks until she can buy it?",
+  solution: "Amount needed = 320 − 80 = 240.<br>Weeks needed = 240 ÷ 15 = 16 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "A smartphone costs £450. Liam has £120 and saves £15 per week. How long until he can buy it?",
+  solution: "Amount needed = 450 − 120 = 330.<br>Weeks needed = 330 ÷ 15 = 22 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Emma wants a tablet for £220. She has £70 and saves £10 per week. How many weeks will it take?",
+  solution: "Amount needed = 220 − 70 = 150.<br>Weeks needed = 150 ÷ 10 = 15 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Jack wants a pair of trainers costing £85. He already has £40 and saves £5 per week. How long until he can buy them?",
+  solution: "Amount needed = 85 − 40 = 45.<br>Weeks needed = 45 ÷ 5 = 9 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Sophie wants to buy a tablet for £300. She has £60 and will save £12 each week. How many weeks until she can buy it?",
+  solution: "Amount needed = 300 − 60 = 240.<br>Weeks needed = 240 ÷ 12 = 20 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "A laptop costs £550. Max has £150 and saves £20 per week. How many weeks until he can buy it?",
+  solution: "Amount needed = 550 − 150 = 400.<br>Weeks needed = 400 ÷ 20 = 20 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Olivia wants a camera costing £275. She already has £75 and saves £25 per week. How many weeks will it take?",
+  solution: "Amount needed = 275 − 75 = 200.<br>Weeks needed = 200 ÷ 25 = 8 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "A football costs £95. Noah has £20 and saves £15 per week. How many weeks until he has enough?",
+  solution: "Amount needed = 95 − 20 = 75.<br>Weeks needed = 75 ÷ 15 = 5 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Lily wants a smartwatch for £180. She has £30 and saves £15 each week. How long until she can buy it?",
+  solution: "Amount needed = 180 − 30 = 150.<br>Weeks needed = 150 ÷ 15 = 10 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "A gaming chair costs £220. Ethan has £50 and saves £17.50 each week. How many weeks until he can buy it?",
+  solution: "Amount needed = 220 − 50 = 170.<br>Weeks needed = 170 ÷ 17.5 = 10 weeks."
+},
+{
+  topic: "Saving for a Goal",
+  level: "Foundation",
+  question: "Mia wants a scooter costing £145. She already has £25 and saves £12 per week. How many weeks will it take?",
+  solution: "Amount needed = 145 − 25 = 120.<br>Weeks needed = 120 ÷ 12 = 10 weeks."
+},
 
 {
   topic: "Algebra - Factorising",

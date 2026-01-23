@@ -5846,73 +5846,73 @@ const gcseQuestions = [
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{4(2x - 7)}{5x + 3} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{4(2x - 7)}{5x + 3} \\]",
   solution: "Multiply both sides by \\(5x + 3\\):<br>\\(y(5x + 3) = 8x - 28\\)<br>Rearrange and factorise:<br>\\(x(5y - 8) = -28 - 3y\\)<br>\\[ x = \\frac{-28 - 3y}{5y - 8} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{3(x + 4)}{2x - 5} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{3(x + 4)}{2x - 5} \\]",
   solution: "Multiply through:<br>\\(y(2x - 5) = 3x + 12\\)<br>Rearrange and factorise:<br>\\(x(2y - 3) = 12 + 5y\\)<br>\\[ x = \\frac{12 + 5y}{2y - 3} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{5(3x - 2)}{x + 6} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{5(3x - 2)}{x + 6} \\]",
   solution: "Multiply through:<br>\\(y(x + 6) = 15x - 10\\)<br>Rearrange and factorise:<br>\\(x(y - 15) = -10 - 6y\\)<br>\\[ x = \\frac{-10 - 6y}{y - 15} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{2(x - 9)}{3x + 1} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{2(x - 9)}{3x + 1} \\]",
   solution: "Multiply through:<br>\\(y(3x + 1) = 2x - 18\\)<br>Rearrange and factorise:<br>\\(x(3y - 2) = -18 - y\\)<br>\\[ x = \\frac{-18 - y}{3y - 2} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{7(x + 1)}{4x - 5} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{7(x + 1)}{4x - 5} \\]",
   solution: "Multiply through:<br>\\(y(4x - 5) = 7x + 7\\)<br>Rearrange and factorise:<br>\\(x(4y - 7) = 7 + 5y\\)<br>\\[ x = \\frac{7 + 5y}{4y - 7} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{6(2x + 3)}{x - 4} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{6(2x + 3)}{x - 4} \\]",
   solution: "Multiply through:<br>\\(y(x - 4) = 12x + 18\\)<br>Rearrange and factorise:<br>\\(x(y - 12) = 18 + 4y\\)<br>\\[ x = \\frac{18 + 4y}{y - 12} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{5(x - 8)}{2x + 1} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{5(x - 8)}{2x + 1} \\]",
   solution: "Multiply through:<br>\\(y(2x + 1) = 5x - 40\\)<br>Rearrange and factorise:<br>\\(x(2y - 5) = -40 - y\\)<br>\\[ x = \\frac{-40 - y}{2y - 5} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{4(3x - 1)}{x + 2} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{4(3x - 1)}{x + 2} \\]",
   solution: "Multiply through:<br>\\(y(x + 2) = 12x - 4\\)<br>Rearrange and factorise:<br>\\(x(y - 12) = -4 - 2y\\)<br>\\[ x = \\frac{-4 - 2y}{y - 12} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{9(x + 5)}{3x - 4} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{9(x + 5)}{3x - 4} \\]",
   solution: "Multiply through:<br>\\(y(3x - 4) = 9x + 45\\)<br>Rearrange and factorise:<br>\\(x(3y - 9) = 45 + 4y\\)<br>\\[ x = \\frac{45 + 4y}{3y - 9} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{2(5x - 3)}{x - 7} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{2(5x - 3)}{x - 7} \\]",
   solution: "Multiply through:<br>\\(y(x - 7) = 10x - 6\\)<br>Rearrange and factorise:<br>\\(x(y - 10) = -6 + 7y\\)<br>\\[ x = \\frac{-6 + 7y}{y - 10} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{8(x + 2)}{5x - 1} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{8(x + 2)}{5x - 1} \\]",
   solution: "Multiply through:<br>\\(y(5x - 1) = 8x + 16\\)<br>Rearrange and factorise:<br>\\(x(5y - 8) = 16 + y\\)<br>\\[ x = \\frac{16 + y}{5y - 8} \\]"
 },
 {
   topic: "Rearranging - by Factorising",
   level: "Higher",
-  question: "Make \\(x\\) the subject of the formula:<br><br>\\[ y = \\frac{3(4x - 5)}{2x + 7} \\]",
+  question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{3(4x - 5)}{2x + 7} \\]",
   solution: "Multiply through:<br>\\(y(2x + 7) = 12x - 15\\)<br>Rearrange and factorise:<br>\\(x(2y - 12) = -15 - 7y\\)<br>\\[ x = \\frac{-15 - 7y}{2y - 12} \\]"
 }
 

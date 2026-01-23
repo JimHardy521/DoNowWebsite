@@ -3,7 +3,75 @@ const gcseQuestions = [
  /* =========================
        Crossover_abc
        ========================= */
+// Vectors – Crossover GCSE
 {
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}4 \\\\ 9\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}2 \\\\ -5\\end{pmatrix}\\). Calculate \\(4\\mathbf{a} + 3\\mathbf{b}\\).",
+  solution: "\\(4\\mathbf{a} = \\begin{pmatrix}16 \\\\ 36\\end{pmatrix}, 3\\mathbf{b} = \\begin{pmatrix}6 \\\\ -15\\end{pmatrix}\\). So \\(4\\mathbf{a} + 3\\mathbf{b} = \\begin{pmatrix}22 \\\\ 21\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}-3 \\\\ 7\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}5 \\\\ 2\\end{pmatrix}\\). Calculate \\(2\\mathbf{a} - \\mathbf{b}\\).",
+  solution: "\\(2\\mathbf{a} = \\begin{pmatrix}-6 \\\\ 14\\end{pmatrix}, -\\mathbf{b} = \\begin{pmatrix}-5 \\\\ -2\\end{pmatrix}\\). So \\(2\\mathbf{a} - \\mathbf{b} = \\begin{pmatrix}-11 \\\\ 12\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}1 \\\\ -4\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}-2 \\\\ 3\\end{pmatrix}\\). Calculate \\(3\\mathbf{a} + 5\\mathbf{b}\\).",
+  solution: "\\(3\\mathbf{a} = \\begin{pmatrix}3 \\\\ -12\\end{pmatrix}, 5\\mathbf{b} = \\begin{pmatrix}-10 \\\\ 15\\end{pmatrix}\\). So \\(3\\mathbf{a} + 5\\mathbf{b} = \\begin{pmatrix}-7 \\\\ 3\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}6 \\\\ -1\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}-3 \\\\ 4\\end{pmatrix}\\). Calculate \\(2\\mathbf{a} - 4\\mathbf{b}\\).",
+  solution: "\\(2\\mathbf{a} = \\begin{pmatrix}12 \\\\ -2\\end{pmatrix}, 4\\mathbf{b} = \\begin{pmatrix}-12 \\\\ 16\\end{pmatrix}\\). So \\(2\\mathbf{a} - 4\\mathbf{b} = \\begin{pmatrix}24 \\\\ -18\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}-1 \\\\ 5\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}4 \\\\ -2\\end{pmatrix}\\). Calculate \\(5\\mathbf{a} + 2\\mathbf{b}\\).",
+  solution: "\\(5\\mathbf{a} = \\begin{pmatrix}-5 \\\\ 25\\end{pmatrix}, 2\\mathbf{b} = \\begin{pmatrix}8 \\\\ -4\\end{pmatrix}\\). So \\(5\\mathbf{a} + 2\\mathbf{b} = \\begin{pmatrix}3 \\\\ 21\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}2 \\\\ -3\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}-1 \\\\ 7\\end{pmatrix}\\). Calculate \\(3\\mathbf{a} - 2\\mathbf{b}\\).",
+  solution: "\\(3\\mathbf{a} = \\begin{pmatrix}6 \\\\ -9\\end{pmatrix}, -2\\mathbf{b} = \\begin{pmatrix}2 \\\\ -14\\end{pmatrix}\\). So \\(3\\mathbf{a} - 2\\mathbf{b} = \\begin{pmatrix}8 \\\\ -23\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}-4 \\\\ 1\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}3 \\\\ -5\\end{pmatrix}\\). Calculate \\(-2\\mathbf{a} + 3\\mathbf{b}\\).",
+  solution: "\\(-2\\mathbf{a} = \\begin{pmatrix}8 \\\\ -2\\end{pmatrix}, 3\\mathbf{b} = \\begin{pmatrix}9 \\\\ -15\\end{pmatrix}\\). So \\(-2\\mathbf{a} + 3\\mathbf{b} = \\begin{pmatrix}17 \\\\ -17\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}5 \\\\ 2\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}-6 \\\\ 1\\end{pmatrix}\\). Calculate \\(4\\mathbf{a} - 3\\mathbf{b}\\).",
+  solution: "\\(4\\mathbf{a} = \\begin{pmatrix}20 \\\\ 8\\end{pmatrix}, -3\\mathbf{b} = \\begin{pmatrix}18 \\\\ -3\\end{pmatrix}\\). So \\(4\\mathbf{a} - 3\\mathbf{b} = \\begin{pmatrix}38 \\\\ 5\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}-2 \\\\ 4\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}1 \\\\ -3\\end{pmatrix}\\). Calculate \\(3\\mathbf{a} + 5\\mathbf{b}\\).",
+  solution: "\\(3\\mathbf{a} = \\begin{pmatrix}-6 \\\\ 12\\end{pmatrix}, 5\\mathbf{b} = \\begin{pmatrix}5 \\\\ -15\\end{pmatrix}\\). So \\(3\\mathbf{a} + 5\\mathbf{b} = \\begin{pmatrix}-1 \\\\ -3\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}0 \\\\ -5\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}3 \\\\ 2\\end{pmatrix}\\). Calculate \\(2\\mathbf{a} - \\mathbf{b}\\).",
+  solution: "\\(2\\mathbf{a} = \\begin{pmatrix}0 \\\\ -10\\end{pmatrix}, -\\mathbf{b} = \\begin{pmatrix}-3 \\\\ -2\\end{pmatrix}\\). So \\(2\\mathbf{a} - \\mathbf{b} = \\begin{pmatrix}-3 \\\\ -12\\end{pmatrix}\\)."
+},
+{
+  topic: "Vectors",
+  level: "Crossover",
+  question: "Let \\(\\mathbf{a} = \\begin{pmatrix}1 \\\\ -2\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}-4 \\\\ 5\\end{pmatrix}\\). Calculate \\(-3\\mathbf{a} + 2\\mathbf{b}\\).",
+  solution: "\\(-3\\mathbf{a} = \\begin{pmatrix}-3 \\\\ 6\\end{pmatrix}, 2\\mathbf{b} = \\begin{pmatrix}-8 \\\\ 10\\end{pmatrix}\\). So \\(-3\\mathbf{a} + 2\\mathbf{b} = \\begin{pmatrix}-11 \\\\ 16\\end{pmatrix}\\)."
+},
+
+ {
   topic: "Fraction Arithmetic - 2",
   level: "Crossover",
   question: "Work out<br>\\(\\left(\\frac{7}{10} - \\frac{4}{15}\\right) \\div \\frac{2}{3}\\).<br>Give your answer as a fraction.",

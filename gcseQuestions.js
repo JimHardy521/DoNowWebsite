@@ -1975,7 +1975,82 @@ const gcseQuestions = [
  /* =========================
        FOUNDATION
        ========================= */
+// Averages – Foundation
 {
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the mean of the numbers: 4, 8, 6, 5, 7, 12.",
+  solution: "Mean = (4 + 8 + 6 + 5 + 7 + 12) ÷ 6 = 42 ÷ 6 = 7"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the median of the numbers: 12, 5, 7, 9, 15, 8, 10.",
+  solution: "Sorted: 5, 7, 8, 9, 10, 12, 15 → Median = 9"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the mode of the numbers: 3, 5, 7, 5, 2, 8, 5.",
+  solution: "Mode = 5 (appears most often)"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the range of the numbers: 6, 12, 4, 9, 15, 8.",
+  solution: "Range = 15 − 4 = 11"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the mean of the numbers: 2, 4, 6, 8, 10, 12, 14.",
+  solution: "Mean = (2 + 4 + 6 + 8 + 10 + 12 + 14) ÷ 7 = 56 ÷ 7 = 8"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the median of the numbers: 18, 12, 15, 20, 10, 17.",
+  solution: "Sorted: 10, 12, 15, 17, 18, 20 → Median = (15 + 17) ÷ 2 = 16"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the mode of the numbers: 1, 3, 3, 4, 5, 6, 3.",
+  solution: "Mode = 3"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the range of the numbers: 25, 18, 20, 22, 30, 19.",
+  solution: "Range = 30 − 18 = 12"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the mean of the numbers: 5, 7, 8, 6, 9, 7.",
+  solution: "Mean = (5 + 7 + 8 + 6 + 9 + 7) ÷ 6 = 42 ÷ 6 = 7"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the median of the numbers: 11, 13, 10, 12, 14, 15, 9.",
+  solution: "Sorted: 9, 10, 11, 12, 13, 14, 15 → Median = 12"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the mode of the numbers: 2, 4, 2, 6, 7, 2, 3.",
+  solution: "Mode = 2"
+},
+{
+  topic: "Averages",
+  level: "Foundation",
+  question: "Find the range of the numbers: 3, 8, 5, 12, 7, 10, 6.",
+  solution: "Range = 12 − 3 = 9"
+},
+
+ 
+ {
   topic: "Algebra - Simplifying",
   level: "Foundation",
   question: "Simplify fully: \\(5 \\times 2h\\)",

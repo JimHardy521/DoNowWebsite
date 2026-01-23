@@ -5656,6 +5656,79 @@ const gcseQuestions = [
   question: "A helicopter flies 32 km on a bearing of 250°.<br>Convert this to a column vector.",
   solution: "\\(x = 32\\sin 250^\\circ = -30.06\\), \\(y = 32\\cos 250^\\circ = -10.94\\).<br>Column vector: \\(\\begin{pmatrix}-30.06 \\\\ -10.94\\end{pmatrix}\\)."
 },
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((4,6)\\) and a minimum at \\((10,2)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = f(x-3) + 2\\).",
+  solution: "Translation by \\(\\begin{pmatrix}3 \\\\ 2\\end{pmatrix}\\).<br>Maximum: \\((7,8)\\).<br>Minimum: \\((13,4)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((6,9)\\) and a minimum at \\((14,1)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = f(x+4) - 3\\).",
+  solution: "Translation by \\(\\begin{pmatrix}-4 \\\\ -3\\end{pmatrix}\\).<br>Maximum: \\((2,6)\\).<br>Minimum: \\((10,-2)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((8,5)\\) and a minimum at \\((2,-1)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = 2f(x-1)\\).",
+  solution: "Translation by \\(\\begin{pmatrix}1 \\\\ 0\\end{pmatrix}\\) and vertical stretch by factor 2.<br>Maximum: \\((9,10)\\).<br>Minimum: \\((3,-2)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((3,7)\\) and a minimum at \\((9,1)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = -f(x+2)\\).",
+  solution: "Translation by \\(\\begin{pmatrix}-2 \\\\ 0\\end{pmatrix}\\) and reflection in the x-axis.<br>Maximum: \\((7,-1)\\).<br>Minimum: \\((1,-7)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((6,4)\\) and a minimum at \\((12,-2)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = f(2x) + 1\\).",
+  solution: "Stretch parallel to the x-axis by scale factor \\(\\frac{1}{2}\\) and translation by \\(\\begin{pmatrix}0 \\\\ 1\\end{pmatrix}\\).<br>Maximum: \\((3,5)\\).<br>Minimum: \\((6,-1)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((10,8)\\) and a minimum at \\((4,0)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = -f(0.5x)\\).",
+  solution: "Stretch parallel to the x-axis by scale factor 2 and reflection in the x-axis.<br>Maximum: \\((8,0)\\).<br>Minimum: \\((20,-8)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((5,3)\\) and a minimum at \\((11,-5)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = f(x-4) - 1\\).",
+  solution: "Translation by \\(\\begin{pmatrix}4 \\\\ -1\\end{pmatrix}\\).<br>Maximum: \\((9,2)\\).<br>Minimum: \\((15,-6)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((2,10)\\) and a minimum at \\((8,4)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = 3f(x+1)\\).",
+  solution: "Translation by \\(\\begin{pmatrix}-1 \\\\ 0\\end{pmatrix}\\) and vertical stretch by factor 3.<br>Maximum: \\((1,30)\\).<br>Minimum: \\((7,12)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((12,6)\\) and a minimum at \\((6,-2)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = f(3x) + 4\\).",
+  solution: "Stretch parallel to the x-axis by scale factor \\(\\frac{1}{3}\\) and translation by \\(\\begin{pmatrix}0 \\\\ 4\\end{pmatrix}\\).<br>Maximum: \\((4,10)\\).<br>Minimum: \\((2,2)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((7,9)\\) and a minimum at \\((1,3)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = -2f(x-2)\\).",
+  solution: "Translation by \\(\\begin{pmatrix}2 \\\\ 0\\end{pmatrix}\\) and reflection in the x-axis with vertical stretch factor 2.<br>Maximum: \\((3,-6)\\).<br>Minimum: \\((9,-18)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((9,5)\\) and a minimum at \\((3,-1)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = f(0.25x) - 2\\).",
+  solution: "Stretch parallel to the x-axis by scale factor 4 and translation by \\(\\begin{pmatrix}0 \\\\ -2\\end{pmatrix}\\).<br>Maximum: \\((36,3)\\).<br>Minimum: \\((12,-3)\\)."
+},
+{
+  topic: "Graph Transformations - Min & Max Coordinates",
+  level: "Higher",
+  question: "The graph of \\(y = f(x)\\) has a maximum at \\((4,11)\\) and a minimum at \\((10,5)\\).<br><br>Find the coordinates of the maximum and minimum on \\(y = -f(x+3) + 1\\).",
+  solution: "Translation by \\(\\begin{pmatrix}-3 \\\\ 1\\end{pmatrix}\\) and reflection in the x-axis.<br>Maximum: \\((7,-4)\\).<br>Minimum: \\((1,-10)\\)."
+}
+
 
 
     ];

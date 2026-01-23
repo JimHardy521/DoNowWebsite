@@ -157,6 +157,8 @@ function createBox(q, index) {
     do { nq = randomFrom(pool); } while (nq.question === qt.innerHTML && pool.length>1);
     qt.innerHTML = nq.question;
     sol.innerHTML = `<strong>Solution:</strong> ${nq.solution}`;
+    sol.style.display = "none";
+
     h.innerHTML = `Question ${index + 1}: ${nq.topic}`;
     box.dataset.topic = nq.topic;
     MathJax.typeset();
@@ -176,6 +178,8 @@ function createBox(q, index) {
     do { nq=randomFrom(pool); } while(nq.question===qt.innerHTML);
     qt.innerHTML=nq.question;
     sol.innerHTML=`<strong>Solution:</strong> ${nq.solution}`;
+    sol.style.display = "none";
+
     MathJax.typeset();
   };
   box.appendChild(rSame);

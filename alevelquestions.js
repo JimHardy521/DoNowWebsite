@@ -1950,13 +1950,13 @@ const alevelQuestions = [
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br>\\[(-4, 5)\\]<br>and the midpoint of \\[(1, 4)\\] and \\[(7, 8)\\]",
+  question: "Find the exact distance between:<br>(-4, 5) and the midpoint of (1, 4) and (7, 8)",
   solution: "Midpoint: (4, 6)<br>Exact distance: \\(\\sqrt{65}\\)"
 },
 {
   topic: "Geometry - Distances Two Coords",
   level: "Year 12",
-  question: "Find the exact distance between:<br>\\[(2, -1)\\]<br>and the midpoint of \\[(4, 3)\\] and \\[(8, 7)\\]",
+  question: "Find the exact distance between:<br>(2, -1) and the midpoint of (4, 3) and (8, 7)",
   solution: "Midpoint: (6, 5)<br>Exact distance: \\(2\\sqrt{13}\\)"
 },
 

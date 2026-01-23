@@ -220,75 +220,76 @@ const gcseQuestions = [
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The area of a circle is \\(25\\pi\\,\\text{cm}^2\\). Find the circumference of the circle.",
-  solution: "Since \\(\\pi r^2 = 25\\pi\\), \\(r = 5\\). The circumference is \\(2\\pi r = 10\\pi\\,\\text{cm}\\)."
+  question: "The area of a circle is \\(50.3\\,\\text{cm}^2\\). Find the circumference of the circle.",
+  solution: "Using \\(A = \\pi r^2\\): \\(r = \\sqrt{50.3/\\pi} \\approx 4.0\\). The circumference is \\(2\\pi r \\approx 25.1\\,\\text{cm}\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The circumference of a circle is \\(14\\pi\\,\\text{cm}\\). Find the area of the circle.",
-  solution: "Since \\(2\\pi r = 14\\pi\\), \\(r = 7\\). The area is \\(\\pi r^2 = 49\\pi\\,\\text{cm}^2\\)."
+  question: "The circumference of a circle is \\(31.4\\,\\text{cm}\\). Find the area of the circle.",
+  solution: "Using \\(C = 2\\pi r\\): \\(r = 31.4/(2\\pi) = 5\\). The area is \\(\\pi r^2 = 25\\pi \\approx 78.5\\,\\text{cm}^2\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The area of a circle is \\(36\\pi\\,\\text{cm}^2\\). Find the circumference.",
-  solution: "Since \\(\\pi r^2 = 36\\pi\\), \\(r = 6\\). The circumference is \\(2\\pi r = 12\\pi\\,\\text{cm}\\)."
+  question: "The area of a circle is \\(78.5\\,\\text{cm}^2\\). Find the circumference.",
+  solution: "Using \\(A = \\pi r^2\\): \\(r = \\sqrt{78.5/\\pi} = 5\\). The circumference is \\(2\\pi r = 10\\pi \\approx 31.4\\,\\text{cm}\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The circumference of a circle is \\(20\\pi\\,\\text{cm}\\). Find the area.",
-  solution: "Since \\(2\\pi r = 20\\pi\\), \\(r = 10\\). The area is \\(\\pi r^2 = 100\\pi\\,\\text{cm}^2\\)."
+  question: "The circumference of a circle is \\(18\\pi\\,\\text{cm}\\). Find the area of the circle.",
+  solution: "Using \\(2\\pi r = 18\\pi\\), \\(r = 9\\). The area is \\(81\\pi \\approx 254.5\\,\\text{cm}^2\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The area of a circle is \\(16\\pi\\,\\text{cm}^2\\). Find the circumference.",
-  solution: "Since \\(\\pi r^2 = 16\\pi\\), \\(r = 4\\). The circumference is \\(8\\pi\\,\\text{cm}\\)."
+  question: "The area of a circle is \\(113.1\\,\\text{cm}^2\\). Find the circumference.",
+  solution: "Using \\(A = \\pi r^2\\): \\(r = \\sqrt{113.1/\\pi} = 6\\). The circumference is \\(2\\pi r = 12\\pi \\approx 37.7\\,\\text{cm}\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The circumference of a circle is \\(18\\pi\\,\\text{cm}\\). Find the area.",
-  solution: "Since \\(2\\pi r = 18\\pi\\), \\(r = 9\\). The area is \\(81\\pi\\,\\text{cm}^2\\)."
+  question: "The circumference of a circle is \\(44.0\\,\\text{cm}\\). Find the area of the circle.",
+  solution: "Using \\(C = 2\\pi r\\): \\(r = 44.0/(2\\pi) \\approx 7.0\\). The area is \\(\\pi r^2 \\approx 153.9\\,\\text{cm}^2\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The area of a circle is \\(49\\pi\\,\\text{cm}^2\\). Find the circumference.",
-  solution: "Since \\(\\pi r^2 = 49\\pi\\), \\(r = 7\\). The circumference is \\(14\\pi\\,\\text{cm}\\)."
+  question: "The area of a circle is \\(28.3\\,\\text{cm}^2\\). Find the circumference.",
+  solution: "Using \\(A = \\pi r^2\\): \\(r = \\sqrt{28.3/\\pi} = 3\\). The circumference is \\(2\\pi r = 6\\pi \\approx 18.8\\,\\text{cm}\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The circumference of a circle is \\(12\\pi\\,\\text{cm}\\). Find the area.",
-  solution: "Since \\(2\\pi r = 12\\pi\\), \\(r = 6\\). The area is \\(36\\pi\\,\\text{cm}^2\\)."
+  question: "The circumference of a circle is \\(25.1\\,\\text{cm}\\). Find the area of the circle.",
+  solution: "Using \\(C = 2\\pi r\\): \\(r = 25.1/(2\\pi) = 4\\). The area is \\(16\\pi \\approx 50.3\\,\\text{cm}^2\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The area of a circle is \\(81\\pi\\,\\text{cm}^2\\). Find the circumference.",
-  solution: "Since \\(\\pi r^2 = 81\\pi\\), \\(r = 9\\). The circumference is \\(18\\pi\\,\\text{cm}\\)."
+  question: "The area of a circle is \\(201.1\\,\\text{cm}^2\\). Find the circumference.",
+  solution: "Using \\(A = \\pi r^2\\): \\(r = \\sqrt{201.1/\\pi} = 8\\). The circumference is \\(16\\pi \\approx 50.3\\,\\text{cm}\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The circumference of a circle is \\(16\\pi\\,\\text{cm}\\). Find the area.",
-  solution: "Since \\(2\\pi r = 16\\pi\\), \\(r = 8\\). The area is \\(64\\pi\\,\\text{cm}^2\\)."
+  question: "The circumference of a circle is \\(37.7\\,\\text{cm}\\). Find the area of the circle.",
+  solution: "Using \\(C = 2\\pi r\\): \\(r = 37.7/(2\\pi) = 6\\). The area is \\(36\\pi \\approx 113.1\\,\\text{cm}^2\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The area of a circle is \\(9\\pi\\,\\text{cm}^2\\). Find the circumference.",
-  solution: "Since \\(\\pi r^2 = 9\\pi\\), \\(r = 3\\). The circumference is \\(6\\pi\\,\\text{cm}\\)."
+  question: "The area of a circle is \\(153.9\\,\\text{cm}^2\\). Find the circumference.",
+  solution: "Using \\(A = \\pi r^2\\): \\(r = \\sqrt{153.9/\\pi} = 7\\). The circumference is \\(14\\pi \\approx 44.0\\,\\text{cm}\\)."
 },
 {
   topic: "Circles - Area and Perimeter 2",
   level: "Higher",
-  question: "The circumference of a circle is \\(22\\pi\\,\\text{cm}\\). Find the area.",
-  solution: "Since \\(2\\pi r = 22\\pi\\), \\(r = 11\\). The area is \\(121\\pi\\,\\text{cm}^2\\)."
-},
+  question: "The circumference of a circle is \\(56.5\\,\\text{cm}\\). Find the area of the circle.",
+  solution: "Using \\(C = 2\\pi r\\): \\(r = 56.5/(2\\pi) = 9\\). The area is \\(81\\pi \\approx 254.5\\,\\text{cm}^2\\)."
+}
+
 
 
  {

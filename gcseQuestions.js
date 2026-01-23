@@ -3506,6 +3506,79 @@ const gcseQuestions = [
   solution: "30%"
 },
 {
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in ascending order:<br>\\(\\frac{7}{8},\\ 0.6,\\ \\frac{9}{20},\\ 0.75\\)",
+  solution: "\\(\\frac{9}{20},\\ 0.6,\\ 0.75,\\ \\frac{7}{8}\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in descending order:<br>\\(0.4,\\ \\frac{13}{20},\\ 0.85,\\ \\frac{3}{4}\\)",
+  solution: "\\(0.85,\\ \\frac{3}{4},\\ \\frac{13}{20},\\ 0.4\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in ascending order:<br>\\(\\frac{5}{8},\\ 0.32,\\ \\frac{7}{25},\\ 0.6\\)",
+  solution: "\\(\\frac{7}{25},\\ 0.32,\\ \\frac{5}{8},\\ 0.6\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in descending order:<br>\\(0.72,\\ \\frac{18}{25},\\ \\frac{3}{8},\\ 0.5\\)",
+  solution: "\\(\\frac{18}{25},\\ 0.72,\\ 0.5,\\ \\frac{3}{8}\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in ascending order:<br>\\(\\frac{11}{20},\\ 0.48,\\ \\frac{2}{5},\\ 0.7\\)",
+  solution: "\\(\\frac{2}{5},\\ 0.48,\\ \\frac{11}{20},\\ 0.7\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in descending order:<br>\\(0.6,\\ \\frac{15}{20},\\ \\frac{7}{25},\\ 0.9\\)",
+  solution: "\\(0.9,\\ \\frac{15}{20},\\ 0.6,\\ \\frac{7}{25}\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in ascending order:<br>\\(0.68,\\ \\frac{17}{25},\\ \\frac{5}{8},\\ 0.75\\)",
+  solution: "\\(\\frac{5}{8},\\ 0.68,\\ \\frac{17}{25},\\ 0.75\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in descending order:<br>\\(\\frac{9}{20},\\ 0.82,\\ \\frac{4}{5},\\ 0.3\\)",
+  solution: "\\(0.82,\\ \\frac{4}{5},\\ \\frac{9}{20},\\ 0.3\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in ascending order:<br>\\(\\frac{6}{25},\\ 0.4,\\ \\frac{5}{8},\\ 0.55\\)",
+  solution: "\\(\\frac{6}{25},\\ 0.4,\\ 0.55,\\ \\frac{5}{8}\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in descending order:<br>\\(0.65,\\ \\frac{13}{20},\\ 0.28,\\ \\frac{7}{8}\\)",
+  solution: "\\(\\frac{7}{8},\\ \\frac{13}{20},\\ 0.65,\\ 0.28\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in ascending order:<br>\\(0.72,\\ \\frac{9}{25},\\ \\frac{3}{8},\\ 0.6\\)",
+  solution: "\\(\\frac{3}{8},\\ \\frac{9}{25},\\ 0.6,\\ 0.72\\)"
+},
+{
+  topic: "FD - Ordering",
+  level: "Foundation",
+  question: "Put the following in descending order:<br>\\(\\frac{19}{20},\\ 0.84,\\ \\frac{21}{25},\\ 0.6\\)",
+  solution: "\\(\\frac{19}{20},\\ \\frac{21}{25},\\ 0.84,\\ 0.6\\)"
+},
+
+{
   topic: "Proportion - Prices",
   level: "Foundation",
   question: "Five cucumbers cost £6.40 in total. How much do two of these cucumbers cost?",

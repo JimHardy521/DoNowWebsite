@@ -288,7 +288,7 @@ const gcseQuestions = [
   level: "Higher",
   question: "The circumference of a circle is \\(56.5\\,\\text{cm}\\). Find the area of the circle.",
   solution: "Using \\(C = 2\\pi r\\): \\(r = 56.5/(2\\pi) = 9\\). The area is \\(81\\pi \\approx 254.5\\,\\text{cm}^2\\)."
-}
+},
 
 
 

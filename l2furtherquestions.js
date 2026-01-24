@@ -1,6 +1,69 @@
 const l2FurtherQuestions = [
 
 {
+  topic: "Factor Theorem - Solving",
+  question: "\\((x - 3)\\) is a factor of<br><br>\\(2x^3 - x^2 - 14x - 3\\).<br><br>Solve \\(2x^3 - x^2 - 14x - 3 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x - 3 = 0 \\Rightarrow x = 3\\)<br><br>\\(2x^2 + 5x + 1 = 0\\)<br>\\(x = \\frac{-5 \\pm \\sqrt{17}}{4}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x + 2)\\) is a factor of<br><br>\\(3x^3 + 2x^2 - 9x - 2\\).<br><br>Solve \\(3x^3 + 2x^2 - 9x - 2 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = -2\\)<br><br>\\(3x^2 - 4x - 1 = 0\\)<br>\\(x = \\frac{2 \\pm \\sqrt{7}}{3}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x - 1)\\) is a factor of<br><br>\\(4x^3 - x^2 - 5x + 2\\).<br><br>Solve \\(4x^3 - x^2 - 5x + 2 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = 1\\)<br><br>\\(4x^2 + 3x - 2 = 0\\)<br>\\(x = \\frac{-3 \\pm \\sqrt{41}}{8}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x + 1)\\) is a factor of<br><br>\\(2x^3 + 5x^2 - x - 4\\).<br><br>Solve \\(2x^3 + 5x^2 - x - 4 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = -1\\)<br><br>\\(2x^2 + 3x - 4 = 0\\)<br>\\(x = \\frac{-3 \\pm \\sqrt{41}}{4}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x - 4)\\) is a factor of<br><br>\\(x^3 - 2x^2 - 10x + 8\\).<br><br>Solve \\(x^3 - 2x^2 - 10x + 8 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = 4\\)<br><br>\\(x^2 + 2x - 2 = 0\\)<br>\\(x = -1 \\pm \\sqrt{3}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x + 3)\\) is a factor of<br><br>\\(3x^3 + 10x^2 + 2x - 3\\).<br><br>Solve \\(3x^3 + 10x^2 + 2x - 3 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = -3\\)<br><br>\\(3x^2 + x - 1 = 0\\)<br>\\(x = \\frac{-1 \\pm \\sqrt{13}}{6}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x - 2)\\) is a factor of<br><br>\\(4x^3 - 9x^2 + x + 2\\).<br><br>Solve \\(4x^3 - 9x^2 + x + 2 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = 2\\)<br><br>\\(4x^2 - x - 1 = 0\\)<br>\\(x = \\frac{1 \\pm \\sqrt{17}}{8}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x + 4)\\) is a factor of<br><br>\\(2x^3 + 3x^2 - 19x + 4\\).<br><br>Solve \\(2x^3 + 3x^2 - 19x + 4 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = -4\\)<br><br>\\(2x^2 - 5x + 1 = 0\\)<br>\\(x = \\frac{5 \\pm \\sqrt{17}}{4}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x - 5)\\) is a factor of<br><br>\\(x^3 - 8x^2 + 16x - 5\\).<br><br>Solve \\(x^3 - 8x^2 + 16x - 5 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = 5\\)<br><br>\\(x^2 - 3x + 1 = 0\\)<br>\\(x = \\frac{3 \\pm \\sqrt{5}}{2}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x + 1)\\) is a factor of<br><br>\\(5x^3 + 3x^2 - 4x - 2\\).<br><br>Solve \\(5x^3 + 3x^2 - 4x - 2 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = -1\\)<br><br>\\(5x^2 - 2x - 2 = 0\\)<br>\\(x = \\frac{1 \\pm \\sqrt{11}}{5}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x - 3)\\) is a factor of<br><br>\\(3x^3 - 7x^2 - 8x + 6\\).<br><br>Solve \\(3x^3 - 7x^2 - 8x + 6 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = 3\\)<br><br>\\(3x^2 + 2x - 2 = 0\\)<br>\\(x = \\frac{-1 \\pm \\sqrt{7}}{3}\\)"
+},
+{
+  topic: "Factor Theorem - Solving",
+  question: "\\((x + 2)\\) is a factor of<br><br>\\(x^3 - 2x^2 - 7x + 2\\).<br><br>Solve \\(x^3 - 2x^2 - 7x + 2 = 0\\).<br><br>Give all solutions as exact values.",
+  solution: "\\(x = -2\\)<br><br>\\(x^2 - 4x + 1 = 0\\)<br>\\(x = 2 \\pm \\sqrt{3}\\)"
+},
+
+
+
+{
   topic: "Proof",
   question: "Show that \\((2n + 3)^3 + n^3\\) is divisible by 9 for all integers \\(n\\).",
   solution: "\\((2n + 3)^3 + n^3 = 8n^3 + 36n^2 + 54n + 27 + n^3\\)<br>\\(= 9n^3 + 36n^2 + 54n + 27\\)<br>\\(= 9(n^3 + 4n^2 + 6n + 3)\\)"

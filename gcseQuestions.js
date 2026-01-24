@@ -5,6 +5,80 @@ const gcseQuestions = [
        ========================= */
 // Vectors – Crossover GCSE
 {
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Convert \\(20\\text{ km/h}\\) into an equivalent speed in metres per second.",
+  solution: "\\(20\\text{ km/h} = 20 \\times \\frac{1000}{3600}\\)<br>\\(= \\frac{20000}{3600}\\)<br>\\(= \\frac{50}{9}\\text{ m/s} \\approx 5.56\\text{ m/s}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Convert \\(18\\text{ m/s}\\) into an equivalent speed in kilometres per hour.",
+  solution: "\\(18\\text{ m/s} = 18 \\times \\frac{3600}{1000}\\)<br>\\(= 64.8\\text{ km/h}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Convert \\(72\\text{ km/h}\\) into an equivalent speed in metres per second.",
+  solution: "\\(72\\text{ km/h} = 72 \\times \\frac{1000}{3600}\\)<br>\\(= 20\\text{ m/s}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Convert \\(25\\text{ m/s}\\) into an equivalent speed in kilometres per hour.",
+  solution: "\\(25\\text{ m/s} = 25 \\times \\frac{3600}{1000}\\)<br>\\(= 90\\text{ km/h}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Knowing that \\(5\\) miles is equal to \\(8\\) km, convert \\(30\\text{ m/s}\\) into miles per hour.",
+  solution: "\\(30\\text{ m/s} = 30 \\times \\frac{3600}{1000} = 108\\text{ km/h}\\)<br>\\(8\\text{ km} = 5\\text{ miles}\\)<br>\\(108 \\div 8 \\times 5 = 67.5\\text{ mph}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Knowing that \\(5\\) miles is equal to \\(8\\) km, convert \\(40\\text{ km/h}\\) into miles per hour.",
+  solution: "\\(40 \\div 8 \\times 5 = 25\\text{ mph}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Knowing that \\(5\\) miles is equal to \\(8\\) km, convert \\(20\\text{ mph}\\) into kilometres per hour.",
+  solution: "\\(20 \\times \\frac{8}{5} = 32\\text{ km/h}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Knowing that \\(5\\) miles is equal to \\(8\\) km, convert \\(36\\text{ mph}\\) into metres per second.",
+  solution: "\\(36 \\times \\frac{8}{5} = 57.6\\text{ km/h}\\)<br>\\(57.6 \\times \\frac{1000}{3600} = 16\\text{ m/s}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Convert \\(12\\text{ m/s}\\) into an equivalent speed in kilometres per hour.",
+  solution: "\\(12 \\times \\frac{3600}{1000} = 43.2\\text{ km/h}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Convert \\(54\\text{ km/h}\\) into an equivalent speed in metres per second.",
+  solution: "\\(54 \\times \\frac{1000}{3600} = 15\\text{ m/s}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Knowing that \\(5\\) miles is equal to \\(8\\) km, convert \\(27\\text{ m/s}\\) into miles per hour.",
+  solution: "\\(27 \\times \\frac{3600}{1000} = 97.2\\text{ km/h}\\)<br>\\(97.2 \\div 8 \\times 5 = 60.75\\text{ mph}\\)"
+},
+{
+  topic: "Compound Measures - Speed - Converting Units",
+  level: "Crossover",
+  question: "Knowing that \\(5\\) miles is equal to \\(8\\) km, convert \\(45\\text{ mph}\\) into metres per second.",
+  solution: "\\(45 \\times \\frac{8}{5} = 72\\text{ km/h}\\)<br>\\(72 \\times \\frac{1000}{3600} = 20\\text{ m/s}\\)"
+},
+
+
+{
   topic: "Vectors",
   level: "Crossover",
   question: "Let \\(\\mathbf{a} = \\begin{pmatrix}4 \\\\ 9\\end{pmatrix}\\), \\(\\mathbf{b} = \\begin{pmatrix}2 \\\\ -5\\end{pmatrix}\\). Calculate \\(4\\mathbf{a} + 3\\mathbf{b}\\).",
@@ -3363,78 +3437,78 @@ const gcseQuestions = [
   solution: "Total time = \\(60\\) minutes.<br>Time left = \\(60 - 38 = 22\\) minutes."
 },
 
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "The vector \\(\\begin{pmatrix}3 \\\\ -7\\end{pmatrix}\\) translates shape A to shape B. Find the vector that translates shape B to shape A.",
-//   solution: "\\(\\begin{pmatrix}-3 \\\\ 7\\end{pmatrix}\\)"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "The vector \\(\\begin{pmatrix}-5 \\\\ 2\\end{pmatrix}\\) translates shape P to shape Q. Find the vector that translates shape Q to shape P.",
-//   solution: "\\(\\begin{pmatrix}5 \\\\ -2\\end{pmatrix}\\)"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape A is reflected in the y-axis to give shape B. Describe the transformation that maps shape B back to shape A.",
-//   solution: "Reflection in the y-axis"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape X is reflected in the line x = 2 to give shape Y. Describe the transformation that maps shape Y back to shape X.",
-//   solution: "Reflection in the line x = 2"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape A is rotated 90° clockwise about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
-//   solution: "Rotation 90° anticlockwise about the origin"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape P is rotated 180° about the origin to give shape Q. Describe the transformation that maps shape Q back to shape P.",
-//   solution: "Rotation 180° about the origin"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape A is enlarged by scale factor 2 about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
-//   solution: "Enlargement with scale factor 0.5 about the origin"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape M is enlarged by scale factor 3 about the origin to give shape N. Describe the transformation that maps shape N back to shape M.",
-//   solution: "Enlargement with scale factor 1/3 about the origin"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "The vector \\(\\begin{pmatrix}4 \\\\ 6\\end{pmatrix}\\) translates shape C to shape D. Find the vector that translates shape D to shape C.",
-//   solution: "\\(\\begin{pmatrix}-4 \\\\ -6\\end{pmatrix}\\)"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape A is reflected in the x-axis to give shape B. Describe the transformation that maps shape B back to shape A.",
-//   solution: "Reflection in the x-axis"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape R is rotated 90° anticlockwise about the origin to give shape S. Describe the transformation that maps shape S back to shape R.",
-//   solution: "Rotation 90° clockwise about the origin"
-// },
-// {
-//   topic: "Transformations - Reverse",
-//   level: "Foundation",
-//   question: "Shape A is enlarged by scale factor 4 about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
-//   solution: "Enlargement with scale factor 1/4 about the origin"
-// },
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "The vector \\(\\begin{pmatrix}3 \\\\ -7\\end{pmatrix}\\) translates shape A to shape B. Find the vector that translates shape B to shape A.",
+  solution: "\\(\\begin{pmatrix}-3 \\\\ 7\\end{pmatrix}\\)"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "The vector \\(\\begin{pmatrix}-5 \\\\ 2\\end{pmatrix}\\) translates shape P to shape Q. Find the vector that translates shape Q to shape P.",
+  solution: "\\(\\begin{pmatrix}5 \\\\ -2\\end{pmatrix}\\)"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is reflected in the y-axis to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Reflection in the y-axis"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape X is reflected in the line x = 2 to give shape Y. Describe the transformation that maps shape Y back to shape X.",
+  solution: "Reflection in the line x = 2"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is rotated 90° clockwise about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Rotation 90° anticlockwise about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape P is rotated 180° about the origin to give shape Q. Describe the transformation that maps shape Q back to shape P.",
+  solution: "Rotation 180° about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is enlarged by scale factor 2 about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Enlargement with scale factor 0.5 about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape M is enlarged by scale factor 3 about the origin to give shape N. Describe the transformation that maps shape N back to shape M.",
+  solution: "Enlargement with scale factor 1/3 about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "The vector \\(\\begin{pmatrix}4 \\\\ 6\\end{pmatrix}\\) translates shape C to shape D. Find the vector that translates shape D to shape C.",
+  solution: "\\(\\begin{pmatrix}-4 \\\\ -6\\end{pmatrix}\\)"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is reflected in the x-axis to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Reflection in the x-axis"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape R is rotated 90° anticlockwise about the origin to give shape S. Describe the transformation that maps shape S back to shape R.",
+  solution: "Rotation 90° clockwise about the origin"
+},
+{
+  topic: "Transformations - Reverse",
+  level: "Foundation",
+  question: "Shape A is enlarged by scale factor 4 about the origin to give shape B. Describe the transformation that maps shape B back to shape A.",
+  solution: "Enlargement with scale factor 1/4 about the origin"
+},
 {
   topic: "FDP - Conversions",
   level: "Foundation",
@@ -5914,7 +5988,80 @@ const gcseQuestions = [
   level: "Higher",
   question: "Make \\(x\\) the subject of the formula:<br>\\[ y = \\frac{3(4x - 5)}{2x + 7} \\]",
   solution: "Multiply through:<br>\\(y(2x + 7) = 12x - 15\\)<br>Rearrange and factorise:<br>\\(x(2y - 12) = -15 - 7y\\)<br>\\[ x = \\frac{-15 - 7y}{2y - 12} \\]"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(5\\text{ cm}\\), \\(8\\text{ cm}\\) and \\(11\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(11\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{5^2 + 8^2 - 11^2}{2 \\cdot 5 \\cdot 8}\\)<br>\\(= \\frac{25 + 64 - 121}{80} = -0.4\\)<br>\\(C \\approx 113.6^\\circ\\)<br>Area \\(= \\tfrac12 \\times 5 \\times 8 \\times \\sin 113.6^\\circ\\)<br>\\(\\approx 18.3\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(6\\text{ cm}\\), \\(7\\text{ cm}\\) and \\(9\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(9\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{6^2 + 7^2 - 9^2}{2 \\cdot 6 \\cdot 7}\\)<br>\\(= \\frac{36 + 49 - 81}{84} = \\frac{4}{84}\\)<br>\\(C \\approx 87.3^\\circ\\)<br>Area \\(= \\tfrac12 \\times 6 \\times 7 \\times \\sin 87.3^\\circ\\)<br>\\(\\approx 21.0\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(7\\text{ cm}\\), \\(9\\text{ cm}\\) and \\(12\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(12\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{7^2 + 9^2 - 12^2}{2 \\cdot 7 \\cdot 9}\\)<br>\\(= \\frac{49 + 81 - 144}{126} = -\\frac{14}{126}\\)<br>\\(C \\approx 96.4^\\circ\\)<br>Area \\(= \\tfrac12 \\times 7 \\times 9 \\times \\sin 96.4^\\circ\\)<br>\\(\\approx 31.4\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(4\\text{ cm}\\), \\(9\\text{ cm}\\) and \\(10\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(10\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{4^2 + 9^2 - 10^2}{2 \\cdot 4 \\cdot 9}\\)<br>\\(= \\frac{16 + 81 - 100}{72} = -\\frac{3}{72}\\)<br>\\(C \\approx 92.4^\\circ\\)<br>Area \\(= \\tfrac12 \\times 4 \\times 9 \\times \\sin 92.4^\\circ\\)<br>\\(\\approx 18.0\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(6\\text{ cm}\\), \\(10\\text{ cm}\\) and \\(12\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(12\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{6^2 + 10^2 - 12^2}{2 \\cdot 6 \\cdot 10}\\)<br>\\(= \\frac{36 + 100 - 144}{120} = -\\frac{8}{120}\\)<br>\\(C \\approx 93.8^\\circ\\)<br>Area \\(= \\tfrac12 \\times 6 \\times 10 \\times \\sin 93.8^\\circ\\)<br>\\(\\approx 29.9\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(8\\text{ cm}\\), \\(9\\text{ cm}\\) and \\(13\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(13\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{8^2 + 9^2 - 13^2}{2 \\cdot 8 \\cdot 9}\\)<br>\\(= \\frac{64 + 81 - 169}{144} = -\\frac{24}{144}\\)<br>\\(C \\approx 99.6^\\circ\\)<br>Area \\(= \\tfrac12 \\times 8 \\times 9 \\times \\sin 99.6^\\circ\\)<br>\\(\\approx 35.4\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(5\\text{ cm}\\), \\(7\\text{ cm}\\) and \\(9\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(9\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{5^2 + 7^2 - 9^2}{2 \\cdot 5 \\cdot 7}\\)<br>\\(= \\frac{25 + 49 - 81}{70} = -\\frac{7}{70}\\)<br>\\(C \\approx 95.7^\\circ\\)<br>Area \\(= \\tfrac12 \\times 5 \\times 7 \\times \\sin 95.7^\\circ\\)<br>\\(\\approx 17.4\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(9\\text{ cm}\\), \\(10\\text{ cm}\\) and \\(14\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(14\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{9^2 + 10^2 - 14^2}{2 \\cdot 9 \\cdot 10}\\)<br>\\(= \\frac{81 + 100 - 196}{180} = -\\frac{15}{180}\\)<br>\\(C \\approx 94.8^\\circ\\)<br>Area \\(= \\tfrac12 \\times 9 \\times 10 \\times \\sin 94.8^\\circ\\)<br>\\(\\approx 44.8\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(7\\text{ cm}\\), \\(11\\text{ cm}\\) and \\(13\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(13\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{7^2 + 11^2 - 13^2}{2 \\cdot 7 \\cdot 11}\\)<br>\\(= \\frac{49 + 121 - 169}{154} = \\frac{1}{154}\\)<br>\\(C \\approx 89.6^\\circ\\)<br>Area \\(= \\tfrac12 \\times 7 \\times 11 \\times \\sin 89.6^\\circ\\)<br>\\(\\approx 38.5\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(6\\text{ cm}\\), \\(8\\text{ cm}\\) and \\(11\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(11\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{6^2 + 8^2 - 11^2}{2 \\cdot 6 \\cdot 8}\\)<br>\\(= \\frac{36 + 64 - 121}{96} = -\\frac{21}{96}\\)<br>\\(C \\approx 102.6^\\circ\\)<br>Area \\(= \\tfrac12 \\times 6 \\times 8 \\times \\sin 102.6^\\circ\\)<br>\\(\\approx 23.4\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(10\\text{ cm}\\), \\(11\\text{ cm}\\) and \\(15\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(15\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{10^2 + 11^2 - 15^2}{2 \\cdot 10 \\cdot 11}\\)<br>\\(= \\frac{100 + 121 - 225}{220} = -\\frac{4}{220}\\)<br>\\(C \\approx 91.0^\\circ\\)<br>Area \\(= \\tfrac12 \\times 10 \\times 11 \\times \\sin 91.0^\\circ\\)<br>\\(\\approx 54.9\\text{ cm}^2\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule, Areas of Triangle",
+  level: "Higher",
+  question: "A triangle has side lengths \\(8\\text{ cm}\\), \\(12\\text{ cm}\\) and \\(15\\text{ cm}\\).<br><br>Find the area of the triangle.",
+  solution: "Let \\(15\\) cm be opposite angle \\(C\\).<br>\\(\\cos C = \\frac{8^2 + 12^2 - 15^2}{2 \\cdot 8 \\cdot 12}\\)<br>\\(= \\frac{64 + 144 - 225}{192} = -\\frac{17}{192}\\)<br>\\(C \\approx 95.1^\\circ\\)<br>Area \\(= \\tfrac12 \\times 8 \\times 12 \\times \\sin 95.1^\\circ\\)<br>\\(\\approx 47.8\\text{ cm}^2\\)"
 }
+
 
 
 

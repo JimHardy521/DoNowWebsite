@@ -1,5 +1,78 @@
 const l2FurtherQuestions = [
 
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{8d - 3}{3d - 7} = \\frac{5}{2}\\)",
+  solution: "\\(2(8d - 3) = 5(3d - 7)\\)<br>\\(16d - 6 = 15d - 35\\)<br>\\(d = -29\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{5x + 4}{2x - 1} = \\frac{3}{2}\\)",
+  solution: "\\(2(5x + 4) = 3(2x - 1)\\)<br>\\(10x + 8 = 6x - 3\\)<br>\\(4x = -11\\)<br>\\(x = -11/4 = -2\\frac{3}{4}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{7y - 2}{4y + 5} = \\frac{3}{2}\\)",
+  solution: "\\(2(7y - 2) = 3(4y + 5)\\)<br>\\(14y - 4 = 12y + 15\\)<br>\\(2y = 19\\)<br>\\(y = 19/2 = 9\\frac{1}{2}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{9p + 4}{2p - 3} = \\frac{5}{2}\\)",
+  solution: "\\(2(9p + 4) = 5(2p - 3)\\)<br>\\(18p + 8 = 10p - 15\\)<br>\\(8p = -23\\)<br>\\(p = -23/8 = -2\\frac{7}{8}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{4k - 1}{k + 2} = \\frac{3}{2}\\)",
+  solution: "\\(2(4k - 1) = 3(k + 2)\\)<br>\\(8k - 2 = 3k + 6\\)<br>\\(5k = 8\\)<br>\\(k = 8/5 = 1\\frac{3}{5}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{6m + 5}{3m - 1} = \\frac{4}{3}\\)",
+  solution: "\\(3(6m + 5) = 4(3m - 1)\\)<br>\\(18m + 15 = 12m - 4\\)<br>\\(6m = -19\\)<br>\\(m = -19/6 = -3\\frac{1}{6}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{5r - 7}{2r + 1} = \\frac{4}{3}\\)",
+  solution: "\\(3(5r - 7) = 4(2r + 1)\\)<br>\\(15r - 21 = 8r + 4\\)<br>\\(7r = 25\\)<br>\\(r = 25/7 = 3\\frac{4}{7}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{3n + 1}{2n - 5} = \\frac{2}{3}\\)",
+  solution: "\\(3(3n + 1) = 2(2n - 5)\\)<br>\\(9n + 3 = 4n - 10\\)<br>\\(5n = -13\\)<br>\\(n = -13/5 = -2\\frac{3}{5}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{7a - 4}{a + 6} = \\frac{5}{3}\\)",
+  solution: "\\(3(7a - 4) = 5(a + 6)\\)<br>\\(21a - 12 = 5a + 30\\)<br>\\(16a = 42\\)<br>\\(a = 42/16 = 2\\frac{5}{8}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{2b + 9}{5b - 1} = \\frac{3}{4}\\)",
+  solution: "\\(4(2b + 9) = 3(5b - 1)\\)<br>\\(8b + 36 = 15b - 3\\)<br>\\(-7b = -39\\)<br>\\(b = 39/7 = 5\\frac{4}{7}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{10c - 3}{4c + 1} = \\frac{7}{2}\\)",
+  solution: "\\(2(10c - 3) = 7(4c + 1)\\)<br>\\(20c - 6 = 28c + 7\\)<br>\\(-8c = 13\\)<br>\\(c = -13/8 = -1\\frac{5}{8}\\)"
+},
+
+{
+  topic: "Solving Linear Equations",
+  question: "Solve: \\(\\frac{6t + 5}{3t - 4} = \\frac{11}{5}\\)",
+  solution: "\\(5(6t + 5) = 11(3t - 4)\\)<br>\\(30t + 25 = 33t - 44\\)<br>\\(-3t = -69\\)<br>\\(t = 23\\)"
+},
+
 {
   topic: "Factor Theorem - Solving",
   question: "\\((x - 3)\\) is a factor of<br><br>\\(2x^3 - x^2 - 14x - 3\\).<br><br>Solve \\(2x^3 - x^2 - 14x - 3 = 0\\).<br><br>Give all solutions as exact values.",

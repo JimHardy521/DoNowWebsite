@@ -1,4 +1,306 @@
 const alevelfurther = [
+
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(\\frac{x^2}{4} - \\frac{y^2}{9} = 1\\).",
+  solution: "Hyperbola centered at (0,0)<br>Vertices: (±2,0)<br>Asymptotes: y = ±(3/2)x"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(y^2 = 8x\\).",
+  solution: "Parabola opening right<br>Vertex at (0,0)<br>Focus: (2,0), Directrix: x = -2"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(4x^2 + 9y^2 = 36\\).",
+  solution: "Ellipse centered at (0,0)<br>Vertices: (±3,0), (0,±2)"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(x^2 + 4y^2 = 16\\).",
+  solution: "Ellipse centered at (0,0)<br>Vertices: (±4,0), (0,±2)"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(y^2 - 4x^2 = 16\\).",
+  solution: "Hyperbola centered at (0,0) opening up-down.<br>Vertices: (0,±4)<br>Asymptotes: y = ±2x"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(y^2 = -12x\\).",
+  solution: "Parabola opening left, vertex at (0,0).<br>Focus: (-3,0), Directrix: x = 3"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(9x^2 - 16y^2 = 144\\).",
+  solution: "Hyperbola centered at (0,0) opening left-right<br>Vertices: (±4,0)<br>Asymptotes: y = ±(3/4)x"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(x^2 + y^2 = 25\\).",
+  solution: "Circle centered at (0,0) with radius 5.<br>Vertices: (±5,0), (0,±5)"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(y^2 = 16x\\).",
+  solution: "Parabola opening right, vertex at (0,0)<br>Focus: (4,0), Directrix: x = -4"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(4x^2 - y^2 = 16\\).",
+  solution: "Hyperbola centered at (0,0) opening left-right.<br>Vertices: (±2,0)<br>Asymptotes: y = ±2x"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(x^2 + 9y^2 = 36\\).",
+  solution: "Ellipse centered at (0,0)<br>Vertices: (±6,0), (0,±2)"
+},
+{
+  topic: "Conics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\(y^2 - 9x^2 = 36\\).",
+  solution: "Hyperbola centered at (0,0) opening up-down<br>Vertices: (0,±6)<br>Asymptotes: y = ±3x"
+},
+
+
+  
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a & 4 \\\\ 2 & a - 2 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(a(a - 2) - 8 = 0\\).<br>\\(a^2 - 2a - 8 = 0\\).<br>Answer: \\(a = 4\\) or \\(a = -2\\)."
+},
+
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a & 5 \\\\ 1 & 2 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(2a - 5 = 0\\).<br>\\(a = \\frac{5}{2}\\).<br>Answer: \\(a = \\frac{5}{2}\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a + 1 & 3 \\\\ 2 & a \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(a(a + 1) - 6 = 0\\).<br>\\(a^2 + a - 6 = 0\\).<br>Answer: \\(a = 2\\) or \\(a = -3\\)."
+},
+
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} 4 & a \\\\ 2 & 1 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(4 - 2a = 0\\).<br>\\(a = 2\\).<br>Answer: \\(a = 2\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a & 6 \\\\ 3 & 2 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(2a - 18 = 0\\).<br>\\(a = 9\\).<br>Answer: \\(a = 9\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a + 2 & a \\\\ 1 & 3 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(3(a + 2) - a = 0\\).<br>\\(2a + 6 = 0\\).<br>Answer: \\(a = -3\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a & 3 \\\\ 2 & a - 1 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(a(a - 1) - 6 = 0\\).<br>\\(a^2 - a - 6 = 0\\).<br>Answer: \\(a = 3\\) or \\(a = -2\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a + 1 & 4 \\\\ 1 & a \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(a(a + 1) - 4 = 0\\).<br>\\(a^2 + a - 4 = 0\\).<br>Answer: \\(a = \\frac{-1 \\pm \\sqrt{17}}{2}\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} 2a & 5 \\\\ 1 & a - 1 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(2a(a - 1) - 5 = 0\\).<br>\\(2a^2 - 2a - 5 = 0\\).<br>Answer: \\(a = \\frac{1 \\pm \\sqrt{11}}{2}\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a - 3 & 2 \\\\ 1 & a \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(a(a - 3) - 2 = 0\\).<br>\\(a^2 - 3a - 2 = 0\\).<br>Answer: \\(a = \\frac{3 \\pm \\sqrt{17}}{2}\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a & 6 \\\\ 2 & a + 1 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\(a(a + 1) - 12 = 0\\).<br>\\(a^2 + a - 12 = 0\\).<br>Answer: \\(a = 3\\) or \\(a = -4\\)."
+},
+{
+  topic: "Matrices - Singular",
+  level: "Year 12",
+  question: "Find the values of \\(a\\) which make the matrix \\(\\begin{pmatrix} a + 4 & 3 \\\\ 2 & a - 1 \\end{pmatrix}\\) singular.",
+  solution: "Determinant: \\((a + 4)(a - 1) - 6 = 0\\).<br>\\(a^2 + 3a - 10 = 0\\).<br>Answer: \\(a = 2\\) or \\(a = -5\\)."
+},
+
+
+
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 4 - 2\\cos\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{6}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{6}\\), \\(r = 4 - \\sqrt{3}\\).<br>\\(x = 2\\sqrt{3} - \\frac{3}{2}\\), \\(y = 2 - \\frac{\\sqrt{3}}{2}\\).<br>Coordinate: \\(\\left(2\\sqrt{3} - \\frac{3}{2},\\, 2 - \\frac{\\sqrt{3}}{2}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 6\\sin\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{3}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{3}\\), \\(r = 3\\sqrt{3}\\).<br>\\(x = \\frac{3\\sqrt{3}}{2}\\), \\(y = \\frac{9}{2}\\).<br>Coordinate: \\(\\left(\\frac{3\\sqrt{3}}{2},\\, \\frac{9}{2}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 2 + 2\\sin\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{2}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{2}\\), \\(r = 4\\).<br>\\(x = 0\\), \\(y = 4\\).<br>Coordinate: \\((0, 4)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 5\\cos\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{4}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{4}\\), \\(r = \\frac{5\\sqrt{2}}{2}\\).<br>\\(x = \\frac{5}{2}\\), \\(y = \\frac{5}{2}\\).<br>Coordinate: \\(\\left(\\frac{5}{2},\\, \\frac{5}{2}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 3 - \\sin\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{6}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{6}\\), \\(r = \\frac{5}{2}\\).<br>\\(x = \\frac{5\\sqrt{3}}{4}\\), \\(y = \\frac{5}{4}\\).<br>Coordinate: \\(\\left(\\frac{5\\sqrt{3}}{4},\\, \\frac{5}{4}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 2\\cos\\theta + 2\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{3}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{3}\\), \\(r = 3\\).<br>\\(x = \\frac{3}{2}\\), \\(y = \\frac{3\\sqrt{3}}{2}\\).<br>Coordinate: \\(\\left(\\frac{3}{2},\\, \\frac{3\\sqrt{3}}{2}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 4\\sin\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{4}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{4}\\), \\(r = 2\\sqrt{2}\\).<br>\\(x = 2\\), \\(y = 2\\).<br>Coordinate: \\((2, 2)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 1 + \\cos\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{3}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{3}\\), \\(r = \\frac{3}{2}\\).<br>\\(x = \\frac{3}{4}\\), \\(y = \\frac{3\\sqrt{3}}{4}\\).<br>Coordinate: \\(\\left(\\frac{3}{4},\\, \\frac{3\\sqrt{3}}{4}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 2 - \\cos\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{6}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{6}\\), \\(r = 2 - \\frac{\\sqrt{3}}{2}\\).<br>\\(x = \\sqrt{3} - \\frac{3}{4}\\), \\(y = 1 - \\frac{\\sqrt{3}}{4}\\).<br>Coordinate: \\(\\left(\\sqrt{3} - \\frac{3}{4},\\, 1 - \\frac{\\sqrt{3}}{4}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 3\\sin\\theta + 1\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{2}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{2}\\), \\(r = 4\\).<br>\\(x = 0\\), \\(y = 4\\).<br>Coordinate: \\((0, 4)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 2\\cos\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{3}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{3}\\), \\(r = 1\\).<br>\\(x = \\frac{1}{2}\\), \\(y = \\frac{\\sqrt{3}}{2}\\).<br>Coordinate: \\(\\left(\\frac{1}{2},\\, \\frac{\\sqrt{3}}{2}\\right)\\)."
+},
+{
+  topic: "Polar Coordinates - Cartesian Point",
+  level: "Year 12",
+  question: "A curve has polar equation \\(r = 4 - 2\\sin\\theta\\). Find the exact Cartesian coordinates of the point where \\(\\theta = \\frac{\\pi}{2}\\).",
+  solution: "When \\(\\theta = \\frac{\\pi}{2}\\), \\(r = 2\\).<br>\\(x = 0\\), \\(y = 2\\).<br>Coordinate: \\((0, 2)\\)."
+},
+
+
+
+
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}2\\\\-5\\\\0\\end{pmatrix} + \\lambda \\begin{pmatrix}1\\\\1\\\\2\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}2\\\\1\\\\0\\end{pmatrix} + \\mu \\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(4, -3, 2)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}-2\\\\-0.5\\\\-2\\end{pmatrix} + \\lambda \\begin{pmatrix}-2\\\\1\\\\-1\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}-2\\\\0.5\\\\-2\\end{pmatrix} + \\mu \\begin{pmatrix}-2\\\\1\\\\-1\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(-6, 1.5, -4)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}5.5\\\\-3\\\\1\\end{pmatrix} + \\lambda \\begin{pmatrix}1\\\\1\\\\2\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}5.5\\\\-3\\\\1\\end{pmatrix} + \\mu \\begin{pmatrix}1\\\\0.5\\\\2\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(7.5, -2, 5)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}-1\\\\-2.5\\\\4\\end{pmatrix} + \\lambda \\begin{pmatrix}-1\\\\-1\\\\1\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}-5\\\\-6.5\\\\8\\end{pmatrix} + \\mu \\begin{pmatrix}1\\\\1\\\\-1\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(-3, -4.5, 6)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}2\\\\6\\\\-9\\end{pmatrix} + \\lambda \\begin{pmatrix}-1\\\\-2\\\\1\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}2\\\\6\\\\-9\\end{pmatrix} + \\mu \\begin{pmatrix}-1\\\\-2\\\\1\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(0, 2, -7)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}1.5\\\\1\\\\-4.5\\end{pmatrix} + \\lambda \\begin{pmatrix}2\\\\1\\\\1\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}1.5\\\\1\\\\-4.5\\end{pmatrix} + \\mu \\begin{pmatrix}2\\\\1\\\\1\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(5.5, 4, -1.5)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}-6\\\\1\\\\1.5\\end{pmatrix} + \\lambda \\begin{pmatrix}-1\\\\1\\\\-2\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}-6\\\\1\\\\1.5\\end{pmatrix} + \\mu \\begin{pmatrix}-1\\\\1\\\\-2\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(-8, 3, -2.5)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}-1.5\\\\-3\\\\8\\end{pmatrix} + \\lambda \\begin{pmatrix}2\\\\-1\\\\-2\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}-1.5\\\\-3\\\\8\\end{pmatrix} + \\mu \\begin{pmatrix}2\\\\-1\\\\-2\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(2.5, -6, 4)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}-5\\\\1.5\\\\-2\\end{pmatrix} + \\lambda \\begin{pmatrix}2\\\\2\\\\1\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}-5\\\\1.5\\\\-2\\end{pmatrix} + \\mu \\begin{pmatrix}2\\\\2\\\\1\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(-1, 7.5, 0)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}2\\\\-2\\\\-6\\end{pmatrix} + \\lambda \\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}2\\\\-2\\\\-6\\end{pmatrix} + \\mu \\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(6, -5, -3)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}-2.5\\\\1\\\\2\\end{pmatrix} + \\lambda \\begin{pmatrix}-1\\\\-1\\\\2\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}-2.5\\\\1\\\\2\\end{pmatrix} + \\mu \\begin{pmatrix}-1\\\\-1\\\\2\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(-4.5, -1, 8)"
+// },
+// {
+//   topic: "Vectors - Coords of Intersection",
+//   level: "Year 12",
+//   question: "Line L has the vector equation<br>$$\\mathbf{r}_1 = \\begin{pmatrix}5\\\\-4\\\\-5\\end{pmatrix} + \\lambda \\begin{pmatrix}2\\\\1\\\\2\\end{pmatrix}$$<br>and Line 1 has the vector equation<br>$$\\mathbf{r}_2 = \\begin{pmatrix}5\\\\-4\\\\-5\\end{pmatrix} + \\mu \\begin{pmatrix}2\\\\1\\\\2\\end{pmatrix}$$<br>Find the coordinates of the point of intersection of the two lines, and hence find a.",
+//   solution: "(9, -2.5, 1)"
+// },
+
 {
   topic: "Complex Numbers - Conjugates",
   level: "Year 12",

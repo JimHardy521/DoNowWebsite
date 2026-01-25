@@ -1,5 +1,79 @@
 const l2FurtherQuestions = [
 
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} x^2 + 1, & -3 \\le x \\le 0 \\\\ 1, & 0 \\le x \\le 2 \\\\ x - 1, & 2 \\le x \\le 4 \\end{cases}\\)",
+  solution: "Key points: (-3,10), (0,1), (2,1), (4,3).<br><br>Quadratic decreasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} -x^2 + 4, & -2 \\le x \\le 0 \\\\ 0, & 0 \\le x \\le 3 \\\\ 2x - 6, & 3 \\le x \\le 5 \\end{cases}\\)",
+  solution: "Key points: (-2,0), (0,4), (3,0), (5,4).<br><br>Quadratic decreasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} x^2 - 4, & -2 \\le x \\le 0 \\\\ -2, & 0 \\le x \\le 2 \\\\ -x + 2, & 2 \\le x \\le 4 \\end{cases}\\)",
+  solution: "Key points: (-2,0), (0,-4), (2,-2), (4,-2).<br><br>Quadratic decreasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} 2x^2 + 1, & -1 \\le x \\le 1 \\\\ 3, & 1 \\le x \\le 3 \\\\ -x + 6, & 3 \\le x \\le 5 \\end{cases}\\)",
+  solution: "Key points: (-1,3), (1,3), (3,3), (5,1).<br><br>Quadratic decreasing, horizontal line, then negative diagonal line"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} -x^2 + 9, & -3 \\le x \\le 0 \\\\ 0, & 0 \\le x \\le 3 \\\\ x - 3, & 3 \\le x \\le 5 \\end{cases}\\)",
+  solution: "Key points: (-3,0), (0,9), (3,0), (5,2).<br><br>Negative quadratic increasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} x^2, & -2 \\le x \\le 0 \\\\ 0, & 0 \\le x \\le 2 \\\\ -x + 2, & 2 \\le x \\le 4 \\end{cases}\\)",
+  solution: "Key points: (-2,4), (0,0), (2,0), (4,-2).<br><br>Quadratic decreasing, horizontal line, then negative diagonal line"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} -x^2 + 1, & -1 \\le x \\le 0 \\\\ 1, & 0 \\le x \\le 2 \\\\ 2x - 3, & 2 \\le x \\le 3 \\end{cases}\\)",
+  solution: "Key points: (-1,0), (0,1), (2,1), (3,3).<br><br>Negative quadratic increasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} x^2 - 1, & -2 \\le x \\le 0 \\\\ -1, & 0 \\le x \\le 2 \\\\ x - 3, & 2 \\le x \\le 4 \\end{cases}\\)",
+  solution: "Key points: (-2,3), (0,-1), (2,-1), (4,1).<br><br>Quadratic decreasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} -x^2 + 4, & -2 \\le x \\le 0 \\\\ 0, & 0 \\le x \\le 2 \\\\ x - 2, & 2 \\le x \\le 4 \\end{cases}\\)",
+  solution: "Key points: (-2,0), (0,4), (2,0), (4,2)<br><br>Negative quadratic increasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} x^2, & -3 \\le x \\le 0 \\\\ 0, & 0 \\le x \\le 2 \\\\ x, & 2 \\le x \\le 4 \\end{cases}\\)",
+  solution: "Key points: (-3,9), (0,0), (2,0), (4,4).<br><br>Quadratic decreasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} -x^2 + 9, & -3 \\le x \\le 0 \\\\ 0, & 0 \\le x \\le 3 \\\\ x - 3, & 3 \\le x \\le 5 \\end{cases}\\)",
+  solution: "Key points: (-3,0), (0,9), (3,0), (5,2).<br><br>Negative quadratic increasing, horizontal line, then diagonal line rising"
+},
+{
+  topic: "Piecewise Functions",
+  level: "GCSE Level 2 Further Maths",
+  question: "Sketch the following function:<br>\\(f(x) = \\begin{cases} x^2 - 4, & -2 \\le x \\le 0 \\\\ -4, & 0 \\le x \\le 2 \\\\ x - 6, & 2 \\le x \\le 4 \\end{cases}\\)",
+  solution: "Key points: (-2,0), (0,-4), (2,-4), (4,-2).<br><br>Quadratic decreasing, horizontal line, then diagonal line rising"
+},
+
+
 
 {
   topic: "Solving Linear Equations",
@@ -743,54 +817,56 @@ const l2FurtherQuestions = [
 
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 6<br>2x + y − z= 3<br>x + 3y + 2z = 14",
+  question: "Solve:<br>\\(x + y + z = 6\\)<br>\\(2x + y - z = 3\\)<br>\\(x + 3y + 2z = 14\\)",
   solution: "x = 1, y = 3, z = 2"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 9<br>x + y − z = 3<br>x − y + z = 5",
+  question: "Solve:<br>\\(x + y + z = 9\\)<br>\\(x + y - z = 3\\)<br>\\(x - y + z = 5\\)",
   solution: "x = 4, y = 2, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>2x + y + z = 7<br>x + y + z = 6<br>x + y = 4",
+  question: "Solve:<br>\\(2x + y + z = 7\\)<br>\\(x + y + z = 6\\)<br>\\(x + y = 4\\)",
   solution: "x = 1, y = 3, z = 2"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 7<br>x − y = 1<br>y + z = 4",
+  question: "Solve:<br>\\(x + y + z = 7\\)<br>\\(x - y = 1\\)<br>\\(y + z = 4\\)",
   solution: "x = 3, y = 2, z = 2"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 10<br>x + 2y + z = 13<br>x − y + z = 4",
+  question: "Solve:<br>\\(x + y + z = 10\\)<br>\\(x + 2y + z = 13\\)<br>\\(x - y + z = 4\\)",
   solution: "x = 2, y = 3, z = 5"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>2x + y + z = 11<br>x + y + z = 8<br>3x + y − 2z = 5",
+  question: "Solve:<br>\\(2x + y + z = 11\\)<br>\\(x + y + z = 8\\)<br>\\(3x + y - 2z = 5\\)",
   solution: "x = 3, y = 2, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 12<br>x + y − z = 2<br>3x − 2y + z = 6",
+  question: "Solve:<br>\\(x + y + z = 12\\)<br>\\(x + y - z = 2\\)<br>\\(3x - 2y + z = 6\\)",
   solution: "x = 3, y = 4, z = 5"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 6<br>3x − y + 2z = 11<br>x + 2y − z = 1",
+  question: "Solve:<br>\\(x + y + z = 6\\)<br>\\(3x - y + 2z = 11\\)<br>\\(x + 2y - z = 1\\)",
   solution: "x = 2, y = 1, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>x + y + z = 14<br>x − y = 1<br>y − z = 2",
+  question: "Solve:<br>\\(x + y + z = 14\\)<br>\\(x - y = 1\\)<br>\\(y - z = 2\\)",
   solution: "x = 6, y = 5, z = 3"
 },
 {
   topic: "Solving Three Simultaneous Equations",
-  question: "Solve<br>3x + y + z = 14<br>x + y + z = 10<br>5x − y − z= 2",
+  question: "Solve:<br>\\(3x + y + z = 14\\)<br>\\(x + y + z = 10\\)<br>\\(5x - y - z = 2\\)",
   solution: "x = 2, y = 4, z = 4"
 },
+
+
 
 
 

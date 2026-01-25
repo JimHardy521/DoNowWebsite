@@ -198,12 +198,10 @@ function buildTopicTable() {
 
   updateState();
 
-  // ✅ THIS IS THE FIX
   if (window.MathJax) {
     MathJax.typesetPromise();
   }
 }
-
 
 function updateState() {
   const boxes = [...document.querySelectorAll("#topicTable input")];
@@ -211,7 +209,13 @@ function updateState() {
   toggleAll.checked = boxes.every(cb => cb.checked);
 }
 
-function shuffle(a){ return a.sort(()=>Math.random()-0.5); }
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
 
 // ---------- GENERATE WORKSHEET ----------
 function generateWorksheet() {
@@ -219,8 +223,16 @@ function generateWorksheet() {
   const total = +questionCount.value;
   const title = worksheetTitle.value.trim();
 
-  const topics = [...document.querySelectorAll("#topicTable input:checked")]
+  let topics = [...document.querySelectorAll("#topicTable input:checked")]
     .map(cb => cb.dataset.topic);
+
+  // ✅ RANDOMISE TOPICS
+  topics = shuffle(topics);
+
+  // ✅ IF MORE TOPICS THAN QUESTIONS, PICK RANDOM SUBSET
+  if (topics.length > total) {
+    topics = topics.slice(0, total);
+  }
 
   const pools = {};
   topics.forEach(topic => {
@@ -245,6 +257,9 @@ function generateWorksheet() {
       if (pools[topic].length) selected.push(pools[topic].shift());
     }
   }
+
+  // ✅ RANDOMISE QUESTION ORDER
+  selected = shuffle(selected);
 
   const win = window.open("", "_blank");
 

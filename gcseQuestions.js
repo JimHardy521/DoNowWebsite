@@ -3,7 +3,82 @@ const gcseQuestions = [
  /* =========================
        Crossover_abc
        ========================= */
-// Vectors – Crossover GCSE
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(18x^2y + 30xy^2\\)",
+  solution: "\\(6xy(3x + 5y)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(14a^3b - 21a^2b^2\\)",
+  solution: "\\(7a^2b(2a - 3b)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(20x^4y + 30x^3y^2\\)",
+  solution: "\\(10x^3y(2x + 3y)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(12m^2n - 18mn^2\\)",
+  solution: "\\(6mn(2m - 3n)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(9p^3q^2 + 6p^2q^3\\)",
+  solution: "\\(3p^2q^2(3p + 2q)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(16x^5 - 24x^3\\)",
+  solution: "\\(8x^3(2x^2 - 3)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(15a^2b^3 + 10ab^2\\)",
+  solution: "\\(5ab^2(3ab + 2)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(21x^2y - 14xy\\)",
+  solution: "\\(7xy(3x - 2)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(8m^3n^2 + 12m^2n\\)",
+  solution: "\\(4m^2n(2mn + 3)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(25x^4y - 35x^2y\\)",
+  solution: "\\(5x^2y(5x^2 - 7)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(18p^2q - 12pq^2\\)",
+  solution: "\\(6pq(3p - 2q)\\)"
+},
+{
+  topic: "Factorising",
+  level: "Crossover",
+  question: "Factorise fully: \\(32a^3 - 20a^2\\)",
+  solution: "\\(4a^2(8a - 5)\\)"
+},
+
+ 
+ 
+ // Vectors – Crossover GCSE
 {
   topic: "Compound Measures - Speed - Converting Units",
   level: "Crossover",

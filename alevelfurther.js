@@ -1,5 +1,97 @@
 const alevelfurther = [
 
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find and simplify the first 4 non-zero terms in the Maclaurin series for \\(e^{2x}\\).",
+    solution: "Using<br>\\(e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots\\)<br><br>Substitute \\(x \\to 2x\\):<br><br>\\(e^{2x} = 1 + 2x + 2x^2 + \\frac{4}{3}x^3\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(\\sin(2x)\\).",
+    solution: "Using<br>\\(\\sin x = x - \\frac{x^3}{6} + \\dots\\)<br><br>\\(\\sin(2x) = 2x - \\frac{(2x)^3}{6} = 2x - \\frac{4}{3}x^3\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(\\ln(1+3x)\\).",
+    solution: "Using<br>\\(\\ln(1+x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\frac{x^4}{4} + \\dots\\)<br><br>\\(\\ln(1+3x) = 3x - \\frac{9}{2}x^2 + 9x^3 - \\frac{81}{4}x^4\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find and simplify the first 4 non-zero terms in the Maclaurin series for \\(\\cos(3x)\\).",
+    solution: "Using<br>\\(\\cos x = 1 - \\frac{x^2}{2} + \\frac{x^4}{24} + \\dots\\)<br><br>\\(\\cos(3x) = 1 - \\frac{9}{2}x^2 + \\frac{27}{8}x^4\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(e^x\\sin x\\).",
+    solution: "Using<br>\\(e^x = 1 + x + \\frac{x^2}{2} + \\frac{x^3}{6} + \\dots\\)<br>\\(\\sin x = x - \\frac{x^3}{6} + \\dots\\)<br><br>Multiplying and collecting terms:<br><br>\\(e^x\\sin x = x + x^2 + \\frac{1}{2}x^3\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(e^{2x}+e^{-2x}\\).",
+    solution: "Using Maclaurin expansions for \\(e^{2x}\\) and \\(e^{-2x}\\):<br><br>Odd powers cancel, giving<br><br>\\(e^{2x}+e^{-2x} = 2 + 4x^2 + \\frac{4}{3}x^4\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(x e^x\\).",
+    solution: "Using<br>\\(e^x = 1 + x + \\frac{x^2}{2} + \\frac{x^3}{6} + \\dots\\)<br><br>\\(x e^x = x + x^2 + \\frac{1}{2}x^3 + \\frac{1}{6}x^4\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(\\sin x + \\cos x\\).",
+    solution: "Using<br>\\(\\sin x = x - \\frac{x^3}{6} + \\dots\\)<br>\\(\\cos x = 1 - \\frac{x^2}{2} + \\dots\\)<br><br>\\(\\sin x + \\cos x = 1 + x - \\frac{1}{2}x^2 - \\frac{1}{6}x^3\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find and simplify the first 4 non-zero terms in the Maclaurin series for \\((1+x)e^x\\).",
+    solution: "Using<br>\\(e^x = 1 + x + \\frac{x^2}{2} + \\frac{x^3}{6} + \\dots\\)<br><br>\\((1+x)e^x = 1 + 2x + \\frac{3}{2}x^2 + \\frac{2}{3}x^3\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(\\ln(1+x^2)\\).",
+    solution: "Using<br>\\(\\ln(1+u) = u - \\frac{u^2}{2} + \\frac{u^3}{3} + \\dots\\)<br>with \\(u=x^2\\):<br><br>\\(\\ln(1+x^2) = x^2 - \\frac{1}{2}x^4 + \\frac{1}{3}x^6\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find the first 4 non-zero terms, in ascending powers of \\(x\\), for \\(\\frac{\\sin x}{x}\\).",
+    solution: "\\(\\sin x = x - \\frac{x^3}{6} + \\frac{x^5}{120} + \\dots\\)<br><br>\\(\\frac{\\sin x}{x} = 1 - \\frac{x^2}{6} + \\frac{x^4}{120}\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find and simplify the first 4 non-zero terms in the Maclaurin series for \\(e^{-x}\\sin(2x)\\).",
+    solution: "\\(e^{-x} = 1 - x + \\frac{x^2}{2} - \\frac{x^3}{6} + \\dots\\)<br>\\(\\sin(2x) = 2x - \\frac{4}{3}x^3 + \\dots\\)<br><br>Multiplying and simplifying:<br><br>\\(2x - 2x^2 + \\frac{1}{3}x^3\\)."
+  },
+
+  {
+    topic: "Maclaurin Series",
+    level: "Year 12",
+    question: "Find and simplify the first 4 non-zero terms in the Maclaurin series for \\(e^{3x}\\cos(-x)\\).",
+    solution: "Since \\(\\cos(-x)=\\cos x\\):<br>\\(e^{3x} = 1 + 3x + \\frac{9}{2}x^2 + \\frac{9}{2}x^3 + \\dots\\)<br>\\(\\cos x = 1 - \\frac{x^2}{2} + \\dots\\)<br><br>\\(e^{3x}\\cos x = 1 + 3x + 4x^2 + 3x^3\\)."
+  },
+
+
 {
   topic: "Conics - Sketching",
   level: "Year 12",

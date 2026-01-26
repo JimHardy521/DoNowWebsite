@@ -1,5 +1,66 @@
 const l2FurtherQuestions = [
 {
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\((x - 2)^2 + (y + 3)^2 = 16\\).<br>The equation of a line is \\(y = 4 - x\\).<br>Show that the x-coordinates of intersection satisfy \\(2x^2 - 18x + 37 = 0\\).",
+  solution: "Substitute \\(y = 4 - x\\):<br>\\((x - 2)^2 + (7 - x)^2 = 16\\).<br>Simplifying gives \\(2x^2 - 18x + 37 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\((x - 1)^2 + y^2 = 9\\).<br>The equation of a line is \\(y = 2x - 1\\).<br>Show that the x-coordinates of intersection satisfy \\(5x^2 - 6x - 7 = 0\\).",
+  solution: "Substitute \\(y = 2x - 1\\):<br>\\((x - 1)^2 + (2x - 1)^2 = 9\\).<br>Simplifying gives \\(5x^2 - 6x - 7 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\(x^2 + (y - 2)^2 = 10\\).<br>The equation of a line is \\(y = x + 1\\).<br>Show that the x-coordinates of intersection satisfy \\(2x^2 - 2x - 5 = 0\\).",
+  solution: "Substitute \\(y = x + 1\\):<br>\\(x^2 + (x - 1)^2 = 10\\).<br>Simplifying gives \\(2x^2 - 2x - 5 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\(x^2 + y^2 = 25\\).<br>The equation of a line is \\(y = 2x - 1\\).<br>Show that the x-coordinates of intersection satisfy \\(5x^2 - 4x - 24 = 0\\).",
+  solution: "Substitute \\(y = 2x - 1\\):<br>\\(x^2 + (2x - 1)^2 = 25\\).<br>Simplifying gives \\(5x^2 - 4x - 24 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\((x + 2)^2 + y^2 = 13\\).<br>The equation of a line is \\(y = x - 1\\).<br>Show that the x-coordinates of intersection satisfy \\(2x^2 + 2x - 8 = 0\\).",
+  solution: "Substitute \\(y = x - 1\\):<br>\\((x + 2)^2 + (x - 1)^2 = 13\\).<br>Simplifying gives \\(2x^2 + 2x - 8 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\(x^2 + (y + 1)^2 = 10\\).<br>The equation of a line is \\(y = x - 3\\).<br>Show that the x-coordinates of intersection satisfy \\(2x^2 - 2x - 3 = 0\\).",
+  solution: "Substitute \\(y = x - 3\\):<br>\\(x^2 + (x - 2)^2 = 10\\).<br>Simplifying gives \\(2x^2 - 2x - 3 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\((x - 3)^2 + y^2 = 6\\).<br>The equation of a line is \\(y = 2x - 4\\).<br>Show that the x-coordinates of intersection satisfy \\(5x^2 - 22x + 22 = 0\\).",
+  solution: "Substitute \\(y = 2x - 4\\):<br>\\((x - 3)^2 + (2x - 4)^2 = 6\\).<br>Simplifying gives \\(5x^2 - 22x + 22 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\((x + 1)^2 + (y - 2)^2 = 8\\).<br>The equation of a line is \\(y = -x + 1\\).<br>Show that the x-coordinates of intersection satisfy \\(2x^2 - 4x - 3 = 0\\).",
+  solution: "Substitute \\(y = -x + 1\\):<br>\\((x + 1)^2 + (-x - 1)^2 = 8\\).<br>Simplifying gives \\(2x^2 - 4x - 3 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\(x^2 + y^2 = 13\\).<br>The equation of a line is \\(y = 3x - 2\\).<br>Show that the x-coordinates of intersection satisfy  \\(10x^2 - 12x - 9 = 0\\).",
+  solution: "Substitute \\(y = 3x - 2\\):<br>\\(x^2 + (3x - 2)^2 = 13\\).<br>Simplifying gives \\(10x^2 - 12x - 9 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\((x - 2)^2 + (y - 1)^2 = 13\\).<br>The equation of a line is \\(y = x - 1\\).<br>Show that the x-coordinates of intersection satisfy \\(2x^2 - 6x - 9 = 0\\).",
+  solution: "Substitute \\(y = x - 1\\):<br>\\((x - 2)^2 + (x - 2)^2 = 13\\).<br>Simplifying gives \\(2x^2 - 6x - 9 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\((x + 3)^2 + y^2 = 10\\).<br>The equation of a line is \\(y = 2x + 1\\).<br>Show that the x-coordinates of intersection satisfy  \\(5x^2 + 14x + 6 = 0\\).",
+  solution: "Substitute \\(y = 2x + 1\\):<br>\\((x + 3)^2 + (2x + 1)^2 = 10\\).<br>Simplifying gives \\(5x^2 + 14x + 6 = 0\\)."
+},
+{
+  topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
+  question: "The equation of a circle is \\(x^2 + (y - 1)^2 = 5\\).<br>The equation of a line is \\(y = x + 2\\).<br>Show that the x-coordinates of intersection satisfy  \\(2x^2 + 2x - 2 = 0\\).",
+  solution: "Substitute \\(y = x + 2\\):<br>\\(x^2 + (x + 1)^2 = 5\\).<br>Simplifying gives \\(2x^2 + 2x - 2 = 0\\)."
+},
+
+{
   topic: "Pythagoras - 3D",
   question: "A cube has side length 8 cm.<br><br>Find the distance between two opposite vertices.",
   solution: "Face diagonal: \\(8\\sqrt{2}\\).<br>Distance: \\(\\sqrt{(8\\sqrt{2})^2 + 8^2} = 8\\sqrt{3}\\) cm."

@@ -1,5 +1,86 @@
 const l2FurtherQuestions = [
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has side length 8 cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Face diagonal: \\(8\\sqrt{2}\\).<br>Distance: \\(\\sqrt{(8\\sqrt{2})^2 + 8^2} = 8\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cuboid has dimensions 6 cm, 8 cm and 10 cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Distance: \\(\\sqrt{6^2 + 8^2 + 10^2} = \\sqrt{200} = 10\\sqrt{2}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has volume \\(125\\text{ cm}^3\\).<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: \\(\\sqrt[3]{125} = 5\\).<br>Distance: \\(5\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cuboid has dimensions 3 cm, 4 cm and 12 cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Distance: \\(\\sqrt{3^2 + 4^2 + 12^2} = \\sqrt{169} = 13\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has side length 10 cm.<br><br>Find the distance between a vertex and the centre of the cube.",
+  solution: "Opposite-vertex distance: \\(10\\sqrt{3}\\).<br>Required distance: \\(\\frac{10\\sqrt{3}}{2} = 5\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cuboid has dimensions 2 cm, 5 cm and 11 cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Distance: \\(\\sqrt{2^2 + 5^2 + 11^2} = \\sqrt{150} = 5\\sqrt{6}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "The face diagonal of a cube is \\(6\\sqrt{2}\\) cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: 6.<br>Distance: \\(6\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cuboid has dimensions 4 cm, 7 cm and 9 cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Distance: \\(\\sqrt{4^2 + 7^2 + 9^2} = \\sqrt{146}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has surface area \\(150\\text{ cm}^2\\).<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: \\(\\sqrt{25} = 5\\).<br>Distance: \\(5\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cuboid has dimensions 9 cm, 9 cm and 2 cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Distance: \\(\\sqrt{9^2 + 9^2 + 2^2} = \\sqrt{166}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has volume \\(64\\text{ cm}^3\\).<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: 4.<br>Distance: \\(4\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cuboid has dimensions 5 cm, 12 cm and 13 cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Distance: \\(\\sqrt{5^2 + 12^2 + 13^2} = \\sqrt{338} = 13\\sqrt{2}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has surface area \\(96\\text{ cm}^2\\).<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: \\(\\sqrt{16} = 4\\).<br>Distance: \\(4\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has volume \\(216\\text{ cm}^3\\).<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: \\(\\sqrt[3]{216} = 6\\).<br>Distance: \\(6\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "The face diagonal of a cube is \\(10\\sqrt{2}\\) cm.<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: 10.<br>Distance: \\(10\\sqrt{3}\\) cm."
+},
+{
+  topic: "Pythagoras - 3D",
+  question: "A cube has surface area \\(216\\text{ cm}^2\\).<br><br>Find the distance between two opposite vertices.",
+  solution: "Side length: \\(\\sqrt{36} = 6\\).<br>Distance: \\(6\\sqrt{3}\\) cm."
+},
 
+  
 {
   topic: "Piecewise Functions",
   level: "GCSE Level 2 Further Maths",

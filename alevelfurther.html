@@ -212,17 +212,44 @@ function createBox(q, index) {
 
 // ---------- LOAD RANDOM ----------
 function loadQuestions() {
-  document.getElementById("questions").innerHTML="";
-  const year = getSelectedYear();
-  const pool = alevelfurther.filter(q=>q.level===year);
+  document.getElementById("questions").innerHTML = "";
+  document.getElementById("revealAll").checked = false;
+  toggleAllSolutions(false);
 
-  for(let i=0;i<4;i++){
-    createBox(randomFrom(pool), i);
+  const year = getSelectedYear();
+  const pool = alevelfurther.filter(q => q.level === year);
+
+  // Group questions by topic
+  const byTopic = {};
+  pool.forEach(q => {
+    if (!byTopic[q.topic]) byTopic[q.topic] = [];
+    byTopic[q.topic].push(q);
+  });
+
+  const topics = Object.keys(byTopic);
+
+  // Fallback if fewer than 4 topics exist
+  if (topics.length < 4) {
+    for (let i = 0; i < 4; i++) {
+      createBox(randomFrom(pool), i);
+    }
+    populateTopics();
+    MathJax.typeset();
+    return;
   }
+
+  // Pick 4 distinct topics
+  topics.sort(() => Math.random() - 0.5);
+  const chosenTopics = topics.slice(0, 4);
+
+  chosenTopics.forEach((topic, i) => {
+    createBox(randomFrom(byTopic[topic]), i);
+  });
 
   populateTopics();
   MathJax.typeset();
 }
+
 
 // ---------- LOAD BY TOPIC ----------
 function loadTopicQuestions() {

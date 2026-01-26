@@ -240,10 +240,36 @@ function loadQuestions() {
   document.getElementById("revealAll").checked = false;
   toggleAllSolutions(false);
 
-  const pool = gcseQuestions.filter(q => q.level === getLevel());
-  for (let i = 0; i < 4; i++) {
-    createBox(randomFrom(pool), i);
+  const level = getLevel();
+  const pool = gcseQuestions.filter(q => q.level === level);
+
+  // Group questions by topic
+  const byTopic = {};
+  pool.forEach(q => {
+    if (!byTopic[q.topic]) byTopic[q.topic] = [];
+    byTopic[q.topic].push(q);
+  });
+
+  const topics = Object.keys(byTopic);
+
+  // If fewer than 4 topics exist, fall back to old behaviour
+  if (topics.length < 4) {
+    for (let i = 0; i < 4; i++) {
+      createBox(randomFrom(pool), i);
+    }
+    MathJax.typeset();
+    return;
   }
+
+  // Shuffle topics and take 4 distinct ones
+  topics.sort(() => Math.random() - 0.5);
+  const chosenTopics = topics.slice(0, 4);
+
+  chosenTopics.forEach((topic, i) => {
+    const q = randomFrom(byTopic[topic]);
+    createBox(q, i);
+  });
+
   MathJax.typeset();
 }
 

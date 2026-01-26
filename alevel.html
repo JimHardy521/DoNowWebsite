@@ -221,12 +221,38 @@ function loadQuestions() {
   document.getElementById("revealAll").checked = false;
   toggleAllSolutions(false);
 
-  const pool = alevelQuestions.filter(q => q.level === getYear());
-  for (let i = 0; i < 4; i++) {
-    createBox(randomFrom(pool), i);
+  const year = getYear();
+  const pool = alevelQuestions.filter(q => q.level === year);
+
+  // Group questions by topic
+  const byTopic = {};
+  pool.forEach(q => {
+    if (!byTopic[q.topic]) byTopic[q.topic] = [];
+    byTopic[q.topic].push(q);
+  });
+
+  const topics = Object.keys(byTopic);
+
+  // Fallback if fewer than 4 topics exist
+  if (topics.length < 4) {
+    for (let i = 0; i < 4; i++) {
+      createBox(randomFrom(pool), i);
+    }
+    MathJax.typeset();
+    return;
   }
+
+  // Pick 4 distinct topics
+  topics.sort(() => Math.random() - 0.5);
+  const chosenTopics = topics.slice(0, 4);
+
+  chosenTopics.forEach((topic, i) => {
+    createBox(randomFrom(byTopic[topic]), i);
+  });
+
   MathJax.typeset();
 }
+
 
 // ---------- LOAD BY TOPIC ----------
 function loadTopicQuestions() {

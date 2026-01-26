@@ -230,12 +230,36 @@ function loadL2FurtherQuestions() {
   document.getElementById("revealAll").checked = false;
   toggleAllSolutions(false);
 
-  for (let i = 0; i < 4; i++) {
-    createBoxL2Further(randomFrom(l2FurtherQuestions), i);
+  // Group questions by topic
+  const byTopic = {};
+  l2FurtherQuestions.forEach(q => {
+    if (!byTopic[q.topic]) byTopic[q.topic] = [];
+    byTopic[q.topic].push(q);
+  });
+
+  const topics = Object.keys(byTopic);
+
+  // Fallback: not enough topics
+  if (topics.length < 4) {
+    for (let i = 0; i < 4; i++) {
+      createBoxL2Further(randomFrom(l2FurtherQuestions), i);
+    }
+    MathJax.typeset();
+    return;
   }
+
+  // Pick 4 distinct topics
+  topics.sort(() => Math.random() - 0.5);
+  const chosenTopics = topics.slice(0, 4);
+
+  chosenTopics.forEach((topic, i) => {
+    const q = randomFrom(byTopic[topic]);
+    createBoxL2Further(q, i);
+  });
 
   MathJax.typeset();
 }
+
 
 // ---------- LOAD BY TOPIC ----------
 function loadL2FurtherTopicQuestions() {

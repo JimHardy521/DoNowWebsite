@@ -2843,7 +2843,74 @@ const alevelQuestions = [
   level: "Year 12",
   question: "A quantity is modelled by \\(Q = Ae^{kt}\\). At \\(t=0\\), \\(Q=250\\). The quantity is increasing at a rate of 50 units per hour at \\(t=0\\). Find \\(k\\).",
   solution: "At \\(t=0\\), \\(A=250\\).<br>\\(\\frac{dQ}{dt}=kAe^{kt}\\).<br>So \\(50=250k\\), giving \\(k=0.2\\)."
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = (x + 3)(x - 1)^2 \\)<br>and when \\( x = 2 \\), \\( y = 5 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Expand: \\( (x+3)(x-1)^2 = x^3 + x^2 - 5x + 3 \\)<br>Integrate: \\( y = \\frac{x^4}{4} + \\frac{x^3}{3} - \\frac{5x^2}{2} + 3x + C \\)<br>Use \\( y(2)=5 \\) => \\( C = \\frac{7}{3} \\)<br>Final: \\( y = \\frac{x^4}{4} + \\frac{x^3}{3} - \\frac{5x^2}{2} + 3x + \\frac{7}{3} \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = 4x^3 - 2x + 1 \\)<br>and when \\( x = 1 \\), \\( y = 3 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Integrate: \\( y = x^4 - x^2 + x + C \\)<br>Use \\( y(1)=3 \\) => \\( C = 2 \\)<br>Final: \\( y = x^4 - x^2 + x + 2 \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = e^x (x^2 + 2x) \\)<br>and when \\( x = 0 \\), \\( y = 4 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Integrate: \\( y = x^2 e^x + C \\)<br>Use \\( y(0)=4 \\) => \\( C = 4 \\)<br>Final: \\( y = x^2 e^x + 4 \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = \\frac{3}{x^2} - 2x \\)<br>and when \\( x = 1 \\), \\( y = 0 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Integrate: \\( y = -\\frac{3}{x} - x^2 + C \\)<br>Use \\( y(1)=0 \\) => \\( C = 4 \\)<br>Final: \\( y = -\\frac{3}{x} - x^2 + 4 \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = (2x + 1)^5 \\)<br>and when \\( x = 0 \\), \\( y = 2 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Integrate: \\( y = \\frac{(2x+1)^6}{12} + C \\)<br>Use \\( y(0)=2 \\) => \\( C = \\frac{23}{12} \\)<br>Final: \\( y = \\frac{(2x+1)^6}{12} + \\frac{23}{12} \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = \\sin x + 3 \\cos x \\)<br>and when \\( x = \\pi \\), \\( y = 0 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Integrate: \\( y = -\\cos x + 3 \\sin x + C \\)<br>Use \\( y(\\pi)=0 \\) => \\( C = -1 \\)<br>Final: \\( y = -\\cos x + 3 \\sin x - 1 \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = x e^{2x} \\)<br>and when \\( x = 0 \\), \\( y = 1 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Integrate: \\( y = \\frac{1}{2} x e^{2x} - \\frac{1}{4} e^{2x} + C \\)<br>Use \\( y(0)=1 \\) => \\( C = \\frac{5}{4} \\)<br>Final: \\( y = \\frac{1}{2} x e^{2x} - \\frac{1}{4} e^{2x} + \\frac{5}{4} \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = \\frac{4x}{(x^2 + 1)^2} \\)<br>and when \\( x = 1 \\), \\( y = 0 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Substitute: \\( u = x^2 + 1 \\), \\( dy = 2 u^{-2} du \\)<br>Integrate: \\( y = -\\frac{2}{x^2 +1} + C \\)<br>Use \\( y(1)=0 \\) => \\( C = 1 \\)<br>Final: \\( y = 1 - \\frac{2}{x^2 +1} \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = 5x^4 - 3x^2 + 2 \\)<br>and when \\( x = 0 \\), \\( y = -1 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Integrate: \\( y = x^5 - x^3 + 2x + C \\)<br>Use \\( y(0)=-1 \\) => \\( C = -1 \\)<br>Final: \\( y = x^5 - x^3 + 2x -1 \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = (x^2 + 1)(2x - 3) \\)<br>and when \\( x = 1 \\), \\( y = 4 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Expand: \\( 2x^3 -3x^2 +2x -3 \\)<br>Integrate: \\( y = \\frac{1}{2}x^4 - x^3 + x^2 -3x + C \\)<br>Use \\( y(1)=4 \\) => \\( C = \\frac{13}{2} \\)<br>Final: \\( y = \\frac{1}{2}x^4 - x^3 + x^2 -3x + \\frac{13}{2} \\)"
+},
+{
+  topic: "Integration - Reversing Differentiation",
+  level: "Year 12",
+  question: "It is given that \\( \\frac{dy}{dx} = \\frac{2x + 1}{\\sqrt{x^2 + x +1}} \\)<br>and when \\( x = 0 \\), \\( y = 1 \\)<br>Find \\( y \\) in terms of \\( x \\)",
+  solution: "Substitute: \\( u = x^2 + x +1 \\), \\( du = (2x+1) dx \\)<br>Integrate: \\( y = 2 \\sqrt{x^2 + x +1} + C \\)<br>Use \\( y(0)=1 \\) => \\( C = -1 \\)<br>Final: \\( y = 2 \\sqrt{x^2 + x +1} -1 \\)"
 }
+
 
   
   ];

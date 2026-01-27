@@ -1,4 +1,236 @@
 const alevelQuestions = [
+
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x^3 + x^2 = 6\\) has a solution \\(x = \\alpha\\).<br>Show that \\(\\alpha\\) lies between 1.4 and 1.5.",
+  solution: "Rearrange: \\(f(x)=x^3+x^2-6\\)<br>\\(f(1.4)=-0.416\\), \\(f(1.5)=0.375\\)<br>Change of sign ⇒ \\(1.4<\\alpha<1.5\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(2x^3 - x = 4\\) has a solution \\(x = \\alpha\\).<br>Show that \\(\\alpha\\) lies between 1.2 and 1.3.",
+  solution: "Rearrange: \\(f(x)=2x^3-x-4\\)<br>\\(f(1.2)=-1.744\\), \\(f(1.3)=0.094\\)<br>Change of sign ⇒ \\(1.2<\\alpha<1.3\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x^3 + 3x = 10\\) has a solution \\(x = \\alpha\\).<br>Show that \\(\\alpha\\) lies between 1.6 and 1.7.",
+  solution: "Rearrange: \\(f(x)=x^3+3x-10\\)<br>\\(f(1.6)=-0.304\\), \\(f(1.7)=0.813\\)<br>Change of sign ⇒ \\(1.6<\\alpha<1.7\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x^3 + x = 2\\) has a solution \\(x = \\alpha\\).<br>Show that \\(\\alpha\\) lies between 0.8 and 0.9.",
+  solution: "Rearrange: \\(f(x)=x^3+x-2\\)<br>\\(f(0.8)=-0.688\\), \\(f(0.9)=0.629\\)<br>Change of sign ⇒ \\(0.8<\\alpha<0.9\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x^3 - 2x^2 = 1\\) has a solution \\(x = \\alpha\\).<br>Show that \\(\\alpha\\) lies between 2 and 2.1.",
+  solution: "Rearrange: \\(f(x)=x^3-2x^2-1\\)<br>\\(f(2)=-1\\), \\(f(2.1)=0.061\\)<br>Change of sign ⇒ \\(2<\\alpha<2.1\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x^3 + 4 = 2x^2\\) has a solution \\(x = \\alpha\\).<br>Show that \\(\\alpha\\) lies between 1.8 and 1.9.",
+  solution: "Rearrange: \\(f(x)=x^3-2x^2+4\\)<br>\\(f(1.8)=0.232\\), \\(f(1.9)=-0.091\\)<br>Change of sign ⇒ \\(1.8<\\alpha<1.9\\)"
+},
+
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(e^x = 3x\\) has a solution \\(x = \\alpha\\).<br>By considering a suitable change of sign, show that \\(\\alpha\\) lies between 1.5 and 1.6.",
+  solution: "Rearrange: \\(f(x) = e^x - 3x\\)<br>\\(f(1.5) \\approx -0.018, f(1.6) \\approx 0.153\\)<br>Change of sign ⇒ \\(1.5 < \\alpha < 1.6\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x \\sin x = 0.5\\) has a solution \\(x = \\alpha\\).<br>By considering a suitable change of sign, show that \\(\\alpha\\) lies between 0.7 and 0.8.",
+  solution: "Rearrange: \\(f(x) = x \\sin x - 0.5\\)<br>\\(f(0.7) \\approx -0.049, f(0.8) \\approx 0.074\\)<br>Change of sign ⇒ \\(0.7 < \\alpha < 0.8\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(\\cos x = x\\) has a solution \\(x = \\alpha\\).<br>By considering a suitable change of sign, show that \\(\\alpha\\) lies between 0.7 and 0.8.",
+  solution: "Rearrange: \\(f(x) = \\cos x - x\\)<br>\\(f(0.7) \\approx 0.064, f(0.8) \\approx -0.104\\)<br>Change of sign ⇒ \\(0.7 < \\alpha < 0.8\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x e^{-x} = 0.1\\) has a solution \\(x = \\alpha\\).<br>By considering a suitable change of sign, show that \\(\\alpha\\) lies between 2.7 and 2.8.",
+  solution: "Rearrange: \\(f(x) = x e^{-x} - 0.1\\)<br>\\(f(2.7) \\approx 0.013, f(2.8) \\approx -0.009\\)<br>Change of sign ⇒ \\(2.7 < \\alpha < 2.8\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(\\ln(x) + x = 2\\) has a solution \\(x = \\alpha\\).<br>By considering a suitable change of sign, show that \\(\\alpha\\) lies between 1.5 and 1.6.",
+  solution: "Rearrange: \\(f(x) = \\ln x + x - 2\\)<br>\\(f(1.5) \\approx -0.095, f(1.6) \\approx 0.072\\)<br>Change of sign ⇒ \\(1.5 < \\alpha < 1.6\\)"
+},
+{
+  topic: "Numerical Methods - Introduction",
+  level: "Year 13",
+  question: "The equation \\(x^3 - \\sin x = 0\\) has a solution \\(x = \\alpha\\).<br>By considering a suitable change of sign, show that \\(\\alpha\\) lies between 0.9 and 1.0.",
+  solution: "Rearrange: \\(f(x) = x^3 - \\sin x\\)<br>\\(f(0.9) \\approx -0.054, f(1.0) \\approx 0.159\\)<br>Change of sign ⇒ \\(0.9 < \\alpha < 1.0\\)"
+},
+
+
+
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 3\\)<br>\\(u_{n+1} = -\\frac{6}{u_n}\\)<br><br>Find \\(\\sum_{n=1}^{101} u_n\\).",
+  solution: "Terms: 3, -2, 3, -2, … (period 2)<br>One period sum = 1<br>101 terms = 50 periods + 1 extra term<br>Sum = 50(1) + 3 = 53"
+},
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 2\\)<br>\\(u_{n+1} = \\frac{4}{u_n}\\)<br><br>Find \\(\\sum_{n=1}^{100} u_n\\).",
+  solution: "Terms: 2, 2, … (constant)<br>Sum = 100 × 2 = 200"
+},
+
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 4\\)<br>\\(u_{n+1} = -u_n\\)<br><br>Find \\(\\sum_{n=1}^{99} u_n\\).",
+  solution: "Terms: 4, -4, … (period 2)<br>One period sum = 0<br>99 terms leaves extra +4<br>Sum = 4"
+},
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 5\\)<br>\\(u_{n+1} = 10 - u_n\\)<br><br>Find \\(\\sum_{n=1}^{60} u_n\\).",
+  solution: "Terms: 5, 5, … (constant)<br>Sum = 60 × 5 = 300"
+},
+
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 2\\)<br>\\(u_{n+1} = 3 - u_n\\)<br><br>Find \\(\\sum_{n=1}^{100} u_n\\).",
+  solution: "Terms: 2, 1, 2, 1, … (period 2)<br>One period sum = 3<br>50 periods → Sum = 150"
+},
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = -1\\)<br>\\(u_{n+1} = -u_n - 2\\)<br><br>Find \\(\\sum_{n=1}^{40} u_n\\).",
+  solution: "Terms: -1, -1, … (constant)<br>Sum = 40 × (-1) = -40"
+},
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 1\\)<br>\\(u_{n+1} = -u_n + 4\\)<br><br>Find \\(\\sum_{n=1}^{100} u_n\\).",
+  solution: "Terms: 1, 3, 1, 3, … (period 2)<br>One period sum = 4<br>50 periods → Sum = 200"
+},
+
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 2\\)<br>\\(u_{n+1} = -\\frac{4}{u_n}\\)<br><br>Find \\(\\sum_{n=1}^{101} u_n\\).",
+  solution: "Terms: 2, -2, … (period 2)<br>One period sum = 0<br>Extra term = 2<br>Sum = 2"
+},
+
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 4\\)<br>\\(u_{n+1} = \\frac{8}{u_n}\\)<br><br>Find \\(\\sum_{n=1}^{60} u_n\\).",
+  solution: "Terms: 4, 2, 4, 2, … (period 2)<br>One period sum = 6<br>30 periods → Sum = 180"
+},
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 1\\)<br>\\(u_{n+1} = \\frac{2}{u_n}\\)<br><br>Find \\(\\sum_{n=1}^{99} u_n\\).",
+  solution: "Terms: 1, 2, 1, … (period 2)<br>One period sum = 3<br>99 terms = 49 periods + 1 extra term<br>Sum = 49(3) + 1 = 148"
+},
+
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 2\\)<br>\\(u_{n+1} = 5 - u_n\\)<br><br>Find \\(\\sum_{n=1}^{101} u_n\\).",
+  solution: "Terms: 2, 3, 2, 3, … (period 2)<br>One period sum = 5<br>101 terms = 50 periods + extra 2<br>Sum = 50(5) + 2 = 252"
+},
+{
+  topic: "Sequences - Periodic",
+  level: "Year 13",
+  question: "A sequence is defined by<br>\\(u_1 = 1\\), \\(u_2 = 2\\)<br>\\(u_{n+2} = 3 - u_{n+1} - u_n\\)<br><br>Find \\(\\sum_{n=1}^{80} u_n\\).",
+  solution: "Terms: 1, 2, 0, 1, … (period 4)<br>One period sum = 4<br>80 terms = 20 periods<br>Sum = 80"
+},
+
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x < 5\\) or \\(x \\ge 9\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x < 5\\} \\cup \\{x\\,|\\,x \\ge 9\\}\\)"
+},
+
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x \\le 1\\) or \\(x > 4\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x \\le 1\\} \\cup \\{x\\,|\\,x > 4\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x \\ge -5\\) and \\(x < -1\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,-5 \\le x < -1\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x \\le -4\\) or \\(-1 \\le x < 3\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x \\le -4\\} \\cup \\{x\\,|\\,-1 \\le x < 3\\}\\)"
+},
+
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x < 0\\) or \\(x \\ge 7\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x < 0\\} \\cup \\{x\\,|\\,x \\ge 7\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x > -4\\) and \\(x < 1\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,-4 < x < 1\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x < -3\\) or \\(x > 6\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x < -3\\} \\cup \\{x\\,|\\,x > 6\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x \\le -2\\) and \\(x \\ge -7\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,-7 \\le x \\le -2\\}\\)"
+},
+
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x < 2\\) or \\(x > 9\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x < 2\\} \\cup \\{x\\,|\\,x > 9\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(-5 \\le x < -1\\) or \\(x \\ge 2\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,-5 \\le x < -1\\} \\cup \\{x\\,|\\,x \\ge 2\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x < -2\\) or \\(3 \\le x \\le 7\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x < -2\\} \\cup \\{x\\,|\\,3 \\le x \\le 7\\}\\)"
+},
+{
+  topic: "Set Notation",
+  level: "Year 12",
+  question: "Write \\(x < -6\\) or \\(-2 < x < 4\\) using set notation.",
+  solution: "\\(\\{x\\,|\\,x < -6\\} \\cup \\{x\\,|\\,-2 < x < 4\\}\\)"
+},
+
+
 {
   topic: "Calculus - Turning Points",
   level: "Year 12",

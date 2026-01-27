@@ -1,5 +1,72 @@
 const alevelQuestions = [
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = 3x^2 + 6x + c\\)<br>The curve has a turning point at \\((1, 2)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = 3(1)^2 + 6(1) + c → c = -9<br>3x^2 + 6x - 9 = 0 → x = -3<br>Integrate: y = x^3 + 3x^2 - 9x + k, k = 7<br>y(-3) = 34<br>Answer: (-3, 34)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = x^2 - 4x + c\\)<br>The curve has a turning point at \\((0, 1)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = c → c = 0<br>x^2 - 4x = 0 → x = 4<br>Integrate: y = x^3/3 - 2x^2 + k, k = 1<br>y(4) = -29/3<br>Answer: (4, -29/3)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = 2x^2 + 8x + c\\)<br>The curve has a turning point at \\((1, 0)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = 2 + 8 + c → c = -10<br>2x^2 + 8x - 10 = 0 → x = -5<br>Integrate: y = 2x^3/3 + 4x^2 - 10x + k, k = 20/3<br>y(-5) = 220/3<br>Answer: (-5, 220/3)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = 3x^2 + 12x + c\\)<br>The curve has a turning point at \\((1, 1)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = 3 + 12 + c → c = -15<br>3x^2 + 12x - 15 = 0 → x = -5<br>Integrate: y = x^3 + 6x^2 - 15x + k, k = 9<br>y(-5) = 109<br>Answer: (-5, 109)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = x^2 - 6x + c\\)<br>The curve has a turning point at \\((2, 3)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = 4 - 12 + c → c = 8<br>x^2 - 6x + 8 = 0 → x = 4<br>Integrate: y = x^3/3 - 3x^2 + 8x + k, k = -11/3<br>y(4) = 5/3<br>Answer: (4, 5/3)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = 2x^2 - 10x + c\\)<br>The curve has a turning point at \\((0, 0)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = c → c = 0<br>2x^2 - 10x = 0 → x = 5<br>Integrate: y = 2x^3/3 - 5x^2 + k, k = 0<br>y(5) = -125/3<br>Answer: (5, -125/3)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = 3x^2 - 9x + c\\)<br>The curve has a turning point at \\((0, 1)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = c → c = 0<br>3x^2 - 9x = 0 → x = 3<br>Integrate: y = x^3 - 9x^2/2 + k, k = 1<br>y(3) = -25/2<br>Answer: (3, -25/2)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = x^2 + 4x + c\\)<br>The curve has a turning point at \\((-1, 2)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = 1 - 4 + c → c = 3<br>x^2 + 4x + 3 = 0 → x = -3<br>Integrate: y = x^3/3 + 2x^2 + 3x + k, k = 4/3<br>y(-3) = -1/3<br>Answer: (-3, -1/3)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = 2x^2 + 3x + c\\)<br>The curve has a turning point at \\((0, 0)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = c → c = 0<br>2x^2 + 3x = 0 → x = -3/2<br>Integrate: y = 2x^3/3 + 3x^2/2 + k, k = 0<br>y(-3/2) = 9/8<br>Answer: (-3/2, 9/8)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = x^2 - 2x + c\\)<br>The curve has a turning point at \\((1, 1)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = 1 - 2 + c → c = 1<br>x^2 - 2x + 1 = 0 → only one turning point<br>Answer: (1, 1) (no other)"
+},
+{
+  topic: "Calculus - Turning Points",
+  level: "Year 12",
+  question: "The gradient of a curve is \\(\\frac{dy}{dx} = 3x^2 - 3x + c\\)<br>The curve has a turning point at \\((0, 0)\\)<br>Find the other turning point of the curve.",
+  solution: "0 = c → c = 0<br>3x^2 - 3x = 0 → x = 1<br>Integrate: y = x^3 - 3x^2/2 + k, k = 0<br>y(1) = -1/2<br>Answer: (1, -1/2)"
+},
 
+  
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",

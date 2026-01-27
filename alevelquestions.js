@@ -3,61 +3,61 @@ const alevelQuestions = [
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 2) and point D has coordinates (5, d).<br><br>The perpendicular bisector of CD has equation 2x + 3y = 21.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 2) and point D has coordinates (5, d).<br>The perpendicular bisector of CD has equation 2x + 3y = 21.<br>Find c and d.",
   solution: "c = 1, d = 8"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 1) and point D has coordinates (2, d).<br><br>The perpendicular bisector of CD has equation 3x + 2y = 3.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 1) and point D has coordinates (2, d).<br>The perpendicular bisector of CD has equation 3x + 2y = 3.<br>Find c and d.",
   solution: "c = −4, d = 5"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, −2) and point D has coordinates (2, d).<br><br>The perpendicular bisector of CD has equation 2x − 3y = 5.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, −2) and point D has coordinates (2, d).<br>The perpendicular bisector of CD has equation 2x − 3y = 5.<br>Find c and d.",
   solution: "c = 6, d = 4"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 0) and point D has coordinates (6, d).<br><br>The perpendicular bisector of CD has equation 3x + 4y = 25.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 0) and point D has coordinates (6, d).<br>The perpendicular bisector of CD has equation 3x + 4y = 25.<br>Find c and d.",
   solution: "c = 0, d = 8"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 5) and point D has coordinates (4, d).<br><br>The perpendicular bisector of CD has equation 3x − 2y = −3.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 5) and point D has coordinates (4, d).<br>The perpendicular bisector of CD has equation 3x − 2y = −3.<br>Find c and d.",
   solution: "c = −2, d = 1"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 1) and point D has coordinates (1, d).<br><br>The perpendicular bisector of CD has equation 3x − 2y = 6.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 1) and point D has coordinates (1, d).<br>The perpendicular bisector of CD has equation 3x − 2y = 6.<br>Find c and d.",
   solution: "c = 7, d = 5"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, −1) and point D has coordinates (1, d).<br><br>The perpendicular bisector of CD has equation x + y = 0.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, −1) and point D has coordinates (1, d).<br>The perpendicular bisector of CD has equation x + y = 0.<br>Find c and d.",
   solution: "c = −5, d = 5"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 6) and point D has coordinates (8, d).<br><br>The perpendicular bisector of CD has equation 3x − 2y = 7.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 6) and point D has coordinates (8, d).<br>The perpendicular bisector of CD has equation 3x − 2y = 7.<br>Find c and d.",
   solution: "c = 2, d = 2"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 4) and point D has coordinates (0, d).<br><br>The perpendicular bisector of CD has equation x − y = −4.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 4) and point D has coordinates (0, d).<br>The perpendicular bisector of CD has equation x − y = −4.<br>Find c and d.",
   solution: "c = −6, d = −2"
 },
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",
-  question: "Point C has coordinates (c, 3) and point D has coordinates (2, d).<br><br>The perpendicular bisector of CD has equation 4x + 3y = 24.<br><br>Find c and d.",
+  question: "Point C has coordinates (c, 3) and point D has coordinates (2, d).<br>The perpendicular bisector of CD has equation 4x + 3y = 24.<br>Find c and d.",
   solution: "c = 10, d = −3"
 },
 

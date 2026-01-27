@@ -56,12 +56,6 @@ const alevelQuestions = [
 {
   topic: "Calculus - Turning Points",
   level: "Year 12",
-  question: "The gradient of a curve is \\(\\frac{dy}{dx} = x^2 - 2x + c\\)<br>The curve has a turning point at \\((1, 1)\\)<br>Find the other turning point of the curve.",
-  solution: "0 = 1 - 2 + c → c = 1<br>x^2 - 2x + 1 = 0 → only one turning point<br>Answer: (1, 1) (no other)"
-},
-{
-  topic: "Calculus - Turning Points",
-  level: "Year 12",
   question: "The gradient of a curve is \\(\\frac{dy}{dx} = 3x^2 - 3x + c\\)<br>The curve has a turning point at \\((0, 0)\\)<br>Find the other turning point of the curve.",
   solution: "0 = c → c = 0<br>3x^2 - 3x = 0 → x = 1<br>Integrate: y = x^3 - 3x^2/2 + k, k = 0<br>y(1) = -1/2<br>Answer: (1, -1/2)"
 },

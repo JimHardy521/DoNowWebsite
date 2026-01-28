@@ -3,7 +3,82 @@ const gcseQuestions = [
  /* =========================
        Crossover_abc
        ========================= */
+
   {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "The scale on a map is 1 ∶ 5000.<br>The distance between two places on the map is 4 cm.<br>How far apart are the two places in real life? Give your answer in metres.",
+    solution: "Real distance = 4 × 5000 cm = 20000 cm = 200 m"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "A map has a scale of 1 ∶ 10000.<br>The distance between two towns on the map is 7 cm.<br>Find the actual distance in metres.",
+    solution: "Real distance = 7 × 10000 cm = 70000 cm = 700 m"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "The scale on a map is 1 ∶ 25000.<br>Two cities are 3 cm apart on the map.<br>Calculate the real-life distance in kilometres.",
+    solution: "Real distance = 3 × 25000 cm = 75000 cm = 750 m = 0.75 km"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "A map uses a scale of 1 ∶ 20000.<br>The distance between two points on the map is 12 cm.<br>Find the distance in metres in real life.",
+    solution: "Real distance = 12 × 20000 cm = 240000 cm = 2400 m"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "The scale of a map is 1 ∶ 50000.<br>On the map, two villages are 5 cm apart.<br>Find the actual distance in kilometres.",
+    solution: "Real distance = 5 × 50000 cm = 250000 cm = 2.5 km"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "On a map with scale 1 ∶ 15000, the distance between two towns is 8 cm.<br>How far apart are the towns in real life in metres?",
+    solution: "Real distance = 8 × 15000 cm = 120000 cm = 1200 m"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "The scale on a map is 1 ∶ 5000.<br>The actual distance between two places is 200 m.<br>What is the distance between the two places on the map in cm?",
+    solution: "Map distance = real distance ÷ scale<br>= 200 m ÷ 5000 = 20000 cm ÷ 5000 = 4 cm"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "A map has a scale of 1 ∶ 10000.<br>The towns are 700 m apart in real life.<br>Find the distance on the map in cm.",
+    solution: "Map distance = 700 m = 70000 cm<br>Map distance ÷ scale = 70000 ÷ 10000 = 7 cm"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "The scale on a map is 1 ∶ 25000.<br>The cities are 0.75 km apart in real life.<br>Find the distance on the map in cm.",
+    solution: "0.75 km = 750 m = 75000 cm<br>Map distance = 75000 ÷ 25000 = 3 cm"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "A map has a scale of 1 ∶ 50000.<br>The real distance between two villages is 2.5 km.<br>Find the distance between them on the map in cm.",
+    solution: "2.5 km = 2500 m = 250000 cm<br>Map distance = 250000 ÷ 50000 = 5 cm"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "On a map with scale 1 ∶ 8000, two landmarks are 1200 m apart in real life.<br>Calculate the distance between them on the map in cm.",
+    solution: "1200 m = 120000 cm<br>Map distance = 120000 ÷ 8000 = 15 cm"
+  },
+  {
+    topic: "Map Ratios",
+    level: "Crossover",
+    question: "A map uses a scale of 1 ∶ 6000.<br>The actual distance between two towns is 1080 m.<br>Find the distance on the map in cm.",
+    solution: "1080 m = 108000 cm<br>Map distance = 108000 ÷ 6000 = 18 cm"
+  },
+
+ 
+ {
     topic: "Equations - Forming and Solving",
   level: "Crossover",
     question: "The relationship between the angles of triangle \\(ABC\\) is as follows:<br>Angle \\(B\\) is \\(8^\\circ\\) larger than angle \\(A\\).<br>The ratio of angle \\(C\\) to angle \\(B\\) is \\(2:1\\).<br>Find the size of each angle.",

@@ -3,9 +3,87 @@ const gcseQuestions = [
  /* =========================
        Crossover_abc
        ========================= */
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "The relationship between the angles of triangle \\(ABC\\) is as follows:<br>Angle \\(B\\) is \\(8^\\circ\\) larger than angle \\(A\\).<br>The ratio of angle \\(C\\) to angle \\(B\\) is \\(2:1\\).<br>Find the size of each angle.",
+    solution: "Let \\(A=x\\)<br>\\(B=x+8,\\ C=2(x+8)\\)<br>\\(x+(x+8)+2(x+8)=180\\)<br>\\(x=26\\)<br>Angles: \\(26^\\circ,\\ 34^\\circ,\\ 120^\\circ\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "In triangle \\(PQR\\):<br>Angle \\(Q\\) is \\(12^\\circ\\) less than angle \\(P\\).<br>Angle \\(R\\) is twice angle \\(Q\\).<br>Find the size of each angle.",
+    solution: "Let \\(P=x\\)<br>\\(Q=x-12,\\ R=2(x-12)\\)<br>\\(x+(x-12)+2(x-12)=180\\)<br>\\(x=54\\)<br>Angles: \\(54^\\circ,\\ 42^\\circ,\\ 84^\\circ\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "The angles of a triangle satisfy the following:<br>Angle \\(A\\) is \\(5^\\circ\\) more than angle \\(B\\).<br>Angle \\(C\\) is three times angle \\(B\\).<br>Find the angles.",
+    solution: "Let \\(B=x\\)<br>\\(A=x+5,\\ C=3x\\)<br>\\(x+(x+5)+3x=180\\)<br>\\(x=35\\)<br>Angles: \\(40^\\circ,\\ 35^\\circ,\\ 105^\\circ\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "In triangle \\(ABC\\):<br>The ratio of angle \\(A\\) to angle \\(B\\) is \\(3:2\\).<br>Angle \\(C\\) is \\(30^\\circ\\) more than angle \\(B\\).<br>Find the angles.",
+    solution: "Let \\(A=3x,\\ B=2x\\)<br>\\(C=2x+30\\)<br>\\(3x+2x+(2x+30)=180\\)<br>\\(x=21\\)<br>Angles: \\(63^\\circ,\\ 42^\\circ,\\ 75^\\circ\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "The angles of a triangle are related as follows:<br>Angle \\(B\\) is twice angle \\(A\\).<br>Angle \\(C\\) is \\(20^\\circ\\) less than angle \\(B\\).<br>Find the angles.",
+    solution: "Let \\(A=x\\)<br>\\(B=2x,\\ C=2x-20\\)<br>\\(x+2x+(2x-20)=180\\)<br>\\(x=40\\)<br>Angles: \\(40^\\circ,\\ 80^\\circ,\\ 60^\\circ\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "In triangle \\(XYZ\\):<br>The ratio of angle \\(X\\) to angle \\(Y\\) is \\(4:3\\).<br>Angle \\(Z\\) is \\(15^\\circ\\) more than angle \\(Y\\).<br>Find the angles.",
+    solution: "Let \\(X=4x,\\ Y=3x\\)<br>\\(Z=3x+15\\)<br>\\(4x+3x+(3x+15)=180\\)<br>\\(x=15\\)<br>Angles: \\(60^\\circ,\\ 45^\\circ,\\ 75^\\circ\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "The angles of a triangle satisfy:<br>Angle \\(A\\) is \\(10^\\circ\\) less than angle \\(C\\).<br>Angle \\(B\\) is half of angle \\(C\\).<br>Find the angles.",
+    solution: "Let \\(C=x\\)<br>\\(A=x-10,\\ B=\\tfrac{x}{2}\\)<br>\\((x-10)+\\tfrac{x}{2}+x=180\\)<br>\\(x=80\\)<br>Angles: \\(70^\\circ,\\ 40^\\circ,\\ 80^\\circ\\)"
+  },
 
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "Two sides of a square have lengths \\(4(x-1)\\) and \\(3(2x-5)\\).<br>Find the length of one of the sides.",
+    solution: "Equal sides:<br>\\(4(x-1)=3(2x-5)\\)<br>\\(x=7\\)<br>Side \\(=24\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "A square has side lengths \\(5x-10\\) and \\(2(2x+5)\\).<br>Find the area of the square.",
+    solution: "Equal sides:<br>\\(5x-10=2(2x+5)\\)<br>\\(x=20\\)<br>Side \\(=90\\)<br>Area \\(=8100\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+     question: "The sides of a square are given as \\(6(x-2)\\) and \\(4(2x-5)\\).<br>Find the area of the square.",
+  solution: "Equal sides:<br>\\(6(x-2)=4(2x-5)\\)<br>\\(6x-12=8x-20\\)<br>\\(2x=8\\Rightarrow x=4\\)<br>Side \\(=6(x-2)=12\\)<br>Area \\(=12^2=144\\)"
+},
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "A square has two sides of length \\(7x-14\\) and \\(5(x+2)\\).<br>Find the area of the square.",
+    solution: "Equal sides:<br>\\(7x-14=5(x+2)\\)<br>\\(x=12\\)<br>Side \\(=70\\)<br>Area \\(=4900\\)"
+  },
 
- 
+ {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "The lengths of two equal sides of an isosceles triangle are \\(5x-10\\) and \\(3x+14\\).<br>Find the value of \\(x\\).",
+    solution: "Equal sides:<br>\\(5x-10=3x+14\\)<br>\\(2x=24\\)<br>\\(x=12\\)"
+  },
+  {
+    topic: "Equations - Forming and Solving",
+  level: "Crossover",
+    question: "The width of a rectangle is \\(x+5\\) cm and the length is \\(3x-1\\) cm.<br>The perimeter is \\(52\\) cm.<br>Find the value of \\(x\\).",
+    solution: "Perimeter:<br>\\(2(x+5)+2(3x-1)=52\\)<br>\\(8x+8=52\\)<br>\\(x=5.5\\)"
+  },
+
 {
   topic: "Factorising",
   level: "Crossover",

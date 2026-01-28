@@ -5,6 +5,9 @@
 <title>About | Maths Practice</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
 <link rel="stylesheet" href="style.css">
 
 <script src="common.js"></script>
@@ -32,8 +35,25 @@ body {
   padding: 22px 26px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  max-width: 760px;
+  max-width: 900px;
   margin-top: 30px;
+}
+
+/* New layout for text + image */
+.about-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-photo {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .about-section h1 {
@@ -47,11 +67,32 @@ body {
 
 .about-section p {
   margin: 10px 0;
+  text-align: justify;
 }
 
 .about-section ul {
   margin: 10px 0 0 20px;
 }
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links i {
+  font-size: 1.1rem;
+}
+
+
 </style>
 </head>
 
@@ -59,30 +100,52 @@ body {
 
 <main class="page-container">
   <div class="content-box about-section">
+
     <h1>Thank you for visiting MrHardyMaths</h1>
 
-    <p>
-      I hope you find the site useful in creating quick, useful Do Nows (and then further practice) for your students, and I hope I've not made too many mistakes in the solutions.
-    </p>
+    <div class="about-layout">
+      
+      <div class="about-text">
+        <p>
+          I hope you find the site useful in creating quick, useful Do Nows (and then further practice) for your students, and I hope I've not made too many mistakes in the solutions.
+        </p>
 
-    <p>
-      I am slowly building this site - so am aware there are lots of topics missing. Please be patient as I increase the question banks. 
-    </p>
+        <p>
+          I am slowly building this site – so am aware there are lots of topics missing. Please be patient as I increase the question banks.
+        </p>
 
-   
-   <p>
-      If you'd like a set of questions adding into the site, please do email with an example. 
-    </p>
-    <p>
-      Also, please get in contact if you have any comments or suggestions for improvements.
-    </p>
-    
-    <p>
+        <p>
+          If you'd like a set of questions adding into the site, please do get in touch with an example.
+        </p>
 
-     Many thanks, Jim
-    
-      <a href="mailto:jhardy@rushcliffespencer.org.uk">jhardy@rushcliffespencer.org.uk</a>
-    </p>
+        <p>
+          Also, please contact me if you have any comments or suggestions for improvements.
+        </p>
+
+        <p>
+  Many thanks,<br>
+  Jim
+</p>
+
+<div class="social-links">
+  <a href="https://bsky.app/profile/jim-hardy.bsky.social" target="_blank" rel="noopener noreferrer">
+    <i class="fa-solid fa-cloud"></i>
+    @jim-hardy.bsky.social
+  </a>
+</div>
+
+<div class="social-links">
+  <a href="https://twitter.com/Rush_MathsKS5" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-twitter"></i>
+    @Rush_MathsKS5
+  </a>
+</div>
+
+      </div>
+
+      <img src="mrhardymaths.jpg" alt="Mr Hardy" class="about-photo">
+
+    </div>
   </div>
 </main>
 

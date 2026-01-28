@@ -4,6 +4,82 @@ const gcseQuestions = [
        Crossover_abc
        ========================= */
 
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A cyclist travels 48 km at 24 km/h, then 60 km at 30 km/h.<br><br>Find the average speed for the whole journey.",
+  solution: "Time: 48÷24 = 2 h, 60÷30 = 2 h<br>Total time = 4 h<br>Total distance = 108 km<br>Average speed = 27 km/h"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A driver travels for 1.5 hours at 40 km/h, then for 2 hours at 54 km/h.<br><br>Find the average speed for the journey.",
+  solution: "Distance: 60 km and 108 km<br>Total distance = 168 km<br>Total time = 3.5 h<br>Average speed = 48 km/h"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A train travels 90 km at 60 km/h, then 84 km at 42 km/h.<br><br>Find the average speed for the journey (to 1dp).",
+  solution: "Time: 1.5 h and 2 h<br>Total distance = 174 km<br>Total time = 3.5 h<br>Average speed = 49.7 km/h"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A car travels for 50 minutes at 48 km/h, then for 1 hour 40 minutes at 36 km/h.<br><br>Find the average speed for the journey.",
+  solution: "Total time = 2.5 h<br>Distance: 40 km and 60 km<br>Total distance = 100 km<br>Average speed = 40 km/h"
+},
+
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A runner jogs for 30 minutes at 12 km/h, then for 45 minutes at 8 km/h.<br><br>How far do they run in total?",
+  solution: "Distance: 6 km and 6 km<br>Total distance = 12 km"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A cyclist rides for 75 minutes at 16 km/h, then for 40 minutes at 27 km/h.<br><br>How far does he travel?",
+  solution: "Distance: 20 km and 18 km<br>Total distance = 38 km"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A car travels for 25 minutes at 72 km/h, then for 35 minutes at 48 km/h.<br><br>How far does it travel?",
+  solution: "Distance: 30 km and 28 km<br>Total distance = 58 km"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A lorry drives for 2 hours at 45 km/h, then for 1 hour 20 minutes at 60 km/h.<br><br>How far does it travel?",
+  solution: "Distance: 90 km and 80 km<br>Total distance = 170 km"
+},
+
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "Emma leaves home at 08:20. She travels 36 km at 48 km/h, then 24 km at 30 km/h.<br><br>What time does she arrive?",
+  solution: "Time: 45 min and 48 mins<br>Total time = 1 h 33 min<br>Arrival time = 09:53"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "Tom leaves for the shops at 13:10. He travels 18 km at 54 km/h, then 48 km at 32 km/h.<br><br>What time does he arrive?",
+  solution: "Time: 20 mins and 90 mins<br>Total time = 110 mins <br>Arrival time = 15:00"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "A train leaves for London at 09:45. It travels 40 km at 50 km/h, then 20 km at 24 km/h.<br><br>What time does it arrive?",
+  solution: "Time: 48 min and 50 min <br>Total time = 1 h 38 min<br>Arrival time = 11:23"
+},
+{
+  topic: "Compound Measures - Speed - Multi Stage Journeys",
+  level: "Crossover",
+  question: "James leaves for work at 07:30. He cycles 12 km at 18 km/h, then 12 km at 15 km/h.<br><br>What time does he arrive?",
+  solution: "Time: 40 min and  48 mins <br>Total time = 1 h 28 min <br>Arrival time = 08:58"
+},
+
+ 
   {
     topic: "Map Ratios",
     level: "Crossover",
@@ -1257,74 +1333,74 @@ const gcseQuestions = [
  
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "Liz travels 18 miles in 20 minutes.<br>Work out her average speed in miles per hour.",
+  level: "Foundation",
+  question: "Liz travels 18 miles in 20 minutes.<br><br>Work out her average speed in miles per hour.",
   solution: "54 mph"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A car travels 75 km in 50 minutes.<br>Work out its average speed in km/h.",
+  level: "Foundation",
+  question: "A car travels 75 km in 50 minutes.<br><br>Work out its average speed in km/h.",
   solution: "90 km/h"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A cyclist travels 30 km in 40 minutes.<br>Work out their average speed in km/h.",
+  level: "Foundation",
+  question: "A cyclist travels 30 km in 40 minutes.<br><br>Work out their average speed in km/h.",
   solution: "45 km/h"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A train travels 120 miles in 1 hour 30 minutes.<br>Work out its average speed in mph.",
+  level: "Foundation",
+  question: "A train travels 120 miles in 1 hour 30 minutes.<br><br>Work out its average speed in mph.",
   solution: "80 mph"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A jogger runs 7.5 km in 25 minutes.<br>Work out their average speed in km/h.",
+  level: "Foundation",
+  question: "A jogger runs 7.5 km in 25 minutes.<br><br>Work out their average speed in km/h.",
   solution: "18 km/h"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A car travels 144 km in 1 hour 36 minutes.<br>Work out its average speed in km/h.",
+  level: "Foundation",
+  question: "A car travels 144 km in 1 hour 36 minutes.<br><br>Work out its average speed in km/h.",
   solution: "90 km/h"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A runner completes 432 metres in 54 seconds.<br>Work out their average speed in m/s.",
+  level: "Foundation",
+  question: "A runner completes 432 metres in 54 seconds.<br><br>Work out their average speed in m/s.",
   solution: "8 m/s"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A boat travels 36 miles in 1 hour 30 minutes.<br>Work out its average speed in mph.",
+  level: "Foundation",
+  question: "A boat travels 36 miles in 1 hour 30 minutes.<br><br>Work out its average speed in mph.",
   solution: "24 mph"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A cyclist covers 15 km in 20 minutes.<br>Work out their average speed in km/h.",
+  level: "Foundation",
+  question: "A cyclist covers 15 km in 20 minutes.<br><br>Work out their average speed in km/h.",
   solution: "45 km/h"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A car drives 90 miles in 1 hour 30 minutes.<br>Work out its average speed in mph.",
+  level: "Foundation",
+  question: "A car drives 90 miles in 1 hour 30 minutes.<br><br>Work out its average speed in mph.",
   solution: "60 mph"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A train travels 120 km in 2 hours 24 minutes.<br>Work out its average speed in km/h.",
+  level: "Foundation",
+  question: "A train travels 120 km in 2 hours 24 minutes.<br><br>Work out its average speed in km/h.",
   solution: "50 km/h"
 },
 {
   topic: "Compound Measures - Speed",
-  level: "Crossover",
-  question: "A cyclist rides 18 km in 24 minutes.<br>Work out their average speed in km/h.",
+  level: "Foundation",
+  question: "A cyclist rides 18 km in 24 minutes.<br><br>Work out their average speed in km/h.",
   solution: "45 km/h"
 },
 

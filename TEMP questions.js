@@ -214,6 +214,6 @@
   level: "Year 13",
   question: "Let \\(z=4e^{-i\\frac{\\pi}{4}}\\) and \\(w=e^{i\\frac{\\pi}{2}}\\). Find \\(\\frac{z^2}{w}\\).",
   solution: "\\(z^2=16e^{-i\\frac{\\pi}{2}}\\).<br>\\(\\frac{z^2}{w}=16e^{-i\\pi}=-16\\)."
-}
+},
 
 

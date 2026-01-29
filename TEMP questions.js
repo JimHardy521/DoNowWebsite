@@ -430,7 +430,56 @@
   level: "Year 13",
   question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 7 & -3 \\\\ 3 & 1 \\end{pmatrix}. \\]",
   solution: "Eigenvalues: \\(\\lambda = 4, 4\\).<br><br>Repeated eigenvalue \\(\\lambda=4\\).<br>Eigenvector: \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of the matrix<br>\\[ A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 2,3,4\\).<br><br>Eigenvectors:<br>\\(\\lambda=2\\): \\(\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\),<br>\\(\\lambda=3\\): \\(\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}\\),<br>\\(\\lambda=4\\): \\(\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 3 & 0 \\\\ -1 & 0 & 3 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 1,3,3\\).<br><br>For \\(\\lambda=1\\): \\(\\begin{pmatrix}1\\\\-1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=3\\): eigenvectors span \\(\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 4 & 0 & 0 \\\\ 1 & 2 & 0 \\\\ 3 & 0 & 2 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 4,2,2\\).<br><br>For \\(\\lambda=4\\): \\(\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=2\\): eigenvectors span \\(\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix},\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 1 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 3,3,1\\).<br><br>For \\(\\lambda=3\\): eigenvectors \\(\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}\\), \\(\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=1\\): \\(\\begin{pmatrix}1\\\\-1\\\\0\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 5 & 2 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 5,5,1\\).<br><br>For \\(\\lambda=5\\): eigenvectors satisfy \\(y=z=0\\), so \\(\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\).<br>For \\(\\lambda=1\\): \\(\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 1 & 1 & 0 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalue: \\(\\lambda = 1\\) (triple).<br><br>Eigenvectors satisfy \\(y=z=0\\).<br>Eigenvector: \\(\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 3 & 0 & 0 \\\\ 0 & 2 & 1 \\\\ 0 & 1 & 2 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 3,3,1\\).<br><br>For \\(\\lambda=3\\): eigenvectors \\(\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\), \\(\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=1\\): \\(\\begin{pmatrix}0\\\\1\\\\-1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 3x3",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 3 & 1 \\\\ 0 & 0 & 4 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 2,3,4\\).<br><br>Eigenvectors:<br>\\(\\lambda=2\\): \\(\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\),<br>\\(\\lambda=3\\): \\(\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}\\),<br>\\(\\lambda=4\\): \\(\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}\\)."
 }
+
 
 
 

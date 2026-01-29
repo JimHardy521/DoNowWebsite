@@ -142,5 +142,78 @@
   level: "Year 13",
   question: "Find the modulus and argument of \\(1-\\sqrt{3}i\\). Hence find \\((1-\\sqrt{3}i)^3\\).",
   solution: "\\(1-\\sqrt{3}i=2e^{-i\\frac{\\pi}{3}}\\).<br>\\((1-\\sqrt{3}i)^3=8e^{-i\\pi}=-8\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=2e^{i\\frac{\\pi}{12}}\\) and \\(w=\\tfrac12 e^{i\\frac{\\pi}{4}}\\). Find \\(z^5w^3\\) in the form \\(a+bi\\).",
+  solution: "\\(z^5=32e^{i\\frac{5\\pi}{12}},\\ w^3=\\tfrac18 e^{i\\frac{3\\pi}{4}}\\).<br>\\(z^5w^3=4e^{i\\frac{7\\pi}{6}}=-2-2\\sqrt{3}i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=3e^{i\\frac{\\pi}{6}}\\) and \\(w=2e^{i\\frac{\\pi}{3}}\\). Find \\(z^2w\\) in Cartesian form.",
+  solution: "\\(z^2=9e^{i\\frac{\\pi}{3}}\\).<br>\\(z^2w=18e^{i\\frac{2\\pi}{3}}=-9+9\\sqrt{3}i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=\\sqrt{2}e^{i\\frac{\\pi}{4}}\\) and \\(w=2e^{-i\\frac{\\pi}{6}}\\). Find \\(z^4w^2\\).",
+  solution: "\\(z^4=4e^{i\\pi},\\ w^2=4e^{-i\\frac{\\pi}{3}}\\).<br>\\(z^4w^2=16e^{i\\frac{2\\pi}{3}}=-8+8\\sqrt{3}i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=4e^{i\\frac{\\pi}{3}}\\) and \\(w=2e^{i\\frac{\\pi}{6}}\\). Find \\(\\frac{z^2}{w}\\).",
+  solution: "\\(z^2=16e^{i\\frac{2\\pi}{3}}\\).<br>\\(\\frac{z^2}{w}=8e^{i\\frac{\\pi}{2}}=8i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=5e^{i\\frac{\\pi}{4}}\\) and \\(w=e^{i\\frac{\\pi}{2}}\\). Find \\(z^2w^3\\).",
+  solution: "\\(z^2=25e^{i\\frac{\\pi}{2}},\\ w^3=e^{i\\frac{3\\pi}{2}}\\).<br>\\(z^2w^3=25e^{i2\\pi}=25\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=2e^{-i\\frac{\\pi}{6}}\\) and \\(w=3e^{i\\frac{\\pi}{3}}\\). Find \\(zw^2\\).",
+  solution: "\\(w^2=9e^{i\\frac{2\\pi}{3}}\\).<br>\\(zw^2=18e^{i\\frac{\\pi}{2}}=18i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=\\tfrac12 e^{i\\pi}\\) and \\(w=4e^{i\\frac{\\pi}{4}}\\). Find \\(z^3w\\).",
+  solution: "\\(z^3=\\tfrac18 e^{i3\\pi}\\).<br>\\(z^3w=\\tfrac12 e^{i\\frac{13\\pi}{4}}=-\\tfrac{1}{2\\sqrt{2}}-\\tfrac{1}{2\\sqrt{2}}i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=3e^{-i\\frac{\\pi}{2}}\\) and \\(w=2e^{i\\frac{\\pi}{6}}\\). Find \\(\\frac{z^2}{w^3}\\).",
+  solution: "\\(z^2=9e^{-i\\pi},\\ w^3=8e^{i\\frac{\\pi}{2}}\\).<br>\\(\\frac{z^2}{w^3}=\\tfrac98 e^{-i\\frac{3\\pi}{2}}=\\tfrac98 i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=2e^{i\\frac{\\pi}{8}}\\) and \\(w=2e^{-i\\frac{\\pi}{8}}\\). Find \\(z^2w^2\\).",
+  solution: "\\(z^2=4e^{i\\frac{\\pi}{4}},\\ w^2=4e^{-i\\frac{\\pi}{4}}\\).<br>\\(z^2w^2=16\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=6e^{i\\frac{\\pi}{6}}\\) and \\(w=3e^{-i\\frac{\\pi}{3}}\\). Find \\(\\frac{zw}{w^2}\\).",
+  solution: "\\(zw=18e^{-i\\frac{\\pi}{6}},\\ w^2=9e^{-i\\frac{2\\pi}{3}}\\).<br>\\(\\frac{zw}{w^2}=2e^{i\\frac{\\pi}{2}}=2i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=2e^{i\\frac{\\pi}{3}}\\) and \\(w=2e^{i\\frac{\\pi}{6}}\\). Find \\(z^3w^2\\).",
+  solution: "\\(z^3=8e^{i\\pi},\\ w^2=4e^{i\\frac{\\pi}{3}}\\).<br>\\(z^3w^2=32e^{i\\frac{4\\pi}{3}}=-16-16\\sqrt{3}i\\)."
+},
+{
+  topic: "Complex Numbers - Arithmetic",
+  level: "Year 13",
+  question: "Let \\(z=4e^{-i\\frac{\\pi}{4}}\\) and \\(w=e^{i\\frac{\\pi}{2}}\\). Find \\(\\frac{z^2}{w}\\).",
+  solution: "\\(z^2=16e^{-i\\frac{\\pi}{2}}\\).<br>\\(\\frac{z^2}{w}=16e^{-i\\pi}=-16\\)."
 }
+
 

@@ -358,7 +358,80 @@
   level: "Year 13",
   question: "The point \\(3 - 3i\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in polar form.",
   solution: "Polar form: \\(z_1 = 3\\sqrt{2} e^{-i\\pi/4}\\).<br>Rotate by ±120°:<br>\\(z_2 = 3\\sqrt{2} e^{-\\pi/4 + 2\\pi/3} = 3\\sqrt{2} e^{5\\pi/12}\\)<br>\\(z_3 = 3\\sqrt{2} e^{-\\pi/4 - 2\\pi/3} = 3\\sqrt{2} e^{-11\\pi/12}\\)"
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of the matrix<br>\\[ A = \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 3, 2\\).<br><br>For \\(\\lambda=3\\): eigenvector \\(\\begin{pmatrix}1\\\\0\\end{pmatrix}\\).<br>For \\(\\lambda=2\\): eigenvector \\(\\begin{pmatrix}1\\\\-1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 4 & 2 \\\\ 1 & 3 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 5, 2\\).<br><br>For \\(\\lambda=5\\): eigenvector \\(\\begin{pmatrix}2\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=2\\): eigenvector \\(\\begin{pmatrix}1\\\\-1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 3, -1\\).<br><br>For \\(\\lambda=3\\): eigenvector \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=-1\\): eigenvector \\(\\begin{pmatrix}1\\\\-1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 5 & 0 \\\\ 2 & 1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 5, 1\\).<br><br>For \\(\\lambda=5\\): eigenvector \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=1\\): eigenvector \\(\\begin{pmatrix}0\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 2 & -1 \\\\ -1 & 2 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 3, 1\\).<br><br>For \\(\\lambda=3\\): eigenvector \\(\\begin{pmatrix}1\\\\-1\\end{pmatrix}\\).<br>For \\(\\lambda=1\\): eigenvector \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 0 & 1 \\\\ -2 & 3 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 1, 2\\).<br><br>For \\(\\lambda=1\\): eigenvector \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=2\\): eigenvector \\(\\begin{pmatrix}1\\\\2\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 6 & 2 \\\\ 2 & 3 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 7, 2\\).<br><br>For \\(\\lambda=7\\): eigenvector \\(\\begin{pmatrix}2\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=2\\): eigenvector \\(\\begin{pmatrix}1\\\\-2\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 3 & -2 \\\\ 2 & -1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 1, 1\\).<br><br>Single eigenvalue \\(\\lambda=1\\).<br>Eigenvector: \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 4 & 0 \\\\ 0 & 1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 4, 1\\).<br><br>For \\(\\lambda=4\\): eigenvector \\(\\begin{pmatrix}1\\\\0\\end{pmatrix}\\).<br>For \\(\\lambda=1\\): eigenvector \\(\\begin{pmatrix}0\\\\1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 1 & 3 \\\\ 3 & 1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 4, -2\\).<br><br>For \\(\\lambda=4\\): eigenvector \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=-2\\): eigenvector \\(\\begin{pmatrix}1\\\\-1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 3, 1\\).<br><br>For \\(\\lambda=3\\): eigenvector \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\).<br>For \\(\\lambda=1\\): eigenvector \\(\\begin{pmatrix}1\\\\-1\\end{pmatrix}\\)."
+},
+{
+  topic: "Matrices - Eigenvectors 2x2",
+  level: "Year 13",
+  question: "Find the eigenvalues and eigenvectors of<br>\\[ A = \\begin{pmatrix} 7 & -3 \\\\ 3 & 1 \\end{pmatrix}. \\]",
+  solution: "Eigenvalues: \\(\\lambda = 4, 4\\).<br><br>Repeated eigenvalue \\(\\lambda=4\\).<br>Eigenvector: \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\)."
 }
+
 
 
 

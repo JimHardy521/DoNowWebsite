@@ -215,5 +215,78 @@
   question: "Let \\(z=4e^{-i\\frac{\\pi}{4}}\\) and \\(w=e^{i\\frac{\\pi}{2}}\\). Find \\(\\frac{z^2}{w}\\).",
   solution: "\\(z^2=16e^{-i\\frac{\\pi}{2}}\\).<br>\\(\\frac{z^2}{w}=16e^{-i\\pi}=-16\\)."
 },
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(1\) and \(2 e^{i \\pi/3}\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(2 e^{-i \\pi/3}\).<br>Equation: \\((x-1)(x-2 e^{i \\pi/3})(x-2 e^{-i \\pi/3})\\)<br>= \\((x-1)(x^2 - 2x + 4)\\)<br>= x^3 - 3x^2 + 6x - 4"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(3\) and \(1 + i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(1 - i\).<br>Equation: \\((x-3)(x-(1+i))(x-(1-i))\\)<br>= \\((x-3)(x^2 - 2x + 2)\\)<br>= x^3 - 5x^2 + 8x - 6"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(0\) and \(2 - i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(2 + i\).<br>Equation: \\(x(x-(2-i))(x-(2+i))\\)<br>= x(x^2 - 4x + 5)<br>= x^3 - 4x^2 + 5x"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(-1\) and \(1 + 2i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(1 - 2i\).<br>Equation: \\((x+1)(x-(1+2i))(x-(1-2i))\\)<br>= \\((x+1)(x^2 - 2x + 5)\\)<br>= x^3 - x^2 - 2x + 5"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(2\) and \(3 - i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(3 + i\).<br>Equation: \\((x-2)(x-(3-i))(x-(3+i))\\)<br>= \\((x-2)(x^2 - 6x + 10)\\)<br>= x^3 - 8x^2 + 22x - 20"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(4\) and \(1 + i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(1 - i\).<br>Equation: \\((x-4)(x-(1+i))(x-(1-i))\\)<br>= \\((x-4)(x^2 - 2x + 2)\\)<br>= x^3 - 6x^2 + 10x - 8"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(-2\) and \(2 + i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(2 - i\).<br>Equation: \\((x+2)(x-(2+i))(x-(2-i))\\)<br>= \\((x+2)(x^2 - 4x + 5)\\)<br>= x^3 - 2x^2 - 3x + 10"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(0\) and \(1 - 2i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(1 + 2i\).<br>Equation: \\(x(x-(1-2i))(x-(1+2i))\\)<br>= x(x^2 - 2x + 5)<br>= x^3 - 2x^2 + 5x"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(1\) and \(1 + i\\sqrt{3}\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(1 - i\\sqrt{3}\).<br>Equation: \\((x-1)(x-(1+i\\sqrt{3}))(x-(1-i\\sqrt{3}))\\)<br>= \\((x-1)(x^2 - 2x + 4)\\)<br>= x^3 - 3x^2 + 2x + 4"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(-3\) and \(2 - i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(2 + i\).<br>Equation: \\((x+3)(x-(2-i))(x-(2+i))\\)<br>= \\((x+3)(x^2 - 4x + 5)\\)<br>= x^3 - x^2 - 7x + 15"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(2\) and \(-1 + i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(-1 - i\).<br>Equation: \\((x-2)(x-(-1+i))(x-(-1-i))\\)<br>= \\((x-2)(x^2 + 2x + 2)\\)<br>= x^3 - 2x^2 + 2x - 4"
+},
+{
+  topic: "Complex Numbers - Roots of Polynomials",
+  level: "Year 13",
+  question: "A cubic equation has real coefficients and two of its roots are \(1\) and \(2 - 2i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
+  solution: "Complex conjugate: \(2 + 2i\).<br>Equation: \\((x-1)(x-(2-2i))(x-(2+2i))\\)<br>= \\((x-1)(x^2 - 4x + 8)\\)<br>= x^3 - 5x^2 + 4x + 8"
+}
+
 
 

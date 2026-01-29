@@ -1,290 +1,146 @@
-const alevelQuestions = [
-  {
-  topic: "Small Angle Approximations",
+{
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(4\\theta) + 2\\sin(3\\theta) - \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\]<br>where \\( A \\), \\( B \\) and \\( C \\) are constants to be found.",
-  solution: "\\[ \\approx 1 + 4\\theta - 8\\theta^2 \\]"
+  question: "Find all the roots of \\(z^3 = 27\\), giving your answers in the form \\(re^{i\\theta}\\).",
+  solution: "\\(27=27e^{i0}\\).<br>\\(z=3e^{i\\frac{2k\\pi}{3}},\\ k=0,1,2\\).<br>\\(3e^{i0},\\ 3e^{i\\frac{2\\pi}{3}},\\ 3e^{i\\frac{4\\pi}{3}}\\)"
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) + \\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{1}{2}\\theta^2 \\]"
+  question: "Find all the complex roots of \\(z^4 = 16\\).",
+  solution: "\\(16=16e^{i0}\\).<br>\\(z=2e^{i\\frac{k\\pi}{2}},\\ k=0,1,2,3\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 3\\tan(\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
+  question: "Find all the complex roots of \\(z^2 = -9\\).",
+  solution: "\\(-9=9e^{i\\pi}\\).<br>\\(z=3e^{i(\\frac{\\pi}{2}+k\\pi)},\\ k=0,1\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(\\theta) + \\tan(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 3\\theta \\]"
+  question: "Find all the roots of \\(z^3 = -8\\).",
+  solution: "\\(-8=8e^{i\\pi}\\).<br>\\(z=2e^{i(\\frac{\\pi}{3}+\\frac{2k\\pi}{3})},\\ k=0,1,2\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(3\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 - \\theta - \\tfrac{9}{2}\\theta^2 \\]"
+  question: "Solve \\(z^4 = 4+4\\sqrt{3}i\\), giving answers in the form \\(re^{i\\theta}\\).",
+  solution: "\\(4+4\\sqrt{3}i=8e^{i\\frac{\\pi}{3}}\\).<br>\\(z=\\sqrt{2}e^{i(\\frac{\\pi}{12}+\\frac{k\\pi}{2})},\\ k=0,1,2,3\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\cos(\\theta) + \\tan(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 2 + 3\\theta - \\theta^2 \\]"
+  question: "Find all the roots of \\(z^5 = 32i\\).",
+  solution: "\\(32i=32e^{i\\frac{\\pi}{2}}\\).<br>\\(z=2e^{i(\\frac{\\pi}{10}+\\frac{2k\\pi}{5})},\\ k=0,1,2,3,4\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(3\\theta) - \\cos(2\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx -1 + 3\\theta + 2\\theta^2 \\]"
+  question: "Find all the complex roots of \\(z^3 + 64 = 0\\).",
+  solution: "\\(z^3=-64=64e^{i\\pi}\\).<br>\\(z=4e^{i(\\frac{\\pi}{3}+\\frac{2k\\pi}{3})},\\ k=0,1,2\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(\\theta) + \\cos(4\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 + \\theta - 8\\theta^2 \\]"
+  question: "Solve the equation \\(z^6 = 1\\).",
+  solution: "\\(z=e^{i\\frac{k\\pi}{3}},\\ k=0,1,2,3,4,5\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\sin(2\\theta) - 2\\cos(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx -2 + 2\\theta + \\theta^2 \\]"
+  question: "Find all the roots of \\(z^4 = -16i\\).",
+  solution: "\\(-16i=16e^{i\\frac{3\\pi}{2}}\\).<br>\\(z=2e^{i(\\frac{3\\pi}{8}+\\frac{k\\pi}{2})},\\ k=0,1,2,3\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\cos(\\theta) + \\tan(\\theta) - 1 \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx \\theta - \\tfrac{1}{2}\\theta^2 \\]"
+  question: "Find all the roots of \\(z^3 = 1 - i\\).",
+  solution: "\\(1-i=\\sqrt{2}e^{-i\\frac{\\pi}{4}}\\).<br>\\(z=2^{1/6}e^{i(-\\frac{\\pi}{12}+\\frac{2k\\pi}{3})},\\ k=0,1,2\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ 2\\sin(\\theta) + \\cos(3\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx 1 + 2\\theta - \\tfrac{9}{2}\\theta^2 \\]"
+  question: "Solve the equation \\(z^4 = -1\\).",
+  solution: "\\(z=e^{i(\\frac{\\pi}{4}+\\frac{k\\pi}{2})},\\ k=0,1,2,3\\)."
 },
 {
-  topic: "Small Angle Approximations",
+  topic: "Complex Numbers - Finding Roots",
   level: "Year 13",
-  question: "Show that, for small values of \\( \\theta \\) (measured in radians):<br>\\[ \\tan(2\\theta) - \\sin(\\theta) \\approx A + B\\theta + C\\theta^2 \\].",
-  solution: "\\[ \\approx \\theta \\]"
-},
-
-  {
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (x^3 + 5x)^7 \\]",
-  solution: "Let \\( u = x^3 + 5x \\).<br>\\( \\dfrac{dy}{du} = 7u^6 \\)<br>\\( \\dfrac{du}{dx} = 3x^2 + 5 \\)<br>\\[ \\dfrac{dy}{dx} = 7(x^3 + 5x)^6(3x^2 + 5) \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (2x - 1)^5 \\]",
-  solution: "Let \\( u = 2x - 1 \\).<br>\\( \\dfrac{dy}{du} = 5u^4 \\)<br>\\( \\dfrac{du}{dx} = 2 \\)<br>\\[ \\dfrac{dy}{dx} = 10(2x - 1)^4 \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (x^2 + 4)^9 \\]",
-  solution: "Let \\( u = x^2 + 4 \\).<br>\\( \\dfrac{dy}{du} = 9u^8 \\)<br>\\( \\dfrac{du}{dx} = 2x \\)<br>\\[ \\dfrac{dy}{dx} = 18x(x^2 + 4)^8 \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\sqrt{3x^2 - x + 1} \\]",
-  solution: "Rewrite as \\( y = (3x^2 - x + 1)^{1/2} \\).<br>Let \\( u = 3x^2 - x + 1 \\).<br>\\( \\dfrac{dy}{du} = \\tfrac{1}{2}u^{-1/2} \\)<br>\\( \\dfrac{du}{dx} = 6x - 1 \\)<br>\\[ \\dfrac{dy}{dx} = \\dfrac{6x - 1}{2\\sqrt{3x^2 - x + 1}} \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (5 - x^4)^6 \\]",
-  solution: "Let \\( u = 5 - x^4 \\).<br>\\( \\dfrac{dy}{du} = 6u^5 \\)<br>\\( \\dfrac{du}{dx} = -4x^3 \\)<br>\\[ \\dfrac{dy}{dx} = -24x^3(5 - x^4)^5 \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (x^2 - 3x + 1)^{-4} \\]",
-  solution: "Let \\( u = x^2 - 3x + 1 \\).<br>\\( \\dfrac{dy}{du} = -4u^{-5} \\)<br>\\( \\dfrac{du}{dx} = 2x - 3 \\)<br>\\[ \\dfrac{dy}{dx} = -4(2x - 3)(x^2 - 3x + 1)^{-5} \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = e^{4x^2 - 7} \\]",
-  solution: "Let \\( u = 4x^2 - 7 \\).<br>\\( \\dfrac{dy}{du} = e^u \\)<br>\\( \\dfrac{du}{dx} = 8x \\)<br>\\[ \\dfrac{dy}{dx} = 8xe^{4x^2 - 7} \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\ln(3x^2 + 2x + 1) \\]",
-  solution: "Let \\( u = 3x^2 + 2x + 1 \\).<br>\\( \\dfrac{dy}{du} = \\dfrac{1}{u} \\)<br>\\( \\dfrac{du}{dx} = 6x + 2 \\)<br>\\[ \\dfrac{dy}{dx} = \\dfrac{6x + 2}{3x^2 + 2x + 1} \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (\\sin x)^5 \\]",
-  solution: "Let \\( u = \\sin x \\).<br>\\( \\dfrac{dy}{du} = 5u^4 \\)<br>\\( \\dfrac{du}{dx} = \\cos x \\)<br>\\[ \\dfrac{dy}{dx} = 5(\\sin x)^4\\cos x \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\cos(2x^3) \\]",
-  solution: "Let \\( u = 2x^3 \\).<br>\\( \\dfrac{dy}{du} = -\\sin u \\)<br>\\( \\dfrac{du}{dx} = 6x^2 \\)<br>\\[ \\dfrac{dy}{dx} = -6x^2\\sin(2x^3) \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = (1 + e^x)^4 \\]",
-  solution: "Let \\( u = 1 + e^x \\).<br>\\( \\dfrac{dy}{du} = 4u^3 \\)<br>\\( \\dfrac{du}{dx} = e^x \\)<br>\\[ \\dfrac{dy}{dx} = 4e^x(1 + e^x)^3 \\]"
-},
-{
-  topic: "Differentiation - Chain Rule",
-  level: "Year 13",
-  question: "Use the chain rule to find \\( \\dfrac{dy}{dx} \\) when<br>\\[ y = \\sqrt{1 - \\cos x} \\]",
-  solution: "Rewrite as \\( y = (1 - \\cos x)^{1/2} \\).<br>Let \\( u = 1 - \\cos x \\).<br>\\( \\dfrac{dy}{du} = \\tfrac{1}{2}u^{-1/2} \\)<br>\\( \\dfrac{du}{dx} = \\sin x \\)<br>\\[ \\dfrac{dy}{dx} = \\dfrac{\\sin x}{2\\sqrt{1 - \\cos x}} \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\). Simplify your answer.<br>\\[ y = e^{-x}(\\sin x + \\cos x) \\]",
-  solution: "Let \\( u = e^{-x} \\), \\( v = \\sin x + \\cos x \\).<br>\\[ \\dfrac{dy}{dx} = -2e^{-x}\\sin x \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Given that<br>\\[ y = x^4\\tan(2x) \\]<br>find \\( \\dfrac{dy}{dx} \\).",
-  solution: "Let \\( u = x^4 \\), \\( v = \\tan(2x) \\).<br>\\[ \\dfrac{dy}{dx} = 4x^3\\tan(2x) + 2x^4\\sec^2(2x) \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^2 e^{3x} \\]",
-  solution: "Let \\( u = x^2 \\), \\( v = e^{3x} \\).<br>\\[ \\dfrac{dy}{dx} = 2xe^{3x} + 3x^2e^{3x} \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x\\ln x \\]",
-  solution: "Let \\( u = x \\), \\( v = \\ln x \\).<br>\\[ \\dfrac{dy}{dx} = \\ln x + 1 \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^3\\sin x \\]",
-  solution: "Let \\( u = x^3 \\), \\( v = \\sin x \\).<br>\\[ \\dfrac{dy}{dx} = 3x^2\\sin x + x^3\\cos x \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = (2x - 1)e^x \\]",
-  solution: "Let \\( u = 2x - 1 \\), \\( v = e^x \\).<br>\\[ \\dfrac{dy}{dx} = (2x + 1)e^x \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^2\\ln(3x) \\]",
-  solution: "Let \\( u = x^2 \\), \\( v = \\ln(3x) \\).<br>\\[ \\dfrac{dy}{dx} = 2x\\ln(3x) + x \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x\\cos(2x) \\]",
-  solution: "Let \\( u = x \\), \\( v = \\cos(2x) \\).<br>\\[ \\dfrac{dy}{dx} = \\cos(2x) - 2x\\sin(2x) \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = (x^2 + 1)\\ln x \\]",
-  solution: "Let \\( u = x^2 + 1 \\), \\( v = \\ln x \\).<br>\\[ \\dfrac{dy}{dx} = 2x\\ln x + x + \\dfrac{1}{x} \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = xe^{-2x} \\]",
-  solution: "Let \\( u = x \\), \\( v = e^{-2x} \\).<br>\\[ \\dfrac{dy}{dx} = e^{-2x}(1 - 2x) \\]"
-},
-{
-  topic: "Differentiation - Product Rule",
-  level: "Year 13",
-  question: "Use the product rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = x^2\\sin^2 x \\]",
-  solution: "Let \\( u = x^2 \\), \\( v = \\sin^2 x \\).<br>\\[ \\dfrac{dy}{dx} = 2x\\sin^2 x + 2x^2\\sin x\\cos x \\]"
+  question: "Find all the complex roots of \\(z^5 = -32\\sqrt{3} + 32i\\).",
+  solution: "\\(-32\\sqrt{3}+32i=64e^{i\\frac{5\\pi}{6}}\\).<br>\\(z=2e^{i(\\frac{\\pi}{6}+\\frac{2k\\pi}{5})},\\ k=0,1,2,3,4\\)."
 },
 
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Given that<br>\\[ y = \\dfrac{x^3}{\\sin x} \\]<br>find \\( \\dfrac{dy}{dx} \\).",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{3x^2\\sin x - x^3\\cos x}{\\sin^2 x} \\]"
+  question: "Find the modulus and argument of \\(-1 + i\\sqrt{3}\\). Hence find \\((-1 + i\\sqrt{3})^5\\) in Cartesian form.",
+  solution: "\\(-1+i\\sqrt{3}=2e^{i\\frac{2\\pi}{3}}\\).<br>\\((-1+i\\sqrt{3})^5=2^5e^{i\\frac{10\\pi}{3}}=32e^{i\\frac{4\\pi}{3}}=-16-16\\sqrt{3}i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Given that<br>\\[ y = \\cosec x \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = -\\cosec x\\cot x \\).",
-  solution: "\\[ \\dfrac{dy}{dx} = -\\cosec x\\cot x \\]"
+  question: "Find the modulus and argument of \\(1+i\\). Hence find \\((1+i)^6\\) in Cartesian form.",
+  solution: "\\(1+i=\\sqrt{2}e^{i\\frac{\\pi}{4}}\\).<br>\\((1+i)^6=(\\sqrt{2})^6e^{i\\frac{6\\pi}{4}}=8e^{i\\frac{3\\pi}{2}}=-8i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Given that<br>\\[ y = \\dfrac{x}{\\sqrt{2x - 2}} \\]<br>use the quotient rule to show that<br>\\( \\dfrac{dy}{dx} = \\dfrac{x - 2}{(2x - 2)^{3/2}} \\).",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x - 2}{(2x - 2)^{3/2}} \\]"
+  question: "Find the modulus and argument of \\(\\sqrt{3}-i\\). Hence find \\((\\sqrt{3}-i)^4\\).",
+  solution: "\\(\\sqrt{3}-i=2e^{-i\\frac{\\pi}{6}}\\).<br>\\((\\sqrt{3}-i)^4=16e^{-i\\frac{2\\pi}{3}}=-8-8\\sqrt{3}i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{e^x}{x^2} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{xe^x - 2e^x}{x^3} \\]"
+  question: "Find the modulus and argument of \\(-2-2i\\). Hence find \\((-2-2i)^3\\).",
+  solution: "\\(-2-2i=2\\sqrt{2}e^{-i\\frac{3\\pi}{4}}\\).<br>\\((-2-2i)^3=16\\sqrt{2}e^{-i\\frac{9\\pi}{4}}=16-16i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\ln x}{x} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{1 - \\ln x}{x^2} \\]"
+  question: "Find the modulus and argument of \\(3+3\\sqrt{3}i\\). Hence find \\((3+3\\sqrt{3}i)^2\\).",
+  solution: "\\(3+3\\sqrt{3}i=6e^{i\\frac{\\pi}{3}}\\).<br>\\((3+3\\sqrt{3}i)^2=36e^{i\\frac{2\\pi}{3}}=-18+18\\sqrt{3}i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{x^2 + 1}{x - 1} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x^2 - 2x - 1}{(x - 1)^2} \\]"
+  question: "Find the modulus and argument of \\(-4i\\). Hence find \\((-4i)^5\\).",
+  solution: "\\(-4i=4e^{-i\\frac{\\pi}{2}}\\).<br>\\((-4i)^5=1024e^{-i\\frac{5\\pi}{2}}=-1024i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\sin x}{x} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x\\cos x - \\sin x}{x^2} \\]"
+  question: "Find the modulus and argument of \\(2-i\\). Hence find \\((2-i)^4\\).",
+  solution: "\\(2-i=\\sqrt{5}e^{-i\\tan^{-1}(\\frac{1}{2})}\\).<br>\\((2-i)^4=25e^{-i4\\tan^{-1}(\\frac{1}{2})}=-7-24i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{x}{e^{2x}} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{1 - 2x}{e^{2x}} \\]"
+  question: "Find the modulus and argument of \\(-1-i\\sqrt{3}\\). Hence find \\((-1-i\\sqrt{3})^3\\).",
+  solution: "\\(-1-i\\sqrt{3}=2e^{-i\\frac{2\\pi}{3}}\\).<br>\\((-1-i\\sqrt{3})^3=8e^{-i2\\pi}=8\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\cos x}{x^2} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{-x\\sin x - 2\\cos x}{x^3} \\]"
+  question: "Find the modulus and argument of \\(i-1\\). Hence find \\((i-1)^5\\).",
+  solution: "\\(i-1=\\sqrt{2}e^{i\\frac{3\\pi}{4}}\\).<br>\\((i-1)^5=4\\sqrt{2}e^{i\\frac{15\\pi}{4}}=-4-4i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{x^2}{\\ln x} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x(2\\ln x - 1)}{(\\ln x)^2} \\]"
+  question: "Find the modulus and argument of \\(4-4i\\). Hence find \\((4-4i)^2\\).",
+  solution: "\\(4-4i=4\\sqrt{2}e^{-i\\frac{\\pi}{4}}\\).<br>\\((4-4i)^2=32e^{-i\\frac{\\pi}{2}}=-32i\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{\\tan x}{x} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = \\dfrac{x\\sec^2 x - \\tan x}{x^2} \\]"
+  question: "Find the modulus and argument of \\(-\\sqrt{3}+i\\). Hence find \\((-\\sqrt{3}+i)^6\\).",
+  solution: "\\(-\\sqrt{3}+i=2e^{i\\frac{5\\pi}{6}}\\).<br>\\((-\\sqrt{3}+i)^6=64e^{i5\\pi}=-64\\)."
 },
 {
-  topic: "Differentiation - Quotient Rule",
+  topic: "Complex Numbers - Converting",
   level: "Year 13",
-  question: "Use the quotient rule to find \\( \\dfrac{dy}{dx} \\).<br>\\[ y = \\dfrac{1}{x\\sin x} \\]",
-  solution: "\\[ \\dfrac{dy}{dx} = -\\dfrac{\\sin x + x\\cos x}{x^2\\sin^2 x} \\]"
+  question: "Find the modulus and argument of \\(1-\\sqrt{3}i\\). Hence find \\((1-\\sqrt{3}i)^3\\).",
+  solution: "\\(1-\\sqrt{3}i=2e^{-i\\frac{\\pi}{3}}\\).<br>\\((1-\\sqrt{3}i)^3=8e^{-i\\pi}=-8\\)."
 }
 
-
-
-  ];
-  

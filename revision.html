@@ -145,38 +145,55 @@ const level  = getParam("level", "Higher");
 
 let questionsData = [];
 
+/* ===== LOAD CORRECT QUESTION FILE ===== */
 const script = document.createElement("script");
 script.src =
-  source === "alevel" ? "alevelquestions.js" :
-  source === "l2further" ? "l2furtherquestions.js" :
-  "gcseQuestions.js";
+  source === "alevel"        ? "alevelquestions.js" :
+  source === "alevelfurther" ? "alevelfurther.js" :
+  source === "l2further"     ? "l2furtherquestions.js" :
+                               "gcseQuestions.js";
 
 script.onload = () => {
   questionsData =
-    source === "alevel" ? alevelQuestions :
-    source === "l2further" ? l2FurtherQuestions :
-    gcseQuestions;
+    source === "alevel"        ? alevelQuestions :
+    source === "alevelfurther" ? alevelfurther :
+    source === "l2further"     ? l2FurtherQuestions :
+                                 gcseQuestions;
   buildTopicTable();
 };
+
 document.head.appendChild(script);
 
+/* ===== BUILD TOPIC TABLE ===== */
 function buildTopicTable() {
+
   levelHeading.textContent =
-    source === "l2further" ? "Level 2 Further Maths" : `Level: ${level}`;
+    source === "l2further"
+      ? "Level 2 Further Maths"
+      : source === "alevelfurther"
+        ? `A Level Further Maths – ${level}`
+        : `Level: ${level}`;
 
   worksheetTitle.value =
-    source === "alevel" ? `A Level Maths – ${level} Revision Worksheet` :
-    source === "l2further" ? "Level 2 Further Maths – Revision Worksheet" :
-    "GCSE Maths – Revision Worksheet";
+    source === "alevel"
+      ? `A Level Maths – ${level} Revision Worksheet`
+      : source === "alevelfurther"
+        ? `A Level Further Maths – ${level} Revision Worksheet`
+        : source === "l2further"
+          ? "Level 2 Further Maths – Revision Worksheet"
+          : "GCSE Maths – Revision Worksheet";
 
   const topics = [...new Set(
-    questionsData.filter(q => source === "l2further" || q.level === level)
+    questionsData
+      .filter(q => source === "l2further" || q.level === level)
       .map(q => q.topic)
   )].sort();
 
   topicTable.innerHTML = "";
+
   topics.forEach(t => {
-    const example = questionsData.find(q => q.topic === t)?.question || "";
+    const example =
+      questionsData.find(q => q.topic === t)?.question || "";
 
     topicTable.insertAdjacentHTML("beforeend", `
       <tr>
@@ -203,6 +220,7 @@ function buildTopicTable() {
   }
 }
 
+/* ===== UI STATE ===== */
 function updateState() {
   const boxes = [...document.querySelectorAll("#topicTable input")];
   generateBtn.disabled = !boxes.some(cb => cb.checked);
@@ -217,7 +235,7 @@ function shuffle(arr) {
   return arr;
 }
 
-// ---------- GENERATE WORKSHEET ----------
+/* ===== GENERATE WORKSHEET ===== */
 function generateWorksheet() {
 
   const total = +questionCount.value;
@@ -226,10 +244,8 @@ function generateWorksheet() {
   let topics = [...document.querySelectorAll("#topicTable input:checked")]
     .map(cb => cb.dataset.topic);
 
-  // ✅ RANDOMISE TOPICS
   topics = shuffle(topics);
 
-  // ✅ IF MORE TOPICS THAN QUESTIONS, PICK RANDOM SUBSET
   if (topics.length > total) {
     topics = topics.slice(0, total);
   }
@@ -258,7 +274,6 @@ function generateWorksheet() {
     }
   }
 
-  // ✅ RANDOMISE QUESTION ORDER
   selected = shuffle(selected);
 
   const win = window.open("", "_blank");

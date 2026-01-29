@@ -76,6 +76,7 @@ body {
 
   <button onclick="loadQuestions()">New Do Now</button>
   <button onclick="printQuestions()">Print Do Now</button>
+  <button onclick="createRevisionWorksheet()">Create Revision Worksheet</button>
 </div>
 
 <div id="questions"></div>
@@ -322,6 +323,15 @@ function printQuestions(){
 // ---------- INIT ----------
 populateTopics();
 loadQuestions();
+</script>
+
+<script>
+function createRevisionWorksheet() {
+  const year = document.getElementById("yearSelect").value;
+
+  window.location.href =
+    `revision.html?source=alevelfurther&level=${encodeURIComponent(year)}`;
+}
 </script>
 
 </body>

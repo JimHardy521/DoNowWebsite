@@ -72,73 +72,73 @@
 },
 
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(-1 + i\\sqrt{3}\\). Hence find \\((-1 + i\\sqrt{3})^5\\) in Cartesian form.",
   solution: "\\(-1+i\\sqrt{3}=2e^{i\\frac{2\\pi}{3}}\\).<br>\\((-1+i\\sqrt{3})^5=2^5e^{i\\frac{10\\pi}{3}}=32e^{i\\frac{4\\pi}{3}}=-16-16\\sqrt{3}i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(1+i\\). Hence find \\((1+i)^6\\) in Cartesian form.",
   solution: "\\(1+i=\\sqrt{2}e^{i\\frac{\\pi}{4}}\\).<br>\\((1+i)^6=(\\sqrt{2})^6e^{i\\frac{6\\pi}{4}}=8e^{i\\frac{3\\pi}{2}}=-8i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(\\sqrt{3}-i\\). Hence find \\((\\sqrt{3}-i)^4\\).",
   solution: "\\(\\sqrt{3}-i=2e^{-i\\frac{\\pi}{6}}\\).<br>\\((\\sqrt{3}-i)^4=16e^{-i\\frac{2\\pi}{3}}=-8-8\\sqrt{3}i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(-2-2i\\). Hence find \\((-2-2i)^3\\).",
   solution: "\\(-2-2i=2\\sqrt{2}e^{-i\\frac{3\\pi}{4}}\\).<br>\\((-2-2i)^3=16\\sqrt{2}e^{-i\\frac{9\\pi}{4}}=16-16i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(3+3\\sqrt{3}i\\). Hence find \\((3+3\\sqrt{3}i)^2\\).",
   solution: "\\(3+3\\sqrt{3}i=6e^{i\\frac{\\pi}{3}}\\).<br>\\((3+3\\sqrt{3}i)^2=36e^{i\\frac{2\\pi}{3}}=-18+18\\sqrt{3}i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(-4i\\). Hence find \\((-4i)^5\\).",
   solution: "\\(-4i=4e^{-i\\frac{\\pi}{2}}\\).<br>\\((-4i)^5=1024e^{-i\\frac{5\\pi}{2}}=-1024i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(2-i\\). Hence find \\((2-i)^4\\).",
   solution: "\\(2-i=\\sqrt{5}e^{-i\\tan^{-1}(\\frac{1}{2})}\\).<br>\\((2-i)^4=25e^{-i4\\tan^{-1}(\\frac{1}{2})}=-7-24i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(-1-i\\sqrt{3}\\). Hence find \\((-1-i\\sqrt{3})^3\\).",
   solution: "\\(-1-i\\sqrt{3}=2e^{-i\\frac{2\\pi}{3}}\\).<br>\\((-1-i\\sqrt{3})^3=8e^{-i2\\pi}=8\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(i-1\\). Hence find \\((i-1)^5\\).",
   solution: "\\(i-1=\\sqrt{2}e^{i\\frac{3\\pi}{4}}\\).<br>\\((i-1)^5=4\\sqrt{2}e^{i\\frac{15\\pi}{4}}=-4-4i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(4-4i\\). Hence find \\((4-4i)^2\\).",
   solution: "\\(4-4i=4\\sqrt{2}e^{-i\\frac{\\pi}{4}}\\).<br>\\((4-4i)^2=32e^{-i\\frac{\\pi}{2}}=-32i\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(-\\sqrt{3}+i\\). Hence find \\((-\\sqrt{3}+i)^6\\).",
   solution: "\\(-\\sqrt{3}+i=2e^{i\\frac{5\\pi}{6}}\\).<br>\\((-\\sqrt{3}+i)^6=64e^{i5\\pi}=-64\\)."
 },
 {
-  topic: "Complex Numbers - Converting",
+  topic: "Complex Numbers - Powers and Converting",
   level: "Year 13",
   question: "Find the modulus and argument of \\(1-\\sqrt{3}i\\). Hence find \\((1-\\sqrt{3}i)^3\\).",
   solution: "\\(1-\\sqrt{3}i=2e^{-i\\frac{\\pi}{3}}\\).<br>\\((1-\\sqrt{3}i)^3=8e^{-i\\pi}=-8\\)."
@@ -286,7 +286,80 @@
   level: "Year 13",
   question: "A cubic equation has real coefficients and two of its roots are \(1\) and \(2 - 2i\). Find the equation of the cubic in the form \(x^3 + a x^2 + b x + c = 0\).",
   solution: "Complex conjugate: \(2 + 2i\).<br>Equation: \\((x-1)(x-(2-2i))(x-(2+2i))\\)<br>= \\((x-1)(x^2 - 4x + 8)\\)<br>= x^3 - 5x^2 + 4x + 8"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point on an Argand diagram that represents \\(-5-5i\\) is one of the vertices of an equilateral triangle whose centre is at the origin. Find the complex numbers represented by the other two vertices of the triangle. Give your answers in the form \(r e^{i \\theta}\), where \\(-\\pi < \\theta \\le \\pi\\).",
+  solution: "Convert to polar form: \\(z_1 = 5\\sqrt{2} e^{-i3\\pi/4}\\).<br>Rotate by ±120° (±2\\pi/3):<br>\\(z_2 = 5\\sqrt{2} e^{-i3\\pi/4 + i2\\pi/3} = 5\\sqrt{2} e^{-i\\pi/12}\\)<br>\\(z_3 = 5\\sqrt{2} e^{-i3\\pi/4 - i2\\pi/3} = 5\\sqrt{2} e^{-i17\\pi/12}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(3 + 3i\\) is one vertex of an equilateral triangle whose centre is at the origin. Find the other two vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 3\\sqrt{2} e^{i\\pi/4}\\).<br>Rotate by ±120°:<br>\\(z_2 = 3\\sqrt{2} e^{i\\pi/4 + i2\\pi/3} = 3\\sqrt{2} e^{11\\pi/12}\\)<br>\\(z_3 = 3\\sqrt{2} e^{i\\pi/4 - i2\\pi/3} = 3\\sqrt{2} e^{-7\\pi/12}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(-4 + 4i\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in the form \(r e^{i\\theta}\).",
+  solution: "Polar form: \\(z_1 = 4\\sqrt{2} e^{i3\\pi/4}\\).<br>Rotate by ±120°:<br>\\(z_2 = 4\\sqrt{2} e^{3\\pi/4 + 2\\pi/3} = 4\\sqrt{2} e^{17\\pi/12}\\)<br>\\(z_3 = 4\\sqrt{2} e^{3\\pi/4 - 2\\pi/3} = 4\\sqrt{2} e^{\\pi/12}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(6\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 6 e^{0i}\\).<br>Rotate by ±120°:<br>\\(z_2 = 6 e^{i2\\pi/3}\\)<br>\\(z_3 = 6 e^{-i2\\pi/3}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(-2\\sqrt{3} - 2i\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 4 e^{-i5\\pi/6}\\).<br>Rotate by ±120°:<br>\\(z_2 = 4 e^{-5\\pi/6 + 2\\pi/3} = 4 e^{-\\pi/6}\\)<br>\\(z_3 = 4 e^{-5\\pi/6 - 2\\pi/3} = 4 e^{-13\\pi/6} = 4 e^{\\pi/6}\\) (modulo 2\\pi)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(1 - i\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices.",
+  solution: "Polar form: \\(z_1 = \\sqrt{2} e^{-i\\pi/4}\\).<br>Rotate by ±120°:<br>\\(z_2 = \\sqrt{2} e^{-\\pi/4 + 2\\pi/3} = \\sqrt{2} e^{5\\pi/12}\\)<br>\\(z_3 = \\sqrt{2} e^{-\\pi/4 - 2\\pi/3} = \\sqrt{2} e^{-11\\pi/12}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(5i\\) is a vertex of an equilateral triangle centred at the origin. Find the other vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 5 e^{i\\pi/2}\\).<br>Rotate by ±120°:<br>\\(z_2 = 5 e^{i\\pi/2 + i2\\pi/3} = 5 e^{7\\pi/6}\\)<br>\\(z_3 = 5 e^{i\\pi/2 - i2\\pi/3} = 5 e^{-\\pi/6}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(-3 + i\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in polar form.",
+  solution: "Polar form: \\(z_1 = \\sqrt{10} e^{i\\arctan(-1/3 +?)}\\).<br>Rotate by ±120°:<br>\\(z_2 = \\sqrt{10} e^{i\\theta_1 + 2\\pi/3}\\)<br>\\(z_3 = \\sqrt{10} e^{i\\theta_1 - 2\\pi/3}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(-4i\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 4 e^{-i\\pi/2}\\).<br>Rotate by ±120°:<br>\\(z_2 = 4 e^{-i\\pi/2 + i2\\pi/3} = 4 e^{-\\pi/6}\\)<br>\\(z_3 = 4 e^{-i\\pi/2 - i2\\pi/3} = 4 e^{-7\\pi/6}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(2 + 2\\sqrt{3}i\\) is a vertex of an equilateral triangle centred at the origin. Find the other vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 4 e^{i\\pi/3}\\).<br>Rotate by ±120°:<br>\\(z_2 = 4 e^{i\\pi/3 + i2\\pi/3} = 4 e^{i\\pi}\\)<br>\\(z_3 = 4 e^{i\\pi/3 - i2\\pi/3} = 4 e^{-i\\pi/3}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(-1 - i\\sqrt{3}\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 2 e^{-i2\\pi/3}\\).<br>Rotate by ±120°:<br>\\(z_2 = 2 e^{-2\\pi/3 + 2\\pi/3} = 2 e^{0} = 2\\)<br>\\(z_3 = 2 e^{-2\\pi/3 - 2\\pi/3} = 2 e^{-4\\pi/3}\\)"
+},
+{
+  topic: "Complex Numbers - Geometry - Vertices of Triangle",
+  level: "Year 13",
+  question: "The point \\(3 - 3i\\) is a vertex of an equilateral triangle centred at the origin. Find the other two vertices in polar form.",
+  solution: "Polar form: \\(z_1 = 3\\sqrt{2} e^{-i\\pi/4}\\).<br>Rotate by ±120°:<br>\\(z_2 = 3\\sqrt{2} e^{-\\pi/4 + 2\\pi/3} = 3\\sqrt{2} e^{5\\pi/12}\\)<br>\\(z_3 = 3\\sqrt{2} e^{-\\pi/4 - 2\\pi/3} = 3\\sqrt{2} e^{-11\\pi/12}\\)"
 }
+
 
 
 

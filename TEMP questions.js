@@ -1,4 +1,77 @@
 {
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "The matrix \\(M = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 2k+1 \\end{pmatrix}\\) is singular. Find the value of \\(k\\).",
+  solution: "Determinant of \\(M = 1(5(2k+1)-6*8) - 2(4(2k+1)-6*7) + 3(4*8-5*7) = 0<br>10k+5-48 - 2(8k+4-42) + 3(32-35)=0<br>-43 - 2(-34+8k)+(-9)=0<br>-43 + 68-16k -9=0<br>16 -16k=0<br>k=1"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "Matrix \\(N = \\begin{pmatrix} k & 1 & 0 \\\\ 2 & 3 & 1 \\\\ 4 & 0 & 2 \\end{pmatrix}\\) is non-singular. Find all values of \\(k\\) for which \\(N\\) is non-singular.",
+  solution: "Determinant: \\(|N|=k(3*2-1*0)-1(2*2-1*4)+0= k(6)-1(4-4)+0=6k<br>For non-singular: 6k ≠ 0 ⇒ k ≠ 0"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "The matrix \\(P = \\begin{pmatrix} 1 & k & 2 \\\\ 0 & 3 & 1 \\\\ 4 & 2 & 5 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: \\(|P|=1(3*5-1*2)-k(0*5-1*4)+2(0*2-3*4)=1(15-2)-k(0-4)+2(0-12)=13+4k-24<br>-11+4k=0 ⇒ k=11/4"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "Matrix \\(Q = \\begin{pmatrix} 2 & 1 & 3 \\\\ k & 4 & 1 \\\\ 1 & 0 & 2 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: 2(4*2-1*0)-1(k*2-1*1)+3(k*0-4*1)=2(8)-1(2k-1)+3(0-4)=16-(2k-1)-12<br>16-(2k-1)-12=5-2k=0 ⇒ k=5/2"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "The matrix \\(R = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & k & 1 \\\\ 2 & 1 & 4 \\end{pmatrix}\\) is non-singular. Find the values of \\(k\\) for which \\(R\\) is non-singular.",
+  solution: "Determinant: |R| =1(k*4-1*1)-2(0*4-1*2)+3(0*1-k*2)=1(4k-1)-2(0-2)+3(0-2k)=4k-1+4-6k=-2k+3<br>Non-singular: -2k+3≠0 ⇒ k≠3/2"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "Matrix \\(S = \\begin{pmatrix} k & 1 & 2 \\\\ 0 & 3 & 1 \\\\ 1 & 4 & 5 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: |S|=k(3*5-1*4)-1(0*5-1*1)+2(0*4-3*1)=k(15-4)-1(0-1)+2(0-3)=11k+1-6=11k-5=0 ⇒ k=5/11"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "The matrix \\(T = \\begin{pmatrix} 1 & 2 & k \\\\ 0 & 1 & 3 \\\\ 4 & 0 & 5 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: 1(1*5-3*0)-2(0*5-3*4)+k(0*0-1*4)=1(5)-2(0-12)+k(0-4)=5+24-4k=29-4k=0 ⇒ k=29/4"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "Matrix \\(U = \\begin{pmatrix} 2 & 3 & 1 \\\\ k & 1 & 2 \\\\ 0 & 4 & 5 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: 2(1*5-2*4)-3(k*5-2*0)+1(k*4-1*0)=2(5-8)-3(5k-0)+1(4k-0)=-6-15k+4k=-6-11k=0 ⇒ k=-6/11"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "The matrix \\(V = \\begin{pmatrix} k & 0 & 1 \\\\ 2 & 3 & 4 \\\\ 1 & 2 & 5 \\end{pmatrix}\\) is non-singular. Find all values of \\(k\\) for which \\(V\\) is non-singular.",
+  solution: "Determinant: k(3*5-4*2)-0(2*5-4*1)+1(2*2-3*1)=k(15-8)+0+1(4-3)=7k+1 ≠0 ⇒ k ≠ -1/7"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "Matrix \\(W = \\begin{pmatrix} 1 & k & 0 \\\\ 2 & 3 & 1 \\\\ 4 & 1 & 2 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: 1(3*2-1*1)-k(2*2-1*4)+0=1(6-1)-k(4-4)+0=5-0=5 ≠0 ⇒ No value of k makes it singular. (Check: determinant independent of k)"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "The matrix \\(X = \\begin{pmatrix} 2 & 1 & 0 \\\\ 3 & k & 1 \\\\ 1 & 4 & 2 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: 2(k*2-1*4)-1(3*2-1*1)+0=2(2k-4)-1(6-1)=4k-8-5=4k-13=0 ⇒ k=13/4"
+},
+{
+  topic: "Matrices - Determinants",
+  level: "Year 13",
+  question: "Matrix \\(Y = \\begin{pmatrix} 1 & 2 & 3 \\\\ k & 0 & 1 \\\\ 4 & 2 & 5 \\end{pmatrix}\\) is singular. Find \\(k\\).",
+  solution: "Determinant: 1(0*5-1*2)-2(k*5-1*4)+3(k*2-0*4)=1(0-2)-2(5k-4)+3(2k-0)=-2-10k+8+6k=-4k+6=0 ⇒ k=3/2"
+},
+
+{
   topic: "Vector Product - Area of Triangle",
   level: "Year 13",
   question: "The position vectors of points \\(A\\), \\(B\\) and \\(C\\) are:<br>\\(\\mathbf{a}=2\\mathbf{i}+\\mathbf{j}+2\\mathbf{k}\\),<br>\\(\\mathbf{b}=-\\mathbf{i}-8\\mathbf{j}+2\\mathbf{k}\\),<br>\\(\\mathbf{c}=-2\\mathbf{j}\\).<br>Find the area of triangle \\(ABC\\).",

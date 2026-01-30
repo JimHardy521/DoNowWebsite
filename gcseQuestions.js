@@ -4726,8 +4726,8 @@ const gcseQuestions = [
 {
   topic: "Solving Quadratics - Factorising",
   level: "Higher",
-  question: "Solve: \\(x^2 + 5 = x + 9\\).",
-  solution: "\\((x - 2)(x + 2) = 0, \\; x = 2, -2\\)"
+  question: "Solve: \\(x^2 + 3x = 20x + 60\\).",
+  solution: "\\((x - 12)(x - 5) = 0, \\; x = 12, 5\\)"
 },
 {
   topic: "Solving Quadratics - Factorising",

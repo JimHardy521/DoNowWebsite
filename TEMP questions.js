@@ -1,4 +1,71 @@
 {
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "The position vectors of points \\(A\\), \\(B\\) and \\(C\\) are:<br>\\(\\mathbf{a}=2\\mathbf{i}+\\mathbf{j}+2\\mathbf{k}\\),<br>\\(\\mathbf{b}=-\\mathbf{i}-8\\mathbf{j}+2\\mathbf{k}\\),<br>\\(\\mathbf{c}=-2\\mathbf{j}\\).<br>Find the area of triangle \\(ABC\\).",
+  solution: "\\(\\vec{AB}=(-3,-9,0),\\ \\vec{AC}=(-2,-3,-2)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(18,-6,-9)\\)<br>Area \\(=\\tfrac12\\sqrt{18^2+(-6)^2+(-9)^2=\\tfrac12\\sqrt{441}=10.5\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "Points \\(A(1,2,3)\\), \\(B(4,1,5)\\) and \\(C(2,-1,4)\\) form a triangle. Find its area.",
+  solution: "\\(\\vec{AB}=(3,-1,2),\\ \\vec{AC}=(1,-3,1)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(5,-1,-8)\\)<br>Area \\(=\\tfrac12\\sqrt{90}=\\tfrac12\\sqrt{90}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "The position vectors of points \\(A\\), \\(B\\) and \\(C\\) are:<br>\\(\\mathbf{a}=\\mathbf{i}+2\\mathbf{j}+\\mathbf{k}\\),<br>\\(\\mathbf{b}=3\\mathbf{i}+\\mathbf{j}+4\\mathbf{k}\\),<br>\\(\\mathbf{c}=2\\mathbf{i}+4\\mathbf{j}+6\\mathbf{k}\\).<br>Find the area of triangle \\(ABC\\).",
+  solution: "\\(\\vec{AB}=(2,-1,3),\\ \\vec{AC}=(1,2,5)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(-11,-7,5)\\)<br>Area \\(=\\tfrac12\\sqrt{195}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "Points \\(A(0,1,2)\\), \\(B(2,3,1)\\) and \\(C(4,0,5)\\) form a triangle. Find its area.",
+  solution: "\\(\\vec{AB}=(2,2,-1),\\ \\vec{AC}=(4,-1,3)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(5,-10,-10)\\)<br>Area \\(=\\tfrac12\\sqrt{225}=7.5\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "The position vectors of points \\(A\\), \\(B\\) and \\(C\\) are:<br>\\(\\mathbf{a}=3\\mathbf{i}+\\mathbf{k}\\),<br>\\(\\mathbf{b}=\\mathbf{i}+4\\mathbf{j}+2\\mathbf{k}\\),<br>\\(\\mathbf{c}=2\\mathbf{j}+3\\mathbf{k}\\).<br>Find the area of triangle \\(ABC\\).",
+  solution: "\\(\\vec{AB}=(-2,4,1),\\ \\vec{AC}=(-3,2,2)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(6,1,8)\\)<br>Area \\(=\\tfrac12\\sqrt{101}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "Points \\(A(2,-1,0)\\), \\(B(5,1,2)\\) and \\(C(1,3,4)\\) form a triangle. Find its area.",
+  solution: "\\(\\vec{AB}=(3,2,2),\\ \\vec{AC}=(-1,4,4)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(0,-14,14)\\)<br>Area \\(=\\tfrac12\\sqrt{392}=7\\sqrt{2}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "The position vectors of points \\(A\\), \\(B\\) and \\(C\\) are:<br>\\(\\mathbf{a}=\\mathbf{i}+\\mathbf{j}\\),<br>\\(\\mathbf{b}=4\\mathbf{i}+2\\mathbf{j}+\\mathbf{k}\\),<br>\\(\\mathbf{c}=2\\mathbf{i}+5\\mathbf{j}+3\\mathbf{k}\\).<br>Find the area of triangle \\(ABC\\).",
+  solution: "\\(\\vec{AB}=(3,1,1),\\ \\vec{AC}=(1,4,3)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(-1,-8,11)\\)<br>Area \\(=\\tfrac12\\sqrt{186}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "Points \\(A(1,0,2)\\), \\(B(3,4,1)\\) and \\(C(2,1,5)\\) form a triangle. Find its area.",
+  solution: "\\(\\vec{AB}=(2,4,-1),\\ \\vec{AC}=(1,1,3)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(13,-7,-2)\\)<br>Area \\(=\\tfrac12\\sqrt{222}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "The position vectors of points \\(A\\), \\(B\\) and \\(C\\) are:<br>\\(\\mathbf{a}=2\\mathbf{i}+3\\mathbf{j}+\\mathbf{k}\\),<br>\\(\\mathbf{b}=\\mathbf{i}+5\\mathbf{j}+4\\mathbf{k}\\),<br>\\(\\mathbf{c}=4\\mathbf{i}+2\\mathbf{j}+3\\mathbf{k}\\).<br>Find the area of triangle \\(ABC\\).",
+  solution: "\\(\\vec{AB}=(-1,2,3),\\ \\vec{AC}=(2,-1,2)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(7,8,-3)\\)<br>Area \\(=\\tfrac12\\sqrt{122}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "Points \\(A(0,2,1)\\), \\(B(3,1,4)\\) and \\(C(1,5,2)\\) form a triangle. Find its area.",
+  solution: "\\(\\vec{AB}=(3,-1,3),\\ \\vec{AC}=(1,3,1)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(-10,0,10)\\)<br>Area \\(=\\tfrac12\\sqrt{200}=5\\sqrt{2}\\)"
+},
+{
+  topic: "Vector Product - Area of Triangle",
+  level: "Year 13",
+  question: "The position vectors of points \\(A\\), \\(B\\) and \\(C\\) are:<br>\\(\\mathbf{a}=\\mathbf{i}+2\\mathbf{j}+3\\mathbf{k}\\),<br>\\(\\mathbf{b}=3\\mathbf{i}+\\mathbf{j}+5\\mathbf{k}\\),<br>\\(\\mathbf{c}=2\\mathbf{i}+4\\mathbf{j}+6\\mathbf{k}\\).<br>Find the area of triangle \\(ABC\\).",
+  solution: "\\(\\vec{AB}=(2,-1,2),\\ \\vec{AC}=(1,2,3)\\)<br>\\(\\vec{AB}\\times\\vec{AC}=(-7,-4,5)\\)<br>Area \\(=\\tfrac12\\sqrt{90}=\\tfrac12\\sqrt{90}\\)"
+},
+
+{
   topic: "Vector Product - Cartesian Equation of Plane",
   level: "Year 13",
   question: "Using the vector product, calculate the cartesian equation of the plane which contains the points \\((0,2,1)\\), \\((5,4,3)\\) and \\((-3,9,6)\\).",

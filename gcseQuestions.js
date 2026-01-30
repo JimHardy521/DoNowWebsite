@@ -1,8 +1,277 @@
 const gcseQuestions = [
 
- /* =========================
-       Crossover_abc
-       ========================= */
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A cylinder has radius 6 cm and height 10 cm.<br><br>Find the total surface area of the cylinder.",
+  solution: "Surface area = \\(2\\pi r^2 + 2\\pi r h\\).<br>= \\(2\\pi × 6^2 + 2\\pi × 6 × 10\\)<br>= \\(72\\pi + 120\\pi = 192\\pi\\) ≈ 603.2 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A cylinder has diameter 8 cm and volume 50 cm³.<br><br>Find the height of the cylinder,and hence find its total surface area.",
+  solution: "Radius = 4 cm.<br>Volume = \\(\\pi r^2 h\\).<br>\\(16\\pi h = 50\\) → \\(h = \\frac{50}{16\\pi} ≈ 0.995\\) cm.<br>Surface area = \\(2\\pi r^2 + 2\\pi r h\\)<br>= \\(32\\pi + 8\\pi h\\) ≈ 125.7 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A metal cube with side length 12 cm is melted and reshaped into a solid cylinder of radius 3.5 cm.<br><br>Find the height of the cylinder.",
+  solution: "Volume of cube = \\(12^3 = 1728\\) cm³.<br>Volume of cylinder = \\(\\pi × 3.5^2 × h\\).<br>\\(12.25\\pi h = 1728\\) → \\(h ≈ 44.9\\) cm."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "The volume of a cylinder with height 20 cm is 450 cm³.<br><br>Find the total surface area of the cylinder.",
+  solution: "Volume = \\(\\pi r^2 h\\).<br>\\(20\\pi r^2 = 450\\) → \\(r^2 = \\frac{22.5}{\\pi}\\).<br>Surface area = \\(2\\pi r^2 + 2\\pi r h\\) ≈ 211.8 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A closed cylinder has radius 5 cm and height 14 cm.<br><br>Find its total surface area.",
+  solution: "Surface area = \\(2\\pi r^2 + 2\\pi r h\\).<br>= \\(2\\pi × 25 + 2\\pi × 5 × 14\\)<br>= \\(50\\pi + 140\\pi = 190\\pi\\) ≈ 596.9 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A cylinder has volume \\(200\\pi\\) cm³ and radius 4 cm.<br><br><br>Find the height of the cylinder.",
+  solution: "\\(\\pi × 4^2 × h = 200\\pi\\).<br>\\(16h = 200\\) → \\(h = 12.5\\) cm."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A cylindrical container has radius 7 cm.<br>If its curved surface area is \\(308\\pi\\) cm²,<br><br>find the height of the cylinder.",
+  solution: "Curved surface area = \\(2\\pi r h\\).<br>\\(2\\pi × 7 × h = 308\\pi\\).<br>\\(14h = 308\\) → \\(h = 22\\) cm."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A metal cylinder of radius 4 cm and height 15 cm is melted and reshaped into a cube.<br><br><br>Find the side length of the cube.",
+  solution: "Volume of cylinder = \\(\\pi × 4^2 × 15 = 240\\pi\\) cm³.<br>Let cube side be \\(x\\).<br>\\(x^3 = 240\\pi\\) → \\(x ≈ 9.1\\) cm."
+},
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A cylinder has total surface area \\(260\\pi\\) cm²<br>and radius 6 cm.<br>Find its height.",
+  solution: "Surface area = \\(2\\pi r^2 + 2\\pi r h\\).<br>\\(72\\pi + 12\\pi h = 260\\pi\\).<br>\\(12h = 188\\) → \\(h ≈ 15.7\\) cm."
+},
+
+{
+  topic: "Volume and Surface Area - Cylinders",
+  level: "Higher",
+  question: "A cylinder has curved surface area \\(150\\pi\\) cm²<br>and height 10 cm.<br>Find the volume of the cylinder.",
+  solution: "Curved surface area = \\(2\\pi r h\\).<br>\\(20\\pi r = 150\\pi\\) → \\(r = 7.5\\) cm.<br>Volume = \\(\\pi × 7.5^2 × 10 = 562.5\\pi\\) ≈ 1767.1 cm³."
+},
+
+
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "Find, to 1 decimal place, the volume of a cylinder with diameter 10 cm<br>and height 6 cm.",
+  solution: "Radius = 5 cm.<br>Volume = \\(\\pi r^2 h = \\pi × 5^2 × 6 = 150\\pi\\).<br>Volume ≈ 471.2 cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "Find the volume of a cylinder with radius 6 cm<br>and height 4 cm.<br>Leave your answer in terms of \\(\\pi\\).",
+  solution: "Volume = \\(\\pi r^2 h = \\pi × 6^2 × 4 = 144\\pi\\) cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "The circumference of the base of a cylinder is 30 cm.<br>The height of the cylinder is 8 cm.<br>Find the volume of the cylinder.",
+  solution: "Circumference = \\(2\\pi r = 30\\) → \\(r = \\frac{15}{\\pi}\\).<br>Volume = \\(\\pi r^2 h = \\pi × (15/\\pi)^2 × 8 = \\frac{1800}{\\pi}\\) ≈ 573.0 cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "A long tube pipe has radius 3 cm<br>and length 3.2 m.<br>Find the volume of the pipe.",
+  solution: "Convert length: 3.2 m = 320 cm.<br>Volume = \\(\\pi × 3^2 × 320 = 2880\\pi\\) ≈ 9047.8 cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "Find, to the nearest whole number, the volume of a cylinder<br>with radius 7 cm and height 10 cm.",
+  solution: "Volume = \\(\\pi × 7^2 × 10 = 490\\pi\\).<br>Volume ≈ 1539 cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "A cylinder has diameter 8 cm and height 15 cm.<br>Find the volume of the cylinder.",
+  solution: "Radius = 4 cm.<br>Volume = \\(\\pi × 4^2 × 15 = 240\\pi\\) ≈ 754.0 cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "The radius of a cylinder is 2.5 cm<br>and its height is 12 cm.<br>Find the volume of the cylinder.",
+  solution: "Volume = \\(\\pi × 2.5^2 × 12 = 75\\pi\\) ≈ 235.6 cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "A cylinder has circumference 44 cm<br>and height 10 cm.<br>Find the volume of the cylinder.",
+  solution: "Circumference = \\(2\\pi r = 44\\) → \\(r = 7\\).<br>Volume = \\(\\pi × 7^2 × 10 = 490\\pi\\) ≈ 1539 cm³."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "A cylindrical container has radius 4 cm.<br>If its volume is \\(256\\pi\\) cm³,<br>find the height of the container.",
+  solution: "Volume = \\(\\pi r^2 h\\).<br>\\(\\pi × 4^2 × h = 256\\pi\\) → 16h = 256 → h = 16 cm."
+},
+{
+  topic: "Volume - Cylinders",
+  level: "Crossover",
+  question: "A cylinder has volume \\(300\\pi\\) cm³<br>and radius 5 cm.<br>Find the height of the cylinder.",
+  solution: "\\(\\pi × 5^2 × h = 300\\pi\\).<br>25h = 300 → h = 12 cm."
+},
+
+
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cube has side length 4 cm.<br>Find the surface area of the cube.",
+  solution: "Surface area = 6 × 4² = 6 × 16 = 96 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cube has volume 125 cm³.<br>Find the surface area of the cube.",
+  solution: "Side length = \\(\\sqrt[3]{125} = 5\\) cm.<br>Surface area = 6 × 5² = 6 × 25 = 150 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "The surface area of a cube is 54 cm².<br>Find the volume of the cube.",
+  solution: "Each face area = 54 ÷ 6 = 9 cm².<br>Side length = \\(\\sqrt{9} = 3\\) cm.<br>Volume = 3³ = 27 cm³."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cuboid has dimensions 5 cm, 6 cm and x cm.<br>The volume is 120 cm³.<br>Find the surface area.",
+  solution: "5 × 6 × x = 120 → 30x = 120 → x = 4 cm.<br>Surface area = 2(5×6 + 5×4 + 6×4) = 2(30 + 20 + 24) = 148 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cuboid has dimensions 3 cm, 5 cm and x cm.<br>The surface area is 126 cm².<br>Find the volume.",
+  solution: "Surface area = 2(3×5 + 3x + 5x) = 126.<br>2(15 + 8x) = 126 → 15 + 8x = 63 → x = 6 cm.<br>Volume = 3 × 5 × 6 = 90 cm³."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cube has side length 6 cm.<br>Find both the volume and surface area.",
+  solution: "Volume = 6³ = 216 cm³.<br>Surface area = 6 × 6² = 216 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cube has volume 64 cm³.<br>Find the surface area.",
+  solution: "Side length = \\(\\sqrt[3]{64} = 4\\) cm.<br>Surface area = 6 × 4² = 96 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "The surface area of a cube is 150 cm².<br>Find the volume.",
+  solution: "Each face area = 150 ÷ 6 = 25 cm².<br>Side length = \\(\\sqrt{25} = 5\\) cm.<br>Volume = 5³ = 125 cm³."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cuboid has dimensions 4 cm, 5 cm and 6 cm.<br>Find its volume and surface area.",
+  solution: "Volume = 4 × 5 × 6 = 120 cm³.<br>Surface area = 2(4×5 + 4×6 + 5×6) = 2(20 + 24 + 30) = 148 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cuboid has a volume of 60 cm³ and dimensions 3 cm, 5 cm and x cm.<br>Find the surface area.",
+  solution: "3 × 5 × x = 60 → 15x = 60 → x = 4 cm.<br>Surface area = 2(3×5 + 3×4 + 5×4) = 2(15 + 12 + 20) = 94 cm²."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cube has surface area 96 cm².<br>Find the volume.",
+  solution: "Each face area = 96 ÷ 6 = 16 cm².<br>Side length = \\(\\sqrt{16} = 4\\) cm.<br>Volume = 4³ = 64 cm³."
+},
+{
+  topic: "Volume and Surface Area - Cuboids",
+  level: "Crossover",
+  question: "A cuboid has dimensions 2 cm, 6 cm and x cm.<br>The surface area is 88 cm².<br>Find the volume.",
+  solution: "Surface area = 2(2×6 + 2x + 6x) = 88.<br>2(12 + 8x) = 88 → 12 + 8x = 44 → x = 4 cm.<br>Volume = 2 × 6 × 4 = 48 cm³."
+},
+
+
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "Find the volume of a cuboid with side lengths 4 cm, 5 cm and 10 cm.",
+  solution: "Volume = 4 × 5 × 10 = 200 cm³."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A carton of orange juice is in the shape of a cuboid with dimensions 3 cm, 5 cm and 8 cm. How many ml of juice does the carton contain?",
+  solution: "Volume = 3 × 5 × 8 = 120 cm³. Since 1 cm³ = 1 ml, the carton contains 120 ml."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "Find the volume of a cuboid with dimensions 6 cm, 7 cm and 5 cm.",
+  solution: "Volume = 6 × 7 × 5 = 210 cm³."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A cuboid has side lengths of 6 cm, 7 cm and x cm. Its volume is 210 cm³. Find the value of x.",
+  solution: "6 × 7 × x = 210 → 42x = 210 → x = 5 cm."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "The volume of a cuboid is 96 cm³. Two of its side lengths are 4 cm and 6 cm. Find the missing length.",
+  solution: "4 × 6 × x = 96 → 24x = 96 → x = 4 cm."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A cuboid has dimensions 10 cm, 4 cm and 3 cm. Find its volume.",
+  solution: "Volume = 10 × 4 × 3 = 120 cm³."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A cuboid container has lengths 5 cm by 4 cm by 6 cm. How many ml of water can it hold?",
+  solution: "Volume = 5 × 4 × 6 = 120 cm³, which is 120 ml."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A cuboid has a volume of 300 cm³. Two of its dimensions are 5 cm and 10 cm. Find the third dimension.",
+  solution: "5 × 10 × x = 300 → 50x = 300 → x = 6 cm."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A metal cube with side length 3 cm is melted and reshaped into a cuboid with dimensions 3 cm, 6 cm and x cm. Find x.",
+  solution: "Volume of cube = 3³ = 27 cm³. 3 × 6 × x = 27 → 18x = 27 → x = 1.5 cm."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A cuboid has a volume of 144 cm³. Its base is 6 cm by 4 cm. Find its height.",
+  solution: "6 × 4 × h = 144 → 24h = 144 → h = 6 cm."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A metal cube with side length 6 cm is melted and reshaped into a cuboid with dimensions 4 cm, 9 cm and x cm. Find x.",
+  solution: "Volume of cube = 6³ = 216 cm³. 4 × 9 × x = 216 → 36x = 216 → x = 6 cm."
+},
+{
+  topic: "Volume - Cuboids",
+  level: "Foundation",
+  question: "A metal cuboid with dimensions 9 cm, 5 cm and 4 cm is melted and reshaped into a cuboid with dimensions 6 cm, 5 cm and x cm. Find x.",
+  solution: "Original volume = 9 × 5 × 4 = 180 cm³. 6 × 5 × x = 180 → 30x = 180 → x = 6 cm."
+},
+
 
 {
   topic: "Compound Measures - Speed - Multi Stage Journeys",
@@ -4726,8 +4995,8 @@ const gcseQuestions = [
 {
   topic: "Solving Quadratics - Factorising",
   level: "Higher",
-  question: "Solve: \\(x^2 + 3x = 20x + 60\\).",
-  solution: "\\((x - 12)(x - 5) = 0, \\; x = 12, 5\\)"
+  question: "Solve: \\(x^2 + 5 = x + 9\\).",
+  solution: "\\((x - 2)(x + 2) = 0, \\; x = 2, -2\\)"
 },
 {
   topic: "Solving Quadratics - Factorising",

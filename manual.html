@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Manual Worksheet Setup</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  background:#f0f4f8;
+  margin:0;
+  padding:20px;
+}
+
+h1 {
+  text-align:center;
+}
+
+#worksheetTitle {
+  text-align:center;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+.question-card {
+  background:#fff;
+  max-width:900px;
+  margin:14px auto;
+  padding:14px 16px;
+  border-radius:6px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+.question-text {
+  font-size:1.05rem;
+}
+
+.controls {
+  margin-top:10px;
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.controls button {
+  padding:6px 10px;
+  font-size:0.9rem;
+  cursor:pointer;
+}
+
+.controls select {
+  padding:6px;
+  font-size:0.9rem;
+}
+
+.bottom-actions {
+  text-align:center;
+  margin:30px 0;
+}
+
+.bottom-actions button {
+  padding:10px 22px;
+  font-size:1.05rem;
+  font-weight:600;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Manual Worksheet Setup</h1>
+<div id="worksheetTitle"></div>
+
+<div id="questionList"></div>
+
+<div class="bottom-actions">
+  <button onclick="printWorksheet()">Print</button>
+</div>
+
+<script>
+/* ===== PARAMS ===== */
+function getParam(name) {
+  return new URLSearchParams(location.search).get(name);
+}
+
+const source = getParam("source");
+const level  = getParam("level");
+const total  = +getParam("total");
+const title  = getParam("title");
+const topics = JSON.parse(getParam("topics"));
+
+document.getElementById("worksheetTitle").textContent = title;
+
+/* ===== DATA ===== */
+let questionsData = [];
+let worksheet = [];
+
+/* ===== LOAD QUESTION FILE ===== */
+const script = document.createElement("script");
+script.src =
+  source === "alevel"        ? "alevelquestions.js" :
+  source === "alevelfurther" ? "alevelfurther.js" :
+  source === "l2further"     ? "l2furtherquestions.js" :
+                               "gcseQuestions.js";
+
+script.onload = () => {
+  questionsData =
+    source === "alevel"        ? alevelQuestions :
+    source === "alevelfurther" ? alevelfurther :
+    source === "l2further"     ? l2FurtherQuestions :
+                                 gcseQuestions;
+
+  generateInitialWorksheet();
+};
+
+document.head.appendChild(script);
+
+/* ===== HELPERS ===== */
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+/* ===== INITIAL GENERATION ===== */
+function generateInitialWorksheet() {
+  const pools = {};
+  topics.forEach(topic => {
+    pools[topic] = shuffle(
+      questionsData.filter(q =>
+        q.topic === topic &&
+        (source === "l2further" || q.level === level)
+      )
+    );
+  });
+
+  const base = Math.floor(total / topics.length);
+  worksheet = [];
+
+  topics.forEach(topic => {
+    worksheet = worksheet.concat(pools[topic].splice(0, base));
+  });
+
+  while (worksheet.length < total) {
+    for (const topic of topics) {
+      if (worksheet.length >= total) break;
+      if (pools[topic].length) worksheet.push(pools[topic].shift());
+    }
+  }
+
+  worksheet = shuffle(worksheet);
+  renderWorksheet();
+}
+
+/* ===== RENDER ===== */
+function renderWorksheet() {
+  const container = document.getElementById("questionList");
+  container.innerHTML = "";
+
+  worksheet.forEach((q, i) => {
+    const topicOptions = topics.map(t =>
+      `<option ${t === q.topic ? "selected" : ""}>${t}</option>`
+    ).join("");
+
+    container.insertAdjacentHTML("beforeend", `
+      <div class="question-card" id="q-${i}">
+        <strong>Q${i + 1}</strong>
+        <div class="question-text">${q.question}</div>
+
+        <div class="controls">
+          <button onclick="refreshQuestion(${i})">🔄 Same topic</button>
+
+          <label>
+            Topic:
+            <select onchange="changeTopic(${i}, this.value)">
+              ${topicOptions}
+            </select>
+          </label>
+
+          <button onclick="deleteQuestion(${i})">❌ Delete</button>
+        </div>
+      </div>
+    `);
+  });
+
+  MathJax.typesetPromise();
+}
+
+/* ===== PRESERVE SCROLL ===== */
+function rerenderPreservingScroll(index) {
+  const el = document.getElementById(`q-${index}`);
+  const top = el.getBoundingClientRect().top;
+
+  renderWorksheet();
+
+  requestAnimationFrame(() => {
+    const newEl = document.getElementById(`q-${index}`);
+    if (newEl) {
+      const newTop = newEl.getBoundingClientRect().top;
+      window.scrollBy(0, newTop - top);
+    }
+  });
+}
+
+/* ===== EDIT CONTROLS ===== */
+function refreshQuestion(index) {
+  const topic = worksheet[index].topic;
+  const pool = questionsData.filter(q =>
+    q.topic === topic &&
+    (source === "l2further" || q.level === level)
+  );
+
+  worksheet[index] = pool[Math.floor(Math.random() * pool.length)];
+  rerenderPreservingScroll(index);
+}
+
+function changeTopic(index, newTopic) {
+  const pool = questionsData.filter(q =>
+    q.topic === newTopic &&
+    (source === "l2further" || q.level === level)
+  );
+
+  worksheet[index] = pool[Math.floor(Math.random() * pool.length)];
+  rerenderPreservingScroll(index);
+}
+
+function deleteQuestion(index) {
+  worksheet.splice(index, 1);
+  renderWorksheet();
+}
+
+/* ===== PRINT ===== */
+function printWorksheet() {
+  const win = window.open("", "_blank");
+
+  win.document.write(`
+<html>
+<head>
+<title>${title}</title>
+<style>
+@page { size:A4; margin:12mm; }
+
+body {
+  font-family: Inter, Arial;
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+.print-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  margin-bottom:16px;
+  border-bottom:2px solid #000;
+  padding-bottom:6px;
+}
+
+.print-brand {
+  font-size:14pt;
+  font-weight:700;
+}
+
+.print-meta {
+  font-size:10pt;
+  text-align:right;
+}
+
+.print-meta span {
+  display:inline-block;
+  min-width:160px;
+  border-bottom:1px solid #000;
+  margin-left:6px;
+}
+
+.print-title {
+  font-size:14pt;
+  font-weight:700;
+  text-align:center;
+  margin:18px 0;
+}
+
+.print-table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+.print-table td {
+  vertical-align:top;
+  padding:6px 4px;
+}
+
+.print-qnum {
+  width:28px;
+  font-weight:700;
+}
+
+.print-answers {
+  page-break-before:always;
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
+</head>
+
+<body>
+
+<div class="print-header">
+  <div class="print-brand">mrhardymaths</div>
+  <div class="print-meta">
+    <div>Name:<span></span></div>
+    <div>Date:<span></span></div>
+  </div>
+</div>
+
+<div class="print-title">${title}</div>
+
+<table class="print-table">
+${worksheet.map((q,i)=>`
+<tr>
+  <td class="print-qnum">${i+1}.</td>
+  <td>${q.question}</td>
+</tr>
+`).join("")}
+</table>
+
+<div class="print-answers">
+  <div class="print-title">${title} – Answers</div>
+  <table class="print-table">
+  ${worksheet.map((q,i)=>`
+    <tr>
+      <td class="print-qnum">${i+1}.</td>
+      <td>${q.solution}</td>
+    </tr>
+  `).join("")}
+  </table>
+</div>
+
+</body>
+</html>
+  `);
+
+  win.document.close();
+  win.onload = () => win.MathJax.typesetPromise().then(() => win.print());
+}
+</script>
+
+</body>
+</html>

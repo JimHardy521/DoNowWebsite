@@ -128,8 +128,9 @@ button:disabled {
 
   <div class="bottom-row">
     <label><strong>Title:</strong></label>
-    <input type="text" id="worksheetTitle" style="width:360px;">
-    <button id="generateBtn" onclick="generateWorksheet()">Generate Worksheet</button>
+    <input type="text" id="worksheetTitle" style="width:300px;">
+<button id="quickPrintBtn" onclick="generateWorksheet()">Quick Print</button>
+<button onclick="openManualSetup()">Manual Set up</button>
   </div>
 </div>
 
@@ -234,6 +235,28 @@ function shuffle(arr) {
   }
   return arr;
 }
+
+function openManualSetup() {
+  const total = +questionCount.value;
+  const title = worksheetTitle.value.trim();
+
+  const topics = [...document.querySelectorAll("#topicTable input:checked")]
+    .map(cb => cb.dataset.topic);
+
+  if (!topics.length) return;
+
+  const params = new URLSearchParams({
+    source,
+    level,
+    total,
+    title,
+    topics: JSON.stringify(topics)
+  });
+
+  window.location.href = `manual.html?${params.toString()}`;
+}
+
+
 
 /* ===== GENERATE WORKSHEET ===== */
 function generateWorksheet() {

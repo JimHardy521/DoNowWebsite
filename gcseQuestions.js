@@ -1,4 +1,166 @@
 const gcseQuestions = [
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "The  number of sides of a regular polygon with exterior angle \\(30^\\circ\\), added to the number of sides of a regular polygon with interior angle \\(120^\\circ\\).",
+  solution: "Exterior angle of first polygon = \\(30^\\circ\\)<br><br>Number of sides:<br>\\(360 \\div 30 = 12\\)<br><br>Interior angle of second polygon = \\(120^\\circ\\)<br><br>Exterior angle:<br>\\(180 - 120 = 60^\\circ\\)<br><br>Number of sides:<br>\\(360 \\div 60 = 6\\)<br><br>Total number of sides:<br>\\(12 + 6 = 18\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the difference between the number of sides of a regular polygon with exterior angle \\(45^\\circ\\) and a regular polygon with interior angle \\(135^\\circ\\).",
+  solution: "First polygon:<br>\\(360 \\div 45 = 8\\)<br><br>Second polygon:<br>Exterior angle = \\(180 - 135 = 45^\\circ\\)<br>Number of sides = \\(360 \\div 45 = 8\\)<br><br>Difference:<br>\\(8 - 8 = 0\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the product of the number of sides of a regular polygon with interior angle \\(150^\\circ\\) and a regular polygon with exterior angle \\(72^\\circ\\).",
+  solution: "First polygon:<br>Exterior angle = \\(180 - 150 = 30^\\circ\\)<br>Number of sides = \\(360 \\div 30 = 12\\)<br><br>Second polygon:<br>\\(360 \\div 72 = 5\\)<br><br>Product:<br>\\(12 \\times 5 = 60\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "The number of sides of a regular polygon with interior angle \\(144^\\circ\\), added to the number of sides of a regular polygon with exterior angle \\(36^\\circ\\).",
+  solution: "First polygon:<br>Exterior angle = \\(180 - 144 = 36^\\circ\\)<br>Number of sides = \\(360 \\div 36 = 10\\)<br><br>Second polygon:<br>\\(360 \\div 36 = 10\\)<br><br>Total number of sides:<br>\\(10 + 10 = 20\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of an octagon minus the exterior angle of a regular hexagon.",
+  solution: "Angle sum of an octagon:<br>\\((8 - 2) \\times 180 = 1080^\\circ\\)<br><br>Exterior angle of a regular hexagon:<br>\\(360 \\div 6 = 60^\\circ\\)<br><br>Required answer:<br>\\(1080 - 60 = 1020^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of a decagon minus the interior angle of a regular hexagon.",
+  solution: "Angle sum of a decagon:<br>\\((10 - 2) \\times 180 = 1440^\\circ\\)<br><br>Interior angle of a regular hexagon:<br>\\(120^\\circ\\)<br><br>Required answer:<br>\\(1440 - 120 = 1320^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of a pentagon plus the exterior angle of a regular decagon.",
+  solution: "Angle sum of a pentagon:<br>\\((5 - 2) \\times 180 = 540^\\circ\\)<br><br>Exterior angle of a regular decagon:<br>\\(360 \\div 10 = 36^\\circ\\)<br><br>Required answer:<br>\\(540 + 36 = 576^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of a hexagon plus the exterior angle of a regular octagon.",
+  solution: "Angle sum of a hexagon:<br>\\((6 - 2) \\times 180 = 720^\\circ\\)<br><br>Exterior angle of a regular octagon:<br>\\(360 \\div 8 = 45^\\circ\\)<br><br>Required answer:<br>\\(720 + 45 = 765^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of an octagon minus the interior angle of a regular pentagon.",
+  solution: "Angle sum of an octagon:<br>\\((8 - 2) \\times 180 = 1080^\\circ\\)<br><br>Interior angle of a regular pentagon:<br>\\(108^\\circ\\)<br><br>Required answer:<br>\\(1080 - 108 = 972^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of a decagon plus the exterior angle of a regular hexagon.",
+  solution: "Angle sum of a decagon:<br>\\((10 - 2) \\times 180 = 1440^\\circ\\)<br><br>Exterior angle of a regular hexagon:<br>\\(360 \\div 6 = 60^\\circ\\)<br><br>Required answer:<br>\\(1440 + 60 = 1500^\\circ\\)"
+},
+
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of a hexagon minus the exterior angle of a regular decagon.",
+  solution: "Angle sum of a hexagon:<br>\\((6 - 2) \\times 180 = 720^\\circ\\)<br><br>Exterior angle of a regular decagon:<br>\\(360 \\div 10 = 36^\\circ\\)<br><br>Required answer:<br>\\(720 - 36 = 684^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 2",
+  level: "Crossover",
+  question: "Find the angle sum of an octagon minus the interior angle of a regular hexagon.",
+  solution: "Angle sum of an octagon:<br>\\((8 - 2) \\times 180 = 1080^\\circ\\)<br><br>Interior angle of a regular hexagon:<br>\\(120^\\circ\\)<br><br>Required answer:<br>\\(1080 - 120 = 960^\\circ\\)"
+},
+
+
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "Find the angle sum of a pentagon.",
+  solution: "The formula for the angle sum is:<br>\\((n - 2) \\times 180\\)<br><br>\\((5 - 2) \\times 180 = 3 \\times 180 = 540^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "Find the angle sum of an octagon.",
+  solution: "\\((8 - 2) \\times 180 = 6 \\times 180 = 1080^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "Find the angle sum of a decagon.",
+  solution: "\\((10 - 2) \\times 180 = 8 \\times 180 = 1440^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "What is the interior angle of a regular pentagon?",
+  solution: "Angle sum = \\(540^\\circ\\)<br><br>Each angle = \\(540 \\div 5 = 108^\\circ\\)"
+},
+
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "What is the interior angle of a regular octagon?",
+  solution: "Angle sum = \\(1080^\\circ\\)<br><br>Each angle = \\(1080 \\div 8 = 135^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "What is the interior angle of a regular decagon?",
+  solution: "Angle sum = \\(1440^\\circ\\)<br><br>Each angle = \\(1440 \\div 10 = 144^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "What is the exterior angle of a regular pentagon?",
+  solution: "Exterior angles add to \\(360^\\circ\\)<br><br>\\(360 \\div 5 = 72^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "What is the exterior angle of a regular hexagon?",
+  solution: "\\(360 \\div 6 = 60^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "What is the exterior angle of a regular octagon?",
+  solution: "\\(360 \\div 8 = 45^\\circ\\)"
+},
+
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "Four angles in a pentagon are \\(120^\\circ\\), \\(50^\\circ\\), \\(90^\\circ\\) and \\(100^\\circ\\). Find the missing angle.",
+  solution: "Angle sum of a pentagon = \\(540^\\circ\\)<br><br>Known angles total:<br>\\(120 + 50 + 90 + 100 = 360^\\circ\\)<br><br>Missing angle:<br>\\(540 - 360 = 180^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "Four angles in a pentagon are \\(95^\\circ\\), \\(110^\\circ\\), \\(130^\\circ\\) and \\(85^\\circ\\). Find the missing angle.",
+  solution: "Angle sum = \\(540^\\circ\\)<br><br>Known angles total:<br>\\(95 + 110 + 130 + 85 = 420^\\circ\\)<br><br>Missing angle:<br>\\(540 - 420 = 120^\\circ\\)"
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "The exterior angle of a regular polygon is \\(45^\\circ\\). Find the number of sides.",
+  solution: "Exterior angles add to \\(360^\\circ\\)<br><br>\\(360 \\div 45 = 8\\)<br><br>The polygon has 8 sides."
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "The exterior angle of a regular polygon is \\(36^\\circ\\). Find the number of sides.",
+  solution: "Exterior angles add to \\(360^\\circ\\)<br><br>\\(360 \\div 36 = 10\\)<br><br>The polygon has 10 sides."
+},
+{
+  topic: "Regular Polygons - Angles 1",
+  level: "Foundation",
+  question: "The exterior angle of a regular polygon is \\(30^\\circ\\). Find the number of sides.",
+  solution: "Exterior angles add to \\(360^\\circ\\)<br><br>\\(360 \\div 30 = 12\\)<br><br>The polygon has 12 sides."
+},
+
 
 {
   topic: "Volume and Surface Area - Cylinders",

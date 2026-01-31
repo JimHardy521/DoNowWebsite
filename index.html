@@ -37,18 +37,72 @@ body {
 .instructions label {
   cursor: pointer;
   font-weight: 600;
-  margin-left: 6px;
 }
 
-.instructions input {
-  margin-right: 4px;
-  transform: scale(1.1);
+/* ---------- TIMER BADGE ---------- */
+.timer {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e8eef5;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+#timeDisplay::before {
+  content: "⏱️ ";
+}
+
+.timer-controls {
+  display: inline-flex;
+  gap: 6px;
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width 0.3s ease;
+}
+
+.timer.open .timer-controls {
+  max-width: 240px;
+}
+
+.timer-controls button {
+  border: none;
+  background: #d9e2ec;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
   cursor: pointer;
 }
 
-.solution.hidden {
-  display: none;
+.timer-controls button:hover {
+  background: #cbd5e1;
 }
+
+/* ---------- BUTTON BAR LAYOUT ---------- */
+.button-bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  grid-column: 2;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button-bar .timer {
+  grid-column: 3;
+  justify-self: end;
+}
+
+
+
 </style>
 
 <!-- Google tag (gtag.js) -->
@@ -68,6 +122,7 @@ body {
 
 <h1>GCSE Maths</h1>
 
+
 <div class="instructions">
   Click on each question to reveal the solution, or
   <label>
@@ -76,18 +131,34 @@ body {
   </label>
 </div>
 
+
 <div class="button-bar">
-  <select id="levelSelect">
-    <option value="Foundation">Foundation</option>
-    <option value="Crossover">Crossover</option>
-    <option value="Higher" selected>Higher</option>
-  </select>
+  <div class="button-group">
+    <select id="levelSelect">
+      <option value="Foundation">Foundation</option>
+      <option value="Crossover">Crossover</option>
+      <option value="Higher" selected>Higher</option>
+    </select>
 
-  <button onclick="loadQuestions()">New Do Now</button>
-  <button onclick="printQuestions()">Print Do Now</button>
-  <button onclick="openRevisionBuilder()">Create Revision Worksheet</button>
+    <button onclick="loadQuestions()">New Do Now</button>
+    <button onclick="printQuestions()">Print Do Now</button>
+    <button onclick="openRevisionBuilder()">Create Revision Worksheet</button>
+  </div>
 
+  <!-- Timer -->
+  <div id="timerBadge" class="timer">
+    <span id="timeDisplay">05:00</span>
+    <div class="timer-controls">
+      <button id="minusMin">–</button>
+      <button id="plusMin">+</button>
+      <button id="startPause">Start</button>
+      <button id="resetTimer">Reset</button>
+    </div>
+  </div>
 </div>
+
+
+
 
 <div id="questions"></div>
 
@@ -404,6 +475,74 @@ function openRevisionBuilder() {
   window.open(url, "_blank");
 }
 </script>
+
+<script>
+let timerSeconds = 300;
+let timerInterval = null;
+let running = false;
+
+const badge = document.getElementById("timerBadge");
+const display = document.getElementById("timeDisplay");
+const startPause = document.getElementById("startPause");
+
+function updateDisplay() {
+  const m = Math.floor(timerSeconds / 60);
+  const s = timerSeconds % 60;
+  display.textContent = `${m}:${s.toString().padStart(2, "0")}`;
+}
+
+badge.onclick = () => {
+  badge.classList.toggle("open");
+};
+
+document.getElementById("plusMin").onclick = e => {
+  e.stopPropagation();
+  timerSeconds += 60;
+  updateDisplay();
+};
+
+document.getElementById("minusMin").onclick = e => {
+  e.stopPropagation();
+  timerSeconds = Math.max(60, timerSeconds - 60);
+  updateDisplay();
+};
+
+startPause.onclick = e => {
+  e.stopPropagation();
+
+  if (!running) {
+    running = true;
+    startPause.textContent = "Pause";
+    timerInterval = setInterval(() => {
+      if (timerSeconds > 0) {
+        timerSeconds--;
+        updateDisplay();
+      } else {
+        clearInterval(timerInterval);
+        running = false;
+        startPause.textContent = "Start";
+      }
+    }, 1000);
+  } else {
+    clearInterval(timerInterval);
+    running = false;
+    startPause.textContent = "Start";
+  }
+};
+
+document.getElementById("resetTimer").onclick = e => {
+  e.stopPropagation();
+  clearInterval(timerInterval);
+  timerSeconds = 300;
+  running = false;
+  startPause.textContent = "Start";
+  updateDisplay();
+};
+
+updateDisplay();
+</script>
+
+
 
 </body>
 </html>

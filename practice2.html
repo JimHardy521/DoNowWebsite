@@ -225,9 +225,9 @@ function buildPracticePage() {
     filtered = filtered.filter(q => q.level === year);
   }
 
-  const container = document.getElementById("questions");
-  const pageTitle = `Practice: ${topic}` + (year ? ` (${year})` : "");
-  document.getElementById("title").textContent = pageTitle;
+const container = document.getElementById("questions");
+const pageTitle = `Practice: ${topic}`;
+document.getElementById("title").textContent = pageTitle;
 
   filtered.forEach((q, i) => {
     const box = document.createElement("div");

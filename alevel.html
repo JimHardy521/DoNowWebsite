@@ -64,10 +64,14 @@ body {
 </div>
 
 <div class="button-bar">
-  <select id="yearSelect">
-    <option value="Year 12" selected>Year 12</option>
-    <option value="Year 13">Year 13</option>
-  </select>
+<select id="yearSelect">
+  <option value="Year 12" selected>Year 12 – Pure</option>
+  <option value="Year 13">Year 13 – Pure</option>
+  <option value="Year 12 - Mechanics">Year 12 – Mechanics</option>
+  <option value="Year 12 - Stats">Year 12 – Stats</option>
+  <option value="Year 13 - Mechanics">Year 13 – Mechanics</option>
+  <option value="Year 13 - Stats">Year 13 – Stats</option>
+</select>
 
   <button onclick="loadQuestions()">New Do Now</button>
   <button onclick="printQuestions()">Print Do Now</button>
@@ -294,7 +298,7 @@ function copyTopicURL() {
 
   const url = window.location.origin + window.location.pathname + "?" + params;
   navigator.clipboard.writeText(url).then(() =>
-    alert("This website address has been copied to your clipboard.")
+    alert("This website address has been copied to your clipboard. Paste this into a new window to pracice the same Do Now Topics.")
   );
 }
 

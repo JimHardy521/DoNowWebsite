@@ -1,5 +1,37 @@
 const alevelQuestions = [
 
+  {
+    topic: "Kinematics",
+    level: "Year 12 - Mechanics",
+    question: "I am currently building the Year 12 set of mechanics questions.",
+    solution: "The solution will be shown here."
+  },
+
+    {
+    topic: "Forces",
+    level: "Year 12 - Mechanics",
+    question: "I am currently building the Year 12 set of mechanics questions.",
+    solution: "The solution will be shown here."
+  },
+  {
+    topic: "Data Presentation",
+    level: "Year 12 - Stats",
+    question: "I am currently building the Year 12 set of statistics questions.",
+    solution: "The solution will be shown here."
+  },
+  {
+    topic: "Moments",
+    level: "Year 13 - Mechanics",
+    question: "I am currently building the Year 13 set of mechanics questions.",
+    solution: "The solution will be shown here."
+  },
+  {
+    topic: "Normal Hypothesis Tests",
+    level: "Year 13 - Stats",
+    question: "I am currently building the Year 13 set of statistics questions.",
+    solution: "The solution will be shown here."
+  },
+
 {
   topic: "Numerical Methods - Introduction",
   level: "Year 13",

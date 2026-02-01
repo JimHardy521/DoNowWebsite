@@ -1,6 +1,75 @@
 const alevelfurther = [
 
 {
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve, giving answers in logarithmic form:<br>\\( 6\\cosh^2 x - 5\\cosh x - 6 = 0 \\).",
+  solution: "Let \\( u = \\cosh x \\).<br><br>\\( 6u^2 - 5u - 6 = 0 \\).<br>\\( (3u + 2)(2u - 3) = 0 \\).<br><br>\\( u = \\frac{3}{2} \\) (since \\( \\cosh x \\ge 1 \\)).<br><br>\\( x = \\pm \\ln\\left( \\frac{3 + \\sqrt{5}}{2} \\right) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( \\sinh^2 x - 5\\sinh x + 4 = 0 \\).",
+  solution: "Let \\( u = \\sinh x \\).<br><br>\\( u^2 - 5u + 4 = 0 \\).<br>\\( (u - 4)(u - 1) = 0 \\).<br><br>\\( x = \\ln(4 + \\sqrt{17}) \\) or \\( x = \\ln(1 + \\sqrt{2}) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( 2\\cosh^2 x - 7 = 0 \\).",
+  solution: "\\( \\cosh^2 x = \\frac{7}{2} \\).<br>\\( \\cosh x = \\sqrt{\\frac{7}{2}} \\).<br><br>\\( x = \\pm \\ln\\left( \\sqrt{\\frac{7}{2}} + \\sqrt{\\frac{5}{2}} \\right) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( \\cosh^2 x - 3\\cosh x + 2 = 0 \\).",
+  solution: "Let \\( u = \\cosh x \\).<br><br>\\( u^2 - 3u + 2 = 0 \\).<br>\\( (u - 1)(u - 2) = 0 \\).<br><br>\\( u = 2 \\).<br>\\( x = \\pm \\ln(2 + \\sqrt{3}) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( 3\\sinh^2 x - 12 = 0 \\).",
+  solution: "\\( \\sinh^2 x = 4 \\).<br>\\( \\sinh x = \\pm 2 \\).<br><br>\\( x = \\ln(2 + \\sqrt{5}) \\) or \\( x = -\\ln(2 + \\sqrt{5}) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( 5\\cosh^2 x - 5 = 0 \\).",
+  solution: "\\( \\cosh^2 x = 1 \\).<br>\\( \\cosh x = 1 \\).<br><br>\\( x = 0 \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( 2\\sinh^2 x + 7\\sinh x + 3 = 0 \\).",
+  solution: "Let \\( u = \\sinh x \\).<br><br>\\( 2u^2 + 7u + 3 = 0 \\).<br>\\( (2u + 1)(u + 3) = 0 \\).<br><br>\\( x = -\\ln\\left( \\frac{1 + \\sqrt{5}}{2} \\right) \\) or \\( x = -\\ln(3 + \\sqrt{10}) \\)."
+
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( \\cosh^2 x - 4 = 0 \\).",
+  solution: "\\( \\cosh x = 2 \\).<br><br>\\( x = \\pm \\ln(2 + \\sqrt{3}) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( 3\\cosh^2 x - 10\\cosh x + 3 = 0 \\).",
+  solution: "Let \\( u = \\cosh x \\).<br><br>\\( 3u^2 - 10u + 3 = 0 \\).<br>\\( (3u - 1)(u - 3) = 0 \\).<br><br>\\( u = 3 \\).<br>\\( x = \\pm \\ln(3 + 2\\sqrt{2}) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( \\sinh^2 x - 9 = 0 \\).",
+  solution: "\\( \\sinh x = \\pm 3 \\).<br><br>\\( x = \\ln(3 + \\sqrt{10}) \\) or \\( x = -\\ln(3 + \\sqrt{10}) \\)."
+},
+{
+  topic: "Hyperbolics - Solving",
+  level: "Year 12",
+  question: "Solve:<br>\\( 2\\cosh^2 x - 3\\cosh x - 2 = 0 \\).",
+  solution: "Let \\( u = \\cosh x \\).<br><br>\\( 2u^2 - 3u - 2 = 0 \\).<br>\\( (2u + 1)(u - 2) = 0 \\).<br><br>\\( u = 2 \\).<br>\\( x = \\pm \\ln(2 + \\sqrt{3}) \\)."
+},
+
+
+{
   topic: "Hyperbolics - Sketching",
   level: "Year 12",
   question: "Sketch the graph of \\( y = 2\\cosh x \\).<br>State the minimum point and the range.",

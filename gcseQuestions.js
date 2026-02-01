@@ -5687,12 +5687,6 @@ const gcseQuestions = [
 {
   topic: "Indices - Fractional and Negative",
   level: "Higher",
-  question: "Express \\(\\frac{1}{x^{\\frac{5}{4}}}\\) using a negative index.",
-  solution: "\\(x^{-\\frac{5}{4}}\\)."
-},
-{
-  topic: "Indices - Fractional and Negative",
-  level: "Higher",
   question: "Simplify \\(32^{\\frac{3}{5}}\\).",
   solution: "Write 32 as \\(2^5\\), then \\((2^5)^{\\frac{3}{5}} = 2^3 = 8\\)."
 },

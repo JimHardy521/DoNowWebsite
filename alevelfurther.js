@@ -1,5 +1,82 @@
 const alevelfurther = [
 
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = 2\\cosh x \\).<br>State the minimum point and the range.",
+  solution: "Minimum at \\( x = 0 \\): \\( y = 2 \\).<br>Symmetric about the y-axis.<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( y \\ge 2 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\cosh(x - 1) \\).<br>State the minimum point.",
+  solution: "Shift right by 1.<br>Minimum at \\( (1, 1) \\).<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( y \\ge 1 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = 3\\cosh x - 2 \\).<br>State the minimum point and range.",
+  solution: "Vertical stretch by 3, down 2.<br>Minimum at \\( (0, 1) \\).<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( y \\ge 1 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = 2\\sinh x \\).",
+  solution: "Vertical stretch of \\( y = \\sinh x \\).<br>Still passes through the origin.<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( y \\in \\mathbb{R} \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\tanh x \\).<br>State the asymptotes.",
+  solution: "Passes through \\( (0, 0) \\).<br>Horizontal asymptotes: \\( y = \\pm1 \\).<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( -1 < y < 1 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = 3\\tanh x \\).",
+  solution: "Vertical stretch by 3.<br>Asymptotes: \\( y = \\pm3 \\).<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( -3 < y < 3 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\tanh x + 2 \\).",
+  solution: "Shift up by 2.<br>Asymptotes: \\( y = 3 \\) and \\( y = 1 \\).<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( 1 < y < 3 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\operatorname{arcsinh} x \\).",
+  solution: "Inverse of \\( y = \\sinh x \\).<br>Passes through the origin.<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( y \\in \\mathbb{R} \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\operatorname{arcsinh}(x - 2) \\).",
+  solution: "Shift right by 2.<br>Passes through \\( (2, 0) \\).<br><br>Domain: \\( x \\in \\mathbb{R} \\).<br>Range: \\( y \\in \\mathbb{R} \\)."
+},
+
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\operatorname{arccosh} x \\).",
+  solution: "Starts at \\( (1, 0) \\), increasing.<br><br>Domain: \\( x \\ge 1 \\).<br>Range: \\( y \\ge 0 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\operatorname{arccosh}(x - 2) \\).",
+  solution: "Shift right by 2.<br>Starts at \\( (3, 0) \\).<br><br>Domain: \\( x \\ge 3 \\).<br>Range: \\( y \\ge 0 \\)."
+},
+{
+  topic: "Hyperbolics - Sketching",
+  level: "Year 12",
+  question: "Sketch the graph of \\( y = \\operatorname{arctanh}(x - 1) \\).",
+  solution: "Shift right by 1.<br>Vertical asymptotes at \\( x = 0 \\) and \\( x = 2 \\).<br><br>Domain: \\( 0 < x < 2 \\).<br>Range: \\( y \\in \\mathbb{R} \\)."
+},
+
+
+
+  
   {
   topic: "Matrices - Determinants",
   level: "Year 13",

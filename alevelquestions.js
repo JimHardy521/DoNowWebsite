@@ -1,84 +1,280 @@
 const alevelQuestions = [
 
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle after \\(t\\) seconds is \\( v = 4t + 1 \\) m s\\(^{-1}\\). After 3 seconds the displacement is 27 m from O. Find the displacement after 8 seconds.",
+  solution: "Integrate velocity:<br>\\( s = 2t^2 + t + C \\)<br><br>Using \\( s(3)=27 \\):<br>\\( 27 = 18 + 3 + C \\Rightarrow C=6 \\)<br><br>\\( s(8)=128 + 8 + 6 = 142\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle after \\(t\\) seconds is \\( v = 5t - 4 \\) m s\\(^{-1}\\). After 4 seconds the displacement is 32 m from O. Find the displacement after 9 seconds.",
+  solution: "Integrate velocity:<br>\\( s = \\tfrac52 t^2 - 4t + C \\)<br><br>Using \\( s(4)=32 \\):<br>\\( 32 = 40 - 16 + C \\Rightarrow C=8 \\)<br><br>\\( s(9)=\\tfrac{405}{2} - 36 + 8 = \\tfrac{349}{2}\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle after \\(t\\) seconds is \\( v = 3t + 6 \\) m s\\(^{-1}\\). After 2 seconds the displacement is 20 m from O. Find the displacement after 7 seconds.",
+  solution: "Integrate velocity:<br>\\( s = \\tfrac32 t^2 + 6t + C \\)<br><br>Using \\( s(2)=20 \\):<br>\\( 20 = 6 + 12 + C \\Rightarrow C=2 \\)<br><br>\\( s(7)=\\tfrac{147}{2} + 42 + 2 = \\tfrac{231}{2}\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The acceleration of a particle after \\(t\\) seconds is \\( a = 6t - 12 \\) m s\\(^{-2}\\). Given that the velocity is 8 m s\\(^{-1}\\) when \\( t = 0 \\), find the distance between the two points at which the particle is instantaneously at rest.",
+  solution: "Integrate acceleration:<br>\\( v = 3t^2 - 12t + C \\)<br>Using \\( v(0)=8 \\):\\( C=8 \\)<br>\\( 3t^2 - 12t + 8 = 0 \\Rightarrow t=\\tfrac{2}{3},4 \\)<br><br>Displacement:<br>\\( s = t^3 - 6t^2 + 8t \\)<br><br>\\( s(4)-s(\\tfrac{2}{3})=\\tfrac{200}{27}\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The acceleration of a particle after \\(t\\) seconds is \\( a = 2t - 6 \\) m s\\(^{-2}\\). Given that the velocity is 5 m s\\(^{-1}\\) when \\( t = 0 \\), find the distance between the two points at which the particle is instantaneously at rest.",
+  solution: "Integrate acceleration:<br>\\( v = t^2 - 6t + C \\)<br><br>Using \\( v(0)=5 \\):<br>\\( C=5 \\)<br><br>Set \\( v=0 \\):<br>\\( t^2 - 6t + 5 = 0 \\Rightarrow t=1,5 \\)<br><br>Displacement:<br>\\( s = \\tfrac13 t^3 - 3t^2 + 5t \\)<br><br>\\( s(5)-s(1)=\\tfrac{16}{3}\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The acceleration of a particle after \\(t\\) seconds is \\( a = 8t - 16 \\) m s\\(^{-2}\\). Given that the velocity is 10 m s\\(^{-1}\\) when \\( t = 0 \\), find the distance between the two points at which the particle is instantaneously at rest.",
+  solution: "Integrate acceleration:<br>\\( v = 4t^2 - 16t + C \\)<br><br>Using \\( v(0)=10 \\):<br>\\( C=10 \\)<br><br>Set \\( v=0 \\):<br>\\( 4t^2 - 16t + 10 = 0 \\Rightarrow t=1,\\tfrac{5}{2} \\)<br><br>Displacement:<br>\\( s = \\tfrac43 t^3 - 8t^2 + 10t \\)<br><br>\\( s(\\tfrac{5}{2})-s(1)=\\tfrac{47}{6}\\,\\text{m} \\)"
+},
+
+
+
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle after \\(t\\) seconds is \\( v = 6t - 2t^2 \\) m s\\(^{-1}\\). Find the time at which the acceleration is zero.",
+  solution: "Acceleration:<br>\\( a = \\frac{dv}{dt} = 6 - 4t \\)<br><br>Set \\( a=0 \\):<br>\\( t = \\tfrac32\\,\\text{s} \\)"
+},
+
+
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle is \\( v = t^2 - 4t + 3 \\) m s\\(^{-1}\\). Find the times when the particle is at rest.",
+  solution: "Set \\( v=0 \\):<br>\\( t^2 - 4t + 3 = 0 \\)<br><br>\\( (t-1)(t-3)=0 \\Rightarrow t=1,3 \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The acceleration of a particle is \\( a = 2t - 6 \\) m s\\(^{-2}\\). Given that the velocity is zero when \\( t=1 \\), find the velocity when \\( t=4 \\).",
+  solution: "Integrate:<br>\\( v = t^2 - 6t + C \\)<br><br>Using \\( v(1)=0 \\):<br>\\( C=5 \\)<br><br>\\( v(4)=16 - 24 + 5 = -3\\,\\text{m s}^{-1} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle is \\( v = 2t^2 + 1 \\) m s\\(^{-1}\\). Find the distance travelled in the first 3 seconds.",
+  solution: "Integrate:<br>\\( s = \\tfrac23 t^3 + t \\)<br><br>\\( s(3)=21\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The acceleration of a particle is \\( a = 8 - 2t \\) m s\\(^{-2}\\). Find the time when the velocity is a maximum.",
+  solution: "Velocity is maximum when:<br>\\( a=0 \\)<br><br>\\( 8 - 2t = 0 \\Rightarrow t=4\\,\\text{s} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle is \\( v = 5t - t^2 \\) m s\\(^{-1}\\). Find the maximum velocity.",
+  solution: "Acceleration:<br>\\( a = 5 - 2t \\)<br><br>Set \\( a=0 \\):<br>\\( t=2.5 \\)<br><br>\\( v_{max}=6.25\\,\\text{m s}^{-1} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The velocity of a particle is \\( v = 6t \\) m s\\(^{-1}\\). Find the displacement between \\( t=1 \\) and \\( t=3 \\).",
+  solution: "Integrate:<br>\\( s = 3t^2 \\)<br><br>\\( s(3)-s(1)=24\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The acceleration of a particle is \\( a = 10t \\) m s\\(^{-2}\\). Find the displacement in the first 2 seconds, given the particle starts from rest at the origin.",
+  solution: "Velocity:<br>\\( v = 5t^2 \\)<br><br>Displacement:<br>\\( s = \\tfrac53 t^3 \\)<br><br>\\( s(2)=\\tfrac{40}{3}\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Variable Acceleration",
+  level: "Year 12 - Mechanics",
+  question: "The acceleration of a particle is \\( a = 6t - 4 \\) m s\\(^{-2}\\). Given that the velocity is 2 m s\\(^{-1}\\) when \\( t=1 \\), find the velocity when \\( t=3 \\).",
+  solution: "Integrate:<br>\\( v = 3t^2 - 4t + C \\)<br><br>Using \\( v(1)=2 \\):<br>\\( C=3 \\)<br><br>\\( v(3)=18\\,\\text{m s}^{-1} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle accelerates uniformly from rest for 20 s, then travels at constant speed for a further 40 s. The total displacement in 60 s is 350 m. Find the maximum velocity reached.",
+  solution: "Let maximum velocity be \\(v\\).<br><br>Area under v–t graph:<br>\\( \\tfrac12 \\times 20 \\times v + 40v = 350 \\)<br><br>\\( 50v = 350 \\Rightarrow v = 7\\,\\text{m s}^{-1} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A train accelerates uniformly to 8 m s\\(^{-1}\\) in 20 s, travels at this speed for 100 s, then decelerates uniformly to rest in 40 s. Find the total distance travelled.",
+  solution: "Acceleration phase:<br>\\( \\tfrac12 \\times 20 \\times 8 = 80 \\)<br><br>Constant speed:<br>\\( 100 \\times 8 = 800 \\)<br><br>Deceleration phase:<br>\\( \\tfrac12 \\times 40 \\times 8 = 160 \\)<br><br>Total distance = \\( 1040\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle accelerates uniformly from rest at 3 m s\\(^{-2}\\) for 20 s, then immediately decelerates uniformly for 40 s to rest. Find the total distance travelled.",
+  solution: "Maximum velocity:<br>\\( v = 3 \\times 20 = 60 \\)<br><br>Area under v–t graph:<br>\\( \\tfrac12 \\times (20+40) \\times 60 = 1800\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle moves with constant acceleration from 2 m s\\(^{-1}\\) to 10 m s\\(^{-1}\\) in 8 s. Find the displacement in this time.",
+  solution: "Area under trapezium:<br>\\( \\tfrac12 (2+10) \\times 8 = 48\\,\\text{m} \\)"
+},
+
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle travels at 5 m s\\(^{-1}\\) for 10 s, then accelerates uniformly at 2 m s\\(^{-2}\\) for 6 s. Find the total displacement.",
+  solution: "Final velocity:<br>\\( v = 5 + 2\\times6 = 17 \\)<br><br>Constant speed:<br>\\( 5\\times10 = 50 \\)<br><br>Acceleration phase:<br>\\( \\tfrac12 (5+17) \\times 6 = 66 \\)<br><br>Total displacement = \\(116\\,\\text{m}\\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A car decelerates uniformly from 20 m s\\(^{-1}\\) to rest in 10 s. Find the distance travelled while braking.",
+  solution: "Area of triangle:<br>\\( \\tfrac12 \\times 10 \\times 20 = 100\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle accelerates uniformly from rest to 16 m s\\(^{-1}\\) in 8 s, then continues at constant speed for 12 s. Find the total displacement.",
+  solution: "Acceleration phase:<br>\\( \\tfrac12 \\times 8 \\times 16 = 64 \\)<br><br>Constant speed:<br>\\( 12 \\times 16 = 192 \\)<br><br>Total displacement = \\(256\\,\\text{m}\\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle accelerates uniformly from rest to velocity \\(v\\) in 10 s. The displacement in this time is 150 m. Find \\(v\\).",
+  solution: "Area under graph:<br>\\( \\tfrac12 \\times 10 \\times v = 150 \\)<br><br>\\( 5v = 150 \\Rightarrow v = 30\\,\\text{m s}^{-1} \\)"
+},
+
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle accelerates uniformly at 4 m s\\(^{-2}\\) for 5 s from rest. Find the displacement.",
+  solution: "Final velocity:<br>\\( v = 4\\times5 = 20 \\)<br><br>Area:<br>\\( \\tfrac12 \\times 5 \\times 20 = 50\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle decelerates uniformly from 18 m s\\(^{-1}\\) to 6 m s\\(^{-1}\\) in 6 s. Find the displacement.",
+  solution: "Area under trapezium:<br>\\( \\tfrac12 (18+6) \\times 6 = 72\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle accelerates uniformly from rest to 14 m s\\(^{-1}\\) in 7 s. Find the acceleration and displacement.",
+  solution: "Acceleration:<br>\\( a = \\tfrac{14}{7} = 2 \\)<br><br>Displacement:<br>\\( \\tfrac12 \\times 7 \\times 14 = 49\\,\\text{m} \\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A cyclist travels at 6 m s\\(^{-1}\\) for 20 s, then accelerates uniformly at 1.5 m s\\(^{-2}\\) for 8 s. Find the total displacement.",
+  solution: "Final velocity:<br>\\( v = 6 + 1.5\\times8 = 18 \\)<br><br>Constant speed:<br>\\( 6\\times20 = 120 \\)<br><br>Acceleration phase:<br>\\( \\tfrac12 (6+18) \\times 8 = 96 \\)<br><br>Total displacement = \\(216\\,\\text{m}\\)"
+},
+
+{
+  topic: "Kinematics - Velocity-Time Graphs",
+  level: "Year 12 - Mechanics",
+  question: "A particle accelerates uniformly from rest for \\(t\\) seconds, reaching velocity 20 m s\\(^{-1}\\). The displacement in this time is 150 m. Find \\(t\\).",
+  solution: "Area under graph:<br>\\( \\tfrac12 \\times t \\times 20 = 150 \\)<br><br>\\( 10t = 150 \\Rightarrow t = 15\\,\\text{s} \\)"
+},
+
+
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "1) Find the unit vector parallel to \\( \\begin{pmatrix} 5 \\\\ -12 \\end{pmatrix} \\).",
+  question: "Find the unit vector parallel to \\( \\begin{pmatrix} 5 \\\\ -12 \\end{pmatrix} \\).",
   solution: "Magnitude = \\( \\sqrt{5^2+(-12)^2}=13 \\)<br><br>Unit vector:<br>\\( \\begin{pmatrix} \\frac{5}{13} \\\\ -\\frac{12}{13} \\end{pmatrix} \\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "2) Find the magnitude and bearing of the vector \\( \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\).",
+  question: "Find the magnitude and bearing of the vector \\( \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\).",
   solution: "Magnitude:<br>\\( \\sqrt{3^2+(-4)^2}=5 \\)<br><br>Angle south of east:<br>\\( \\tan^{-1}(\\tfrac{4}{3})=53.1^\\circ \\)<br><br>Bearing:<br>\\( 90+53.1=143.1^\\circ \\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "3) A man walks on a bearing of \\(300^\\circ\\) for 200 m. Write his displacement as a column vector.",
+  question: "A man walks on a bearing of \\(300^\\circ\\) for 200 m. Write his displacement as a column vector.",
   solution: "East component:<br>\\( 200\\sin300^\\circ=-100\\sqrt3 \\)<br><br>North component:<br>\\( 200\\cos300^\\circ=100 \\)<br><br>Vector:<br>\\( \\begin{pmatrix}-100\\sqrt3 \\\\ 100\\end{pmatrix} \\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "4) Find the value of \\(k\\) such that \\( \\begin{pmatrix}12\\\\-20\\end{pmatrix} \\) and \\( \\begin{pmatrix}k\\\\15\\end{pmatrix} \\) are parallel.",
+  question: "Find the value of \\(k\\) such that \\( \\begin{pmatrix}12\\\\-20\\end{pmatrix} \\) and \\( \\begin{pmatrix}k\\\\15\\end{pmatrix} \\) are parallel.",
   solution: "\\( \\frac{12}{k}=\\frac{-20}{15} \\Rightarrow k=-9 \\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "5) A has position vector \\( 3\\mathbf{i}-\\mathbf{j} \\) and B has position vector \\( 2\\mathbf{j} \\). Find the exact distance AB.",
+  question: "A has position vector \\( 3\\mathbf{i}-\\mathbf{j} \\) and B has position vector \\( 2\\mathbf{j} \\). Find the exact distance AB.",
   solution: "A=(3,−1), B=(0,2)<br><br>AB=(−3,3)<br><br>Distance:<br>\\( \\sqrt{18}=3\\sqrt2 \\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "9) Find the unit vector in the direction of \\( -3\\mathbf{i}+4\\mathbf{j} \\).",
+  question: "Find the unit vector in the direction of \\( -3\\mathbf{i}+4\\mathbf{j} \\).",
   solution: "Magnitude = 5<br><br>Unit vector:<br>\\( -\\frac35\\mathbf{i}+\\frac45\\mathbf{j} \\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "10) Points A and B have position vectors \\( \\begin{pmatrix}1\\\\2\\end{pmatrix} \\) and \\( \\begin{pmatrix}5\\\\-1\\end{pmatrix} \\). Find vector AB.",
+  question: "Points A and B have position vectors \\( \\begin{pmatrix}1\\\\2\\end{pmatrix} \\) and \\( \\begin{pmatrix}5\\\\-1\\end{pmatrix} \\). Find vector AB.",
   solution: "\\( \\mathbf{AB}=\\mathbf{b}-\\mathbf{a}=\\begin{pmatrix}4\\\\-3\\end{pmatrix} \\)"
 },
 
-{
-  topic: "Vectors",
-  level: "Year 12 - Mechanics",
-  question: "12) A particle moves 3 m east and 4 m north. Write the displacement vector and find its magnitude.",
-  solution: "Vector:<br>\\( \\begin{pmatrix}3\\\\4\\end{pmatrix} \\)<br><br>Magnitude:<br>\\( 5 \\)"
-},
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "14) Show that \\( \\begin{pmatrix}-10\\\\15\\end{pmatrix} \\) and \\( \\begin{pmatrix}12\\\\-18\\end{pmatrix} \\) are parallel.",
+  question: "Show that \\( \\begin{pmatrix}-10\\\\15\\end{pmatrix} \\) and \\( \\begin{pmatrix}12\\\\-18\\end{pmatrix} \\) are parallel.",
   solution: "Both vectors have a common factor \\( \\begin{pmatrix}-2\\\\3\\end{pmatrix}\\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "15) Find the bearing of the vector \\( \\begin{pmatrix}-5\\\\12\\end{pmatrix} \\).",
+  question: "Find the bearing of the vector \\( \\begin{pmatrix}-5\\\\12\\end{pmatrix} \\).",
   solution: "Angle west of north:<br>\\( \\tan^{-1}(\\tfrac{5}{12})=22.6^\\circ \\)<br><br>Bearing:<br>\\( 360-22.6=337.4^\\circ \\)"
 },
 
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "16) A displacement is \\( 7\\mathbf{i}-24\\mathbf{j} \\). Find its magnitude and unit vector.",
+  question: "A displacement is \\( 7\\mathbf{i}-24\\mathbf{j} \\). Find its magnitude and unit vector.",
   solution: "Magnitude:<br>\\( 25 \\)<br><br>Unit vector:<br>\\( \\frac{7}{25}\\mathbf{i}-\\frac{24}{25}\\mathbf{j} \\)"
 },
-
-
-  
 
 {
   topic: "Numerical Methods - Introduction",
@@ -153,6 +349,25 @@ const alevelQuestions = [
   question: "The equation \\(x^3 - \\sin x = 0\\) has a solution \\(x = \\alpha\\).<br>By considering a suitable change of sign, show that \\(\\alpha\\) lies between 0.9 and 1.0.",
   solution: "Rearrange: \\(f(x) = x^3 - \\sin x\\)<br>\\(f(0.9) \\approx -0.054, f(1.0) \\approx 0.159\\)<br>Change of sign ⇒ \\(0.9 < \\alpha < 1.0\\)"
 },
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "1) Points A and B have position vectors \\( \\begin{pmatrix}2\\\\-1\\end{pmatrix} \\) and \\( \\begin{pmatrix}6\\\\3\\end{pmatrix} \\). Find the exact distance between A and B.",
+  solution: "Distance = \\( \\lvert \\mathbf{AB} \\rvert \\)<br>\\( = \\sqrt{(6-2)^2 + (3-(-1))^2} \\)<br>\\( = \\sqrt{16+16} \\)<br>\\( = 4\\sqrt{2} \\)"
+},
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "2) Points P and Q have position vectors \\( \\begin{pmatrix}-3\\\\4\\end{pmatrix} \\) and \\( \\begin{pmatrix}1\\\\-2\\end{pmatrix} \\). Find the exact distance between P and Q.",
+  solution: "Distance = \\( \\lvert \\mathbf{PQ} \\rvert \\)<br>\\( = \\sqrt{(1-(-3))^2 + (-2-4)^2} \\)<br>\\( = \\sqrt{16+36} \\)<br>\\( = 2\\sqrt{13} \\)"
+},
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "3) Points X and Y have position vectors \\( \\begin{pmatrix}7\\\\1\\end{pmatrix} \\) and \\( \\begin{pmatrix}2\\\\-3\\end{pmatrix} \\). Find the exact distance between X and Y.",
+  solution: "Distance = \\( \\lvert \\mathbf{XY} \\rvert \\)<br>\\( = \\sqrt{(2-7)^2 + (-3-1)^2} \\)<br>\\( = \\sqrt{25+16} \\)<br>\\( = \\sqrt{41} \\)"
+},
+
 
 
 
@@ -3280,8 +3495,6 @@ const alevelQuestions = [
   question: "A quantity is modelled by \\(Q = Ae^{kt}\\). At \\(t=0\\), \\(Q=250\\). The quantity is increasing at a rate of 50 units per hour at \\(t=0\\). Find \\(k\\).",
   solution: "At \\(t=0\\), \\(A=250\\).<br>\\(\\frac{dQ}{dt}=kAe^{kt}\\).<br>So \\(50=250k\\), giving \\(k=0.2\\)."
 },
-
-
 
   {
     topic: "Data Presentation",

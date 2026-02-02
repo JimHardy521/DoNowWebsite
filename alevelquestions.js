@@ -38,27 +38,6 @@ const alevelQuestions = [
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "6) Find a vector of magnitude \\(5\\sqrt{10}\\) parallel to \\(2\\mathbf{i}-6\\mathbf{j}\\).",
-  solution: "Magnitude of given vector:<br>\\( 2\\sqrt{10} \\)<br><br>Scale factor:<br>\\( \\frac{5}{2} \\)<br><br>Vector:<br>\\( 5\\mathbf{i}-15\\mathbf{j} \\)"
-},
-
-{
-  topic: "Vectors",
-  level: "Year 12 - Mechanics",
-  question: "7) Write \\(4\\mathbf{i}+7\\mathbf{j}\\) as a column vector.",
-  solution: "\\( \\begin{pmatrix}4\\\\7\\end{pmatrix} \\)"
-},
-
-{
-  topic: "Vectors",
-  level: "Year 12 - Mechanics",
-  question: "8) Find the magnitude of \\( -6\\mathbf{i}+8\\mathbf{j} \\).",
-  solution: "\\( \\sqrt{(-6)^2+8^2}=10 \\)"
-},
-
-{
-  topic: "Vectors",
-  level: "Year 12 - Mechanics",
   question: "9) Find the unit vector in the direction of \\( -3\\mathbf{i}+4\\mathbf{j} \\).",
   solution: "Magnitude = 5<br><br>Unit vector:<br>\\( -\\frac35\\mathbf{i}+\\frac45\\mathbf{j} \\)"
 },
@@ -68,13 +47,6 @@ const alevelQuestions = [
   level: "Year 12 - Mechanics",
   question: "10) Points A and B have position vectors \\( \\begin{pmatrix}1\\\\2\\end{pmatrix} \\) and \\( \\begin{pmatrix}5\\\\-1\\end{pmatrix} \\). Find vector AB.",
   solution: "\\( \\mathbf{AB}=\\mathbf{b}-\\mathbf{a}=\\begin{pmatrix}4\\\\-3\\end{pmatrix} \\)"
-},
-
-{
-  topic: "Vectors",
-  level: "Year 12 - Mechanics",
-  question: "11) Find the midpoint of A \\((2,6)\\) and B \\((8,-2)\\).",
-  solution: "\\( \\left(5,2\\right) \\)"
 },
 
 {

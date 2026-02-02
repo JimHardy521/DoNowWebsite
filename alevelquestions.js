@@ -59,15 +59,8 @@ const alevelQuestions = [
 {
   topic: "Vectors",
   level: "Year 12 - Mechanics",
-  question: "13) Find the angle between \\( \\begin{pmatrix}5\\\\0\\end{pmatrix} \\) and the positive x-axis.",
-  solution: "\\( 0^\\circ \\)"
-},
-
-{
-  topic: "Vectors",
-  level: "Year 12 - Mechanics",
-  question: "14) Show that \\( \\begin{pmatrix}2\\\\3\\end{pmatrix} \\) and \\( \\begin{pmatrix}6\\\\9\\end{pmatrix} \\) are parallel.",
-  solution: "\\( \\begin{pmatrix}6\\\\9\\end{pmatrix}=3\\begin{pmatrix}2\\\\3\\end{pmatrix} \\)"
+  question: "14) Show that \\( \\begin{pmatrix}-10\\\\15\\end{pmatrix} \\) and \\( \\begin{pmatrix}12\\\\-18\\end{pmatrix} \\) are parallel.",
+  solution: "Both vectors have a common factor \\( \\begin{pmatrix}-2\\\\3\\end{pmatrix}\\)"
 },
 
 {

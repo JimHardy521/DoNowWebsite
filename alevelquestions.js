@@ -1,11 +1,119 @@
 const alevelQuestions = [
 
-  {
-    topic: "Kinematics",
-    level: "Year 12 - Mechanics",
-    question: "I am currently building the Year 12 set of mechanics questions.",
-    solution: "The solution will be shown here."
-  },
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "1) Find the unit vector parallel to \\( \\begin{pmatrix} 5 \\\\ -12 \\end{pmatrix} \\).",
+  solution: "Magnitude = \\( \\sqrt{5^2+(-12)^2}=13 \\)<br><br>Unit vector:<br>\\( \\begin{pmatrix} \\frac{5}{13} \\\\ -\\frac{12}{13} \\end{pmatrix} \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "2) Find the magnitude and bearing of the vector \\( \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\).",
+  solution: "Magnitude:<br>\\( \\sqrt{3^2+(-4)^2}=5 \\)<br><br>Angle south of east:<br>\\( \\tan^{-1}(\\tfrac{4}{3})=53.1^\\circ \\)<br><br>Bearing:<br>\\( 90+53.1=143.1^\\circ \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "3) A man walks on a bearing of \\(300^\\circ\\) for 200 m. Write his displacement as a column vector.",
+  solution: "East component:<br>\\( 200\\sin300^\\circ=-100\\sqrt3 \\)<br><br>North component:<br>\\( 200\\cos300^\\circ=100 \\)<br><br>Vector:<br>\\( \\begin{pmatrix}-100\\sqrt3 \\\\ 100\\end{pmatrix} \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "4) Find the value of \\(k\\) such that \\( \\begin{pmatrix}12\\\\-20\\end{pmatrix} \\) and \\( \\begin{pmatrix}k\\\\15\\end{pmatrix} \\) are parallel.",
+  solution: "\\( \\frac{12}{k}=\\frac{-20}{15} \\Rightarrow k=-9 \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "5) A has position vector \\( 3\\mathbf{i}-\\mathbf{j} \\) and B has position vector \\( 2\\mathbf{j} \\). Find the exact distance AB.",
+  solution: "A=(3,−1), B=(0,2)<br><br>AB=(−3,3)<br><br>Distance:<br>\\( \\sqrt{18}=3\\sqrt2 \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "6) Find a vector of magnitude \\(5\\sqrt{10}\\) parallel to \\(2\\mathbf{i}-6\\mathbf{j}\\).",
+  solution: "Magnitude of given vector:<br>\\( 2\\sqrt{10} \\)<br><br>Scale factor:<br>\\( \\frac{5}{2} \\)<br><br>Vector:<br>\\( 5\\mathbf{i}-15\\mathbf{j} \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "7) Write \\(4\\mathbf{i}+7\\mathbf{j}\\) as a column vector.",
+  solution: "\\( \\begin{pmatrix}4\\\\7\\end{pmatrix} \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "8) Find the magnitude of \\( -6\\mathbf{i}+8\\mathbf{j} \\).",
+  solution: "\\( \\sqrt{(-6)^2+8^2}=10 \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "9) Find the unit vector in the direction of \\( -3\\mathbf{i}+4\\mathbf{j} \\).",
+  solution: "Magnitude = 5<br><br>Unit vector:<br>\\( -\\frac35\\mathbf{i}+\\frac45\\mathbf{j} \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "10) Points A and B have position vectors \\( \\begin{pmatrix}1\\\\2\\end{pmatrix} \\) and \\( \\begin{pmatrix}5\\\\-1\\end{pmatrix} \\). Find vector AB.",
+  solution: "\\( \\mathbf{AB}=\\mathbf{b}-\\mathbf{a}=\\begin{pmatrix}4\\\\-3\\end{pmatrix} \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "11) Find the midpoint of A \\((2,6)\\) and B \\((8,-2)\\).",
+  solution: "\\( \\left(5,2\\right) \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "12) A particle moves 3 m east and 4 m north. Write the displacement vector and find its magnitude.",
+  solution: "Vector:<br>\\( \\begin{pmatrix}3\\\\4\\end{pmatrix} \\)<br><br>Magnitude:<br>\\( 5 \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "13) Find the angle between \\( \\begin{pmatrix}5\\\\0\\end{pmatrix} \\) and the positive x-axis.",
+  solution: "\\( 0^\\circ \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "14) Show that \\( \\begin{pmatrix}2\\\\3\\end{pmatrix} \\) and \\( \\begin{pmatrix}6\\\\9\\end{pmatrix} \\) are parallel.",
+  solution: "\\( \\begin{pmatrix}6\\\\9\\end{pmatrix}=3\\begin{pmatrix}2\\\\3\\end{pmatrix} \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "15) Find the bearing of the vector \\( \\begin{pmatrix}-5\\\\12\\end{pmatrix} \\).",
+  solution: "Angle west of north:<br>\\( \\tan^{-1}(\\tfrac{5}{12})=22.6^\\circ \\)<br><br>Bearing:<br>\\( 360-22.6=337.4^\\circ \\)"
+},
+
+{
+  topic: "Vectors",
+  level: "Year 12 - Mechanics",
+  question: "16) A displacement is \\( 7\\mathbf{i}-24\\mathbf{j} \\). Find its magnitude and unit vector.",
+  solution: "Magnitude:<br>\\( 25 \\)<br><br>Unit vector:<br>\\( \\frac{7}{25}\\mathbf{i}-\\frac{24}{25}\\mathbf{j} \\)"
+},
+
+
+  
 
 {
   topic: "Numerical Methods - Introduction",

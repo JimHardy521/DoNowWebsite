@@ -84,15 +84,38 @@ const gcseQuestions = [
 {
   topic: "Similar Shapes - Area Volume Scale Factors",
   level: "Higher",
+  question: "Two similar cylinders are mathematically similar.<br><br>The volume of cylinder A is \\(180\\text{ cm}^3\\).<br>The volume of cylinder B is \\(1440\\text{ cm}^3\\).<br><br>The surface area of cylinder B is \\(600\\text{ cm}^2\\).<br>Find the surface area of cylinder A.",
+  solution: "Volume SF = \\(1440\\div180=8\\).<br>Linear SF = \\(2\\).<br>Area SF = \\(4\\).<br>SA A = \\(600\\div4=150\\text{ cm}^2\\)."
+},
+  
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
   question: "Two cones are mathematically similar.<br><br>The surface area of cone A is \\(90\\text{ cm}^2\\).<br>The surface area of cone B is \\(360\\text{ cm}^2\\).<br><br>The volume of cone A is \\(150\\text{ cm}^3\\).<br>Find the volume of cone B.",
   solution: "Area SF = \\(360\\div90=4\\).<br>Linear SF = \\(\\sqrt4=2\\).<br>Volume SF = \\(2^3=8\\).<br>Volume B = \\(150\\times8=1200\\text{ cm}^3\\)."
 },
+
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two pyramids are mathematically similar.<br><br>The volume of pyramid A is \\(600\\text{ cm}^3\\).<br>The volume of pyramid B is \\(4800\\text{ cm}^3\\).<br><br>The surface area of pyramid B is \\(400\\text{ cm}^2\\).<br>Find the surface area of pyramid A.",
+  solution: "Volume SF = \\(4800\\div600=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(4\\).<br>SA A = \\(400\\div4=100\\text{ cm}^2\\)."
+},
+  
 {
   topic: "Similar Shapes - Area Volume Scale Factors",
   level: "Higher",
   question: "Two similar spheres are made from the same metal.<br><br>Sphere A has a volume of \\(125\\text{ cm}^3\\).<br>Sphere B has a volume of \\(1000\\text{ cm}^3\\).<br><br>The surface area of sphere A is \\(150\\text{ cm}^2\\).<br>Find the surface area of sphere B.",
   solution: "Volume SF = \\(1000\\div125=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(2^2=4\\).<br>SA B = \\(150\\times4=600\\text{ cm}^2\\)."
 },
+
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar cuboids are mathematically similar.<br><br>The surface area of cuboid A is \\(160\\text{ cm}^2\\).<br>The surface area of cuboid B is \\(640\\text{ cm}^2\\).<br><br>The volume of cuboid B is \\(512\\text{ cm}^3\\).<br>Find the volume of cuboid A.",
+  solution: "Area SF = \\(640\\div160=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(512\\div8=64\\text{ cm}^3\\)."
+},
+  
 {
   topic: "Similar Shapes - Area Volume Scale Factors",
   level: "Higher",
@@ -129,25 +152,6 @@ const gcseQuestions = [
   question: "Two cones are mathematically similar.<br><br>The surface area of cone A is \\(90\\text{ cm}^2\\).<br>The surface area of cone B is \\(360\\text{ cm}^2\\).<br><br>The volume of cone B is \\(1200\\text{ cm}^3\\).<br>Find the volume of cone A.",
   solution: "Area SF = \\(360\\div90=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(1200\\div8=150\\text{ cm}^3\\)."
 },
-{
-  topic: "Similar Shapes - Area Volume Scale Factors",
-  level: "Higher",
-  question: "Two similar cuboids are mathematically similar.<br><br>The surface area of cuboid A is \\(160\\text{ cm}^2\\).<br>The surface area of cuboid B is \\(640\\text{ cm}^2\\).<br><br>The volume of cuboid B is \\(512\\text{ cm}^3\\).<br>Find the volume of cuboid A.",
-  solution: "Area SF = \\(640\\div160=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(512\\div8=64\\text{ cm}^3\\)."
-},
-{
-  topic: "Similar Shapes - Area Volume Scale Factors",
-  level: "Higher",
-  question: "Two pyramids are mathematically similar.<br><br>The volume of pyramid A is \\(600\\text{ cm}^3\\).<br>The volume of pyramid B is \\(4800\\text{ cm}^3\\).<br><br>The surface area of pyramid B is \\(400\\text{ cm}^2\\).<br>Find the surface area of pyramid A.",
-  solution: "Volume SF = \\(4800\\div600=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(4\\).<br>SA A = \\(400\\div4=100\\text{ cm}^2\\)."
-},
-{
-  topic: "Similar Shapes - Area Volume Scale Factors",
-  level: "Higher",
-  question: "Two similar cylinders are mathematically similar.<br><br>The volume of cylinder A is \\(180\\text{ cm}^3\\).<br>The volume of cylinder B is \\(1440\\text{ cm}^3\\).<br><br>The surface area of cylinder B is \\(600\\text{ cm}^2\\).<br>Find the surface area of cylinder A.",
-  solution: "Volume SF = \\(1440\\div180=8\\).<br>Linear SF = \\(2\\).<br>Area SF = \\(4\\).<br>SA A = \\(600\\div4=150\\text{ cm}^2\\)."
-},
-
 
 
 

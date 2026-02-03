@@ -7,7 +7,6 @@ const alevelQuestions = [
   question: "The velocity of a particle after \\(t\\) seconds is \\( v = 4t + 1 \\) m s\\(^{-1}\\). After 3 seconds the displacement is 27 m from O. Find the displacement after 8 seconds.",
   solution: "Integrate velocity:<br>\\( s = 2t^2 + t + C \\)<br><br>Using \\( s(3)=27 \\):<br>\\( 27 = 18 + 3 + C \\Rightarrow C=6 \\)<br><br>\\( s(8)=128 + 8 + 6 = 142\\,\\text{m} \\)"
 },
-
 {
   topic: "Kinematics - Variable Acceleration",
   level: "Year 12 - Mechanics",

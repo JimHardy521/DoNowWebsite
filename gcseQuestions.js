@@ -1,4 +1,158 @@
 const gcseQuestions = [
+
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((2x-3):(7x-16)=1:3\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(3(2x-3)=7x-16\\).<br>\\(6x-9=7x-16\\).<br>\\(x=7\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\(x^2:3=(x+1):6\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(6x^2=3(x+1)\\).<br>\\(6x^2-3x-3=0\\).<br>\\((2x+1)(x-1)=0\\), so \\(x=1\\) or \\(x=-\\tfrac12\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((x-7):(4x-6)=(x+9):(2x+12)\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\((x-7)(2x+12)=(x+9)(4x-6)\\).<br>\\(x^2+16x+15=0\\).<br>\\(x=-1\\) or \\(x=-15\\)."
+},
+
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((3x+2):(x-4)=5:2\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(2(3x+2)=5(x-4)\\).<br>\\(6x+4=5x-20\\).<br>\\(x=-24\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((x+5):(2x-1)=3:4\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(4(x+5)=3(2x-1)\\).<br>\\(4x+20=6x-3\\).<br>\\(x=11.5\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((2x):(x-3)=4:1\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(2x=4(x-3)\\).<br>\\(2x=4x-12\\).<br>\\(x=6\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((x^2-1):(x+2)=3:1\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(x^2-1=3(x+2)\\).<br>\\(x^2-3x-7=0\\).<br>\\(x=\\dfrac{3\\pm\\sqrt{37}}{2}\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((x-1):(x+3)=2:5\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(5(x-1)=2(x+3)\\).<br>\\(5x-5=2x+6\\).<br>\\(x=\\tfrac{11}{3}\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((4x+1):(x-2)=3:1\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(4x+1=3(x-2)\\).<br>\\(4x+1=3x-6\\).<br>\\(x=-7\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((x+4):(x-6)=5:3\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(3(x+4)=5(x-6)\\).<br>\\(3x+12=5x-30\\).<br>\\(x=21\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((x^2):(x+1)=4:1\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(x^2=4(x+1)\\).<br>\\(x^2-4x-4=0\\).<br>\\(x=2\\pm2\\sqrt2\\)."
+},
+{
+  topic: "Ratio - Equations",
+  level: "Higher",
+  question: "\\((2x-5):(x+1)=1:2\\).<br>Find the value of \\(x\\).",
+  solution: "Cross multiply:<br>\\(2(2x-5)=x+1\\).<br>\\(4x-10=x+1\\).<br>\\(x=\\tfrac{11}{3}\\)."
+},
+
+
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two cylinders are mathematically similar.<br><br>The volume of cylinder A is \\(180\\text{ cm}^3\\).<br>The surface area of cylinder A is \\(150\\text{ cm}^2\\).<br><br>The volume of cylinder B is \\(1215\\text{ cm}^3\\).<br>Find the surface area of cylinder B.",
+  solution: "Volume SF = \\(1215\\div180=6.75\\).<br>Linear SF = \\(\\sqrt[3]{6.75}\\approx1.88\\).<br>Area SF = \\((1.88)^2\\approx3.53\\).<br>SA B = \\(150\\times3.53=529.5\\text{ cm}^2\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two cones are mathematically similar.<br><br>The surface area of cone A is \\(90\\text{ cm}^2\\).<br>The surface area of cone B is \\(360\\text{ cm}^2\\).<br><br>The volume of cone A is \\(150\\text{ cm}^3\\).<br>Find the volume of cone B.",
+  solution: "Area SF = \\(360\\div90=4\\).<br>Linear SF = \\(\\sqrt4=2\\).<br>Volume SF = \\(2^3=8\\).<br>Volume B = \\(150\\times8=1200\\text{ cm}^3\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar spheres are made from the same metal.<br><br>Sphere A has a volume of \\(125\\text{ cm}^3\\).<br>Sphere B has a volume of \\(1000\\text{ cm}^3\\).<br><br>The surface area of sphere A is \\(150\\text{ cm}^2\\).<br>Find the surface area of sphere B.",
+  solution: "Volume SF = \\(1000\\div125=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(2^2=4\\).<br>SA B = \\(150\\times4=600\\text{ cm}^2\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar storage tanks are mathematically similar.<br><br>The surface area of tank A is \\(300\\text{ m}^2\\).<br>The surface area of tank B is \\(675\\text{ m}^2\\).<br><br>The volume of tank A is \\(2000\\text{ m}^3\\).<br>Find the volume of tank B.",
+  solution: "Area SF = \\(675\\div300=2.25\\).<br>Linear SF = \\(\\sqrt{2.25}=1.5\\).<br>Volume SF = \\(1.5^3=3.375\\).<br>Volume B = \\(2000\\times3.375=6750\\text{ m}^3\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar glass ornaments are mathematically similar.<br><br>The volume of ornament A is \\(64\\text{ cm}^3\\).<br>The surface area of ornament A is \\(96\\text{ cm}^2\\).<br><br>The volume of ornament B is \\(512\\text{ cm}^3\\).<br>Find the surface area of ornament B.",
+  solution: "Volume SF = \\(512\\div64=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(2^2=4\\).<br>SA B = \\(96\\times4=384\\text{ cm}^2\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar solid cones are made from the same material.<br><br>Cone A has a mass of \\(250\\text{ g}\\) and a surface area of \\(180\\text{ cm}^2\\).<br>Cone B has a mass of \\(2\\text{ kg}\\).<br><br>Find the surface area of cone B.",
+  solution: "Mass (volume) SF = \\(2000\\div250=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(2^2=4\\).<br>SA B = \\(180\\times4=720\\text{ cm}^2\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two mathematically similar solids A and B have surface areas of \\(200\\text{ cm}^2\\) and \\(450\\text{ cm}^2\\) respectively.<br><br>The volume of solid A is \\(800\\text{ cm}^3\\).<br>Find the volume of solid B.",
+  solution: "Area SF = \\(450\\div200=2.25\\).<br>Linear SF = \\(\\sqrt{2.25}=1.5\\).<br>Volume SF = \\(1.5^3=3.375\\).<br>Volume B = \\(800\\times3.375=2700\\text{ cm}^3\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two spheres, A and B, are mathematically similar.<br><br>The volume of sphere A is \\(125\\text{ cm}^3\\).<br>The volume of sphere B is \\(1000\\text{ cm}^3\\).<br><br>The surface area of sphere B is \\(600\\text{ cm}^2\\).<br>Find the surface area of sphere A.",
+  solution: "Volume SF = \\(1000\\div125=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(4\\).<br>SA A = \\(600\\div4=150\\text{ cm}^2\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two cones are mathematically similar.<br><br>The surface area of cone A is \\(90\\text{ cm}^2\\).<br>The surface area of cone B is \\(360\\text{ cm}^2\\).<br><br>The volume of cone B is \\(1200\\text{ cm}^3\\).<br>Find the volume of cone A.",
+  solution: "Area SF = \\(360\\div90=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(1200\\div8=150\\text{ cm}^3\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar cuboids are mathematically similar.<br><br>The surface area of cuboid A is \\(160\\text{ cm}^2\\).<br>The surface area of cuboid B is \\(640\\text{ cm}^2\\).<br><br>The volume of cuboid B is \\(512\\text{ cm}^3\\).<br>Find the volume of cuboid A.",
+  solution: "Area SF = \\(640\\div160=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(512\\div8=64\\text{ cm}^3\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two pyramids are mathematically similar.<br><br>The volume of pyramid A is \\(600\\text{ cm}^3\\).<br>The volume of pyramid B is \\(4800\\text{ cm}^3\\).<br><br>The surface area of pyramid B is \\(400\\text{ cm}^2\\).<br>Find the surface area of pyramid A.",
+  solution: "Volume SF = \\(4800\\div600=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(4\\).<br>SA A = \\(400\\div4=100\\text{ cm}^2\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar cylinders are mathematically similar.<br><br>The volume of cylinder A is \\(180\\text{ cm}^3\\).<br>The volume of cylinder B is \\(1440\\text{ cm}^3\\).<br><br>The surface area of cylinder B is \\(600\\text{ cm}^2\\).<br>Find the surface area of cylinder A.",
+  solution: "Volume SF = \\(1440\\div180=8\\).<br>Linear SF = \\(2\\).<br>Area SF = \\(4\\).<br>SA A = \\(600\\div4=150\\text{ cm}^2\\)."
+},
+
+
+
+
+
+
 {
   topic: "Regular Polygons - Angles 2",
   level: "Crossover",

@@ -83,24 +83,21 @@ body {
 
 /* ---------- BUTTON BAR LAYOUT ---------- */
 .button-bar {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
 .button-group {
-  grid-column: 2;
   display: flex;
+  align-items: center;
   gap: 10px;
-  justify-content: center;
 }
 
 .button-bar .timer {
   grid-column: 3;
   justify-self: end;
 }
-
 
 
 </style>
@@ -134,6 +131,18 @@ body {
 
 <div class="button-bar">
   <div class="button-group">
+
+    <!-- Timer -->
+    <div id="timerBadge" class="timer">
+      <span id="timeDisplay">05:00</span>
+      <div class="timer-controls">
+        <button id="minusMin">–</button>
+        <button id="plusMin">+</button>
+        <button id="startPause">Start</button>
+        <button id="resetTimer">Reset</button>
+      </div>
+    </div>
+
     <select id="levelSelect">
       <option value="Foundation">Foundation</option>
       <option value="Crossover">Crossover</option>
@@ -143,17 +152,6 @@ body {
     <button onclick="loadQuestions()">New Do Now</button>
     <button onclick="printQuestions()">Print Do Now</button>
     <button onclick="openRevisionBuilder()">Create Revision Worksheet</button>
-  </div>
-
-  <!-- Timer -->
-  <div id="timerBadge" class="timer">
-    <span id="timeDisplay">05:00</span>
-    <div class="timer-controls">
-      <button id="minusMin">–</button>
-      <button id="plusMin">+</button>
-      <button id="startPause">Start</button>
-      <button id="resetTimer">Reset</button>
-    </div>
   </div>
 </div>
 

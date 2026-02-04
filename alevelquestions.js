@@ -1,5 +1,260 @@
 const alevelQuestions = [
 
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A car accelerates from rest at 3 m s⁻² for 4 s. It then continues accelerating for a further 6 s, reaching a speed of 30 m s⁻¹.<br><br>Find the acceleration during the second stage.",
+  solution: "\\(v_1=3\\times4=12\\)<br>\\(30=12+6a\\)<br>\\(a=3\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A vehicle accelerates from rest at 2 m s⁻² for 5 s. It then accelerates for a further 8 s, reaching a speed of 26 m s⁻¹.<br><br>Find the acceleration during the second stage.",
+  solution: "\\(v_1=2\\times5=10\\)<br>\\(26=10+8a\\)<br>\\(a=2\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A rocket starts from rest and accelerates vertically upwards at 3.2 m s⁻² for 4 s. The engine then cuts out and the rocket moves freely under gravity.<br><br>Find the greatest height reached. (Take \\(g=9.8\\))",
+  solution: "\\(v=3.2\\times4=12.8\\)<br>\\(h_1=\\tfrac12(3.2)(4)^2=25.6\\)<br>\\(h_2=\\tfrac{(12.8)^2}{19.6}\\approx8.36\\)<br>\\(h\\approx34.0\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A rocket starts from rest and accelerates vertically upwards at 2.5 m s⁻² for 6 s. The engine then cuts out and the rocket moves freely under gravity.<br><br>Find the greatest height reached. (Take \\(g=9.8\\))",
+  solution: "\\(v=2.5\\times6=15\\)<br>\\(h_1=\\tfrac12(2.5)(6)^2=45\\)<br>\\(h_2=\\tfrac{15^2}{19.6}\\approx11.5\\)<br>\\(h\\approx56.5\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A particle moves in a straight line. It accelerates at 5 m s⁻² for 2 s, then moves at constant speed for 6 s.<br><br>If the total distance travelled is 146 m, find the initial speed.",
+  solution: "\\(v=u+10\\)<br>\\(s=2u+10+6(u+10)\\)<br>\\(146=8u+70\\)<br>\\(u=9.5\\,\\text{m s}^{-1}\\)"
+},
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A car starts from rest and accelerates at 2.5 m s⁻² for 5 s. It then continues accelerating for a further 7 s, reaching a speed of 27.5 m s⁻¹.<br><br>Find the acceleration during the second stage.",
+  solution: "\\(v_1=2.5\\times5=12.5\\)<br>\\(27.5=12.5+7a\\)<br>\\(a=2.14\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A rocket starts from rest and accelerates vertically upwards at 2.8 m s⁻² for 3 s. The engine then cuts out and the rocket moves freely under gravity.<br><br>Find the greatest height reached. (Take \\(g=9.8\\))",
+  solution: "\\(v=2.8\\times3=8.4\\)<br>\\(h_1=\\tfrac12(2.8)(3)^2=12.6\\)<br>\\(h_2=\\tfrac{(8.4)^2}{19.6}\\approx3.6\\)<br>\\(h\\approx16.2\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A runner starts with speed \\(U\\,\\text{m s}^{-1}\\) and accelerates uniformly. He covers the first 10 m in 2.1 s and the next 10 m in 1.1 s.<br><br>Find \\(U\\).",
+  solution: "\\(10=2.1U+\\tfrac12a(2.1)^2\\)<br>\\(10=1.1(U+2.1a)+\\tfrac12a(1.1)^2\\)<br>\\(a=2,\\ U=2.8\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A car accelerates from rest at 3 m s⁻² for 4 s, then travels at constant speed for 10 s.<br><br>Find the total distance travelled.",
+  solution: "\\(v=12\\)<br>\\(s_1=\\tfrac12(3)(4)^2=24\\)<br>\\(s_2=12\\times10=120\\)<br>\\(s=144\\,\\text{m}\\)"
+},
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A cyclist accelerates from rest at 1.2 m s⁻² for 15 s, then brakes uniformly to rest in 5 s.<br><br>Find the total distance travelled.",
+  solution: "\\(v=18\\)<br>\\(s_1=135\\)<br>\\(s_2=45\\)<br>\\(s=180\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A particle moves in a straight line. It accelerates at 4 m s⁻² for 3 s, then moves at constant speed for 5 s.<br><br>If it travels 114 m in total, find its initial speed.",
+  solution: "\\(v=u+12\\)<br>\\(s=3u+18+5(u+12)\\)<br>\\(114=8u+78\\)<br>\\(u=4.5\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Multi-Stage Problems",
+  level: "Year 12 - Mechanics",
+  question: "A car accelerates from rest at \\(a\\,\\text{m s}^{-2}\\) for 6 s, reaching speed 18 m s⁻¹. It then travels at constant speed for 10 s.<br><br>Find the total distance travelled.",
+  solution: "\\(a=3\\)<br>\\(s_1=54\\)<br>\\(s_2=180\\)<br>\\(s=234\\,\\text{m}\\)"
+},
+
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A ball is kicked vertically upwards from the ground with speed 8 m s⁻¹.<br><br>How long is it in the air before it lands?",
+  solution: "\\(u=8,\\ v=-8,\\ a=-9.8\\)<br>\\(-8=8-9.8t\\)<br>\\(t=\\tfrac{16}{9.8}\\approx1.63\\,\\text{s}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A stone is dropped from rest from a height of 20 m.<br><br>What speed does it hit the ground?",
+  solution: "\\(u=0,\\ s=-20,\\ a=-9.8\\)<br>\\(v^2=392\\)<br>\\(v\\approx19.8\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A particle is projected vertically upwards from the ground at 12 m s⁻¹.<br><br>Find the maximum height reached.",
+  solution: "\\(u=12,\\ v=0,\\ a=-9.8\\)<br>\\(0=144-19.6s\\)<br>\\(s\\approx7.35\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A ball is thrown vertically upwards with speed 14 m s⁻¹.<br><br>How long does it take to reach maximum height?",
+  solution: "\\(u=14,\\ v=0,\\ a=-9.8\\)<br>\\(0=14-9.8t\\)<br>\\(t\\approx1.43\\,\\text{s}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A particle is projected vertically upwards from a height of 2 m above the ground and lands after 2.2 s.<br><br>Find its initial speed.",
+  solution: "\\(s=-2,\\ t=2.2,\\ a=-9.8\\)<br>\\(-2=2.2u-23.716\\)<br>\\(u\\approx9.87\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A stone is thrown vertically upwards from the ground with speed 18 m s⁻¹.<br><br>How long is it above the ground?",
+solution: "\\(u=18,\\ s=0,\\ a=-9.8\\)<br>\\(0=18t-4.9t^2\\)<br>\\(t\\approx3.67\\,\\text{s}\\)"
+
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A particle is projected vertically upwards at 10 m s⁻¹ from the ground.<br><br>Find its speed after 0.6 s.",
+  solution: "\\(u=10,\\ t=0.6,\\ a=-9.8\\)<br>\\(v=10-5.88\\)<br>\\(v=4.12\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A stone is dropped from rest and hits the ground with speed 14 m s⁻¹.<br><br>Find the height it was dropped from.",
+  solution: "\\(u=0,\\ a=-9.8\\)<br>\\(196=19.6h\\)<br>\\(h=10\\,\\text{m}\\)"
+
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A particle is projected vertically upwards from a height of 1.5 m with speed 10 m s⁻¹.<br><br>How long is it above 2.5 m?",
+  solution: "\\(s=1,\\ u=10,\\ a=-9.8\\)<br>\\(1=10t-4.9t^2\\)<br>\\(t\\approx0.11\\text{ to }1.93\\,\\text{s}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A ball is thrown vertically upwards from the ground and reaches a maximum height of 5 m.<br><br>Find the initial speed.",
+  solution: "\\(v=0,\\ s=5,\\ a=-9.8\\)<br>\\(0=u^2-98\\)<br>\\(u\\approx9.9\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A particle is projected vertically upwards at 16 m s⁻¹.<br><br>Find its speed after 1.5 s.",
+  solution: "\\(u=16,\\ t=1.5,\\ a=-9.8\\)<br>\\(v=16-14.7\\)<br>\\(v=1.3\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Vertical",
+  level: "Year 12 - Mechanics",
+  question: "A stone is dropped from a height and takes 1.8 s to reach the ground.<br><br>Find the height.",
+  solution: "\\(u=0,\\ t=1.8,\\ a=-9.8\\)<br>\\(s=-4.9(1.8)^2\\)<br>\\(s\\approx15.9\\,\\text{m}\\)"
+},
+
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car starts from rest and travels 100 m in 5 s with constant acceleration.<br><br>Find the acceleration of the car.",
+  solution: "\\(u=0,\\ s=100,\\ t=5\\)<br>\\(100=\\tfrac12 a(5)^2\\)<br>\\(a=8\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car is travelling at \\(30\\,\\text{km h}^{-1}\\) and comes to rest uniformly in 25 s.<br><br>Find the distance travelled while slowing down.",
+  solution: "\\(u=\\tfrac{25}{3},\\ v=0,\\ t=25\\)<br>\\(s=\\tfrac12(u+v)t\\)<br>\\(s=\\tfrac{625}{6}\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car comes to rest over a distance of 80 m while decelerating at \\(6\\,\\text{m s}^{-2}\\).<br><br>Find its initial speed.",
+  solution: "\\(v=0,\\ s=80,\\ a=-6\\)<br>\\(0=u^2-960\\)<br>\\(u=\\sqrt{960}\\approx31.0\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car accelerates uniformly from 10 m s⁻¹ to 30 m s⁻¹ in 8 s.<br><br>Find the acceleration.",
+  solution: "\\(u=10,\\ v=30,\\ t=8\\)<br>\\(30=10+8a\\)<br>\\(a=2.5\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A vehicle accelerates at \\(1.5\\,\\text{m s}^{-2}\\) from rest for 12 s.<br><br>Find the distance travelled.",
+  solution: "\\(u=0,\\ a=1.5,\\ t=12\\)<br>\\(s=\\tfrac12(1.5)(12)^2\\)<br>\\(s=108\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car travelling at 20 m s⁻¹ decelerates uniformly at \\(2\\,\\text{m s}^{-2}\\).<br><br>How long does it take to come to rest?",
+  solution: "\\(u=20,\\ v=0,\\ a=-2\\)<br>\\(0=20-2t\\)<br>\\(t=10\\,\\text{s}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car increases its speed from 12 m s⁻¹ to 24 m s⁻¹ while travelling 180 m with constant acceleration.<br><br>Find the acceleration.",
+  solution: "\\(u=12,\\ v=24,\\ s=180\\)<br>\\(576=144+360a\\)<br>\\(a=1.2\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car accelerates uniformly at \\(3\\,\\text{m s}^{-2}\\) for 6 s, reaching a speed of 22 m s⁻¹.<br><br>Find its initial speed.",
+  solution: "\\(v=22,\\ a=3,\\ t=6\\)<br>\\(22=u+18\\)<br>\\(u=4\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car starts at 5 m s⁻¹ and accelerates at \\(2\\,\\text{m s}^{-2}\\) for 7 s.<br><br>Find the distance travelled.",
+  solution: "\\(u=5,\\ a=2,\\ t=7\\)<br>\\(s=5(7)+\\tfrac12(2)(7)^2\\)<br>\\(s=84\\,\\text{m}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A vehicle slows uniformly from 28 m s⁻¹ to 10 m s⁻¹ over 90 m.<br><br>Find the acceleration.",
+  solution: "\\(u=28,\\ v=10,\\ s=90\\)<br>\\(100=784+180a\\)<br>\\(a=-3.8\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car accelerates from rest to 16 m s⁻¹ in 64 m with constant acceleration.<br><br>Find the acceleration.",
+  solution: "\\(u=0,\\ v=16,\\ s=64\\)<br>\\(256=128a\\)<br>\\(a=2\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "SUVAT - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car travelling at 18 m s⁻¹ accelerates at \\(1.2\\,\\text{m s}^{-2}\\) for 10 s.<br><br>Find its final speed.",
+  solution: "\\(u=18,\\ a=1.2,\\ t=10\\)<br>\\(v=18+12\\)<br>\\(v=30\\,\\text{m s}^{-1}\\)"
+},
+
+
 
 {
   topic: "Kinematics - Variable Acceleration",

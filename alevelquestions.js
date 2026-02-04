@@ -1,6 +1,189 @@
 const alevelQuestions = [
 
 {
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A mass of 12 kg is attached to a light, inextensible rope. The object accelerates upwards at 2 m s⁻².<br><br>Find the tension in the rope.",
+  solution: "\\(T - mg = ma\\)<br>\\(T = 12(9.8+2)\\)<br>\\(T = 141.6\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "An object is attached to a light, inextensible rope and lowered at constant speed. The tension in the rope is 50 N.<br><br>Find the mass of the object.",
+  solution: "\\(T = mg\\Rightarrow m = \\frac{50}{9.8}\\)<br>\\(m\\approx5.10\\,\\text{kg}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A light rope lifts a mass of 12 kg 3 m off the ground in 10 s, starting from rest.<br><br>Find the tension in the rope.",
+  solution: "\\(a = \\frac{2s}{t^2} = \\frac{2\\times3}{100} = 0.06\\)<br>\\(T = 12(9.8+0.06)\\)<br>\\(T\\approx118.3\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A mass of 8 kg is lifted vertically with an acceleration of 1.5 m s⁻².<br><br>Find the tension in the rope.",
+  solution: "\\(T - mg = ma\\)<br>\\(T = 8(9.8+1.5)\\)<br>\\(T = 88.4\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A light rope supports an object with a tension of 78.4 N while it is being lowered at a constant speed.<br><br>Find the mass of the object.",
+  solution: "\\(T = mg\\Rightarrow m = 78.4/9.8\\)<br>\\(m = 8\\,\\text{kg}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "An object is lowered using a rope. The tension in the rope is 40 N and the object accelerates downward at 0.5 m s⁻².<br><br>Find the mass of the object.",
+  solution: "\\(mg - T = ma\\Rightarrow m(9.8-0.5)=40\\)<br>\\(m=40/9.3\\)<br>\\(m\\approx4.3\\,\\text{kg}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A mass is being lifted by a rope with a tension of 150 N. The mass is 12 kg.<br><br>Find the acceleration of the mass.",
+  solution: "\\(T - mg = ma\\Rightarrow 150 - 12*9.8 = 12a\\)<br>\\(a=28.4/12\\)<br>\\(a\\approx2.37\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A 10 kg mass is lowered using a rope. The tension in the rope is 80 N.<br><br>Find the acceleration of the mass.",
+  solution: "\\(mg - T = ma\\Rightarrow 10*9.8 - 80 = 10a\\)<br>\\(a=18/10\\)<br>\\(a=1.8\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A mass is lowered from a height of 5 m by a rope with a tension of 45 N. The mass is 6 kg.<br><br>Find the time it takes to reach the ground from rest.",
+  solution: "\\(mg - T = ma\\Rightarrow 6*9.8-45 = 6a\\)<br>\\(a=4.8/6\\approx0.8\\)<br>\\(s=\\tfrac12 a t^2\\Rightarrow 5 = 0.4 t^2\\)<br>\\(t^2=12.5\\Rightarrow t\\approx3.54\\,\\text{s}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A rope pulls upward on a mass with a tension of 196 N. The object accelerates upward at 1.5 m s⁻².<br><br>Find the mass of the object.",
+  solution: "\\(T - mg = ma\\Rightarrow 196 - 9.8m = 1.5m\\)<br>\\(196 = 11.3 m\\)<br>\\(m\\approx17.35\\,\\text{kg}\\)"
+},
+
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A 5 kg mass is lowered at constant speed using a rope.<br><br>Find the tension in the rope.",
+  solution: "\\(T = mg = 5\\times9.8\\)<br>\\(T = 49\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Vertical, Tension, Gravity",
+  level: "Year 12 - Mechanics",
+  question: "A mass of 15 kg is pulled upwards by a rope. It reaches a speed of 2 m s⁻¹ after accelerating uniformly over 4 m.<br><br>Find the tension in the rope.",
+  solution: "\\(v^2 = u^2 + 2as\\Rightarrow a = \\frac{2^2}{2\\times4} = 0.5\\)<br>\\(T = 15(9.8+0.5)\\)<br>\\(T = 153.8\\,\\text{N}\\)"
+},
+
+
+
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A box of mass 32 kg is pulled across a smooth horizontal floor by a light, inextensible rope. The tension in the rope is 150 N.<br><br>How long does it take for the box to travel 25 m from rest?",
+  solution: "\\(F=150\\Rightarrow a=\\tfrac{150}{32}=4.69\\)<br>\\(25=\\tfrac12(4.69)t^2\\)<br>\\(t^2\\approx10.66\\)<br>\\(t\\approx3.27\\,\\text{s}\\)"
+},
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A box of mass 8 kg is pushed horizontally with a force of 34 N. The frictional force opposing the motion is 12 N.<br><br>Find the distance travelled by the box in 10 s.",
+  solution: "\\(F=22\\Rightarrow a=2.75\\)<br>\\(s=\\tfrac12(2.75)(10)^2\\)<br>\\(s=137.5\\,\\text{m}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car produces a driving force of 12000 N. The total resistance to motion is 500 N and the car accelerates at 2.6 m s⁻².<br><br>Find the mass of the car.",
+  solution: "\\(F=11500\\)<br>\\(11500=ma\\)<br>\\(m\\approx4423\\,\\text{kg}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 4 kg is pulled along a horizontal surface by a force of 18 N. The frictional force is 6 N.<br><br>Find the acceleration of the particle.",
+  solution: "\\(F=12\\)<br>\\(12=4a\\)<br>\\(a=3\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 900 kg accelerates uniformly at 1.8 m s⁻². The total resistance to motion is 450 N.<br><br>Find the driving force of the engine.",
+  solution: "\\(ma=1620\\)<br>\\(F=1620+450\\)<br>\\(F=2070\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A crate of mass 12 kg is pulled horizontally by a force of 50 N. The frictional force is 14 N.<br><br>Find the speed of the crate after 6 s, starting from rest.",
+  solution: "\\(F=36\\Rightarrow a=3\\)<br>\\(v=at\\)<br>\\(v=18\\,\\text{m s}^{-1}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 5 kg moves on a rough horizontal surface. A constant force causes it to accelerate at 1.6 m s⁻². The frictional force is 3 N.<br><br>Find the magnitude of the applied force.",
+  solution: "\\(ma=8\\)<br>\\(F=8+3\\)<br>\\(F=11\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 1000 kg moves on a straight horizontal road. The engine provides a force of 3000 N and the resistive forces total 500 N.<br><br>Find the acceleration of the car.",
+  solution: "\\(F=2500\\)<br>\\(2500=1000a\\)<br>\\(a=2.5\\,\\text{m s}^{-2}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A trolley of mass 6 kg is pushed horizontally with a force of 24 N. The frictional force is 6 N.<br><br>Find the distance travelled in 5 s from rest.",
+  solution: "\\(F=18\\Rightarrow a=3\\)<br>\\(s=\\tfrac12(3)(5)^2\\)<br>\\(s=37.5\\,\\text{m}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A vehicle of mass 1200 kg slows down at 1.5 m s⁻² on a horizontal road.<br><br>Find the magnitude of the total resistive force.",
+  solution: "\\(F=ma\\)<br>\\(F=1200(1.5)\\)<br>\\(F=1800\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A block of mass 10 kg is pulled along a horizontal surface by a force of 35 N. The frictional force is 15 N.<br><br>Find how long it takes the block to reach a speed of 8 m s⁻¹ from rest.",
+  solution: "\\(F=20\\Rightarrow a=2\\)<br>\\(8=2t\\)<br>\\(t=4\\,\\text{s}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 7 kg is acted on by a constant horizontal force. It accelerates at 2.4 m s⁻².<br><br>Find the magnitude of the force.",
+  solution: "\\(F=ma\\)<br>\\(F=7(2.4)\\)<br>\\(F=16.8\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Horizontal",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 800 kg accelerates from rest to 20 m s⁻¹ in 10 s on a horizontal road. The total resistance to motion is 400 N.<br><br>Find the driving force of the engine.",
+  solution: "\\(a=2\\Rightarrow ma=1600\\)<br>\\(F=1600+400\\)<br>\\(F=2000\\,\\text{N}\\)"
+},
+
+
+
+
+
+
+{
   topic: "SUVAT - Multi-Stage Problems",
   level: "Year 12 - Mechanics",
   question: "A car accelerates from rest at 3 m s⁻² for 4 s. It then continues accelerating for a further 6 s, reaching a speed of 30 m s⁻¹.<br><br>Find the acceleration during the second stage.",

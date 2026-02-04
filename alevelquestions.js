@@ -1,6 +1,64 @@
 const alevelQuestions = [
 
 {
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 4 kg and 9 kg are connected by a light, inextensible rope over a smooth pulley. The heavier mass is 0.8 m above the ground. The system is released from rest.<br><br>Find the time taken by the heavier mass to reach the ground.",
+  solution: "\\(a = \\frac{9-4}{9+4}*9.8 = 3.77\\,\\text{m/s²}\\)<br>\\(s = 1/2 a t^2 \\Rightarrow 0.8 = 0.5*3.77*t^2\\)<br>\\(t^2\\approx0.424 \\Rightarrow t\\approx0.65\\,\\text{s}\\)"
+},
+
+{
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 5 kg and 6 kg hang over a smooth pulley, connected by a light, inextensible rope. The heavier mass is 0.6 m above the ground.The system is released from rest.<br><br>Find the speed of the heavier mass as it hits the floor.",
+  solution: "\\(a = \\frac{6-5}{6+5}*9.8 = 0.89\\,\\text{m/s²}\\)<br>\\(v^2 = 2 a s = 2*0.89*0.6\\)<br>\\(v\\approx1.03\\,\\text{m/s}\\)"
+},
+
+{
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 7 kg and 12 kg are connected over a smooth pulley. The heavier mass is 1.2 m above the ground. The system is released from rest.<br><br>Find the acceleration of the masses and the tension in the rope.",
+  solution: "\\(a = \\frac{12-7}{12+7}*9.8 = 2.58\\,\\text{m/s²}\\)<br>\\(T = 7*(9.8 + 2.58)\\)<br>\\(T\\approx86.7\\,\\text{N}\\)"
+},
+
+{
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 3 kg and 8 kg hang over a smooth pulley. The heavier mass is 1 m above the ground. The system is released from rest.<br><br>Find the time for the heavier mass to reach the floor.",
+  solution: "\\(a = \\frac{8-3}{8+3}*9.8 = 4.45\\,\\text{m/s²}\\)<br>\\(s = 1/2 a t^2 \\Rightarrow 1 = 0.5*4.45*t^2\\)<br>\\(t^2\\approx0.449 \\Rightarrow t\\approx0.67\\,\\text{s}\\)"
+},
+
+{
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 10 kg and 15 kg are connected over a smooth pulley. The heavier mass is 0.9 m above the ground. The system is released from rest.<br><br>Find the speed of the heavier mass when it reaches the floor.",
+  solution: "\\(a = \\frac{15-10}{15+10}*9.8 = 1.96\\,\\text{m/s²}\\)<br>\\(v^2 = 2 a s = 2*1.96*0.9\\)<br>\\(v\\approx1.88\\,\\text{m/s}\\)"
+},
+
+{
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 6 kg and 9 kg hang over a smooth pulley. The heavier mass is 1.5 m above the ground. The system is released from rest.<br><br>Find the acceleration of the masses and the tension in the rope.",
+  solution: "\\(a = \\frac{9-6}{9+6}*9.8 = 1.96\\,\\text{m/s²}\\)<br>\\(T = 6*(9.8 + 1.96)\\)<br>\\(T\\approx69.8\\,\\text{N}\\)"
+},
+
+{
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 5 kg and 10 kg hang over a smooth pulley. The heavier mass is 2 m above the floor. The system is released from rest.<br><br>Find the time taken for the heavier mass to reach the floor.",
+  solution: "\\(a = \\frac{10-5}{10+5}*9.8 = 3.27\\,\\text{m/s²}\\)<br>\\(s = 1/2 a t^2 \\Rightarrow 2 = 0.5*3.27*t^2\\)<br>\\(t^2\\approx1.22 \\Rightarrow t\\approx1.10\\,\\text{s}\\)"
+},
+
+{
+  topic: "Connected Objects - Pulleys",
+  level: "Year 12 - Mechanics",
+  question: "Two masses of 8 kg and 14 kg are connected over a smooth pulley. The heavier mass is 1.8 m above the ground. The system is released from rest.<br><br>Find the speed of the heavier mass just before it hits the floor.",
+  solution: "\\(a = \\frac{14-8}{14+8}*9.8 = 2.0\\,\\text{m/s²}\\)<br>\\(v^2 = 2 a s = 2*2.0*1.8\\)<br>\\(v\\approx2.68\\,\\text{m/s}\\)"
+},
+
+
+
+{
   topic: "Forces - Vertical, Tension, Gravity",
   level: "Year 12 - Mechanics",
   question: "A mass of 12 kg is attached to a light, inextensible rope. The object accelerates upwards at 2 m s⁻².<br><br>Find the tension in the rope.",

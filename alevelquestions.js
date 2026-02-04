@@ -1,6 +1,219 @@
 const alevelQuestions = [
 
 {
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 5 kg is acted on by three forces:<br>\\(\\mathbf{F}_1 = \\begin{bmatrix}23\\\\-16\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}0\\\\7\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_3 = \\begin{bmatrix}11\\\\8\\end{bmatrix}\\,\\text{N}\\).<br><br>Find the acceleration of the particle \\(\\mathbf{a} = ai + bj\\,\\text{m/s²}\\).",
+  solution: "\\(\\mathbf{F}_\\text{net} = \\mathbf{F}_1+\\mathbf{F}_2+\\mathbf{F}_3 = \\begin{bmatrix}34\\\\-1\\end{bmatrix}\\,\\text{N}\\)<br>\\(\\mathbf{a} = \\mathbf{F}_\\text{net}/m = \\begin{bmatrix}34/5\\\\-1/5\\end{bmatrix} = \\begin{bmatrix}6.8\\\\-0.2\\end{bmatrix}\\,\\text{m/s²}\\)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 8 kg is acted on by two forces:<br>\\(\\mathbf{F}_1 = \\begin{bmatrix}12\\\\-4\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}-3\\\\6\\end{bmatrix}\\,\\text{N}\\).<br><br>Find the acceleration of the particle.",
+  solution: "\\(\\mathbf{F}_\\text{net} = \\begin{bmatrix}9\\\\2\\end{bmatrix}\\,\\text{N}\\)<br>\\(\\mathbf{a} = \\mathbf{F}_\\text{net}/m = \\begin{bmatrix}9/8\\\\2/8\\end{bmatrix} = \\begin{bmatrix}1.125\\\\0.25\\end{bmatrix}\\,\\text{m/s²}\\)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 4 kg accelerates at \\(\\mathbf{a} = \\begin{bmatrix}2\\\\-1\\end{bmatrix}\\,\\text{m/s²}\\) under the action of two forces:<br>\\(\\mathbf{F}_1 = \\begin{bmatrix}5\\\\3\\end{bmatrix}\\,\\text{N}\\) and \\(\\mathbf{F}_2 = ?\\)<br><br>Find \\(\\mathbf{F}_2\\).",
+  solution: "\\(\\mathbf{F}_\\text{net} = m\\mathbf{a} = 4*\\begin{bmatrix}2\\\\-1\\end{bmatrix} = \\begin{bmatrix}8\\\\-4\\end{bmatrix}\\)<br>\\(\\mathbf{F}_2 = \\mathbf{F}_\\text{net}-\\mathbf{F}_1 = \\begin{bmatrix}8\\\\-4\\end{bmatrix}-\\begin{bmatrix}5\\\\3\\end{bmatrix} = \\begin{bmatrix}3\\\\-7\\end{bmatrix}\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle is acted on by three forces:<br>\\(\\mathbf{F}_1 = \\begin{bmatrix}-6\\\\4\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}10\\\\?\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_3 = \\begin{bmatrix}3\\\\-2\\end{bmatrix}\\,\\text{N}\\).<br>The particle has mass 5 kg and accelerates at \\(\\mathbf{a} = \\begin{bmatrix}1\\\\1\\end{bmatrix}\\,\\text{m/s²}\\).<br><br>Find the missing component of \\(\\mathbf{F}_2\\).",
+  solution: "\\(\\mathbf{F}_\\text{net} = m\\mathbf{a} = 5*\\begin{bmatrix}1\\\\1\\end{bmatrix} = \\begin{bmatrix}5\\\\5\\end{bmatrix}\\)<br>Sum of known components: \\(\\mathbf{F}_1+\\mathbf{F}_3 = \\begin{bmatrix}-6+3\\\\4-2\\end{bmatrix} = \\begin{bmatrix}-3\\\\2\\end{bmatrix}\\)<br>\\(\\mathbf{F}_2 = \\begin{bmatrix}5\\\\5\\end{bmatrix}-\\begin{bmatrix}-3\\\\2\\end{bmatrix} = \\begin{bmatrix}8\\\\3\\end{bmatrix}\\)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 6 kg is acted on by \\(\\mathbf{F}_1 = \\begin{bmatrix}9\\\\12\\end{bmatrix}\\,\\text{N}\\) and \\(\\mathbf{F}_2 = \\begin{bmatrix}-3\\\\4\\end{bmatrix}\\,\\text{N}\\).<br><br>Find the magnitude of the acceleration.",
+  solution: "\\(\\mathbf{F}_\\text{net} = \\begin{bmatrix}6\\\\16\\end{bmatrix}\\,\\text{N}\\)<br>\\(\\mathbf{a} = \\mathbf{F}_\\text{net}/6 = \\begin{bmatrix}1\\\\2.667\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(|\\mathbf{a}| = \\sqrt{1^2 + 2.667^2} \\approx 2.85\\,\\text{m/s²}\\)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of unknown mass is acted on by \\(\\mathbf{F}_1 = \\begin{bmatrix}5\\\\0\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}0\\\\-3\\end{bmatrix}\\,\\text{N}\\).<br> It accelerates at \\(\\mathbf{a} = \\begin{bmatrix}1\\\\-0.6\\end{bmatrix}\\,\\text{m/s²}\\).<br><br>Find the mass of the particle.",
+  solution: "\\(\\mathbf{F}_\\text{net} = m\\mathbf{a} \\Rightarrow m = F_x/a_x = 5/1 = 5\\,\\text{kg}\\) (check y: -3/-0.6 = 5 kg, consistent)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 3 kg is acted on by three forces:<br>\\(\\mathbf{F}_1 = \\begin{bmatrix}6\\\\?\\end{bmatrix}, \\mathbf{F}_2 = \\begin{bmatrix}-2\\\\5\\end{bmatrix}, \\mathbf{F}_3 = \\begin{bmatrix}1\\\\-3\\end{bmatrix}\\).<br>The acceleration is \\(\\mathbf{a} = \\begin{bmatrix}1\\\\2\\end{bmatrix}\\,\\text{m/s²}\\).<br><br>Find the missing component of \\(\\mathbf{F}_1\\).",
+  solution: "\\(\\mathbf{F}_\\text{net} = 3*\\begin{bmatrix}1\\\\2\\end{bmatrix} = \\begin{bmatrix}3\\\\6\\end{bmatrix}\\)<br>Sum of known components: \\(\\mathbf{F}_2 + \\mathbf{F}_3 = \\begin{bmatrix}-2+1\\\\5-3\\end{bmatrix} = \\begin{bmatrix}-1\\\\2\\end{bmatrix}\\)<br>\\(\\mathbf{F}_1 = \\mathbf{F}_\\text{net} - \\text{sum} = \\begin{bmatrix}3\\\\6\\end{bmatrix}-\\begin{bmatrix}-1\\\\2\\end{bmatrix} = \\begin{bmatrix}4\\\\4\\end{bmatrix}\\)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 2 kg experiences \\(\\mathbf{F}_1 = \\begin{bmatrix}3\\\\-1\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}2\\\\2\\end{bmatrix}\\,\\text{N}\\).<br><br>Find the acceleration vector.",
+  solution: "\\(\\mathbf{F}_\\text{net} = \\begin{bmatrix}5\\\\1\\end{bmatrix}\\,\\text{N}\\)<br>\\(\\mathbf{a} = \\mathbf{F}_\\text{net}/2 = \\begin{bmatrix}2.5\\\\0.5\\end{bmatrix}\\,\\text{m/s²}\\)"
+},
+
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 6 kg is acted on by \\(\\mathbf{F}_1 = \\begin{bmatrix}12\\\\8\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}-4\\\\-2\\end{bmatrix}\\,\\text{N}\\).<br><br>Find the acceleration vector.",
+  solution: "\\(\\mathbf{F}_\\text{net} = \\begin{bmatrix}8\\\\6\\end{bmatrix}\\,\\text{N}\\)<br>\\(\\mathbf{a} = \\mathbf{F}_\\text{net}/6 = \\begin{bmatrix}1.33\\\\1\\end{bmatrix}\\,\\text{m/s²}\\)"
+},
+
+{
+  topic: "Forces - Combined",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 3 kg is acted on by three forces:<br>\\(\\mathbf{F}_1 = \\begin{bmatrix}2\\\\1\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}1\\\\2\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_3 = ?\\)<br>The particle accelerates at \\(\\mathbf{a} = \\begin{bmatrix}3\\\\2\\end{bmatrix}\\,\\text{m/s²}\\).<br><br>Find \\(\\mathbf{F}_3\\).",
+  solution: "\\(\\mathbf{F}_\\text{net} = 3*\\begin{bmatrix}3\\\\2\\end{bmatrix} = \\begin{bmatrix}9\\\\6\\end{bmatrix}\\)<br>\\(\\mathbf{F}_1 + \\mathbf{F}_2 = \\begin{bmatrix}3\\\\3\\end{bmatrix}\\)<br>\\(\\mathbf{F}_3 = \\mathbf{F}_\\text{net} - (\\mathbf{F}_1+\\mathbf{F}_2) = \\begin{bmatrix}6\\\\3\\end{bmatrix}\\)"
+},
+
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A force of \\(\\mathbf{F} = \\begin{bmatrix}-7\\\\24\\end{bmatrix}\\,\\text{N}\\) is applied to a particle of mass 4 kg.<br><br>Find the magnitude of the acceleration and the direction from the positive i-axis.",
+  solution: "\\(\\mathbf{a} = \\mathbf{F}/m = \\begin{bmatrix}-1.75\\\\6\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(|\\mathbf{a}| = \\sqrt{(-1.75)^2 + 6^2} \\approx 6.25\\,\\text{m/s²}\\)<br>\\(\\theta = \\arctan(6/ -1.75) \\approx 106.3^\\circ \\text{ from +i-axis}\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle P lies at rest on a smooth horizontal table. It accelerates at \\(\\mathbf{a} = \\begin{bmatrix}5\\\\12\\end{bmatrix}\\,\\text{m/s²}\\). Find its speed after 5 seconds.",
+  solution: "\\(|\\mathbf{v}| = |\\mathbf{a}|*t = \\sqrt{5^2 + 12^2}*5 = 13*5 = 65\\,\\text{m/s}\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle lies at rest on a smooth horizontal table and starts to move with constant acceleration \\(\\mathbf{a} = \\begin{bmatrix}8\\\\-6\\end{bmatrix}\\,\\text{m/s²}\\). The applied force is \\(\\mathbf{F} = \\begin{bmatrix}2\\\\-1.5\\end{bmatrix}\\,\\text{N}\\). Find the mass of the particle.",
+  solution: "\\(m = 0.25\\,\\text{kg}\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 3 kg is acted on by a force \\(\\mathbf{F} = \\begin{bmatrix}9\\\\12\\end{bmatrix}\\,\\text{N}\\). Find the magnitude and direction of its acceleration.",
+  solution: "\\(\\mathbf{a} = \\mathbf{F}/m = \\begin{bmatrix}3\\\\4\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(|\\mathbf{a}| = 5\\,\\text{m/s²}\\)<br>\\(\\theta = \\arctan(4/3) \\approx 53.1^\\circ\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle starts from rest and accelerates at \\(\\mathbf{a} = \\begin{bmatrix}6\\\\-8\\end{bmatrix}\\,\\text{m/s²}\\). Find its speed after 3 seconds.",
+  solution: "\\(|\\mathbf{v}| = |\\mathbf{a}|*t = \\sqrt{6^2 + (-8)^2}*3 = 10*3 = 30\\,\\text{m/s}\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A force of \\(\\mathbf{F} = \\begin{bmatrix}-5\\\\15\\end{bmatrix}\\,\\text{N}\\) acts on a particle of mass 5 kg. Find the acceleration vector and its magnitude.",
+  solution: "\\(\\mathbf{a} = \\mathbf{F}/m = \\begin{bmatrix}-1\\\\3\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(|\\mathbf{a}| = \\sqrt{(-1)^2 + 3^2} = \\sqrt{10} \\approx 3.16\\,\\text{m/s²}\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle of mass 2 kg experiences a force \\(\\mathbf{F} = \\begin{bmatrix}4\\\\-3\\end{bmatrix}\\,\\text{N}\\). Find the magnitude of acceleration and its direction from the positive i-axis.",
+  solution: "\\(\\mathbf{a} = \\mathbf{F}/m = \\begin{bmatrix}2\\\\-1.5\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(|\\mathbf{a}| = \\sqrt{2^2 + (-1.5)^2} = 2.5\\,\\text{m/s²}\\)<br>\\(\\theta = \\arctan(-1.5/2) \\approx -36.9^\\circ\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle is acted on by a constant force \\(\\mathbf{F} = \\begin{bmatrix}3\\\\4\\end{bmatrix}\\,\\text{N}\\) and has mass 1 kg. Find its acceleration magnitude and the angle it makes with the +i axis.",
+  solution: "\\(\\mathbf{a} = \\mathbf{F}/m = \\begin{bmatrix}3\\\\4\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(|\\mathbf{a}| = 5\\,\\text{m/s²}\\)<br>\\(\\theta = \\arctan(4/3) \\approx 53.1^\\circ\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle at rest accelerates at \\(\\mathbf{a} = \\begin{bmatrix}-9\\\\12\\end{bmatrix}\\,\\text{m/s²}\\) for 2 s.<br><br>Find its final speed and the direction of its velocity from the positive i-axis.",
+  solution: "\\(|\\mathbf{v}| = |\\mathbf{a}| * t = \\sqrt{(-9)^2 + 12^2} * 2 = 30\\,\\text{m/s}\\)<br>\\(\\theta = \\arctan(12/ -9) \\approx 126.9^\\circ \\text{ from +i-axis}\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A force \\(\\mathbf{F} = \\begin{bmatrix}12\\\\-5\\end{bmatrix}\\,\\text{N}\\) is applied to a particle of mass 3 kg. Find the magnitude and direction of the acceleration.",
+  solution: "\\(\\mathbf{a} = \\mathbf{F}/m = \\begin{bmatrix}4\\\\-1.667\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(|\\mathbf{a}| = \\sqrt{4^2 + (-1.667)^2} \\approx 4.33\\,\\text{m/s²}\\)<br>\\(\\theta = \\arctan(-1.667/4) \\approx -22.6^\\circ\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle with mass 0.5 kg accelerates at \\(\\mathbf{a} = \\begin{bmatrix}2\\\\-3\\end{bmatrix}\\,\\text{m/s²}\\). Find the force vector acting on it.",
+  solution: "\\(\\mathbf{F} = m\\mathbf{a} = 0.5*\\begin{bmatrix}2\\\\-3\\end{bmatrix} = \\begin{bmatrix}1\\\\-1.5\\end{bmatrix}\\,\\text{N}\\)"
+},
+
+{
+  topic: "Forces - 2D",
+  level: "Year 12 - Mechanics",
+  question: "A particle is accelerated from rest by a force \\(\\mathbf{F} = \\begin{bmatrix}6\\\\8\\end{bmatrix}\\,\\text{N}\\). The particle mass is 2 kg. Findits speed after 4 s.",
+  solution: "\\(\\mathbf{a} = \\mathbf{F}/m = \\begin{bmatrix}3\\\\4\\end{bmatrix}\\,\\text{m/s²}\\)<br>\\(\\mathbf{v} = \\mathbf{a}*t = 4*\\begin{bmatrix}3\\\\4\\end{bmatrix} = \\begin{bmatrix}12\\\\16\\end{bmatrix}\\,\\text{m/s}\\)<br>\\(|\\mathbf{v}| = 20\\,\\text{m/s}\\)"
+},
+
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 750 kg is pulling a trailer of mass 530 kg using a light, inextensible towbar. The engine produces a driving force of 1800 N, and the resistance forces on the car and trailer are 800 N and 500 N respectively.<br><br>Find the tension in the towbar.",
+  solution: "\\(a = \\frac{1800-800-500}{750+530} = 0.391\\,\\text{m/s²}\\)<br>\\(T = 530*0.391 + 500\\)<br>\\(T \\approx 706 N\\)"
+},
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 1200 kg is towing a trailer of mass 300 kg using a light, horizontal towbar. The resistance forces on the car and trailer are 600 N and 200 N respectively. The car starts to brake and decelerates at 1.2 m s⁻².<br><br>Find the braking force of the car.",
+  solution: "\\(T - 200 = 300*1.2\\Rightarrow T = 560\\)<br>\\(F - 600 - 560 = 1200*1.2\\)<br>\\(F = 2600 N\\)"
+},
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 650 kg is towing a trailer of 350 kg. The car starts to brake and decelerates at 2.3 m s⁻². Assuming all other resistance forces can be ignored,<br><br>Find the thrust in the towbar.",
+  solution: "\\(T = 350*2.3 = 805 N\\)<br>\\(T \\approx 805 N\\)"
+},
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A truck of mass 2000 kg is towing a trailer of mass 1000 kg. The engine produces 5000 N, and resistances on the truck and trailer are 1200 N and 400 N.<br><br>Find the tension in the towbar.",
+  solution: "\\(a = \\frac{5000-1200-400}{2000+1000} = 0.8\\)<br>\\(T = 1000*0.8 + 400\\)<br>\\(T = 1200 N\\)"
+},
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 900 kg is towing a trailer of mass 600 kg. Resistances are 700 N and 300 N respectively. The system accelerates at 1.5 m s⁻².<br><br>Find the tension in the towbar.",
+  solution: "\\(T = 600*1.5 + 300\\)<br>\\(T = 1200 N\\)"
+},
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 1200 kg is towing a trailer of 400 kg. Resistances on the car and trailer are 500 N and 200 N. The engine produces 2500 N.<br><br>Find the acceleration and the tension in the towbar.",
+  solution: "\\(a = \\frac{2500-500-200}{1200+400} = 1.25\\)<br>\\(T = 400*1.25 + 200\\)<br>\\(T \\approx 700 N\\)"
+},
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A truck of mass 2500 kg is towing a trailer of 1500 kg. The truck brakes, decelerating at 1.5 m s⁻². Resistances can be ignored.<br><br>Find the tension in the towbar.",
+  solution: "\\(T = 1500*1.5 = 2250 N\\)<br>\\(T \\approx 2250 N\\)"
+},
+
+{
+  topic: "Connected Objects - Trucks and Trailers",
+  level: "Year 12 - Mechanics",
+  question: "A car of mass 1000 kg is towing a trailer of 500 kg. The car engine produces 3000 N. Resistances are 600 N and 300 N. Find the acceleration and tension in the towbar.",
+  solution: "\\(a = \\frac{3000-600-300}{1000+500} = 1.4\\)<br>\\(T = 500*1.4 + 300 = 1000 N\\)<br>\\(T \\approx 1000 N\\)"
+},
+
+{
   topic: "Connected Objects - Pulleys",
   level: "Year 12 - Mechanics",
   question: "Two masses of 4 kg and 9 kg are connected by a light, inextensible rope over a smooth pulley. The heavier mass is 0.8 m above the ground. The system is released from rest.<br><br>Find the time taken by the heavier mass to reach the ground.",

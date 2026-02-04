@@ -1332,12 +1332,7 @@ solution: "\\(u=18,\\ s=0,\\ a=-9.8\\)<br>\\(0=18t-4.9t^2\\)<br>\\(t\\approx3.67
   question: "Point C has coordinates (c, 1) and point D has coordinates (1, d).<br>The perpendicular bisector of CD has equation 3x − 2y = 6.<br>Find c and d.",
   solution: "c = 7, d = 5"
 },
-{
-  topic: "Geometry - Perpendicular Bisectors 2",
-  level: "Year 12",
-  question: "Point C has coordinates (c, −1) and point D has coordinates (1, d).<br>The perpendicular bisector of CD has equation x + y = 0.<br>Find c and d.",
-  solution: "c = −5, d = 5"
-},
+
 {
   topic: "Geometry - Perpendicular Bisectors 2",
   level: "Year 12",

@@ -96,6 +96,8 @@ button:disabled {
   cursor:not-allowed;
 }
 </style>
+
+
 </head>
 
 <body>
@@ -409,6 +411,21 @@ ${selected.map((q,i)=>`
   win.document.close();
   win.onload = () => win.MathJax.typesetPromise().then(()=>win.print());
 }
+
+document.addEventListener("mouseover", e => {
+  const cell = e.target.closest(".preview-cell");
+  if (!cell) return;
+
+  const tooltip = cell.querySelector(".tooltip");
+  if (!tooltip || tooltip.dataset.typeset) return;
+
+  if (window.MathJax) {
+    MathJax.typesetPromise([tooltip]).then(() => {
+      tooltip.dataset.typeset = "true";
+    });
+  }
+});
+
 </script>
 
 </body>

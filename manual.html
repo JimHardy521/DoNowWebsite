@@ -66,6 +66,14 @@ h1 {
   font-size:1.05rem;
   font-weight:600;
 }
+
+.print-options {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin:0 14px;
+  font-size:0.95rem;
+}
 </style>
 </head>
 
@@ -77,9 +85,22 @@ h1 {
 <div id="questionList"></div>
 
 <div class="bottom-actions">
-
   <button onclick="addQuestion()">+ Add Question</button>
-    <button onclick="printWorksheet()">Print</button>
+
+  <span class="print-options">
+    <label>
+      <input type="checkbox" id="printLines" onchange="toggleLineSelect()">
+      Print Answer Lines
+    </label>
+
+    <select id="lineCount" disabled>
+  <option value="3">3 lines</option>
+  <option value="4">4 lines</option>
+  <option value="5">5 lines</option>
+</select>
+  </span>
+
+  <button onclick="printWorksheet()">Print</button>
 </div>
 
 <script>
@@ -127,6 +148,11 @@ function shuffle(arr) {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
+}
+
+function toggleLineSelect() {
+  document.getElementById("lineCount").disabled =
+    !document.getElementById("printLines").checked;
 }
 
 /* ===== INITIAL GENERATION ===== */
@@ -193,22 +219,6 @@ function renderWorksheet() {
   MathJax.typesetPromise();
 }
 
-/* ===== SCROLL PRESERVATION ===== */
-function rerenderPreservingScroll(index) {
-  const el = document.getElementById(`q-${index}`);
-  const top = el.getBoundingClientRect().top;
-
-  renderWorksheet();
-
-  requestAnimationFrame(() => {
-    const newEl = document.getElementById(`q-${index}`);
-    if (newEl) {
-      const newTop = newEl.getBoundingClientRect().top;
-      window.scrollBy(0, newTop - top);
-    }
-  });
-}
-
 /* ===== EDIT CONTROLS ===== */
 function refreshQuestion(index) {
   const topic = worksheet[index].topic;
@@ -218,7 +228,7 @@ function refreshQuestion(index) {
   );
 
   worksheet[index] = pool[Math.floor(Math.random() * pool.length)];
-  rerenderPreservingScroll(index);
+  renderWorksheet();
 }
 
 function changeTopic(index, newTopic) {
@@ -228,7 +238,7 @@ function changeTopic(index, newTopic) {
   );
 
   worksheet[index] = pool[Math.floor(Math.random() * pool.length)];
-  rerenderPreservingScroll(index);
+  renderWorksheet();
 }
 
 function deleteQuestion(index) {
@@ -238,35 +248,36 @@ function deleteQuestion(index) {
 
 /* ===== ADD NEW QUESTION ===== */
 function addQuestion() {
-  // Default to first topic
   const topic = topics[0];
-
-  // Pick a random question in that topic
   const pool = questionsData.filter(q =>
     q.topic === topic &&
     (source === "l2further" || q.level === level)
   );
 
-  const newQ = pool[Math.floor(Math.random() * pool.length)];
-
-  worksheet.push(newQ);
+  worksheet.push(pool[Math.floor(Math.random() * pool.length)]);
   renderWorksheet();
-
-  // Scroll to the new question
-  requestAnimationFrame(() => {
-    const newEl = document.getElementById(`q-${worksheet.length-1}`);
-    if (newEl) newEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  });
 }
 
 /* ===== PRINT ===== */
+function workingLinesHTML(count) {
+  return `
+    <div class="working-lines">
+      ${'<div class="line"></div>'.repeat(count)}
+    </div>
+  `;
+}
+
 function printWorksheet() {
   const win = window.open("", "_blank");
+
+  const showLines = document.getElementById("printLines").checked;
+  const lineCount = +document.getElementById("lineCount").value;
 
   win.document.write(`
 <html>
 <head>
 <title>${title}</title>
+
 <style>
 @page { size:A4; margin:12mm; }
 
@@ -324,10 +335,22 @@ body {
   font-weight:700;
 }
 
+.working-lines {
+  margin-top:10px;
+  page-break-inside: avoid;
+}
+
+.working-lines .line {
+  border-bottom:1px solid #ccc;
+  height:18px;
+  margin-bottom:6px;
+}
+
 .print-answers {
   page-break-before:always;
 }
 </style>
+
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
 </head>
 
@@ -347,7 +370,10 @@ body {
 ${worksheet.map((q,i)=>`
 <tr>
   <td class="print-qnum">${i+1}.</td>
-  <td>${q.question}</td>
+  <td>
+    ${q.question}
+    ${showLines ? workingLinesHTML(lineCount) : ""}
+  </td>
 </tr>
 `).join("")}
 </table>

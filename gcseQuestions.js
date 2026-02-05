@@ -1,6 +1,79 @@
 const gcseQuestions = [
 
 {
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(4\\text{ cm}^2\\) to \\(\\text{mm}^2\\).",
+  solution: "1 cm = 10 mm.<br>\\(1\\text{ cm}^2 = 100\\text{ mm}^2\\).<br>\\(4 \\times 100 = 400\\text{ mm}^2\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(8000\\text{ mm}^3\\) to \\(\\text{cm}^3\\).",
+  solution: "1 cm = 10 mm.<br>\\(1\\text{ cm}^3 = 1000\\text{ mm}^3\\).<br>\\(8000 \\div 1000 = 8\\text{ cm}^3\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "A field has an area of \\(3.2\\text{ km}^2\\).<br>Convert this to \\(\\text{m}^2\\).",
+  solution: "1 km = 1000 m.<br>\\(1\\text{ km}^2 = 1,000,000\\text{ m}^2\\).<br>\\(3.2 \\times 1,000,000 = 3,200,000\\text{ m}^2\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(0.6\\text{ m}^2\\) to \\(\\text{cm}^2\\).",
+  solution: "1 m = 100 cm.<br>\\(1\\text{ m}^2 = 10,000\\text{ cm}^2\\).<br>\\(0.6 \\times 10,000 = 6000\\text{ cm}^2\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(45,000\\text{ cm}^3\\) to \\(\\text{m}^3\\).",
+  solution: "1 m = 100 cm.<br>\\(1\\text{ m}^3 = 1,000,000\\text{ cm}^3\\).<br>\\(45,000 \\div 1,000,000 = 0.045\\text{ m}^3\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(2.5\\text{ m}^3\\) to \\(\\text{cm}^3\\).",
+  solution: "1 m = 100 cm.<br>\\(1\\text{ m}^3 = 1,000,000\\text{ cm}^3\\).<br>\\(2.5 \\times 1,000,000 = 2,500,000\\text{ cm}^3\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(1200\\text{ mm}^2\\) to \\(\\text{cm}^2\\).",
+  solution: "1 cm = 10 mm.<br>\\(1\\text{ cm}^2 = 100\\text{ mm}^2\\).<br>\\(1200 \\div 100 = 12\\text{ cm}^2\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "A solid has a volume of \\(0.004\\text{ m}^3\\).<br>Convert this to \\(\\text{cm}^3\\).",
+  solution: "1 m = 100 cm.<br>\\(1\\text{ m}^3 = 1,000,000\\text{ cm}^3\\).<br>\\(0.004 \\times 1,000,000 = 4000\\text{ cm}^3\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(7.5\\text{ km}^2\\) to \\(\\text{m}^2\\).",
+  solution: "1 km = 1000 m.<br>\\(1\\text{ km}^2 = 1,000,000\\text{ m}^2\\).<br>\\(7.5 \\times 1,000,000 = 7,500,000\\text{ m}^2\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(36,000\\text{ mm}^3\\) to \\(\\text{cm}^3\\).",
+  solution: "1 cm = 10 mm.<br>\\(1\\text{ cm}^3 = 1000\\text{ mm}^3\\).<br>\\(36,000 \\div 1000 = 36\\text{ cm}^3\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "A floor has an area of \\(1.8\\text{ m}^2\\).<br>Convert this to \\(\\text{cm}^2\\).",
+  solution: "1 m = 100 cm.<br>\\(1\\text{ m}^2 = 10,000\\text{ cm}^2\\).<br>\\(1.8 \\times 10,000 = 18,000\\text{ cm}^2\\)."
+},
+{
+  topic: "Metric Units - Converting Areas and Volume",
+  level: "Crossover",
+  question: "Convert \\(0.09\\text{ cm}^2\\) to \\(\\text{mm}^2\\).",
+  solution: "1 cm = 10 mm.<br>\\(1\\text{ cm}^2 = 100\\text{ mm}^2\\).<br>\\(0.09 \\times 100 = 9\\text{ mm}^2\\)."
+},
+
+{
   topic: "Ratio - Equations",
   level: "Higher",
   question: "\\((2x-3):(7x-16)=1:3\\).<br>Find the value of \\(x\\).",
@@ -84,38 +157,15 @@ const gcseQuestions = [
 {
   topic: "Similar Shapes - Area Volume Scale Factors",
   level: "Higher",
-  question: "Two similar cylinders are mathematically similar.<br><br>The volume of cylinder A is \\(180\\text{ cm}^3\\).<br>The volume of cylinder B is \\(1440\\text{ cm}^3\\).<br><br>The surface area of cylinder B is \\(600\\text{ cm}^2\\).<br>Find the surface area of cylinder A.",
-  solution: "Volume SF = \\(1440\\div180=8\\).<br>Linear SF = \\(2\\).<br>Area SF = \\(4\\).<br>SA A = \\(600\\div4=150\\text{ cm}^2\\)."
-},
-  
-{
-  topic: "Similar Shapes - Area Volume Scale Factors",
-  level: "Higher",
   question: "Two cones are mathematically similar.<br><br>The surface area of cone A is \\(90\\text{ cm}^2\\).<br>The surface area of cone B is \\(360\\text{ cm}^2\\).<br><br>The volume of cone A is \\(150\\text{ cm}^3\\).<br>Find the volume of cone B.",
   solution: "Area SF = \\(360\\div90=4\\).<br>Linear SF = \\(\\sqrt4=2\\).<br>Volume SF = \\(2^3=8\\).<br>Volume B = \\(150\\times8=1200\\text{ cm}^3\\)."
 },
-
-{
-  topic: "Similar Shapes - Area Volume Scale Factors",
-  level: "Higher",
-  question: "Two pyramids are mathematically similar.<br><br>The volume of pyramid A is \\(600\\text{ cm}^3\\).<br>The volume of pyramid B is \\(4800\\text{ cm}^3\\).<br><br>The surface area of pyramid B is \\(400\\text{ cm}^2\\).<br>Find the surface area of pyramid A.",
-  solution: "Volume SF = \\(4800\\div600=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(4\\).<br>SA A = \\(400\\div4=100\\text{ cm}^2\\)."
-},
-  
 {
   topic: "Similar Shapes - Area Volume Scale Factors",
   level: "Higher",
   question: "Two similar spheres are made from the same metal.<br><br>Sphere A has a volume of \\(125\\text{ cm}^3\\).<br>Sphere B has a volume of \\(1000\\text{ cm}^3\\).<br><br>The surface area of sphere A is \\(150\\text{ cm}^2\\).<br>Find the surface area of sphere B.",
   solution: "Volume SF = \\(1000\\div125=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(2^2=4\\).<br>SA B = \\(150\\times4=600\\text{ cm}^2\\)."
 },
-
-{
-  topic: "Similar Shapes - Area Volume Scale Factors",
-  level: "Higher",
-  question: "Two similar cuboids are mathematically similar.<br><br>The surface area of cuboid A is \\(160\\text{ cm}^2\\).<br>The surface area of cuboid B is \\(640\\text{ cm}^2\\).<br><br>The volume of cuboid B is \\(512\\text{ cm}^3\\).<br>Find the volume of cuboid A.",
-  solution: "Area SF = \\(640\\div160=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(512\\div8=64\\text{ cm}^3\\)."
-},
-  
 {
   topic: "Similar Shapes - Area Volume Scale Factors",
   level: "Higher",
@@ -152,6 +202,25 @@ const gcseQuestions = [
   question: "Two cones are mathematically similar.<br><br>The surface area of cone A is \\(90\\text{ cm}^2\\).<br>The surface area of cone B is \\(360\\text{ cm}^2\\).<br><br>The volume of cone B is \\(1200\\text{ cm}^3\\).<br>Find the volume of cone A.",
   solution: "Area SF = \\(360\\div90=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(1200\\div8=150\\text{ cm}^3\\)."
 },
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar cuboids are mathematically similar.<br><br>The surface area of cuboid A is \\(160\\text{ cm}^2\\).<br>The surface area of cuboid B is \\(640\\text{ cm}^2\\).<br><br>The volume of cuboid B is \\(512\\text{ cm}^3\\).<br>Find the volume of cuboid A.",
+  solution: "Area SF = \\(640\\div160=4\\).<br>Linear SF = \\(2\\).<br>Volume SF = \\(8\\).<br>Volume A = \\(512\\div8=64\\text{ cm}^3\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two pyramids are mathematically similar.<br><br>The volume of pyramid A is \\(600\\text{ cm}^3\\).<br>The volume of pyramid B is \\(4800\\text{ cm}^3\\).<br><br>The surface area of pyramid B is \\(400\\text{ cm}^2\\).<br>Find the surface area of pyramid A.",
+  solution: "Volume SF = \\(4800\\div600=8\\).<br>Linear SF = \\(\\sqrt[3]{8}=2\\).<br>Area SF = \\(4\\).<br>SA A = \\(400\\div4=100\\text{ cm}^2\\)."
+},
+{
+  topic: "Similar Shapes - Area Volume Scale Factors",
+  level: "Higher",
+  question: "Two similar cylinders are mathematically similar.<br><br>The volume of cylinder A is \\(180\\text{ cm}^3\\).<br>The volume of cylinder B is \\(1440\\text{ cm}^3\\).<br><br>The surface area of cylinder B is \\(600\\text{ cm}^2\\).<br>Find the surface area of cylinder A.",
+  solution: "Volume SF = \\(1440\\div180=8\\).<br>Linear SF = \\(2\\).<br>Area SF = \\(4\\).<br>SA A = \\(600\\div4=150\\text{ cm}^2\\)."
+},
+
 
 
 

@@ -1,4 +1,80 @@
 const gcseQuestions = [
+
+
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of cows to sheep on a farm is \\(6:5\\).<br><br>34 cows are added and the ratio becomes \\(7:3\\).<br><br>How many sheep were there originally?",
+  solution: "Let cows = \\(6x\\), sheep = \\(5x\\)<br>\\(\\dfrac{6x+34}{5x}=\\dfrac{7}{3}\\)<br>\\(18x+102=35x\\Rightarrow x=6\\)<br>Sheep = 30"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "A box contains spheres and cubes in the ratio \\(5:7\\).<br><br>145 spheres fall out and the ratio becomes \\(3:10\\).<br><br>How many spheres are in the box now?",
+  solution: "Let spheres = \\(5x\\), cubes = \\(7x\\)<br>\\(\\dfrac{5x-145}{7x}=\\dfrac{3}{10}\\)<br>\\(50x-1450=21x\\Rightarrow x=50\\)<br>Spheres now = 105"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of boys to girls at a party is \\(3:4\\).<br><br>Six boys leave and the ratio becomes \\(5:8\\).<br><br>Work out the number of girls at the party.",
+  solution: "Let boys = \\(3x\\), girls = \\(4x\\)<br>\\(\\dfrac{3x-6}{4x}=\\dfrac{5}{8}\\)<br>\\(24x-48=20x\\Rightarrow x=12\\)<br>Girls = 48"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of red to blue counters is \\(5:3\\).<br><br>If 18 blue counters are added, the ratio becomes \\(5:6\\).<br><br>How many red counters were there originally?",
+  solution: "Let red = \\(5x\\), blue = \\(3x\\)<br>\\(\\dfrac{5x}{3x+18}=\\dfrac{5}{6}\\)<br>\\(30x=15x+90\\Rightarrow x=6\\)<br>Red = 30"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of apples to oranges is \\(7:4\\).<br><br>If 12 oranges are added, the ratio becomes \\(7:6\\).<br><br>How many apples were there originally?",
+  solution: "Let apples = \\(7x\\), oranges = \\(4x\\)<br>\\(\\dfrac{7x}{4x+12}=\\dfrac{7}{6}\\)<br>\\(42x=28x+84\\Rightarrow x=6\\)<br>Apples = 42"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of pens to pencils is \\(9:5\\).<br><br>If 14 pens are removed, the ratio becomes \\(7:5\\).<br><br>How many pencils were there originally?",
+  solution: "Let pens = \\(9x\\), pencils = \\(5x\\)<br>\\(\\dfrac{9x-14}{5x}=\\dfrac{7}{5}\\)<br>\\(45x-70=35x\\Rightarrow x=7\\)<br>Pencils = 35"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of cats to dogs is \\(4:5\\).<br><br>If 10 dogs leave, the ratio becomes \\(2:3\\).<br><br>How many cats were there originally?",
+  solution: "Let cats = \\(4x\\), dogs = \\(5x\\)<br>\\(\\dfrac{4x}{5x-10}=\\dfrac{2}{3}\\)<br>\\(12x=10x-20\\Rightarrow x=10\\)<br>Cats = 40"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of men to women is \\(5:7\\).<br><br>If 14 men are added, the ratio becomes \\(1:1\\).<br><br>How many women were there originally?",
+  solution: "Let men = \\(5x\\), women = \\(7x\\)<br>\\(\\dfrac{5x+14}{7x}=1\\)<br>\\(5x+14=7x\\Rightarrow x=7\\)<br>Women = 49"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of blue to green marbles is \\(5:6\\).<br><br>If 17 green marbles are removed, the ratio becomes \\(1:1\\).<br><br>How many green marbles were there originally?",
+  solution: "Let blue = \\(5x\\), green = \\(6x\\)<br>\\(\\dfrac{5x}{6x-17}=1\\)<br>\\(5x=6x-17\\Rightarrow x=17\\)<br>Green = 102"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of flour to sugar is \\(9:4\\).<br><br>If 8 kg of sugar is added, the ratio becomes \\(9:6\\).<br><br>How much flour was there originally?",
+  solution: "Let flour = \\(9x\\), sugar = \\(4x\\)<br>\\(\\dfrac{9x}{4x+8}=\\dfrac{9}{6}\\)<br>\\(54x=36x+72\\Rightarrow x=4\\)<br>Flour = 36 kg"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of A to B is \\(4:7\\).<br><br>If 21 is removed from B, the ratio becomes \\(2:3\\).<br><br>Find the original value of A.",
+  solution: "Let A = \\(4x\\), B = \\(7x\\)<br>\\(\\dfrac{4x}{7x-21}=\\dfrac{2}{3}\\)<br>\\(12x=14x-42\\Rightarrow x=21\\)<br>A = 84"
+},
+{
+  topic: "Ratio - Changing Amounts",
+  level: "Higher",
+  question: "The ratio of gold to silver coins is \\(11:9\\).<br><br>If 22 gold coins are removed, the ratio becomes \\(3:4\\).<br><br>How many silver coins were there originally?",
+  solution: "Let gold = \\(11x\\), silver = \\(9x\\)<br>\\(\\dfrac{11x-22}{9x}=\\dfrac{3}{4}\\)<br>\\(44x-88=27x\\Rightarrow x=8\\)<br>Silver = 72"
+},
+
+  
 {
   topic: "Bounds - Upper and Lower",
   level: "Higher",

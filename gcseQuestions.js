@@ -1,4 +1,76 @@
 const gcseQuestions = [
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "a = 4.72 correct to 3 significant figures<br>b = 158 correct to 3 significant figures<br><br>Find the upper bound of \\(\\dfrac{a}{b}\\).",
+  solution: "a upper bound = \\(4.725\\)<br>b lower bound = \\(157.5\\)<br><br>Upper bound of \\(\\dfrac{a}{b} = \\dfrac{4.725}{157.5} = 0.03\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "x = 3.6 correct to 1 decimal place<br>y = 42 correct to 2 significant figures<br><br>Find the lower bound of \\(xy\\).",
+  solution: "x lower bound = \\(3.55\\)<br>y lower bound = \\(41.5\\)<br><br>Lower bound of \\(xy = 3.55 \\times 41.5 = 147.325\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "p = 7.84 correct to 3 significant figures<br>q = 0.52 correct to 2 decimal places<br><br>Find the upper bound of \\(p+q\\).",
+  solution: "p upper bound = \\(7.845\\)<br>q upper bound = \\(0.525\\)<br><br>Upper bound of \\(p+q = 8.37\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "m = 120 correct to 2 significant figures<br>n = 4.3 correct to 1 decimal place<br><br>Find the lower bound of \\(\\dfrac{m}{n}\\).",
+  solution: "m lower bound = \\(115\\)<br>n upper bound = \\(4.35\\)<br><br>Lower bound of \\(\\dfrac{m}{n} = \\dfrac{115}{4.35} \\approx 26.44\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "a = 5.6 correct to 1 decimal place<br>b = 1.24 correct to 2 decimal places<br><br>Find the upper bound of \\(ab\\).",
+  solution: "a upper bound = \\(5.65\\)<br>b upper bound = \\(1.245\\)<br><br>Upper bound of \\(ab = 7.03425\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "x = 2.15 correct to 3 significant figures<br>y = 0.8 correct to 1 significant figure<br><br>Find the lower bound of \\(x-y\\).",
+  solution: "x lower bound = \\(2.145\\)<br>y upper bound = \\(0.85\\)<br><br>Lower bound of \\(x-y = 1.295\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "r = 9.2 correct to 1 decimal place<br>s = 3.18 correct to 3 significant figures<br><br>Find the upper bound of \\(r-s\\).",
+  solution: "r upper bound = \\(9.25\\)<br>s lower bound = \\(3.175\\)<br><br>Upper bound of \\(r-s = 6.075\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "a = 0.46 correct to 2 decimal places<br>b = 7.1 correct to 1 decimal place<br><br>Find the lower bound of \\(\\dfrac{a}{b}\\).",
+  solution: "a lower bound = \\(0.455\\)<br>b upper bound = \\(7.15\\)<br><br>Lower bound of \\(\\dfrac{a}{b} \\approx 0.0636\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "p = 64 correct to 2 significant figures<br>q = 1.9 correct to 1 decimal place<br><br>Find the upper bound of \\(pq\\).",
+  solution: "p upper bound = \\(65\\)<br>q upper bound = \\(1.95\\)<br><br>Upper bound of \\(pq = 126.75\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "x = 14.6 correct to 1 decimal place<br>y = 2.4 correct to 2 significant figures<br><br>Find the lower bound of \\(x+y\\).",
+  solution: "x lower bound = \\(14.55\\)<br>y lower bound = \\(2.35\\)<br><br>Lower bound of \\(x+y = 16.9\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "m = 0.072 correct to 2 significant figures<br>n = 18 correct to 2 significant figures<br><br>Find the upper bound of \\(\\dfrac{m}{n}\\).",
+  solution: "m upper bound = \\(0.0725\\)<br>n lower bound = \\(17.5\\)<br><br>Upper bound of \\(\\dfrac{m}{n} \\approx 0.00414\\)"
+},
+{
+  topic: "Bounds - Upper and Lower",
+  level: "Higher",
+  question: "a = 3.48 correct to 3 significant figures<br>b = 0.96 correct to 2 decimal places<br><br>Find the lower bound of \\(ab\\).",
+  solution: "a lower bound = \\(3.475\\)<br>b lower bound = \\(0.955\\)<br><br>Lower bound of \\(ab \\approx 3.32\\)"
+},
 
 {
   topic: "Metric Units - Converting Areas and Volume",

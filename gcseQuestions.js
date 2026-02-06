@@ -1,4 +1,76 @@
 const gcseQuestions = [
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The area of a square is \\(49\\text{ cm}^2\\).<br><br>Find the perimeter of the square.",
+  solution: "Side length = \\(\\sqrt{49} = 7\\text{ cm}\\)<br><br>Perimeter = \\(4 \\times 7 = 28\\text{ cm}\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The perimeter of a square is \\(20\\text{ cm}\\).<br><br>Find the area of the square.",
+  solution: "Side length = \\(20 \\div 4 = 5\\text{ cm}\\)<br><br>Area = \\(5 \\times 5 = 25\\text{ cm}^2\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The perimeter of a rectangle is \\(28\\text{ cm}\\).<br><br>One side is \\(5\\text{ cm}\\).<br><br>Find the area of the rectangle.",
+  solution: "Half perimeter = \\(28 \\div 2 = 14\\)<br>Other side = \\(14 - 5 = 9\\text{ cm}\\)<br><br>Area = \\(5 \\times 9 = 45\\text{ cm}^2\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The perimeter of a rectangle is \\(30\\text{ cm}\\).<br><br>One side is \\(9\\text{ cm}\\).<br><br>Find the length of the other side.",
+  solution: "Half perimeter = \\(30 \\div 2 = 15\\)<br><br>Other side = \\(15 - 9 = 6\\text{ cm}\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "A rectangle has a length of \\(8\\text{ cm}\\) and a width of \\(4\\text{ cm}\\).<br><br>Find the perimeter.",
+  solution: "Perimeter = \\(2(8 + 4)\\)<br><br>Perimeter = \\(24\\text{ cm}\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "A rectangle has a length of \\(7\\text{ cm}\\) and a width of \\(6\\text{ cm}\\).<br><br>Find the area.",
+  solution: "Area = \\(7 \\times 6\\)<br><br>Area = \\(42\\text{ cm}^2\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The area of a rectangle is \\(36\\text{ cm}^2\\).<br><br>One side is \\(4\\text{ cm}\\).<br><br>Find the length of the other side.",
+  solution: "Other side = \\(36 \\div 4\\)<br><br>Other side = \\(9\\text{ cm}\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The perimeter of a square is \\(16\\text{ cm}\\).<br><br>Find the length of one side.",
+  solution: "Side length = \\(16 \\div 4\\)<br><br>Side length = \\(4\\text{ cm}\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "A rectangle has an area of \\(24\\text{ cm}^2\\).<br><br>One side is \\(3\\text{ cm}\\).<br><br>Find the perimeter.",
+  solution: "Other side = \\(24 \\div 3 = 8\\text{ cm}\\)<br><br>Perimeter = \\(2(3 + 8) = 22\\text{ cm}\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The perimeter of a rectangle is \\(18\\text{ cm}\\).<br><br>One side is \\(4\\text{ cm}\\).<br><br>Find the area.",
+  solution: "Half perimeter = \\(18 \\div 2 = 9\\)<br>Other side = \\(9 - 4 = 5\\text{ cm}\\)<br><br>Area = \\(4 \\times 5 = 20\\text{ cm}^2\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "A square has a side length of \\(6\\text{ cm}\\).<br><br>Find its area and perimeter.",
+  solution: "Area = \\(6 \\times 6 = 36\\text{ cm}^2\\)<br><br>Perimeter = \\(4 \\times 6 = 24\\text{ cm}\\)"
+},
+{
+  topic: "Area and Perimeter - Rectangles",
+  level: "Foundation",
+  question: "The area of a square is \\(81\\text{ cm}^2\\).<br><br>Find the length of one side.",
+  solution: "Side length = \\(\\sqrt{81}\\)<br><br>Side length = \\(9\\text{ cm}\\)"
+},
 
 {
   topic: "Ratio - Changing Amounts",

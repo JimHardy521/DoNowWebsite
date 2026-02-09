@@ -1,5 +1,107 @@
 const gcseQuestions = [
 {
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A number, \\(y\\), is \\(400\\) when rounded to the nearest \\(100\\).<br><br>Write down the error interval for \\(y\\).",
+  solution: "\\(350 \\le y < 450\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A number, \\(n\\), is \\(45\\) when rounded to the nearest \\(5\\).<br><br>Write down the error interval for \\(n\\).",
+  solution: "\\(42.5 \\le n < 47.5\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A number, \\(a\\), is \\(5000\\) when rounded to one significant figure.<br><br>Write down the error interval for \\(a\\).",
+  solution: "\\(4500 \\le a < 5500\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A number is \\(0.65\\) when rounded to 2 decimal places.<br><br>Write down the error interval.",
+  solution: "\\(0.645 \\le x < 0.655\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A length is \\(12.4\\text{ cm}\\) rounded to the nearest millimetre.<br><br>Write down the error interval for the length.",
+  solution: "\\(12.35 \\le l < 12.45\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A mass is \\(3.2\\text{ kg}\\) rounded to 1 decimal place.<br><br>Write down the error interval for the mass.",
+  solution: "\\(3.15 \\le m < 3.25\\)"
+},
+
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A square has side length \\(8\\text{ cm}\\), rounded to the nearest \\(1\\text{ cm}\\).<br><br>Write down the error interval for the area of the square.",
+  solution: "Lower area = \\(7.5^2 = 56.25\\)<br>Upper area = \\(8.5^2 = 72.25\\)<br><br>\\(56.25 \\le A < 72.25\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A rectangle has length \\(10\\text{ cm}\\) and width \\(6\\text{ cm}\\), each rounded to the nearest cm.<br><br>Write down the error interval for the area.",
+  solution: "Lower = \\(9.5 \\times 5.5 = 52.25\\)<br>Upper = \\(10.5 \\times 6.5 = 68.25\\)<br><br>\\(52.25 \\le A < 68.25\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A square has area \\(80\\text{ cm}^2\\), rounded to 1 significant figure.<br><br>Write down the error interval for the length of one side.",
+  solution: "Area bounds: \\(75 \\le A < 85\\)<br>\\(\\sqrt{75} \\le s < \\sqrt{85}\\)<br><br>\\(8.66 \\le s < 9.22\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A cube has side length \\(5\\text{ cm}\\), rounded to the nearest cm.<br><br>Write down the error interval for the volume.",
+  solution: "Lower = \\(4.5^3 = 91.125\\)<br>Upper = \\(5.5^3 = 166.375\\)<br><br>\\(91.125 \\le V < 166.375\\)"
+},
+
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A man runs \\(200\\text{ m}\\) (nearest metre) in \\(25\\text{ s}\\) (nearest second).<br><br>Write down the error interval for his speed.",
+  solution: "Distance: \\(199.5 \\le d < 200.5\\)<br>Time: \\(24.5 \\le t < 25.5\\)<br><br>\\(\\dfrac{199.5}{25.5} \\le v < \\dfrac{200.5}{24.5}\\)<br><br>\\(7.824 \\le v < 8.184\\) m/s"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A cyclist travels \\(3.5\\text{ km}\\) (nearest \\(0.1\\text{ km}\\)) in \\(12\\text{ minutes}\\) (nearest minute).<br><br>Write down the error interval for the cyclist's speed in km/h.",
+  solution: "Distance: \\(3.45 \\le d < 3.55\\)<br>Time: \\(11.5 \\le t < 12.5\\)<br><br>\\(\\dfrac{3.45}{12.5} \\le v < \\dfrac{3.55}{11.5}\\) km/min<br><br>Multiply by 60:<br>\\(16.56 \\le v < 18.52\\) km/h"
+},
+
+
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A rectangle has length \\(15\\text{ cm}\\), rounded to the nearest \\(5\\text{ cm}\\), and width \\(8.0\\text{ cm}\\), rounded to the nearest \\(0.1\\text{ cm}\\).<br><br>Write down the error interval for the area of the rectangle.",
+  solution: "Length: \\(12.5 \\le l < 17.5\\)<br>Width: \\(7.95 \\le w < 8.05\\)<br><br>\\(99.38 \\le A < 140.88\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A cube has volume \\(125\\text{ cm}^3\\), rounded to the nearest \\(5\\text{ cm}^3\\).<br><br>Write down the error interval for the length of one side.",
+  solution: "Volume bounds: \\(122.5 \\le V < 127.5\\)<br>\\(\\sqrt[3]{122.5} \\le s < \\sqrt[3]{127.5}\\)<br><br>\\(4.97 \\le s < 5.04\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A square has perimeter \\(36\\text{ cm}\\), rounded to the nearest \\(2\\text{ cm}\\).<br><br>Write down the error interval for the area of the square.",
+  solution: "Perimeter: \\(35 \\le P < 37\\)<br>Side length: \\(8.75 \\le s < 9.25\\)<br><br>\\(76.56 \\le A < 85.56\\)"
+},
+{
+  topic: "Error Intervals",
+  level: "Crossover",
+  question: "A cylinder has radius \\(4.0\\text{ cm}\\), rounded to the nearest \\(0.5\\text{ cm}\\), and height \\(10\\text{ cm}\\), rounded to the nearest \\(10\\text{ cm}\\).<br><br>Write down the error interval for the volume of the cylinder.",
+  solution: "Radius: \\(3.75 \\le r < 4.25\\)<br>Height: \\(5 \\le h < 15\\)<br><br>\\(\\pi \\times 3.75^2 \\times 5 \\le V < \\pi \\times 4.25^2 \\times 15\\)<br><br>\\(220.9 \\le V < 851.4\\) \\(\\text{cm}^3\\)"
+},
+
+  
+{
   topic: "Area and Perimeter - Rectangles",
   level: "Foundation",
   question: "The area of a square is \\(49\\text{ cm}^2\\).<br><br>Find the perimeter of the square.",

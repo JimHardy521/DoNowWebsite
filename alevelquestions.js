@@ -1,6 +1,56 @@
 const alevelQuestions = [
 
 {
+  topic: "Exponentials - Gradients",
+  level: "Year 12",
+  question: "Find the gradient of the curve \\( y = e^{2x} \\) when \\( y = 30 \\).",
+  solution: "Differentiate:<br>\\( \\frac{dy}{dx} = 2e^{2x} \\)<br><br>Since \\( y=30 \\):<br>Gradient = \\( 60 \\)"
+},
+
+{
+  topic: "Exponentials - Gradients",
+  level: "Year 12",
+  question: "Find the gradient of the curve \\( y = e^{1.2x} \\) when \\( x = 10 \\).",
+  solution: "Differentiate:<br>\\( \\frac{dy}{dx} = 1.2e^{1.2x} \\)<br><br>Gradient = \\( 1.2e^{12} \\approx 1.95\\times10^{5} \\)"
+},
+
+{
+  topic: "Exponentials - Gradients",
+  level: "Year 12",
+  question: "Find the gradient of the curve \\( y = 0.75^x \\) when \\( x = 6 \\).",
+  solution: "Rewrite:<br>\\( y = e^{x\\ln(0.75)} \\)<br><br>Differentiate:<br>\\( \\frac{dy}{dx} = \\ln(0.75)\\,0.75^x \\)<br><br>Gradient = \\( \\ln(0.75)\\,0.75^6 \\approx -0.051 \\)"
+},
+
+{
+  topic: "Exponentials - Gradients",
+  level: "Year 12",
+  question: "Find the gradient of the curve \\( y = 5e^{3x} \\) when \\( y = 40 \\).",
+  solution: "Differentiate:<br>\\( \\frac{dy}{dx} = 15e^{3x} \\)<br><br>Since \\( 5e^{3x}=40 \\):<br>Gradient = \\( 120 \\approx 120 \\)"
+},
+
+{
+  topic: "Exponentials - Gradients",
+  level: "Year 12",
+  question: "Find the gradient of the curve \\( y = e^{-x} \\) when \\( x = 2 \\).",
+  solution: "Differentiate:<br>\\( \\frac{dy}{dx} = -e^{-x} \\)<br><br>Gradient = \\( -e^{-2} \\approx -0.135 \\)"
+},
+
+{
+  topic: "Exponentials - Gradients",
+  level: "Year 12",
+  question: "Find the gradient of the curve \\( y = 4e^{0.5x} \\) when \\( x = 6 \\).",
+  solution: "Differentiate:<br>\\( \\frac{dy}{dx} = 2e^{0.5x} \\)<br><br>Gradient = \\( 2e^{3} \\approx 40.2 \\)"
+},
+
+{
+  topic: "Exponentials - Gradients",
+  level: "Year 12",
+  question: "Find the gradient of the curve \\( y = e^{x} \\) when \\( y = 12 \\).",
+  solution: "Differentiate:<br>\\( \\frac{dy}{dx} = e^{x} \\)<br><br>Gradient = \\( 12  \\)"
+},
+  
+
+{
   topic: "Forces - Combined",
   level: "Year 12 - Mechanics",
   question: "A particle of mass 5 kg is acted on by three forces:<br>\\(\\mathbf{F}_1 = \\begin{bmatrix}23\\\\-16\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_2 = \\begin{bmatrix}0\\\\7\\end{bmatrix}\\,\\text{N}, \\mathbf{F}_3 = \\begin{bmatrix}11\\\\8\\end{bmatrix}\\,\\text{N}\\).<br><br>Find the acceleration of the particle \\(\\mathbf{a} = ai + bj\\,\\text{m/s²}\\).",

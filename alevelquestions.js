@@ -1,6 +1,90 @@
 const alevelQuestions = [
 
 {
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "On average, 40% of drivers who take their driving test at a local test centre pass. Each day 32 drivers take their driving test at this centre. The number of drivers who pass their test on a particular day can be modelled by the distribution \\( X \\sim B(32, 0.4) \\).<br><br>Find the probability that more than 12 drivers pass their test on a particular day.",
+  solution: "More than 12 drivers means 13 or more pass.<br><br>So we calculate:<br>\\( P(X \\ge 13) = 1 - P(X \\le 12) \\)<br><br>Using the calculator:<br>\\( P(X \\ge 13) \\approx 0.64 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A factory produces light bulbs, 5% of which are faulty. A box contains 40 bulbs selected at random. The number of faulty bulbs in the box can be modelled by \\( X \\sim B(40, 0.05) \\).<br><br>Find the probability that there are at most 2 faulty bulbs in the box.",
+  solution: "At most 2 faulty bulbs means 0, 1 or 2 are faulty.<br><br>This is:<br>\\( P(X \\le 2) \\)<br><br>Using the calculator:<br>\\( P(X \\le 2) \\approx 0.68 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A basketball player has a 70% chance of scoring a free throw. He takes 20 free throws in a training session. The number of successful shots can be modelled by \\( X \\sim B(20, 0.7) \\).<br><br>Find the probability that he scores at least 15 free throws.",
+  solution: "At least 15 successful shots means 15 or more.<br><br>So we calculate:<br>\\( P(X \\ge 15) = 1 - P(X \\le 14) \\)<br><br>Using the calculator:<br>\\( P(X \\ge 15) \\approx 0.42 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A multiple-choice test has 4 options for each question. A student guesses randomly on all questions. The test contains 18 questions. Let \\( X \\) be the number of correct answers, where \\( X \\sim B(18, 0.25) \\).<br><br>Find the probability that the student gets exactly 5 questions correct.",
+  solution: "Exactly 5 correct answers means:<br>\\( X = 5 \\)<br><br>So we calculate:<br>\\( P(X = 5) = \\binom{18}{5}(0.25)^5(0.75)^{13} \\)<br><br>Using the calculator:<br>\\( P(X = 5) \\approx 0.17 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A medicine successfully treats a condition in 80% of patients. A doctor gives the medicine to 10 patients. The number of patients successfully treated can be modelled by \\( X \\sim B(10, 0.8) \\).<br><br>Find the probability that fewer than 7 patients are successfully treated.",
+  solution: "Fewer than 7 patients means 0 to 6 are treated successfully.<br><br>This is:<br>\\( P(X \\le 6) \\)<br><br>Using the calculator:<br>\\( P(X \\le 6) \\approx 0.12 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "An email marketing campaign has a 15% chance of a recipient clicking the link. The email is sent to 50 people. The number of people who click the link can be modelled by \\( X \\sim B(50, 0.15) \\).<br><br>Find the probability that more than 10 people click the link.",
+  solution: "More than 10 people clicking means 11 or more.<br><br>So we calculate:<br>\\( P(X \\ge 11) = 1 - P(X \\le 10) \\)<br><br>Using the calculator:<br>\\( P(X \\ge 11) \\approx 0.48 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A machine produces components, 92% of which meet quality standards. A random sample of 25 components is tested. Let \\( X \\) be the number of components that meet the standard, where \\( X \\sim B(25, 0.92) \\).<br><br>Find the probability that all components meet the standard.",
+  solution: "All components meeting the standard means all 25 are successful.<br><br>This is:<br>\\( P(X = 25) = (0.92)^{25} \\)<br><br>Using the calculator:<br>\\( P(X = 25) \\approx 0.13 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A football team wins a home match with probability 0.6. Over a season they play 18 home matches. The number of home wins can be modelled by \\( X \\sim B(18, 0.6) \\).<br><br>Find the probability that the team wins between 9 and 13 home matches inclusive.",
+  solution: "Winning between 9 and 13 matches inclusive means:<br>\\( 9 \\le X \\le 13 \\)<br><br>So we calculate:<br>\\( P(X \\le 13) - P(X \\le 8) \\)<br><br>Using the calculator:<br>\\( P(9 \\le X \\le 13) \\approx 0.72 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A survey shows that 30% of people prefer tea over coffee. A group of 20 people is chosen at random. Let \\( X \\) be the number of people who prefer tea, where \\( X \\sim B(20, 0.3) \\).<br><br>Find the probability that exactly 6 people prefer tea.",
+  solution: "Exactly 6 people preferring tea means:<br>\\( X = 6 \\)<br><br>So we calculate:<br>\\( P(X = 6) = \\binom{20}{6}(0.3)^6(0.7)^{14} \\)<br><br>Using the calculator:<br>\\( P(X = 6) \\approx 0.19 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A website has a 10% chance that a visitor makes a purchase. Over the course of a day, 60 visitors use the website. The number of purchases can be modelled by \\( X \\sim B(60, 0.1) \\).<br><br>Find the probability that at least 8 purchases are made.",
+  solution: "At least 8 purchases means 8 or more.<br><br>So we calculate:<br>\\( P(X \\ge 8) = 1 - P(X \\le 7) \\)<br><br>Using the calculator:<br>\\( P(X \\ge 8) \\approx 0.44 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A factory claims that 98% of its products are not defective. A random sample of 15 products is selected. Let \\( X \\) be the number of non-defective products, where \\( X \\sim B(15, 0.98) \\).<br><br>Find the probability that at least one product is defective.",
+  solution: "At least one defective product means not all products are non-defective.<br><br>So we calculate:<br>\\( 1 - P(X = 15) = 1 - (0.98)^{15} \\)<br><br>Using the calculator:<br>\\( P(\\text{at least one defective}) \\approx 0.26 \\)"
+},
+
+{
+  topic: "Binomial Distribution - Worded",
+  level: "Year 12 - Stats",
+  question: "A student answers each true/false question correctly with probability 0.5. The test contains 12 questions. The number of correct answers can be modelled by \\( X \\sim B(12, 0.5) \\).<br><br>Find the probability that the student scores more than 8 correct answers.",
+  solution: "More than 8 correct answers means 9 or more.<br><br>So we calculate:<br>\\( P(X \\ge 9) = 1 - P(X \\le 8) \\)<br><br>Using the calculator:<br>\\( P(X \\ge 9) \\approx 0.073 \\)"
+},
+  
+{
   topic: "Binomial Distribution",
   level: "Year 12 - Stats",
   question: "It is given that \\( X \\sim B(48, 0.175) \\).<br><br> Find the mean of \\( X \\).",

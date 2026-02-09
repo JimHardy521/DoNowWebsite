@@ -1,6 +1,105 @@
 const alevelQuestions = [
 
 {
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(48, 0.175) \\).<br><br> Find the mean of \\( X \\).",
+  solution: "Mean:<br>\\( \\mu = np = 48 \\times 0.175 = 8.4 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(50, 0.2) \\).<br><br> Find the variance of \\( X \\).",
+  solution: "Variance:<br>\\( \\sigma^2 = np(1-p) = 50 \\times 0.2 \\times 0.8 = 8 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(20, 0.1) \\).<br><br> Find \\( P(X < 10) \\).",
+  solution: "Using cumulative probability:<br>\\( P(X < 10) = P(X \\le 9) \\approx 0.999 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(35, 0.7) \\). <br><br>Find \\( P(X \\ge 25) \\).",
+  solution: "Use complement:<br>\\( P(X \\ge 25) = 1 - P(X \\le 24) \\approx 0.53 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(40, 0.2) \\).<br><br> Find \\( P(9 \\le X \\le 15) \\).",
+  solution: "Using cumulative probabilities:<br>\\( P(9 \\le X \\le 15) = P(X \\le 15) - P(X \\le 8) \\approx 0.622 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(25, 0.4) \\).<br><br>Find the mean and variance of \\( X \\).",
+  solution: "Mean:<br>\\( \\mu = 25 \\times 0.4 = 10 \\)<br><br>Variance:<br>\\( \\sigma^2 = 25 \\times 0.4 \\times 0.6 = 6 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(30, 0.3) \\).<br><br> Find \\( P(X = 12) \\).",
+  solution: "Probability:<br>\\( P(X=12) = \\binom{30}{12}(0.3)^{12}(0.7)^{18} \\approx 0.085 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(18, 0.5) \\).<br><br> Find \\( P(X \\le 7) \\).",
+  solution: "Using cumulative probability:<br>\\( P(X \\le 7) \\approx 0.240 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(60, 0.1) \\).<br><br> Find \\( P(X > 5) \\).",
+  solution: "Use complement:<br>\\( P(X > 5) = 1 - P(X \\le 5) \\approx 0.555 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(15, 0.2) \\).<br><br> Find \\( P(3 \\le X \\le 6) \\).",
+  solution: "Using cumulative probabilities:<br>\\( P(3 \\le X \\le 6) = P(X \\le 6) - P(X \\le 2) \\approx 0.609 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(12, 0.25) \\).<br><br> Find \\( P(X = 0) \\).",
+  solution: "Probability:<br>\\( P(X=0) = (0.75)^{12} \\approx 0.0317 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(45, 0.6) \\).<br><br> Find the standard deviation of \\( X \\).",
+  solution: "Standard deviation:<br>\\( \\sigma = \\sqrt{np(1-p)} = \\sqrt{45 \\times 0.6 \\times 0.4} \\approx 3.29 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(10, 0.8) \\). <br><br>Find \\( P(X \\ge 8) \\).",
+  solution: "Using cumulative probabilities:<br>\\( P(X \\ge 8) = 1 - P(X \\le 7) \\approx 0.678 \\)"
+},
+
+{
+  topic: "Binomial Distribution",
+  level: "Year 12 - Stats",
+  question: "It is given that \\( X \\sim B(22, 0.15) \\). <br><br>Find \\( P(X < 5) \\).",
+  solution: "Using cumulative probability:<br>\\( P(X < 5) = P(X \\le 4) \\approx 0.703 \\)"
+},
+
+  
+{
   topic: "Exponentials - Gradients",
   level: "Year 12",
   question: "Find the gradient of the curve \\( y = e^{2x} \\) when \\( y = 30 \\).",

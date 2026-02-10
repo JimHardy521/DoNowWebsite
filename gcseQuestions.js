@@ -1,5 +1,79 @@
 const gcseQuestions = [
 {
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{1}{4}\\) of a number is 18.<br>Work out the number.",
+  solution: "Multiply by 4.<br>\\(18 \\times 4 = 72\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{2}{3}\\) of a number is 40.<br>Work out the number.",
+  solution: "Divide by 2 then multiply by 3.<br>\\(40 \\div 2 = 20\\)<br>\\(20 \\times 3 = 60\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{3}{5}\\) of a number is 45.<br>Work out the number.",
+  solution: "Divide by 3 then multiply by 5.<br>\\(45 \\div 3 = 15\\)<br>\\(15 \\times 5 = 75\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{4}{5}\\) of a number is 36.<br>Work out the number.",
+  solution: "Divide by 4 then multiply by 5.<br>\\(36 \\div 4 = 9\\)<br>\\(9 \\times 5 = 45\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{3}{4}\\) of a number is 48.<br>Work out the number.",
+  solution: "Divide by 3 then multiply by 4.<br>\\(48 \\div 3 = 16\\)<br>\\(16 \\times 4 = 64\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{5}{6}\\) of a number is 30.<br>Work out the number.",
+  solution: "Divide by 5 then multiply by 6.<br>\\(30 \\div 5 = 6\\)<br>\\(6 \\times 6 = 36\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{2}{5}\\) of a number is 18.<br>Work out the number.",
+  solution: "Divide by 2 then multiply by 5.<br>\\(18 \\div 2 = 9\\)<br>\\(9 \\times 5 = 45\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{7}{10}\\) of a number is 70.<br>Work out the number.",
+  solution: "Divide by 7 then multiply by 10.<br>\\(70 \\div 7 = 10\\)<br>\\(10 \\times 10 = 100\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{4}{9}\\) of a number is 20.<br>Work out the number.",
+  solution: "Divide by 4 then multiply by 9.<br>\\(20 \\div 4 = 5\\)<br>\\(5 \\times 9 = 45\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{6}{11}\\) of a number is 66.<br>Work out the number.",
+  solution: "Divide by 6 then multiply by 11.<br>\\(66 \\div 6 = 11\\)<br>\\(11 \\times 11 = 121\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{5}{8}\\) of a number is 40.<br>Work out the number.",
+  solution: "Divide by 5 then multiply by 8.<br>\\(40 \\div 5 = 8\\)<br>\\(8 \\times 8 = 64\\)"
+},
+{
+  topic: "Fractions of Amount - Finding Original",
+  level: "Foundation",
+  question: "\\(\\frac{9}{10}\\) of a number is 81.<br>Work out the number.",
+  solution: "Divide by 9 then multiply by 10.<br>\\(81 \\div 9 = 9\\)<br>\\(9 \\times 10 = 90\\)"
+},
+
+  
+{
   topic: "Sequences - Naming",
   level: "Foundation",
   question: "State the type of sequence and find the missing term:<br>\\(1, 3, 5, \\_, 9\\)",

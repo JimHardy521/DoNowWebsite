@@ -260,40 +260,40 @@ const gcseQuestions = [
 {
   topic: "Sequences - Naming",
   level: "Foundation",
-  question: "State the type of sequence and find the missing term:<br>\\(20, 15, \\_, 5\\)",
-  solution: "Subtract 5 each time (arithmetic).<br>Missing term: \\(10\\)"
+  question: "The 3rd square number added to the 5th Fibonacci number.",
+  solution: "3rd square number = \\(9\\)<br>5th Fibonacci number = \\(5\\)<br>\\(9 + 5 = 14\\)"
 },
 {
   topic: "Sequences - Naming",
   level: "Foundation",
-  question: "State the type of sequence and find the missing terms:<br>\\(1, 2, \\_, 5, \\_, 13\\)",
-  solution: "Each term is the sum of the two before (Fibonacci).<br>Missing terms: \\(3, 8\\)"
+  question: "The 3rd prime number multiplied by the 5th triangular number.",
+  solution: "3rd prime number = \\(5\\)<br>5th triangular number = \\(15\\)<br>\\(5 \\times 15 = 75\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "The 4th multiple of 3 added to the 6th prime number.",
+  solution: "4th multiple of 3 = \\(12\\)<br>6th prime number = \\(13\\)<br>\\(12 + 13 = 25\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "The 5th even number subtracted from the 7th square number.",
+  solution: "7th square number = \\(49\\)<br>5th even number = \\(10\\)<br>\\(49 - 10 = 39\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "The 6th Fibonacci number multiplied by the 2nd prime number.",
+  solution: "6th Fibonacci number = \\(8\\)<br>2nd prime number = \\(3\\)<br>\\(8 \\times 3 = 24\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "The 8th multiple of 2 added to the 4th triangular number.",
+  solution: "8th multiple of 2 = \\(16\\)<br>4th triangular number = \\(10\\)<br>\\(16 + 10 = 26\\)"
 },
 
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and write the next two terms:<br>\\(100, 50, 25, 12.5, \\dots\\)",
-  solution: "Divide by 2 (geometric).<br>Next terms: \\(6.25, 3.125\\)"
-},
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and find the missing terms:<br>\\(1, 1, 2, \\_, \\_\\)",
-  solution: "Add the two previous terms (Fibonacci).<br>Missing terms: \\(3, 5\\)"
-},
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and write the next two terms:<br>\\(30, 27, 24, 21, \\dots\\)",
-  solution: "Subtract 3 each time (arithmetic).<br>Next terms: \\(18, 15\\)"
-},
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and write the next two terms:<br>\\(2, 4, 8, 16, \\dots\\)",
-  solution: "Multiply by 2 (geometric).<br>Next terms: \\(32, 64\\)"
-},
   
 {
   topic: "Error Intervals",

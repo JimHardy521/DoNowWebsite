@@ -1,4 +1,68 @@
 const gcseQuestions = [
+
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "There are 11 pens in a box: 8 black and 3 red.<br>Two pens are taken at random without replacement.<br>Find the probability that at least one pen is red.",
+  solution: "P(no red) = \\(\\frac{8}{11} \\times \\frac{7}{10}\\)<br>= \\(\\frac{56}{110}\\)<br>P(at least one red) = \\(1 - \\frac{56}{110}\\)<br>= \\(\\frac{27}{55}\\)"
+},
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A bag contains 5 blue balls and 4 green balls.<br>Two balls are taken one after the other without replacement.<br>Find the probability that both balls are different colours.",
+  solution: "P(B then G) = \\(\\frac{5}{9} \\times \\frac{4}{8}\\)<br>P(G then B) = \\(\\frac{4}{9} \\times \\frac{5}{8}\\)<br>Add: \\(\\frac{20}{72} + \\frac{20}{72}\\)<br>= \\(\\frac{40}{72} = \\frac{5}{9}\\)"
+},
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A box contains 6 cards numbered 1 to 6.<br>A card is chosen, replaced, then another is chosen.<br>Find the probability that the sum of the two numbers is even.",
+  solution: "Even numbers: 3, Odd numbers: 3<br>P(even + even) = \\(\\frac{3}{6} \\times \\frac{3}{6}\\)<br>P(odd + odd) = \\(\\frac{3}{6} \\times \\frac{3}{6}\\)<br>Total = \\(\\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}\\)"
+},
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "There are 7 apples and 3 pears in a bowl.<br>Two fruits are taken without replacement.<br>Find the probability that exactly one pear is taken.",
+  solution: "P(P then A) = \\(\\frac{3}{10} \\times \\frac{7}{9}\\)<br>P(A then P) = \\(\\frac{7}{10} \\times \\frac{3}{9}\\)<br>Add: \\(\\frac{21}{90} + \\frac{21}{90}\\)<br>= \\(\\frac{42}{90} = \\frac{7}{15}\\)"
+},
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A spinner has 4 red sections and 1 blue section.<br>The spinner is spun twice.<br>Find the probability that blue appears at least once.",
+  solution: "P(no blue) = \\(\\frac{4}{5} \\times \\frac{4}{5}\\)<br>= \\(\\frac{16}{25}\\)<br>P(at least one blue) = \\(1 - \\frac{16}{25}\\)<br>= \\(\\frac{9}{25}\\)"
+},
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A box contains 9 counters: 5 red and 4 yellow.<br>Two counters are taken without replacement.<br>Find the probability that both counters are the same colour.",
+  solution: "P(RR) = \\(\\frac{5}{9} \\times \\frac{4}{8}\\)<br>P(YY) = \\(\\frac{4}{9} \\times \\frac{3}{8}\\)<br>Add: \\(\\frac{20}{72} + \\frac{12}{72}\\)<br>= \\(\\frac{32}{72} = \\frac{4}{9}\\)"
+},
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A bag contains 3 white balls and 7 black balls.<br>Two balls are chosen with replacement.<br>Find the probability that exactly one white ball is chosen.",
+  solution: "P(W then B) = \\(\\frac{3}{10} \\times \\frac{7}{10}\\)<br>P(B then W) = \\(\\frac{7}{10} \\times \\frac{3}{10}\\)<br>Add: \\(\\frac{21}{100} + \\frac{21}{100}\\)<br>= \\(\\frac{42}{100} = \\frac{21}{50}\\)"
+},
+
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A box contains 6 green beads and 2 blue beads.<br>Two beads are taken without replacement.<br>Find the probability that at least one bead is blue.",
+  solution: "P(no blue) = \\(\\frac{6}{8} \\times \\frac{5}{7}\\)<br>= \\(\\frac{30}{56}\\)<br>P(at least one blue) = \\(1 - \\frac{30}{56}\\)<br>= \\(\\frac{13}{28}\\)"
+},
+
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A bag contains 4 red, 3 blue and 3 green balls.<br>Two balls are taken without replacement.<br>Find the probability that the balls are different colours.",
+  solution: "Total ways = 1 − P(same colour)<br>P(RR)+P(BB)+P(GG) = \\(\\frac{4}{10}\\times\\frac{3}{9} + \\frac{3}{10}\\times\\frac{2}{9} + \\frac{3}{10}\\times\\frac{2}{9}\\)<br>= \\(\\frac{12+6+6}{90} = \\frac{24}{90}\\)<br>Answer = \\(1 - \\frac{24}{90} = \\frac{11}{15}\\)"
+},
+{
+  topic: "Probability - Tree Diagrams",
+  level: "Higher",
+  question: "A machine produces items that are either faulty or not faulty.<br>The probability an item is faulty is 0.2.<br>Two items are chosen independently.<br>Find the probability that exactly one item is faulty.",
+  solution: "P(F then N) = \\(0.2 \\times 0.8\\)<br>P(N then F) = \\(0.8 \\times 0.2\\)<br>Add: \\(0.16 + 0.16\\)<br>= 0.32"
+},
+  
 {
   topic: "Averages - Find Mean of Subgroup",
   level: "Crossover",

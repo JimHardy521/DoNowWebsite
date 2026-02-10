@@ -1,5 +1,77 @@
 const gcseQuestions = [
 {
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A class has 28 students.<br>The mean height of the 12 boys is 1.58 m.<br>The mean height of the class is 1.52 m.<br>Find the mean height of the girls.",
+  solution: "Total height: \\(28 \\times 1.52 = 42.56\\text{ m}\\)<br>Boys’ height: \\(12 \\times 1.58 = 18.96\\text{ m}\\)<br>Girls’ total: \\(42.56 - 18.96 = 23.6\\text{ m}\\)<br>Mean height: \\(23.6 \\div 16 = 1.475\\text{ m}\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A football squad has 20 players.<br>The mean age of 8 defenders is 27 years.<br>The mean age of the squad is 25 years.<br>Find the mean age of the other players.",
+  solution: "Total age: \\(20 \\times 25 = 500\\)<br>Defenders’ age: \\(8 \\times 27 = 216\\)<br>Others’ total: \\(500 - 216 = 284\\)<br>Mean age: \\(284 \\div 12 = 23.67\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "Fifteen students sit a test.<br>The mean score of 6 students is 72.<br>The mean score overall is 68.<br>Find the mean score of the others.",
+  solution: "Total score: \\(15 \\times 68 = 1020\\)<br>Score of 6: \\(6 \\times 72 = 432\\)<br>Remaining total: \\(1020 - 432 = 588\\)<br>Mean score: \\(588 \\div 9 = 65.33\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A bus has 40 passengers.<br>The mean weight of 25 adults is 70 kg.<br>The mean weight overall is 62 kg.<br>Find the mean weight of the children.",
+  solution: "Total weight: \\(40 \\times 62 = 2480\\text{ kg}\\)<br>Adults’ weight: \\(25 \\times 70 = 1750\\text{ kg}\\)<br>Children’s total: \\(2480 - 1750 = 730\\text{ kg}\\)<br>Mean weight: \\(730 \\div 15 = 48.67\\text{ kg}\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A factory has 18 workers.<br>The mean pay of 6 supervisors is £18 per hour.<br>The mean pay overall is £14 per hour.<br>Find the mean pay of the others.",
+  solution: "Total pay: \\(18 \\times 14 = 252\\)<br>Supervisors’ pay: \\(6 \\times 18 = 108\\)<br>Others’ total: \\(252 - 108 = 144\\)<br>Mean pay: \\(144 \\div 12 = £12\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A swimming club has 30 members.<br>The mean age of 10 juniors is 11 years.<br>The mean age overall is 18 years.<br>Find the mean age of the seniors.",
+  solution: "Total age: \\(30 \\times 18 = 540\\)<br>Juniors’ age: \\(10 \\times 11 = 110\\)<br>Seniors’ total: \\(540 - 110 = 430\\)<br>Mean age: \\(430 \\div 20 = 21.5\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A class has 24 students.<br>The mean mark of 9 girls is 66.<br>The mean mark overall is 62.<br>Find the mean mark of the boys.",
+  solution: "Total marks: \\(24 \\times 62 = 1488\\)<br>Girls’ marks: \\(9 \\times 66 = 594\\)<br>Boys’ total: \\(1488 - 594 = 894\\)<br>Mean mark: \\(894 \\div 15 = 59.6\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "Fifty runners take part in a race.<br>The mean time of 20 runners is 52 minutes.<br>The mean time overall is 55 minutes.<br>Find the mean time of the others.",
+  solution: "Total time: \\(50 \\times 55 = 2750\\)<br>Time of 20: \\(20 \\times 52 = 1040\\)<br>Remaining total: \\(2750 - 1040 = 1710\\)<br>Mean time: \\(1710 \\div 30 = 57\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A company has 35 employees.<br>The mean age of 15 office staff is 32 years.<br>The mean age overall is 38 years.<br>Find the mean age of the factory workers.",
+  solution: "Total age: \\(35 \\times 38 = 1330\\)<br>Office staff age: \\(15 \\times 32 = 480\\)<br>Factory total: \\(1330 - 480 = 850\\)<br>Mean age: \\(850 \\div 20 = 42.5\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "Twenty-two students complete a survey.<br>The mean score of 8 students is 7.5.<br>The mean score overall is 6.8.<br>Find the mean score of the others.",
+  solution: "Total score: \\(22 \\times 6.8 = 149.6\\)<br>Score of 8: \\(8 \\times 7.5 = 60\\)<br>Remaining total: \\(149.6 - 60 = 89.6\\)<br>Mean score: \\(89.6 \\div 14 = 6.4\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "Twelve adults and 8 children visit a museum.<br>The mean cost of adult tickets is £14.<br>The mean cost overall is £11.<br>Find the mean cost of a child ticket.",
+  solution: "Total cost: \\(20 \\times 11 = 220\\)<br>Adult tickets: \\(12 \\times 14 = 168\\)<br>Children’s total: \\(220 - 168 = 52\\)<br>Mean cost: \\(52 \\div 8 = £6.50\\)"
+},
+{
+  topic: "Averages - Find Mean of Subgroup",
+  level: "Crossover",
+  question: "A sports hall records attendance for 7 days.<br>The mean on 3 days is 180 people.<br>The mean for the week is 150 people.<br>Find the mean on the other days.",
+  solution: "Total attendance: \\(7 \\times 150 = 1050\\)<br>Three-day total: \\(3 \\times 180 = 540\\)<br>Remaining total: \\(1050 - 540 = 510\\)<br>Mean attendance: \\(510 \\div 4 = 127.5\\)"
+},  
+{
   topic: "Fractions of Amount - Finding Original",
   level: "Foundation",
   question: "\\(\\frac{1}{4}\\) of a number is 18.<br>Work out the number.",

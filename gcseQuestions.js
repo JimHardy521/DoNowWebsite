@@ -1,4 +1,102 @@
 const gcseQuestions = [
+
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(3, 6, 12, 24, \\dots\\)",
+  solution: "Multiply by 2 (geometric).<br>Next terms: \\(48, 96\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing terms:<br>\\(1, 2, \\_, 5, \\_, 13\\)",
+  solution: "Each term is the sum of the two before (Fibonacci).<br>Missing terms: \\(3, 8\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(20, 17, 14, 11, \\dots\\)",
+  solution: "Subtract 3 each time (arithmetic).<br>Next terms: \\(8, 5\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing term:<br>\\(100, 50, \\_, 12.5\\)",
+  solution: "Divide by 2 each time (geometric).<br>Missing term: \\(25\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(1, 3, 6, 10, \\dots\\)",
+  solution: "Add 2, 3, 4 (triangular numbers).<br>Next terms: \\(15, 21\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing terms:<br>\\(3, 6, \\_, 24, \\_, 96\\)",
+  solution: "Multiply by 2 (geometric).<br>Missing terms: \\(12, 48\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(7, 11, 15, 19, \\dots\\)",
+  solution: "Add 4 each time (arithmetic).<br>Next terms: \\(23, 27\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing term:<br>\\(20, 15, \\_, 5\\)",
+  solution: "Subtract 5 each time (arithmetic).<br>Missing term: \\(10\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(1, 1, 2, 3, 5, \\dots\\)",
+  solution: "Add the two previous terms (Fibonacci).<br>Next terms: \\(8, 13\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing terms:<br>\\(2, 4, \\_, 8, \\_, 12\\)",
+  solution: "Add 2 each time (arithmetic).<br>Missing terms: \\(6, 10\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(4, 7, 10, 13, \\dots\\)",
+  solution: "Add 3 each time (arithmetic).<br>Next terms: \\(16, 19\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing term:<br>\\(1, 3, 5, \\_, 9\\)",
+  solution: "Add 2 each time (arithmetic).<br>Missing term: \\(7\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(100, 50, 25, 12.5, \\dots\\)",
+  solution: "Divide by 2 (geometric).<br>Next terms: \\(6.25, 3.125\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing terms:<br>\\(1, 1, 2, \\_, \\_\\)",
+  solution: "Add the two previous terms (Fibonacci).<br>Missing terms: \\(3, 5\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(30, 27, 24, 21, \\dots\\)",
+  solution: "Subtract 3 each time (arithmetic).<br>Next terms: \\(18, 15\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(2, 4, 8, 16, \\dots\\)",
+  solution: "Multiply by 2 (geometric).<br>Next terms: \\(32, 64\\)"
+},
+  
 {
   topic: "Error Intervals",
   level: "Crossover",

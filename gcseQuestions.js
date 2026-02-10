@@ -1,16 +1,15 @@
 const gcseQuestions = [
-
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and find the missing term:<br>\\(1, 3, 5, \\_, 9\\)",
+  solution: "Add 2 each time (arithmetic).<br>Missing term: \\(7\\)"
+},
 {
   topic: "Sequences - Naming",
   level: "Foundation",
   question: "State the type of sequence and write the next two terms:<br>\\(3, 6, 12, 24, \\dots\\)",
   solution: "Multiply by 2 (geometric).<br>Next terms: \\(48, 96\\)"
-},
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and find the missing terms:<br>\\(1, 2, \\_, 5, \\_, 13\\)",
-  solution: "Each term is the sum of the two before (Fibonacci).<br>Missing terms: \\(3, 8\\)"
 },
 {
   topic: "Sequences - Naming",
@@ -23,6 +22,12 @@ const gcseQuestions = [
   level: "Foundation",
   question: "State the type of sequence and find the missing term:<br>\\(100, 50, \\_, 12.5\\)",
   solution: "Divide by 2 each time (geometric).<br>Missing term: \\(25\\)"
+},
+{
+  topic: "Sequences - Naming",
+  level: "Foundation",
+  question: "State the type of sequence and write the next two terms:<br>\\(1, 1, 2, 3, 5, \\dots\\)",
+  solution: "Add the two previous terms (Fibonacci).<br>Next terms: \\(8, 13\\)"
 },
 {
   topic: "Sequences - Naming",
@@ -51,27 +56,10 @@ const gcseQuestions = [
 {
   topic: "Sequences - Naming",
   level: "Foundation",
-  question: "State the type of sequence and write the next two terms:<br>\\(1, 1, 2, 3, 5, \\dots\\)",
-  solution: "Add the two previous terms (Fibonacci).<br>Next terms: \\(8, 13\\)"
+  question: "State the type of sequence and find the missing terms:<br>\\(1, 2, \\_, 5, \\_, 13\\)",
+  solution: "Each term is the sum of the two before (Fibonacci).<br>Missing terms: \\(3, 8\\)"
 },
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and find the missing terms:<br>\\(2, 4, \\_, 8, \\_, 12\\)",
-  solution: "Add 2 each time (arithmetic).<br>Missing terms: \\(6, 10\\)"
-},
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and write the next two terms:<br>\\(4, 7, 10, 13, \\dots\\)",
-  solution: "Add 3 each time (arithmetic).<br>Next terms: \\(16, 19\\)"
-},
-{
-  topic: "Sequences - Naming",
-  level: "Foundation",
-  question: "State the type of sequence and find the missing term:<br>\\(1, 3, 5, \\_, 9\\)",
-  solution: "Add 2 each time (arithmetic).<br>Missing term: \\(7\\)"
-},
+
 {
   topic: "Sequences - Naming",
   level: "Foundation",

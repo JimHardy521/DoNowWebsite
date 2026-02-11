@@ -1269,84 +1269,85 @@ const l2FurtherQuestions = [
 
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x - 2)^2 + (y - 1)^2 = 18<br>at the point (5,4)", 
-  solution: "Gradient of radius: (4-1)/(5-2) = 1.<br>Tangent gradient: -1.<br>Equation: y - 4 = -1(x - 5) → y = -x + 9."
+  question: "Find the equation of the tangent to the circle<br>\\((x - 2)^{2} + (y - 1)^{2} = 18\\)<br>at the point \\((5,4)\\)", 
+  solution: "Gradient of radius: \\(\\frac{4-1}{5-2} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 4 = -1(x - 5)\\) → \\(y = -x + 9\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x + 1)^2 + (y - 3)^2 = 18<br>at the point (2,6)", 
-  solution: "Gradient of radius: (6-3)/(2+1) = 1.<br>Tangent gradient: -1.<br>Equation: y - 6 = -1(x - 2) → y = -x + 8."
+  question: "Find the equation of the tangent to the circle<br>\\((x + 1)^{2} + (y - 3)^{2} = 18\\)<br>at the point \\((2,6)\\)", 
+  solution: "Gradient of radius: \\(\\frac{6-3}{2+1} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 6 = -1(x - 2)\\) → \\(y = -x + 8\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>x^2 + y^2 = 25<br>at the point (3,4)", 
-  solution: "Gradient of radius: (4-0)/(3-0) = 4/3.<br>Tangent gradient: -3/4.<br>Equation: y - 4 = -3/4(x - 3) → y = -3/4x + 25/4."
+  question: "Find the equation of the tangent to the circle<br>\\(x^{2} + y^{2} = 25\\)<br>at the point \\((3,4)\\)", 
+  solution: "Gradient of radius: \\(\\frac{4-0}{3-0} = \\frac{4}{3}\\).<br>Tangent gradient: \\(-\\frac{3}{4}\\).<br>Equation: \\(y - 4 = -\\frac{3}{4}(x - 3)\\) → \\(y = -\\frac{3}{4}x + \\frac{25}{4}\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x - 1)^2 + (y + 2)^2 = 18<br>at the point (4,1)", 
-  solution: "Gradient of radius: (1+2)/(4-1) = 1.<br>Tangent gradient: -1.<br>Equation: y - 1 = -1(x - 4) → y = -x + 5."
+  question: "Find the equation of the tangent to the circle<br>\\((x - 1)^{2} + (y + 2)^{2} = 18\\)<br>at the point \\((4,1)\\)", 
+  solution: "Gradient of radius: \\(\\frac{1+2}{4-1} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 1 = -1(x - 4)\\) → \\(y = -x + 5\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x + 2)^2 + (y - 2)^2 = 13<br>at the point (0,5)", 
-  solution: "Gradient of radius: (5-2)/(0+2) = 3/2.<br>Tangent gradient: -2/3.<br>Equation: y - 5 = -2/3(x - 0) → y = -2/3x + 5."
+  question: "Find the equation of the tangent to the circle<br>\\((x + 2)^{2} + (y - 2)^{2} = 13\\)<br>at the point \\((0,5)\\)", 
+  solution: "Gradient of radius: \\(\\frac{5-2}{0+2} = \\frac{3}{2}\\).<br>Tangent gradient: \\(-\\frac{2}{3}\\).<br>Equation: \\(y - 5 = -\\frac{2}{3}(x - 0)\\) → \\(y = -\\frac{2}{3}x + 5\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x - 3)^2 + (y - 3)^2 = 25<br>at the point (6,7)", 
-  solution: "Gradient of radius: (7-3)/(6-3) = 4/3.<br>Tangent gradient: -3/4.<br>Equation: y - 7 = -3/4(x - 6) → y = -3/4x + 21/2."
+  question: "Find the equation of the tangent to the circle<br>\\((x - 3)^{2} + (y - 3)^{2} = 25\\)<br>at the point \\((6,7)\\)", 
+  solution: "Gradient of radius: \\(\\frac{7-3}{6-3} = \\frac{4}{3}\\).<br>Tangent gradient: \\(-\\frac{3}{4}\\).<br>Equation: \\(y - 7 = -\\frac{3}{4}(x - 6)\\) → \\(y = -\\frac{3}{4}x + \\frac{21}{2}\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x + 3)^2 + (y + 1)^2 = 18<br>at the point (-6,2)", 
-  solution: "Gradient of radius: (2+1)/(-6+3) = -1.<br>Tangent gradient: 1.<br>Equation: y - 2 = 1(x + 6) → y = x + 8."
+  question: "Find the equation of the tangent to the circle<br>\\((x + 3)^{2} + (y + 1)^{2} = 18\\)<br>at the point \\((-6,2)\\)", 
+  solution: "Gradient of radius: \\(\\frac{2+1}{-6+3} = -1\\).<br>Tangent gradient: \\(1\\).<br>Equation: \\(y - 2 = 1(x + 6)\\) → \\(y = x + 8\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x - 2)^2 + (y + 3)^2 = 18<br>at the point (5,0)", 
-  solution: "Gradient of radius: (0+3)/(5-2) = 1.<br>Tangent gradient: -1.<br>Equation: y - 0 = -1(x - 5) → y = -x + 5."
+  question: "Find the equation of the tangent to the circle<br>\\((x - 2)^{2} + (y + 3)^{2} = 18\\)<br>at the point \\((5,0)\\)", 
+  solution: "Gradient of radius: \\(\\frac{0+3}{5-2} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 0 = -1(x - 5)\\) → \\(y = -x + 5\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>x^2 + y^2 + 0x - 8y + 16 = 0<br>at the point (3,7)", 
-  solution: "Gradient of radius: (7-4)/(3-0) = 1.<br>Tangent gradient: -1.<br>Equation: y - 7 = -1(x - 3) → y = -x + 10."
+  question: "Find the equation of the tangent to the circle<br>\\(x^{2} + y^{2} - 8y + 16 = 0\\)<br>at the point \\((3,7)\\)", 
+  solution: "Gradient of radius: \\(\\frac{7-4}{3-0} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 7 = -1(x - 3)\\) → \\(y = -x + 10\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>x^2 + y^2 - 2x - 2y + 2 = 0<br>at the point (4,5)", 
-  solution: "Gradient of radius: (5-1)/(4-1) = 4/3.<br>Tangent gradient: -3/4.<br>Equation: y - 5 = -3/4(x - 4) → y = -3/4x + 8."
+  question: "Find the equation of the tangent to the circle<br>\\(x^{2} + y^{2} - 2x - 2y + 2 = 0\\)<br>at the point \\((4,5)\\)", 
+  solution: "Gradient of radius: \\(\\frac{5-1}{4-1} = \\frac{4}{3}\\).<br>Tangent gradient: \\(-\\frac{3}{4}\\).<br>Equation: \\(y - 5 = -\\frac{3}{4}(x - 4)\\) → \\(y = -\\frac{3}{4}x + 8\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>x^2 + 2x + y^2 + 0y - 3 = 0<br>at the point (-4,3)", 
-  solution: "Gradient of radius: (3-0)/(-4+1) = -1.<br>Tangent gradient: 1.<br>Equation: y - 3 = 1(x + 4) → y = x + 7."
+  question: "Find the equation of the tangent to the circle<br>\\(x^{2} + 2x + y^{2} - 3 = 0\\)<br>at the point \\((-4,3)\\)", 
+  solution: "Gradient of radius: \\(\\frac{3-0}{-4+1} = -1\\).<br>Tangent gradient: \\(1\\).<br>Equation: \\(y - 3 = 1(x + 4)\\) → \\(y = x + 7\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x - 2)^2 + (y - 2)^2 = 25<br>at the point (5,6)", 
-  solution: "Gradient of radius: (6-2)/(5-2) = 4/3.<br>Tangent gradient: -3/4.<br>Equation: y - 6 = -3/4(x - 5) → y = -3/4x + 39/4."
+  question: "Find the equation of the tangent to the circle<br>\\((x - 2)^{2} + (y - 2)^{2} = 25\\)<br>at the point \\((5,6)\\)", 
+  solution: "Gradient of radius: \\(\\frac{6-2}{5-2} = \\frac{4}{3}\\).<br>Tangent gradient: \\(-\\frac{3}{4}\\).<br>Equation: \\(y - 6 = -\\frac{3}{4}(x - 5)\\) → \\(y = -\\frac{3}{4}x + \\frac{39}{4}\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x + 2)^2 + (y + 2)^2 = 18<br>at the point (1,1)", 
-  solution: "Gradient of radius: (1+2)/(1+2) = 1.<br>Tangent gradient: -1.<br>Equation: y - 1 = -1(x - 1) → y = -x + 2."
+  question: "Find the equation of the tangent to the circle<br>\\((x + 2)^{2} + (y + 2)^{2} = 18\\)<br>at the point \\((1,1)\\)", 
+  solution: "Gradient of radius: \\(\\frac{1+2}{1+2} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 1 = -1(x - 1)\\) → \\(y = -x + 2\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>x^2 + y^2 + 0x + 2y - 3 = 0<br>at the point (3,2)", 
-  solution: "Gradient of radius: (2+1)/(3-0) = 1.<br>Tangent gradient: -1.<br>Equation: y - 2 = -1(x - 3) → y = -x + 5."
+  question: "Find the equation of the tangent to the circle<br>\\(x^{2} + y^{2} + 2y - 3 = 0\\)<br>at the point \\((3,2)\\)", 
+  solution: "Gradient of radius: \\(\\frac{2+1}{3-0} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 2 = -1(x - 3)\\) → \\(y = -x + 5\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>(x - 3)^2 + (y + 2)^2 = 18<br>at the point (6,1)", 
-  solution: "Gradient of radius: (1+2)/(6-3) = 1.<br>Tangent gradient: -1.<br>Equation: y - 1 = -1(x - 6) → y = -x + 7."
+  question: "Find the equation of the tangent to the circle<br>\\((x - 3)^{2} + (y + 2)^{2} = 18\\)<br>at the point \\((6,1)\\)", 
+  solution: "Gradient of radius: \\(\\frac{1+2}{6-3} = 1\\).<br>Tangent gradient: \\(-1\\).<br>Equation: \\(y - 1 = -1(x - 6)\\) → \\(y = -x + 7\\)."
 },
 {
   topic: "Tangents to a Circle",
-  question: "Find the equation of the tangent to the circle<br>x^2 + 6x + y^2 - 6y + 9 = 0<br>at the point (-1,6)", 
-  solution: "Gradient of radius: (6-3)/(-1+3) = 3/2.<br>Tangent gradient: -2/3.<br>Equation: y - 6 = -2/3(x + 1) → y = -2/3x + 16/3."
+  question: "Find the equation of the tangent to the circle<br>\\(x^{2} + 6x + y^{2} - 6y + 9 = 0\\)<br>at the point \\((-1,6)\\)", 
+  solution: "Gradient of radius: \\(\\frac{6-3}{-1+3} = \\frac{3}{2}\\).<br>Tangent gradient: \\(-\\frac{2}{3}\\).<br>Equation: \\(y - 6 = -\\frac{2}{3}(x + 1)\\) → \\(y = -\\frac{2}{3}x + \\frac{16}{3}\\)."
 },
+
 
 
 

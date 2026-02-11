@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Full Screen Practice</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="common.js"></script>
+
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+/* 4 x 3 grid */
+#questions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.question-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+  cursor: pointer;
+  font-size: 1rem; /* smaller text */
+  display: flex;
+  align-items: flex-start;
+}
+
+.question-box.revealed {
+  border: 2px solid #22c55e;   /* green outline */
+  background: #f0fdf4;         /* very light green background */
+}
+
+.question-box:hover {
+  background: #eef3f8;
+}
+
+.question-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.question-table td {
+  vertical-align: top;
+  padding: 2px 4px;
+}
+
+.qnum {
+  width: 28px;
+  font-weight: 600;
+}
+</style>
+</head>
+
+<body>
+
+<h1 id="title">Practice</h1>
+<div id="questions"></div>
+
+<script>
+// ---------------- URL PARAMETERS ----------------
+const params = new URLSearchParams(window.location.search);
+const topic = params.get("topic");
+const source = params.get("source");
+const year = params.get("year");
+
+let questionsArray;
+
+// ---------------- LOAD QUESTION FILE ----------------
+function loadQuestionsJS(callback) {
+  const map = {
+    l2further: "l2furtherquestions.js",
+    gcse: "gcseQuestions.js",
+    alevel: "alevelquestions.js",
+    alevelfurther: "alevelfurther.js"
+  };
+  const script = document.createElement("script");
+  script.src = map[source];
+  script.onload = callback;
+  document.head.appendChild(script);
+}
+
+// ---------------- BUILD PAGE ----------------
+function buildPage() {
+
+  questionsArray =
+    source === "l2further" ? l2FurtherQuestions :
+    source === "gcse" ? gcseQuestions :
+    source === "alevel" ? alevelQuestions :
+    source === "alevelfurther" ? alevelfurther :
+    [];
+
+  let filtered = questionsArray.filter(q => q.topic === topic);
+
+  if (year && (source === "alevel" || source === "alevelfurther")) {
+    filtered = filtered.filter(q => q.level === year);
+  }
+
+  const pageTitle = `Practice: ${topic}` + (year ? ` (${year})` : "");
+  document.getElementById("title").textContent = pageTitle;
+
+  const container = document.getElementById("questions");
+
+  // Shuffle so you always get variety
+  filtered.sort(() => Math.random() - 0.5);
+
+  // Limit to 12 questions (4x3 grid)
+  filtered.slice(0, 12).forEach((q, i) => {
+
+    const box = document.createElement("div");
+    box.className = "question-box";
+
+    let showingSolution = false;
+
+    function render() {
+      box.innerHTML = `
+        <table class="question-table">
+          <tr>
+            <td class="qnum">${i + 1}.</td>
+            <td>${showingSolution ? q.solution : q.question}</td>
+          </tr>
+        </table>
+      `;
+      MathJax.typesetPromise([box]);
+    }
+
+box.onclick = () => {
+  showingSolution = !showingSolution;
+
+  if (showingSolution) {
+    box.classList.add("revealed");
+  } else {
+    box.classList.remove("revealed");
+  }
+
+  render();
+};
+
+
+    render();
+    container.appendChild(box);
+  });
+
+  MathJax.typeset();
+}
+
+loadQuestionsJS(buildPage);
+</script>
+
+</body>
+</html>

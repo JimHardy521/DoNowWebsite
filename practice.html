@@ -182,6 +182,7 @@ h1 {
   </label>
   |
   <button id="printBtn">Print Worksheet</button>
+<button id="fullscreenBtn">Full Screen</button>
 </div>
 
 <div id="questions"></div>
@@ -311,6 +312,15 @@ function buildPracticePage() {
     window.print();
     wrapper.remove();
   };
+
+	// ---------------- FULL SCREEN MODE ----------------
+document.getElementById("fullscreenBtn").onclick = () => {
+  let url = `fullscreenpractice.html?topic=${encodeURIComponent(topic)}&source=${encodeURIComponent(source)}`;
+  if (year) {
+    url += `&year=${encodeURIComponent(year)}`;
+  }
+  window.open(url, "_blank");
+};	
 
   MathJax.typeset();
 }

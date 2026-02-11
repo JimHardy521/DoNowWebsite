@@ -14,6 +14,7 @@ body {
   margin: 0;
   padding: 20px;
   background-color: #f0f4f8;
+  overflow: hidden;
 }
 
 h1 {
@@ -28,22 +29,24 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 12px;
+  height: calc(100vh - 120px);
+  font-size: 1rem; /* JS will control this */
 }
 
 .question-box {
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 10px;
+  padding: 12px;
   background: #f9f9f9;
   cursor: pointer;
-  font-size: 1.2rem; /* smaller text */
   display: flex;
   align-items: flex-start;
+  overflow: hidden;
 }
 
 .question-box.revealed {
-  border: 2px solid #22c55e;   /* green outline */
-  background: #f0fdf4;         /* very light green background */
+  border: 2px solid #22c55e;
+  background: #f0fdf4;
 }
 
 .question-box:hover {
@@ -57,11 +60,11 @@ h1 {
 
 .question-table td {
   vertical-align: top;
-  padding: 2px 4px;
+  padding: 2px 6px;
 }
 
 .qnum {
-  width: 28px;
+  width: 32px;
   font-weight: 600;
 }
 </style>
@@ -115,11 +118,10 @@ function buildPage() {
   document.getElementById("title").textContent = pageTitle;
 
   const container = document.getElementById("questions");
+  container.innerHTML = "";
 
-  // Shuffle so you always get variety
   filtered.sort(() => Math.random() - 0.5);
 
-  // Limit to 12 questions (4x3 grid)
   filtered.slice(0, 12).forEach((q, i) => {
 
     const box = document.createElement("div");
@@ -136,32 +138,60 @@ function buildPage() {
           </tr>
         </table>
       `;
-      MathJax.typesetPromise([box]);
+      MathJax.typesetPromise([box]).then(() => {
+        maximiseFontSize();
+      });
     }
 
-box.onclick = () => {
-  showingSolution = !showingSolution;
+    box.onclick = () => {
+      showingSolution = !showingSolution;
+      box.classList.toggle("revealed");
+      render();
+    };
 
-  if (showingSolution) {
-    box.classList.add("revealed");
-  } else {
-    box.classList.remove("revealed");
-  }
-
-  render();
-};
-
-
-    render();
     container.appendChild(box);
+    render();
   });
 
-  MathJax.typeset();
+  MathJax.typesetPromise().then(() => {
+    maximiseFontSize();
+  });
 }
+
+// ---------------- SMART FONT MAXIMISER ----------------
+function maximiseFontSize() {
+  const container = document.getElementById("questions");
+  const boxes = document.querySelectorAll(".question-box");
+
+  let fontSize = 1.2;
+  container.style.fontSize = fontSize + "rem";
+
+  const boxHeight = boxes[0].clientHeight;
+
+  // Increase until any box overflows
+  while (fontSize < 3) {
+    container.style.fontSize = fontSize + 0.05 + "rem";
+
+    let overflow = false;
+
+    boxes.forEach(box => {
+      if (box.scrollHeight > box.clientHeight) {
+        overflow = true;
+      }
+    });
+
+    if (overflow) break;
+
+    fontSize += 0.05;
+  }
+
+  container.style.fontSize = fontSize + "rem";
+}
+
+window.addEventListener("resize", maximiseFontSize);
 
 loadQuestionsJS(buildPage);
 </script>
 
 </body>
 </html>
-

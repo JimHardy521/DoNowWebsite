@@ -1,4 +1,77 @@
 const gcseQuestions = [
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "A rectangle has side lengths \\(8\\text{ cm}\\) and \\(6\\text{ cm}\\).<br>Find the length of its diagonal.", 
+  solution: "Using Pythagoras:<br>\\(d^{2} = 8^{2} + 6^{2}\\)<br>\\(d^{2} = 64 + 36 = 100\\)<br>\\(d = 10\\text{ cm}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "An aeroplane flies \\(300\\text{ km}\\) East, then \\(180\\text{ km}\\) South.<br>How far is it from its starting point?", 
+  solution: "Using Pythagoras:<br>\\(d^{2} = 300^{2} + 180^{2}\\)<br>\\(d^{2} = 90000 + 32400 = 122400\\)<br>\\(d = 350\\text{ km}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "Find the distance between the points \\((-3,2)\\) and \\((5,8)\\).", 
+  solution: "Horizontal change: \\(8\\)<br>Vertical change: \\(6\\)<br>\\(d^{2} = 8^{2} + 6^{2} = 64 + 36 = 100\\)<br>\\(d = 10\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "An equilateral triangle has side length \\(10\\text{ cm}\\).<br>Find its height and hence its area.", 
+  solution: "Half base = \\(5\\text{ cm}\\).<br>\\(h^{2} = 10^{2} - 5^{2} = 100 - 25 = 75\\)<br>\\(h = 5\\sqrt{3}\\text{ cm}\\).<br>Area = \\(\\frac{1}{2} \\times 10 \\times 5\\sqrt{3} = 25\\sqrt{3}\\text{ cm}^{2}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "A ladder \\(13\\text{ m}\\) long rests against a wall.<br>The base of the ladder is \\(5\\text{ m}\\) from the wall.<br>How high up the wall does it reach?", 
+  solution: "\\(h^{2} = 13^{2} - 5^{2} = 169 - 25 = 144\\)<br>\\(h = 12\\text{ m}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "A television screen measures \\(60\\text{ cm}\\) wide and \\(45\\text{ cm}\\) high.<br>Find the length of the screen's diagonal.", 
+  solution: "\\(d^{2} = 60^{2} + 45^{2}\\)<br>\\(d^{2} = 3600 + 2025 = 5625\\)<br>\\(d = 75\\text{ cm}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "A boat sails \\(24\\text{ km}\\) North and then \\(7\\text{ km}\\) West.<br>How far is it from its starting point?", 
+  solution: "\\(d^{2} = 24^{2} + 7^{2} = 576 + 49 = 625\\)<br>\\(d = 25\\text{ km}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "The diagonal of a square is \\(14\\text{ cm}\\).<br>Find the length of one side.", 
+  solution: "Let side be \\(s\\).<br>\\(14^{2} = 2s^{2}\\)<br>\\(196 = 2s^{2}\\)<br>\\(s^{2} = 98\\)<br>\\(s = 7\\sqrt{2}\\text{ cm}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "A kite string is \\(20\\text{ m}\\) long. The kite is \\(16\\text{ m}\\) above the ground.<br>How far horizontally is the kite from the person holding the string?", 
+  solution: "\\(x^{2} = 20^{2} - 16^{2}\\)<br>\\(x^{2} = 400 - 256 = 144\\)<br>\\(x = 12\\text{ m}\\)."
+},
+
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "A ship sails \\(15\\text{ km}\\) North, then \\(20\\text{ km}\\) East, then a further \\(8\\text{ km}\\) North.<br>How far is the ship from its starting point?", 
+  solution: "Total North movement: \\(15 + 8 = 23\\text{ km}\\).<br>East movement: \\(20\\text{ km}\\).<br><br>\\(d^{2} = 23^{2} + 20^{2} = 529 + 400 = 929\\)<br>\\(d = \\sqrt{929} \\approx 30.5\\text{ km}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "The diagonal of a rectangular field is \\(65\\text{ m}\\). One side measures \\(33\\text{ m}\\).<br>Find the length of the other side.", 
+  solution: "\\(x^{2} = 65^{2} - 33^{2}\\)<br>\\(x^{2} = 4225 - 1089 = 3136\\)<br>\\(x = 56\\text{ m}\\)."
+},
+{
+  topic: "Pythagoras - Worded",
+  level: "Crossover",
+  question: "A right-angled triangle has hypotenuse \\(25\\text{ cm}\\). One shorter side is \\(7\\text{ cm}\\).<br>Find the length of the other shorter side.", 
+  solution: "\\(x^{2} = 25^{2} - 7^{2}\\)<br>\\(x^{2} = 625 - 49 = 576\\)<br>\\(x = 24\\text{ cm}\\)."
+},
 
 {
   topic: "Probability - Tree Diagrams",

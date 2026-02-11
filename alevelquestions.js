@@ -1,64 +1,64 @@
 const alevelQuestions = [
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 7x^2 + 10x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-2)(x-5) \\), so the roots are \\( x=0,2,5 \\).<br><br>Area on \\([0,2]\\):<br>\\( \\int_0^2 y\\,dx = \\frac{8}{3} \\).<br><br>Area on \\([2,5]\\):<br>\\( \\int_2^5 y\\,dx = -\\frac{125}{12} \\).<br><br>Total area = \\( \\frac{8}{3} + \\frac{125}{12} = \\frac{157}{12} = 13\\frac{1}{12} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 4x^2 - 5x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-5)(x+1) \\), so the roots are \\( x=-1,0,5 \\).<br><br>Area on \\([-1,0]\\):<br>\\( \\int_{-1}^{0} y\\,dx = \\frac{7}{12} \\).<br><br>Area on \\([0,5]\\):<br>\\( \\int_{0}^{5} y\\,dx = -\\frac{625}{12} \\).<br><br>Total area = \\( \\frac{7}{12} + \\frac{625}{12} = \\frac{632}{12} = 52\\frac{2}{3} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 5x^2 + 4x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-1)(x-4) \\). Roots: \\( x=0,1,4 \\).<br><br>Area on \\([0,1]\\):<br>\\( \\int_0^1 y\\,dx = \\frac{7}{12} \\).<br><br>Area on \\([1,4]\\):<br>\\( \\int_1^4 y\\,dx = -\\frac{32}{3} \\).<br><br>Total area = \\( \\frac{7}{12} + \\frac{32}{3} = \\frac{45}{4} = 11\\frac{1}{4} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 5x^2 + 6x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-2)(x-3) \\). Roots: \\( x=0,2,3 \\).<br><br>Area on \\([0,2]\\):<br>\\( \\int_0^2 y\\,dx = \\frac{4}{3} \\).<br><br>Area on \\([2,3]\\):<br>\\( \\int_2^3 y\\,dx = -\\frac{1}{12} \\).<br><br>Total area = \\( \\frac{4}{3} + \\frac{1}{12} = \\frac{17}{12} = 1\\frac{5}{12} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 6x^2 + 5x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-1)(x-5) \\). Roots: \\( x=0,1,5 \\).<br><br>Area on \\([0,1]\\):<br>\\( \\int_0^1 y\\,dx = \\frac{5}{12} \\).<br><br>Area on \\([1,5]\\):<br>\\( \\int_1^5 y\\,dx = -\\frac{64}{3} \\).<br><br>Total area = \\( \\frac{5}{12} + \\frac{64}{3} = \\frac{261}{12} = 21\\frac{3}{4} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 9x^2 + 18x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-3)(x-6) \\). Roots: \\( x=0,3,6 \\).<br><br>Area on \\([0,3]\\):<br>\\( \\int_0^3 y\\,dx = \\frac{81}{4} \\).<br><br>Area on \\([3,6]\\):<br>\\( \\int_3^6 y\\,dx = -\\frac{81}{4} \\).<br><br>Total area = \\( \\frac{81}{4} + \\frac{81}{4} = \\frac{81}{2} = 40\\frac{1}{2} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 9x^2 + 14x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-2)(x-7) \\). Roots: \\( x=0,2,7 \\).<br><br>Area on \\([0,2]\\):<br>\\( \\int_0^2 y\\,dx = \\frac{8}{3} \\).<br><br>Area on \\([2,7]\\):<br>\\( \\int_2^7 y\\,dx = -\\frac{625}{6} \\).<br><br>Total area = \\( \\frac{8}{3} + \\frac{625}{6} = \\frac{641}{6} = 106\\frac{5}{6} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 9x^2 + 20x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-4)(x-5) \\). Roots: \\( x=0,4,5 \\).<br><br>Area on \\([0,4]\\):<br>\\( \\int_0^4 y\\,dx = 16 \\).<br><br>Area on \\([4,5]\\):<br>\\( \\int_4^5 y\\,dx = -\\frac{3}{4} \\).<br><br>Total area = \\( 16 + \\frac{3}{4} = 16\\frac{3}{4} \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 - 2x^2 - 8x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-4)(x+2) \\). Roots: \\( x=-2,0,4 \\).<br><br>Area on \\([-2,0]\\):<br>\\( \\int_{-2}^{0} y\\,dx = \\frac{20}{3} \\).<br><br>Area on \\([0,4]\\):<br>\\( \\int_{0}^{4} y\\,dx = -\\frac{64}{3} \\).<br><br>Total area = \\( \\frac{20}{3} + \\frac{64}{3} = 28 \\)."
-},
-{
-  topic: "Integration - with Graph Sketching First",
-  level: "Year 12",
-  question: "A curve has equation \\( y = x^3 + x^2 - 12x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
-  solution: "Factorising gives \\( y = x(x-3)(x+4) \\). Roots: \\( x=-4,0,3 \\).<br><br>Area on \\([-4,0]\\):<br>\\( \\int_{-4}^{0} y\\,dx = 16 \\).<br><br>Area on \\([0,3]\\):<br>\\( \\int_{0}^{3} y\\,dx = -\\frac{63}{4} \\).<br><br>Total area = \\( 16 + \\frac{63}{4} = 31\\frac{3}{4} \\)."
-},
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 7x^2 + 10x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-2)(x-5) \\), so the roots are \\( x=0,2,5 \\).<br><br>Area on \\([0,2]\\):<br>\\( \\int_0^2 y\\,dx = \\frac{8}{3} \\).<br><br>Area on \\([2,5]\\):<br>\\( \\int_2^5 y\\,dx = -\\frac{125}{12} \\).<br><br>Total area = \\( \\frac{8}{3} + \\frac{125}{12} = \\frac{157}{12} = 13\\frac{1}{12} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 4x^2 - 5x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-5)(x+1) \\), so the roots are \\( x=-1,0,5 \\).<br><br>Area on \\([-1,0]\\):<br>\\( \\int_{-1}^{0} y\\,dx = \\frac{7}{12} \\).<br><br>Area on \\([0,5]\\):<br>\\( \\int_{0}^{5} y\\,dx = -\\frac{625}{12} \\).<br><br>Total area = \\( \\frac{7}{12} + \\frac{625}{12} = \\frac{632}{12} = 52\\frac{2}{3} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 5x^2 + 4x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-1)(x-4) \\). Roots: \\( x=0,1,4 \\).<br><br>Area on \\([0,1]\\):<br>\\( \\int_0^1 y\\,dx = \\frac{7}{12} \\).<br><br>Area on \\([1,4]\\):<br>\\( \\int_1^4 y\\,dx = -\\frac{32}{3} \\).<br><br>Total area = \\( \\frac{7}{12} + \\frac{32}{3} = \\frac{45}{4} = 11\\frac{1}{4} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 5x^2 + 6x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-2)(x-3) \\). Roots: \\( x=0,2,3 \\).<br><br>Area on \\([0,2]\\):<br>\\( \\int_0^2 y\\,dx = \\frac{4}{3} \\).<br><br>Area on \\([2,3]\\):<br>\\( \\int_2^3 y\\,dx = -\\frac{1}{12} \\).<br><br>Total area = \\( \\frac{4}{3} + \\frac{1}{12} = \\frac{17}{12} = 1\\frac{5}{12} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 6x^2 + 5x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-1)(x-5) \\). Roots: \\( x=0,1,5 \\).<br><br>Area on \\([0,1]\\):<br>\\( \\int_0^1 y\\,dx = \\frac{5}{12} \\).<br><br>Area on \\([1,5]\\):<br>\\( \\int_1^5 y\\,dx = -\\frac{64}{3} \\).<br><br>Total area = \\( \\frac{5}{12} + \\frac{64}{3} = \\frac{261}{12} = 21\\frac{3}{4} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 9x^2 + 18x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-3)(x-6) \\). Roots: \\( x=0,3,6 \\).<br><br>Area on \\([0,3]\\):<br>\\( \\int_0^3 y\\,dx = \\frac{81}{4} \\).<br><br>Area on \\([3,6]\\):<br>\\( \\int_3^6 y\\,dx = -\\frac{81}{4} \\).<br><br>Total area = \\( \\frac{81}{4} + \\frac{81}{4} = \\frac{81}{2} = 40\\frac{1}{2} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 9x^2 + 14x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-2)(x-7) \\). Roots: \\( x=0,2,7 \\).<br><br>Area on \\([0,2]\\):<br>\\( \\int_0^2 y\\,dx = \\frac{8}{3} \\).<br><br>Area on \\([2,7]\\):<br>\\( \\int_2^7 y\\,dx = -\\frac{625}{6} \\).<br><br>Total area = \\( \\frac{8}{3} + \\frac{625}{6} = \\frac{641}{6} = 106\\frac{5}{6} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 9x^2 + 20x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-4)(x-5) \\). Roots: \\( x=0,4,5 \\).<br><br>Area on \\([0,4]\\):<br>\\( \\int_0^4 y\\,dx = 16 \\).<br><br>Area on \\([4,5]\\):<br>\\( \\int_4^5 y\\,dx = -\\frac{3}{4} \\).<br><br>Total area = \\( 16 + \\frac{3}{4} = 16\\frac{3}{4} \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 - 2x^2 - 8x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-4)(x+2) \\). Roots: \\( x=-2,0,4 \\).<br><br>Area on \\([-2,0]\\):<br>\\( \\int_{-2}^{0} y\\,dx = \\frac{20}{3} \\).<br><br>Area on \\([0,4]\\):<br>\\( \\int_{0}^{4} y\\,dx = -\\frac{64}{3} \\).<br><br>Total area = \\( \\frac{20}{3} + \\frac{64}{3} = 28 \\)."
+// },
+// {
+//   topic: "Integration - with Graph Sketching First",
+//   level: "Year 12",
+//   question: "A curve has equation \\( y = x^3 + x^2 - 12x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+//   solution: "Factorising gives \\( y = x(x-3)(x+4) \\). Roots: \\( x=-4,0,3 \\).<br><br>Area on \\([-4,0]\\):<br>\\( \\int_{-4}^{0} y\\,dx = 16 \\).<br><br>Area on \\([0,3]\\):<br>\\( \\int_{0}^{3} y\\,dx = -\\frac{63}{4} \\).<br><br>Total area = \\( 16 + \\frac{63}{4} = 31\\frac{3}{4} \\)."
+// },
 
   
 {

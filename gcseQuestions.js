@@ -1,6 +1,239 @@
 const gcseQuestions = [
 
 {
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A ramp is \\(1.5\\text{ m}\\) long and makes an angle of \\(28^\\circ\\) with the ground.<br>How high is the end of the ramp?",
+  solution: "\\(0.70\\text{ m}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A ladder \\(4\\text{ m}\\) long leans against a wall and reaches a height of \\(3.2\\text{ m}\\).<br>What angle does the ladder make with the floor?",
+  solution: "\\(53.1^\\circ\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A kite string is \\(25\\text{ m}\\) long and makes an angle of \\(40^\\circ\\) with the ground.<br>How high is the kite?",
+  solution: "\\(16.1\\text{ m}\\)"
+},
+
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A boat sails \\(60\\text{ km}\\) on a bearing of \\(030^\\circ\\).<br>How far North of its starting point is it?",
+  solution: "\\(52.0\\text{ km}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A hill is inclined at \\(18^\\circ\\). A walker travels \\(200\\text{ m}\\) along the slope.<br>How much height does the walker gain?",
+  solution: "\\(61.8\\text{ m}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A flagpole is \\(9\\text{ m}\\) tall. From a point on the ground the angle of elevation to the top is \\(32^\\circ\\).<br>How far away is the observer?",
+  solution: "\\(14.4\\text{ m}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A wheelchair ramp is \\(2.8\\text{ m}\\) long and makes an angle of \\(15^\\circ\\) with the ground.<br>How high is the top of the ramp?",
+  solution: "\\(0.7\\text{ m}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A ladder is placed \\(1.5\\text{ m}\\) from a wall and reaches a window \\(2.5\\text{ m}\\) high.<br>What angle does the ladder make with the ground?",
+  solution: "\\(59.0^\\circ\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A drone rises at an angle of \\(38^\\circ\\) and travels \\(120\\text{ m}\\).<br>How high is the drone above the ground?",
+  solution: "\\(73.9\\text{ m}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A ship sails \\(80\\text{ km}\\) on a bearing of \\(065^\\circ\\).<br>How far East of its starting point is it?",
+  solution: "\\(72.5\\text{ km}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "How tall is a regular hexagon with side length \\(10\\text{ cm}\\)?",
+  solution: "\\(17.3\\text{ cm}\\)"
+},
+
+{
+  topic: "Trigonomety - Worded",
+  level: "Crossover",
+  question: "A cliff is \\(45\\text{ m}\\) high. From a boat the angle of elevation to the top is \\(25^\\circ\\).<br>How far is the boat from the base of the cliff?",
+  solution: "\\(96.5\\text{ m}\\)"
+},
+
+
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(64 \\times 35 = 2240\\), find \\(64 \\times 3.5\\).",
+  solution: "\\(224\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(72 \\times 48 = 3456\\), find \\(7.2 \\times 48\\).",
+  solution: "\\(345.6\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(56 \\times 18 = 1008\\), find \\(1008 \\div 5.6\\).",
+  solution: "\\(180\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(39 \\times 24 = 936\\), find \\(3.9 \\times 24\\).",
+  solution: "\\(93.6\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(84 \\times 27 = 2268\\), find \\(2268 \\div 8.4\\).",
+  solution: "\\(270\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(125 \\times 32 = 4000\\), find \\(12.5 \\times 32\\).",
+  solution: "\\(400\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(46 \\times 15 = 690\\), find \\(4.6 \\times 15\\).",
+  solution: "\\(69\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(91 \\times 14 = 1274\\), find \\(1274 \\div 9.1\\).",
+  solution: "\\(140\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(28 \\times 75 = 2100\\), find \\(2.8 \\times 75\\).",
+  solution: "\\(210\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(63 \\times 16 = 1008\\), find \\(1008 \\div 6.3\\).",
+  solution: "\\(160\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(48 \\times 25 = 1200\\), find \\(4.8 \\times 25\\).",
+  solution: "\\(120\\)"
+},
+
+{
+  topic: "Multiply and Divide Decimals - Using Known Facts",
+  level: "Foundation",
+  question: "Knowing \\(36 \\times 42 = 1512\\), find \\(1512 \\div 3.6\\).",
+  solution: "\\(420\\)"
+},
+
+
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 2400 is 240.<br>Without using a calculator, work out \\(36\\%\\) of 2400.",
+  solution: "\\(864\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 2600 is 260.<br>Without using a calculator, work out \\(43\\%\\) of 2600.",
+  solution: "\\(1118\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 3100 is 310.<br>Without using a calculator, work out \\(51\\%\\) of 3100.",
+  solution: "\\(1581\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 4700 is 470.<br>Without using a calculator, work out \\(39\\%\\) of 4700.",
+  solution: "\\(1833\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 1800 is 180.<br>Without using a calculator, work out \\(29\\%\\) of 1800.",
+  solution: "\\(522\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 1700 is 170.<br>Without using a calculator, work out \\(32\\%\\) of 1700.",
+  solution: "\\(544\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 2800 is 280.<br>Without using a calculator, work out \\(31\\%\\) of 961.",
+  solution: "\\(1581\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 1900 is 190.<br>Without using a calculator, work out \\(19\\%\\) of 1900.",
+  solution: "\\(361\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 2700 is 270.<br>Without using a calculator, work out \\(16\\%\\) of 2700.",
+  solution: "\\(432\\)"
+},
+{
+  topic: "Percentages of Amounts – Using Known Facts",
+  level: "Foundation",
+  question: "\\(10\\%\\) of 1400 is 140.<br>Without using a calculator, work out \\(26\\%\\) of 1400.",
+  solution: "\\(364\\)"
+},
+
+{
   topic: "Graph Transformations - Finding Coefficients",
   level: "Higher",
   question: "The graph of \\(y = x^2 - 1\\) is translated 3 units left and 2 units up. The new graph can be written as \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",

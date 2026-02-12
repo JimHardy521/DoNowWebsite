@@ -1,4 +1,89 @@
 const gcseQuestions = [
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\cos x = \\cos 40^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 40^\\circ, 320^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\sin x = \\sin 25^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 25^\\circ, 155^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\tan x = \\tan 35^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 35^\\circ, 215^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\cos x = -\\cos 50^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 130^\\circ, 230^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\sin x = -\\sin 30^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 210^\\circ, 330^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\tan x = -\\tan 20^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 160^\\circ, 340^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\cos x = \\cos 75^\\circ\\) for \\(90^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 285^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\sin x = \\sin 70^\\circ\\) for \\(90^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 110^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\tan x = \\tan 15^\\circ\\) for \\(90^\\circ \\le x \\le 270^\\circ\\).",
+  solution: "\\(x = 195^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\cos x = -\\cos 35^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 145^\\circ, 215^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\sin x = -\\sin 65^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 245^\\circ, 295^\\circ\\)"
+},
+
+{
+  topic: "Trig Graphs - Corresponding Angles",
+  level: "Higher",
+  question: "Solve \\(\\tan x = -\\tan 45^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",
+  solution: "\\(x = 135^\\circ, 315^\\circ\\)"
+},
+  
 {
   topic: "Pythagoras - Worded",
   level: "Crossover",

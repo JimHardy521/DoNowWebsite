@@ -8,72 +8,17 @@
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <style>
-body {
-  font-family: 'Inter', sans-serif;
-  background:#f0f4f8;
-  margin:0;
-  padding:20px;
-}
-
-h1 {
-  text-align:center;
-}
-
-#worksheetTitle {
-  text-align:center;
-  font-weight:600;
-  margin-bottom:20px;
-}
-
-.question-card {
-  background:#fff;
-  max-width:900px;
-  margin:14px auto;
-  padding:14px 16px;
-  border-radius:6px;
-  box-shadow:0 2px 6px rgba(0,0,0,0.08);
-}
-
-.question-text {
-  font-size:1.05rem;
-}
-
-.controls {
-  margin-top:10px;
-  display:flex;
-  gap:12px;
-  align-items:center;
-}
-
-.controls button {
-  padding:6px 10px;
-  font-size:0.9rem;
-  cursor:pointer;
-}
-
-.controls select {
-  padding:6px;
-  font-size:0.9rem;
-}
-
-.bottom-actions {
-  text-align:center;
-  margin:30px 0;
-}
-
-.bottom-actions button {
-  padding:10px 22px;
-  font-size:1.05rem;
-  font-weight:600;
-}
-
-.print-options {
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  margin:0 14px;
-  font-size:0.95rem;
-}
+body { font-family:'Inter',sans-serif; background:#f0f4f8; margin:0; padding:20px; }
+h1 { text-align:center; }
+#worksheetTitle { text-align:center; font-weight:600; margin-bottom:20px; }
+.question-card { background:#fff; max-width:900px; margin:14px auto; padding:14px 16px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.08); }
+.question-text { font-size:1.05rem; }
+.controls { margin-top:10px; display:flex; gap:12px; align-items:center; }
+.controls button { padding:6px 10px; font-size:0.9rem; cursor:pointer; }
+.controls select { padding:6px; font-size:0.9rem; }
+.bottom-actions { text-align:center; margin:30px 0; }
+.bottom-actions button { padding:10px 22px; font-size:1.05rem; font-weight:600; }
+.print-options { display:inline-flex; align-items:center; gap:8px; margin:0 14px; font-size:0.95rem; }
 </style>
 </head>
 
@@ -81,23 +26,18 @@ h1 {
 
 <h1>Manual Worksheet Setup</h1>
 <div id="worksheetTitle"></div>
-
 <div id="questionList"></div>
 
 <div class="bottom-actions">
   <button onclick="addQuestion()">+ Add Question</button>
 
   <span class="print-options">
-    <label>
-      <input type="checkbox" id="printLines" onchange="toggleLineSelect()">
-      Print Answer Lines
-    </label>
-
+    <label><input type="checkbox" id="printLines" onchange="toggleLineSelect()"> Print Answer Lines</label>
     <select id="lineCount" disabled>
-  <option value="3">3 lines</option>
-  <option value="4">4 lines</option>
-  <option value="5">5 lines</option>
-</select>
+      <option value="3">3 lines</option>
+      <option value="4">4 lines</option>
+      <option value="5">5 lines</option>
+    </select>
   </span>
 
   <button onclick="printWorksheet()">Print</button>
@@ -113,7 +53,7 @@ const source = getParam("source");
 const level  = getParam("level");
 const total  = +getParam("total");
 const title  = getParam("title");
-const topics = JSON.parse(getParam("topics"));
+let topics = JSON.parse(getParam("topics"));
 
 document.getElementById("worksheetTitle").textContent = title;
 
@@ -150,30 +90,37 @@ function shuffle(arr) {
   return arr;
 }
 
+function sampleArray(arr, n) {
+  return shuffle([...arr]).slice(0, n);
+}
+
 function toggleLineSelect() {
-  document.getElementById("lineCount").disabled =
-    !document.getElementById("printLines").checked;
+  document.getElementById("lineCount").disabled = !document.getElementById("printLines").checked;
 }
 
 /* ===== INITIAL GENERATION ===== */
 function generateInitialWorksheet() {
+  // 1. Pick random subset of topics if total < topics.length
+  if (total < topics.length) {
+    topics = sampleArray(topics, total);
+  } else {
+    topics = shuffle(topics);
+  }
+
+  // 2. Build pools of questions for each selected topic
   const pools = {};
   topics.forEach(topic => {
     pools[topic] = shuffle(
       questionsData.filter(q =>
-        q.topic === topic &&
-        (source === "l2further" || q.level === level)
+        q.topic === topic && (source === "l2further" || q.level === level)
       )
     );
   });
 
-  const base = Math.floor(total / topics.length);
-  worksheet = [];
+  // 3. Take 1 question per topic
+  worksheet = topics.map(topic => pools[topic].shift());
 
-  topics.forEach(topic => {
-    worksheet = worksheet.concat(pools[topic].splice(0, base));
-  });
-
+  // 4. If total > topics.length, distribute remaining questions round-robin
   while (worksheet.length < total) {
     for (const topic of topics) {
       if (worksheet.length >= total) break;
@@ -190,7 +137,7 @@ function renderWorksheet() {
   const container = document.getElementById("questionList");
   container.innerHTML = "";
 
-  worksheet.forEach((q, i) => {
+  worksheet.forEach((q,i) => {
     const topicOptions = topics.map(t =>
       `<option ${t === q.topic ? "selected" : ""}>${t}</option>`
     ).join("");
@@ -223,20 +170,16 @@ function renderWorksheet() {
 function refreshQuestion(index) {
   const topic = worksheet[index].topic;
   const pool = questionsData.filter(q =>
-    q.topic === topic &&
-    (source === "l2further" || q.level === level)
+    q.topic === topic && (source === "l2further" || q.level === level)
   );
-
   worksheet[index] = pool[Math.floor(Math.random() * pool.length)];
   renderWorksheet();
 }
 
 function changeTopic(index, newTopic) {
   const pool = questionsData.filter(q =>
-    q.topic === newTopic &&
-    (source === "l2further" || q.level === level)
+    q.topic === newTopic && (source === "l2further" || q.level === level)
   );
-
   worksheet[index] = pool[Math.floor(Math.random() * pool.length)];
   renderWorksheet();
 }
@@ -250,26 +193,19 @@ function deleteQuestion(index) {
 function addQuestion() {
   const topic = topics[0];
   const pool = questionsData.filter(q =>
-    q.topic === topic &&
-    (source === "l2further" || q.level === level)
+    q.topic === topic && (source === "l2further" || q.level === level)
   );
-
   worksheet.push(pool[Math.floor(Math.random() * pool.length)]);
   renderWorksheet();
 }
 
 /* ===== PRINT ===== */
 function workingLinesHTML(count) {
-  return `
-    <div class="working-lines">
-      ${'<div class="line"></div>'.repeat(count)}
-    </div>
-  `;
+  return `<div class="working-lines">${'<div class="line"></div>'.repeat(count)}</div>`;
 }
 
 function printWorksheet() {
   const win = window.open("", "_blank");
-
   const showLines = document.getElementById("printLines").checked;
   const lineCount = +document.getElementById("lineCount").value;
 
@@ -277,83 +213,23 @@ function printWorksheet() {
 <html>
 <head>
 <title>${title}</title>
-
 <style>
 @page { size:A4; margin:12mm; }
-
-body {
-  font-family: Inter, Arial;
-  font-size: 12pt;
-  line-height: 1.6;
-}
-
-.print-header {
-  display:flex;
-  justify-content:space-between;
-  align-items:flex-end;
-  margin-bottom:16px;
-  border-bottom:2px solid #000;
-  padding-bottom:6px;
-}
-
-.print-brand {
-  font-size:14pt;
-  font-weight:700;
-}
-
-.print-meta {
-  font-size:10pt;
-  text-align:right;
-}
-
-.print-meta span {
-  display:inline-block;
-  min-width:160px;
-  border-bottom:1px solid #000;
-  margin-left:6px;
-}
-
-.print-title {
-  font-size:14pt;
-  font-weight:700;
-  text-align:center;
-  margin:18px 0;
-}
-
-.print-table {
-  width:100%;
-  border-collapse:collapse;
-}
-
-.print-table td {
-  vertical-align:top;
-  padding:6px 4px;
-}
-
-.print-qnum {
-  width:28px;
-  font-weight:700;
-}
-
-.working-lines {
-  margin-top:10px;
-  page-break-inside: avoid;
-}
-
-.working-lines .line {
-  border-bottom:1px solid #ccc;
-  height:18px;
-  margin-bottom:6px;
-}
-
-.print-answers {
-  page-break-before:always;
-}
+body { font-family: Inter, Arial; font-size:12pt; line-height:1.6; }
+.print-header { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:16px; border-bottom:2px solid #000; padding-bottom:6px; }
+.print-brand { font-size:14pt; font-weight:700; }
+.print-meta { font-size:10pt; text-align:right; }
+.print-meta span { display:inline-block; min-width:160px; border-bottom:1px solid #000; margin-left:6px; }
+.print-title { font-size:14pt; font-weight:700; text-align:center; margin:18px 0; }
+.print-table { width:100%; border-collapse:collapse; }
+.print-table td { vertical-align:top; padding:6px 4px; }
+.print-qnum { width:28px; font-weight:700; }
+.working-lines { margin-top:10px; page-break-inside: avoid; }
+.working-lines .line { border-bottom:1px solid #ccc; height:18px; margin-bottom:6px; }
+.print-answers { page-break-before:always; }
 </style>
-
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
 </head>
-
 <body>
 
 <div class="print-header">
@@ -370,10 +246,7 @@ body {
 ${worksheet.map((q,i)=>`
 <tr>
   <td class="print-qnum">${i+1}.</td>
-  <td>
-    ${q.question}
-    ${showLines ? workingLinesHTML(lineCount) : ""}
-  </td>
+  <td>${q.question}${showLines ? workingLinesHTML(lineCount) : ""}</td>
 </tr>
 `).join("")}
 </table>

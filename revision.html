@@ -97,7 +97,6 @@ button:disabled {
 }
 </style>
 
-
 </head>
 
 <body>
@@ -131,8 +130,8 @@ button:disabled {
   <div class="bottom-row">
     <label><strong>Title:</strong></label>
     <input type="text" id="worksheetTitle" style="width:300px;">
-<button id="quickPrintBtn" onclick="generateWorksheet()">Quick Print</button>
-<button onclick="openManualSetup()">Manual Set up</button>
+    <button id="quickPrintBtn" onclick="generateWorksheet()">Quick Print</button>
+    <button onclick="openManualSetup()">Manual Set up</button>
   </div>
 </div>
 
@@ -226,16 +225,23 @@ function buildTopicTable() {
 /* ===== UI STATE ===== */
 function updateState() {
   const boxes = [...document.querySelectorAll("#topicTable input")];
-  generateBtn.disabled = !boxes.some(cb => cb.checked);
+  generateBtn && (generateBtn.disabled = !boxes.some(cb => cb.checked));
   toggleAll.checked = boxes.every(cb => cb.checked);
 }
 
+/* ===== UTILITY ===== */
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
+}
+
+// Pick n random elements from array
+function sampleArray(arr, n) {
+  arr = shuffle([...arr]);
+  return arr.slice(0, n);
 }
 
 function openManualSetup() {
@@ -258,23 +264,25 @@ function openManualSetup() {
   window.location.href = `manual.html?${params.toString()}`;
 }
 
-
-
 /* ===== GENERATE WORKSHEET ===== */
 function generateWorksheet() {
-
   const total = +questionCount.value;
   const title = worksheetTitle.value.trim();
 
+  // 1. Get all checked topics
   let topics = [...document.querySelectorAll("#topicTable input:checked")]
     .map(cb => cb.dataset.topic);
 
-  topics = shuffle(topics);
+  if (!topics.length) return;
 
-  if (topics.length > total) {
-    topics = topics.slice(0, total);
+  // 2. Randomly sample topics if total < number of topics
+  if (total < topics.length) {
+    topics = sampleArray(topics, total);
+  } else {
+    topics = shuffle(topics);
   }
 
+  // 3. Build pools of questions for each selected topic
   const pools = {};
   topics.forEach(topic => {
     pools[topic] = shuffle(
@@ -285,13 +293,10 @@ function generateWorksheet() {
     );
   });
 
-  const base = Math.floor(total / topics.length);
-  let selected = [];
+  // 4. Take 1 question from each topic
+  let selected = topics.map(topic => pools[topic].shift());
 
-  topics.forEach(topic => {
-    selected = selected.concat(pools[topic].splice(0, base));
-  });
-
+  // 5. If total > topics.length, distribute remaining questions round-robin
   while (selected.length < total) {
     for (const topic of topics) {
       if (selected.length >= total) break;
@@ -299,8 +304,10 @@ function generateWorksheet() {
     }
   }
 
+  // 6. Shuffle final selected questions
   selected = shuffle(selected);
 
+  // 7. Print worksheet
   const win = window.open("", "_blank");
 
   win.document.write(`
@@ -310,67 +317,20 @@ function generateWorksheet() {
 <style>
 @page { size:A4; margin:12mm; }
 
-body {
-  font-family: Inter, Arial;
-  font-size: 12pt;
-  line-height: 1.6;
-}
+body { font-family: Inter, Arial; font-size:12pt; line-height:1.6; }
 
-.print-header {
-  display:flex;
-  justify-content:space-between;
-  align-items:flex-end;
-  margin-bottom:16px;
-  border-bottom:2px solid #000;
-  padding-bottom:6px;
-}
-
-.print-brand {
-  font-size:14pt;
-  font-weight:700;
-}
-
-.print-meta {
-  font-size:10pt;
-  text-align:right;
-}
-
-.print-meta span {
-  display:inline-block;
-  min-width:160px;
-  border-bottom:1px solid #000;
-  margin-left:6px;
-}
-
-.print-title {
-  font-size:14pt;
-  font-weight:700;
-  text-align:center;
-  margin:18px 0;
-}
-
-.print-table {
-  width:100%;
-  border-collapse:collapse;
-}
-
-.print-table td {
-  vertical-align:top;
-  padding:6px 4px;
-}
-
-.print-qnum {
-  width:28px;
-  font-weight:700;
-}
-
-.print-answers {
-  page-break-before:always;
-}
+.print-header { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:16px; border-bottom:2px solid #000; padding-bottom:6px; }
+.print-brand { font-size:14pt; font-weight:700; }
+.print-meta { font-size:10pt; text-align:right; }
+.print-meta span { display:inline-block; min-width:160px; border-bottom:1px solid #000; margin-left:6px; }
+.print-title { font-size:14pt; font-weight:700; text-align:center; margin:18px 0; }
+.print-table { width:100%; border-collapse:collapse; }
+.print-table td { vertical-align:top; padding:6px 4px; }
+.print-qnum { width:28px; font-weight:700; }
+.print-answers { page-break-before:always; }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
 </head>
-
 <body>
 
 <div class="print-header">
@@ -409,7 +369,7 @@ ${selected.map((q,i)=>`
   `);
 
   win.document.close();
-  win.onload = () => win.MathJax.typesetPromise().then(()=>win.print());
+  win.onload = () => win.MathJax.typesetPromise().then(() => win.print());
 }
 
 document.addEventListener("mouseover", e => {
@@ -425,7 +385,6 @@ document.addEventListener("mouseover", e => {
     });
   }
 });
-
 </script>
 
 </body>

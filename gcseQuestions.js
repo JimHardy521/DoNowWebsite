@@ -1,6 +1,89 @@
 const gcseQuestions = [
 
 {
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 - 1\\) is translated 3 units left and 2 units up. The new graph can be written as \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 + 6x + 10\\)<br>\\(b = 6, \\; c = 10\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 + 4\\) is translated 2 units right and 5 units down. The new graph is \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 - 4x + 3\\)<br>\\(b = -4, \\; c = 3\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 - 6\\) is translated 4 units left and 1 unit down. Write the new graph as \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 + 8x + 9\\)<br>\\(b = 8, \\; c = 9\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 + 3\\) is translated 1 unit right and 7 units up. The new equation is \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 - 2x + 11\\)<br>\\(b = -2, \\; c = 11\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 - 5\\) is translated 5 units left and 3 units up. The new graph is \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 + 10x + 23\\)<br>\\(b = 10, \\; c = 23\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 + 1\\) is translated 3 units right and 4 units down. Write the new graph as \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 - 6x + 6\\)<br>\\(b = -6, \\; c = 6\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 - 8\\) is translated 2 units left and 6 units up. The new equation is \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 + 4x + 2\\)<br>\\(b = 4, \\; c = 2\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 + 2\\) is translated 4 units right and 3 units up. Write the new graph as \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 - 8x + 21\\)<br>\\(b = -8, \\; c = 21\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 - 4\\) is translated 1 unit left and 5 units down. The new graph is \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 + 2x - 8\\)<br>\\(b = 2, \\; c = -8\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 + 6\\) is translated 6 units left and 2 units down. Write the new equation as \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 + 12x + 40\\)<br>\\(b = 12, \\; c = 40\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 - 2\\) is translated 2 units right and 8 units up. The new graph is \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 - 4x + 10\\)<br>\\(b = -4, \\; c = 10\\)"
+},
+
+{
+  topic: "Graph Transformations - Finding Coefficients",
+  level: "Higher",
+  question: "The graph of \\(y = x^2 + 5\\) is translated 3 units left and 4 units down. Write the new graph as \\(y = x^2 + bx + c\\). Find \\(b\\) and \\(c\\).",
+  solution: "\\(y = x^2 + 6x + 10\\)<br>\\(b = 6, \\; c = 10\\)"
+},
+{
   topic: "Trig Graphs - Corresponding Angles",
   level: "Higher",
   question: "Solve \\(\\cos x = \\cos 40^\\circ\\) for \\(0^\\circ \\le x \\le 360^\\circ\\).",

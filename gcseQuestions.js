@@ -1,5 +1,96 @@
 const gcseQuestions = [
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 2 \\times 1 + 2^2 - 5 = 13 \\)",
+  solution: "\\( 2 \\times (1 + 2)^2 - 5 = 13 \\)"
+},
 
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 6 \\times 2 + 5 = 42 \\)",
+  solution: "\\( 6 \\times (2 + 5) = 42 \\)"
+},
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 3 + 4 \\times 5 - 2 = 33 \\)",
+  solution: "\\( (3 + 4) \\times 5 - 2 = 33 \\)"
+},
+
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 5 + 6 \\div 2 - 1 = 4.5 \\)",
+  solution: "\\( (5 + 6) \\div 2 - 1 = 4.5 \\)"
+},
+
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 9 - 3 + 2 \\times 4 = 32 \\)",
+  solution: "\\( (9 - 3 + 2) \\times 4 = 32 \\)"
+},
+
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 6 + 2^2 \\times 3 = 30 \\)",
+  solution: "\\( (6 + 2^2) \\times 3 = 30 \\)"
+},
+
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 2 + 8 \\div 4 + 1 = 3.5 \\)",
+  solution: "\\( (2 + 8) \\div 4 + 1 = 3.5 \\)"
+},
+
+// --- Two operations inside ONE pair of brackets ---
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 3 + 5 - 2 \\times 4 = 24 \\)",
+  solution: "\\( (3 + 5 - 2) \\times 4 = 24 \\)"
+},
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use a pair of brackets to make this statement correct.<br>\\( 14 - 6 + 1 \\times 3 = 27 \\)",
+  solution: "\\( (14 - 6 + 1) \\times 3 = 27 \\)"
+},
+
+
+// --- TWO sets of brackets required ---
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use brackets to make this statement correct.<br>\\( 2 + 3 \\times 4 - 1 = 15 \\)",
+  solution: "\\( (2 + 3) \\times (4 - 1) = 15 \\)"
+},
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use brackets to make this statement correct.<br>\\( 5 + 1 \\times 6 - 2 = 24 \\)",
+  solution: "\\( (5 + 1) \\times (6 - 2) = 24 \\)"
+},
+
+{
+  topic: "Order of Operations - Missing Brackets",
+  level: "Foundation",
+  question: "Use brackets to make this statement correct.<br>\\( 7 - 2 \\times 5 + 3 = 40 \\)",
+  solution: "\\( (7 - 2) \\times (5 + 3) = 40 \\)"
+},
 {
   topic: "Trigonomety - Worded",
   level: "Crossover",

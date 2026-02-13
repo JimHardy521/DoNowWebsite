@@ -1,5 +1,90 @@
 const gcseQuestions = [
 {
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify \\( 4 \\times 2^5 \\times 2^3 \\).<br>Give your answer as a power of 2.",
+  solution: "\\(2^{10}\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify \\( \\frac{3^4 \\times 3^2}{3^3} \\).<br>Give your answer as a power of 3.",
+  solution: "\\(3^3\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify \\( (5^2)^3 \\).<br>Give your answer as a power of 5.",
+  solution: "\\(5^6\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify \\( \\frac{2^7 \\times 2^2}{2^5} \\).<br>Give your answer as a power of 2.",
+  solution: "\\(2^4\\)"
+},
+
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify \\( \\frac{4^3}{2^2} \\).<br>Give your answer as an integer.",
+  solution: "\\(16\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Work out \\( \\frac{2^5 \\times 2^3}{2^{10}} \\).<br>Give your answer as a decimal.",
+  solution: "\\(0.25\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify \\( 25^2 \\times 5^3 \\).<br>Give your answer as a power of 5.",
+  solution: "\\(5^7\\)"
+},
+
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Work out \\( \\frac{3^2 \\times 3^3}{9^2} \\).<br>Give your answer as an integer.",
+  solution: "\\(3\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Work out \\( \\frac{5^2}{5^4} \\).<br>Give your answer as a decimal.",
+  solution: "\\(0.04\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Work out \\( \\frac{2^3}{2^6} \\).<br>Give your answer as a decimal.",
+  solution: "\\(0.125\\)"
+},
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify the following expression, writing the answer as a power of 3:<br>\\( \\frac{(3^2 \\times 3^4)^2}{9^7} \\)",
+  solution: "\\(3^{-2}\\)"
+},
+
+{
+  topic: "Simplifying Indices",
+  level: "Crossover",
+  question: "Simplify the following expression, writing your answer as a decimal:<br>\\( \\frac{(2^2 \\times 2^4)^2}{4^7} \\)",
+  solution: "\\(0.25\\)"
+},
+  
+{
   topic: "Order of Operations - Missing Brackets",
   level: "Foundation",
   question: "Use a pair of brackets to make this statement correct.<br>\\( 2 \\times 1 + 2^2 - 5 = 13 \\)",

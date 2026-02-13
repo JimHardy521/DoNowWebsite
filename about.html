@@ -7,9 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-
 <link rel="stylesheet" href="style.css">
-
 <script src="common.js"></script>
 
 <style>
@@ -39,7 +37,7 @@ body {
   margin-top: 30px;
 }
 
-/* New layout for text + image */
+/* Layout */
 .about-layout {
   display: flex;
   gap: 24px;
@@ -62,16 +60,13 @@ body {
 }
 
 .about-section h2 {
-  margin-top: 18px;
+  margin-top: 40px;
+  color: #1f3c88;
 }
 
 .about-section p {
   margin: 10px 0;
   text-align: justify;
-}
-
-.about-section ul {
-  margin: 10px 0 0 20px;
 }
 
 .social-links a {
@@ -92,6 +87,30 @@ body {
   font-size: 1.1rem;
 }
 
+/* Progress Table Styling */
+.progress-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+.progress-table th {
+  background-color: #1f3c88;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+.progress-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.progress-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
 
 </style>
 </head>
@@ -123,33 +142,150 @@ body {
         </p>
 
         <p>
-  Many thanks,<br>
-  Jim
-</p>
+          Many thanks,<br>
+          Jim
+        </p>
 
-<div class="social-links">
-  <a href="https://bsky.app/profile/jim-hardy.bsky.social" target="_blank" rel="noopener noreferrer">
-    <i class="fa-solid fa-cloud"></i>
-    @jim-hardy.bsky.social
-  </a>
-</div>
+        <div class="social-links">
+          <a href="https://bsky.app/profile/jim-hardy.bsky.social" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-cloud"></i>
+            @jim-hardy.bsky.social
+          </a>
+        </div>
 
-<div class="social-links">
-  <a href="https://twitter.com/Rush_MathsKS5" target="_blank" rel="noopener noreferrer">
-    <i class="fa-brands fa-twitter"></i>
-    @Rush_MathsKS5
-  </a>
-</div>
+        <div class="social-links">
+          <a href="https://twitter.com/Rush_MathsKS5" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-twitter"></i>
+            @Rush_MathsKS5
+          </a>
+        </div>
 
       </div>
 
       <img src="mrhardymaths.jpg" alt="Mr Hardy" class="about-photo">
 
-    </div>
+    </div> <!-- END about-layout -->
+
+    <!-- FULL WIDTH SECTION -->
+    <h2>Since starting the website in January 2026...</h2>
+
+    <p>
+      Here is the number of topics currently available for each course,
+      with each topic normally containing 12 questions:
+    </p>
+
+    <table class="progress-table">
+      <thead>
+        <tr>
+          <th>GCSE</th>
+          <th>L2 Further</th>
+          <th>A Level</th>
+          <th>A Level Further</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="gcseFoundation">Foundation: 0</td>
+          <td id="l2Topics">Topics: 0</td>
+          <td id="alevelY12">Year 12: 0</td>
+          <td id="alevelfurtherY12">Year 12: 0</td>
+        </tr>
+        <tr>
+          <td id="gcseCrossover">Crossover: 0</td>
+          <td></td>
+          <td id="alevelY12Stats">Year 12 - Stats: 0</td>
+          <td id="alevelfurtherY13">Year 13: 0</td>
+        </tr>
+        <tr>
+          <td id="gcseHigher">Higher: 0</td>
+          <td></td>
+          <td id="alevelY12Mech">Year 12 - Mech.: 0</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td id="alevelY13">Year 13: 0</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td id="alevelY13Stats">Year 13 - Stats: 0</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td id="alevelY13Mech">Year 13 - Mech.: 0</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
   </div>
 </main>
 
-<!-- ✅ EXACTLY like alevel.html -->
+<!-- Question files -->
+<script src="gcseQuestions.js"></script>
+<script src="l2furtherquestions.js"></script>
+<script src="alevelquestions.js"></script>
+<script src="alevelfurther.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  function countTopicsByLevel(questions, levelName) {
+    return [...new Set(
+      questions
+        .filter(q => q.level === levelName)
+        .map(q => q.topic)
+    )].length;
+  }
+
+  // GCSE
+  document.getElementById("gcseFoundation").innerText =
+    "Foundation: " + countTopicsByLevel(gcseQuestions, "Foundation");
+
+  document.getElementById("gcseCrossover").innerText =
+    "Crossover: " + countTopicsByLevel(gcseQuestions, "Crossover");
+
+  document.getElementById("gcseHigher").innerText =
+    "Higher: " + countTopicsByLevel(gcseQuestions, "Higher");
+
+  // L2 Further
+  document.getElementById("l2Topics").innerText =
+    "Topics: " + new Set(l2FurtherQuestions.map(q => q.topic)).size;
+
+  // A Level
+  document.getElementById("alevelY12").innerText =
+    "Year 12 - Pure: " + countTopicsByLevel(alevelQuestions, "Year 12");
+
+  document.getElementById("alevelY12Stats").innerText =
+    "Year 12 - Stats: " + countTopicsByLevel(alevelQuestions, "Year 12 - Stats");
+
+  document.getElementById("alevelY12Mech").innerText =
+    "Year 12 - Mech.: " + countTopicsByLevel(alevelQuestions, "Year 12 - Mechanics");
+
+  document.getElementById("alevelY13").innerText =
+    "Year 13 - Pure: " + countTopicsByLevel(alevelQuestions, "Year 13");
+
+  document.getElementById("alevelY13Stats").innerText =
+    "Year 13 - Stats: " + countTopicsByLevel(alevelQuestions, "Year 13 - Stats");
+
+  document.getElementById("alevelY13Mech").innerText =
+    "Year 13 - Mech.: " + countTopicsByLevel(alevelQuestions, "Year 13 - Mechanics");
+
+  // A Level Further
+  document.getElementById("alevelfurtherY12").innerText =
+    "Year 12: " + countTopicsByLevel(alevelfurther, "Year 12");
+
+  document.getElementById("alevelfurtherY13").innerText =
+    "Year 13: " + countTopicsByLevel(alevelfurther, "Year 13");
+
+});
+</script>
+
 <script>
   createNavBar("about.html");
 </script>

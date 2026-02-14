@@ -1,4 +1,80 @@
 const gcseQuestions = [
+
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 450ml as a fraction of 1.5 litres.<br><br> Give your answer in its simplest form.",
+  solution: "\\(1.5 \\text{ litres} = 1500\\text{ ml}\\)<br>\\(\\frac{450}{1500} = \\frac{3}{10}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 15cm as a fraction of 60mm. <br><br>Give your answer in its simplest form.",
+  solution: "\\(15 \\text{ cm} = 150\\text{ mm}\\)<br>\\(\\frac{150}{60} = \\frac{5}{2}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out £1.50 as a fraction of 60p. <br><br>Give your answer in its simplest form.",
+  solution: "\\(1.50\\text{ pounds} = 150\\text{ p}\\)<br>\\(\\frac{150}{60} = \\frac{5}{2}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 300ml as a fraction of 1.5 litres.<br><br> Give your answer in its simplest form.",
+  solution: "\\(1.5\\text{ litres} = 1500\\text{ ml}\\)<br>\\(\\frac{300}{1500} = \\frac{1}{5}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 20mm as a fraction of 8cm.<br><br> Give your answer in its simplest form.",
+  solution: "\\(8 \\text{ cm} = 80 \\text{ mm}\\)<br>\\(\\frac{20}{80} = \\frac{1}{4}\\)"
+},
+
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 90cm as a fraction of 1.2m. <br><br>Give your answer in its simplest form.",
+  solution: "\\(1.2\\text{ m} = 120\\text{ cm}\\)<br>\\(\\frac{90}{120} = \\frac{3}{4}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 18 minutes as a fraction of 1 hour. <br><br>Give your answer in its simplest form.",
+  solution: "\\(1 \\text{ hour} = 60 \\text{ minutes}\\)<br>\\(\\frac{18}{60} = \\frac{3}{10}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 400ml as a fraction of 2 litres. <br><br>Give your answer in its simplest form.",
+  solution: "\\(2\\text{ litres} = 2000\\text{ ml}\\)<br>\\(\\frac{400}{2000} = \\frac{1}{5}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 750ml as a fraction of 3 litres. <br><br>Give your answer in its simplest form.",
+  solution: "\\(3\\text{ litres} = 3000\\text{ ml}\\)<br>\\(\\frac{750}{3000} = \\frac{1}{4}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 35cm as a fraction of 2 metres. <br><br>Give your answer in its simplest form.",
+  solution: "\\(2\\text{ m} = 200\\text{ cm}\\)<br>\\(\\frac{35}{200} = \\frac{7}{40}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 150cm as a fraction of 2.5m.<br><br> Give your answer in its simplest form.",
+  solution: "\\(2.5\\text{ m} = 250\\text{ cm}\\)<br>\\(\\frac{150}{250} = \\frac{3}{5}\\)"
+},
+{
+  topic: "Fractions of Quantities",
+  level: "Foundation",
+  question: "Work out 20 minutes as a fraction of 2 hours. <br><br>Give your answer in its simplest form.",
+  solution: "\\(2 \\text{ hours} = 120 \\text{ minutes}\\)<br>\\(\\frac{20}{120} = \\frac{1}{6}\\)"
+},
+  
+  
 {
   topic: "Money Transfers - Same Amounts",
   level: "Foundation",

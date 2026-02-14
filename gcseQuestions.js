@@ -1,4 +1,82 @@
 const gcseQuestions = [
+
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "a:b = 3:4 and b:c = 5:2.<br>Work out \\(a:c\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>a:b = 3:4 → ×5 → 15:20<br>b:c = 5:2 → ×4 → 20:8<br><br>\\(a:c = 15:8\\)"
+},
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "x:y = 2:7 and y:z = 3:5.<br>Work out \\(x:z\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>x:y = 2:7 → ×3 → 6:21<br>y:z = 3:5 → ×7 → 21:35<br><br>\\(x:z = 6:35\\)"
+},
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "p:q = 5:6 and q:r = 4:9.<br>Work out \\(p:r\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>p:q = 5:6 → ×2 → 10:12<br>q:r = 4:9 → ×3 → 12:27<br><br>\\(p:r = 10:27\\)"
+},
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "e:f = 4:9 and f:g = 2:7.<br>Work out \\(e:g\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>e:f = 4:9 → ×2 → 8:18<br>f:g = 2:7 → ×9 → 18:63<br><br>\\(e:g = 8:63\\)"
+},
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "m:n = 7:3 and n:p = 5:8.<br>Work out \\(m:p\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>m:n = 7:3 → ×5 → 35:15<br>n:p = 5:8 → ×3 → 15:24<br><br>\\(m:p = 35:24\\)"
+},
+
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "u:v = 8:3 and v:w = 5:6.<br>Work out \\(u:w\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>u:v = 8:3 → ×5 → 40:15<br>v:w = 5:6 → ×3 → 15:18<br><br>u:w = 40:18<br><br>Simplify:<br>\\(u:w = 20:9\\)"
+},
+
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "k:l = 10:7 and l:m = 3:8.<br>Work out \\(k:m\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>k:l = 10:7 → ×3 → 30:21<br>l:m = 3:8 → ×7 → 21:56<br><br>k:m = 30:56<br><br>Simplify:<br>\\(k:m = 15:28\\)"
+},
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "x:y = 12:5 and y:z = 4:9.<br>Work out \\(x:z\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>x:y = 12:5 → ×4 → 48:20<br>y:z = 4:9 → ×5 → 20:45<br><br>x:z = 48:45<br><br>Simplify:<br>\\(x:z = 16:15\\)"
+},
+
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "a:b = 4:6 and b:c = 9:3.<br>Work out \\(a:c\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>a:b = 4:6 → ×3 → 12:18<br>b:c = 9:3 → ×2 → 18:6<br><br>a:c = 12:6<br><br>Simplify:<br>\\(a:c = 2:1\\)"
+},
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "x:y = 5:8 and y:z = 6:4.<br>Work out \\(x:z\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>x:y = 5:8 → ×3 → 15:24<br>y:z = 6:4 → ×4 → 24:16<br><br>x:z = 15:16<br><br>Simplify:<br>\\(x:z = 15:16\\)"
+},
+
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "m:n = 3:9 and n:p = 12:8.<br>Work out \\(m:p\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>m:n = 3:9 → ×4 → 12:36<br>n:p = 12:8 → ×3 → 36:24<br><br>m:p = 12:24<br><br>Simplify:<br>\\(m:p = 1:2\\)"
+},
+
+{
+  topic: "Ratio - Merging",
+  level: "Crossover",
+  question: "u:v = 9:15 and v:w = 20:4.<br>Work out \\(u:w\\) in its simplest form.",
+  solution: "Match the middle term.<br><br>u:v = 9:15 → ×4 → 36:60<br>v:w = 20:4 → ×3 → 60:12<br><br>u:w = 36:12<br><br>Simplify:<br>\\(u:w = 3:1\\)"
+},  
 {
   topic: "Simplifying Indices",
   level: "Crossover",

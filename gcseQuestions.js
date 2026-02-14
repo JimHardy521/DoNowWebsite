@@ -74,73 +74,73 @@ const gcseQuestions = [
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x+2)(x+3)(x+a) = \\(x^{3} + bx^{2} + cx + 30\\).<br>Find the integer values of \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x+2)(x+3)(x+a) = \\(x^{3} + bx^{2} + cx + 30\\).<br><br>Find the integer values of \\(a\\), \\(b\\) and \\(c\\).",
   solution: "6a = 30 → a = 5.<br>(x+2)(x+3) = \\(x^{2}+5x+6\\).<br>Substitute a=5 → \\(x^{3}+10x^{2}+31x+30\\).<br>\\(b=10,\\ c=31\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x+1)(x+4)(x+a) = \\(x^{3} + bx^{2} + cx + 8\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x+1)(x+4)(x+a) = \\(x^{3} + bx^{2} + cx + 8\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "4a = 8 → a = 2.<br>(x+1)(x+4) = \\(x^{2}+5x+4\\).<br>Substitute a=2 → \\(x^{3}+7x^{2}+14x+8\\).<br>\\(b=7,\\ c=14\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x+3)(x+5)(x+a) = \\(x^{3} + bx^{2} + cx + 45\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x+3)(x+5)(x+a) = \\(x^{3} + bx^{2} + cx + 45\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "15a = 45 → a = 3.<br>(x+3)(x+5) = \\(x^{2}+8x+15\\).<br>Substitute a=3 → \\(x^{3}+11x^{2}+39x+45\\).<br>\\(b=11,\\ c=39\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x+2)(x+6)(x+a) = \\(x^{3} + bx^{2} + cx + 48\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x+2)(x+6)(x+a) = \\(x^{3} + bx^{2} + cx + 48\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "12a = 48 → a = 4.<br>(x+2)(x+6) = \\(x^{2}+8x+12\\).<br>Substitute a=4 → \\(x^{3}+12x^{2}+44x+48\\).<br>\\(b=12,\\ c=44\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x-1)(x+4)(x+a) = \\(x^{3} + bx^{2} + cx - 12\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x-1)(x+4)(x+a) = \\(x^{3} + bx^{2} + cx - 12\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "-4a = -12 → a = 3.<br>(x-1)(x+4) = \\(x^{2}+3x-4\\).<br>Substitute a=3 → \\(x^{3}+6x^{2}+5x-12\\).<br>\\(b=6,\\ c=5\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x-2)(x+5)(x+a) = \\(x^{3} + bx^{2} + cx - 30\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x-2)(x+5)(x+a) = \\(x^{3} + bx^{2} + cx - 30\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "-10a = -30 → a = 3.<br>(x-2)(x+5) = \\(x^{2}+3x-10\\).<br>Substitute a=3 → \\(x^{3}+6x^{2}-x-30\\).<br>\\(b=6,\\ c=-1\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x-3)(x+2)(x+a) = \\(x^{3} + bx^{2} + cx - 18\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x-3)(x+2)(x+a) = \\(x^{3} + bx^{2} + cx - 18\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "-6a = -18 → a = 3.<br>(x-3)(x+2) = \\(x^{2}-x-6\\).<br>Substitute a=3 → \\(x^{3}+2x^{2}-9x-18\\).<br>\\(b=2,\\ c=-9\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x+4)(x+5)(x+a) = \\(x^{3} + bx^{2} + cx + 80\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x+4)(x+5)(x+a) = \\(x^{3} + bx^{2} + cx + 80\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "20a = 80 → a = 4.<br>(x+4)(x+5) = \\(x^{2}+9x+20\\).<br>Substitute a=4 → \\(x^{3}+13x^{2}+56x+80\\).<br>\\(b=13,\\ c=56\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x+1)(x-5)(x+a) = \\(x^{3} + bx^{2} + cx - 10\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x+1)(x-5)(x+a) = \\(x^{3} + bx^{2} + cx - 10\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "-5a = -10 → a = 2.<br>(x+1)(x-5) = \\(x^{2}-4x-5\\).<br>Substitute a=2 → \\(x^{3}-2x^{2}-13x-10\\).<br>\\(b=-2,\\ c=-13\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x-4)(x+3)(x+a) = \\(x^{3} + bx^{2} + cx - 24\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x-4)(x+3)(x+a) = \\(x^{3} + bx^{2} + cx - 24\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "-12a = -24 → a = 2.<br>(x-4)(x+3) = \\(x^{2}-x-12\\).<br>Substitute a=2 → \\(x^{3}+x^{2}-14x-24\\).<br>\\(b=1,\\ c=-14\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x+2)(x-7)(x+a) = \\(x^{3} + bx^{2} + cx - 28\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x+2)(x-7)(x+a) = \\(x^{3} + bx^{2} + cx - 28\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "-14a = -28 → a = 2.<br>(x+2)(x-7) = \\(x^{2}-5x-14\\).<br>Substitute a=2 → \\(x^{3}-3x^{2}-24x-28\\).<br>\\(b=-3,\\ c=-24\\)"
 },
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",
-  question: "(x-2)(x-3)(x+a) = \\(x^{3} + bx^{2} + cx - 36\\).<br>Find \\(a\\), \\(b\\) and \\(c\\).",
+  question: "(x-2)(x-3)(x+a) = \\(x^{3} + bx^{2} + cx - 36\\).<br><br>Find \\(a\\), \\(b\\) and \\(c\\).",
   solution: "6a = -36 → a = -6.<br>(x-2)(x-3) = \\(x^{2}-5x+6\\).<br>Substitute a=-6 → \\(x^{3}-11x^{2}+36x-36\\).<br>\\(b=-11,\\ c=36\\)"
 },
 

@@ -1,5 +1,76 @@
 const gcseQuestions = [
-
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Amy and Brad each have some money. Carly has no money. Amy gives £7 to Carly and Brad gives £5 to Carly. Now they all have the same amount. How much money did Amy have at the start?",
+  solution: "Amy − 7 = 12. A = 19.<br>So Amy had £19."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Liam and Noah each have some money. Olivia has no money. Liam gives £6 to Olivia and Noah gives £4 to Olivia. Now they all have the same amount. How much money did Liam have at the start?",
+  solution: "Liam − 6 = 10. Liam = 16.<br>So Liam had £16."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Ella and Mia each have some money. Jack has no money. Ella gives £8 to Jack and Mia gives £2 to Jack. Now they all have the same amount. How much money did Ella have at the start?",
+  solution: "Ella − 8 = 10. Ella = 18.<br>So Ella had £18."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Ben and Sam each have some money. Leo has no money. Ben gives £9 to Leo and Sam gives £3 to Leo. Now they all have the same amount. How much money did Ben have at the start?",
+  solution: "Ben − 9 = 12. Ben = 21.<br>So Ben had £21."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Grace and Ruby each have some money. Isla has no money. Grace gives £5 to Isla and Ruby gives £7 to Isla. Now they all have the same amount. How much money did Grace have at the start?",
+  solution: "Grace − 5 = 12. Grace = 17.<br>So Grace had £17."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Owen and Max each have some money. Ava has no money. Owen gives £4 to Ava and Max gives £6 to Ava. Now they all have the same amount. How much money did Owen have at the start?",
+  solution: "Owen − 4 = 10. Owen = 14.<br>So Owen had £14."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Chloe and Zara each have some money. Harry has no money. Chloe gives £3 to Harry and Zara gives £9 to Harry. Now they all have the same amount. How much money did Chloe have at the start?",
+  solution: "Chloe − 3 = 12. Chloe = 15.<br>So Chloe had £15."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Daniel and Lucas each have some money. Sophie has no money. Daniel gives £10 to Sophie and Lucas gives £5 to Sophie. Now they all have the same amount. How much money did Daniel have at the start?",
+  solution: "Daniel − 10 = 15. Daniel = 25.<br>So Daniel had £25."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Hannah and Emily each have some money. Tom has no money. Hannah gives £6 to Tom and Emily gives £8 to Tom. Now they all have the same amount. How much money did Hannah have at the start?",
+  solution: "Hannah − 6 = 14. Hannah = 20.<br>So Hannah had £20."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Jacob and Ethan each have some money. Lily has no money. Jacob gives £7 to Lily and Ethan gives £3 to Lily. Now they all have the same amount. How much money did Jacob have at the start?",
+  solution: "Jacob − 7 = 10. Jacob = 17.<br>So Jacob had £17."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Mason and Leo each have some money. Ella has no money. Mason gives £8 to Ella and Leo gives £4 to Ella. Now they all have the same amount. How much money did Mason have at the start?",
+  solution: "Mason − 8 = 12. Mason = 20.<br>So Mason had £20."
+},
+{
+  topic: "Money Transfers - Same Amounts",
+  level: "Foundation",
+  question: "Freya and Poppy each have some money. Jack has no money. Freya gives £5 to Jack and Poppy gives £10 to Jack. Now they all have the same amount. How much money did Freya have at the start?",
+  solution: "Freya − 5 = 15. Freya = 20.<br>So Freya had £20."
+},
 {
   topic: "Identities - Finding Coefficients",
   level: "Higher",

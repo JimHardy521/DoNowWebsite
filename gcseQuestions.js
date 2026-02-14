@@ -609,8 +609,8 @@ const gcseQuestions = [
 {
   topic: "Percentages of Amounts – Using Known Facts",
   level: "Foundation",
-  question: "\\(10\\%\\) of 2800 is 280.<br>Without using a calculator, work out \\(31\\%\\) of 961.",
-  solution: "\\(1581\\)"
+  question: "\\(10\\%\\) of 2800 is 280.<br>Without using a calculator, work out \\(31\\%\\) of 2800.",
+  solution: "\\(868\\)"
 },
 {
   topic: "Percentages of Amounts – Using Known Facts",

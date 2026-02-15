@@ -1,5 +1,72 @@
 const gcseQuestions = [
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{2}{x+1} + \\frac{7-5x}{3}\\)<br><br>Give your answer as a single fraction.",
+  solution: "\\(\\frac{-5x^2 + 2x + 13}{3(x+1)}\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{8x^2 + 4}{5x} \\times \\frac{3x}{14x^2 + 7}\\)<br><br>Give your answer in simplest form.",
+  solution: "\\(\\frac{12}{35}\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{3x}{2} - \\frac{x}{4}\\)<br><br>Give your answer as a single fraction.",
+  solution: "\\(\\frac{5x}{4}\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{4x^2 - 9}{2x + 3} \\div \\frac{x-3}{x+1}\\)<br><br>Give your answer in simplest form.",
+  solution: "\\(\\frac{2x^2 - x -3}{x-3}\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{6x^2 + 7x}{3x} + \\frac{5x-2}{x}\\)<br><br>Give your answer as a single fraction.",
+  solution: "\\(\\frac{2(3x^2 + 11x -3)}{3x}\\)"
+},
 
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{5x^2 - 15x}{10x} + \\frac{3x-9}{6}\\)<br><br>Give your answer as a single fraction.",
+  solution: "\\(x-3\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{3x}{x^2-4} + \\frac{2}{x-2}\\)<br><br>Give your answer as a single fraction.",
+  solution: "\\(\\frac{5x + 4}{(x-2)(x+2)}\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{2x^2 + x}{x} \\div \\frac{x+1}{2}\\)<br><br>Give your answer in simplest form.",
+  solution: "\\(\\frac{2(2x+1)}{x+1}\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{4x^2 -16}{2x} + \\frac{3x-6}{x+1}\\)<br><br>Give your answer as a single fraction.",
+  solution: "\\(\\frac{(x-2)(x^2 +6x +2)}{x(x+1)}\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{3x^2 + 6x}{3x} \\times \\frac{2x+1}{x+2}\\)<br><br>Give your answer in simplest form.",
+  solution: "\\(2x +1\\)"
+},
+{
+  topic: "Algebraic Expressions - Arithmetic",
+  level: "Higher",
+  question: "Simplify fully: \\(\\frac{x^2-4}{x+2} + \\frac{2x-1}{x-2}\\)<br><br>Give your answer as a single fraction.",
+  solution: "\\(\\frac{x^2 - 2x + 3}{x-2}\\)"
+},
+  
 {
   topic: "Iteration",
   level: "Higher",

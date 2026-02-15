@@ -1,4 +1,79 @@
 const gcseQuestions = [
+
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A car drives 40km North.<br><br>It then drives 36km on a bearing of 042°.<br><br>How far is it from its starting point?",
+  solution: "\\(70.9\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A plane flies 300km East.<br><br>It then flies 200km on a bearing of 142°.<br><br>How far is it from its starting point?",
+  solution: "\\(452\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A man walks 3km West.<br><br>He then walks 7km on a bearing of 310°.<br><br>What bearing must he walk to return home directly?",
+  solution: "\\(118^\\circ\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "Two ships leave port.<br><br>Ship A travels 20km on a bearing of 150°.<br><br>Ship B travels 14km on a bearing of 240°.<br><br>How far apart are they?",
+  solution: "\\(24.4\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A hiker walks 12km South.<br><br>He then walks 9km on a bearing of 210°.<br><br>How far is the hiker from the start?",
+  solution: "\\(20.3\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A drone flies 15km North.<br><br>It then flies 18km on a bearing of 120°.<br><br>How far is it from the start?",
+  solution: "\\(16.7\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A cyclist travels 25km East.<br><br>She then travels 30km on a bearing of 200°.<br><br>How far is she from the start?",
+  solution: "\\(31.8\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "Two boats leave harbour.<br><br>Boat A sails 18km on a bearing of 030°.<br><br>Boat B sails 22km on a bearing of 110°.<br><br>How far apart are they?",
+  solution: "\\(27.2\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A plane flies 120km South.<br><br>It then flies 150km on a bearing of 240°.<br><br>How far is it from the start?",
+  solution: "\\(234\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A walker goes 8km West.<br><br>He then walks 10km on a bearing of 350°.<br><br>How far is the walker from the start?",
+  solution: "\\(13.9\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "Two aircraft leave an airport.<br><br>One flies 250km on a bearing of 060°.<br><br>The other flies 300km on a bearing of 140°.<br><br>How far apart are they?",
+  solution: "\\(390\\text{ km}\\)"
+},
+{
+  topic: "Sine Rule, Cosine Rule - Bearings",
+  level: "Higher",
+  question: "A runner travels 5km North.<br><br>He then travels 9km on a bearing of 150°.<br><br>What bearing must the runner take to return home directly?",
+  solution: "\\(301^\\circ\\)"
+},
+
+  
 {
   topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
   level: "Higher",

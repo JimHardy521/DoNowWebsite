@@ -1,5 +1,76 @@
 const gcseQuestions = [
-
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular pentagon has side length 6cm.<br><br> Find the area of the pentagon.",
+  solution: "Central angle = \\(\\frac{360}{5}=72^\\circ\\).<br>Using cosine rule on triangle: \\(6^2 = 2R^2(1-\\cos72^\\circ)\\) gives \\(R \\approx 5.11\\).<br>Area of one triangle = \\(\\frac12 R^2 \\sin72^\\circ \\approx 12.43\\).<br>Total area \\(\\approx 62.2\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular hexagon has side length 8cm.<br><br> Find the area of the hexagon.",
+  solution: "Central angle = \\(60^\\circ\\).<br>Using cosine rule gives \\(R=8\\).<br>Area of one triangle = \\(\\frac12 \\times 8^2 \\sin60^\\circ \\approx 27.71\\).<br>Total area \\(\\approx 166.3\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular heptagon has side length 5cm.<br><br> Find the area of the heptagon.",
+  solution: "Central angle = \\(\\frac{360}{7}\\approx51.43^\\circ\\).<br>Cosine rule gives \\(R\\approx5.76\\).<br>Area of one triangle \\(\\approx13.01\\).<br>Total area \\(\\approx91.1\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular octagon has side length 7cm.<br><br> Find the area of the octagon.",
+  solution: "Central angle = \\(45^\\circ\\).<br>Cosine rule gives \\(R\\approx9.15\\).<br>Area of one triangle \\(\\approx29.62\\).<br>Total area \\(\\approx236.9\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular nonagon has side length 4cm. <br><br>Find the area of the nonagon.",
+  solution: "Central angle = \\(40^\\circ\\).<br>Cosine rule gives \\(R\\approx5.85\\).<br>Area of one triangle \\(\\approx10.99\\).<br>Total area \\(\\approx98.9\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular decagon has side length 6cm.<br><br> Find the area of the decagon.",
+  solution: "Central angle = \\(36^\\circ\\).<br>Cosine rule gives \\(R\\approx9.71\\).<br>Area of one triangle \\(\\approx27.68\\).<br>Total area \\(\\approx276.8\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular dodecagon has side length 3cm. <br><br>Find the area of the dodecagon.",
+  solution: "Central angle = \\(30^\\circ\\).<br>Cosine rule gives \\(R\\approx5.80\\).<br>Area of one triangle \\(\\approx8.41\\).<br>Total area \\(\\approx100.9\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular pentagon has side length 9cm. <br><br>Find the area of the pentagon.",
+  solution: "Central angle = \\(72^\\circ\\).<br>Cosine rule gives \\(R\\approx7.66\\).<br>Area of one triangle \\(\\approx27.95\\).<br>Total area \\(\\approx139.8\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular hexagon has side length 10cm.<br><br> Find the area of the hexagon.",
+  solution: "Central angle = \\(60^\\circ\\).<br>Cosine rule gives \\(R=10\\).<br>Area of one triangle \\(\\approx43.30\\).<br>Total area \\(\\approx259.8\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular octagon has side length 4cm.<br><br> Find the area of the octagon.",
+  solution: "Central angle = \\(45^\\circ\\).<br>Cosine rule gives \\(R\\approx5.23\\).<br>Area of one triangle \\(\\approx9.66\\).<br>Total area \\(\\approx77.3\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular heptagon has side length 8cm.<br><br> Find the area of the heptagon.",
+  solution: "Central angle \\(\\approx51.43^\\circ\\).<br>Cosine rule gives \\(R\\approx9.22\\).<br>Area of one triangle \\(\\approx33.30\\).<br>Total area \\(\\approx233.1\\text{ cm}^2\\)."
+},
+{
+  topic: "Sine Rule, Cosine Rule, Area of Triangles - Regular Polygons",
+  level: "Higher",
+  question: "A regular decagon has side length 12cm. <br><br>Find the area of the decagon.",
+  solution: "Central angle = \\(36^\\circ\\).<br>Cosine rule gives \\(R\\approx19.42\\).<br>Area of one triangle \\(\\approx110.74\\).<br>Total area \\(\\approx1107.4\\text{ cm}^2\\)."
+},
 {
   topic: "Fractions of Quantities",
   level: "Foundation",

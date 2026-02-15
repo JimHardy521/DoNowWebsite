@@ -1,6 +1,80 @@
 const gcseQuestions = [
 
 {
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = \\sqrt{U_n + 6}\\), where \\(U_1 = 3\\).<br><br>Find \\(U_4\\).",
+  solution: "\\(U_4 = 3\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = (U_n)^3 + 1\\), where \\(U_1 = 1\\).<br><br>Calculate \\(U_3\\).",
+  solution: "\\(U_3 = 9\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(X_{n+1} = \\sqrt{10 - X_n}\\), where \\(X_1 = 2\\).<br><br>Find \\(X_5\\).",
+  solution: "\\(X_5 \\approx 2.70\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = \\sqrt[3]{U_n + 2}\\), with \\(U_1 = 1\\).<br><br>Calculate \\(U_4\\).",
+  solution: "\\(U_4 \\approx 1.52\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = \\frac{5}{\\sqrt{U_n + 1}}\\), where \\(U_1 = 4\\).<br><br>Find \\(U_3\\).",
+  solution: "\\(U_3 \\approx 2.27\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(X_{n+1} = \\sqrt{X_n^2 + 1}\\), with \\(X_1 = 1\\).<br><br>Calculate \\(X_4\\).",
+  solution: "\\(X_4 \\approx 2.06\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = 3 - \\sqrt{U_n}\\), where \\(U_1 = 2\\).<br><br>Find \\(U_5\\).",
+  solution: "\\(U_5 \\approx 1.70\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = \\sqrt[3]{2U_n + 1}\\), where \\(U_1 = 1\\).<br><br>Find \\(U_4\\).",
+  solution: "\\(U_4 \\approx 1.65\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(X_{n+1} = \\frac{7}{\\sqrt{X_n + 2}}\\), with \\(X_1 = 3\\).<br><br>Calculate \\(X_4\\).",
+  solution: "\\(X_4 \\approx 3.07\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = \\sqrt{U_n + 8}\\), where \\(U_1 = 2\\).<br><br>Find \\(U_5\\).",
+  solution: "\\(U_5 \\approx 3.00\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(U_{n+1} = \\sqrt[3]{U_n^2 + 1}\\), with \\(U_1 = 1\\).<br><br>Calculate \\(U_4\\).",
+  solution: "\\(U_4 \\approx 1.35\\)"
+},
+{
+  topic: "Iteration",
+  level: "Higher",
+  question: "A sequence is defined by \\(X_{n+1} = 4 - \\sqrt{X_n}\\), where \\(X_1 = 3\\).<br><br>Find \\(X_5\\).",
+  solution: "\\(X_5 \\approx 2.41\\)"
+},
+  
+
+{
   topic: "Sine Rule, Cosine Rule - Bearings",
   level: "Higher",
   question: "A car drives 40km North.<br><br>It then drives 36km on a bearing of 042°.<br><br>How far is it from its starting point?",

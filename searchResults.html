@@ -4,10 +4,7 @@
   <meta charset="UTF-8">
   <title>Search Results</title>
 
-  <!-- Main site CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- Nav bar -->
   <script src="common.js"></script>
 
   <!-- Question banks -->
@@ -15,168 +12,132 @@
   <script src="l2furtherquestions.js"></script>
   <script src="alevelquestions.js"></script>
   <script src="alevelfurther.js"></script>
-  <!-- Styling -->
+
   <style>
-body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  background-color: #f0f4f8;
-  color: #333;
-}
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
 
-.instructions {
-  text-align: center;
-  margin: 10px 0 14px;
-  font-size: 0.95rem;
-  color: #444;
-}
+    main.content {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 12px;
+    }
 
-.instructions label {
-  cursor: pointer;
-  font-weight: 600;
-  margin-left: 6px;
-}
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
 
-.instructions input {
-  margin-right: 4px;
-  transform: scale(1.1);
-  cursor: pointer;
-}
+    #searchSummary {
+      text-align: center;
+      margin-bottom: 18px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
 
-main.content {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 0 12px;
-  font-family: 'Inter', sans-serif;
-}
+    #resultsList {
+      list-style-type: none;
+      padding-left: 0;
+    }
 
-h1 {
-  text-align: center;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 1.8rem;
-}
+    #resultsList li {
+      display: flex;
+      align-items: center;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      padding: 10px 14px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      transition: background-color 0.2s;
+    }
 
-#searchSummary {
-  text-align: center;
-  margin-bottom: 18px;
-  font-size: 1rem;
-  font-weight: 500;
-}
+    #resultsList li a {
+      flex-grow: 1;
+      text-decoration: none;
+      color: #007acc;
+    }
 
-#resultsList {
-  list-style-type: none;
-  padding-left: 0;
-}
+    #resultsList li:hover {
+      background-color: #e6f0fa;
+    }
 
-#resultsList li {
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  padding: 10px 14px;
-  font-size: 1rem;
-  transition: background-color 0.2s;
-}
+    /* Qualification styling */
 
-#resultsList li a {
-  text-decoration: none;
-  color: #007acc;
-  display: block;
-}
+    .gcse {
+      background-color: #f7fbff;
+      border-left: 6px solid #2f80ed;
+    }
 
-#resultsList li:hover {
-  background-color: #e6f0fa;
-}
+    .level-2-further {
+      background-color: #f0f8ff;
+      border-left: 6px solid #007acc;
+    }
 
-@media (max-width: 600px) {
-  #resultsList li {
-    font-size: 0.95rem;
-    padding: 8px 10px;
-  }
-}
+    .a-level {
+      background-color: #f9f5ff;
+      border-left: 6px solid #7b61ff;
+    }
 
-.preview-wrapper {
-  position: relative;
-}
+    .a-level-further {
+      background-color: #fff5fa;
+      border-left: 6px solid #d63384;
+    }
 
-.preview-eye {
-  cursor: pointer;
-}
+    /* Preview tooltip */
 
-/* Tooltip hidden by default */
-.preview-tooltip {
-  display: none;
-  position: absolute;
-  right: 110%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 220px;
-  background: #fff;
-  border: 1px solid #ccc;
-  padding: 8px 10px;
-  font-size: 1.2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  z-index: 10;
-}
+    .preview-cell {
+      position: relative;
+      margin-left: 10px;
+      cursor: pointer;
+    }
 
-/* Tooltip ONLY shows on hover */
-.preview-wrapper:hover .preview-tooltip {
-  display: block;
-}
-.preview-cell {
-  position: relative;
-  margin-left: 10px;
-  cursor: pointer;
-}
+    .preview-icon {
+      font-size: 1.1rem;
+    }
 
-.preview-icon {
-  font-size: 1.1rem;
-}
+    .tooltip {
+      display: none;
+      position: absolute;
+      right: 110%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 320px;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
 
-.tooltip {
-  display: none;
-  position: absolute;
-  right: 110%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 320px;
-  background: #fff;
-  border: 1px solid #ccc;
-  padding: 10px;
-  font-size: 1.2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  z-index: 10;
-}
+    .preview-cell:hover .tooltip {
+      display: block;
+    }
 
-.preview-cell:hover .tooltip {
-  display: block;
-}
-#resultsList li {
-  display: flex;
-  align-items: center;
-}
-
-#resultsList li a {
-  flex-grow: 1;
-}
-
-
+    @media (max-width: 600px) {
+      #resultsList li {
+        font-size: 0.95rem;
+        padding: 8px 10px;
+      }
+    }
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
-  <!-- Navigation bar will be added automatically by common.js -->
   <main class="content">
     <h1>Search Results</h1>
     <p id="searchSummary"></p>
-
     <ul id="resultsList"></ul>
   </main>
 
-  <!-- Run searchResults.js after the question banks are loaded -->
   <script src="searchResults.js"></script>
 </body>
 </html>

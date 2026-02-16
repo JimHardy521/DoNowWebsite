@@ -1,12 +1,9 @@
-// Build the nav bar
 createNavBar("searchResults.html");
 
-// Get stored search term
 const searchTerm = sessionStorage.getItem("topicSearch");
 const searchSummary = document.getElementById("searchSummary");
 const resultsList = document.getElementById("resultsList");
 
-// ------------------ HELPER: get example question ------------------
 function getExampleQuestion(source, topic, level) {
   let data = [];
 
@@ -26,10 +23,27 @@ function getExampleQuestion(source, topic, level) {
 if (!searchTerm) {
   searchSummary.textContent = "No search term found.";
 } else {
+
   searchSummary.textContent = `Results for "${searchTerm}"`;
   const searchLower = searchTerm.toLowerCase();
+  const results = [];
 
-  // ------------------ GCSE ------------------
+  const levelOrder = {
+    "Foundation": 1,
+    "Crossover": 2,
+    "Higher": 3,
+    "Year 12": 5,
+    "Year 13": 6
+  };
+
+  const groupOrder = {
+    "GCSE": 1,
+    "Level 2 Further": 2,
+    "A Level": 3,
+    "A Level Further": 4
+  };
+
+  // GCSE
   const gcseMatches = new Set();
   gcseQuestions.forEach(q => {
     if (q.topic.toLowerCase().includes(searchLower)) {
@@ -39,29 +53,16 @@ if (!searchTerm) {
 
   gcseMatches.forEach(entry => {
     const [level, topic] = entry.split("||");
-    const li = document.createElement("li");
-
-    const a = document.createElement("a");
-    a.href = `practice2.html?source=gcse&topic=${encodeURIComponent(topic)}&year=${encodeURIComponent(level)}`;
-    a.textContent = `GCSE Maths – ${level} – ${topic}`;
-    a.style.textDecoration = "none";
-    a.style.color = "#007acc";
-
-    const preview = document.createElement("span");
-    preview.className = "preview-cell";
-    preview.innerHTML = `
-      <span class="preview-icon">👁️</span>
-      <div class="tooltip">
-        ${getExampleQuestion("gcse", topic, level)}
-      </div>
-    `;
-
-    li.appendChild(a);
-    li.appendChild(preview);
-    resultsList.appendChild(li);
+    results.push({
+      group: "GCSE",
+      level,
+      topic,
+      source: "gcse",
+      url: `practice2.html?source=gcse&topic=${encodeURIComponent(topic)}&year=${encodeURIComponent(level)}`
+    });
   });
 
-  // ------------------ L2 Further ------------------
+  // Level 2 Further
   const l2Matches = new Set();
   l2FurtherQuestions.forEach(q => {
     if (q.topic.toLowerCase().includes(searchLower)) {
@@ -70,29 +71,16 @@ if (!searchTerm) {
   });
 
   l2Matches.forEach(topic => {
-    const li = document.createElement("li");
-
-    const a = document.createElement("a");
-    a.href = `practice2.html?source=l2further&topic=${encodeURIComponent(topic)}`;
-    a.textContent = `Level 2 Further – ${topic}`;
-    a.style.textDecoration = "none";
-    a.style.color = "#007acc";
-
-    const preview = document.createElement("span");
-    preview.className = "preview-cell";
-    preview.innerHTML = `
-      <span class="preview-icon">👁️</span>
-      <div class="tooltip">
-        ${getExampleQuestion("l2further", topic)}
-      </div>
-    `;
-
-    li.appendChild(a);
-    li.appendChild(preview);
-    resultsList.appendChild(li);
+    results.push({
+      group: "Level 2 Further",
+      level: "",
+      topic,
+      source: "l2further",
+      url: `practice2.html?source=l2further&topic=${encodeURIComponent(topic)}`
+    });
   });
 
-  // ------------------ A Level ------------------
+  // A Level
   const alevelMatches = new Set();
   alevelQuestions.forEach(q => {
     if (q.topic.toLowerCase().includes(searchLower)) {
@@ -102,29 +90,16 @@ if (!searchTerm) {
 
   alevelMatches.forEach(entry => {
     const [level, topic] = entry.split("||");
-    const li = document.createElement("li");
-
-    const a = document.createElement("a");
-    a.href = `practice2.html?source=alevel&topic=${encodeURIComponent(topic)}&year=${encodeURIComponent(level)}`;
-    a.textContent = `A Level – ${level} – ${topic}`;
-    a.style.textDecoration = "none";
-    a.style.color = "#007acc";
-
-    const preview = document.createElement("span");
-    preview.className = "preview-cell";
-    preview.innerHTML = `
-      <span class="preview-icon">👁️</span>
-      <div class="tooltip">
-        ${getExampleQuestion("alevel", topic, level)}
-      </div>
-    `;
-
-    li.appendChild(a);
-    li.appendChild(preview);
-    resultsList.appendChild(li);
+    results.push({
+      group: "A Level",
+      level,
+      topic,
+      source: "alevel",
+      url: `practice2.html?source=alevel&topic=${encodeURIComponent(topic)}&year=${encodeURIComponent(level)}`
+    });
   });
 
-  // ------------------ A Level Further ------------------
+  // A Level Further
   const alevelFurtherMatches = new Set();
   alevelfurther.forEach(q => {
     if (q.topic.toLowerCase().includes(searchLower)) {
@@ -134,36 +109,64 @@ if (!searchTerm) {
 
   alevelFurtherMatches.forEach(entry => {
     const [level, topic] = entry.split("||");
-    const li = document.createElement("li");
-
-    const a = document.createElement("a");
-    a.href = `practice2.html?source=alevelfurther&topic=${encodeURIComponent(topic)}&year=${encodeURIComponent(level)}`;
-    a.textContent = `A Level Further – ${level} – ${topic}`;
-    a.style.textDecoration = "none";
-    a.style.color = "#007acc";
-
-    const preview = document.createElement("span");
-    preview.className = "preview-cell";
-    preview.innerHTML = `
-      <span class="preview-icon">👁️</span>
-      <div class="tooltip">
-        ${getExampleQuestion("alevelfurther", topic, level)}
-      </div>
-    `;
-
-    li.appendChild(a);
-    li.appendChild(preview);
-    resultsList.appendChild(li);
+    results.push({
+      group: "A Level Further",
+      level,
+      topic,
+      source: "alevelfurther",
+      url: `practice2.html?source=alevelfurther&topic=${encodeURIComponent(topic)}&year=${encodeURIComponent(level)}`
+    });
   });
 
-  // ------------------ No results ------------------
-  if (resultsList.children.length === 0) {
+  // SORT
+  results.sort((a, b) => {
+    const groupDiff = groupOrder[a.group] - groupOrder[b.group];
+    if (groupDiff !== 0) return groupDiff;
+
+    if (a.level && b.level) {
+      const levelDiff = (levelOrder[a.level] || 99) - (levelOrder[b.level] || 99);
+      if (levelDiff !== 0) return levelDiff;
+    }
+
+    return a.topic.localeCompare(b.topic);
+  });
+
+  // RENDER
+  if (results.length === 0) {
     const li = document.createElement("li");
     li.textContent = "No matching topics found.";
     resultsList.appendChild(li);
+  } else {
+
+    results.forEach(result => {
+
+      const li = document.createElement("li");
+      li.classList.add(result.group.toLowerCase().replace(/\s+/g, "-"));
+
+      const a = document.createElement("a");
+      a.href = result.url;
+
+      if (result.level) {
+        a.textContent = `${result.group} – ${result.level} – ${result.topic}`;
+      } else {
+        a.textContent = `${result.group} – ${result.topic}`;
+      }
+
+      const preview = document.createElement("span");
+      preview.className = "preview-cell";
+      preview.innerHTML = `
+        <span class="preview-icon">👁️</span>
+        <div class="tooltip">
+          ${getExampleQuestion(result.source, result.topic, result.level)}
+        </div>
+      `;
+
+      li.appendChild(a);
+      li.appendChild(preview);
+      resultsList.appendChild(li);
+    });
   }
 
-  // ✅ MathJax fix (same as revision.html)
   if (window.MathJax) {
     MathJax.typesetPromise();
   }

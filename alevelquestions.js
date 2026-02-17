@@ -1,4 +1,89 @@
 const alevelQuestions = [
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( a \\), of the minimum point on the curve \\( y = x^2 - 5x + a \\), where \\( a \\) is a constant.",
+  solution: "Complete the square:<br>\\( y = (x - \\frac{5}{2})^2 - \\frac{25}{4} + a \\).<br><br>Minimum point: \\( \\left( \\frac{5}{2},\\, a - \\frac{25}{4} \\right) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( k \\), of the minimum point on the curve \\( y = x^2 + 6x + k \\).",
+  solution: "Complete the square:<br>\\( y = (x + 3)^2 - 9 + k \\).<br><br>Minimum point: \\( (-3,\\, k - 9) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( c \\), of the minimum point on the curve \\( y = x^2 - 8x + c \\).",
+  solution: "Complete the square:<br>\\( y = (x - 4)^2 - 16 + c \\).<br><br>Minimum point: \\( (4,\\, c - 16) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( p \\), of the minimum point on the curve \\( y = x^2 + 4x + p \\).",
+  solution: "Complete the square:<br>\\( y = (x + 2)^2 - 4 + p \\).<br><br>Minimum point: \\( (-2,\\, p - 4) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( m \\), of the minimum point on the curve \\( y = x^2 - 3x + m \\).",
+  solution: "Complete the square:<br>\\( y = (x - \\frac{3}{2})^2 - \\frac{9}{4} + m \\).<br><br>Minimum point: \\( \\left( \\frac{3}{2},\\, m - \\frac{9}{4} \\right) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( a \\), of the minimum point on the curve \\( y = 2x^2 - 8x + a \\).",
+  solution: "Factor 2 and complete the square:<br>\\( y = 2(x^2 - 4x) + a \\)<br>\\( = 2[(x - 2)^2 - 4] + a \\)<br>\\( = 2(x - 2)^2 - 8 + a \\).<br><br>Minimum point: \\( (2,\\, a - 8) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( b \\), of the minimum point on the curve \\( y = 3x^2 + 12x + b \\).",
+  solution: "Factor 3:<br>\\( y = 3(x^2 + 4x) + b \\)<br>\\( = 3[(x + 2)^2 - 4] + b \\)<br>\\( = 3(x + 2)^2 - 12 + b \\).<br><br>Minimum point: \\( (-2,\\, b - 12) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( k \\), of the minimum point on the curve \\( y = 4x^2 - 16x + k \\).",
+  solution: "Factor 4:<br>\\( y = 4(x^2 - 4x) + k \\)<br>\\( = 4[(x - 2)^2 - 4] + k \\)<br>\\( = 4(x - 2)^2 - 16 + k \\).<br><br>Minimum point: \\( (2,\\, k - 16) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( c \\), of the minimum point on the curve \\( y = 5x^2 + 10x + c \\).",
+  solution: "Factor 5:<br>\\( y = 5(x^2 + 2x) + c \\)<br>\\( = 5[(x + 1)^2 - 1] + c \\)<br>\\( = 5(x + 1)^2 - 5 + c \\).<br><br>Minimum point: \\( (-1,\\, c - 5) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( a \\), of the minimum point on the curve \\( y = 6x^2 - 12x + a \\).",
+  solution: "Factor 6:<br>\\( y = 6(x^2 - 2x) + a \\)<br>\\( = 6[(x - 1)^2 - 1] + a \\)<br>\\( = 6(x - 1)^2 - 6 + a \\).<br><br>Minimum point: \\( (1,\\, a - 6) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( m \\), of the minimum point on the curve \\( y = 2x^2 + 4x + m \\).",
+  solution: "Factor 2:<br>\\( y = 2(x^2 + 2x) + m \\)<br>\\( = 2[(x + 1)^2 - 1] + m \\)<br>\\( = 2(x + 1)^2 - 2 + m \\).<br><br>Minimum point: \\( (-1,\\, m - 2) \\)."
+},
+
+{
+  topic: "CTS - Algebraic Coefficient - Min. Point",
+  level: "Year 12",
+  question: "Find the coordinates, in terms of \\( p \\), of the minimum point on the curve \\( y = 3x^2 - 9x + p \\).",
+  solution: "Factor 3:<br>\\( y = 3(x^2 - 3x) + p \\)<br>\\( = 3\\left[(x - \\frac{3}{2})^2 - \\frac{9}{4}\\right] + p \\)<br>\\( = 3(x - \\frac{3}{2})^2 - \\frac{27}{4} + p \\).<br><br>Minimum point: \\( \\left( \\frac{3}{2},\\, p - \\frac{27}{4} \\right) \\)."
+},
+  
 {
   topic: "Trig Values - Corresponding Expressions",
   level: "Year 12",

@@ -1,4 +1,90 @@
 const alevelQuestions = [
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( g(x) = (x+2)(x-1)^2 \\).<br><br>By sketching a graph, solve \\( g(x) < 0 \\).",
+  solution: "Roots at \\( x=-2 \\) and \\( x=1 \\) (double root).<br>The sign is determined by \\( (x+2) \\).<br><br>Solution: \\( \\{ x : x < -2 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( f(x) = (x-3)(x+1) \\).<br><br>By sketching a graph, solve \\( f(x) > 0 \\).",
+  solution: "Roots at \\( x=-1 \\) and \\( x=3 \\).<br>Upward-opening quadratic, positive outside the roots.<br><br>Solution: \\( \\{ x : x < -1 \\} \\cup \\{ x : x > 3 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( h(x) = x(x-4)(x+2) \\).<br><br>By sketching a graph, solve \\( h(x) \\ge 0 \\).",
+  solution: "Roots at \\( x=-2, 0, 4 \\).<br>Positive on \\( [-2,0] \\) and \\( [4,\\infty) \\).<br><br>Solution: \\( \\{ x : -2 \\le x \\le 0 \\} \\cup \\{ x : x \\ge 4 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( f(x) = (x-1)^2(x+3) \\).<br><br>By sketching a graph, solve \\( f(x) > 0 \\).",
+  solution: "Roots at \\( x=-3 \\) and \\( x=1 \\) (double root).<br>Positive when \\( x>-3 \\), excluding \\( x=1 \\).<br><br>Solution: \\( \\{ x : -3 < x < 1 \\} \\cup \\{ x : x > 1 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( g(x) = (x+4)(x-2)^2 \\).<br><br>By sketching a graph, solve \\( g(x) \\le 0 \\).",
+  solution: "Roots at \\( x=-4 \\) and \\( x=2 \\) (double root).<br>Negative for \\( x<-4 \\), and zero at the roots.<br><br>Solution: \\( \\{ x : x \\le -4 \\} \\cup \\{ x : x = 2 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( f(x) = (x-5)(x+2)(x-1) \\).<br><br>By sketching a graph, solve \\( f(x) < 0 \\).",
+  solution: "Roots at \\( x=-2,1,5 \\).<br>Negative for \\( x < -2 \\) and \\( 1 < x < 5 \\).<br><br>Solution: \\( \\{ x : x < -2 \\} \\cup \\{ x : 1 < x < 5 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( h(x) = (x+1)^2(x-3) \\).<br><br>By sketching a graph, solve \\( h(x) \\ge 0 \\).",
+  solution: "Roots at \\( x=-1 \\) (double root) and \\( x=3 \\).<br>Non-negative at \\( x=-1 \\) and for \\( x \\ge 3 \\).<br><br>Solution: \\( \\{ x : x = -1 \\} \\cup \\{ x : x \\ge 3 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( f(x) = (x-2)(x+3) \\).<br><br>By sketching a graph, solve \\( f(x) \\le 0 \\).",
+  solution: "Roots at \\( x=-3 \\) and \\( x=2 \\).<br>Negative between the roots.<br><br>Solution: \\( \\{ x : -3 \\le x \\le 2 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( g(x) = x^2(x-4) \\).<br><br>By sketching a graph, solve \\( g(x) > 0 \\).",
+  solution: "Roots at \\( x=0 \\) (double root) and \\( x=4 \\).<br>Positive when \\( x>4 \\).<br><br>Solution: \\( \\{ x : x > 4 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( h(x) = (x+5)(x-1)^2 \\).<br><br>By sketching a graph, solve \\( h(x) < 0 \\).",
+  solution: "Roots at \\( x=-5 \\) and \\( x=1 \\) (double root).<br>Negative when \\( x<-5 \\).<br><br>Solution: \\( \\{ x : x < -5 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( f(x) = (x-4)(x+1)(x+3) \\).<br><br>By sketching a graph, solve \\( f(x) \\ge 0 \\).",
+  solution: "Roots at \\( x=-3,-1,4 \\).<br>Positive on \\( [-3,-1] \\) and \\( [4,\\infty) \\).<br><br>Solution: \\( \\{ x : -3 \\le x \\le -1 \\} \\cup \\{ x : x \\ge 4 \\} \\)."
+},
+
+{
+  topic: "Graph Sketching - Inequalities",
+  level: "Year 12",
+  question: "Let \\( g(x) = (x-2)^2(x+1) \\).<br><br>By sketching a graph, solve \\( g(x) \\le 0 \\).",
+  solution: "Roots at \\( x=-1 \\) and \\( x=2 \\) (double root).<br>Negative for \\( x<-1 \\), and zero at the roots.<br><br>Solution: \\( \\{ x : x \\le -1 \\} \\cup \\{ x : x = 2 \\} \\)."
+},
+
+  
 // {
 //   topic: "Integration - with Graph Sketching First",
 //   level: "Year 12",

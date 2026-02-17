@@ -1,5 +1,80 @@
 const alevelQuestions = [
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\sin \\theta = \\frac{4}{5} \\) and \\( 90^\\circ < \\theta < 180^\\circ \\).<br><br>Find the exact value of \\( \\cos \\theta \\).",
+  solution: "\\( \\cos^2\\theta = 1 - \\left(\\frac{4}{5}\\right)^2 = \\frac{9}{25} \\).<br>\\( \\cos\\theta = -\\frac{3}{5} \\)"
+},
 
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\cos \\theta = -\\frac{3}{5} \\) and \\( 180^\\circ < \\theta < 270^\\circ \\).<br><br>Find the exact value of \\( \\tan \\theta \\).",
+  solution: "\\( \\sin\\theta = -\\frac{4}{5} \\)<br>\\( \\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{-4/5}{-3/5} = \\frac{4}{3} \\)."
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\sin \\theta = -\\frac{7}{25} \\) and \\( 270^\\circ < \\theta < 360^\\circ \\).<br><br>Find the exact value of \\( \\cos \\theta \\).",
+  solution: "\\( \\cos^2\\theta = 1 - \\left(\\frac{7}{25}\\right)^2 = \\frac{576}{625} \\).<br>\\( \\cos\\theta = \\frac{24}{25} \\)"
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\cos \\theta = \\frac{12}{13} \\) and \\( 0^\\circ < \\theta < 90^\\circ \\).<br><br>Find the exact value of \\( \\sin \\theta \\).",
+  solution: "\\( \\sin^2\\theta = 1 - \\left(\\frac{12}{13}\\right)^2 = \\frac{25}{169} \\).<br>\\( \\sin\\theta = \\frac{5}{13} \\)."
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\tan \\theta = \\frac{8}{15} \\) and \\( 180^\\circ < \\theta < 270^\\circ \\).<br><br>Find the exact value of \\( \\sin \\theta \\).",
+  solution: "\\( \\sin\\theta \\) will be negative.<br>Using a triangle with sides 8, 15, 17:<br>\\( \\sin\\theta = -\\frac{8}{17} \\)."
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\sin \\theta = \\frac{5}{13} \\) and \\( 0^\\circ < \\theta < 90^\\circ \\).<br><br>Find the exact value of \\( \\tan \\theta \\).",
+  solution: "\\( \\cos\\theta = \\frac{12}{13} \\).<br>\\( \\tan\\theta = \\frac{5/13}{12/13} = \\frac{5}{12} \\)."
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\cos \\theta = -\\frac{5}{13} \\) and \\( 90^\\circ < \\theta < 180^\\circ \\).<br><br>Find the exact value of \\( \\sin \\theta \\).",
+  solution: "\\( \\sin^2\\theta = 1 - \\left(\\frac{5}{13}\\right)^2 = \\frac{144}{169} \\).<br>\\( \\sin\\theta = \\frac{12}{13} \\)"
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\tan \\theta = -\\frac{3}{4} \\) and \\( 90^\\circ < \\theta < 180^\\circ \\).<br><br>Find the exact value of \\( \\cos \\theta \\).",
+  solution: "\\( \\cos\\theta \\) will be negative.<br>Using a triangle with sides 3, 4, 5:<br>\\( \\cos\\theta = -\\frac{4}{5} \\)."
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\sin \\theta = -\\frac{9}{41} \\) and \\( 180^\\circ < \\theta < 270^\\circ \\).<br><br>Find the exact value of \\( \\tan \\theta \\).",
+  solution: "\\( \\cos\\theta = -\\frac{40}{41} \\).<br>\\( \\tan\\theta = \\frac{-9/41}{-40/41} = \\frac{9}{40} \\)."
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\cos \\theta = \\frac{7}{25} \\) and \\( 270^\\circ < \\theta < 360^\\circ \\).<br>Find the exact value of \\( \\tan \\theta \\).",
+  solution: "\\( \\sin\\theta = -\\frac{24}{25} \\).<br>\\( \\tan\\theta = \\frac{-24/25}{7/25} = -\\frac{24}{7} \\)."
+},
+
+{
+  topic: "Trig Values - Corresponding Expressions",
+  level: "Year 12",
+  question: "Given that \\( \\tan \\theta = \\frac{12}{5} \\) and \\( 0^\\circ < \\theta < 90^\\circ \\).<br><br>Find the exact value of \\( \\cos \\theta \\).",
+  solution: "Using a triangle with sides 12, 5, 13:<br>\\( \\cos\\theta = \\frac{5}{13} \\)."
+},
 {
   topic: "Graph Sketching - Inequalities",
   level: "Year 12",

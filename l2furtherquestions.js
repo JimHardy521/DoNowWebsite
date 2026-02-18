@@ -1,5 +1,77 @@
 const l2FurtherQuestions = [
 {
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{2x^3-3x^2}{4x^2-9} \\)",
+  solution: "Factorise:<br>\\( 2x^3-3x^2=x^2(2x-3) \\)<br>\\( 4x^2-9=(2x-3)(2x+3) \\)<br>Cancel \\((2x-3)\\).<br>Answer: \\( \\frac{x^2}{2x+3} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{3a^3-4a^2}{9a^2-16} \\)",
+  solution: "Factorise:<br>\\( 3a^3-4a^2=a^2(3a-4) \\)<br>\\( 9a^2-16=(3a-4)(3a+4) \\)<br>Cancel \\((3a-4)\\).<br>Answer: \\( \\frac{a^2}{3a+4} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{4m^3-5m^2}{16m^2-25} \\)",
+  solution: "Factorise:<br>\\( 4m^3-5m^2=m^2(4m-5) \\)<br>\\( 16m^2-25=(4m-5)(4m+5) \\)<br>Cancel \\((4m-5)\\).<br>Answer: \\( \\frac{m^2}{4m+5} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{5p^3+6p^2}{25p^2-36} \\)",
+  solution: "Factorise:<br>\\( 5p^3+6p^2=p^2(5p+6) \\)<br>\\( 25p^2-36=(5p-6)(5p+6) \\)<br>Cancel \\((5p+6)\\).<br>Answer: \\( \\frac{p^2}{5p-6} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{6r^3-7r^2}{36r^2-49} \\)",
+  solution: "Factorise:<br>\\( 6r^3-7r^2=r^2(6r-7) \\)<br>\\( 36r^2-49=(6r-7)(6r+7) \\)<br>Cancel \\((6r-7)\\).<br>Answer: \\( \\frac{r^2}{6r+7} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{2y^3+5y^2}{4y^2-25} \\)",
+  solution: "Factorise:<br>\\( 2y^3+5y^2=y^2(2y+5) \\)<br>\\( 4y^2-25=(2y-5)(2y+5) \\)<br>Cancel \\((2y+5)\\).<br>Answer: \\( \\frac{y^2}{2y-5} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{3k^3-2k^2}{9k^2-4} \\)",
+  solution: "Factorise:<br>\\( 3k^3-2k^2=k^2(3k-2) \\)<br>\\( 9k^2-4=(3k-2)(3k+2) \\)<br>Cancel \\((3k-2)\\).<br>Answer: \\( \\frac{k^2}{3k+2} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{4c^3+3c^2}{16c^2-9} \\)",
+  solution: "Factorise:<br>\\( 4c^3+3c^2=c^2(4c+3) \\)<br>\\( 16c^2-9=(4c-3)(4c+3) \\)<br>Cancel \\((4c+3)\\).<br>Answer: \\( \\frac{c^2}{4c-3} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{5t^3-4t^2}{25t^2-16} \\)",
+  solution: "Factorise:<br>\\( 5t^3-4t^2=t^2(5t-4) \\)<br>\\( 25t^2-16=(5t-4)(5t+4) \\)<br>Cancel \\((5t-4)\\).<br>Answer: \\( \\frac{t^2}{5t+4} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{6b^3+5b^2}{36b^2-25} \\)",
+  solution: "Factorise:<br>\\( 6b^3+5b^2=b^2(6b+5) \\)<br>\\( 36b^2-25=(6b-5)(6b+5) \\)<br>Cancel \\((6b+5)\\).<br>Answer: \\( \\frac{b^2}{6b-5} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{2q^3-7q^2}{4q^2-49} \\)",
+  solution: "Factorise:<br>\\( 2q^3-7q^2=q^2(2q-7) \\)<br>\\( 4q^2-49=(2q-7)(2q+7) \\)<br>Cancel \\((2q-7)\\).<br>Answer: \\( \\frac{q^2}{2q+7} \\)"
+},
+
+{
+  topic: "Algebra - Simplifying Expressions",
+  question: "Simplify fully:<br><br>\\( \\frac{3x^3+8x^2}{9x^2-64} \\)",
+  solution: "Factorise:<br>\\( 3x^3+8x^2=x^2(3x+8) \\)<br>\\( 9x^2-64=(3x-8)(3x+8) \\)<br>Cancel \\((3x+8)\\).<br>Answer: \\( \\frac{x^2}{3x-8} \\)"
+},
+  
+{
   topic: "Equations of Lines - Problems",
   question: "The point \\((-6,-4)\\) lies on a straight line with gradient \\( \\frac{3}{2} \\).<br>Find the coordinate where the line crosses the x-axis.",
   solution: "Using point–slope form:<br>\\( y+4=\\frac{3}{2}(x+6) \\)<br>Set \\( y=0 \\): \\( 4=\\frac{3}{2}(x+6) \\Rightarrow x=-\\frac{10}{3} \\)<br>Coordinate: \\( \\left(-\\frac{10}{3},0\\right) \\)"

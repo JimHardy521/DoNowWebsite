@@ -1,4 +1,80 @@
 const l2FurtherQuestions = [
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( k^2 y^4 = k^{10} \\), write \\( y \\) in terms of \\( k \\).",
+  solution: "Divide: \\( y^4 = k^8 \\)<br>Fourth root: \\( y = k^2 \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( w^3 x^2 y^5 = w^{13} x^7 \\), write \\( y \\) in terms of \\( x \\).",
+  solution: "Divide both sides by \\( w^3 x^2 \\):<br>\\( y^5 = w^{10} x^5 \\)<br>Take the fifth root: \\( y = w^2 x \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( a^2 b^3 y^4 = a^{10} b^7 \\), write \\( y \\) in terms of \\( a \\) and \\( b \\).",
+  solution: "Divide both sides by \\( a^2 b^3 \\):<br>\\( y^4 = a^8 b^4 \\)<br>Fourth root: \\( y = a^2 b \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( p^5 q^2 y^6 = p^{17} q^8 \\), write \\( y \\) in terms of \\( p \\) and \\( q \\).",
+  solution: "Divide: \\( y^6 = p^{12} q^6 \\)<br>Sixth root: \\( y = p^2 q \\)"
+},
+
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( x^6 y^9 = x^{21} \\), write \\( y \\) in terms of \\( x \\).",
+  solution: "Divide: \\( y^9 = x^{15} \\)<br>Ninth root: \\( y = x^{5/3} \\)"
+},
+
+
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( r^3 s^2 y^5 = r^{18} s^7 \\), write \\( y \\) in terms of \\( r \\) and \\( s \\).",
+  solution: "Divide: \\( y^5 = r^{15} s^5 \\)<br>Fifth root: \\( y = r^3 s \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( a^7 y^6 = a^{19} \\), write \\( y \\) in terms of \\( a \\).",
+  solution: "Divide: \\( y^6 = a^{12} \\)<br>Sixth root: \\( y = a^2 \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( b^4 c^3 y^{12} = b^{16} c^9 \\), write \\( y \\) in terms of \\( b \\) and \\( c \\).",
+  solution: "Divide: \\( y^{12} = b^{12} c^6 \\)<br>Twelfth root: \\( y = b c^{1/2} \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( p^5 y^{15} = p^{35} \\), write \\( y \\) in terms of \\( p \\).",
+  solution: "Divide: \\( y^{15} = p^{30} \\)<br>Fifteenth root: \\( y = p^2 \\)"
+},
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( m^6 n^4 y^2 = m^{18} n^8 \\), write \\( y \\) in terms of \\( m \\) and \\( n \\).",
+  solution: "Divide: \\( y^2 = m^{12} n^4 \\)<br>Square root: \\( y = m^6 n^2 \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( a^4 b^6 y^8 = a^{12} b^{14} \\), write \\( y \\) in terms of \\( a \\) and \\( b \\).",
+  solution: "Divide both sides by \\( a^4 b^6 \\):<br>\\( y^8 = a^8 b^8 \\)<br>Eighth root: \\( y = a b \\)"
+},
+
+{
+  topic: "Algebra - Solving for a Variable with Indices",
+  question: "Given \\( p^3 q^2 y^9 = p^{12} q^{8} \\), write \\( y \\) in terms of \\( p \\) and \\( q \\).",
+  solution: "Divide both sides by \\( p^3 q^2 \\):<br>\\( y^9 = p^9 q^6 \\)<br>Ninth root: \\( y = p q^{2/3} \\)"
+},
+  
+  
 {
   topic: "Algebra - Simplifying Expressions",
   question: "Simplify fully:<br><br>\\( \\frac{2x^3-3x^2}{4x^2-9} \\)",

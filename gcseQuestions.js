@@ -1,4 +1,76 @@
 const gcseQuestions = [
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(3 \\quad 20 \\quad 47 \\quad 84\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(5n^2 + 2n - 4\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(2 \\quad 9 \\quad 20 \\quad 35\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(2n^2 + n - 1\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(5 \\quad 14 \\quad 29 \\quad 50\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(3n^2 - 2n + 4\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(1 \\quad 6 \\quad 15 \\quad 28\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(2n^2 - n\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(4 \\quad 15 \\quad 32 \\quad 55\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(3n^2 + 2n - 1\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(-1 \\quad 2 \\quad 9 \\quad 20\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(2n^2 - 3n\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(7 \\quad 18 \\quad 33 \\quad 52\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(2n^2 + 5n\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(6 \\quad 13 \\quad 24 \\quad 39\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(2n^2 + n + 3\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(0 \\quad 5 \\quad 14 \\quad 27\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(2n^2 - n - 1\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(3 \\quad 11 \\quad 25 \\quad 45\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(3n^2 - n + 1\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(8 \\quad 21 \\quad 40 \\quad 65\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(3n^2 + 4n + 1\\)"
+},
+{
+  topic: "Sequences - Quadratic",
+  level: "Higher",
+  question: "Here are the first four terms of a quadratic sequence:<br><br>\\(2 \\quad 12 \\quad 30 \\quad 56\\)<br><br>Work out an expression for the \\(n\\)th term of the sequence.",
+  solution: "\\(4n^2 - 2n\\)"
+},
 
   
 {

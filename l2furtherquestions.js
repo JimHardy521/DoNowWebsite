@@ -1,5 +1,81 @@
 const l2FurtherQuestions = [
 {
+  topic: "Equations of Lines - Problems",
+  question: "The point \\((-6,-4)\\) lies on a straight line with gradient \\( \\frac{3}{2} \\).<br>Find the coordinate where the line crosses the x-axis.",
+  solution: "Using point–slope form:<br>\\( y+4=\\frac{3}{2}(x+6) \\)<br>Set \\( y=0 \\): \\( 4=\\frac{3}{2}(x+6) \\Rightarrow x=-\\frac{10}{3} \\)<br>Coordinate: \\( \\left(-\\frac{10}{3},0\\right) \\)"
+},
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "The point \\((10,-2)\\) lies on a straight line with gradient \\( \\frac{3}{5} \\).<br>Find the area of the triangle formed by the line and the coordinate axes.",
+  solution: "Equation: \\( y+2=\\frac{3}{5}(x-10) \\Rightarrow y=\\frac{3}{5}x-8 \\)<br>x-int: \\( \\frac{40}{3} \\), y-int: \\(-8\\)<br>Area \\(=\\frac{1}{2}\\times\\frac{40}{3}\\times 8=\\frac{160}{3} \\)"
+},
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "The point \\((-6,-7)\\) lies on a line parallel to \\(5x+3y=10\\).<br>Find the coordinate where the line crosses the y-axis.",
+  solution: "Given line has gradient \\(-\\frac{5}{3}\\).<br>\\( y+7=-\\frac{5}{3}(x+6) \\Rightarrow y=-\\frac{5}{3}x-17 \\)<br>At \\( x=0 \\): \\((0,-17)\\)"
+},
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "The point \\((4,2)\\) lies on a line \\(L\\) perpendicular to \\(2x+6y=10\\).<br>Find the area of the triangle bounded by the line and the coordinate axes.",
+  solution: "Given gradient \\(-\\frac{1}{3}\\) so perpendicular gradient \\(3\\).<br>\\( y-2=3(x-4) \\Rightarrow y=3x-10 \\)<br>x-int \\( \\frac{10}{3} \\), y-int \\(-10\\)<br>Area \\(=\\frac{50}{3} \\)"
+},
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "Find the equation of the line through \\((-3,4)\\) perpendicular to \\(y=2x-5\\).<br>Hence find its x-intercept.",
+  solution: "Perpendicular gradient \\(-\\frac{1}{2}\\).<br>\\( y-4=-\\frac{1}{2}(x+3) \\Rightarrow y=-\\frac{1}{2}x+\\frac{5}{2} \\)<br>Set \\( y=0 \\Rightarrow x=5 \\)"
+},
+
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "Find the coordinates of the intersection of \\(y=2x+1\\) and \\(3x+y=10\\).",
+  solution: "Substitute: \\( 3x+2x+1=10 \\).<br>\\( 5x=9 \\Rightarrow x=\\frac{9}{5} \\).<br>\\( y=2\\times\\frac{9}{5}+1=\\frac{23}{5} \\)"
+},
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "A line passes through \\((1,2)\\) and is parallel to \\(4x-5y=7\\).<br>Find the area of the triangle formed with the coordinate axes.",
+  solution: "Given gradient \\( \\frac{4}{5} \\).<br>\\( y-2=\\frac{4}{5}(x-1) \\Rightarrow y=\\frac{4}{5}x+\\frac{6}{5} \\)<br>x-int \\(-\\frac{3}{2}\\), y-int \\(\\frac{6}{5}\\)<br>Area \\(=\\frac{9}{10} \\)"
+},
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "The line through \\((-2,5)\\) and \\((4,-1)\\) meets the x-axis at \\(A\\).<br>Find the length of \\(OA\\).",
+  solution: "Gradient \\(-1\\).<br>\\( y-5=-1(x+2) \\Rightarrow y=-x+3 \\)<br>x-int \\(3\\).<br>Hence \\( OA=3 \\)"
+},
+
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "A line passes through \\((3,-2)\\) and is perpendicular to \\(y=-\\frac{1}{4}x+6\\).<br>Find the coordinate where it crosses the x-axis.",
+  solution: "Perpendicular gradient \\(4\\).<br>\\( y+2=4(x-3) \\Rightarrow y=4x-14 \\)<br>Set \\( y=0 \\Rightarrow x=\\frac{14}{4}=\\frac{7}{2} \\)"
+},
+
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "A line with gradient \\(-2\\) passes through \\((5,4)\\).<br>Find the area of the triangle formed with the coordinate axes.",
+  solution: "\\( y-4=-2(x-5) \\Rightarrow y=-2x+14 \\)<br>x-int \\(7\\), y-int \\(14\\)<br>Area \\(=\\frac{1}{2}\\times 7\\times 14=49 \\)"
+},
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "The lines \\(y=3x-2\\) and \\(y=-x+6\\) intersect at point \\(P\\).<br>Find the area of triangle \\(OPX\\), where \\(O\\) is the origin and \\(X\\) is the x-intercept of \\(y=3x-2\\).",
+  solution: "Intersection: \\( 3x-2=-x+6 \\Rightarrow x=2, y=4 \\).<br>x-int of \\( y=3x-2 \\) is \\( \\frac{2}{3} \\).<br>Area \\(=\\frac{1}{2}\\times \\frac{2}{3} \\times 4=\\frac{4}{3} \\)"
+},
+
+
+{
+  topic: "Equations of Lines - Problems",
+  question: "A line passes through \\((1,3)\\) and is parallel to \\(2x+3y=12\\).<br>Find the coordinate where the line crosses the x-axis.",
+  solution: "Given gradient \\(-\\frac{2}{3}\\).<br>\\( y-3=-\\frac{2}{3}(x-1) \\Rightarrow y=-\\frac{2}{3}x+\\frac{11}{3} \\)<br>Set \\( y=0 \\Rightarrow x=\\frac{11}{2} \\)"
+},
+  
+{
   topic: "Simultaneous Equations - Curve and Line - Forming Quadratic",
   question: "The equation of a circle is \\((x - 2)^2 + (y + 3)^2 = 16\\).<br>The equation of a line is \\(y = 4 - x\\).<br>Show that the x-coordinates of intersection satisfy \\(2x^2 - 18x + 37 = 0\\).",
   solution: "Substitute \\(y = 4 - x\\):<br>\\((x - 2)^2 + (7 - x)^2 = 16\\).<br>Simplifying gives \\(2x^2 - 18x + 37 = 0\\)."

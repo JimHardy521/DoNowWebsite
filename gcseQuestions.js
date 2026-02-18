@@ -8615,7 +8615,7 @@ const gcseQuestions = [
 {
   topic: "Indices - Estimating",
   level: "Higher",
-  question: "Estimate the following:<br>\\( 7.92^{\\tfrac32} \\div 16.4^{-\\tfrac12} + 2.98^{0} \\)",
+  question: "Estimate the following:<br>\\( 8.92^{\\tfrac32} \\div 16.4^{-\\tfrac12} + 2.98^{0} \\)",
   solution: "Round to \\(9, 16, 3\\). Then \\(27 \\div \\tfrac14 + 1 = 109\\)."
 },
 {

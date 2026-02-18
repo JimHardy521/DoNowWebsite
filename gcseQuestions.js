@@ -1,4 +1,78 @@
 const gcseQuestions = [
+
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Write down the solution of<br>\\( x^2 < 16 \\)",
+  solution: "\\( -4 < x < 4 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Write down the solution of<br>\\( m^2 > 9 \\).<br><br> Give your answer as an inequality.",
+  solution: "\\( m < -3 \\)  or  \\( m > 3 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve: \\( x^2 + 4x - 12 < 0 \\).<br><br> Give your answer as an inequality.",
+  solution: "Factorise:<br>\\( (x + 6)(x - 2) < 0 \\)<br><br>\\( -6 < x < 2 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( 4x^2 - 25 < 0 \\)",
+  solution: "\\( (2x - 5)(2x + 5) < 0 \\)<br><br>\\( -\\frac{5}{2} < x < \\frac{5}{2} \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( x^2 - 7x + 10 \\ge 0 \\)",
+  solution: "Factorise:<br>\\( (x - 5)(x - 2) \\ge 0 \\)<br><br>\\( x \\le 2 \\)  or  \\( x \\ge 5 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( 2x^2 + 7x + 3 < 0 \\)",
+  solution: "Factorise:<br>\\( (2x + 1)(x + 3) < 0 \\)<br><br>\\( -3 < x < -\\frac{1}{2} \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( x^2 - 9 \\ge 0 \\)",
+  solution: "\\( (x - 3)(x + 3) \\ge 0 \\)<br><br>\\( x \\le -3 \\)  or  \\( x \\ge 3 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( x^2 - 2x - 15 > 0 \\)",
+  solution: "Factorise:<br>\\( (x - 5)(x + 3) > 0 \\)<br><br>\\( x < -3 \\)  or  \\( x > 5 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( 3x^2 - 12x < 0 \\)",
+  solution: "Factorise:<br>\\( 3x(x - 4) < 0 \\)<br><br>\\( 0 < x < 4 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( x^2 + x - 20 \\le 0 \\)",
+  solution: "Factorise:<br>\\( (x + 5)(x - 4) \\le 0 \\)<br><br>\\( -5 \\le x \\le 4 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( 5x^2 - 20 > 0 \\)",
+  solution: "Factorise:<br>\\( 5(x - 2)(x + 2) > 0 \\)<br><br>\\( x < -2 \\)  or  \\( x > 2 \\)"
+},
+{
+  topic: "Quadratic Inequalities",
+  level: "Higher",
+  question: "Solve<br>\\( x^2 - 6x + 8 < 0 \\)",
+  solution: "Factorise:<br>\\( (x - 4)(x - 2) < 0 \\)<br><br>\\( 2 < x < 4 \\)"
+},  
+  
 {
   topic: "Sequences - Quadratic",
   level: "Higher",

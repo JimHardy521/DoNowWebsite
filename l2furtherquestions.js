@@ -1,5 +1,64 @@
 const l2FurtherQuestions = [
-
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((2x + a)(4x - 3) ≡ 8x^2 + 2x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(8x^2 + (4a - 6)x - 3a\\)<br>Match coefficients: \\(4a - 6 = 2\\)<br>\\(a = 2\\)<br>\\(b = -6\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((3x + a)(2x + 5) ≡ 6x^2 + 19x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(6x^2 + (15 + 2a)x + 5a\\)<br>Match coefficients: \\(15 + 2a = 19\\)<br>\\(a = 2\\)<br>\\(b = 10\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((5x - a)(x + 4) ≡ 5x^2 + 11x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(5x^2 + (20 - a)x - 4a\\)<br>Match coefficients: \\(20 - a = 11\\)<br>\\(a = 9\\)<br>\\(b = -36\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((4x + a)(3x - 2) ≡ 12x^2 + 10x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(12x^2 + (3a - 8)x - 2a\\)<br>Match coefficients: \\(3a - 8 = 10\\)<br>\\(a = 6\\)<br>\\(b = -12\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((6x + a)(x - 3) ≡ 6x^2 - 5x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(6x^2 + (a - 18)x - 3a\\)<br>Match coefficients: \\(a - 18 = -5\\)<br>\\(a = 13\\)<br>\\(b = -39\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((7x - a)(2x + 1) ≡ 14x^2 - 9x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(14x^2 + (7 - 2a)x - a\\)<br>Match coefficients: \\(7 - 2a = -9\\)<br>\\(a = 8\\)<br>\\(b = -8\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((3x + a)(4x + 5) ≡ 12x^2 + 23x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(12x^2 + (15 + 4a)x + 5a\\)<br>Match coefficients: \\(15 + 4a = 23\\)<br>\\(a = 2\\)<br>\\(b = 10\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((8x - a)(x - 2) ≡ 8x^2 - 20x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(8x^2 + (-16 - a)x + 2a\\)<br>Match coefficients: \\(-16 - a = -20\\)<br>\\(a = 4\\)<br>\\(b = 8\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((5x + a)(3x - 1) ≡ 15x^2 + 7x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(15x^2 + (-5 + 3a)x - a\\)<br>Match coefficients: \\(-5 + 3a = 7\\)<br>\\(a = 4\\)<br>\\(b = -4\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((9x - a)(x + 2) ≡ 9x^2 + 13x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(9x^2 + (18 - a)x - 2a\\)<br>Match coefficients: \\(18 - a = 13\\)<br>\\(a = 5\\)<br>\\(b = -10\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((2x + a)(5x + 4) ≡ 10x^2 + 18x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(10x^2 + (8 + 5a)x + 4a\\)<br>Match coefficients: \\(8 + 5a = 18\\)<br>\\(a = 2\\)<br>\\(b = 8\\)"
+},
+{
+  topic: "Identities - Finding Coefficients",
+  question: "\\((4x - a)(2x - 3) ≡ 8x^2 - 22x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
+  solution: "Expanding gives \\(8x^2 + (-12 - 2a)x + 3a\\)<br>Match coefficients: \\(-12 - 2a = -22\\)<br>\\(a = 5\\)<br>\\(b = 15\\)"
+},
 {
   topic: "Algebra - Solving for a Variable with Indices",
   question: "Given \\( k^2 y^4 = k^{10} \\), write \\( y \\) in terms of \\( k \\).",

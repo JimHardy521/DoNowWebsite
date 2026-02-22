@@ -1,5 +1,152 @@
 const gcseQuestions = [
 
+  
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.00345 \\)<br>to 1 significant figure.",
+  solution: "\\( 0.003 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.928 \\)<br>to 2 significant figures.",
+  solution: "\\( 0.93 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.182 \\)<br>to 1 decimal place.",
+  solution: "\\( 0.2 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.0923 \\)<br>to 2 decimal places.",
+  solution: "\\( 0.09 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.7645 \\)<br>to 3 decimal places.",
+  solution: "\\( 0.765 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.0407 \\)<br>to 1 significant figure.",
+  solution: "\\( 0.04 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.00682 \\)<br>to 2 significant figures.",
+  solution: "\\( 0.0068 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.995 \\)<br>to 2 decimal places.",
+  solution: "\\( 1.00 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.1503 \\)<br>to 2 significant figures.",
+  solution: "\\( 0.15 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.0846 \\)<br>to 2 decimal places.",
+  solution: "\\( 0.08 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.00249 \\)<br>to 1 significant figure.",
+  solution: "\\( 0.002 \\)"
+},
+{
+  topic: "Rounding - Small Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 0.709 \\)<br>to 1 decimal place.",
+  solution: "\\( 0.7 \\)"
+},
+
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 18756 \\)<br>to the nearest thousand.",
+  solution: "\\( 19000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 2076 \\)<br>to 1 significant figure.",
+  solution: "\\( 2000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 249.12 \\)<br>to 2 significant figures.",
+  solution: "\\( 250 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 54382 \\)<br>to the nearest ten thousand.",
+  solution: "\\( 50000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 8764 \\)<br>to the nearest hundred.",
+  solution: "\\( 8800 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 39501 \\)<br>to 2 significant figures.",
+  solution: "\\( 40000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 62049 \\)<br>to the nearest thousand.",
+  solution: "\\( 62000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 7095 \\)<br>to 1 significant figure.",
+  solution: "\\( 7000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 458721 \\)<br>to the nearest ten thousand.",
+  solution: "\\( 460000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 91834 \\)<br>to 3 significant figures.",
+  solution: "\\( 91800 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 12049 \\)<br>to the nearest hundred.",
+  solution: "\\( 12000 \\)"
+},
+{
+  topic: "Rounding - Large Numbers",
+  level: "Foundation",
+  question: "Round<br>\\( 99949 \\)<br>to the nearest thousand.",
+  solution: "\\( 100000 \\)"
+},
+
 {
   topic: "Quadratic Inequalities",
   level: "Higher",

@@ -1,5 +1,162 @@
 const gcseQuestions = [
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a triangle are \\(2x\\), \\(3x\\) and \\(4x\\).<Br>Work out the size of the largest angle.",
+  solution: "Sum of angles in a triangle = \\(180^\\circ\\)<Br>\\(2x+3x+4x=180\\)<Br>\\(9x=180\\)<Br>\\(x=20\\)<Br>Largest angle = \\(4x = 80^\\circ\\)"
+},
 
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a quadrilateral are \\(x\\), \\(2x\\), \\(3x\\) and \\(4x\\).<Br>Work out the size of the largest angle.",
+  solution: "Sum = \\(360^\\circ\\)<Br>\\(x+2x+3x+4x=360\\)<Br>\\(10x=360\\)<Br>\\(x=36\\)<Br>Largest angle = \\(4x = 144^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a quadrilateral are \\(2x\\), \\(3x\\), \\(5x\\) and \\(8x\\).<Br>Work out the size of the smallest angle.",
+  solution: "\\(2x+3x+5x+8x=360\\)<Br>\\(18x=360\\)<Br>\\(x=20\\)<Br>Smallest angle = \\(2x = 40^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a pentagon are \\(x\\), \\(2x\\), \\(3x\\), \\(4x\\) and \\(5x\\).<Br>Work out the size of the smallest angle.",
+  solution: "Sum = \\(540^\\circ\\)<Br>\\(x+2x+3x+4x+5x=540\\)<Br>\\(15x=540\\)<Br>\\(x=36\\)<Br>Smallest angle = \\(x = 36^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a pentagon are \\(2x\\), \\(3x\\), \\(4x\\), \\(5x\\) and \\(6x\\).<Br>Work out the size of the largest angle.",
+  solution: "\\(2x+3x+4x+5x+6x=540\\)<Br>\\(20x=540\\)<Br>\\(x=27\\)<Br>Largest angle = \\(6x = 162^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a triangle are \\(2x+10\\), \\(3x+5\\) and \\(4x-15\\).<Br>Work out the size of the largest angle.",
+  solution: "Sum = \\(180^\\circ\\)<Br>\\((2x+10)+(3x+5)+(4x-15)=180\\)<Br>\\(9x=180\\)<Br>\\(x=20\\)<Br>Largest angle = \\(4x-15 = 65^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a triangle are \\(3x-5\\), \\(4x+10\\) and \\(5x-5\\).<Br>Work out the size of the smallest angle.",
+  solution: "\\((3x-5)+(4x+10)+(5x-5)=180\\)<Br>\\(12x=180\\)<Br>\\(x=15\\)<Br>Smallest angle = \\(3x-5 = 40^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a quadrilateral are \\(x+20\\), \\(2x-10\\), \\(3x+5\\) and \\(4x-15\\).<Br>Work out the size of the largest angle.",
+  solution: "\\(10x=360\\)<Br>\\(x=36\\)<Br>Largest angle = \\(4x-15 = 129^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a pentagon are \\(x+10\\), \\(2x+5\\), \\(3x-15\\), \\(4x\\) and \\(5x\\).<Br>Work out the size of the largest angle.",
+  solution: "\\(15x=540\\)<Br>\\(x=36\\)<Br>Largest angle = \\(5x = 180^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a pentagon are \\(2x-10\\), \\(3x+5\\), \\(4x\\), \\(5x-15\\) and \\(6x\\).<Br>Work out the size of the smallest angle.",
+  solution: "\\(20x-20=540\\)<Br>\\(20x=560\\)<Br>\\(x=28\\)<Br>Smallest angle = \\(2x-10 = 46^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a pentagon are \\(x+20\\), \\(2x-5\\), \\(3x+10\\), \\(4x-15\\) and \\(5x-10\\).<Br>Work out the size of the largest angle.",
+  solution: "\\(15x=540\\)<Br>\\(x=36\\)<Br>Largest angle = \\(5x-10 = 170^\\circ\\)"
+},
+
+{
+  topic: "Angles, Ratio, Polygons, Algebra",
+  level: "Crossover",
+  question: "The angles of a pentagon are \\(3x-15\\), \\(4x+5\\), \\(5x\\), \\(2x+10\\) and \\(6x-20\\).<Br>Work out the size of the smallest angle.",
+  solution: "\\(20x-20=540\\)<Br>\\(20x=560\\)<Br>\\(x=28\\)<Br>Smallest angle = \\(3x-15 = 69^\\circ\\)"
+},
+
+
+
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a triangle are in the ratio \\(2 : 3 : 4\\).<Br>Work out the size of the largest angle.",
+  solution: "Sum of angles in a triangle = \\(180^\\circ\\).<Br>Ratio total = \\(2+3+4=9\\).<Br>Each part = \\(180 \\div 9 = 20^\\circ\\).<Br>Largest angle = \\(4 \\times 20 = 80^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a triangle are in the ratio \\(3 : 5 : 7\\).<Br>Work out the size of the smallest angle.",
+  solution: "Sum of angles in a triangle = \\(180^\\circ\\).<Br>Ratio total = \\(3+5+7=15\\).<Br>Each part = \\(180 \\div 15 = 12^\\circ\\).<Br>Smallest angle = \\(3 \\times 12 = 36^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a triangle are in the ratio \\(4 : 5 : 6\\).<Br>Work out the size of the smallest angle.",
+  solution: "Sum of angles in a triangle = \\(180^\\circ\\).<Br>Ratio total = \\(4+5+6=15\\).<Br>Each part = \\(180 \\div 15 = 12^\\circ\\).<Br>Smallest angle = \\(4 \\times 12 = 48^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a quadrilateral are in the ratio \\(1 : 2 : 3 : 4\\).<Br>Work out the largest angle.",
+  solution: "Sum of angles in a quadrilateral = \\(360^\\circ\\).<Br>Ratio total = \\(1+2+3+4=10\\).<Br>Each part = \\(360 \\div 10 = 36^\\circ\\).<Br>Largest angle = \\(4 \\times 36 = 144^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a quadrilateral are in the ratio \\(2 : 3 : 5 : 8\\).<Br>Work out the smallest angle.",
+  solution: "Sum of angles in a quadrilateral = \\(360^\\circ\\).<Br>Ratio total = \\(2+3+5+8=18\\).<Br>Each part = \\(360 \\div 18 = 20^\\circ\\).<Br>Smallest angle = \\(2 \\times 20 = 40^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a quadrilateral are in the ratio \\(3 : 4 : 5 : 6\\).<Br>Work out the largest angle.",
+  solution: "Sum of angles in a quadrilateral = \\(360^\\circ\\).<Br>Ratio total = \\(3+4+5+6=18\\).<Br>Each part = \\(360 \\div 18 = 20^\\circ\\).<Br>Largest angle = \\(6 \\times 20 = 120^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a pentagon are in the ratio \\(1 : 2 : 3 : 4 : 5\\).<Br>Work out the smallest angle.",
+  solution: "Sum of angles in a pentagon = \\(540^\\circ\\).<Br>Ratio total = \\(1+2+3+4+5=15\\).<Br>Each part = \\(540 \\div 15 = 36^\\circ\\).<Br>Smallest angle = \\(1 \\times 36 = 36^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a pentagon are in the ratio \\(2 : 3 : 4 : 5 : 6\\).<Br>Work out the largest angle.",
+  solution: "Sum of angles in a pentagon = \\(540^\\circ\\).<Br>Ratio total = \\(2+3+4+5+6=20\\).<Br>Each part = \\(540 \\div 20 = 27^\\circ\\).<Br>Largest angle = \\(6 \\times 27 = 162^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a pentagon are in the ratio \\(3 : 3 : 4 : 5 : 5\\).<Br>Work out the smallest angle.",
+  solution: "Sum of angles in a pentagon = \\(540^\\circ\\).<Br>Ratio total = \\(3+3+4+5+5=20\\).<Br>Each part = \\(540 \\div 20 = 27^\\circ\\).<Br>Smallest angle = \\(3 \\times 27 = 81^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a pentagon are in the ratio \\(4 : 5 : 6 : 7 : 8\\).<Br>Work out the largest angle.",
+  solution: "Sum of angles in a pentagon = \\(540^\\circ\\).<Br>Ratio total = \\(4+5+6+7+8=30\\).<Br>Each part = \\(540 \\div 30 = 18^\\circ\\).<Br>Largest angle = \\(8 \\times 18 = 144^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a quadrilateral are in the ratio \\(4 : 5 : 7 : 8\\).<Br>Work out the smallest angle.",
+  solution: "Sum of angles in a quadrilateral = \\(360^\\circ\\).<Br>Ratio total = \\(4+5+7+8=24\\).<Br>Each part = \\(360 \\div 24 = 15^\\circ\\).<Br>Smallest angle = \\(4 \\times 15 = 60^\\circ\\)."
+},
+{
+  topic: "Angles, Ratio, Polygons",
+  level: "Crossover",
+  question: "The angles of a triangle are in the ratio \\(5 : 6 : 9\\).<Br>Work out the largest angle.",
+  solution: "Sum of angles in a triangle = \\(180^\\circ\\).<Br>Ratio total = \\(5+6+9=20\\).<Br>Each part = \\(180 \\div 20 = 9^\\circ\\).<Br>Largest angle = \\(9 \\times 9 = 81^\\circ\\)."
+},
   
 {
   topic: "Rounding - Small Numbers",

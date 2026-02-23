@@ -8538,7 +8538,7 @@ const gcseQuestions = [
   topic: "Percentages - Compound Interest & Depreciation",
   level: "Higher",
   question: "£2448 is invested in an account. After one year the value of the investment is £2496.96.<br><br>Assuming the same compound interest rate each year, how much will there be in the account after 4 years?",
-  solution: "The annual multiplier is \\(2496.96 \\div 2448 = 1.02\\). After 4 years: \\(2448 \\times 1.02^4 = £2650.43\\) (to the nearest penny)."
+  solution: "The annual multiplier is \\(2496.96 \\div 2448 = 1.02\\). After 4 years: \\(2448 \\times 1.02^4 = £2649.79\\) (to the nearest penny)."
 },
 {
   topic: "Percentages - Compound Interest & Depreciation",

@@ -248,7 +248,7 @@ function loadQuestions() {
   }
 
   // Pick 4 distinct topics
-  topics.sort(() => Math.random() - 0.5);
+   shuffle(topics);
   const chosenTopics = topics.slice(0, 4);
 
   chosenTopics.forEach((topic, i) => {

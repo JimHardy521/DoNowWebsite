@@ -1,5 +1,69 @@
 const alevelQuestions = [
 
+
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = (x + 2)(2x - 1)^2 \\) and when \\( x = 6 \\), \\( y = 900 \\).<br><br>Find \\( y \\) in terms of \\( x \\).",
+  solution: "\\( (x+2)(2x-1)^2 = 4x^3 + 4x^2 - 7x + 2 \\).<br><br>Integrate:<br>\\( y = x^4 + \\frac{4}{3}x^3 - \\frac{7}{2}x^2 + 2x + C \\).<br><br>Using \\( y(6)=900 \\) gives \\( C = -570 \\).<br><br>\\( y = x^4 + \\frac{4}{3}x^3 - \\frac{7}{2}x^2 + 2x - 570 \\)."
+},
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = 6x^2 - \\frac{5}{\\sqrt{x}} \\). The curve passes through \\( (4,90) \\).<br><br>Find the equation of the curve.",
+  solution: "Rewrite:\\( 6x^2 - 5x^{-1/2} \\).<br><br>Integrate:<br>\\( y = 2x^3 - 10x^{1/2} + C \\).<br><br>Using \\( y(4)=90 \\) gives \\( C = -18 \\).<br><br>\\( y = 2x^3 - 10\\sqrt{x} - 18 \\)."
+},
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = 2x^3 + \\frac{8}{x^2} \\). The curve has x-intercept \\( (2,0) \\).<br><br>Find the equation of the curve.",
+  solution: "Rewrite:\\( 2x^3 + 8x^{-2} \\).<br><br>Integrate:<br>\\( y = \\frac{x^4}{2} - 8x^{-1} + C \\).<br><br>Using \\( y(2)=0 \\) gives \\( C = -4 \\).<br><br>\\( y = \\frac{x^4}{2} - \\frac{8}{x} - 4 \\)."
+},
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "A curve cuts the x-axis at \\( (2,0) \\) and has \\( \\frac{dy}{dx} = \\frac{24}{x^3} \\).<br><br>Find the equation of the curve.",
+  solution: "Rewrite:\\( 24x^{-3} \\).<br><br>Integrate:<br>\\( y = -12x^{-2} + C \\).<br><br>Using \\( y(2)=0 \\) gives \\( C = 3 \\).<br><br>\\( y = -\\frac{12}{x^2} + 3 \\)."
+},
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = 4x^3 - 3x^2 + 6 \\) and \\( y(1) = 5 \\).<br><br>Find the equation of the curve.",
+  solution: "Integrate:<br>\\( y = x^4 - x^3 + 6x + C \\).<br><br>Using \\( y(1)=5 \\) gives \\( C = -1 \\).<br><br>\\( y = x^4 - x^3 + 6x - 1 \\)."
+},
+
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = 3x^2 + 2x^{-3} \\) and \\( y(1)=4 \\).<br><br>Find the equation of the curve.",
+  solution: "Integrate:<br>\\( y = x^3 - x^{-2} + C \\).<br><br>Using \\( y(1)=4 \\) gives \\( C = 4 \\).<br><br>\\( y = x^3 - \\frac{1}{x^2} + 4 \\)."
+},
+
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = x^{-1/2} + 4x^2 \\). The curve passes through \\( (9,40) \\).<br><br>Find the equation of the curve.",
+  solution: "Integrate:<br>\\( y = 2x^{1/2} + \\frac{4}{3}x^3 + C \\).<br><br>Using \\( y(9)=40 \\) gives \\( C = -938 \\).<br><br>\\( y = 2\\sqrt{x} + \\frac{4}{3}x^3 - 938 \\)."
+},
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = 7x^6 - 2x \\) and \\( y(-1)=3 \\).<br><br>Find the equation of the curve.",
+  solution: "Integrate:<br>\\( y = x^7 - x^2 + C \\).<br><br>Using \\( y(-1)=3 \\) gives \\( C = 5 \\).<br><br>\\( y = x^7 - x^2 + 5 \\)."
+},
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = \\frac{6}{x^2} - 8x \\). The curve has x-intercept \\( (1,0) \\).<br><br>Find the equation of the curve.",
+  solution: "Rewrite:\\( 6x^{-2} - 8x \\).<br><br>Integrate:<br>\\( y = -6x^{-1} - 4x^2 + C \\).<br><br>\\( y = -\\frac{6}{x} - 4x^2 + 10 \\)."
+},
+{
+  topic: "Integration - to find Curve",
+  level: "Year 12",
+  question: "Given \\( \\frac{dy}{dx} = 4x^3 + 9x^{-4} \\) and \\( y(1)=2 \\).<br><br>Find the equation of the curve.",
+  solution: "Integrate:<br>\\( y = x^4 - 3x^{-3} + C \\).<br><br>Using \\( y(1)=2 \\) gives \\( C = 4 \\).<br><br>\\( y = x^4 - \\frac{3}{x^3} + 4 \\)."
+},
+  
 {
   topic: "Discriminant",
   level: "Year 12",

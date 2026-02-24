@@ -1,5 +1,53 @@
 const l2FurtherQuestions = [
 {
+  topic: "Factorising",
+  question: "Factorise fully: \\(8(x-2)^6 + 12(x-2)^5\\)",
+  solution: "Common factor is \\(4(x-2)^5\\)<br>\\(= 4(x-2)^5(2(x-2) + 3)\\)<br>\\(= 4(x-2)^5(2x - 4 + 3)\\)<br>Final answer: \\(4(x-2)^5(2x - 1)\\)"
+},
+
+{
+  topic: "Factorising",
+  question: "Factorise fully: \\(15(a+4)^7 - 10(a+4)^6\\)",
+  solution: "Common factor is \\(5(a+4)^6\\)<br>\\(= 5(a+4)^6(3(a+4) - 2)\\)<br>\\(= 5(a+4)^6(3a + 12 - 2)\\)<br>Final answer: \\(5(a+4)^6(3a + 10)\\)"
+},
+
+{
+  topic: "Factorising",
+  question: "Factorise fully: \\(9(2x+1)^5 + 6(2x+1)^4\\)",
+  solution: "Common factor is \\(3(2x+1)^4\\)<br>\\(= 3(2x+1)^4(3(2x+1) + 2)\\)<br>\\(= 3(2x+1)^4(6x + 3 + 2)\\)<br>Final answer: \\(3(2x+1)^4(6x + 5)\\)"
+},
+
+{
+  topic: "Factorising",
+  question: "Factorise fully: \\(14(m-5)^4 - 21(m-5)^3\\)",
+  solution: "Common factor is \\(7(m-5)^3\\)<br>\\(= 7(m-5)^3(2(m-5) - 3)\\)<br>\\(= 7(m-5)^3(2m - 10 - 3)\\)<br>Final answer: \\(7(m-5)^3(2m - 13)\\)"
+},
+
+{
+  topic: "Factorising",
+  question: "Factorise fully: \\(20(p+2)^6 + 5(p+2)^5\\)",
+  solution: "Common factor is \\(5(p+2)^5\\)<br>\\(= 5(p+2)^5(4(p+2) + 1)\\)<br>\\(= 5(p+2)^5(4p + 8 + 1)\\)<br>Final answer: \\(5(p+2)^5(4p + 9)\\)"
+},
+
+{
+  topic: "Factorising",
+  question: "Factorise fully: \\(18(3y-1)^5 - 12(3y-1)^4\\)",
+  solution: "Common factor is \\(6(3y-1)^4\\)<br>\\(= 6(3y-1)^4(3(3y-1) - 2)\\)<br>\\(= 6(3y-1)^4(9y - 3 - 2)\\)<br>Final answer: \\(6(3y-1)^4(9y - 5)\\)"
+},
+
+{
+  topic: "Factorising",
+  question: "Factorise fully: \\(16(t+3)^7 + 24(t+3)^6\\)",
+  solution: "Common factor is \\(8(t+3)^6\\)<br>\\(= 8(t+3)^6(2(t+3) + 3)\\)<br>\\(= 8(t+3)^6(2t + 6 + 3)\\)<br>Final answer: \\(8(t+3)^6(2t + 9)\\)"
+},
+
+{
+  topic: "Factorising",
+  question: "Factorise fully: \\(25(4x-7)^4 - 15(4x-7)^3\\)",
+  solution: "Common factor is \\(5(4x-7)^3\\)<br>\\(= 5(4x-7)^3(5(4x-7) - 3)\\)<br>\\(= 5(4x-7)^3(20x - 35 - 3)\\)<br>Final answer: \\(5(4x-7)^3(20x - 38)\\)"
+},
+  
+{
   topic: "Identities - Finding Coefficients",
   question: "\\((2x + a)(4x - 3) ≡ 8x^2 + 2x + b\\)<br><br>Work out the values of \\(a\\) and \\(b\\).",
   solution: "Expanding gives \\(8x^2 + (4a - 6)x - 3a\\)<br>Match coefficients: \\(4a - 6 = 2\\)<br>\\(a = 2\\)<br>\\(b = -6\\)"

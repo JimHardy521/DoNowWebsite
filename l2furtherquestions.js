@@ -1,5 +1,65 @@
 const l2FurtherQuestions = [
 {
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 4x and Q = 7x.<br>P is increased by 50%.<br>Q is increased by 20%.<br>Now, Q is 12 greater than P.<br>Work out the value of x.",
+  solution: "x = 5"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 3x and Q = 5x.<br>P is increased by 100%.<br>Q is increased by 40%.<br>Now, Q is 6 greater than P.<br>Work out the value of x.",
+  solution: "x = 6"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 6x and Q = 4x.<br>P is increased by 25%.<br>Q is increased by 50%.<br>Now, P is 12 greater than Q.<br>Work out the value of x.",
+  solution: "x = 8"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 5x and Q = 8x.<br>P is increased by 40%.<br>Q is increased by 25%.<br>Now, Q is 21 greater than P.<br>Work out the value of x.",
+  solution: "x = 7"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 6x and Q = 5x.<br>P is increased by 50%.<br>Q is increased by 20%.<br>Now, P is 9 greater than Q.<br>Work out the value of x.",
+  solution: "x = 3"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 5x and Q = 2x.<br>P is increased by 20%.<br>Q is increased by 50%.<br>Now, P is 36 greater than Q.<br>Work out the value of x.",
+  solution: "x = 12"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 5x and Q = 8x.<br>P is increased by 20%.<br>Q is increased by 50%.<br>Now, Q is 54 greater than P.<br>Work out the value of x.",
+  solution: "x = 9"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 2x and Q = 3x.<br>P is increased by 30%.<br>Q is increased by 20%.<br>Now, Q is 15 greater than P.<br>Work out the value of x.",
+  solution: "x = 15"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 5x and Q = 3x.<br>P is increased by 30%.<br>Q is increased by 50%.<br>Now, P is 32 greater than Q.<br>Work out the value of x.",
+  solution: "x = 16"
+},
+
+{
+  topic: "Percentages – Forming and Solving Equations",
+  question: "P = 3x and Q = 2x.<br>P is increased by 60%.<br>Q is increased by 40%.<br>Now, P is 36 greater than Q.<br>Work out the value of x.",
+  solution: "x = 18"
+},
+  
+{
   topic: "Factorising - 2",
   question: "Factorise fully: \\(6x^2 + 17xy + 12y^2\\)",
   solution: "\\((3x + 4y)(2x + 3y)\\)"

@@ -1,6 +1,92 @@
 const alevelQuestions = [
 
 {
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "The equation \\( 9x^2 + 4x + p^2 = 0 \\) has no real solutions for \\(x\\).<br><br>Find the set of possible values of \\(p\\).",
+  solution: "Discriminant:<br>\\( \\Delta = 4^2 - 4(9)(p^2) = 16 - 36p^2 \\).<br><br>No real roots require \\( \\Delta < 0 \\):<br>\\( 16 - 36p^2 < 0 \\Rightarrow p^2 > \\frac{4}{9} \\).<br><br>\\( p < -\\frac{2}{3} \\) or \\( p > \\frac{2}{3} \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "The quadratic equation \\( 3x^2 + 4x + (2k - 1) = 0 \\) has real and distinct roots.<br><br>Find the possible values of \\(k\\).",
+  solution: "Discriminant:<br>\\( \\Delta = 4^2 - 4(3)(2k-1) = 16 - 24k + 12 \\).<br><br>\\( \\Delta > 0 \\Rightarrow 28 - 24k > 0 \\).<br><br>\\( k < \\frac{7}{6} \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "The equation \\( x^2 + px + 9 = 0 \\) has equal roots.<br><br>Find the possible values of \\(p\\).",
+  solution: "Equal roots require \\( \\Delta = 0 \\).<br><br>\\( p^2 - 36 = 0 \\Rightarrow p^2 = 36 \\).<br><br>\\( p = \\pm 6 \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "A curve has equation \\( y = 2x^2 + px + 1 \\) and a line has equation \\( y = 5x - 2 \\).<br><br>Find the set of values of \\(p\\) for which the line intersects the curve at two distinct points.",
+  solution: "\\( 2x^2 + px + 1 = 5x - 2 \\).<br><br>\\( 2x^2 + (p-5)x + 3 = 0 \\).<br><br>\\( \\Delta = (p-5)^2 - 24 > 0 \\).<br><br>\\( (p-5)^2 > 24 \\Rightarrow p < 5-2\\sqrt6 \\) or \\( p > 5+2\\sqrt6 \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "The equation \\( 4x^2 + 12x + k = 0 \\) has no real roots.<br><br>Find the set of possible values of \\(k\\).",
+  solution: "Discriminant:<br>\\( \\Delta = 12^2 - 16k = 144 - 16k \\).<br><br>No real roots require \\( 144 - 16k < 0 \\).<br><br>\\( k > 9 \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "The equation \\( x^2 + 6x + (k+5) = 0 \\) has real roots.<br><br>Find the possible values of \\(k\\).",
+  solution: "Discriminant:<br>\\( \\Delta = 36 - 4(k+5) = 36 - 4k - 20 \\).<br><br>\\( \\Delta \\ge 0 \\Rightarrow 16 - 4k \\ge 0 \\).<br><br>\\( k \\le 4 \\)."
+},
+
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^2 + 4x + 7 \\) and a line has equation \\( y = kx + 1 \\).<br><br>Find the set of values of \\(k\\) for which the line intersects the curve at two distinct points.",
+  solution: "\\( x^2 + 4x + 7 = kx + 1 \\).<br><br>\\( x^2 + (4-k)x + 6 = 0 \\).<br><br>Two distinct points require \\( \\Delta > 0 \\):<br>\\( (4-k)^2 - 24 > 0 \\).<br><br>\\( (4-k)^2 > 24 \\Rightarrow k < 4-2\\sqrt6 \\) or \\( k > 4+2\\sqrt6 \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "A line \\( y = 3x + c \\) touches the curve \\( y = x^2 + x - 2 \\).<br><br>Find the possible values of \\(c\\).",
+  solution: "\\( x^2 + x - 2 = 3x + c \\).<br><br>\\( x^2 - 2x - (2+c) = 0 \\).<br><br>One root requires \\( \\Delta = 0 \\):<br>\\( (-2)^2 - 4(1)(-2-c) = 0 \\).<br><br>\\( 4 + 8 + 4c = 0 \\Rightarrow c = -3 \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "A curve has equation \\( y = 2x^2 - 3x + 5 \\) and a line has equation \\( y = 4x + k \\).<br><br>Find the set of values of \\(k\\) for which the line does not intersect the curve.",
+  solution: "\\( 2x^2 - 3x + 5 = 4x + k \\).<br><br>\\( 2x^2 - 7x + (5-k) = 0 \\).<br><br>No intersection requires \\( \\Delta < 0 \\):<br>\\( (-7)^2 - 8(5-k) < 0 \\).<br><br>\\( 49 - 40 + 8k < 0 \\Rightarrow 9 + 8k < 0 \\Rightarrow k < -\\frac{9}{8} \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "A line \\( y = mx - 1 \\) intersects the curve \\( y = x^2 - 2x + 4 \\) at exactly one point.<br><br>Find the possible values of \\(m\\).",
+  solution: "\\( x^2 - 2x + 4 = mx - 1 \\).<br><br>\\( x^2 + (-2-m)x + 5 = 0 \\).<br><br>Exactly one solution requires \\( \\Delta = 0 \\):<br>\\( (-2-m)^2 - 20 = 0 \\).<br><br>\\( (m+2)^2 = 20 \\Rightarrow m = -2 \\pm 2\\sqrt5 \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "A curve has equation \\( y = 3x^2 + 2x + 1 \\) and a line has equation \\( y = x + p \\).<br><br>Find the set of values of \\(p\\) for which the line intersects the curve at two distinct points.",
+  solution: "\\( 3x^2 + 2x + 1 = x + p \\).<br><br>\\( 3x^2 + x + (1-p) = 0 \\).<br><br>Two distinct intersections require \\( \\Delta > 0 \\):<br>\\( 1^2 - 12(1-p) > 0 \\).<br><br>\\( 1 - 12 + 12p > 0 \\Rightarrow 12p - 11 > 0 \\Rightarrow p > \\frac{11}{12} \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "A line \\( y = 5x + k \\) intersects the curve \\( y = x^2 + 6x + 10 \\).<br><br>Find the set of values of \\(k\\) for which there are no real points of intersection.",
+  solution: "\\( x^2 + 6x + 10 = 5x + k \\).<br><br>\\( x^2 + x + (10-k) = 0 \\).<br><br>No intersection requires \\( \\Delta < 0 \\):<br>\\( 1 - 4(10-k) < 0 \\).<br><br>\\( 1 - 40 + 4k < 0 \\Rightarrow 4k - 39 < 0 \\Rightarrow k < \\frac{39}{4} \\)."
+},
+
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "The equation \\( x^2 + (k-2)x + 3 = 0 \\) has two distinct real roots.<br><br>Find the set of values of \\(k\\).",
+  solution: "Discriminant:<br>\\( \\Delta = (k-2)^2 - 12 \\).<br><br>Two distinct roots require \\( (k-2)^2 > 12 \\).<br><br>\\( k < 2-2\\sqrt3 \\) or \\( k > 2+2\\sqrt3 \\)."
+},
+{
+  topic: "Discriminant",
+  level: "Year 12",
+  question: "The quadratic \\( 3x^2 + px + 2 = 0 \\) has real roots.<br><br>Find the set of possible values of \\(p\\).",
+  solution: "Discriminant:<br>\\( \\Delta = p^2 - 24 \\).<br><br>Real roots require \\( p^2 - 24 \\ge 0 \\).<br><br>\\( p \\le -2\\sqrt6 \\) or \\( p \\ge 2\\sqrt6 \\)."
+},
+{
   topic: "Integration - with Graph Sketching First",
   level: "Year 12",
   question: "A curve has equation \\( y = x^3 - 7x^2 + 10x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",

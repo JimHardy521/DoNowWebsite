@@ -1,4 +1,88 @@
 const gcseQuestions = [
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(3x^4y^2)^2}{2x^3y \\times 6xy^3}\\) in the form \\(ax^b\\)",
+  solution: "Numerator: \\((3x^4y^2)^2 = 9x^8y^4\\)<br>Denominator: \\(2x^3y \\times 6xy^3 = 12x^4y^4\\)<br>\\(\\frac{9x^8y^4}{12x^4y^4} = \\frac{3}{4}x^4\\)<br>Final answer: \\(\\frac{3}{4}x^4\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(4x^3y^5)^2}{8x^2y^4 \\times 2xy}\\) in the form \\(x^by^c\\).",
+  solution: "Numerator: \\(16x^6y^{10}\\)<br>Denominator: \\(16x^3y^5\\)<br>\\(\\frac{16x^6y^{10}}{16x^3y^5} = x^3y^5\\)<br>Final answer: \\(x^3y^5\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(5x^2y^4)^3}{5x^3y^2 \\times 2xy^5}\\) in the form \\(ax^by^c\\).",
+  solution: "Numerator: \\(125x^6y^{12}\\)<br>Denominator: \\(10x^4y^7\\)<br>\\(\\frac{125x^6y^{12}}{10x^4y^7} = \\frac{25}{2}x^2y^5\\)<br>Final answer: \\(\\frac{25}{2}x^2y^5\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(2x^5y^2)^2}{4x^3y \\times 3xy^2}\\) in the form \\(ax^by\\).",
+  solution: "Numerator: \\(4x^{10}y^4\\)<br>Denominator: \\(12x^4y^3\\)<br>\\(\\frac{4x^{10}y^4}{12x^4y^3} = \\frac{1}{3}x^6y\\)<br>Final answer: \\(\\frac{1}{3}x^6y\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(6x^3y)^2}{3x^2y^3 \\times 4xy}\\) in the form \\(ax^by^c\\).",
+  solution: "Numerator: \\(36x^6y^2\\)<br>Denominator: \\(12x^3y^4\\)<br>\\(\\frac{36x^6y^2}{12x^3y^4} = 3x^3y^{-2}\\)<br>Final answer: \\(3x^3y^{-2}\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(3x^2y^3)^3}{9x^3y \\times 2xy^4}\\) in the form \\(ax^by^c\\).",
+  solution: "Numerator: \\(27x^6y^9\\)<br>Denominator: \\(18x^4y^5\\)<br>\\(\\frac{27x^6y^9}{18x^4y^5} = \\frac{3}{2}x^2y^4\\)<br>Final answer: \\(\\frac{3}{2}x^2y^4\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(4x^4y^2)^2}{2x^3y^2 \\times 8xy}\\) in the form \\(x^by\\).",
+  solution: "Numerator: \\(16x^8y^4\\)<br>Denominator: \\(16x^4y^3\\)<br>\\(\\frac{16x^8y^4}{16x^4y^3} = x^4y\\)<br>Final answer: \\(x^4y\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Simplify \\(\\frac{(7x^2y)^2}{7x^3 \\times 2xy^2}\\).",
+  solution: "Numerator: \\(49x^4y^2\\)<br>Denominator: \\(14x^4y^2\\)<br>\\(\\frac{49x^4y^2}{14x^4y^2} = \\frac{7}{2}\\)<br>Final answer: \\(\\frac{7}{2}\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(2x^3y^4)^2}{4x^2y^3 \\times 5xy}\\) in the form \\(ax^by^c\\).",
+  solution: "Numerator: \\(4x^6y^8\\)<br>Denominator: \\(20x^3y^4\\)<br>\\(\\frac{4x^6y^8}{20x^3y^4} = \\frac{1}{5}x^3y^4\\)<br>Final answer: \\(\\frac{1}{5}x^3y^4\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(5x^3y^2)^2}{10x^2y \\times 2xy^3}\\) in the form \\(ax^b\\).",
+  solution: "Numerator: \\(25x^6y^4\\)<br>Denominator: \\(20x^3y^4\\)<br>\\(\\frac{25x^6y^4}{20x^3y^4} = \\frac{5}{4}x^3\\)<br>Final answer: \\(\\frac{5}{4}x^3\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(3x^4y^3)^2}{6x^3y^2 \\times 3xy}\\) in the form \\(ax^by^c\\).",
+  solution: "Numerator: \\(9x^8y^6\\)<br>Denominator: \\(18x^4y^3\\)<br>\\(\\frac{9x^8y^6}{18x^4y^3} = \\frac{1}{2}x^4y^3\\)<br>Final answer: \\(\\frac{1}{2}x^4y^3\\)"
+},
+
+{
+  topic: "Algebraic Expressions - Simplifying Indices 2",
+  level: "Higher",
+  question: "Write \\(\\frac{(8x^2y^3)^2}{4x^3y \\times 4xy^4}\\) in the form \\(ay\\).",
+  solution: "Numerator: \\(64x^4y^6\\)<br>Denominator: \\(16x^4y^5\\)<br>\\(\\frac{64x^4y^6}{16x^4y^5} = 4y\\)<br>Final answer: \\(4y\\)"
+},  
 {
   topic: "Solving Equations - Forming",
   level: "Foundation",

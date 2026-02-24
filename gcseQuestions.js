@@ -1,5 +1,89 @@
 const gcseQuestions = [
 {
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A teacher writes down a number. They subtract 6 and divide by 5. Their answer is 8.<br>What number did the teacher write down?",
+  solution: "Let the number be \\(x\\)<br>\\(\\frac{x-6}{5}=8\\)<br>\\(x-6=40\\)<br>\\(x=46\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "Sam thinks of a number. He multiplies it by 3 and then subtracts 7. His answer is 17.<br>What number did Sam think of?",
+  solution: "Let the number be \\(x\\)<br>\\(3x-7=17\\)<br>\\(3x=24\\)<br>\\(x=8\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A number is multiplied by 4 and then 9 is added. The result is 29.<br>Find the number.",
+  solution: "Let the number be \\(x\\)<br>\\(4x+9=29\\)<br>\\(4x=20\\)<br>\\(x=5\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A number is divided by 6 and then 3 is added. The result is 11.<br>Find the number.",
+  solution: "Let the number be \\(x\\)<br>\\(\\frac{x}{6}+3=11\\)<br>\\(\\frac{x}{6}=8\\)<br>\\(x=48\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A number is multiplied by 5 and then 12 is subtracted. The result is 18.<br>Find the number.",
+  solution: "Let the number be \\(x\\)<br>\\(5x-12=18\\)<br>\\(5x=30\\)<br>\\(x=6\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A number is increased by 7 and then divided by 4. The result is 6.<br>Find the number.",
+  solution: "Let the number be \\(x\\)<br>\\(\\frac{x+7}{4}=6\\)<br>\\(x+7=24\\)<br>\\(x=17\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "Lucy thinks of a number. She doubles it and then adds 5. Her answer is 21.<br>What number did Lucy think of?",
+  solution: "Let the number be \\(x\\)<br>\\(2x+5=21\\)<br>\\(2x=16\\)<br>\\(x=8\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A number is divided by 3 and then 4 is subtracted. The result is 6.<br>Find the number.",
+  solution: "Let the number be \\(x\\)<br>\\(\\frac{x}{3}-4=6\\)<br>\\(\\frac{x}{3}=10\\)<br>\\(x=30\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "Ben thinks of a number. He adds 9 and then multiplies the result by 2. His answer is 26.<br>What number did Ben think of?",
+  solution: "Let the number be \\(x\\)<br>\\(2(x+9)=26\\)<br>\\(x+9=13\\)<br>\\(x=4\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A number is multiplied by 7 and then divided by 2. The result is 21.<br>Find the number.",
+  solution: "Let the number be \\(x\\)<br>\\(\\frac{7x}{2}=21\\)<br>\\(7x=42\\)<br>\\(x=6\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "Emma thinks of a number. She subtracts 8 and then multiplies the result by 3. Her answer is 30.<br>What number did Emma think of?",
+  solution: "Let the number be \\(x\\)<br>\\(3(x-8)=30\\)<br>\\(x-8=10\\)<br>\\(x=18\\)"
+},
+
+{
+  topic: "Solving Equations - Forming",
+  level: "Foundation",
+  question: "A number is increased by 5 and then divided by 3. The result is 7.<br>Find the number.",
+  solution: "Let the number be \\(x\\)<br>\\(\\frac{x+5}{3}=7\\)<br>\\(x+5=21\\)<br>\\(x=16\\)"
+},
+  
+{
   topic: "Angles, Ratio, Polygons, Algebra",
   level: "Crossover",
   question: "The angles of a triangle are \\(2x\\), \\(3x\\) and \\(4x\\).<Br>Work out the size of the largest angle.",

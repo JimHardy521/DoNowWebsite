@@ -1,6 +1,67 @@
 const alevelQuestions = [
 
 {
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 7x^2 + 10x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=0,2,5 \\).<br><br>Area on \\([0,2]\\):\\( \\int_0^2 y\\,dx = \\frac{16}{3} \\).<br><br>Area on \\([2,5]\\):\\( \\int_2^5 y\\,dx = -\\frac{63}{4} \\).<br><br>Total area = \\( \\frac{16}{3} + \\frac{63}{4} = \\frac{253}{12} = 21\\frac{1}{12} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 4x^2 - 5x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=-1,0,5 \\).<br><br>Area on \\([-1,0]\\):\\( \\int_{-1}^{0} y\\,dx = \\frac{11}{12} \\).<br><br>Area on \\([0,5]\\):\\( \\int_{0}^{5} y\\,dx = -\\frac{875}{12} \\).<br><br>Total area = \\( \\frac{11}{12} + \\frac{875}{12} = \\frac{443}{6} = 73\\frac{5}{6} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 5x^2 + 4x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=0,1,4 \\).<br><br>Area on \\([0,1]\\):\\( \\int_0^1 y\\,dx = \\frac{7}{12} \\).<br><br>Area on \\([1,4]\\):\\( \\int_1^4 y\\,dx = -\\frac{45}{4} \\).<br><br>Total area = \\( \\frac{7}{12} + \\frac{45}{4} = \\frac{71}{6} = 11\\frac{5}{6} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 5x^2 + 6x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=0,2,3 \\).<br><br>Area on \\([0,2]\\):\\( \\int_0^2 y\\,dx = \\frac{8}{3} \\).<br><br>Area on \\([2,3]\\):\\( \\int_2^3 y\\,dx = -\\frac{5}{12} \\).<br><br>Total area = \\( \\frac{8}{3} + \\frac{5}{12} = \\frac{37}{12} = 3\\frac{1}{12} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 6x^2 + 5x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=0,1,5 \\).<br><br>Area on \\([0,1]\\):\\( \\int_0^1 y\\,dx = \\frac{3}{4} \\).<br><br>Area on \\([1,5]\\):\\( \\int_1^5 y\\,dx = -32 \\).<br><br>Total area = \\( \\frac{3}{4} + 32 = \\frac{131}{4} = 32\\frac{3}{4} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 9x^2 + 18x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=0,3,6 \\).<br><br>Area on \\([0,3]\\):\\( \\int_0^3 y\\,dx = \\frac{81}{4} \\).<br><br>Area on \\([3,6]\\):\\( \\int_3^6 y\\,dx = -\\frac{81}{4} \\).<br><br>Total area = \\( \\frac{81}{4} + \\frac{81}{4} = \\frac{81}{2} = 40\\frac{1}{2} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 9x^2 + 14x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=0,2,7 \\).<br><br>Area on \\([0,2]\\):\\( \\int_0^2 y\\,dx = 8 \\).<br><br>Area on \\([2,7]\\):\\( \\int_2^7 y\\,dx = -\\frac{375}{4} \\).<br><br>Total area = \\( 8 + \\frac{375}{4} = \\frac{407}{4} = 101\\frac{3}{4} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 9x^2 + 20x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=0,4,5 \\).<br><br>Area on \\([0,4]\\):\\( \\int_0^4 y\\,dx = 32 \\).<br><br>Area on \\([4,5]\\):\\( \\int_4^5 y\\,dx = -\\frac{3}{4} \\).<br><br>Total area = \\( 32 + \\frac{3}{4} = \\frac{131}{4} = 32\\frac{3}{4} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 - 2x^2 - 8x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=-2,0,4 \\).<br><br>Area on \\([-2,0]\\):\\( \\int_{-2}^{0} y\\,dx = \\frac{20}{3} \\).<br><br>Area on \\([0,4]\\):\\( \\int_{0}^{4} y\\,dx = -\\frac{128}{3} \\).<br><br>Total area = \\( \\frac{20}{3} + \\frac{128}{3} = \\frac{148}{3} = 49\\frac{1}{3} \\)."
+},
+{
+  topic: "Integration - with Graph Sketching First",
+  level: "Year 12",
+  question: "A curve has equation \\( y = x^3 + x^2 - 12x \\).<br><br>Sketch the curve, and find the total area enclosed by the curve and the x-axis.",
+  solution: "Roots are \\( x=-4,0,3 \\).<br><br>Area on \\([-4,0]\\):\\( \\int_{-4}^{0} y\\,dx = \\frac{160}{3} \\).<br><br>Area on \\([0,3]\\):\\( \\int_{0}^{3} y\\,dx = -\\frac{99}{4} \\).<br><br>Total area = \\( \\frac{160}{3} + \\frac{99}{4} = \\frac{937}{12} = 78\\frac{1}{12} \\)."
+},
+  
+{
   topic: "CTS - Algebraic Coefficient - Min. Point",
   level: "Year 12",
   question: "Find the coordinates, in terms of \\( a \\), of the minimum point on the curve \\( y = x^2 - 5x + a \\), where \\( a \\) is a constant.",

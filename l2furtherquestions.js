@@ -1,5 +1,77 @@
 const l2FurtherQuestions = [
 {
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(6x^2 + 17xy + 12y^2\\)",
+  solution: "\\((3x + 4y)(2x + 3y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(8x^2 + 14xy - 15y^2\\)",
+  solution: "\\((4x - 3y)(2x + 5y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(12x^2 - xy - 6y^2\\)",
+  solution: "\\((3x - 2y)(4x + 3y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(10x^2 + 7xy - 12y^2\\)",
+  solution: "\\((5x - 4y)(2x + 3y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(9x^2 - 12xy + 4y^2\\)",
+  solution: "\\((3x - 2y)(3x - 2y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(15x^2 + 11xy - 14y^2\\)",
+  solution: "\\((5x - 2y)(3x + 7y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(4x^2 - 4xy - 15y^2\\)",
+  solution: "\\((2x - 5y)(2x + 3y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(18x^2 + 3xy - 10y^2\\)",
+  solution: "\\((6x - 5y)(3x + 2y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(14x^2 - 5xy - 6y^2\\)",
+  solution: "\\((7x + 3y)(2x - 2y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(16x^2 + 8xy - 15y^2\\)",
+  solution: "\\((4x - 3y)(4x + 5y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(21x^2 - 8xy - 20y^2\\)",
+  solution: "\\((7x + 4y)(3x - 5y)\\)"
+},
+
+{
+  topic: "Factorising - 2",
+  question: "Factorise fully: \\(24x^2 + 2xy - 15y^2\\)",
+  solution: "\\((6x - 5y)(4x + 3y)\\)"
+},
+  
+{
   topic: "Factorising",
   question: "Factorise fully: \\(8(x-2)^6 + 12(x-2)^5\\)",
   solution: "Common factor is \\(4(x-2)^5\\)<br>\\(= 4(x-2)^5(2(x-2) + 3)\\)<br>\\(= 4(x-2)^5(2x - 4 + 3)\\)<br>Final answer: \\(4(x-2)^5(2x - 1)\\)"

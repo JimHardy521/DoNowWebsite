@@ -1,6 +1,65 @@
 const alevelQuestions = [
 
-
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 - 4x + 5 \\) and the line \\( y = 2x \\).",
+  solution: "Intersections: \\(x^2-4x+5=2x \\Rightarrow (x-1)(x-5)=0\\), so \\((1,2)\\) and \\((5,10)\\).<br>Area under curve: \\(\\int_1^5 (x^2-4x+5)\\,dx=\\frac{40}{3}\\).<br>Trapezium under line: \\(\\frac{(2+10)}{2}\\times4=24\\).<br>Enclosed area: \\(24-\\frac{40}{3}=\\frac{32}{3}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 - 6x + 13 \\) and the line \\( y = 3x - 1 \\).",
+  solution: "Intersections: \\(x^2-6x+13=3x-1 \\Rightarrow (x-2)(x-7)=0\\), so \\((2,5)\\) and \\((7,20)\\).<br>Area under curve: \\(\\int_2^7 (x^2-6x+13)\\,dx=\\frac{125}{3}\\).<br>Trapezium under line: \\(\\frac{(5+20)}{2}\\times5=\\frac{125}{2}\\).<br>Enclosed area: \\(\\frac{125}{2}-\\frac{125}{3}=\\frac{125}{6}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 + x + 1 \\) and the line \\( y = 4x + 1 \\).",
+  solution: "Intersections: \\(x^2+x+1=4x+1 \\Rightarrow x(x-3)=0\\), so \\((0,1)\\) and \\((3,13)\\).<br>Area under curve: \\(\\int_0^3 (x^2+x+1)\\,dx=\\frac{33}{2}\\).<br>Trapezium under line: \\(\\frac{(1+13)}{2}\\times3=21\\).<br>Enclosed area: \\(21-\\frac{33}{2}=\\frac{9}{2}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 - x - 1 \\) and the line \\( y = x \\).",
+  solution: "Intersections: \\(x^2-x-1=x \\Rightarrow (x+1)(x-2)=0\\), so \\((-1,-1)\\) and \\((2,2)\\).<br>Area under curve: \\(\\int_{-1}^{2} (x^2-x-1)\\,dx=-\\frac{3}{2}\\).<br>Trapezium under line: \\(\\frac{(-1+2)}{2}\\times3=\\frac{3}{2}\\).<br>Enclosed area: \\(\\frac{3}{2}-\\left(-\\frac{3}{2}\\right)=3\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 + 7x + 13 \\) and the line \\( y = 2x + 1 \\).",
+  solution: "Intersections: \\(x^2+7x+13=2x+1 \\Rightarrow (x+4)(x+1)=0\\), so \\((-4,-7)\\) and \\((-1,-1)\\).<br>Area under curve: \\(\\int_{-4}^{-1} (x^2+7x+13)\\,dx=\\frac{15}{2}\\).<br>Trapezium under line: \\(\\frac{(-7+(-1))}{2}\\times3=-12\\).<br>Enclosed area: \\(\\frac{15}{2}-(-12)=\\frac{39}{2}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 - 12x + 36 \\) and the line \\( y = -x + 12 \\).",
+  solution: "Intersections: \\(x^2-12x+36=-x+12 \\Rightarrow (x-2)(x-6)=0\\), so \\((2,10)\\) and \\((6,6)\\).<br>Area under curve: \\(\\int_2^6 (x^2-12x+36)\\,dx=\\frac{64}{3}\\).<br>Trapezium under line: \\(\\frac{(10+6)}{2}\\times4=32\\).<br>Enclosed area: \\(32-\\frac{64}{3}=\\frac{32}{3}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 - 12x + 31 \\) and the line \\( y = 3x \\).",
+  solution: "Intersections: \\(x^2-12x+31=3x \\Rightarrow (x-3)(x-8)=0\\), so \\((3,9)\\) and \\((8,24)\\).<br>Area under curve: \\(\\int_3^8 (x^2-12x+31)\\,dx=-\\frac{40}{3}\\).<br>Trapezium under line: \\(\\frac{(9+24)}{2}\\times5=\\frac{165}{2}\\).<br>Enclosed area: \\(\\frac{165}{2}-\\left(-\\frac{40}{3}\\right)=\\frac{575}{6}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = -x^2 + 5x + 5 \\) and the line \\( y = x + 5 \\).",
+  solution: "Intersections: \\(-x^2+5x+5=x+5 \\Rightarrow x(x-4)=0\\), so \\((0,5)\\) and \\((4,9)\\).<br>Area under curve: \\(\\int_0^4 (-x^2+5x+5)\\,dx=\\frac{116}{3}\\).<br>Trapezium under line: \\(\\frac{(5+9)}{2}\\times4=28\\).<br>Enclosed area: \\(\\frac{116}{3}-28=\\frac{32}{3}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = -x^2 + 3x + 13 \\) and the line \\( y = 2x + 7 \\).",
+  solution: "Intersections: \\(-x^2+3x+13=2x+7 \\Rightarrow (x+2)(x-3)=0\\), so \\((-2,3)\\) and \\((3,13)\\).<br>Area under curve: \\(\\int_{-2}^{3} (-x^2+3x+13)\\,dx=\\frac{365}{6}\\).<br>Trapezium under line: \\(\\frac{(3+13)}{2}\\times5=40\\).<br>Enclosed area: \\(\\frac{365}{6}-40=\\frac{125}{6}\\)."
+},
+{
+  topic: "Integration - Curve and Line Area",
+  level: "Year 12",
+  question: "Find the area enclosed by the curve \\( y = x^2 - 7x + 15 \\) and the line \\( y = -x + 10 \\).",
+  solution: "Intersections: \\(x^2-7x+15=-x+10 \\Rightarrow (x-1)(x-5)=0\\), so \\((1,9)\\) and \\((5,5)\\).<br>Area under curve: \\(\\int_{1}^{5} (x^2-7x+15)\\,dx=\\frac{52}{3}\\).<br>Trapezium under line: \\(\\frac{(9+5)}{2}\\times4=28\\).<br>Enclosed area: \\(28-\\frac{52}{3}=\\frac{32}{3}\\)."
+},
 {
   topic: "Integration - to find Curve",
   level: "Year 12",

@@ -1,5 +1,76 @@
 const alevelQuestions = [
-
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^4\\) in the expansion of \\((2x^3 - 5x + 1)(x^2 + 3x - 4)\\).",
+  solution: "Combinations giving \\(x^4\\):<br>\\(2x^3 \\cdot 3x = 6x^4\\).<br>Coefficient = \\(6\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^3\\) in \\((x^2 - 4x + 2)(3x + 5)\\).",
+  solution: "Combinations giving \\(x^3\\):<br>\\(x^2 \\cdot 3x = 3x^3\\).<br>Coefficient = \\(3\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^2\\) in \\((4x^3 + x^2 - 2x)(x - 3)\\).",
+  solution: "Combinations giving \\(x^2\\):<br>\\(x^2 \\cdot (-3) = -3x^2\\),<br>\\((-2x) \\cdot x = -2x^2\\).<br>Coefficient = \\(-3-2=-5\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x\\) in \\((5x^2 - 3x + 4)(2x^3 - x + 1)\\).",
+  solution: "Combinations giving \\(x\\):<br>\\((-3x)\\cdot 1=-3x\\),<br>\\(4\\cdot(-x)=-4x\\).<br>Coefficient = \\(-3-4=-7\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^5\\) in \\((3x^4 - 2x^2 + x)(x + 6)\\).",
+  solution: "Combinations giving \\(x^5\\):<br>\\(3x^4\\cdot x=3x^5\\).<br>Coefficient = \\(3\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^3\\) in \\((2x^3 + x - 1)(4x^2 - 3)\\).",
+  solution: "Combinations giving \\(x^3\\):<br>\\(2x^3\\cdot(-3)=-6x^3\\),<br>\\(x\\cdot4x^2=4x^3\\).<br>Coefficient = \\(-6+4=-2\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^6\\) in \\((x^4 - 2x^3 + 5)(3x^2 + x)\\).",
+  solution: "Combinations giving \\(x^6\\):<br>\\(x^4\\cdot3x^2=3x^6\\).<br>Coefficient = \\(3\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^2\\) in \\((x^3 - x^2 + 2x)(5x - 4)\\).",
+  solution: "Combinations giving \\(x^2\\):<br>\\(2x\\cdot5x=10x^2\\),<br>\\((-x^2)\\cdot(-4)=4x^2\\).<br>Coefficient = \\(10+4=14\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^4\\) in \\((4x^2 - x + 3)(x^2 - 2x)\\).",
+  solution: "Combinations giving \\(x^4\\):<br>\\(4x^2\\cdot x^2=4x^4\\).<br>Coefficient = \\(4\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x\\) in \\((x^3 + 2x^2 - x + 1)(x^2 - x + 3)\\).",
+  solution: "Combinations giving \\(x\\):<br>\\((-x)\\cdot3=-3x\\),<br>\\(1\\cdot(-x)=-x\\).<br>Coefficient = \\(-3-1=-4\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^5\\) in \\((2x^5 - 3x^2 + 4)(x - 2)\\).",
+  solution: "Combinations giving \\(x^5\\):<br>\\(2x^5\\cdot(-2)=-4x^5\\).<br>Coefficient = \\(-4\\)."
+},
+{
+  topic: "Algebra - Finding a Coefficient",
+  level: "Year 12",
+  question: "Find the coefficient of \\(x^3\\) in \\((3x^3 - 4x + 2)(x^2 + 5)\\).",
+  solution: "Combinations giving \\(x^3\\):<br>\\(3x^3\\cdot5=15x^3\\),<br>\\((-4x)\\cdot x^2=-4x^3\\).<br>Coefficient = \\(15-4=11\\)."
+},
 {
   topic: "Integration - Curve and Line Area",
   level: "Year 12",

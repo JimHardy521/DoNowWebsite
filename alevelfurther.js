@@ -1,6 +1,79 @@
 const alevelfurther = [
 
 {
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "A plane has equation \\( x - 3y + z = 6 \\).<br>Find the shortest distance from the point \\((3,-7,4)\\) to the plane.",
+  solution: "Line: \\((3,-7,4)+t(1,-3,1)\\).<br>Sub into plane: \\((3+t)-3(-7-3t)+(4+t)=6 \\Rightarrow t=-2\\).<br>Distance = \\(\\sqrt{(3-1)^2+(-7+1)^2+(4-2)^2}=2\\sqrt{11}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from the point \\((2,-1,5)\\) to the plane \\(2x + y - 2z = 3\\).",
+  solution: "Line: \\((2,-1,5)+t(2,1,-2)\\).<br>Sub: \\(2(2+2t)+(-1+t)-2(5-2t)=3 \\Rightarrow t=\\tfrac{10}{9}\\).<br> Distance = \\(\\sqrt{\\left(\\tfrac{20}{9}\\right)^2+\\left(\\tfrac{10}{9}\\right)^2+\\left(\\tfrac{-20}{9}\\right)^2}=\\tfrac{10}{3}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((-1,4,2)\\) to the plane \\(3x - y + 4z = 5\\).",
+  solution: "Line: \\((-1,4,2)+t(3,-1,4)\\).<br>Sub: \\(3(-1+3t)-(4-t)+4(2+4t)=5 \\Rightarrow t=\\tfrac{2}{13}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{6}{13}\\right)^2+\\left(\\tfrac{-2}{13}\\right)^2+\\left(\\tfrac{8}{13}\\right)^2}=\\tfrac{2\\sqrt{26}}{13}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((5,2,-3)\\) to the plane \\(x + 2y + 2z = 4\\).",
+  solution: "Line: \\((5,2,-3)+t(1,2,2)\\).<br>Sub: \\((5+t)+2(2+2t)+2(-3+2t)=4 \\Rightarrow t=\\tfrac{1}{9}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{-1}{9}\\right)^2+\\left(\\tfrac{-2}{9}\\right)^2+\\left(\\tfrac{2}{9}\\right)^2}=\\tfrac{1}{3}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((0,3,-2)\\) to the plane \\(4x - 2y + z = 7\\).",
+  solution: "Line: \\((0,3,-2)+t(4,-2,1)\\).<br>Sub: \\(4(4t)-2(3-2t)+(-2+t)=7 \\Rightarrow t=\\tfrac{5}{7}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{20}{7}\\right)^2+\\left(\\tfrac{-10}{7}\\right)^2+\\left(\\tfrac{5}{7}\\right)^2}=\\tfrac{5\\sqrt{21}}{7}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((1,-2,4)\\) to the plane \\(2x + 3y + 6z = 12\\).",
+  solution: "Line: \\((1,-2,4)+t(2,3,6)\\).<br>Sub: \\(2(1+2t)+3(-2+3t)+6(4+6t)=12 \\Rightarrow t=-\\tfrac{8}{49}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{-16}{49}\\right)^2+\\left(\\tfrac{-24}{49}\\right)^2+\\left(\\tfrac{-48}{49}\\right)^2}=\\tfrac{8}{7}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((-3,1,2)\\) to the plane \\(x - 4y + 8z = 10\\).",
+  solution: "Line: \\((-3,1,2)+t(1,-4,8)\\).<br>Sub: \\((-3+t)-4(1-4t)+8(2+8t)=10 \\Rightarrow t=\\tfrac{1}{81}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{1}{81}\\right)^2+\\left(\\tfrac{-4}{81}\\right)^2+\\left(\\tfrac{8}{81}\\right)^2}=\\tfrac{1}{9}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((4,-1,0)\\) to the plane \\(5x + 2y - z = 8\\).",
+  solution: "Line: \\((4,-1,0)+t(5,2,-1)\\).<br>Sub: \\(5(4+5t)+2(-1+2t)-(0-t)=8 \\Rightarrow t=-\\tfrac{1}{3}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{-5}{3}\\right)^2+\\left(\\tfrac{-2}{3}\\right)^2+\\left(\\tfrac{1}{3}\\right)^2}=\\tfrac{\\sqrt{30}}{3}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((2,3,1)\\) to the plane \\(3x - 6y + 2z = 5\\).",
+  solution: "Line: \\((2,3,1)+t(3,-6,2)\\).<br>Sub: \\(3(2+3t)-6(3-6t)+2(1+2t)=5 \\Rightarrow t=\\tfrac{15}{49}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{45}{49}\\right)^2+\\left(\\tfrac{-90}{49}\\right)^2+\\left(\\tfrac{30}{49}\\right)^2}=\\tfrac{15}{7}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((1,1,1)\\) to the plane \\(x + y + z = 9\\).",
+  solution: "Line: \\(1,1,1)+t(1,1,1)\\).<br>Sub: \\((1+t)+(1+t)+(1+t)=9 \\Rightarrow t=2\\).<br>Distance = \\(\\sqrt{(2)^2+(2)^2+(2)^2}=2\\sqrt{3}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((-2,0,5)\\) to the plane \\(2x - y + 3z = 4\\).",
+  solution: "Line: \\((-2,0,5)+t(2,-1,3)\\).<br>Sub: \\(2(-2+2t)-(0-t)+3(5+3t)=4 \\Rightarrow t=-\\tfrac{1}{2}\\).<br>Distance = \\(\\sqrt{(-1)^2+(\\tfrac{1}{2})^2+(\\tfrac{-3}{2})^2}=\\tfrac{\\sqrt{14}}{2}\\)."
+},
+{
+  topic: "Planes - Distance to Point",
+  level: "Year 13",
+  question: "Find the shortest distance from \\((3,-4,2)\\) to the plane \\(4x + y - 2z = 6\\).",
+  solution: "Line: \\((3,-4,2)+t(4,1,-2)\\).<br>Sub: \\(4(3+4t)+(-4+t)-2(2-2t)=6 \\Rightarrow t=\\tfrac{2}{21}\\).<br>Distance = \\(\\sqrt{\\left(\\tfrac{8}{21}\\right)^2+\\left(\\tfrac{2}{21}\\right)^2+\\left(\\tfrac{-4}{21}\\right)^2}=\\tfrac{2\\sqrt{21}}{21}\\)."
+},  
+
+{
   topic: "Hyperbolics - Solving",
   level: "Year 12",
   question: "Solve, giving answers in logarithmic form:<br>\\( 6\\cosh^2 x - 5\\cosh x - 6 = 0 \\).",

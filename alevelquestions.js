@@ -1,5 +1,79 @@
 const alevelQuestions = [
 
+  
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Given that \\(X \\sim N(10,25)\\) and \\(P(X> x)=0.75\\), find x.",
+  solution: "\\(P(X\\le x)=0.25\\).<br>\\(z=-0.674\\).<br>\\(x=10+5(-0.674)\\).<br>\\(x=6.63\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "The amount dispensed follows \\(X \\sim N(250,5^2)\\). Find x if \\(P(X\\lt x)=0.90\\).",
+  solution: "\\(z=1.282\\).<br>\\(x=250+5(1.282)\\).<br>\\(x=256.41\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Completion times follow \\(T \\sim N(58,12^2)\\). Find t if \\(P(T\\lt t)=0.85\\).",
+  solution: "\\(z=1.036\\).<br>\\(t=58+12(1.036)\\).<br>\\(t=70.43\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Parcel masses follow \\(X \\sim N(3.2,0.4^2)\\). Find m if \\(P(X>m)=0.05\\).",
+  solution: "\\(P(X\\le m)=0.95\\).<br>\\(z=1.645\\).<br>\\(m=3.2+0.4(1.645)\\).<br>\\(m=3.86\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Tree heights follow \\(H \\sim N(14,2.5^2)\\). Find h if \\(P(H\\lt h)=0.20\\).",
+  solution: "\\(z=-0.842\\).<br>\\(h=14+2.5(-0.842)\\).<br>\\(h=11.90\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Exam scores follow \\(X \\sim N(72,9^2)\\). Find x if \\(P(X> x)=0.10\\).",
+  solution: "\\(P(X\\le x)=0.90\\).<br>\\(z=1.282\\).<br>\\(x=72+9(1.282)\\).<br>\\(x=83.54\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Battery lifetimes follow \\(X \\sim N(500,80^2)\\). Find x if \\(P(X> x)=0.70\\).",
+  solution: "\\(P(X\\le x)=0.30\\).<br>\\(z=-0.524\\).<br>\\(x=500+80(-0.524)\\).<br>\\(x=458.05\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Rod diameters follow \\(D \\sim N(6,0.2^2)\\). Find d if \\(P(D\\lt d)=0.98\\).",
+  solution: "\\(z=2.054\\).<br>\\(d=6+0.2(2.054)\\).<br>\\(d=6.41\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Cat weights follow \\(W \\sim N(4.5,0.6^2)\\). Find w if \\(P(W> w)=0.02\\).",
+  solution: "\\(P(W\\le w)=0.98\\).<br>\\(z=2.054\\).<br>\\(w=4.5+0.6(2.054)\\).<br>\\(w=5.73\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Daily sales follow \\(S \\sim N(1200,250^2)\\). Find s if \\(P(S> s)=0.15\\).",
+  solution: "\\(P(S\\le s)=0.85\\).<br>\\(z=1.036\\).<br>\\(s=1200+250(1.036)\\).<br>\\(s=1459.11\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Cable lengths follow \\(L \\sim N(50,3^2)\\). Find l if \\(P(L> l)=0.01\\).",
+  solution: "\\(P(L\\le l)=0.99\\).<br>\\(z=2.326\\).<br>\\(l=50+3(2.326)\\).<br>\\(l=56.98\\)."
+},
+{
+  topic: "Normal Distribution - Inverse Normal",
+  level: "Year 13 - Stats",
+  question: "Reaction times follow \\(R \\sim N(0.75,0.08^2)\\). Find r if \\(P(R\\lt r)=0.60\\).",
+  solution: "\\(z=0.253\\).<br>\\(r=0.75+0.08(0.253)\\).<br>\\(r=0.77\\)."
+},
+
 { topic: "Normal Distribution - Introduction", level: "Year 13 - Stats", question: "The heights of sunflowers in a greenhouse can be modelled by a normal distribution with mean \\(180\\) cm and standard deviation \\(12\\) cm. Find the probability that a randomly chosen sunflower is between \\(165\\) cm and \\(195\\) cm.", solution: "\\(X\\sim N(180,12^2)\\).<br><br>=0.7888" },
 
 {

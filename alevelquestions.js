@@ -1,5 +1,63 @@
 const alevelQuestions = [
 
+{ topic: "Normal Distribution - Introduction", level: "Year 13 - Stats", question: "The heights of sunflowers in a greenhouse can be modelled by a normal distribution with mean \\(180\\) cm and standard deviation \\(12\\) cm. Find the probability that a randomly chosen sunflower is between \\(165\\) cm and \\(195\\) cm.", solution: "\\(X\\sim N(180,12^2)\\).<br><br>=0.7888" },
+
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The lifetimes of a certain brand of lightbulb are normally distributed with mean \\(1200\\) hours and standard deviation \\(150\\) hours. Find the probability that a bulb lasts more than \\(1400\\) hours.",
+  solution: "\\(X\\sim N(1200,150^2)\\).<br><br>=0.0912"
+},
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The times taken for students to complete a statistics quiz are normally distributed with mean \\(38\\) minutes and standard deviation \\(6\\) minutes. Find the probability that a student takes less than \\(30\\) minutes.",
+  solution: "\\(X\\sim N(38,6^2)\\).<br><br>=0.0912"
+},
+
+{ topic: "Normal Distribution - Introduction", level: "Year 13 - Stats", question: "The diameters of ball bearings are normally distributed with mean \\(8.00\\) mm and standard deviation \\(0.05\\) mm. A bearing is acceptable if its diameter is between \\(7.92\\) mm and \\(8.08\\) mm inclusive. Find the probability that a bearing is acceptable.", solution: "\\(X\\sim N(8.00,0.05^2)\\).<br><br>=0.8904" },
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The masses of apples supplied to a supermarket are normally distributed with mean \\(160\\) g and standard deviation \\(18\\) g. Apples with mass less than \\(130\\) g are classed as 'small'. Find the probability that a randomly chosen apple is small.",
+  solution: "\\(X\\sim N(160,18^2)\\).<br><br>=0.0478"
+},
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The test scores on an A Level topic assessment are normally distributed with mean \\(62\\) and standard deviation \\(11\\). Find the probability that a randomly chosen student scores between \\(50\\) and \\(80\\).",
+  solution: "\\(X\\sim N(62,11^2)\\).<br><br>=0.8115"
+},
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The speeds of cars passing a checkpoint are normally distributed with mean \\(52\\) mph and standard deviation \\(7\\) mph. Find the probability that a randomly chosen car is travelling faster than \\(60\\) mph.",
+  solution: "\\(X\\sim N(52,7^2)\\).<br><br>=0.1265"
+},
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The masses of bags of rice are normally distributed with mean \\(5.00\\) kg and standard deviation \\(0.12\\) kg. Find the probability that a bag has mass between \\(4.90\\) kg and \\(5.10\\) kg.",
+  solution: "\\(X\\sim N(5.00,0.12^2)\\).<br><br>=0.5953"
+},
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The daily maximum temperature in a city (in \\(^\\circ\\)C) can be modelled by \\(T \\sim N(18,3^2)\\). Find \\(P(T\\le 14)\\).",
+  solution: "\\(T\\sim N(18,3^2)\\).<br><br>=0.0912"
+},
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The masses of parcels sent from a depot are normally distributed with mean \\(3.4\\) kg and standard deviation \\(0.6\\) kg. A parcel is labelled 'heavy' if its mass exceeds \\(4.5\\) kg. In a batch of \\(12\\) parcels, find the probability that at least \\(2\\) are labelled 'heavy'.",
+  solution: "\\(X\\sim N(3.4,0.6^2)\\). \\(p=P(X>4.5)\\).<br>Let \\(Y\\sim\\text{Bin}(12,p)\\).<br>\\(P(Y\\ge2)\\).<br>\\(=0.0589\\)."
+},
+{
+  topic: "Normal Distribution - Introduction",
+  level: "Year 13 - Stats",
+  question: "The lengths of fish in a lake are normally distributed with mean \\(42\\) cm and standard deviation \\(7\\) cm. A fishing rule allows you to keep a fish only if its length is at least \\(50\\) cm. If \\(15\\) fish are caught, find the probability that more than \\(6\\) can be kept.",
+  solution: "\\(X\\sim N(42,7^2)\\). \\(p=P(X\\ge50)\\).<br>Let \\(Y\\sim\\text{Bin}(15,p)\\).<br>\\(P(Y>6)\\).<br>\\(=0.0013\\)."
+},
 
 {
   topic: "General Binomial - with Partial Fractions",

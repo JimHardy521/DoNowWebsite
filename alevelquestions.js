@@ -1,4 +1,79 @@
 const alevelQuestions = [
+
+
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "By first using partial fractions, find the binomial expansion of \\( \\frac{12x}{(1+3x)(2-3x)} \\), up to and including the term in \\(x^2\\).",
+  solution: "\\(\\frac{12x}{(1+3x)(2-3x)}=-\\frac{4}{3(1+3x)}+\\frac{8}{3(2-3x)}\\).<br><br>Expand:<br>\\(-\\frac{4}{3}(1-3x+9x^2)+\\frac{4}{3}\\left(1+\\frac{3}{2}x+\\frac{9}{4}x^2\\right)\\).<br><br>\\(=6x-9x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "By first using partial fractions, find the expansion of \\( \\frac{6x}{(1-2x)(1+4x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{6x}{(1-2x)(1+4x)}=\\frac{1}{1-2x}-\\frac{1}{1+4x}\\).<br><br>Expand:<br>\\((1+2x+4x^2)-(1-4x+16x^2)\\).<br><br>\\(=6x-12x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the binomial expansion of \\( \\frac{8x}{(2+x)(1-3x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{8x}{(2+x)(1-3x)}=\\frac{8}{7(1-3x)}-\\frac{8}{7(1+\\tfrac{x}{2})}\\).<br><br>Expand:<br>\\(\\frac{8}{7}(1+3x+9x^2)-\\frac{8}{7}\\left(1-\\frac{x}{2}+\\frac{x^2}{4}\\right)\\).<br><br>\\(=4x+10x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the expansion of \\( \\frac{10x}{(1+5x)(1-2x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{10x}{(1+5x)(1-2x)}=\\frac{10}{7(1-2x)}-\\frac{10}{7(1+5x)}\\).<br><br>Expand:<br>\\(\\frac{10}{7}(1+2x+4x^2)-\\frac{10}{7}(1-5x+25x^2)\\).<br><br>\\(=10x-30x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the binomial expansion of \\( \\frac{4x}{(3-2x)(1+x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{4x}{(3-2x)(1+x)}=\\frac{4}{5(1-\\tfrac{2}{3}x)}-\\frac{4}{5(1+x)}\\).<br><br>Expand:<br>\\(\\frac{4}{5}\\left(1+\\frac{2}{3}x+\\frac{4}{9}x^2\\right)-\\frac{4}{5}(1-x+x^2)\\).<br><br>\\(=\\frac{4}{3}x-\\frac{4}{9}x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the expansion of \\( \\frac{5x}{(1-4x)(2+3x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{5x}{(1-4x)(2+3x)}=\\frac{5}{11(1-4x)}-\\frac{5}{11(1+\\tfrac{3}{2}x)}\\).<br><br>Expand:<br>\\(\\frac{5}{11}(1+4x+16x^2)-\\frac{5}{11}\\left(1-\\frac{3}{2}x+\\frac{9}{4}x^2\\right)\\).<br><br>\\(=\\frac{5}{2}x+\\frac{25}{4}x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the binomial expansion of \\( \\frac{9x}{(1+2x)(3-x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{9x}{(1+2x)(3-x)}=-\\frac{9}{7(1+2x)}+\\frac{9}{7(1-\\tfrac{x}{3})}\\).<br><br>Expand:<br>\\(-\\frac{9}{7}(1-2x+4x^2)+\\frac{9}{7}\\left(1+\\frac{x}{3}+\\frac{x^2}{9}\\right)\\).<br><br>\\(=3x-5x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the expansion of \\( \\frac{6x}{(2-5x)(1+2x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{6x}{(2-5x)(1+2x)}=\\frac{2}{3(1-\\tfrac{5}{2}x)}-\\frac{2}{3(1+2x)}\\).<br><br>Expand:<br>\\(\\frac{2}{3}\\left(1+\\frac{5}{2}x+\\frac{25}{4}x^2\\right)-\\frac{2}{3}(1-2x+4x^2)\\).<br><br>\\(=3x+\\frac{3}{2}x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the binomial expansion of \\( \\frac{7x}{(1-3x)(1+x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{7x}{(1-3x)(1+x)}=\\frac{7}{4(1-3x)}-\\frac{7}{4(1+x)}\\).<br><br>Expand:<br>\\(\\frac{7}{4}(1+3x+9x^2)-\\frac{7}{4}(1-x+x^2)\\).<br><br>\\(=7x+14x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the expansion of \\( \\frac{8x}{(2+3x)(1-2x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{8x}{(2+3x)(1-2x)}=\\frac{8}{7(1-2x)}-\\frac{8}{7(1+\\tfrac{3}{2}x)}\\).<br><br>Expand:<br>\\(\\frac{8}{7}(1+2x+4x^2)-\\frac{8}{7}\\left(1-\\frac{3}{2}x+\\frac{9}{4}x^2\\right)\\).<br><br>\\(=4x+2x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the binomial expansion of \\( \\frac{5x}{(1+4x)(3-2x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{5x}{(1+4x)(3-2x)}=\\frac{5}{14(1-\\tfrac{2}{3}x)}-\\frac{5}{14(1+4x)}\\).<br><br>Expand:<br>\\(\\frac{5}{14}\\left(1+\\frac{2}{3}x+\\frac{4}{9}x^2\\right)-\\frac{5}{14}(1-4x+16x^2)\\).<br><br>\\(=\\frac{5}{3}x-\\frac{50}{9}x^2\\)..."
+},
+{
+  topic: "General Binomial - with Partial Fractions",
+  level: "Year 13",
+  question: "Find the expansion of \\( \\frac{6x}{(1-2x)(2+x)} \\) up to and including \\(x^2\\).",
+  solution: "\\(\\frac{6x}{(1-2x)(2+x)}=\\frac{6}{5(1-2x)}-\\frac{6}{5(1+\\tfrac{x}{2})}\\).<br><br>Expand:<br>\\(\\frac{6}{5}(1+2x+4x^2)-\\frac{6}{5}\\left(1-\\frac{x}{2}+\\frac{x^2}{4}\\right)\\).<br><br>\\(=3x+\\frac{9}{2}x^2\\)..."
+},
+  
 {
   topic: "Algebra - Finding a Coefficient",
   level: "Year 12",

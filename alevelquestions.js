@@ -4129,6 +4129,93 @@ solution: "\\(u=18,\\ s=0,\\ a=-9.8\\)<br>\\(0=18t-4.9t^2\\)<br>\\(t\\approx3.67
   solution: "\\(a = 11\\)"
 },
 
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( \\sin x = 0.6 \\) for \\( 0^\\circ < x < 360^\\circ \\).",
+  solution: "\\( x = 36.9^\\circ, 143.1^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( \\cos x = -0.3 \\) for \\( -180^\\circ < x < 180^\\circ \\).",
+  solution: "\\( x = 107.5^\\circ, -107.5^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( \\tan x = 2 \\) for \\( 0^\\circ < x < 360^\\circ \\).",
+  solution: "\\( x = 63.4^\\circ, 243.4^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 2\\sin x - 1 = 0 \\) for \\( 0^\\circ < x < 360^\\circ \\).<br>",
+  solution: "\\( 2\\sin x = 1 \\)<br>\\( \\sin x = 0.5 \\)<br>\\( x = 30^\\circ, 150^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 4\\cos x + 1 = 3 \\) for \\( -180^\\circ < x < 180^\\circ \\).<br>",
+  solution: "\\( 4\\cos x = 2 \\)<br>\\( \\cos x = 0.5 \\)<br>\\( x = 60^\\circ, -60^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 3\\tan x + 2 = 0 \\) for \\( -180^\\circ < x < 180^\\circ \\).<br>",
+  solution: "\\( 3\\tan x = -2 \\)<br>\\( \\tan x = -\\frac{2}{3} \\)<br>\\( x = -33.7^\\circ, 146.3^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( \\sin(2x) = 0.7 \\) for \\( 0^\\circ < x < 180^\\circ \\).<br>",
+  solution: "\\( 2x = 44.4^\\circ, 135.6^\\circ \\)<br>\\( x = 22.2^\\circ, 67.8^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( \\cos(3x) = 0.2 \\) for \\( 0^\\circ < x < 360^\\circ \\).<br>",
+  solution: "\\( 3x = 78.5^\\circ, 281.5^\\circ, 438.5^\\circ, 641.5^\\circ, 798.5^\\circ, 1001.5^\\circ \\)<br>\\( x = 26.2^\\circ, 93.8^\\circ, 146.2^\\circ, 213.8^\\circ, 266.2^\\circ, 333.8^\\circ \\)"
+},
+
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( \\tan(2x) = -1 \\) for \\( 0^\\circ < x < 180^\\circ \\).<br>",
+  solution: "\\( 2x = 135^\\circ, 315^\\circ \\)<br>\\( x = 67.5^\\circ, 157.5^\\circ \\)"
+},
+
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 3\\sin(\\theta/2) = 1.5 \\) for \\( -360^\\circ < \\theta < 360^\\circ \\).<br>",
+  solution: "\\( \\sin(\\theta/2) = 0.5 \\)<br>\\( -180^\\circ < \\theta/2 < 180^\\circ \\)<br>\\( \\theta/2 = 30^\\circ, 150^\\circ \\)<br>\\( \\theta = 60^\\circ, 300^\\circ \\)"
+},
+
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 4\\sin(\\theta/2) = -2 \\) for \\( -360^\\circ < \\theta < 360^\\circ \\).<br>",
+  solution: "\\( \\sin(\\theta/2) = -0.5 \\)<br>\\( -180^\\circ < \\theta/2 < 180^\\circ \\)<br>\\( \\theta/2 = -30^\\circ, -150^\\circ \\)<br>\\( \\theta = -60^\\circ, -300^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 2\\cos(\\theta/2) = 1 \\) for \\( -360^\\circ < \\theta < 360^\\circ \\).<br>",
+  solution: "\\( \\cos(\\theta/2) = 0.5 \\)<br>\\( \\theta/2 = 60^\\circ, -60^\\circ, 300^\\circ, -300^\\circ \\)<br>\\( \\theta = 120^\\circ, -120^\\circ, 600^\\circ, -600^\\circ \\)<br>Valid solutions: \\( 120^\\circ, -120^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 3\\sin(\\theta/2) = -1.5 \\) for \\( -360^\\circ < \\theta < 360^\\circ \\).<br>",
+  solution: "\\( \\sin(\\theta/2) = -0.5 \\)<br>\\( -180^\\circ < \\theta/2 < 180^\\circ \\)<br>\\( \\theta/2 = -30^\\circ, -150^\\circ \\)<br>\\( \\theta = -60^\\circ, -300^\\circ \\)"
+},
+{
+  topic: "Trig Equations - 1",
+  level: "Year 12",
+  question: "Solve \\( 5\\cos(\\theta/2) = -2.5 \\) for \\( -360^\\circ < \\theta < 360^\\circ \\).<br>",
+  solution: "\\( \\cos(\\theta/2) = -0.5 \\)<br>\\( \\theta/2 = 120^\\circ, -120^\\circ, 240^\\circ, -240^\\circ \\)<br>\\( \\theta = 240^\\circ, -240^\\circ, 480^\\circ, -480^\\circ \\)<br>Valid solutions: \\( 240^\\circ, -240^\\circ \\)"
+},
   
 {
   topic: "Trig Equations - 2",

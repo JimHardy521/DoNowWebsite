@@ -1,5 +1,72 @@
 const alevelQuestions = [
 
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "The equation of a curve is \\( x^2 + y^2 = 25 \\). Find \\( \\frac{dy}{dx} \\).",
+  solution: "Differentiate implicitly:<br>\\(2x + 2y\\frac{dy}{dx} = 0\\)<br>\\(2y\\frac{dy}{dx} = -2x\\)<br>\\(\\frac{dy}{dx} = -\\frac{x}{y}\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find \\( \\frac{dy}{dx} \\) for the curve \\( x^2 + xy + y^2 = 7 \\).",
+  solution: "Differentiate:<br>\\(2x + x\\frac{dy}{dx} + y + 2y\\frac{dy}{dx} = 0\\)<br>\\((x+2y)\\frac{dy}{dx} = -(2x+y)\\)<br>\\(\\frac{dy}{dx} = -\\frac{2x+y}{x+2y}\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find \\( \\frac{dy}{dx} \\) for \\( x^3 + y^3 = 6xy \\).",
+  solution: "Differentiate:<br>\\(3x^2 + 3y^2\\frac{dy}{dx} = 6y + 6x\\frac{dy}{dx}\\)<br>\\((3y^2-6x)\\frac{dy}{dx} = 6y-3x^2\\)<br>\\(\\frac{dy}{dx} = \\frac{6y-3x^2}{3y^2-6x}\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find the gradient of the curve \\( x^2 + xy = e^y \\) at the point \\((-1,0)\\).",
+  solution: "Differentiate:<br>\\(2x + x\\frac{dy}{dx} + y = e^y\\frac{dy}{dx}\\)<br>\\((x-e^y)\\frac{dy}{dx} = -(2x+y)\\)<br>At \\((-1,0)\\):<br>\\((-1-1)\\frac{dy}{dx} = -(-2+0)\\)<br>\\(-2\\frac{dy}{dx} = 2\\)<br>\\(\\frac{dy}{dx} = -1\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find the coordinates of the stationary point of \\( x^2 + y^2 + 4x - 2y = 4 \\).",
+  solution: "Differentiate:<br>\\(2x + 2y\\frac{dy}{dx} + 4 - 2\\frac{dy}{dx} = 0\\)<br>\\((2y-2)\\frac{dy}{dx} = -(2x+4)\\)<br>Stationary point when numerator = 0:<br>\\(2x+4=0\\Rightarrow x=-2\\)<br>Substitute:<br>\\(4 + y^2 -8 -2y =4\\)<br>\\(y^2-2y-8=0\\)<br>\\(y=4,-2\\)<br>Stationary points: \\((-2,4)\\) and \\((-2,-2)\\)"
+},
+
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find the maximum height of the curve \\( x^2 + 2xy + 2y^2 = 10 \\).",
+  solution: "Differentiate:<br>\\(2x +2y +2x\\frac{dy}{dx}+4y\\frac{dy}{dx}=0\\)<br>\\((2x+4y)\\frac{dy}{dx}=-(2x+2y)\\)<br>Stationary when numerator=0:<br>\\(2x+2y=0\\Rightarrow x=-y\\)<br>Substitute:<br>\\(y^2-2y^2+2y^2=10\\Rightarrow y^2=10\\)<br>Maximum height \\(=\\sqrt{10}\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find the coordinates of the two stationary points on \\( 9x^2 - 6xy + 4y^2 = 3 \\).",
+  solution: "Differentiate:<br>\\(18x -6y -6x\\frac{dy}{dx}+8y\\frac{dy}{dx}=0\\)<br>\\((-6x+8y)\\frac{dy}{dx}=6y-18x\\)<br>Stationary when numerator=0:<br>\\(6y-18x=0\\Rightarrow y=3x\\)<br>Substitute:<br>\\(9x^2-18x^2+36x^2=3\\)<br>\\(27x^2=3\\Rightarrow x=\\pm\\frac{1}{3}\\)<br>\\(y=\\pm1\\)<br>Points: \\((\\frac13,1)\\) and \\((-\\frac13,-1)\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find \\( \\frac{d^2y}{dx^2} \\) for \\( x^2 + y^2 = 16 \\).",
+  solution: "First derivative:<br>\\(\\frac{dy}{dx}=-\\frac{x}{y}\\)<br>Differentiate again:<br>\\(\\frac{d^2y}{dx^2}=-\\frac{y - x\\frac{dy}{dx}}{y^2}\\)<br>Substitute \\(\\frac{dy}{dx}=-\\frac{x}{y}\\):<br>\\(\\frac{d^2y}{dx^2}=-\\frac{y + \\frac{x^2}{y}}{y^2}=-\\frac{x^2+y^2}{y^3}\\)<br>\\(=-\\frac{16}{y^3}\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find the gradient of \\( x^2 + y^2 + xy = 7 \\) at the point \\((1,2)\\).",
+  solution: "Differentiate:<br>\\(2x +2y\\frac{dy}{dx}+x\\frac{dy}{dx}+y=0\\)<br>\\((2y+x)\\frac{dy}{dx}=-(2x+y)\\)<br>At (1,2):<br>\\((4+1)\\frac{dy}{dx}=-(2+2)\\)<br>\\(5\\frac{dy}{dx}=-4\\)<br>\\(\\frac{dy}{dx}=-\\frac45\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find the equation of the tangent to \\( x^2 + xy + y^2 = 3 \\) at \\((1,1)\\).",
+  solution: "Differentiate:<br>\\(2x +x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0\\)<br>\\((x+2y)\\frac{dy}{dx}=-(2x+y)\\)<br>At (1,1):<br>\\(3\\frac{dy}{dx}=-3\\Rightarrow \\frac{dy}{dx}=-1\\)<br>Tangent: \\(y-1=-1(x-1)\\)<br>\\(y=-x+2\\)"
+},
+{
+  topic: "Differentiation - Implicit",
+  level: "Year 13",
+  question: "Find the coordinates of the stationary point of \\( (x+y-2)^2 = e^y -1 \\).",
+  solution: "Differentiate:<br>\\(2(x+y-2)(1+\\frac{dy}{dx})=e^y\\frac{dy}{dx}\\)<br>Stationary when \\(\\frac{dy}{dx}=0\\):<br>\\(2(x+y-2)=0\\Rightarrow x+y=2\\)<br>Substitute into original:<br>\\(0=e^y-1\\Rightarrow y=0\\)<br>\\(x=2\\)<br>Stationary point: \\((2,0)\\)"
+},  
   
 {
   topic: "Normal Distribution - Inverse Normal",

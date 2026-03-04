@@ -1649,56 +1649,6 @@ const l2FurtherQuestions = [
   topic: "Matrix Multiplication",
   question: "Calculate \\(\\begin{pmatrix}4 & 0\\\\-2 & 1\\end{pmatrix}\\begin{pmatrix}1 & 3\\\\5 & -1\\end{pmatrix}\\).",
   solution: "\\(\\begin{pmatrix}4 & 12\\\\3 & -7\\end{pmatrix}\\)"
-}
-
- ,
-
-/* ---------------- SURDS: RATIONALISING THE DENOMINATOR ---------------- */
-
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Simplify \\(\\frac{3}{\\sqrt{5}}\\).",
-  solution: "\\(\\frac{3\\sqrt{5}}{5}\\)"
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Simplify \\(\\frac{2}{3\\sqrt{2}}\\).",
-  solution: "\\(\\frac{\\sqrt{2}}{3}\\)"
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Rationalise \\(\\frac{5}{\\sqrt{7}}\\).",
-  solution: "\\(\\frac{5\\sqrt{7}}{7}\\)"
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Simplify \\(\\frac{1}{\\sqrt{3}+1}\\).",
-  solution: "Multiply by conjugate: (√3−1)/2."
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Rationalise \\(\\frac{4}{2\\sqrt{5}}\\).",
-  solution: "\\(\\frac{2\\sqrt{5}}{5}\\)"
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Simplify \\(\\frac{3}{\\sqrt{2}-1}\\).",
-  solution: "Multiply by conjugate: 3(√2+1)."
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Simplify \\(\\frac{2}{\\sqrt{7}+3}\\).",
-  solution: "Multiply by conjugate: (√7−3)/1."
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Rationalise \\(\\frac{5}{\\sqrt{8}}\\).",
-  solution: "\\(\\frac{5\\sqrt{2}}{4}\\)"
-},
-{
-  topic: "Surds – Rationalising the Denominator",
-  question: "Simplify \\(\\frac{1}{2\\sqrt{3}+1}\\).",
-  solution: "Multiply by conjugate: (2√3−1)/11."
 },
 
 /* ---------------- Differentiation - Finding Tangents and Normals ---------------- */

@@ -1,4 +1,66 @@
 const l2FurtherQuestions = [
+
+
+{
+  topic: "Surds - Simplifying",
+  question: "Simplify fully<br>\\(\\frac{\\sqrt{75} - \\sqrt{27}}{\\sqrt{3}}\\)",
+  solution: "\\(\\sqrt{75}=5\\sqrt{3},\\; \\sqrt{27}=3\\sqrt{3}\\)<br>\\(\\frac{5\\sqrt{3}-3\\sqrt{3}}{\\sqrt{3}}\\)<br>\\(=\\frac{2\\sqrt{3}}{\\sqrt{3}}=2\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Simplify fully<br>\\(\\frac{\\sqrt{108} + \\sqrt{75}}{\\sqrt{3}}\\)",
+  solution: "\\(\\sqrt{108}=6\\sqrt{3},\\; \\sqrt{75}=5\\sqrt{3}\\)<br>\\(\\frac{6\\sqrt{3}+5\\sqrt{3}}{\\sqrt{3}}\\)<br>\\(=\\frac{11\\sqrt{3}}{\\sqrt{3}}=11\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Simplify fully<br>\\(\\sqrt{5}(\\sqrt{45}+\\sqrt{20})\\)",
+  solution: "\\(\\sqrt{45}=3\\sqrt{5},\\; \\sqrt{20}=2\\sqrt{5}\\)<br>\\(\\sqrt{5}(3\\sqrt{5}+2\\sqrt{5})\\)<br>\\(=\\sqrt{5}(5\\sqrt{5})\\)<br>\\(=5\\times5=25\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Simplify fully<br>\\(\\sqrt{2}(\\sqrt{50}-\\sqrt{8})\\)",
+  solution: "\\(\\sqrt{50}=5\\sqrt{2},\\; \\sqrt{8}=2\\sqrt{2}\\)<br>\\(\\sqrt{2}(5\\sqrt{2}-2\\sqrt{2})\\)<br>\\(=\\sqrt{2}(3\\sqrt{2})\\)<br>\\(=3\\times2=6\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Write<br>\\(\\sqrt{180}-\\sqrt{20}\\)<br>in the form \\(a\\sqrt{5}\\) where \\(a\\) is an integer.",
+  solution: "\\(\\sqrt{180}=6\\sqrt{5},\\; \\sqrt{20}=2\\sqrt{5}\\)<br>\\(6\\sqrt{5}-2\\sqrt{5}=4\\sqrt{5}\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Write<br>\\(\\sqrt{320}-2\\sqrt{45}\\)<br>in the form \\(a\\sqrt{5}\\) where \\(a\\) is an integer.",
+  solution: "\\(\\sqrt{320}=8\\sqrt{5},\\; \\sqrt{45}=3\\sqrt{5}\\)<br>\\(8\\sqrt{5}-2(3\\sqrt{5})\\)<br>\\(=8\\sqrt{5}-6\\sqrt{5}\\)<br>\\(=2\\sqrt{5}\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Write<br>\\((3+\\sqrt{7})(2-\\sqrt{7})\\)<br>in the form \\(a+b\\sqrt{7}\\) where \\(a\\) and \\(b\\) are integers.",
+  solution: "Expand:<br>\\(6-3\\sqrt{7}+2\\sqrt{7}-7\\)<br>\\(=-1-\\sqrt{7}\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Write<br>\\((4+2\\sqrt{3})(1-\\sqrt{3})\\)<br>in the form \\(a+b\\sqrt{3}\\) where \\(a\\) and \\(b\\) are integers.",
+  solution: "Expand:<br>\\(4-4\\sqrt{3}+2\\sqrt{3}-6\\)<br>\\(=-2-2\\sqrt{3}\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Simplify fully<br>\\(\\frac{\\sqrt{147}-\\sqrt{48}}{\\sqrt{3}}\\)",
+  solution: "\\(\\sqrt{147}=7\\sqrt{3},\\; \\sqrt{48}=4\\sqrt{3}\\)<br>\\(\\frac{7\\sqrt{3}-4\\sqrt{3}}{\\sqrt{3}}\\)<br>\\(=\\frac{3\\sqrt{3}}{\\sqrt{3}}=3\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Simplify fully<br>\\(\\sqrt{6}(\\sqrt{24}+\\sqrt{54})\\)",
+  solution: "\\(\\sqrt{24}=2\\sqrt{6},\\; \\sqrt{54}=3\\sqrt{6}\\)<br>\\(\\sqrt{6}(2\\sqrt{6}+3\\sqrt{6})\\)<br>\\(=\\sqrt{6}(5\\sqrt{6})\\)<br>\\(=5\\times6=30\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Write<br>\\(3\\sqrt{80}-\\sqrt{20}\\)<br>in the form \\(a\\sqrt{5}\\) where \\(a\\) is an integer.",
+  solution: "\\(\\sqrt{80}=4\\sqrt{5},\\; \\sqrt{20}=2\\sqrt{5}\\)<br>\\(3(4\\sqrt{5})-2\\sqrt{5}\\)<br>\\(=12\\sqrt{5}-2\\sqrt{5}\\)<br>\\(=10\\sqrt{5}\\)"
+},
+{
+  topic: "Surds - Simplifying",
+  question: "Write<br>\\((5+\\sqrt{2})(3-2\\sqrt{2})\\)<br>in the form \\(a+b\\sqrt{2}\\) where \\(a\\) and \\(b\\) are integers.",
+  solution: "Expand:<br>\\(15-10\\sqrt{2}+3\\sqrt{2}-4\\)<br>\\(=11-7\\sqrt{2}\\)"
+},  
 {
   topic: "Domain and Range - 2",
   question: "The function \\(f\\) is given by \\(f(x) = 3x + 4\\).<br><br>The range is \\(f(x) < 19\\).<br><br>Work out the domain of the function.",

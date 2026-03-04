@@ -1,5 +1,66 @@
 const l2FurtherQuestions = [
 {
+  topic: "Domain and Range - 2",
+  question: "The function \\(f\\) is given by \\(f(x) = 3x + 4\\).<br><br>The range is \\(f(x) < 19\\).<br><br>Work out the domain of the function.",
+  solution: "\\(3x + 4 < 19\\)<br>\\(3x < 15\\)<br>\\(x < 5\\)<br>Domain: \\(x < 5\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(f\\) is given by \\(f(x) = 2x - 7\\).<br><br>The range is \\(f(x) \\ge 9\\).<br><br>Work out the domain of the function.",
+  solution: "\\(2x - 7 \\ge 9\\)<br>\\(2x \\ge 16\\)<br>\\(x \\ge 8\\)<br>Domain: \\(x \\ge 8\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(g\\) is given by \\(g(x) = -4x + 6\\).<br><br>The range is \\(g(x) > -10\\).<br><br>Work out the domain of the function.",
+  solution: "\\(-4x + 6 > -10\\)<br>\\(-4x > -16\\)<br>\\(x < 4\\)<br>Domain: \\(x < 4\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(g\\) is given by \\(g(x) = -2x + 1\\).<br><br>The range is \\(g(x) \\le 9\\).<br><br>Work out the domain of the function.",
+  solution: "\\(-2x + 1 \\le 9\\)<br>\\(-2x \\le 8\\)<br>\\(x \\ge -4\\)<br>Domain: \\(x \\ge -4\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(f\\) is given by \\(f(x) = 5x - 2\\).<br><br>The domain is \\(-1 \\le x \\le 4\\).<br><br>Work out the range of the function.",
+  solution: "\\(f(-1) = 5(-1) - 2 = -7\\)<br>\\(f(4) = 5(4) - 2 = 18\\)<br>Range: \\(-7 \\le f(x) \\le 18\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(f\\) is given by \\(f(x) = 3x + 5\\).<br><br>The domain is \\(-2 < x < 6\\).<br><br>Work out the range of the function.",
+  solution: "\\(f(-2) = -1\\)<br>\\(f(6) = 23\\)<br>Range: \\(-1 < f(x) < 23\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(g\\) is given by \\(g(x) = -2x + 8\\).<br><br>The domain is \\(1 \\le x \\le 5\\).<br><br>Work out the range of the function.",
+  solution: "\\(g(1) = 6\\)<br>\\(g(5) = -2\\)<br>Range: \\(-2 \\le g(x) \\le 6\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(g\\) is given by \\(g(x) = -3x + 7\\).<br><br>The domain is \\(-1 < x < 3\\).<br><br>Work out the range of the function.",
+  solution: "\\(g(-1) = 10\\)<br>\\(g(3) = -2\\)<br>Range: \\(-2 < g(x) < 10\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(f\\) is given by \\(f(x) = 4x - 5\\).<br><br>The range is \\(-9 \\le f(x) \\le 11\\).<br><br>Work out the domain of the function.",
+  solution: "\\(-9 \\le 4x - 5 \\le 11\\)<br>Add 5:<br>\\(-4 \\le 4x \\le 16\\)<br>Divide by 4:<br>\\(-1 \\le x \\le 4\\)<br>Domain: \\(-1 \\le x \\le 4\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(f\\) is given by \\(f(x) = 6x + 1\\).<br><br>The range is \\(7 \\le f(x) \\le 25\\).<br><br>Work out the domain of the function.",
+  solution: "\\(7 \\le 6x + 1 \\le 25\\)<br>Subtract 1:<br>\\(6 \\le 6x \\le 24\\)<br>Divide by 6:<br>\\(1 \\le x \\le 4\\)<br>Domain: \\(1 \\le x \\le 4\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(g\\) is given by \\(g(x) = -5x + 2\\).<br><br>The range is \\(-13 \\le g(x) \\le 7\\).<br><br>Work out the domain of the function.",
+  solution: "\\(-13 \\le -5x + 2 \\le 7\\)<br>Subtract 2:<br>\\(-15 \\le -5x \\le 5\\)<br>Divide by -5 (reverse inequalities):<br>\\(3 \\ge x \\ge -1\\)<br>Domain: \\(-1 \\le x \\le 3\\)"
+},
+{
+  topic: "Domain and Range - 2",
+  question: "The function \\(g\\) is given by \\(g(x) = -2x - 3\\).<br><br>The range is \\(-7 < g(x) < 5\\).<br><br>Work out the domain of the function.",
+  solution: "\\(-7 < -2x - 3 < 5\\)<br>Add 3:<br>\\(-4 < -2x < 8\\)<br>Divide by -2 (reverse inequalities):<br>\\(2 > x > -4\\)<br>Domain: \\(-4 < x < 2\\)"
+},
+  
+{
   topic: "Percentages – Forming and Solving Equations",
   question: "P = 4x and Q = 7x.<br>P is increased by 50%.<br>Q is increased by 20%.<br>Now, Q is 12 greater than P.<br>Work out the value of x.",
   solution: "x = 5"

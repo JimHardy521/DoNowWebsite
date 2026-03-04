@@ -1,6 +1,65 @@
 const l2FurtherQuestions = [
 
-
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{\\sqrt{5}}{2+\\sqrt{5}}\\)",
+  solution: "Multiply top and bottom by \\(2-\\sqrt{5}\\)<br>\\(\\frac{\\sqrt{5}(2-\\sqrt{5})}{(2+\\sqrt{5})(2-\\sqrt{5})}\\)<br>\\(=\\frac{2\\sqrt{5}-5}{4-5}\\)<br>\\(=\\frac{2\\sqrt{5}-5}{-1}\\)<br>\\(=5-2\\sqrt{5}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{2}{3+\\sqrt{5}}\\)",
+  solution: "Multiply top and bottom by \\(3-\\sqrt{5}\\)<br>\\(\\frac{2(3-\\sqrt{5})}{(3+\\sqrt{5})(3-\\sqrt{5})}\\)<br>\\(=\\frac{6-2\\sqrt{5}}{9-5}\\)<br>\\(=\\frac{6-2\\sqrt{5}}{4}\\)<br>\\(=\\frac{3-\\sqrt{5}}{2}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{\\sqrt{3}}{2+\\sqrt{3}}\\)",
+  solution: "Multiply top and bottom by \\(2-\\sqrt{3}\\)<br>\\(\\frac{\\sqrt{3}(2-\\sqrt{3})}{(2+\\sqrt{3})(2-\\sqrt{3})}\\)<br>\\(=\\frac{2\\sqrt{3}-3}{4-3}\\)<br>\\(=2\\sqrt{3}-3\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{5}{4-\\sqrt{3}}\\)",
+  solution: "Multiply top and bottom by \\(4+\\sqrt{3}\\)<br>\\(\\frac{5(4+\\sqrt{3})}{(4-\\sqrt{3})(4+\\sqrt{3})}\\)<br>\\(=\\frac{20+5\\sqrt{3}}{16-3}\\)<br>\\(=\\frac{20+5\\sqrt{3}}{13}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{1}{\\sqrt{5}+2}\\)",
+  solution: "Multiply top and bottom by \\(\\sqrt{5}-2\\)<br>\\(\\frac{\\sqrt{5}-2}{(\\sqrt{5}+2)(\\sqrt{5}-2)}\\)<br>\\(=\\frac{\\sqrt{5}-2}{5-4}\\)<br>\\(=\\sqrt{5}-2\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{\\sqrt{2}}{\\sqrt{2}+1}\\)",
+  solution: "Multiply top and bottom by \\(\\sqrt{2}-1\\)<br>\\(\\frac{\\sqrt{2}(\\sqrt{2}-1)}{(\\sqrt{2}+1)(\\sqrt{2}-1)}\\)<br>\\(=\\frac{2-\\sqrt{2}}{2-1}\\)<br>\\(=2-\\sqrt{2}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise and simplify<br>\\(\\frac{\\sqrt{3}-5}{\\sqrt{3}+2}\\)<br>Give your answer in the form \\(a+b\\sqrt{3}\\) where \\(a\\) and \\(b\\) are integers.",
+  solution: "Multiply by \\(\\sqrt{3}-2\\)<br>\\(\\frac{(\\sqrt{3}-5)(\\sqrt{3}-2)}{(\\sqrt{3}+2)(\\sqrt{3}-2)}\\)<br>Denominator: \\(3-4=-1\\)<br>Numerator: \\(3-2\\sqrt{3}-5\\sqrt{3}+10\\)<br>\\(=13-7\\sqrt{3}\\)<br>Divide by \\(-1\\)<br>\\(-13+7\\sqrt{3}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise and simplify<br>\\(\\frac{2+\\sqrt{3}}{\\sqrt{3}-1}\\)<br>Give your answer in the form \\(a+b\\sqrt{3}\\).",
+  solution: "Multiply by \\(\\sqrt{3}+1\\)<br>\\(\\frac{(2+\\sqrt{3})(\\sqrt{3}+1)}{(\\sqrt{3}-1)(\\sqrt{3}+1)}\\)<br>Denominator: \\(3-1=2\\)<br>Numerator: \\(2\\sqrt{3}+2+3+\\sqrt{3}\\)<br>\\(=5+3\\sqrt{3}\\)<br>\\(=\\frac{5+3\\sqrt{3}}{2}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{4}{\\sqrt{3}+1}\\)",
+  solution: "Multiply by \\(\\sqrt{3}-1\\)<br>\\(\\frac{4(\\sqrt{3}-1)}{(\\sqrt{3}+1)(\\sqrt{3}-1)}\\)<br>\\(=\\frac{4\\sqrt{3}-4}{3-1}\\)<br>\\(=\\frac{4\\sqrt{3}-4}{2}\\)<br>\\(=2\\sqrt{3}-2\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{3}{\\sqrt{5}-1}\\)",
+  solution: "Multiply by \\(\\sqrt{5}+1\\)<br>\\(\\frac{3(\\sqrt{5}+1)}{(\\sqrt{5}-1)(\\sqrt{5}+1)}\\)<br>\\(=\\frac{3\\sqrt{5}+3}{5-1}\\)<br>\\(=\\frac{3\\sqrt{5}+3}{4}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{\\sqrt{6}}{\\sqrt{3}+\\sqrt{2}}\\)",
+  solution: "Multiply by \\(\\sqrt{3}-\\sqrt{2}\\)<br>\\(\\frac{\\sqrt{6}(\\sqrt{3}-\\sqrt{2})}{(\\sqrt{3}+\\sqrt{2})(\\sqrt{3}-\\sqrt{2})}\\)<br>Denominator: \\(3-2=1\\)<br>\\(=\\sqrt{18}-\\sqrt{12}\\)<br>\\(=3\\sqrt{2}-2\\sqrt{3}\\)"
+},
+{
+  topic: "Surds - Rationalising Denominator",
+  question: "Rationalise the denominator and simplify fully<br>\\(\\frac{5}{\\sqrt{7}+\\sqrt{5}}\\)",
+  solution: "Multiply by \\(\\sqrt{7}-\\sqrt{5}\\)<br>\\(\\frac{5(\\sqrt{7}-\\sqrt{5})}{(\\sqrt{7}+\\sqrt{5})(\\sqrt{7}-\\sqrt{5})}\\)<br>\\(=\\frac{5\\sqrt{7}-5\\sqrt{5}}{7-5}\\)<br>\\(=\\frac{5\\sqrt{7}-5\\sqrt{5}}{2}\\)"
+},
 {
   topic: "Surds - Simplifying",
   question: "Simplify fully<br>\\(\\frac{\\sqrt{75} - \\sqrt{27}}{\\sqrt{3}}\\)",

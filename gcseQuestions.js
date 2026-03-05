@@ -1,5 +1,175 @@
 const gcseQuestions = [
 
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "Sofia buys a jacket in Spain for €58.<br>The same jacket in the UK costs £49.50.<br>The exchange rate is £1 = €1.16.<br>Is the jacket cheaper in Spain or in the UK?",
+    solution: "Convert UK price to euros:<br>£49.50 \\(\\times\\) 1.16 = €\\(49.50 \\times 1.16 = 57.42\\)<br>Compare: Spain €58 vs UK €57.42<br>The jacket is cheaper in the UK by €\\(58 - 57.42 = 0.58\\)."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "Ben changes £650 to US dollars before he travels.<br>The exchange rate is £1 = $1.32.<br>He spends $700.<br>He changes the money he has left back to pounds when the rate is £1 = $1.25.<br>How many pounds does he get back?",
+    solution: "Change to dollars:<br>£650 \\(\\times\\) 1.32 = $\\(650 \\times 1.32 = 858\\)<br>Money left: $\\(858 - 700 = 158\\)<br>Change back to pounds:<br>$158 ÷ 1.25 = £\\(\\frac{158}{1.25} = 126.40\\)<br>He gets back £126.40."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "A bike costs £395 in the UK plus £12 delivery.<br>The same bike costs €420 in Germany plus €25 delivery.<br>The exchange rate is £1 = €1.20.<br>Including delivery, which is cheaper: UK or Germany?",
+    solution: "UK total: £\\(395 + 12 = 407\\)<br>Convert UK total to euros:<br>£407 \\(\\times\\) 1.20 = €\\(407 \\times 1.20 = 488.40\\)<br>Germany total: €\\(420 + 25 = 445\\)<br>Compare: UK €488.40 vs Germany €445<br>Germany is cheaper by €\\(488.40 - 445 = 43.40\\)."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "Meg changes £900 to euros for a holiday.<br>The exchange rate is £1 = €1.15.<br>She spends €780.<br>She changes the rest back to pounds when the rate is £1 = €1.10.<br>How many pounds does she get back?",
+    solution: "Change to euros:<br>£900 \\(\\times\\) 1.15 = €\\(900 \\times 1.15 = 1035\\)<br>Euros left: €\\(1035 - 780 = 255\\)<br>Change back to pounds:<br>€255 ÷ 1.10 = £\\(\\frac{255}{1.10} = 231.818...\\)<br>So she gets back £231.82 (to 2 d.p.)."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "In New York, petrol costs $3.80 per US gallon.<br>In London, petrol costs £1.42 per litre.<br>1 US gallon = 3.785 litres and the exchange rate is £1 = $1.30.<br>Which city has cheaper petrol per litre?",
+    solution: "Convert $3.80 to pounds (per gallon):<br>$3.80 ÷ 1.30 = £\\(\\frac{3.80}{1.30} = 2.923076...\\)<br>Now convert to per litre:<br>£2.923076... ÷ 3.785 = £\\(\\frac{2.923076...}{3.785} \\approx 0.772\\)<br>So New York is about £0.772 per litre = \\(0.772 \\times 100 = 77.2\\)p per litre<br>London is £1.42 = 142p per litre<br>New York is cheaper."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "Chloe changes £500 to euros.<br>The exchange rate is £1 = €1.25.<br>The bureau charges a fixed fee of €6.<br>How many euros does Chloe receive after the fee?",
+    solution: "Euros before fee:<br>£500 \\(\\times\\) 1.25 = €\\(500 \\times 1.25 = 625\\)<br>After fee: €\\(625 - 6 = 619\\)<br>Chloe receives €619."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "Omar changes €360 back into pounds.<br>The exchange rate is £1 = €1.20.<br>The bureau charges a £3 fee after converting.<br>How many pounds does Omar receive?",
+    solution: "Convert euros to pounds:<br>€360 ÷ 1.20 = £\\(\\frac{360}{1.20} = 300\\)<br>After the fee: £\\(300 - 3 = 297\\)<br>Omar receives £297."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "Ella changes £750 to euros.<br>The exchange rate is £1 = €1.18.<br>She spends €600.<br>She changes the rest back to pounds when the rate is £1 = €1.25.<br>The bureau then takes 2% commission from the pounds she gets back.<br>How many pounds does Ella receive after commission?",
+    solution: "Change to euros:<br>£750 \\(\\times\\) 1.18 = €\\(750 \\times 1.18 = 885\\)<br>Euros left: €\\(885 - 600 = 285\\)<br>Change back to pounds:<br>€285 ÷ 1.25 = £\\(\\frac{285}{1.25} = 228\\)<br>Commission: \\(2\\%\\) of £228 = £\\(0.02 \\times 228 = 4.56\\)<br>After commission: £\\(228 - 4.56 = 223.44\\)<br>Ella receives £223.44."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "A hotel in the USA costs $420 plus a $35 resort fee.<br>A hotel in the UK costs £345 with no extra fees.<br>The exchange rate is £1 = $1.40.<br>Which hotel is cheaper (including fees)?",
+    solution: "UK hotel in dollars:<br>£345 \\(\\times\\) 1.40 = $\\(345 \\times 1.40 = 483\\)<br>USA total: $\\(420 + 35 = 455\\)<br>Compare: UK $483 vs USA $455<br>The USA hotel is cheaper by $\\(483 - 455 = 28\\)."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "A camera costs ¥68,000 in Japan.<br>The same camera costs £395 in the UK.<br>The exchange rate is £1 = ¥190.<br>Which country is cheaper, and by how much (in pounds)?",
+    solution: "Convert Japan price to pounds:<br>¥68000 ÷ 190 = £\\(\\frac{68000}{190} = 357.8947...\\)<br>So Japan price is £357.89 (to 2 d.p.)<br>Compare: UK £395 vs Japan £357.89<br>Japan is cheaper by £\\(395 - 357.89 = 37.11\\)."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "Zara changes £1200 to euros.<br>The exchange rate is £1 = €1.22.<br>She spends €999.50.<br>She changes the rest back to pounds when the exchange rate is £1 = €1.16.<br>How many pounds does she get back?",
+    solution: "Change to euros:<br>£1200 \\(\\times\\) 1.22 = €\\(1200 \\times 1.22 = 1464\\)<br>Euros left: €\\(1464 - 999.50 = 464.50\\)<br>Change back to pounds:<br>€464.50 ÷ 1.16 = £\\(\\frac{464.50}{1.16} = 400.431...\\)<br>So Zara gets back £400.43 (to 2 d.p.)."
+  },
+
+  {
+    topic: "Propotion - Currency Conversions",
+    level: "Foundation",
+    question: "A job in Ireland pays €480 per week.<br>A job in the UK pays £410 per week.<br>The exchange rate is £1 = €1.14.<br>Which job pays more, in pounds?",
+    solution: "Convert Ireland pay to pounds:<br>€480 ÷ 1.14 = £\\(\\frac{480}{1.14} = 421.0526...\\)<br>So Ireland pay is £421.05 (to 2 d.p.)<br>Compare: £421.05 vs £410<br>The Ireland job pays more by £\\(421.05 - 410 = 11.05\\)."
+  },
+
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Jack worked from 09:30 to 14:30 from Monday to Friday.<br>He earns £12.80 per hour.<br>On Saturday he works 3 hours and gets double pay.<br>How much does Jack earn for the whole week?",
+  solution: "Weekday hours: \\(5 \\times 5 = 25\\)<br>Weekday pay: \\(25 \\times 12.80 = 320\\)<br>Saturday rate: \\(12.80 \\times 2 = 25.60\\)<br>Saturday pay: \\(3 \\times 25.60 = 76.80\\)<br>Total pay: \\(320 + 76.80 = £396.80\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Mary works from 07:45 to 13:15 from Monday to Friday.<br>She earns £13.40 per hour.<br>On Sunday she works 5 hours and earns £18 per hour.<br>How much does Mary earn for the week?",
+  solution: "Daily hours: \\(5.5\\)<br>Weekday hours: \\(5.5 \\times 5 = 27.5\\)<br>Weekday pay: \\(27.5 \\times 13.40 = 368.50\\)<br>Sunday pay: \\(5 \\times 18 = 90\\)<br>Total pay: \\(368.50 + 90 = £458.50\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Liam works from 08:30 to 14:30 Monday to Friday.<br>He takes a 30 minute break each day.<br>He earns £11.20 per hour.<br>How much does Liam earn in a week?",
+  solution: "Daily hours worked: \\(6 - 0.5 = 5.5\\)<br>Weekly hours: \\(5.5 \\times 5 = 27.5\\)<br>Weekly pay: \\(27.5 \\times 11.20 = £308\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Aisha works from 09:00 to 15:00 Monday to Friday.<br>She takes a 1 hour unpaid lunch break each day.<br>She earns £12 per hour.<br>How much does Aisha earn each week?",
+  solution: "Daily hours worked: \\(6 - 1 = 5\\)<br>Weekly hours: \\(5 \\times 5 = 25\\)<br>Total pay: \\(25 \\times 12 = £300\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Ben works from 10:00 to 16:00 Monday to Friday.<br>He earns £10.50 per hour.<br>On Saturday he works 4 hours at time and a half.<br>How much does Ben earn for the week?",
+  solution: "Weekday hours: \\(6 \\times 5 = 30\\)<br>Weekday pay: \\(30 \\times 10.50 = 315\\)<br>Saturday rate: \\(10.50 \\times 1.5 = 15.75\\)<br>Saturday pay: \\(4 \\times 15.75 = 63\\)<br>Total pay: \\(315 + 63 = £378\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Sophie works from 08:45 to 14:45 Monday to Friday.<br>She earns £11.60 per hour.<br>On Sunday she works 3 hours and earns double pay.<br>How much does Sophie earn in total for the week?",
+  solution: "Weekday hours: \\(6 \\times 5 = 30\\)<br>Weekday pay: \\(30 \\times 11.60 = 348\\)<br>Sunday rate: \\(11.60 \\times 2 = 23.20\\)<br>Sunday pay: \\(3 \\times 23.20 = 69.60\\)<br>Total pay: \\(348 + 69.60 = £417.60\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Ryan works from 09:15 to 15:15 Monday to Friday.<br>He takes a 45 minute break each day.<br>He earns £12.40 per hour.<br>How much does Ryan earn in one week?",
+  solution: "Daily hours: \\(6 - 0.75 = 5.25\\)<br>Weekly hours: \\(5.25 \\times 5 = 26.25\\)<br>Total pay: \\(26.25 \\times 12.40 = £325.50\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Emma works from 07:30 to 12:30 Monday to Friday.<br>She earns £10.80 per hour.<br>On Saturday she works 5 hours at £14 per hour.<br>How much does Emma earn for the whole week?",
+  solution: "Weekday hours: \\(5 \\times 5 = 25\\)<br>Weekday pay: \\(25 \\times 10.80 = 270\\)<br>Saturday pay: \\(5 \\times 14 = 70\\)<br>Total pay: \\(270 + 70 = £340\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Daniel works from 08:00 to 14:00 Monday to Friday.<br>He takes a 30 minute break each day.<br>He earns £11 per hour.<br>On Sunday he works 4 hours at double pay.<br>How much does Daniel earn for the week?",
+  solution: "Daily hours worked: \\(6 - 0.5 = 5.5\\)<br>Weekday hours: \\(5.5 \\times 5 = 27.5\\)<br>Weekday pay: \\(27.5 \\times 11 = 302.50\\)<br>Sunday rate: \\(11 \\times 2 = 22\\)<br>Sunday pay: \\(4 \\times 22 = 88\\)<br>Total pay: \\(302.50 + 88 = £390.50\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Holly works from 09:30 to 15:30 Monday to Friday.<br>She earns £9.80 per hour.<br>On Saturday she works 6 hours at time and a half.<br>How much does Holly earn for the week?",
+  solution: "Weekday hours: \\(6 \\times 5 = 30\\)<br>Weekday pay: \\(30 \\times 9.80 = 294\\)<br>Saturday rate: \\(9.80 \\times 1.5 = 14.70\\)<br>Saturday pay: \\(6 \\times 14.70 = 88.20\\)<br>Total pay: \\(294 + 88.20 = £382.20\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Jake works from 08:30 to 13:30 Monday to Friday.<br>He earns £13 per hour.<br>On Sunday he works 4 hours at £18 per hour.<br>How much does Jake earn for the week?",
+  solution: "Weekday hours: \\(5 \\times 5 = 25\\)<br>Weekday pay: \\(25 \\times 13 = 325\\)<br>Sunday pay: \\(4 \\times 18 = 72\\)<br>Total pay: \\(325 + 72 = £397\\)"
+},
+
+{
+  topic: "Proportion - Rates of Pay",
+  level: "Foundation",
+  question: "Priya works from 07:45 to 13:45 Monday to Friday.<br>She takes a 30 minute break each day.<br>She earns £12.50 per hour.<br>How much does Priya earn each week?",
+  solution: "Daily hours worked: \\(6 - 0.5 = 5.5\\)<br>Weekly hours: \\(5.5 \\times 5 = 27.5\\)<br>Total pay: \\(27.5 \\times 12.50 = £343.75\\)"
+},    
+
 {
   topic: "Algebraic Expressions - Simplifying Indices 2",
   level: "Higher",

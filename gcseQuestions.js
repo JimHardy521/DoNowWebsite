@@ -7094,73 +7094,73 @@ const gcseQuestions = [
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Five cucumbers cost £6.40 in total. How much do two of these cucumbers cost?",
+  question: "Five cucumbers cost £6.40 in total.<br><br>How much do two of these cucumbers cost?",
   solution: "£2.56"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Three notebooks cost £4.50. How much do eight notebooks cost?",
+  question: "Three notebooks cost £4.50.<br><br>How much do eight notebooks cost?",
   solution: "£12.00"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Four apples cost £1.20. How much do ten apples cost?",
+  question: "Four apples cost £1.20.<br><br>How much do ten apples cost?",
   solution: "£3.00"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Six bottles of water cost £3.90. How much do four bottles of water cost?",
+  question: "Six bottles of water cost £3.90.<br><br>How much do four bottles of water cost?",
   solution: "£2.60"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Seven pens cost £5.60. How much do three pens cost?",
+  question: "Seven pens cost £5.60.<br><br>How much do three pens cost?",
   solution: "£2.40"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Two kilograms of rice cost £3.80. How much do five kilograms cost?",
+  question: "Two kilograms of rice cost £3.80.<br><br>How much do five kilograms cost?",
   solution: "£9.50"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Eight magazines cost £12.00. How much do five magazines cost?",
+  question: "Eight magazines cost £12.00.<br><br>How much do five magazines cost?",
   solution: "£7.50"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Nine oranges cost £4.50. How much do six oranges cost?",
+  question: "Nine oranges cost £4.50.<br><br>How much do six oranges cost?",
   solution: "£3.00"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Four cinema tickets cost £26. How much do seven cinema tickets cost?",
+  question: "Four cinema tickets cost £26.<br><br>How much do seven cinema tickets cost?",
   solution: "£45.50"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Five litres of paint cost £18.75. How much do two litres cost?",
+  question: "Five litres of paint cost £18.75.<br><br>How much do two litres cost?",
   solution: "£7.50"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Three sandwiches cost £6.90. How much do ten sandwiches cost?",
+  question: "Three sandwiches cost £6.90.<br><br>How much do ten sandwiches cost?",
   solution: "£23.00"
 },
 {
   topic: "Proportion - Prices",
   level: "Foundation",
-  question: "Six packets of seeds cost £9.00. How much do four packets cost?",
+  question: "Six packets of seeds cost £9.00.<br><br>How much do four packets cost?",
   solution: "£6.00"
 },
 {
@@ -7528,73 +7528,73 @@ const gcseQuestions = [
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 3, 6, 9, 12",
+  question: "Find the nth term of the sequence:<br><br>3, 6, 9, 12",
   solution: "3n"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 2, 5, 8, 11",
+  question: "Find the nth term of the sequence:<br><br>2, 5, 8, 11",
   solution: "3n - 1"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 5, 8, 11, 14",
+  question: "Find the nth term of the sequence:<br><br>5, 8, 11, 14",
   solution: "3n + 2"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 7, 10, 13, 16",
+  question: "Find the nth term of the sequence:<br><br>7, 10, 13, 16",
   solution: "3n + 4"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 4, 7, 10, 13",
+  question: "Find the nth term of the sequence:<br><br>4, 7, 10, 13",
   solution: "3n + 1"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 1, 3, 5, 7",
+  question: "Find the nth term of the sequence:<br><br>1, 3, 5, 7",
   solution: "2n - 1"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 0, 4, 8, 12",
+  question: "Find the nth term of the sequence:<br><br>0, 4, 8, 12",
   solution: "4n"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 6, 9, 12, 15",
+  question: "Find the nth term of the sequence:<br><br>6, 9, 12, 15",
   solution: "3n + 3"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 10, 13, 16, 19",
+  question: "Find the nth term of the sequence:<br><br>10, 13, 16, 19",
   solution: "3n + 7"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 2, 6, 10, 14",
+  question: "Find the nth term of the sequence:<br><br>2, 6, 10, 14",
   solution: "4n - 2"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 5, 10, 15, 20",
+  question: "Find the nth term of the sequence:<br><br>5, 10, 15, 20",
   solution: "5n"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence: 3, 7, 11, 15",
+  question: "Find the nth term of the sequence:<br><br>3, 7, 11, 15",
   solution: "4n - 1"
 },
 

@@ -1,5 +1,84 @@
 const alevelQuestions = [
 
+
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{6x^2 + 11x - 8}{2x + 3} \\) can be written as \\( Ax + B + \\frac{C}{2x + 3} \\). Find the values of \\(A\\), \\(B\\) and \\(C\\).",
+  solution: "\\(\\frac{6x^2 + 11x - 8}{2x+3} = 3x + 1 - \\frac{11}{2x+3}\\)"
+},
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{8x^2 - 2x + 5}{4x - 1} \\) can be written as \\( Ax + B + \\frac{C}{4x - 1} \\). Find the values of \\(A\\), \\(B\\) and \\(C\\).",
+  solution: "\\(\\frac{8x^2 - 2x + 5}{4x-1} = 2x + \\frac{5}{4x-1}\\)"
+},
+
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{2x^3 + 7x^2 - x + 4}{x + 4} \\) can be written as \\( Ax^2 + Bx + C + \\frac{D}{x + 4} \\). Find the values of \\(A\\), \\(B\\), \\(C\\) and \\(D\\).",
+  solution: "\\(\\frac{2x^3 + 7x^2 - x + 4}{x+4} = 2x^2 - x + 3 - \\frac{8}{x+4}\\)"
+},
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{3x^3 - 5x^2 + 2x + 7}{x - 2} \\) can be written as \\( Ax^2 + Bx + C + \\frac{D}{x - 2} \\). Find the values of \\(A\\), \\(B\\), \\(C\\) and \\(D\\).",
+  solution: "\\(\\frac{3x^3 - 5x^2 + 2x + 7}{x-2} = 3x^2 + x + 4 + \\frac{15}{x-2}\\)"
+},
+
+
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "Express \\( \\frac{5x^3 - 2x^2 + 9x - 1}{x - 3} \\) in the form \\( Ax^2 + Bx + C + \\frac{D}{x - 3} \\).",
+  solution: "\\(\\frac{5x^3 - 2x^2 + 9x - 1}{x-3} = 5x^2 + 13x + 48 + \\frac{143}{x-3}\\)"
+},
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{7x^2 + 5x - 4}{x + 1} \\) can be written as \\( Ax + B + \\frac{C}{x + 1} \\).",
+  solution: "\\(\\frac{7x^2 + 5x - 4}{x+1} = 7x - 2 - \\frac{2}{x+1}\\)"
+},
+
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "Express \\( \\frac{2x^3 - 3x^2 + 4x + 11}{x + 3} \\) in the form \\( Ax^2 + Bx + C + \\frac{D}{x + 3} \\).",
+  solution: "\\(\\frac{2x^3 - 3x^2 + 4x + 11}{x+3} = 2x^2 - 9x + 31 - \\frac{82}{x+3}\\)"
+},
+
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{4x^2 + 7x - 3}{x + 2} \\) can be written as \\( Ax + B + \\frac{C}{x + 2} \\). Find the values of \\(A\\), \\(B\\) and \\(C\\).",
+  solution: "\\(\\frac{4x^2 + 7x - 3}{x+2} = 4x - 1 - \\frac{1}{x+2}\\)"
+},
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{9x^2 - x - 2}{x - 1} \\) can be written as \\( Ax + B + \\frac{C}{x - 1} \\). Find the values of \\(A\\), \\(B\\) and \\(C\\).",
+  solution: "\\(\\frac{9x^2 - x - 2}{x-1} = 9x + 8 + \\frac{6}{x-1}\\)"
+},
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "The expression \\( \\frac{2x^3 + 5x^2 - x - 3}{x + 1} \\) can be written as \\( Ax^2 + Bx + C + \\frac{D}{x + 1} \\). Find the values of \\(A\\), \\(B\\), \\(C\\) and \\(D\\).",
+  solution: "\\(\\frac{2x^3 + 5x^2 - x - 3}{x+1} = 2x^2 + 3x - 4 + \\frac{1}{x+1}\\)"
+},
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "Express \\( \\frac{4x^3 - x^2 - 7x + 3}{x - 2} \\) in the form \\( Ax^2 + Bx + C + \\frac{D}{x - 2} \\).",
+  solution: "\\(\\frac{4x^3 - x^2 - 7x + 3}{x-2} = 4x^2 + 7x + 7 + \\frac{17}{x-2}\\)"
+},
+{
+  topic: "Algebraic Division",
+  level: "Year 13",
+  question: "Express \\( \\frac{3x^3 + 4x^2 - 5x - 6}{x + 2} \\) in the form \\( Ax^2 + Bx + C + \\frac{D}{x + 2} \\).",
+  solution: "\\(\\frac{3x^3 + 4x^2 - 5x - 6}{x+2} = 3x^2 - 2x - 1 - \\frac{4}{x+2}\\)"
+},  
+
 {
   topic: "Differentiation - Implicit",
   level: "Year 13",

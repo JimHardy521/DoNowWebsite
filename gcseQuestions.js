@@ -7705,8 +7705,8 @@ const gcseQuestions = [
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>8, 15, 22, 29<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 71 in the sequence?<br>iv) What is the first term above 100?",
-  solution: "nth term: 7n + 1<br>30th term: 211<br>71 in sequence: Yes<br>First term above 100: 106"
+  question: "Find the nth term of the sequence:<br><br>8, 15, 22, 29<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 72 in the sequence?<br>iv) What is the first term above 100?",
+  solution: "nth term: 7n + 1<br>30th term: 211<br>72 in sequence: No<br>First term above 100: 106"
 },
 {
   topic: "Linear Sequences",
@@ -7717,14 +7717,14 @@ const gcseQuestions = [
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>4, 10, 16, 22<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 64 in the sequence?<br>iv) What is the first term above 100?",
-  solution: "nth term: 6n - 2<br>30th term: 178<br>64 in sequence: Yes<br>First term above 100: 106"
+  question: "Find the nth term of the sequence:<br><br>4, 10, 16, 22<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 66 in the sequence?<br>iv) What is the first term above 100?",
+  solution: "nth term: 6n - 2<br>30th term: 178<br>66 in sequence: No<br>First term above 100: 106"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>5, 9, 13, 17<br><br>ii) What is the 50th term of the sequence?<br>iii) Is 61 in the sequence?<br>iv) What is the first term above 80?",
-  solution: "nth term: 4n + 1<br>50th term: 201<br>61 in sequence: Yes<br>First term above 80: 81"
+  question: "Find the nth term of the sequence:<br><br>5, 9, 13, 17<br><br>ii) What is the 50th term of the sequence?<br>iii) Is 60 in the sequence?<br>iv) What is the first term above 80?",
+  solution: "nth term: 4n + 1<br>50th term: 201<br>60 in sequence: No<br>First term above 80: 81"
 },
 {
   topic: "Linear Sequences",
@@ -7747,8 +7747,8 @@ const gcseQuestions = [
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>2, 6, 10, 14<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 74 in the sequence?<br>iv) What is the first term above 90?",
-  solution: "nth term: 4n - 2<br>30th term: 118<br>74 in sequence: Yes<br>First term above 90: 94"
+  question: "Find the nth term of the sequence:<br><br>2, 6, 10, 14<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 72 in the sequence?<br>iv) What is the first term above 90?",
+  solution: "nth term: 4n - 2<br>30th term: 118<br>72 in sequence: No<br>First term above 90: 94"
 },
 {
   topic: "Linear Sequences",
@@ -7759,8 +7759,8 @@ const gcseQuestions = [
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>10, 17, 24, 31<br><br>ii) What is the 20th term of the sequence?<br>iii) Is 87 in the sequence?<br>iv) What is the first term above 100?",
-  solution: "nth term: 7n + 3<br>20th term: 143<br>87 in sequence: Yes<br>First term above 100: 101"
+  question: "Find the nth term of the sequence:<br><br>10, 17, 24, 31<br><br>ii) What is the 20th term of the sequence?<br>iii) Is 88 in the sequence?<br>iv) What is the first term above 100?",
+  solution: "nth term: 7n + 3<br>20th term: 143<br>88 in sequence: No<br>First term above 100: 101"
 },
 {
   topic: "Linear Sequences",

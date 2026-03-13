@@ -7695,78 +7695,81 @@ const gcseQuestions = [
   question: "Three numbers have a mean of 8. Two of the numbers are 5, 9. Work out the other number.",
   solution: "10"
 },
+
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>3, 6, 9, 12",
-  solution: "3n"
+  question: "Find the nth term of the sequence:<br><br>3, 6, 9, 12<br><br>ii) What is the 20th term of the sequence?<br>iii) Is 45 in the sequence?<br>iv) What is the first term above 90?",
+  solution: "nth term: 3n<br>20th term: 60<br>45 in sequence: Yes<br>First term above 90: 93"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>2, 5, 8, 11",
-  solution: "3n - 1"
+  question: "Find the nth term of the sequence:<br><br>2, 5, 8, 11<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 74 in the sequence?<br>iv) What is the first term above 100?",
+  solution: "nth term: 3n - 1<br>30th term: 89<br>74 in sequence: Yes<br>First term above 100: 101"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>5, 8, 11, 14",
-  solution: "3n + 2"
+  question: "Find the nth term of the sequence:<br><br>5, 8, 11, 14<br><br>ii) What is the 50th term of the sequence?<br>iii) Is 62 in the sequence?<br>iv) What is the first term above 80?",
+  solution: "nth term: 3n + 2<br>50th term: 152<br>62 in sequence: Yes<br>First term above 80: 83"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>7, 10, 13, 16",
-  solution: "3n + 4"
+  question: "Find the nth term of the sequence:<br><br>7, 10, 13, 16<br><br>ii) What is the 20th term of the sequence?<br>iii) Is 88 in the sequence?<br>iv) What is the first term above 100?",
+  solution: "nth term: 3n + 4<br>20th term: 64<br>88 in sequence: Yes<br>First term above 100: 103"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>4, 7, 10, 13",
-  solution: "3n + 1"
+  question: "Find the nth term of the sequence:<br><br>4, 7, 10, 13<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 55 in the sequence?<br>iv) What is the first term above 90?",
+  solution: "nth term: 3n + 1<br>30th term: 91<br>55 in sequence: Yes<br>First term above 90: 91"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>1, 3, 5, 7",
-  solution: "2n - 1"
+  question: "Find the nth term of the sequence:<br><br>1, 3, 5, 7<br><br>ii) What is the 50th term of the sequence?<br>iii) Is 64 in the sequence?<br>iv) What is the first term above 80?",
+  solution: "nth term: 2n - 1<br>50th term: 99<br>64 in sequence: No<br>First term above 80: 81"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>0, 4, 8, 12",
-  solution: "4n"
+  question: "Find the nth term of the sequence:<br><br>0, 4, 8, 12<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 76 in the sequence?<br>iv) What is the first term above 90?",
+  solution: "nth term: 4n - 4<br>30th term: 116<br>76 in sequence: Yes<br>First term above 90: 92"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>6, 9, 12, 15",
-  solution: "3n + 3"
+  question: "Find the nth term of the sequence:<br><br>6, 9, 12, 15<br><br>ii) What is the 20th term of the sequence?<br>iii) Is 72 in the sequence?<br>iv) What is the first term above 100?",
+  solution: "nth term: 3n + 3<br>20th term: 63<br>72 in sequence: Yes<br>First term above 100: 102"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>10, 13, 16, 19",
-  solution: "3n + 7"
+  question: "Find the nth term of the sequence:<br><br>10, 13, 16, 19<br><br>ii) What is the 50th term of the sequence?<br>iii) Is 70 in the sequence?<br>iv) What is the first term above 90?",
+  solution: "nth term: 3n + 7<br>50th term: 157<br>70 in sequence: Yes<br>First term above 90: 91"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>2, 6, 10, 14",
-  solution: "4n - 2"
+  question: "Find the nth term of the sequence:<br><br>2, 6, 10, 14<br><br>ii) What is the 30th term of the sequence?<br>iii) Is 58 in the sequence?<br>iv) What is the first term above 100?",
+  solution: "nth term: 4n - 2<br>30th term: 118<br>58 in sequence: Yes<br>First term above 100: 102"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>5, 10, 15, 20",
-  solution: "5n"
+  question: "Find the nth term of the sequence:<br><br>5, 10, 15, 20<br><br>ii) What is the 20th term of the sequence?<br>iii) Is 95 in the sequence?<br>iv) What is the first term above 90?",
+  solution: "nth term: 5n<br>20th term: 100<br>95 in sequence: Yes<br>First term above 90: 95"
 },
 {
   topic: "Linear Sequences",
   level: "Foundation",
-  question: "Find the nth term of the sequence:<br><br>3, 7, 11, 15",
-  solution: "4n - 1"
+  question: "Find the nth term of the sequence:<br><br>3, 7, 11, 15<br><br>ii) What is the 50th term of the sequence?<br>iii) Is 83 in the sequence?<br>iv) What is the first term above 80?",
+  solution: "nth term: 4n - 1<br>50th term: 199<br>83 in sequence: Yes<br>First term above 80: 83"
 },
+
+
 
 
 

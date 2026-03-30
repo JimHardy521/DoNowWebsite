@@ -1,5 +1,172 @@
 const gcseQuestions = [
 
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A jacket originally cost £75, and is now reduced to £48.<br>Calculate the percentage change.",
+  solution: "Change: £\\(48 - 75 = -27\\)<br>Percentage change: \\(\\frac{-27}{75} \\times 100 = -36\\%\\)<br>This is a 36% decrease."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A car originally cost £12,400, and is now reduced to £11,999.<br>Calculate the percentage change.",
+  solution: "Change: £\\(11999 - 12400 = -401\\)<br>Percentage change: \\(\\frac{-401}{12400} \\times 100 \\approx -3.23\\%\\)<br>This is a 3.23% decrease."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A phone originally cost £699, and is increased to £749.<br>Calculate the percentage change.",
+  solution: "Change: £\\(749 - 699 = 50\\)<br>Percentage change: \\(\\frac{50}{699} \\times 100 \\approx 7.15\\%\\)<br>This is a 7.15% increase."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A TV originally cost £825, and is now reduced to £699.<br>Calculate the percentage change.",
+  solution: "Change: £\\(699 - 825 = -126\\)<br>Percentage change: \\(\\frac{-126}{825} \\times 100 \\approx -15.27\\%\\)<br>This is a 15.27% decrease."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A bike, originally costing £540, is now increased in price to £615.<br>Calculate the percentage change.",
+  solution: "Change: £\\(615 - 540 = 75\\)<br>Percentage change: \\(\\frac{75}{540} \\times 100 \\approx 13.89\\%\\)<br>This is a 13.89% increase."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A laptop originally cost £1,250 and is now sold for £1,099.<br>Calculate the percentage change.",
+  solution: "Change: £\\(1099 - 1250 = -151\\)<br>Percentage change: \\(\\frac{-151}{1250} \\times 100 = -12.08\\%\\)<br>This is a 12.08% decrease."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A watch originally costing £180 is now sold for £215 a year later.<br>Calculate the percentage change.",
+  solution: "Change: £\\(215 - 180 = 35\\)<br>Percentage change: \\(\\frac{35}{180} \\times 100 \\approx 19.44\\%\\)<br>This is a 19.44% increase."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A sofa originally costing £950 is now reduced to £799.<br>Calculate the percentage change.",
+  solution: "Change: £\\(799 - 950 = -151\\)<br>Percentage change: \\(\\frac{-151}{950} \\times 100 \\approx -15.89\\%\\)<br>This is a 15.89% decrease."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A pair of trainers originally on offer at £65 now cost £72.50.<br>Calculate the percentage change.",
+  solution: "Change: £\\(72.50 - 65 = 7.50\\)<br>Percentage change: \\(\\frac{7.50}{65} \\times 100 \\approx 11.54\\%\\)<br>This is an 11.54% increase."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A table originally cost £320 and is now reduced to £278.<br>Calculate the percentage change.",
+  solution: "Change: £\\(278 - 320 = -42\\)<br>Percentage change: \\(\\frac{-42}{320} \\times 100 = -13.125\\%\\)<br>This is a 13.13% decrease (to 2 d.p.)."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A game console originally cost £499 and is now on special offer at £459.<br>Calculate the percentage change.",
+  solution: "Change: £\\(459 - 499 = -40\\)<br>Percentage change: \\(\\frac{-40}{499} \\times 100 \\approx -8.02\\%\\)<br>This is an 8.02% decrease."
+},
+
+{
+  topic: "Percentage Change - Calculator",
+  level: "Foundation",
+  question: "A holiday was on special offer at £1,350, and then is back advertised at its original price of £1,485.<br>Calculate the percentage change.",
+  solution: "Change: £\\(1485 - 1350 = 135\\)<br>Percentage change: \\(\\frac{135}{1350} \\times 100 = 10\\%\\)<br>This is a 10% increase."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A bike originally cost £240 and is now sold for £300.<br>Calculate the percentage change.",
+  solution: "Change: £\\(300 - 240 = 60\\)<br>Percentage change: \\(\\frac{60}{240} \\times 100 = 25\\%\\)<br>This is a 25% increase."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A TV originally cost £500 and is now sold for £425.<br>Calculate the percentage change.",
+  solution: "Change: £\\(425 - 500 = -75\\)<br>Percentage change: \\(\\frac{-75}{500} \\times 100 = -15\\%\\)<br>This is a 15% decrease."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A jacket originally cost £80 and is now sold for £100.<br>Calculate the percentage change.",
+  solution: "Change: £\\(100 - 80 = 20\\)<br>Percentage change: \\(\\frac{20}{80} \\times 100 = 25\\%\\)<br>This is a 25% increase."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A phone originally cost £600 and is now sold for £510.<br>Calculate the percentage change.",
+  solution: "Change: £\\(510 - 600 = -90\\)<br>Percentage change: \\(\\frac{-90}{600} \\times 100 = -15\\%\\)<br>This is a 15% decrease."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A table originally cost £150 and is now sold for £195.<br>Calculate the percentage change.",
+  solution: "Change: £\\(195 - 150 = 45\\)<br>Percentage change: \\(\\frac{45}{150} \\times 100 = 30\\%\\)<br>This is a 30% increase."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A pair of shoes originally cost £70 and is now sold for £56.<br>Calculate the percentage change.",
+  solution: "Change: £\\(56 - 70 = -14\\)<br>Percentage change: \\(\\frac{-14}{70} \\times 100 = -20\\%\\)<br>This is a 20% decrease."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A laptop originally cost £800 and is now sold for £920.<br>Calculate the percentage change.",
+  solution: "Change: £\\(920 - 800 = 120\\)<br>Percentage change: \\(\\frac{120}{800} \\times 100 = 15\\%\\)<br>This is a 15% increase."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A chair originally cost £45 and is now sold for £36.<br>Calculate the percentage change.",
+  solution: "Change: £\\(36 - 45 = -9\\)<br>Percentage change: \\(\\frac{-9}{45} \\times 100 = -20\\%\\)<br>This is a 20% decrease."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A watch originally cost £120 and is now sold for £150.<br>Calculate the percentage change.",
+  solution: "Change: £\\(150 - 120 = 30\\)<br>Percentage change: \\(\\frac{30}{120} \\times 100 = 25\\%\\)<br>This is a 25% increase."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A bag originally cost £200 and is now sold for £170.<br>Calculate the percentage change.",
+  solution: "Change: £\\(170 - 200 = -30\\)<br>Percentage change: \\(\\frac{-30}{200} \\times 100 = -15\\%\\)<br>This is a 15% decrease."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A bike originally cost £360 and is now sold for £450.<br>Calculate the percentage change.",
+  solution: "Change: £\\(450 - 360 = 90\\)<br>Percentage change: \\(\\frac{90}{360} \\times 100 = 25\\%\\)<br>This is a 25% increase."
+},
+
+{
+  topic: "Percentage Change - Non-Calc",
+  level: "Foundation",
+  question: "A game originally cost £50 and is now sold for £40.<br>Calculate the percentage change.",
+  solution: "Change: £\\(40 - 50 = -10\\)<br>Percentage change: \\(\\frac{-10}{50} \\times 100 = -20\\%\\)<br>This is a 20% decrease."
+},
 
   {
     topic: "Propotion - Currency Conversions",

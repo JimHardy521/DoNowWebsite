@@ -216,33 +216,217 @@
     // Step 1 image bank. For now this uses emoji-style symbols so it works immediately.
     // Later, each item can point to a real image file, e.g. images/A/apple.png.
     const imageBank = {
-      A: [{ name: "apple", symbol: "🍎" }, { name: "airplane", symbol: "✈️" }, { name: "ant", symbol: "🐜" }],
-      B: [{ name: "ball", symbol: "⚽" }, { name: "banana", symbol: "🍌" }, { name: "boat", symbol: "⛵" }],
-      C: [{ name: "cat", symbol: "🐱" }, { name: "cake", symbol: "🍰" }, { name: "car", symbol: "🚗" }],
-      D: [{ name: "dog", symbol: "🐶" }, { name: "duck", symbol: "🦆" }, { name: "door", symbol: "🚪" }],
-      E: [{ name: "elephant", symbol: "🐘" }, { name: "egg", symbol: "🥚" }, { name: "ear", symbol: "👂" }],
-      F: [{ name: "fork", symbol: "🍴" }, { name: "fish", symbol: "🐟" }, { name: "flower", symbol: "🌸" }],
-      G: [{ name: "grapes", symbol: "🍇" }, { name: "goat", symbol: "🐐" }, { name: "gift", symbol: "🎁" }],
-      H: [{ name: "hat", symbol: "🎩" }, { name: "house", symbol: "🏠" }, { name: "horse", symbol: "🐴" }],
-      I: [{ name: "ice cream", symbol: "🍦" }, { name: "igloo", symbol: "🏠" }, { name: "insect", symbol: "🐞" }],
-      J: [{ name: "jam", symbol: "🍓" }, { name: "jacket", symbol: "🧥" }],
-      K: [{ name: "key", symbol: "🔑" }, { name: "kite", symbol: "🪁" }, { name: "kangaroo", symbol: "🦘" }],
-      L: [{ name: "leaf", symbol: "🍃" }, { name: "lion", symbol: "🦁" }, { name: "lamp", symbol: "💡" }],
-      M: [{ name: "money", symbol: "💵" }, { name: "monkey", symbol: "🐵" }, { name: "moon", symbol: "🌙" }],
-      N: [{ name: "nest", symbol: "🪺" }, { name: "nose", symbol: "👃" }, { name: "nail", symbol: "🔩" }],
-      O: [{ name: "orange", symbol: "🍊" }, { name: "owl", symbol: "🦉" }, { name: "octopus", symbol: "🐙" }],
-      P: [{ name: "pig", symbol: "🐷" }, { name: "pencil", symbol: "✏️" }, { name: "pizza", symbol: "🍕" }],
-      Q: [{ name: "queen", symbol: "👑" }],
-      R: [{ name: "rain", symbol: "🌧️" }, { name: "rabbit", symbol: "🐰" }, { name: "ring", symbol: "💍" }],
-      S: [{ name: "sun", symbol: "☀️" }, { name: "star", symbol: "⭐" }, { name: "snake", symbol: "🐍" }],
-      T: [{ name: "tiger", symbol: "🐯" }, { name: "tree", symbol: "🌳" }, { name: "toe", symbol: "🦶" }],
-      U: [{ name: "umbrella", symbol: "☂️" }],
-      V: [{ name: "van", symbol: "🚐" }, { name: "violin", symbol: "🎻" }],
-      W: [{ name: "wall", symbol: "🧱" }, { name: "watch", symbol: "⌚" }, { name: "water", symbol: "💧" }],
-      X: [{ name: "x-ray", symbol: "🩻" }],
-      Y: [{ name: "yoyo", symbol: "🪀" }],
-      Z: [{ name: "zebra", symbol: "🦓" }, { name: "zip", symbol: "🤐" }]
-    };
+  A: [
+    { name: "apple", symbol: "🍎" },
+    { name: "airplane", symbol: "✈️" },
+    { name: "ant", symbol: "🐜" },
+    { name: "alien", symbol: "👽" },
+    { name: "avocado", symbol: "🥑" },
+    { name: "anchor", symbol: "⚓" },
+    { name: "ambulance", symbol: "🚑" }
+  ],
+
+  B: [
+    { name: "ball", symbol: "⚽" },
+    { name: "banana", symbol: "🍌" },
+    { name: "boat", symbol: "⛵" },
+    { name: "bee", symbol: "🐝" },
+    { name: "bear", symbol: "🐻" },
+    { name: "bread", symbol: "🍞" },
+    { name: "bus", symbol: "🚌" },
+    { name: "book", symbol: "📘" }
+  ],
+
+  C: [
+    { name: "cat", symbol: "🐱" },
+    { name: "cake", symbol: "🍰" },
+    { name: "car", symbol: "🚗" },
+    { name: "cow", symbol: "🐮" },
+    { name: "crab", symbol: "🦀" },
+    { name: "cookie", symbol: "🍪" },
+    { name: "crown", symbol: "👑" },
+    { name: "cloud", symbol: "☁️" }
+  ],
+
+  D: [
+    { name: "dog", symbol: "🐶" },
+    { name: "duck", symbol: "🦆" },
+    { name: "door", symbol: "🚪" },
+    { name: "dinosaur", symbol: "🦖" },
+    { name: "dragon", symbol: "🐉" },
+    { name: "drum", symbol: "🥁" },
+    { name: "diamond", symbol: "💎" }
+  ],
+
+  E: [
+    { name: "elephant", symbol: "🐘" },
+    { name: "egg", symbol: "🥚" },
+    { name: "ear", symbol: "👂" },
+    { name: "envelope", symbol: "✉️" },
+    { name: "earth", symbol: "🌍" },
+    { name: "eagle", symbol: "🦅" }
+  ],
+
+  F: [
+    { name: "fork", symbol: "🍴" },
+    { name: "fish", symbol: "🐟" },
+    { name: "flower", symbol: "🌸" },
+    { name: "frog", symbol: "🐸" },
+    { name: "fire", symbol: "🔥" },
+    { name: "football", symbol: "🏈" },
+    { name: "fox", symbol: "🦊" }
+  ],
+
+  G: [
+    { name: "grapes", symbol: "🍇" },
+    { name: "goat", symbol: "🐐" },
+    { name: "gift", symbol: "🎁" },
+    { name: "ghost", symbol: "👻" },
+    { name: "guitar", symbol: "🎸" },
+    { name: "glasses", symbol: "👓" }
+  ],
+
+  H: [
+    { name: "hat", symbol: "🎩" },
+    { name: "house", symbol: "🏠" },
+    { name: "horse", symbol: "🐴" },
+    { name: "hamburger", symbol: "🍔" },
+    { name: "heart", symbol: "❤️" },
+    { name: "helicopter", symbol: "🚁" }
+  ],
+
+  I: [
+    { name: "ice cream", symbol: "🍦" },
+    { name: "igloo", symbol: "🧊" },
+    { name: "insect", symbol: "🐞" },
+    { name: "island", symbol: "🏝️" }
+  ],
+
+  J: [
+    { name: "jam", symbol: "🍓" },
+    { name: "jacket", symbol: "🧥" },
+    { name: "jellyfish", symbol: "🎐" },
+    { name: "jeans", symbol: "👖" }
+  ],
+
+  K: [
+    { name: "key", symbol: "🔑" },
+    { name: "kite", symbol: "🪁" },
+    { name: "kangaroo", symbol: "🦘" },
+    { name: "koala", symbol: "🐨" },
+    { name: "kiwi", symbol: "🥝" }
+  ],
+
+  L: [
+    { name: "leaf", symbol: "🍃" },
+    { name: "lion", symbol: "🦁" },
+    { name: "lamp", symbol: "💡" },
+    { name: "lock", symbol: "🔒" },
+    { name: "lollipop", symbol: "🍭" }
+  ],
+
+  M: [
+    { name: "money", symbol: "💵" },
+    { name: "monkey", symbol: "🐵" },
+    { name: "moon", symbol: "🌙" },
+    { name: "mouse", symbol: "🐭" },
+    { name: "milk", symbol: "🥛" },
+    { name: "motorbike", symbol: "🏍️" }
+  ],
+
+  N: [
+    { name: "nest", symbol: "🪺" },
+    { name: "nose", symbol: "👃" },
+    { name: "nail", symbol: "🔩" },
+    { name: "night", symbol: "🌃" },
+    { name: "noodles", symbol: "🍜" }
+  ],
+
+  O: [
+    { name: "orange", symbol: "🍊" },
+    { name: "owl", symbol: "🦉" },
+    { name: "octopus", symbol: "🐙" },
+    { name: "ocean", symbol: "🌊" },
+    { name: "onion", symbol: "🧅" }
+  ],
+
+  P: [
+    { name: "pig", symbol: "🐷" },
+    { name: "pencil", symbol: "✏️" },
+    { name: "pizza", symbol: "🍕" },
+    { name: "penguin", symbol: "🐧" },
+    { name: "panda", symbol: "🐼" },
+    { name: "pear", symbol: "🍐" }
+  ],
+
+  Q: [
+    { name: "queen", symbol: "👑" },
+    { name: "question", symbol: "❓" }
+  ],
+
+  R: [
+    { name: "rain", symbol: "🌧️" },
+    { name: "rabbit", symbol: "🐰" },
+    { name: "ring", symbol: "💍" },
+    { name: "rocket", symbol: "🚀" },
+    { name: "robot", symbol: "🤖" },
+    { name: "rainbow", symbol: "🌈" }
+  ],
+
+  S: [
+    { name: "sun", symbol: "☀️" },
+    { name: "star", symbol: "⭐" },
+    { name: "snake", symbol: "🐍" },
+    { name: "sock", symbol: "🧦" },
+    { name: "snowman", symbol: "⛄" },
+    { name: "sandwich", symbol: "🥪" }
+  ],
+
+  T: [
+    { name: "tiger", symbol: "🐯" },
+    { name: "tree", symbol: "🌳" },
+    { name: "toe", symbol: "🦶" },
+    { name: "train", symbol: "🚂" },
+    { name: "turtle", symbol: "🐢" },
+    { name: "telephone", symbol: "☎️" }
+  ],
+
+  U: [
+    { name: "umbrella", symbol: "☂️" },
+    { name: "unicorn", symbol: "🦄" }
+  ],
+
+  V: [
+    { name: "van", symbol: "🚐" },
+    { name: "violin", symbol: "🎻" },
+    { name: "volcano", symbol: "🌋" }
+  ],
+
+  W: [
+    { name: "wall", symbol: "🧱" },
+    { name: "watch", symbol: "⌚" },
+    { name: "water", symbol: "💧" },
+    { name: "whale", symbol: "🐋" },
+    { name: "watermelon", symbol: "🍉" }
+  ],
+
+  X: [
+    { name: "x-ray", symbol: "🩻" },
+    { name: "xylophone", symbol: "🎼" }
+  ],
+
+  Y: [
+    { name: "yoyo", symbol: "🪀" },
+    { name: "yarn", symbol: "🧶" },
+    { name: "yak", symbol: "🐂" }
+  ],
+
+  Z: [
+    { name: "zebra", symbol: "🦓" },
+    { name: "zip", symbol: "🤐" },
+    { name: "zzz", symbol: "💤" }
+  ]
+};
 
     const colours = ["#7b1fa2", "#2e7d32", "#1565c0", "#ef6c00"];
 

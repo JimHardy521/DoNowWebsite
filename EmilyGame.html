@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Word Cloud Worksheet Maker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f8;
+      color: #222;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .controls {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .word-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 22px;
+      padding: 10px;
+      text-transform: uppercase;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      margin-top: 16px;
+      padding: 12px 18px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background: #6a1b9a;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #4a1170;
+    }
+
+    .preview-title {
+      text-align: center;
+      margin-top: 24px;
+    }
+
+    #worksheet {
+      width: 1123px;
+      height: 794px;
+      margin: 20px auto;
+      background: white;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 14px;
+      padding: 18px;
+      box-sizing: border-box;
+    }
+
+    .panel {
+      border: 4px solid var(--theme);
+      border-radius: 22px;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+
+    .thought {
+      position: absolute;
+      left: 70px;
+      top: 28px;
+      width: 390px;
+      height: 118px;
+    }
+
+    .thought svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+
+    .thought-word {
+      position: absolute;
+      left: 70px;
+      top: 58px;
+      width: 390px;
+      text-align: center;
+      color: var(--theme);
+      font-size: 38px;
+      letter-spacing: 12px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .person {
+      position: absolute;
+      left: 225px;
+      top: 165px;
+      width: 90px;
+      height: 120px;
+    }
+
+    .person svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .object-row {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 24px;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      gap: 8px;
+    }
+
+    .object-item {
+      width: 72px;
+      text-align: center;
+    }
+
+    .object-emoji {
+      font-size: 48px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .answer-box {
+      width: 44px;
+      height: 44px;
+      border: 3px solid var(--theme);
+      border-radius: 8px;
+      margin: 8px auto 0;
+    }
+
+    .small-bubble {
+      position: absolute;
+      border: 4px solid var(--theme);
+      border-radius: 50%;
+      background: white;
+    }
+
+    .bubble1 { left: 285px; top: 145px; width: 20px; height: 20px; }
+    .bubble2 { left: 305px; top: 122px; width: 28px; height: 28px; }
+
+    @media print {
+      body { background: white; }
+      header, .controls, .preview-title { display: none; }
+      #worksheet { margin: 0; width: 100vw; height: 100vh; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Word Cloud Worksheet Maker</h1>
+    <p>Type four words, then make a printable worksheet preview.</p>
+  </header>
+
+  <section class="controls">
+    <div class="word-grid">
+      <div>
+        <label for="word1">Word 1</label>
+        <input id="word1" value="TRAIN" />
+      </div>
+      <div>
+        <label for="word2">Word 2</label>
+        <input id="word2" value="FLOWER" />
+      </div>
+      <div>
+        <label for="word3">Word 3</label>
+        <input id="word3" value="MONKEY" />
+      </div>
+      <div>
+        <label for="word4">Word 4</label>
+        <input id="word4" value="PLANET" />
+      </div>
+    </div>
+    <button onclick="makeWorksheet()">Make Worksheet</button>
+    <button onclick="window.print()">Print / Save as PDF</button>
+  </section>
+
+  <h2 class="preview-title">Preview</h2>
+  <main id="worksheet"></main>
+
+  <script>
+    // Step 1 image bank. For now this uses emoji-style symbols so it works immediately.
+    // Later, each item can point to a real image file, e.g. images/A/apple.png.
+    const imageBank = {
+      A: [{ name: "apple", symbol: "🍎" }, { name: "airplane", symbol: "✈️" }, { name: "ant", symbol: "🐜" }],
+      B: [{ name: "ball", symbol: "⚽" }, { name: "banana", symbol: "🍌" }, { name: "boat", symbol: "⛵" }],
+      C: [{ name: "cat", symbol: "🐱" }, { name: "cake", symbol: "🍰" }, { name: "car", symbol: "🚗" }],
+      D: [{ name: "dog", symbol: "🐶" }, { name: "duck", symbol: "🦆" }, { name: "door", symbol: "🚪" }],
+      E: [{ name: "elephant", symbol: "🐘" }, { name: "egg", symbol: "🥚" }, { name: "ear", symbol: "👂" }],
+      F: [{ name: "fork", symbol: "🍴" }, { name: "fish", symbol: "🐟" }, { name: "flower", symbol: "🌸" }],
+      G: [{ name: "grapes", symbol: "🍇" }, { name: "goat", symbol: "🐐" }, { name: "gift", symbol: "🎁" }],
+      H: [{ name: "hat", symbol: "🎩" }, { name: "house", symbol: "🏠" }, { name: "horse", symbol: "🐴" }],
+      I: [{ name: "ice cream", symbol: "🍦" }, { name: "igloo", symbol: "🏠" }, { name: "insect", symbol: "🐞" }],
+      J: [{ name: "jam", symbol: "🍓" }, { name: "jacket", symbol: "🧥" }],
+      K: [{ name: "key", symbol: "🔑" }, { name: "kite", symbol: "🪁" }, { name: "kangaroo", symbol: "🦘" }],
+      L: [{ name: "leaf", symbol: "🍃" }, { name: "lion", symbol: "🦁" }, { name: "lamp", symbol: "💡" }],
+      M: [{ name: "money", symbol: "💵" }, { name: "monkey", symbol: "🐵" }, { name: "moon", symbol: "🌙" }],
+      N: [{ name: "nest", symbol: "🪺" }, { name: "nose", symbol: "👃" }, { name: "nail", symbol: "🔩" }],
+      O: [{ name: "orange", symbol: "🍊" }, { name: "owl", symbol: "🦉" }, { name: "octopus", symbol: "🐙" }],
+      P: [{ name: "pig", symbol: "🐷" }, { name: "pencil", symbol: "✏️" }, { name: "pizza", symbol: "🍕" }],
+      Q: [{ name: "queen", symbol: "👑" }],
+      R: [{ name: "rain", symbol: "🌧️" }, { name: "rabbit", symbol: "🐰" }, { name: "ring", symbol: "💍" }],
+      S: [{ name: "sun", symbol: "☀️" }, { name: "star", symbol: "⭐" }, { name: "snake", symbol: "🐍" }],
+      T: [{ name: "tiger", symbol: "🐯" }, { name: "tree", symbol: "🌳" }, { name: "toe", symbol: "🦶" }],
+      U: [{ name: "umbrella", symbol: "☂️" }],
+      V: [{ name: "van", symbol: "🚐" }, { name: "violin", symbol: "🎻" }],
+      W: [{ name: "wall", symbol: "🧱" }, { name: "watch", symbol: "⌚" }, { name: "water", symbol: "💧" }],
+      X: [{ name: "x-ray", symbol: "🩻" }],
+      Y: [{ name: "yoyo", symbol: "🪀" }],
+      Z: [{ name: "zebra", symbol: "🦓" }, { name: "zip", symbol: "🤐" }]
+    };
+
+    const colours = ["#7b1fa2", "#2e7d32", "#1565c0", "#ef6c00"];
+
+    function randomFrom(list) {
+      return list[Math.floor(Math.random() * list.length)];
+    }
+
+    function getObjectsForWord(word) {
+      return word.split("").map(letter => {
+        const choices = imageBank[letter];
+        if (!choices || choices.length === 0) {
+          return { name: letter, symbol: "?" };
+        }
+        return randomFrom(choices);
+      });
+    }
+
+    function displayWordPattern(word) {
+      const letters = word.split("");
+      return letters[0] + " " + letters.slice(1).map(() => "_").join(" ");
+    }
+
+    function thoughtBubbleSvg(colour) {
+      return `
+        <svg viewBox="0 0 420 130" aria-hidden="true">
+          <path d="M52 80
+            C20 80, 15 35, 55 35
+            C70 5, 120 10, 135 30
+            C155 0, 215 5, 225 30
+            C255 0, 315 10, 315 38
+            C360 25, 395 55, 365 88
+            C350 118, 295 115, 285 96
+            C260 125, 205 120, 195 98
+            C170 120, 118 115, 115 95
+            C90 118, 45 110, 52 80 Z"
+            fill="white" stroke="${colour}" stroke-width="5" />
+        </svg>`;
+    }
+
+    function personSvg(colour) {
+      return `
+        <svg viewBox="0 0 100 130" aria-hidden="true">
+          <circle cx="50" cy="22" r="18" fill="white" stroke="${colour}" stroke-width="5"/>
+          <circle cx="44" cy="18" r="2.5" fill="${colour}"/>
+          <circle cx="56" cy="18" r="2.5" fill="${colour}"/>
+          <path d="M42 28 Q50 36 58 28" fill="none" stroke="${colour}" stroke-width="4" stroke-linecap="round"/>
+          <path d="M50 40 L50 82" stroke="${colour}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M50 50 L20 75" stroke="${colour}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M50 50 L80 75" stroke="${colour}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M50 82 L30 120" stroke="${colour}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M50 82 L70 120" stroke="${colour}" stroke-width="6" stroke-linecap="round"/>
+        </svg>`;
+    }
+
+    function makePanel(word, colour) {
+      const cleanWord = word.toUpperCase().replace(/[^A-Z]/g, "");
+      const objects = getObjectsForWord(cleanWord);
+
+      return `
+        <section class="panel" style="--theme:${colour}">
+          <div class="thought">${thoughtBubbleSvg(colour)}</div>
+          <div class="thought-word">${displayWordPattern(cleanWord)}</div>
+          <div class="small-bubble bubble1"></div>
+          <div class="small-bubble bubble2"></div>
+          <div class="person">${personSvg(colour)}</div>
+          <div class="object-row">
+            ${objects.map(obj => `
+              <div class="object-item" title="${obj.name}">
+                <div class="object-emoji">${obj.symbol}</div>
+                <div class="answer-box"></div>
+              </div>
+            `).join("")}
+          </div>
+        </section>
+      `;
+    }
+
+    function makeWorksheet() {
+      const words = [
+        document.getElementById("word1").value,
+        document.getElementById("word2").value,
+        document.getElementById("word3").value,
+        document.getElementById("word4").value
+      ];
+
+      const worksheet = document.getElementById("worksheet");
+      worksheet.innerHTML = words.map((word, index) => makePanel(word, colours[index])).join("");
+    }
+
+    makeWorksheet();
+  </script>
+</body>
+</html>

@@ -1,5 +1,65 @@
 const gcseQuestions = [
-
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(72\\) by to give a cube number.",
+  solution: "\\(72 = 2^3 \\times 3^2\\)<br>To make a cube number, each prime factor must have a power that is a multiple of 3.<br>We need one more factor of \\(3\\).<br>Smallest multiplier = \\(3\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(90\\) by to give a cube number.",
+  solution: "\\(90 = 2 \\times 3^2 \\times 5\\)<br>We need \\(2^2\\), \\(3\\) and \\(5^2\\) to make all powers multiples of 3.<br>Smallest multiplier = \\(2^2 \\times 3 \\times 5^2 = 300\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(200\\) by to give a cube number.",
+  solution: "\\(200 = 2^3 \\times 5^2\\)<br>We need one more factor of \\(5\\).<br>Smallest multiplier = \\(5\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(250\\) by to give a cube number.",
+  solution: "\\(250 = 2 \\times 5^3\\)<br>We need \\(2^2\\) so that the power of 2 becomes 3.<br>Smallest multiplier = \\(4\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(540\\) by to give a cube number.",
+  solution: "\\(540 = 2^2 \\times 3^3 \\times 5\\)<br>We need one more factor of \\(2\\) and two more factors of \\(5\\).<br>Smallest multiplier = \\(2 \\times 5^2 = 50\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(432\\) by to give a cube number.",
+  solution: "\\(432 = 2^4 \\times 3^3\\)<br>We need two more factors of \\(2\\) so that the power of 2 becomes 6.<br>Smallest multiplier = \\(2^2 = 4\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(980\\) by to give a cube number.",
+  solution: "\\(980 = 2^2 \\times 5 \\times 7^2\\)<br>We need one more factor of \\(2\\), two more factors of \\(5\\), and one more factor of \\(7\\).<br>Smallest multiplier = \\(2 \\times 5^2 \\times 7 = 350\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(675\\) by to give a cube number.",
+  solution: "\\(675 = 3^3 \\times 5^2\\)<br>We need one more factor of \\(5\\).<br>Smallest multiplier = \\(5\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(1176\\) by to give a cube number.",
+  solution: "\\(1176 = 2^3 \\times 3 \\times 7^2\\)<br>We need \\(3^2\\) and one more factor of \\(7\\).<br>Smallest multiplier = \\(3^2 \\times 7 = 63\\)."
+},
+{
+  topic: "Prime Factors - to Make a Cube",
+  level: "Crossover",
+  question: "Find the smallest number to multiply \\(2520\\) by to give a cube number.",
+  solution: "\\(2520 = 2^3 \\times 3^2 \\times 5 \\times 7\\)<br>We need one more factor of \\(3\\), two more factors of \\(5\\), and two more factors of \\(7\\).<br>Smallest multiplier = \\(3 \\times 5^2 \\times 7^2 = 3675\\)."
+},
+  
 {
   topic: "Percentage Change - Calculator",
   level: "Foundation",

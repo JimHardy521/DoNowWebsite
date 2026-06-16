@@ -1,4 +1,73 @@
 const gcseQuestions = [
+
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "4-digit integers are made using 4 different digits. The digits are chosen from \\(1,2,3,4,5,6\\). How many odd numbers can be made?",
+  solution: "The last digit must be odd: \\(1,3,5\\) so there are \\(3\\) choices.<br>There are then \\(5\\) choices for the first digit, \\(4\\) for the second and \\(3\\) for the third.<br>Total = \\(3 \\times 5 \\times 4 \\times 3 = 180\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A 4-digit code is formed using the digits \\(1\\) to \\(9\\). Digits may be repeated. The first digit is even and the last digit is greater than 6. How many different codes are possible?",
+  solution: "First digit: \\(4\\) choices (2,4,6,8).<br>Middle two digits: \\(9\\) choices each.<br>Last digit: \\(3\\) choices (7,8,9).<br>Total = \\(4 \\times 9 \\times 9 \\times 3 = 972\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A 5-digit integer is formed using the digits \\(1,2,3,4,5,6,7\\). Digits cannot be repeated. The number is even and greater than \\(50000\\). How many such numbers are possible?",
+  solution: "First digit must be \\(5,6\\) or \\(7\\).<br>Case 1: First digit is \\(5\\) or \\(7\\) (2 choices). Last digit must be even (3 choices). Remaining digits: \\(5 \\times 4 \\times 3\\). Total = \\(2 \\times 3 \\times 5 \\times 4 \\times 3 = 360\\).<br>Case 2: First digit is \\(6\\). Last digit can be \\(2\\) or \\(4\\) (2 choices). Remaining digits: \\(5 \\times 4 \\times 3\\). Total = \\(1 \\times 2 \\times 5 \\times 4 \\times 3 = 120\\).<br>Total = \\(360 + 120 = 480\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A password consists of 2 letters followed by 3 digits. Letters are chosen from \\(A\\) to \\(Z\\) and digits from \\(0\\) to \\(9\\). Repetition is allowed. How many passwords are possible?",
+  solution: "Letters: \\(26 \\times 26\\) choices.<br>Digits: \\(10 \\times 10 \\times 10\\) choices.<br>Total = \\(26^2 \\times 10^3 = 676000\\)."
+},
+
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A 3-digit integer is formed. The hundreds digit is a prime number and the units digit is a factor of 18. How many different integers can be formed?",
+  solution: "Hundreds digit: primes \\(2,3,5,7\\), so \\(4\\) choices.<br>Tens digit: \\(10\\) choices.<br>Units digit: factors of 18 that are digits are \\(1,2,3,6,9\\), so \\(5\\) choices.<br>Total = \\(4 \\times 10 \\times 5 = 200\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A set of 5-digit integers each have a first digit less than 4 and a last digit that is even. What is the greatest possible number of integers in the set?",
+  solution: "First digit can be \\(1,2,3\\), so \\(3\\) choices.<br>Middle three digits each have \\(10\\) choices.<br>Last digit can be \\(0,2,4,6,8\\), so \\(5\\) choices.<br>Total = \\(3 \\times 10 \\times 10 \\times 10 \\times 5 = 15000\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A number plate consists of 3 letters followed by 2 digits. Letters cannot be repeated but digits may repeat. How many different number plates are possible?",
+  solution: "Letters: \\(26 \\times 25 \\times 24\\).<br>Digits: \\(10 \\times 10\\).<br>Total = \\(26 \\times 25 \\times 24 \\times 10 \\times 10 = 1560000\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "4-digit integers are formed using the digits \\(2,3,4,5,6,7\\). Digits may not be repeated. How many are divisible by 5?",
+  solution: "A number divisible by 5 must end in \\(5\\).<br>Last digit fixed.<br>First three positions can be filled using the remaining 5 digits in \\(5 \\times 4 \\times 3\\) ways.<br>Total = \\(60\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A 5-digit integer has different digits. The first digit is greater than 5 and the last digit is a factor of 20. The digits are chosen from \\(1,2,3,4,5,6,7,8,9\\). How many such integers can be formed?",
+  solution: "First digit: \\(6,7,8,9\\), so \\(4\\) choices.<br>Last digit must be a digit factor of 20: \\(1,2,4,5\\), so \\(4\\) choices.<br>These sets do not overlap, giving \\(4 \\times 4 = 16\\) choices for first and last digits.<br>Middle three positions: \\(7 \\times 6 \\times 5\\).<br>Total = \\(16 \\times 7 \\times 6 \\times 5 = 3360\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A 4-digit code is formed using the digits \\(0\\) to \\(9\\). The code must contain exactly one digit greater than 7. How many different codes are possible?",
+  solution: "Digits greater than 7 are \\(8\\) and \\(9\\).<br>Choose the position of this digit: \\(4\\) ways.<br>Choose the digit: \\(2\\) ways.<br>The remaining positions must use digits \\(0\\) to \\(7\\): \\(8^3\\) ways.<br>Total = \\(4 \\times 2 \\times 8^3 = 4096\\)."
+},
+{
+  topic: "Product Rule for Counting",
+  level: "Higher",
+  question: "A 6-digit integer is formed using the digits \\(1,2,3,4,5,6,7,8\\). Digits may not be repeated. The first digit is even and the last digit is odd. How many such integers can be formed?",
+  solution: "First digit: \\(4\\) even choices.<br>Last digit: \\(4\\) odd choices.<br>After choosing these, there are \\(6\\) digits left for the middle four positions.<br>Middle positions: \\(6 \\times 5 \\times 4 \\times 3\\).<br>Total = \\(4 \\times 4 \\times 6 \\times 5 \\times 4 \\times 3 = 5760\\)."
+},  
+  
 {
   topic: "Prime Factors - to Make a Cube",
   level: "Crossover",

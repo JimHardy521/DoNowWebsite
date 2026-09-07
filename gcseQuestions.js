@@ -6721,7 +6721,7 @@ const gcseQuestions = [
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{5}{8}\\) ☐ 0.625",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{5}{8}\\) ☐ 0.624",
   solution: ">"
 },
 {
@@ -6745,13 +6745,13 @@ const gcseQuestions = [
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{11}{20}\\) ☐ 0.55",
+  question: "Put the correct inequality (< or >) between the two values: \\(\\frac{11}{20}\\) ☐ 0.56",
   solution: ">"
 },
 {
   topic: "FDP - Comparing",
   level: "Foundation",
-  question: "Put the correct inequality (< or >) between the two values: 0.8 ☐ \\(\\frac{4}{5}\\)",
+  question: "Put the correct inequality (< or >) between the two values: 0.81 ☐ \\(\\frac{4}{5}\\)",
   solution: "="
 },
 {

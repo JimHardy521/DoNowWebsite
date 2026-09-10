@@ -1,5 +1,76 @@
 const gcseQuestions = [
-
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between 2.4 and 6.8?",
+  solution: "4.6"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between 1.25 and 5.75?",
+  solution: "3.5"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between 3.6 and 8.2?",
+  solution: "5.9"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between 0.8 and 4.6?",
+  solution: "2.7"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between 2.35 and 7.15?",
+  solution: "4.75"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between 4.21 and 9.86?",
+  solution: "7.03"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between -3.14 and 8.86?",
+  solution: "2.86"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between -2.5 and 7.5?",
+  solution: "2.5"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between -6.4 and 3.6?",
+  solution: "-1.4"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between -1.75 and 6.25?",
+  solution: "2.25"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between -4.8 and 9.2?",
+  solution: "2.2"
+},
+{
+  topic: "Decimals - In Between",
+  level: "Crossover",
+  question: "What number is halfway between -7.35 and 2.65?",
+  solution: "-2.35"
+},
 {
   topic: "Product Rule for Counting",
   level: "Higher",

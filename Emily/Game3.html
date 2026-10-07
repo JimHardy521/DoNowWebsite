@@ -1,0 +1,793 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number Line Challenge</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        background: #f4f7ff;
+        color: #24304a;
+    }
+
+    .game {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 42px;
+        margin: 10px 0 5px;
+        color: #4b5fc1;
+    }
+
+    .instructions {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .question {
+        background: white;
+        border-radius: 18px;
+        padding: 18px 25px 25px;
+        margin-bottom: 18px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .question-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    .target {
+        display: inline-block;
+        background: #ffe082;
+        border-radius: 12px;
+        padding: 8px 15px;
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+
+    .line-area {
+        position: relative;
+        height: 115px;
+        margin: 5px 10px 0;
+    }
+
+    .number-line {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 58px;
+        height: 6px;
+        background: #34495e;
+        border-radius: 5px;
+    }
+
+    .number {
+        position: absolute;
+        top: 72px;
+        transform: translateX(-50%);
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .number.start {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .number.end {
+        left: 100%;
+    }
+
+    /*
+       The child's draggable arrow
+    */
+    .arrow {
+        position: absolute;
+        top: 5px;
+        width: 45px;
+        height: 48px;
+        transform: translateX(-50%);
+        cursor: grab;
+        user-select: none;
+        touch-action: none;
+        z-index: 5;
+    }
+
+    .arrow:active {
+        cursor: grabbing;
+    }
+
+    .arrow-head {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 18px solid #e85d75;
+    }
+
+    .arrow-shaft {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        width: 7px;
+        height: 33px;
+        background: #e85d75;
+        border-radius: 5px;
+    }
+
+    /*
+       The correct-answer arrow.
+
+       It is hidden until Submit is clicked.
+       It is deliberately faint so the child can still
+       see their own arrow clearly.
+    */
+    .correct-arrow {
+        position: absolute;
+        top: 5px;
+        width: 45px;
+        height: 48px;
+        transform: translateX(-50%);
+        z-index: 3;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .correct-arrow.visible {
+        opacity: 0.35;
+    }
+
+    .correct-arrow .arrow-shaft {
+        background: #48a868;
+    }
+
+    .correct-arrow .arrow-head {
+        border-top-color: #48a868;
+    }
+
+    .tick {
+        position: absolute;
+        top: 45px;
+        width: 2px;
+        height: 30px;
+        background: #34495e;
+        transform: translateX(-50%);
+    }
+
+    .question.completed .arrow-shaft {
+        background: #e85d75;
+    }
+
+    .question.completed .arrow-head {
+        border-top-color: #e85d75;
+    }
+
+    .buttons {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    button {
+        border: none;
+        border-radius: 15px;
+        padding: 15px 35px;
+        font-size: 22px;
+        font-weight: bold;
+        cursor: pointer;
+        background: #4b5fc1;
+        color: white;
+        box-shadow: 0 4px 0 #35479d;
+    }
+
+    button:hover {
+        background: #596ed0;
+    }
+
+    button:active {
+        transform: translateY(3px);
+        box-shadow: 0 1px 0 #35479d;
+    }
+
+    #result {
+        display: none;
+        text-align: center;
+        background: white;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 30px auto;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    #score {
+        font-size: 70px;
+        font-weight: bold;
+        color: #4b5fc1;
+        margin: 10px;
+    }
+
+    #message {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .legend {
+        display: none;
+        text-align: center;
+        margin: 20px 0;
+        font-size: 17px;
+    }
+
+    .legend.visible {
+        display: block;
+    }
+
+    .legend-child {
+        color: #e85d75;
+        font-weight: bold;
+    }
+
+    .legend-correct {
+        color: #48a868;
+        font-weight: bold;
+        opacity: 0.8;
+    }
+
+    .small-note {
+        text-align: center;
+        font-size: 16px;
+        color: #65708a;
+        margin-top: 12px;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 32px;
+        }
+
+        .instructions {
+            font-size: 17px;
+        }
+
+        .question {
+            padding: 15px;
+        }
+
+        .number {
+            font-size: 18px;
+        }
+
+        .target {
+            font-size: 19px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="game">
+
+    <h1>🌟 Number Line Challenge 🌟</h1>
+
+    <div class="instructions">
+        Drag the pink arrow to where you think the target number belongs!
+    </div>
+
+    <div id="questions"></div>
+
+    <div class="legend" id="legend">
+        <span class="legend-child">🩷 Pink arrow</span>
+        &nbsp;&nbsp;&nbsp;
+        <span class="legend-correct">💚 Faint green arrow = correct answer</span>
+    </div>
+
+    <div class="buttons">
+        <button id="submitButton" onclick="submitAnswers()">
+            Submit ⭐
+        </button>
+    </div>
+
+    <div id="result">
+        <div>Your score is</div>
+        <div id="score">0</div>
+        <div id="message"></div>
+
+        <button onclick="newGame()">
+            Play Again 🔄
+        </button>
+    </div>
+
+    <div class="small-note">
+        Move each arrow before pressing Submit.
+    </div>
+
+</div>
+
+<script>
+
+const difficultyLevels = [
+    { minStart: 0,  maxStart: 5,  minRange: 4,  maxRange: 8  },
+    { minStart: 0,  maxStart: 5,  minRange: 7,  maxRange: 12 },
+    { minStart: 0,  maxStart: 8,  minRange: 10, maxRange: 16 },
+    { minStart: 2,  maxStart: 10, minRange: 12, maxRange: 20 },
+    { minStart: 2,  maxStart: 15, minRange: 15, maxRange: 25 },
+    { minStart: 3,  maxStart: 15, minRange: 20, maxRange: 30 },
+    { minStart: 5,  maxStart: 20, minRange: 25, maxRange: 35 },
+    { minStart: 8,  maxStart: 20, minRange: 27, maxRange: 35 }
+];
+
+let questions = [];
+
+
+/* Generate a random integer */
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+/* Create one question */
+function createQuestion(level) {
+
+    const settings = difficultyLevels[level];
+
+    const start = randomInt(
+        settings.minStart,
+        settings.maxStart
+    );
+
+    const range = randomInt(
+        settings.minRange,
+        settings.maxRange
+    );
+
+    const end = start + range;
+
+    const target = randomInt(
+        start + 1,
+        end - 1
+    );
+
+    return {
+        start: start,
+        end: end,
+        target: target,
+
+        /*
+           This is the exact position of the target,
+           expressed as a percentage of the line.
+        */
+        answerPosition:
+            (target - start) / (end - start),
+
+        userPosition: 0.5
+    };
+}
+
+
+/* Generate all 8 questions */
+function generateQuestions() {
+
+    questions = [];
+
+    for (let i = 0; i < 8; i++) {
+        questions.push(createQuestion(i));
+    }
+}
+
+
+/* Draw all questions */
+function drawQuestions() {
+
+    const container =
+        document.getElementById("questions");
+
+    container.innerHTML = "";
+
+    questions.forEach((question, index) => {
+
+        const questionDiv =
+            document.createElement("div");
+
+        questionDiv.className = "question";
+        questionDiv.id = "question-" + index;
+
+        questionDiv.innerHTML = `
+
+            <div class="question-title">
+                Question ${index + 1}
+
+                <span class="target">
+                    Target: ${question.target}
+                </span>
+            </div>
+
+            <div class="line-area"
+                 id="line-area-${index}">
+
+                <div class="number-line"></div>
+
+                <div class="tick"
+                     style="left: 0%">
+                </div>
+
+                <div class="tick"
+                     style="left: 100%">
+                </div>
+
+
+                <!--
+                    CORRECT ANSWER ARROW
+
+                    This starts hidden and becomes visible
+                    after Submit is pressed.
+                -->
+                <div class="correct-arrow"
+                     id="correct-arrow-${index}">
+
+                    <div class="arrow-shaft"></div>
+                    <div class="arrow-head"></div>
+
+                </div>
+
+
+                <!--
+                    CHILD'S ARROW
+                -->
+                <div class="arrow"
+                     id="arrow-${index}">
+
+                    <div class="arrow-shaft"></div>
+                    <div class="arrow-head"></div>
+
+                </div>
+
+
+                <div class="number start">
+                    ${question.start}
+                </div>
+
+                <div class="number end">
+                    ${question.end}
+                </div>
+
+            </div>
+        `;
+
+        container.appendChild(questionDiv);
+
+        setupDragging(index);
+    });
+
+
+    /*
+        Initially place every child's arrow
+        in the middle of its number line.
+    */
+    questions.forEach((question, index) => {
+
+        setArrowPosition(index, 0.5);
+
+        /*
+            Set the correct-answer arrow in its
+            proper position, but keep it hidden.
+        */
+        setCorrectArrowPosition(
+            index,
+            question.answerPosition
+        );
+    });
+}
+
+
+/*
+    Move the child's arrow.
+*/
+function setArrowPosition(index, position) {
+
+    position =
+        Math.max(0, Math.min(1, position));
+
+    questions[index].userPosition = position;
+
+    const arrow =
+        document.getElementById("arrow-" + index);
+
+    arrow.style.left =
+        (position * 100) + "%";
+}
+
+
+/*
+    Move the faint correct-answer arrow.
+*/
+function setCorrectArrowPosition(index, position) {
+
+    const arrow =
+        document.getElementById(
+            "correct-arrow-" + index
+        );
+
+    arrow.style.left =
+        (position * 100) + "%";
+}
+
+
+/*
+    Make an arrow draggable.
+*/
+function setupDragging(index) {
+
+    const arrow =
+        document.getElementById("arrow-" + index);
+
+    const lineArea =
+        document.getElementById(
+            "line-area-" + index
+        );
+
+    let dragging = false;
+
+
+    arrow.addEventListener(
+        "pointerdown",
+        function(event) {
+
+            /*
+                Don't allow the child to move arrows
+                after Submit has been pressed.
+            */
+            if (gameSubmitted) return;
+
+            dragging = true;
+
+            arrow.setPointerCapture(
+                event.pointerId
+            );
+
+            event.preventDefault();
+        }
+    );
+
+
+    arrow.addEventListener(
+        "pointermove",
+        function(event) {
+
+            if (!dragging || gameSubmitted) return;
+
+            const rect =
+                lineArea.getBoundingClientRect();
+
+            let position =
+                (event.clientX - rect.left)
+                / rect.width;
+
+            setArrowPosition(
+                index,
+                position
+            );
+        }
+    );
+
+
+    arrow.addEventListener(
+        "pointerup",
+        function() {
+
+            dragging = false;
+
+            document
+                .getElementById(
+                    "question-" + index
+                )
+                .classList.add("completed");
+        }
+    );
+
+
+    arrow.addEventListener(
+        "pointercancel",
+        function() {
+
+            dragging = false;
+        }
+    );
+}
+
+
+/*
+    Keep track of whether Submit has been pressed.
+*/
+let gameSubmitted = false;
+
+
+/*
+    Submit the answers and calculate the score.
+*/
+function submitAnswers() {
+
+    if (gameSubmitted) return;
+
+    gameSubmitted = true;
+
+    let totalAccuracy = 0;
+
+
+    questions.forEach((question, index) => {
+
+        const difference =
+            Math.abs(
+                question.userPosition -
+                question.answerPosition
+            );
+
+
+        /*
+            Difference of 0 = perfect.
+
+            A difference of 0.5 means the arrow
+            is half the length of the number line
+            away from the correct answer.
+        */
+        let accuracy =
+            1 - (difference * 2);
+
+        accuracy =
+            Math.max(0, accuracy);
+
+        totalAccuracy += accuracy;
+
+
+        /*
+            Show the faint green correct-answer arrow.
+        */
+        const correctArrow =
+            document.getElementById(
+                "correct-arrow-" + index
+            );
+
+        correctArrow.classList.add("visible");
+    });
+
+
+    /*
+        Calculate average accuracy.
+    */
+    let score =
+        Math.round(
+            (totalAccuracy / questions.length) * 100
+        );
+
+
+    score =
+        Math.max(
+            1,
+            Math.min(100, score)
+        );
+
+
+    document.getElementById("score")
+        .textContent = score;
+
+
+    let message;
+
+
+    if (score >= 90) {
+
+        message =
+            "🏆 Amazing! You're a number-line superstar!";
+
+    } else if (score >= 75) {
+
+        message =
+            "🌟 Brilliant work!";
+
+    } else if (score >= 60) {
+
+        message =
+            "😊 Great job! Keep practising!";
+
+    } else if (score >= 40) {
+
+        message =
+            "👍 Good try! Have another go!";
+
+    } else {
+
+        message =
+            "💪 Keep practising — you'll get it!";
+    }
+
+
+    document.getElementById("message")
+        .textContent = message;
+
+
+    /*
+        Show the explanation/legend.
+    */
+    document.getElementById("legend")
+        .classList.add("visible");
+
+
+    /*
+        Change Submit button.
+    */
+    document.getElementById("submitButton")
+        .textContent = "Answers shown ✓";
+
+
+    document.getElementById("result")
+        .style.display = "block";
+
+
+    /*
+        Scroll down to the result.
+    */
+    document.getElementById("result")
+        .scrollIntoView({
+            behavior: "smooth"
+        });
+}
+
+
+/*
+    Start a completely new game.
+*/
+function newGame() {
+
+    gameSubmitted = false;
+
+    document.getElementById("result")
+        .style.display = "none";
+
+    document.getElementById("legend")
+        .classList.remove("visible");
+
+    document.getElementById("submitButton")
+        .textContent = "Submit ⭐";
+
+    generateQuestions();
+
+    drawQuestions();
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+
+/*
+    Start the first game.
+*/
+newGame();
+
+</script>
+
+</body>
+</html>
+```
